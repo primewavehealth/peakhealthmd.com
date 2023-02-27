@@ -16,33 +16,33 @@ function Header() {
       <nav aria-label="Site Nav">
        <ul className="flex items-center gap-6 text-sm">
         <Link
-         className="text-xl font-medium text-gray-900 transition hover:text-gray-500/75"
+         className="font-medium text-gray-900 transition text-large hover:text-gray-500/75"
          href="/"
         >
          Home
         </Link>
         <Link
-         className="text-xl font-medium text-gray-900 transition hover:text-gray-500/75"
+         className="font-medium text-gray-900 transition text-large hover:text-gray-500/75"
          href="/"
         >
          About
         </Link>
 
         <Link
-         className="text-xl font-medium text-gray-800 transition hover:text-gray-500/75"
+         className="font-medium text-gray-800 transition text-large hover:text-gray-500/75"
          href="/"
         >
          Team
         </Link>
 
         <Link
-         className="text-xl font-medium text-gray-900 transition hover:text-gray-500/75"
+         className="font-medium text-gray-900 transition text-large hover:text-gray-500/75"
          href="/"
         >
          Services
         </Link>
         <Link
-         className="text-xl font-medium text-gray-900 transition hover:text-gray-500/75"
+         className="font-medium text-gray-900 transition text-large hover:text-gray-500/75"
          href="/"
         >
          Blog
@@ -54,7 +54,7 @@ function Header() {
      <div className="flex items-center gap-4">
       <div className="sm:flex sm:gap-4">
        <Link
-        className=" text-xl font-medium rounded-md bg-blue-600 px-5 py-2.5  text-white shadow"
+        className=" text-large font-medium rounded-md bg-blue-600 px-5 py-2.5  text-white shadow"
         href="/"
        >
         (702)-625-4334
@@ -62,10 +62,10 @@ function Header() {
 
        <div className="hidden sm:flex">
         <Link
-         className="rounded-md bg-gray-100 px-5 py-2.5 text-xl font-medium text-blue-600"
+         className="rounded-md bg-gray-100 px-5 py-2.5 text-large font-medium text-blue-600"
          href="/"
         >
-         Register
+         Contact
         </Link>
        </div>
       </div>
