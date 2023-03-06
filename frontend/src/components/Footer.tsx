@@ -3,25 +3,8 @@ import Link from "next/link";
 function Footer() {
  return (
   <footer aria-label="Site Footer" className="bg-white">
-   <div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
-    <div className="text-center">
-     <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl">
-      Get in Touch
-     </h2>
-
-     <p className="max-w-sm mx-auto mt-4 text-gray-500">
-      We offer quality mens health care services primed to restore your vitality
-     </p>
-
-     <a
-      href="#"
-      className="inline-block px-12 py-3 mt-8 text-sm font-medium text-indigo-600 border border-indigo-600 rounded-full hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
-     >
-      Get Started
-     </a>
-    </div>
-
-    <div className="pt-8 mt-16 border-t border-gray-100 sm:flex sm:items-center sm:justify-between lg:mt-24">
+   <div className="max-w-screen-xl px-4 pb-8 mx-auto sm:px-6 lg:px-8">
+    <div className="pt-2 mt-2 border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
      <nav aria-label="Footer Navigation - Support">
       <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
        <Link href="#" className="text-gray-500 transition hover:opacity-75">

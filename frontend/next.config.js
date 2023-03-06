@@ -9,7 +9,7 @@ const nextConfig = {
  reactStrictMode: true,
  images: {
   loader: "default",
-  domains: ["localhost"],
+  domains: ["images.unsplash.com", "img.freepik.com"],
  },
 };
 

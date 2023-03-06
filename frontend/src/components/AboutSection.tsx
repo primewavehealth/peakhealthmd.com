@@ -11,8 +11,7 @@ function AboutSection() {
 
        <p className="hidden text-white/90 sm:mt-4 sm:block">
         PeakHealth is health care company dedicated to creating world class
-        medical care for men. Our goal is to help regain their health, their
-        vitality and boost their confidence.
+        medical care. Our goal is to help people access quality health care.
        </p>
 
        <div className="mt-4 md:mt-8">
@@ -29,14 +28,14 @@ function AboutSection() {
      <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
       <img
        alt="Student"
-       src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-       className="object-cover w-full h-40 sm:h-56 md:h-full"
+       src="https://img.freepik.com/free-photo/young-man-hiking-outdoors-giving-five-his-wife_651396-3489.jpg?w=826&t=st=1677620662~exp=1677621262~hmac=e9417c1bef8600c6092d8fdebfe882625066189bde512544e5b02cd2b6474064"
+       className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
       />
 
       <img
        alt="Student"
-       src="https://images.unsplash.com/photo-1534614971-6be99a7a3ffd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-       className="object-cover w-full h-40 sm:h-56 md:h-full"
+       src="https://img.freepik.com/free-photo/sport-oudoor_144627-44629.jpg?w=996&t=st=1678127041~exp=1678127641~hmac=39e2fea17b7e4d32058e671148a43b0c57198758ec92d2e25426265e176e01ee"
+       className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
       />
      </div>
     </div>
