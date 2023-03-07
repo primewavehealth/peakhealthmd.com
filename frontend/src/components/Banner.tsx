@@ -1,6 +1,6 @@
 function Banner() {
  return (
-  <section className="relative bg-[url(https://img.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg?w=996&t=st=1677702113~exp=1677702713~hmac=e75f5cbb6db88b0e3599d698bf05ccda9a841c8a93fc55a92ccfc7db9e6af0c9)] bg-contain bg-center bg-no-repeat h-[420px] lg:h-[600px]">
+  <section className="relative bg-[url(https://img.freepik.com/free-photo/asian-young-main-group-hospital-professional_1291-37.jpg?w=996&t=st=1677702113~exp=1677702713~hmac=e75f5cbb6db88b0e3599d698bf05ccda9a841c8a93fc55a92ccfc7db9e6af0c9)] bg-contain bg-center bg-no-repeat h-[420px] w-full lg:h-[600px]">
    <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
 
    <div className="relative max-w-screen-xl px-4 py-32 mx-auto sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">

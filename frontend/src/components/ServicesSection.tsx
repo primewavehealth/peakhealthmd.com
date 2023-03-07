@@ -136,7 +136,10 @@ function ServicesSection() {
     <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-5xl">
      <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
       {features.map((feature) => (
-       <div key={feature.name} className="relative pl-16">
+       <div
+        key={feature.name}
+        className="relative p-5 pl-16 hover:bg-gray-100 hover:scale-110"
+       >
         <dt className="text-base font-semibold leading-7 text-gray-900">
          <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
           <feature.icon className="w-6 h-6 text-white" aria-hidden="true" />
