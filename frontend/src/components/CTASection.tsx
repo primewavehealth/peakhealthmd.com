@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function CTASection() {
  return (
   <section className="py-5 lg:py-[50px] bg-blue-600">
@@ -15,18 +17,18 @@ function CTASection() {
       </div>
       <div className="w-full px-4 lg:w-1/2">
        <div className="flex flex-wrap lg:justify-end">
-        <a
-         href="javascript:void(0)"
+        <Link
+         href="#"
          className="hover:text-primary my-1 mr-4 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
         >
          FInd A Specialist
-        </a>
-        <a
-         href="javascript:void(0)"
+        </Link>
+        <Link
+         href="/contact"
          className="my-1 inline-block rounded bg-[#13C296] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
         >
          Contact Us
-        </a>
+        </Link>
        </div>
       </div>
      </div>

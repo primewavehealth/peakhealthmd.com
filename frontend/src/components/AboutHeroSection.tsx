@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function AboutHeroSection() {
  return (
@@ -9,18 +10,25 @@ function AboutHeroSection() {
       Our Story
      </h1>
      <p className="py-8 mt-6 text-2xl text-gray-500 dark:text-gray-300">
-      Outstanding medical care from highly experienced professionals. We tackle
-      even the toughest cases and make your life better.
+      To provide quality health services and facilities for the community, to
+      promote wellness, to relieve suffering, and to restore health as swiftly,
+      safely, and humanely as it can be done, consistent with the best service
+      we can give at the highest value for all concerned.
      </p>
-     <button className="px-5 py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
-      Get In Touch
-     </button>
+     <div className="mt-4 md:mt-8">
+      <Link
+       href="#"
+       className="px-12 py-3 text-sm font-medium text-white bg-blue-600 rounded shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+      >
+       Get in Touch
+      </Link>
+     </div>
     </div>
 
     <div className="flex justify-center mt-10">
      <Image
       className="object-cover w-full h-97 rounded-xl lg:w-4/5"
-      src="https://img.freepik.com/free-photo/close-up-medical-team-ready-work_23-2149152535.jpg?w=996&t=st=1677630293~exp=1677630893~hmac=8833db50de09b0fef4b666fa1086114fba06e33c70ae66a98bd8fbebbbfea12f"
+      src="/main_banner.jpg"
       alt="About"
       width={900}
       height={500}

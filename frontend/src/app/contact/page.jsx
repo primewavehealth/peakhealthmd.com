@@ -9,11 +9,11 @@ function Contact() {
   register,
   handleSubmit,
   reset,
-  formState: { errors },
+  formState: { errors, isSubmitting },
  } = useForm();
  const onSubmit = (data) => {
   console.log(data);
-  fetch("/api/contact", {
+  fetch("/app/api/contact/", {
    method: "POST",
    headers: {
     Accept: "application/json, text/plain, */*",
@@ -247,6 +247,9 @@ function Contact() {
          className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
          {...register("phone", { required: true })}
         />
+        {errors.phone && (
+         <p className="text-sm text-red-500">{errors.phone.message}</p>
+        )}
        </div>
        <div className="mt-4">
         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
@@ -275,6 +278,8 @@ function Contact() {
 
        <button
         type="submit"
+        disabled
+        // disabled={isSubmitting}
         className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
        >
         Send message

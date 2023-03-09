@@ -22,7 +22,6 @@ export default function RootLayout({
  return (
   <html className={`${inter.variable}`} lang="en">
    <head />
-
    <body>
     <Navbar />
     {children}

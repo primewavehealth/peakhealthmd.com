@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function AboutSection() {
  return (
   <section>
@@ -6,21 +8,23 @@ function AboutSection() {
      <div className="p-8 bg-blue-600 md:p-12 lg:px-16 lg:py-24">
       <div className="max-w-xl mx-auto text-center">
        <h2 className="text-2xl font-bold text-white md:text-3xl">
-        About PeakHealth
+        PeakHealth:&nbsp;&nbsp;Our Mission
        </h2>
 
        <p className="hidden text-white/90 sm:mt-4 sm:block">
-        PeakHealth is health care company dedicated to creating world class
-        medical care. Our goal is to help people access quality health care.
+        To provide quality health services and facilities for the community, to
+        promote wellness, to relieve suffering, and to restore health as
+        swiftly, safely, and humanely as it can be done, consistent with the
+        best service we can give at the highest value for all concerned.
        </p>
 
        <div className="mt-4 md:mt-8">
-        <a
-         href="#"
+        <Link
+         href="/about"
          className="inline-block px-12 py-3 text-sm font-medium text-blue-500 transition bg-white border border-white rounded hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
         >
          Learn More
-        </a>
+        </Link>
        </div>
       </div>
      </div>

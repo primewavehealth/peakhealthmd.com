@@ -1,63 +1,96 @@
-export const links = [
+export const Integrative_Medicine = [
  {
-  name: "Integrative Medicine",
-  submenu: true,
-  sublinks: [
-   {
-    Head: "Integrative Medicine",
-    sublink: [
-     { name: "Stem Cells", link: "/" },
-     { name: "Pain Management", link: "/" },
-     { name: "Fibromyalgia", link: "/" },
-     { name: "Detox Therapy", link: "/" },
-     { name: "Immune system", link: "/" },
-     { name: "Long Haul Covid", link: "/" },
-     { name: "Fatigue", link: "/" },
-     { name: "Immigration Physical", link: "/" },
-    ],
-   },
-  ],
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Pain Management",
  },
  {
-  name: "Hormone Therapy",
-  submenu: true,
-  sublinks: [
-   {
-    Head: "Hormone Therapy",
-    sublink: [
-     { name: "Hormone Therapy for Menopause", link: "/" },
-     { name: "Low Testosterone Treatment", link: "/" },
-     { name: "Peptide Therapy", link: "/" },
-    ],
-   },
-  ],
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Fibromyalgia",
  },
  {
-  name: "Aesthetics",
-  submenu: true,
-  sublinks: [
-   {
-    Head: "Aesthetics",
-    sublink: [
-     { name: "Platelet- Rich Plasma Therapy", link: "/" },
-     { name: "MisoTherapy", link: "/" },
-     { name: "CarboxyTherapy", link: "/" },
-    ],
-   },
-  ],
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Stem Cells",
  },
  {
-  name: "Diet",
-  submenu: true,
-  sublinks: [
-   {
-    Head: "Diet",
-    sublink: [
-     { name: "Weight Loss", link: "/" },
-     { name: "Weight Gain", link: "/" },
-     { name: "Sleep Therapy", link: "/" },
-    ],
-   },
-  ],
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Detox Therapy",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Immune system",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Long Haul Covid",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Fatigue",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Immigration Physical",
+ },
+];
+
+export const Hormone_Therapy = [
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Hormone Therapy for Menopause",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Low Testosterone Treatment",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Peptide Therapy",
+ },
+];
+
+export const Aesthetics = [
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Platelet- Rich Plasma Therapy",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "MisoTherapy",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "CarboxyTherapy",
+ },
+];
+
+export const Diet = [
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Weight Loss",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Weight Gain",
+ },
+ {
+  href: "#",
+  description: "Quality Care to help you get better",
+  name: "Sleep Therapy",
  },
 ];
