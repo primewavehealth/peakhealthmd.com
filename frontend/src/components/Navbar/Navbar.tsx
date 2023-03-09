@@ -40,9 +40,6 @@ const Navbar = () => {
       <Link href="/" className="inline-block px-3 py-7">
        TeleHealth
       </Link>
-      <Link href="/" className="inline-block px-3 py-7">
-       Contact
-      </Link>
      </li>
      <NavLinks />
     </ul>
@@ -65,9 +62,6 @@ const Navbar = () => {
       </Link>
       <Link href="/" className="inline-block px-3 py-7">
        TeleHealth
-      </Link>
-      <Link href="/" className="inline-block px-3 py-7">
-       Contact
       </Link>
      </li>
      <NavLinks />

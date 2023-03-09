@@ -1,6 +1,39 @@
+"use client";
 import Link from "next/link";
+import { useForm } from "react-hook-form";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+ const {
+  register,
+  handleSubmit,
+  reset,
+  formState: { errors },
+ } = useForm();
+ const onSubmit = (data) => {
+  console.log(data);
+  fetch("/api/contact", {
+   method: "POST",
+   headers: {
+    Accept: "application/json, text/plain, */*",
+    "Content-Type": "application/json",
+   },
+   body: JSON.stringify(data),
+  })
+   .then((res) => {
+    // console.log("Response received", res);
+    if (res.status === 200) {
+     // console.log("Response succeeded!");
+     toast("Thank you for contacting us!");
+    } else {
+     toast("Failed.");
+    }
+   })
+   .catch((e) => console.log(e));
+  reset();
+ };
+
  return (
   <section className="px-4 bg-white lg:px-8 dark:bg-gray-900">
    <div className="container px-6 py-12 mx-auto">
@@ -42,9 +75,9 @@ function Contact() {
        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
         Our friendly team is here to help.
        </p>
-       <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+       {/* <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
         info@peakhealthmd.com
-       </p>
+       </p> */}
       </div>
 
       <div>
@@ -143,12 +176,9 @@ function Contact() {
        </p>
        <a
         href="tel:7024928000"
-        onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+        onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
        >
-        <p
-         class="mt-2 text-sm text-blue-500 dark:text-blue-400
-"
-        >
+        <p className="mt-2 text-sm text-blue-500 dark:text-blue-400 ">
          click to Call (702)492-8000
         </p>
        </a>
@@ -156,7 +186,7 @@ function Contact() {
      </div>
 
      <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
-      <form>
+      <form onSubmit={handleSubmit(onSubmit)} method="POST">
        <div className="-mx-2 md:items-center md:flex">
         <div className="flex-1 px-2">
          <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
@@ -164,8 +194,10 @@ function Contact() {
          </label>
          <input
           type="text"
+          name="FirstName"
           placeholder="John "
           className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          {...register("FirstName", { required: true })}
          />
         </div>
 
@@ -175,8 +207,10 @@ function Contact() {
          </label>
          <input
           type="text"
+          name="lastName"
           placeholder="Doe"
           className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          {...register("lastName", { required: true })}
          />
         </div>
        </div>
@@ -187,9 +221,20 @@ function Contact() {
         </label>
         <input
          type="email"
+         name="email"
          placeholder="johndoe@example.com"
          className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+         {...register("email", {
+          required: "Email is required.",
+          pattern: {
+           value: /^[^@ ]+@[^@ ]+\.[^@ .]{2,}$/,
+           message: "Email is not not right.",
+          },
+         })}
         />
+        {errors.email && (
+         <p className="text-sm text-red-500">{errors.email.message}</p>
+        )}
        </div>
        <div className="mt-4">
         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
@@ -197,8 +242,22 @@ function Contact() {
         </label>
         <input
          type="phone"
+         name="phone"
          placeholder="+123456789"
          className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+         {...register("phone", { required: true })}
+        />
+       </div>
+       <div className="mt-4">
+        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+         Subject
+        </label>
+        <input
+         type="text"
+         name="subject"
+         placeholder="My Enquiry..."
+         className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+         {...register("subject", { required: true })}
         />
        </div>
 
@@ -209,16 +268,22 @@ function Contact() {
         <textarea
          className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
          placeholder="Message"
+         defaultValue={""}
+         {...register("message", { required: true })}
         ></textarea>
        </div>
 
-       <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+       <button
+        type="submit"
+        className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+       >
         Send message
        </button>
       </form>
      </div>
     </div>
    </div>
+   <ToastContainer />
   </section>
  );
 }

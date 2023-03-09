@@ -10,7 +10,7 @@ const NavLinks = () => {
  return (
   <>
    {links.map((link) => (
-    <div>
+    <div key={link.name}>
      <div className="px-3 text-left md:cursor-pointer group">
       <h1
        className="flex items-center justify-between pr-5 py-7 md:pr-0 group"
@@ -39,11 +39,11 @@ const NavLinks = () => {
          </div>
          <div className="grid grid-cols-1 gap-10 p-5 bg-white">
           {link.sublinks.map((mysublinks) => (
-           <div>
+           <div key={mysublinks.Head}>
             <h1 className="text-lg font-semibold">{mysublinks.Head}</h1>
             {mysublinks.sublink.map((slink) => (
-             <li className="text-sm text-gray-600 my-2.5">
-              <Link href={slink.link} className="hover:text-primary">
+             <li key={slink.link} className="my-4 text-lg text-gray-600">
+              <Link href={slink.link} className="">
                {slink.name}
               </Link>
              </li>
@@ -63,7 +63,7 @@ const NavLinks = () => {
      >
       {/* sublinks */}
       {link.sublinks.map((slinks) => (
-       <div>
+       <div key={slinks.Head}>
         <div>
          <h1
           onClick={() =>
@@ -87,7 +87,7 @@ const NavLinks = () => {
           className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"}`}
          >
           {slinks.sublink.map((slink) => (
-           <li className="py-3 pl-14">
+           <li key={slink.name} className="py-3 pl-14">
             <Link href={slink.link}>{slink.name}</Link>
            </li>
           ))}
