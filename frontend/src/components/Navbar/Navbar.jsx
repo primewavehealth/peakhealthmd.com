@@ -31,9 +31,9 @@ export default function Example() {
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
  return (
-  <header className="bg-white font-[poppins] text-xl">
+  <header className="bg-white font-[open_Sans]">
    <nav
-    className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-4"
+    className="flex items-center justify-between p-4 mx-auto max-w-8xl lg:px-4"
     aria-label="Global"
    >
     <div className="flex lg:flex-1">

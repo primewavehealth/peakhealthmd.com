@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Banner() {
  return (
-  <main className="bg-gradient-to-r from-sky-400 to-cyan-300 isolate">
+  <main className="bg-zinc-100 isolate">
    <div className="relative px-6 lg:px-8">
     {/* <Image
      className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain"

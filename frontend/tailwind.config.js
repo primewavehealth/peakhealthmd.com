@@ -16,7 +16,7 @@ module.exports = {
    },
    fontFamily: {
     sans: ["var(--font-inter)"],
-    serif: ["var(--font-poppins)"],
+    serif: ["var(--font-open_Sans)"],
    },
   },
  },
