@@ -6,8 +6,10 @@ import Navbar from "@/components/Navbar/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "PeakHealth",
- description: "Mens Health Specialists in Las Vegas, Nevada",
+ title: {
+  default: "PeakHealth",
+  template: "%s | PeakHealth",
+ },
 };
 
 const inter = Inter({
