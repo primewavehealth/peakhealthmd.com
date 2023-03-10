@@ -300,10 +300,13 @@ export default function Example() {
      <div className="flex items-center justify-between">
       <a href="#" className="-m-1.5 p-1.5">
        <span className="sr-only"></span>
-       <img
+       <Image
         className="w-auto h-8"
-        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-        alt=""
+        src="/logo-png.png"
+        alt="logo"
+        width="150"
+        height="100"
+        quality={100}
        />
       </a>
       <button
