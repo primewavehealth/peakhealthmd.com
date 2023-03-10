@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 
 import Footer from "@/components/Footer";
@@ -13,7 +13,14 @@ export const metadata: Metadata = {
 };
 
 const inter = Inter({
- variable: "--inter-font",
+ variable: "--font-inter",
+ display: "swap",
+ weight: ["400", "700"],
+});
+const poppins = Poppins({
+ variable: "--font-poppins",
+ display: "swap",
+ weight: ["400", "700"],
 });
 
 export default function RootLayout({
@@ -22,7 +29,7 @@ export default function RootLayout({
  children: React.ReactNode;
 }) {
  return (
-  <html className={`${inter.variable}`} lang="en">
+  <html className={`${inter.variable} ${poppins.variable}`} lang="en">
    <head />
    <body>
     <Navbar />

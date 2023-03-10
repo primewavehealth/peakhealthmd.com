@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Banner() {
  return (
-  <main className="bg-white isolate">
+  <main className="bg-gradient-to-r from-sky-400 to-cyan-300 isolate">
    <div className="relative px-6 lg:px-8">
     {/* <Image
      className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain"
@@ -12,9 +12,9 @@ function Banner() {
      fill
      quality={100}
     /> */}
-    <div className="max-w-2xl py-32 mx-auto sm:py-48 lg:py-56">
+    <div className="max-w-4xl py-32 mx-auto sm:py-48 lg:py-56">
      <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-      <div className="relative px-3 py-1 text-sm leading-6 text-gray-800 rounded-full ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+      <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
        Get 15% for All Hormone Therapies. Hurry, Offer lasts tills 3/30.{" "}
        <Link href="#" className="font-semibold text-indigo-600">
         <span className="absolute inset-0" aria-hidden="true" />
@@ -23,10 +23,10 @@ function Banner() {
       </div>
      </div>
      <div className="text-center">
-      <h1 className="text-4xl font-bold tracking-tight text-blue-700 sm:text-6xl">
-       Welcome to Peak Health
+      <h1 className="text-2xl font-bold tracking-tight text-blue-600 sm:text-6xl">
+       <span className="text-black">Welcome to</span> Peak Health
       </h1>
-      <p className="mt-6 text-lg leading-8 text-gray-600">
+      <p className="mt-6 text-sm leading-8 lg:text-xl text-neutral-800">
        Patient-centered healthcare with excellence in quality
       </p>
       <div className="flex items-center justify-center mt-10 gap-x-6">
@@ -43,6 +43,13 @@ function Banner() {
         Get in Touch <span aria-hidden="true">→</span>
        </Link>
       </div>
+      {/* <div className="relative px-3 py-1 text-sm leading-8 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+       Get 15% for All Hormone Therapies. Hurry, Offer lasts tills 3/30.{" "}
+       <Link href="#" className="font-semibold text-indigo-600">
+        <span className="absolute inset-0" aria-hidden="true" />
+        Learn More <span aria-hidden="true">&rarr;</span>
+       </Link>
+      </div> */}
      </div>
     </div>
     <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
@@ -55,7 +62,7 @@ function Banner() {
        fillOpacity=".3"
        d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
       />
-      <defs>
+      {/* <defs>
        <linearGradient
         id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc"
         x1="1155.49"
@@ -67,7 +74,7 @@ function Banner() {
         <stop stopColor="#9089FC" />
         <stop offset={1} stopColor="#FF80B5" />
        </linearGradient>
-      </defs>
+      </defs> */}
      </svg>
     </div>
    </div>

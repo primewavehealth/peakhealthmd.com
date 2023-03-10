@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
  content: [
   "./app/**/*.{js,ts,jsx,tsx}",
@@ -12,6 +13,10 @@ module.exports = {
   extend: {
    animation: {
     "spin-slow": "spin 5s linear infinite",
+   },
+   fontFamily: {
+    sans: ["var(--font-inter)"],
+    serif: ["var(--font-poppins)"],
    },
   },
  },

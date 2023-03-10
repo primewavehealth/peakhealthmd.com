@@ -138,7 +138,7 @@ function ServicesSection() {
       {features.map((feature) => (
        <div
         key={feature.name}
-        className="relative p-5 pl-16 hover:bg-gray-100 hover:scale-110"
+        className="relative p-5 pl-16 hover:bg-gray-100 lg:hover:scale-110"
        >
         <dt className="text-base font-semibold leading-7 text-gray-900">
          <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
