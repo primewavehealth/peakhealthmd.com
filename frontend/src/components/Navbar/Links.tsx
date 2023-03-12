@@ -1,42 +1,42 @@
 export const Integrative_Medicine = [
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Pain Management",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Fibromyalgia",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Stem Cells",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Detox Therapy",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Immune system",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Long Haul Covid",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Fatigue",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Immigration Physical",
  },
 ];
@@ -44,17 +44,17 @@ export const Integrative_Medicine = [
 export const Hormone_Therapy = [
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Hormone Therapy for Menopause",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Low Testosterone Treatment",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Peptide Therapy",
  },
 ];
@@ -62,17 +62,17 @@ export const Hormone_Therapy = [
 export const Aesthetics = [
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Platelet- Rich Plasma Therapy",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "MisoTherapy",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "CarboxyTherapy",
  },
 ];
@@ -80,17 +80,17 @@ export const Aesthetics = [
 export const Diet = [
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Weight Loss",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Weight Gain",
  },
  {
   href: "#",
-  description: "Quality Care to help you get better",
+  description: "",
   name: "Sleep Therapy",
  },
 ];

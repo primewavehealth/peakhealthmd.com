@@ -18,6 +18,7 @@ module.exports = {
     sans: ["var(--font-inter)"],
     serif: ["var(--font-open_Sans)"],
    },
+   visibility: ["group-hover"],
   },
  },
  plugins: [require("@tailwindcss/forms")],

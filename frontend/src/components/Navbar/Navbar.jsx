@@ -61,7 +61,7 @@ export default function Example() {
     </div>
     <Popover.Group className="hidden lg:flex lg:gap-x-12">
      <Popover className="relative">
-      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1">
+      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Integrative Medicine
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
@@ -115,7 +115,7 @@ export default function Example() {
      </Popover>
 
      <Popover className="relative">
-      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1">
+      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Hormone Therapy
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
@@ -169,7 +169,7 @@ export default function Example() {
      </Popover>
 
      <Popover className="relative">
-      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1">
+      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Aesthetics
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
@@ -222,7 +222,7 @@ export default function Example() {
       </Transition>
      </Popover>
      <Popover className="relative">
-      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 gap-x-1">
+      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Diet
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
@@ -324,7 +324,7 @@ export default function Example() {
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
-           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
+           <Disclosure.Button className=" outline-none flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
             Integrative Medicine
             <ChevronDownIcon
              className={classNames(
