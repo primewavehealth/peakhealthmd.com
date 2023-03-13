@@ -39,6 +39,21 @@ export const Integrative_Medicine = [
   description: "",
   name: "Immigration Physical",
  },
+ {
+  href: "#",
+  description: "",
+  name: "Red Blue Amber Light Treatment",
+ },
+ {
+  href: "#",
+  description: "",
+  name: "Acoustic Wave Therapy",
+ },
+ {
+  href: "#",
+  description: "",
+  name: "Laser Therapy",
+ },
 ];
 
 export const Hormone_Therapy = [
