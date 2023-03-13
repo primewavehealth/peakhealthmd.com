@@ -4,10 +4,6 @@ import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export const metadata = {
- title: "About",
-};
-
 function Contact() {
  const {
   register,
