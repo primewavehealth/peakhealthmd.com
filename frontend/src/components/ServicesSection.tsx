@@ -4,6 +4,7 @@ import {
  FingerPrintIcon,
  LockClosedIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const features = [
  {
@@ -13,9 +14,9 @@ const features = [
   icon: CloudArrowUpIcon,
  },
  {
-  name: "Immune Sytem",
+  name: "Immune System",
   description:
-   "strengthen your immune system. Whether you’re looking to boost your immunity and stay ahead of seasonal illnesses or you’re recovering from an injury, immune support boosting treatment may be a great option.",
+   "Strengthen your immune system. Whether you’re looking to boost your immunity and stay ahead of seasonal illnesses or you’re recovering from an injury, immune support boosting treatment may be a great option.",
   icon: LockClosedIcon,
  },
  {
@@ -51,7 +52,7 @@ const features = [
  {
   name: "Stem Cells Therapy",
   description:
-   "we offer advanced treatments like stem cell therapy to improve your quality of life and help you feel better sooner. From chronic pain to sports injuries and arthritis, you’d be surprised at the impressive and effective results of stem cell therapy.",
+   "We offer advanced treatments like stem cell therapy to improve your quality of life and help you feel better sooner. From chronic pain to sports injuries and arthritis, you’d be surprised at the impressive and effective results of stem cell therapy.",
   icon: LockClosedIcon,
  },
  {
@@ -119,7 +120,7 @@ const features = [
 function ServicesSection() {
  return (
   <div className="py-24 bg-white sm:py-32">
-   <div className="px-6 mx-auto max-w-8xl lg:px-4">
+   <div className="w-full px-6 mx-auto lg:px-4">
     <div className="max-w-2xl mx-auto lg:text-center">
      <h2 className="text-base font-semibold leading-7 text-indigo-600">
       Our Specialties
@@ -129,26 +130,39 @@ function ServicesSection() {
      </p>
      <p className="mt-6 text-lg leading-8 text-gray-600">
       From simple concerns to complex issues, our team of highly experienced
-      health professionals, are ready to attend to you. we will listen to you,
-      and avail you the best care to help you get better.
+      health professionals, are ready to attend to you. We offer a range of
+      therapies and treatments to keep you at full capacity so that you’re ready
+      to face the world.
      </p>
     </div>
-    <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-5xl">
-     <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+    <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-7xl">
+     <dl className="flex flex-wrap justify-evenly">
       {features.map((feature) => (
-       <div
-        key={feature.name}
-        className="relative p-5 pl-16 hover:bg-gray-100 lg:hover:scale-110"
-       >
-        <dt className="text-base font-semibold leading-7 text-gray-900">
-         <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 bg-indigo-600 rounded-lg">
-          <feature.icon className="w-6 h-6 text-white" aria-hidden="true" />
-         </div>
-         {feature.name}
-        </dt>
-        <dd className="mt-2 text-base leading-7 text-gray-600">
-         {feature.description}
-        </dd>
+       <div key={feature.name} className="relative mb-6 group w-96">
+        <Image
+         className="object-cover w-full"
+         src="/smiling-hiker.jpg"
+         alt="services"
+         width={450}
+         height={500}
+         quality={100}
+        />
+        <div className="absolute px-4 py-2 bg-gray-800 bottom-10 left-5 right-5 opacity-70">
+         <h3 className="text-xl font-bold text-center text-white">
+          {feature.name}
+         </h3>
+        </div>
+        <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-0 p-4 duration-500 bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100">
+         <p className="p-3 overflow-hidden text-sm text-justify text-white">
+          {feature.description}
+         </p>
+         <a
+          className="px-8 py-3 mt-5 duration-300 rounded-full bg-amber-400 hover:bg-amber-600"
+          href="#"
+         >
+          Learn More
+         </a>
+        </div>
        </div>
       ))}
      </dl>

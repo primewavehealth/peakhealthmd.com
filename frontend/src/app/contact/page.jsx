@@ -197,7 +197,11 @@ function Contact() {
           name="FirstName"
           placeholder="John "
           className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-          {...register("FirstName", { required: true })}
+          {...register("FirstName", {
+           required: true,
+           minLength: 1,
+           maxLength: 20,
+          })}
          />
         </div>
 
@@ -210,7 +214,11 @@ function Contact() {
           name="lastName"
           placeholder="Doe"
           className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-          {...register("lastName", { required: true })}
+          {...register("lastName", {
+           required: true,
+           minLength: 1,
+           maxLength: 20,
+          })}
          />
         </div>
        </div>
@@ -245,7 +253,11 @@ function Contact() {
          name="phone"
          placeholder="+123456789"
          className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-         {...register("phone", { required: true })}
+         {...register("phone", {
+          required: true,
+          minLength: 9,
+          maxLength: 12,
+         })}
         />
         {errors.phone && (
          <p className="text-sm text-red-500">{errors.phone.message}</p>
@@ -260,7 +272,11 @@ function Contact() {
          name="subject"
          placeholder="My Enquiry..."
          className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-         {...register("subject", { required: true })}
+         {...register("subject", {
+          required: true,
+          minLength: 1,
+          maxLength: 20,
+         })}
         />
        </div>
 
@@ -272,7 +288,11 @@ function Contact() {
          className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
          placeholder="Message"
          defaultValue={""}
-         {...register("message", { required: true })}
+         {...register("message", {
+          required: true,
+          minLength: 1,
+          maxLength: 500,
+         })}
         ></textarea>
        </div>
 
