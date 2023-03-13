@@ -33,7 +33,7 @@ export default function Example() {
  return (
   <header className="bg-white font-[open_Sans]">
    <nav
-    className="flex items-center p-4 mx-auto justify-evenly max-w-8xl lg:px-4"
+    className="flex items-center justify-between p-4 mx-auto max-w-8xl lg:px-4"
     aria-label="Global"
    >
     <div className="flex lg:flex-1">
