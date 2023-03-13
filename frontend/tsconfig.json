@@ -32,7 +32,8 @@
   "src/app/contact/page.jsx",
   "src/components/Team.tsx",
   "src/components/Team.tsx",
-  "src/components/Team.tsx"
+  "src/components/Team.tsx",
+  "src/components/ScrollToTop.jsx"
  ],
  "exclude": ["node_modules"]
 }
