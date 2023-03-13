@@ -43,13 +43,6 @@ function Banner() {
         Get in Touch <span aria-hidden="true">→</span>
        </Link>
       </div>
-      {/* <div className="relative px-3 py-1 text-sm leading-8 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-       Get 15% for All Hormone Therapies. Hurry, Offer lasts tills 3/30.{" "}
-       <Link href="#" className="font-semibold text-indigo-600">
-        <span className="absolute inset-0" aria-hidden="true" />
-        Learn More <span aria-hidden="true">&rarr;</span>
-       </Link>
-      </div> */}
      </div>
     </div>
     <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
