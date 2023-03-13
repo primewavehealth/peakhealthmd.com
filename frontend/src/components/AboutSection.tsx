@@ -3,9 +3,9 @@ import Link from "next/link";
 function AboutSection() {
  return (
   <section>
-   <div className="px-4 py-8 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+   <div className="px-4 py-8 mx-auto max-w-screen-2xl sm:px-6 lg:px-8 bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-     <div className="p-8 bg-blue-600 md:p-12 lg:px-16 lg:py-24">
+     <div className="p-8 md:p-12 lg:px-16 lg:py-24">
       <div className="max-w-xl mx-auto text-center">
        <h2 className="text-2xl font-bold text-white md:text-3xl">
         PeakHealth:&nbsp;&nbsp;Our Mission

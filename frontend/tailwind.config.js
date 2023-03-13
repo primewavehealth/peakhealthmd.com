@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
  content: [
   "./app/**/*.{js,ts,jsx,tsx}",
@@ -13,6 +14,11 @@ module.exports = {
    animation: {
     "spin-slow": "spin 5s linear infinite",
    },
+   fontFamily: {
+    sans: ["var(--font-inter)"],
+    serif: ["var(--font-open_Sans)"],
+   },
+   visibility: ["group-hover"],
   },
  },
  plugins: [require("@tailwindcss/forms")],

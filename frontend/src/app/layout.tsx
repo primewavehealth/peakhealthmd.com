@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Open_Sans } from "next/font/google";
 import "./globals.css";
 
 import Footer from "@/components/Footer";
@@ -6,12 +6,21 @@ import Navbar from "@/components/Navbar/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "PeakHealth",
- description: "Mens Health Specialists in Las Vegas, Nevada",
+ title: {
+  default: "PeakHealth",
+  template: "%s | PeakHealth",
+ },
 };
 
 const inter = Inter({
- variable: "--inter-font",
+ variable: "--font-inter",
+ display: "swap",
+ weight: ["400", "700"],
+});
+const open_Sans = Open_Sans({
+ variable: "--font-open_Sans",
+ display: "swap",
+ weight: ["400", "600", "500", "700"],
 });
 
 export default function RootLayout({
@@ -20,7 +29,7 @@ export default function RootLayout({
  children: React.ReactNode;
 }) {
  return (
-  <html className={`${inter.variable}`} lang="en">
+  <html className={`${inter.variable} ${open_Sans.variable}`} lang="en">
    <head />
    <body>
     <Navbar />

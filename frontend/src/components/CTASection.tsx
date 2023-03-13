@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function CTASection() {
  return (
-  <section className="py-5 lg:py-[50px] bg-blue-600">
+  <section className="py-5 lg:py-[50px] bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
    <div className="container mx-auto">
     <div className="bg-primary relative z-10 overflow-hidden rounded py-6 px-8 md:p-[70px]">
      <div className="flex flex-wrap items-center -mx-4">
@@ -58,8 +58,8 @@ function CTASection() {
           y2="-106.425"
           gradientUnits="userSpaceOnUse"
          >
-          <stop stop-color="white" stop-opacity="0.07" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" stopOpacity="0.07" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
          </linearGradient>
         </defs>
        </svg>
@@ -88,8 +88,8 @@ function CTASection() {
           y2="88.5747"
           gradientUnits="userSpaceOnUse"
          >
-          <stop stop-color="white" stop-opacity="0.07" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" stopOpacity="0.07" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
          </linearGradient>
         </defs>
        </svg>

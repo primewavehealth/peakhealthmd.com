@@ -4,6 +4,10 @@ import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+export const metadata = {
+ title: "About",
+};
+
 function Contact() {
  const {
   register,
@@ -13,7 +17,7 @@ function Contact() {
  } = useForm();
  const onSubmit = (data) => {
   console.log(data);
-  fetch("/app/api/contact/", {
+  fetch("/contact/", {
    method: "POST",
    headers: {
     Accept: "application/json, text/plain, */*",
@@ -278,8 +282,8 @@ function Contact() {
 
        <button
         type="submit"
-        disabled
-        // disabled={isSubmitting}
+        // disabled
+        disabled={isSubmitting}
         className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
        >
         Send message
