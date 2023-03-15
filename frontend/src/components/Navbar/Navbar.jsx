@@ -19,7 +19,7 @@ import {
 } from "./Links";
 
 const callsToAction = [
- { name: "Find A Specialist", href: "#", icon: PlayCircleIcon },
+ { name: "Find A Specialist", href: "/telehealth", icon: PlayCircleIcon },
  { name: "Contact Us", href: "/contact", icon: PhoneIcon },
 ];
 
@@ -31,7 +31,7 @@ export default function Example() {
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
  return (
-  <header className="bg-white font-[open_Sans]">
+  <header className="bg-blue-50 font-[open_Sans]">
    <nav
     className="flex items-center justify-between p-4 mx-auto max-w-8xl lg:px-4"
     aria-label="Global"
@@ -275,15 +275,24 @@ export default function Example() {
       </Transition>
      </Popover>
 
-     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+     <Link
+      href="/telehealth"
+      className="text-sm font-semibold leading-6 text-gray-900"
+     >
       Find A Specialist
-     </a>
-     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+     </Link>
+     <Link
+      href="/telehealth"
+      className="text-sm font-semibold leading-6 text-gray-900"
+     >
       TeleHealth
-     </a>
-     <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+     </Link>
+     <Link
+      href="/about"
+      className="text-sm font-semibold leading-6 text-gray-900"
+     >
       About
-     </a>
+     </Link>
     </Popover.Group>
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
      <Button />
@@ -434,24 +443,24 @@ export default function Example() {
          )}
         </Disclosure>
 
-        <a
-         href="#"
+        <Link
+         href="/telehealth"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          Find A Specialist
-        </a>
-        <a
-         href="#"
+        </Link>
+        <Link
+         href="/telehealth"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          TeleHealth
-        </a>
-        <a
+        </Link>
+        <Link
          href="/about"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          About
-        </a>
+        </Link>
        </div>
        <div className="py-6">
         <Button />

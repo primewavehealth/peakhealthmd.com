@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function AboutSection() {
@@ -30,16 +31,22 @@ function AboutSection() {
      </div>
 
      <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
-      <img
+      <Image
        alt="Student"
-       src="https://img.freepik.com/free-photo/young-man-hiking-outdoors-giving-five-his-wife_651396-3489.jpg?w=826&t=st=1677620662~exp=1677621262~hmac=e9417c1bef8600c6092d8fdebfe882625066189bde512544e5b02cd2b6474064"
+       src="/man-outdoors.jpg"
        className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
+       height={300}
+       width={250}
+       quality={100}
       />
 
-      <img
+      <Image
        alt="Student"
-       src="https://img.freepik.com/free-photo/sport-oudoor_144627-44629.jpg?w=996&t=st=1678127041~exp=1678127641~hmac=39e2fea17b7e4d32058e671148a43b0c57198758ec92d2e25426265e176e01ee"
+       src="/sportswomen.jpg"
        className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
+       height={300}
+       width={250}
+       quality={100}
       />
      </div>
     </div>

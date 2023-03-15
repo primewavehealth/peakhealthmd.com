@@ -138,9 +138,12 @@ function ServicesSection() {
     <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-7xl">
      <dl className="flex flex-wrap justify-evenly">
       {features.map((feature) => (
-       <div key={feature.name} className="relative mb-6 group w-96">
+       <div
+        key={feature.name}
+        className="relative mb-6 opacity-70 group w-96 bg-stone-600 hover:opacity-100"
+       >
         <Image
-         className="object-cover w-full"
+         className="object-cover w-full duration-500"
          src="/smiling-hiker.jpg"
          alt="services"
          width={450}

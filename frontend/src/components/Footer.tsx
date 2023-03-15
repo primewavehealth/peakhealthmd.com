@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
  return (
-  <footer aria-label="Site Footer" className="bg-white">
+  <footer aria-label="Site Footer" className="bg-blue-50">
    <div className="max-w-screen-xl px-4 pb-8 mx-auto sm:px-6 lg:px-8">
     <div className="pt-2 border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
      <nav aria-label="Footer Navigation - Support">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Banner() {
  return (
-  <main className="bg-zinc-100 isolate">
+  <main className="bg-blue-50 isolate">
    <div className="relative px-6 lg:px-8">
     {/* <Image
      className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain"
@@ -31,8 +31,8 @@ function Banner() {
       </p>
       <div className="flex items-center justify-center mt-10 gap-x-6">
        <Link
-        href="#"
-        className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        href="/telehealth"
+        className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
        >
         Find A Specialist
        </Link>
