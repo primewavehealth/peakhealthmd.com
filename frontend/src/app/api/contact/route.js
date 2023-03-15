@@ -19,16 +19,20 @@ const mailOptions = {
 
 export default async function POST(request) {
  const data = request.body;
- console.log(data);
- if (!data || !data.firstName || !data.email || !data.message) {
+ if (
+  !data ||
+  !data.nameSurname ||
+  !data.email ||
+  !data.message ||
+  !data.phone
+ ) {
   return new Response.json({ message: "Bad request" });
  }
  const mailData = {
   html: `
  <div><strong>Email:</strong> ${data.subject}</div>
     <br/>
-    <div><strong>Name:</strong> ${data.firstName}</div> 
-    <div><strong>Name:</strong> ${data.lastName}</div>
+    <div><strong>Name:</strong> ${data.nameSurname}</div> 
     <br/>
     <div><strong>Email:</strong> ${data.email}</div>
     <br/>
@@ -48,6 +52,7 @@ export default async function POST(request) {
   });
 
   return new Response.json({ success: true });
+  console.log(data);
  } catch (err) {
   console.log(err);
   return new Response.json({ message: err.message });
