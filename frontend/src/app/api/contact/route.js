@@ -3,20 +3,6 @@ import nodemailer from "nodemailer";
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
 
-const transporter = nodemailer.createTransport({
- service: "gmail",
- auth: {
-  user: email,
-  pass,
- },
- secure: true,
-});
-
-const mailOptions = {
- from: email,
- to: email,
-};
-
 export default async function POST(request) {
  const data = request.body;
  if (
@@ -42,6 +28,20 @@ export default async function POST(request) {
     <br/>
     <p>Sent from:
       ${data.email}</p>`,
+ };
+
+ const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+   user: email,
+   pass,
+  },
+  secure: true,
+ });
+
+ const mailOptions = {
+  from: data.email,
+  to: email,
  };
 
  try {
