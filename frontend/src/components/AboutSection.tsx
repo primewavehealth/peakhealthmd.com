@@ -35,8 +35,8 @@ function AboutSection() {
        alt="Student"
        src="/man-outdoors.jpg"
        className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
-       height={300}
-       width={250}
+       height={350}
+       width={300}
        quality={100}
       />
 
