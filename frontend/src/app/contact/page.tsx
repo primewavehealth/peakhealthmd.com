@@ -185,8 +185,8 @@ export default function Form() {
         Come say hello at our office HQ.
        </p>
        <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-        <Link href="https://goo.gl/maps/56r1MFxd1529GK4U6">
-         8280 W Warm Springs Rd, Las Vegas, NV 89113
+        <Link target="_blank" href="https://goo.gl/maps/Av88ySUgEKkpLCHy9">
+         8285 W Arby Ave #175, Las Vegas, NV 89113
         </Link>
        </p>
       </div>
@@ -216,11 +216,11 @@ export default function Form() {
         Mon-Fri from 8am to 5pm.
        </p>
        <Link
-        href="tel:7024928000"
+        href="tel:7026254334"
         // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
        >
         <p className="mt-2 text-sm text-blue-500 dark:text-blue-400 ">
-         click to Call (702)492-8000
+         click to Call (702) 625-4334
         </p>
        </Link>
       </div>

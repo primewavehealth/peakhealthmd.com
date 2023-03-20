@@ -15,7 +15,7 @@ function Banner() {
     <div className="max-w-4xl py-32 mx-auto sm:py-48 lg:py-56">
      <div className="hidden sm:mb-8 sm:flex sm:justify-center">
       <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-       Get 15% for All Hormone Therapies. Hurry, Offer lasts tills 3/30.{" "}
+       Get 15% off All Hormone Therapies. Hurry, Offer lasts tills 3/30.{" "}
        <Link href="#" className="font-semibold text-indigo-600">
         <span className="absolute inset-0" aria-hidden="true" />
         Learn More <span aria-hidden="true">&rarr;</span>
