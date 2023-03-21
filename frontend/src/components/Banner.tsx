@@ -24,7 +24,7 @@ function Banner() {
      </div>
      <div className="text-center">
       <h1 className="text-2xl font-bold tracking-tight text-blue-600 sm:text-6xl">
-       <span className="text-black">Welcome to</span> Peak Health
+       <span className="text-black">Welcome to</span> Vegas Clinic
       </h1>
       <p className="mt-6 text-sm leading-8 lg:text-xl text-neutral-800">
        Patient-centered healthcare with excellence in quality
