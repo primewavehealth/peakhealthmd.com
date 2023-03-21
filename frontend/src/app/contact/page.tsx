@@ -117,7 +117,7 @@ export default function Form() {
         Our friendly team is here to help.
        </p>
        {/* <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-        info@peakhealthmd.com
+        info@vegasclinic.com
        </p> */}
       </div>
 

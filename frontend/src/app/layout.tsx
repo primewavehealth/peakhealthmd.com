@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
  title: {
-  default: "PeakHealth",
-  template: "%s | PeakHealth",
+  default: "VEGAS CLINIC",
+  template: "%s | Vegas Clinic",
  },
 };
 

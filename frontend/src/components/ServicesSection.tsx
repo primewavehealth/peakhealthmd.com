@@ -172,6 +172,9 @@ function ServicesSection() {
          width={450}
          height={500}
          quality={100}
+         //  sizes="(max-width: 768px) 100vw,
+         //       (max-width: 1200px) 50vw,
+         //       33vw"
         />
         <div className="absolute px-4 py-2 bg-gray-800 bottom-10 left-5 right-5 opacity-70">
          <h3 className="text-xl font-bold text-center text-white">
