@@ -9,7 +9,7 @@ import {
 
 function Pain() {
  return (
-  <div>
+  <section>
    <Head>
     <title>
      Affordable Pain Treatment in Las Vegas | Pain Treatment Specialists at the
@@ -26,8 +26,41 @@ function Pain() {
     />
    </Head>
 
+   <header className="">
+    <div className="bg-[url(/pain1.jpg)] bg-center bg-no-repeat bg-cover container flex flex-col items-center px-4 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+     {/* <Image
+      className="absolute inset-0 bg-center bg-no-repeat bg-cover"
+      alt="banner"
+      // src="https://img.freepik.com/free-photo/race-women-looking-young-horizontal-standing_1291-32.jpg?w=1380&t=st=1678338083~exp=1678338683~hmac=6e156971d795465e4e2a90b5e9c6e749c862d551bffd42add20d0be39b9acd43"
+      src="/main_banner.jpg"
+      fill
+      quality={100}
+     /> */}
+     {/* <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">
+      Pain Management
+     </h1>
+     <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">
+      Learn about types, treatment options and treatment plans.
+     </p>
+     <div className="flex flex-wrap justify-center">
+      <button
+       type="button"
+       className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50"
+      >
+       Get started
+      </button>
+      <button
+       type="button"
+       className="px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900"
+      >
+       Learn more
+      </button>
+     </div> */}
+    </div>
+   </header>
+
    {/* start of header */}
-   <header className="relative bg-blue-600">
+   {/* <header className="relative bg-blue-600">
     <div className="absolute inset-x-0 bottom-0">
      <svg
       viewBox="0 0 224 12"
@@ -40,32 +73,19 @@ function Pain() {
     </div>
     <div className="px-4 pt-16 pb-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
      <div className="lg:max-w-5xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-      {/* <div className="flex justify-between pb-4 my-6 text-lg font-bold text-white align-baseline">
-       <p>
-        Got Pain? Our pain specialist in Las Vegas are available to help you.{" "}
-       </p>
-       <span className="flex">
-        <PhoneIcon className="w-8 h-8" />
-        <Link
-         href="tel:7026254334"
-         // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
-        >
-         <p className="text-xl font-bold">(702) 625-4334</p>
-        </Link>
-       </span>
-      </div> */}
-
       <h1 className="my-8 font-sans text-3xl font-bold tracking-tight text-center text-white md:my-12 sm:text-4xl sm:leading-none">
        Pain Management
       </h1>
      </div>
     </div>
-   </header>
+   </header> */}
 
    {/* end of header */}
    <div className="grid grid-cols-4">
-    <article className="col-span-3 mx-auto mt-8 prose prose-slate lg:prose-lg">
-     <h2>About Pain</h2>
+    <article className="col-span-3 px-8 mx-auto -mt-40 prose bg-white prose-slate lg:prose-lg">
+     <h1 className="pt-8 text-5xl font-bold leading-none text-blue-700 sm:text-6xl xl:max-w-3xl">
+      Pain Management
+     </h1>
      <p className="lead">
       Pain is a complex sensory and emotional experience that is felt in
       response to tissue damage, injury, or inflammation. It can range from mild
@@ -181,7 +201,7 @@ function Pain() {
 
     <aside className="flex flex-col">
      <div>
-      <p className="max-w-[300px] mt-5 text-2xl  text-left text-blue-600">
+      <p className="max-w-[300px] mt-5 text-xl  text-left text-blue-600">
        Got Pain? <br />
        Our team of pain specialists in Las Vegas are available to help you.
       </p>
@@ -211,7 +231,7 @@ function Pain() {
    </div>
 
    <AppointmentCTA />
-  </div>
+  </section>
  );
 }
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function CTASection() {
  return (
-  <section className="py-5 lg:py-[50px] bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+  <section className="py-5 lg:py-[50px] bg-gradient-to-r  from-blue-700 via-blue-800 to-gray-900">
    <div className="container mx-auto">
     <div className="bg-primary relative z-10 overflow-hidden rounded py-6 px-8 md:p-[70px]">
      <div className="flex flex-wrap items-center -mx-4">

@@ -5,7 +5,7 @@ const phoneNumber = "(702) 625-4334";
 
 function AppointnmentCTA() {
  return (
-  <div className="flex flex-col items-center justify-center gap-6 p-10 my-8 border-blue-50 bg-blue-50 md:flex-row">
+  <div className="flex flex-col items-center justify-center gap-6 p-10 mt-8 border-blue-50 bg-blue-50 md:flex-row">
    <div className="text-3xl">
     <svg
      fill="#2962ff"
