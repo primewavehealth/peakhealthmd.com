@@ -1,5 +1,3 @@
-import AboutHeroSection from "@/components/AboutHeroSection";
-
 export const metadata = {
  title: "About",
 };
@@ -7,7 +5,7 @@ export const metadata = {
 function About() {
  return (
   <section>
-   <AboutHeroSection />
+   <LinkboutHeroSection />
   </section>
  );
 }

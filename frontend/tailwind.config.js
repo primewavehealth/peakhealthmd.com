@@ -20,6 +20,9 @@ module.exports = {
    },
    visibility: ["group-hover"],
   },
+  container: {
+   center: true,
+  },
  },
- plugins: [require("@tailwindcss/forms")],
+ plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };

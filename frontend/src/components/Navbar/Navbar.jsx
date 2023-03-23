@@ -41,10 +41,10 @@ export default function Example() {
       <span className="sr-only">Vegas Clinic</span>
       <Image
        className="w-auto h-8"
-       src="/logo-png.png"
+       src="/logo.webp"
        alt="logo"
-       width="150"
-       height="100"
+       width="200"
+       height="200"
        quality={100}
       />
      </Link>
@@ -86,10 +86,13 @@ export default function Example() {
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
           >
            <div className="flex-auto">
-            <a href={item.href} className="block font-semibold text-gray-900">
+            <Link
+             href={item.href}
+             className="block font-semibold text-gray-900"
+            >
              {item.name}
              <span className="absolute inset-0" />
-            </a>
+            </Link>
             <p className="mt-1 text-gray-600">{item.description}</p>
            </div>
           </div>
@@ -97,7 +100,7 @@ export default function Example() {
         </div>
         <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
          {callsToAction.map((item) => (
-          <a
+          <Link
            key={item.name}
            href={item.href}
            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
@@ -107,7 +110,7 @@ export default function Example() {
             aria-hidden="true"
            />
            {item.name}
-          </a>
+          </Link>
          ))}
         </div>
        </Popover.Panel>
@@ -140,10 +143,13 @@ export default function Example() {
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
           >
            <div className="flex-auto">
-            <a href={item.href} className="block font-semibold text-gray-900">
+            <Link
+             href={item.href}
+             className="block font-semibold text-gray-900"
+            >
              {item.name}
              <span className="absolute inset-0" />
-            </a>
+            </Link>
             <p className="mt-1 text-gray-600">{item.description}</p>
            </div>
           </div>
@@ -151,7 +157,7 @@ export default function Example() {
         </div>
         <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
          {callsToAction.map((item) => (
-          <a
+          <Link
            key={item.name}
            href={item.href}
            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
@@ -161,7 +167,7 @@ export default function Example() {
             aria-hidden="true"
            />
            {item.name}
-          </a>
+          </Link>
          ))}
         </div>
        </Popover.Panel>
@@ -194,10 +200,13 @@ export default function Example() {
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
           >
            <div className="flex-auto">
-            <a href={item.href} className="block font-semibold text-gray-900">
+            <Link
+             href={item.href}
+             className="block font-semibold text-gray-900"
+            >
              {item.name}
              <span className="absolute inset-0" />
-            </a>
+            </Link>
             <p className="mt-1 text-gray-600">{item.description}</p>
            </div>
           </div>
@@ -205,7 +214,7 @@ export default function Example() {
         </div>
         <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
          {callsToAction.map((item) => (
-          <a
+          <Link
            key={item.name}
            href={item.href}
            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
@@ -215,7 +224,7 @@ export default function Example() {
             aria-hidden="true"
            />
            {item.name}
-          </a>
+          </Link>
          ))}
         </div>
        </Popover.Panel>
@@ -247,10 +256,13 @@ export default function Example() {
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
           >
            <div className="flex-auto">
-            <a href={item.href} className="block font-semibold text-gray-900">
+            <Link
+             href={item.href}
+             className="block font-semibold text-gray-900"
+            >
              {item.name}
              <span className="absolute inset-0" />
-            </a>
+            </Link>
             <p className="mt-1 text-gray-600">{item.description}</p>
            </div>
           </div>
@@ -258,7 +270,7 @@ export default function Example() {
         </div>
         <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
          {callsToAction.map((item) => (
-          <a
+          <Link
            key={item.name}
            href={item.href}
            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
@@ -268,7 +280,7 @@ export default function Example() {
             aria-hidden="true"
            />
            {item.name}
-          </a>
+          </Link>
          ))}
         </div>
        </Popover.Panel>
@@ -307,7 +319,7 @@ export default function Example() {
     <div className="fixed inset-0 z-10" />
     <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
      <div className="flex items-center justify-between">
-      <a href="#" className="-m-1.5 p-1.5">
+      <Link href="#" className="-m-1.5 p-1.5">
        <span className="sr-only"></span>
        <Image
         className="w-auto h-8"
@@ -317,7 +329,7 @@ export default function Example() {
         height="100"
         quality={100}
        />
-      </a>
+      </Link>
       <button
        type="button"
        className="-m-2.5 rounded-md p-2.5 text-gray-700"

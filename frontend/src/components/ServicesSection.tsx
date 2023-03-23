@@ -5,6 +5,7 @@ import {
  LockClosedIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import Link from "next/link";
 
 const features = [
  {
@@ -24,14 +25,14 @@ const features = [
  {
   name: "Bio-Identical Hormone Therapy for Menopause",
   description:
-   "Natural hormone therapy uses “bio-identical” hormones (just like you had when you were younger) and plant-based therapies to reverse bone loss, impaired sexual function and reduced stamina which often affects women later in life. This can be a natural remedy for osteoporosis, night sweats, hot flashes, mood changes and fatigue after menopause. It is very different from conventional hormone replacement therapy, with a far superior safety profile.",
+   "Natural hormone therapy uses “bio-identical” hormones (just like you had when you were younger) and plant-based therapies to reverse bone loss, impaired sexual function and reduced stamina which often affects women later in life.",
   icon: ArrowPathIcon,
   image: "/menopause.jpg",
  },
  {
   name: "Chronic Fatigue Syndrome",
   description:
-   "Chronic fatigue syndrome (CFS) is characterized by profound tiredness, regardless of bed rest. Its symptoms may worsen with physical or mental activity. There are many causes of CFS ranging from food sensitivity, hormonal imbalances, vitamin deficiencies, endocannabinoid system deficiency and chronic infections or toxicity. Once you get to the bottom of what is causing your fatigue, there are many effective treatment options to restore your energy and quality of life.",
+   "Chronic fatigue syndrome (CFS) is characterized by profound tiredness, regardless of bed rest. Its symptoms may worsen with physical or mental activity. There are many causes of CFS ranging from food sensitivity, hormonal imbalances, vitamin deficiencies, endocannabinoid system deficiency and chronic infections or toxicity.",
   icon: FingerPrintIcon,
   image: "/fatigue.avif",
  },
@@ -159,11 +160,11 @@ function ServicesSection() {
      </p>
     </div>
     <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-7xl">
-     <dl className="flex flex-wrap justify-evenly">
+     <div className="flex flex-wrap justify-center">
       {features.map((feature) => (
        <div
         key={feature.name}
-        className="relative mb-6 group w-96 bg-stone-600 hover:opacity-100"
+        className="relative mb-6 mr-6 group w-96 bg-stone-600 hover:opacity-100"
        >
         <Image
          className="object-cover w-full"
@@ -185,16 +186,16 @@ function ServicesSection() {
          <p className="p-3 overflow-hidden text-sm text-justify text-white">
           {feature.description}
          </p>
-         <a
+         <Link
           className="px-8 py-3 mt-5 duration-300 rounded-full bg-amber-400 hover:bg-amber-600"
           href="#"
          >
           Learn More
-         </a>
+         </Link>
         </div>
        </div>
       ))}
-     </dl>
+     </div>
     </div>
    </div>
   </div>
