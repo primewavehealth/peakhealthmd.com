@@ -14,6 +14,7 @@ const features = [
    "Peptide therapy, or the use of specific peptides in treatment, has gained great popularity in recent years. This is due largely to the fact that these peptides are highly specific (i.e.,only do what you want them to do) while also being well-tolerated and safe.",
   icon: CloudArrowUpIcon,
   image: "/peptide.avif",
+  href: "",
  },
  {
   name: "Immune System",
@@ -21,6 +22,7 @@ const features = [
    "Strengthen your immune system. Whether you’re looking to boost your immunity and stay ahead of seasonal illnesses or you’re recovering from an injury, immune support boosting treatment may be a great option.",
   icon: LockClosedIcon,
   image: "/leaves.avif",
+  href: "",
  },
  {
   name: "Bio-Identical Hormone Therapy for Menopause",
@@ -28,6 +30,7 @@ const features = [
    "Natural hormone therapy uses “bio-identical” hormones (just like you had when you were younger) and plant-based therapies to reverse bone loss, impaired sexual function and reduced stamina which often affects women later in life.",
   icon: ArrowPathIcon,
   image: "/menopause.jpg",
+  href: "",
  },
  {
   name: "Chronic Fatigue Syndrome",
@@ -35,6 +38,7 @@ const features = [
    "Chronic fatigue syndrome (CFS) is characterized by profound tiredness, regardless of bed rest. Its symptoms may worsen with physical or mental activity. There are many causes of CFS ranging from food sensitivity, hormonal imbalances, vitamin deficiencies, endocannabinoid system deficiency and chronic infections or toxicity.",
   icon: FingerPrintIcon,
   image: "/fatigue.avif",
+  href: "",
  },
  {
   name: "Low Testosterone Treatment",
@@ -42,6 +46,7 @@ const features = [
    "Testosterone replacement therapy (TRT) can help increase low testosterone levels in your body to normal, healthy ranges. Our team diagnoses and treats low testosterone along with other health conditions. Customized treatment plans from our team at Low T Center are customized to each patient’s specific needs.",
   icon: ArrowPathIcon,
   image: "/test.avif",
+  href: "",
  },
  {
   name: "Long COVID-19",
@@ -49,6 +54,7 @@ const features = [
    "Some will develop chronic, lingering symptoms for more than 4 weeks after the initial infection. Symptoms will range from shortness of breath, brain fog, fatigue, dizziness and loss of smell or taste. For those suffering from this condition, we can help you by using acombination of supplements and medications to help you recover.",
   icon: FingerPrintIcon,
   image: "/covid.jpg",
+  href: "",
  },
  {
   name: "Fibromyalgia",
@@ -57,6 +63,8 @@ const features = [
   icon: CloudArrowUpIcon,
   image:
    "https://img.freepik.com/free-photo/man-with-shoulder-pain_1368-9818.jpg?w=360&t=st=1678921196~exp=1678921796~hmac=d3e1b710cef2b8834b4734e8ee287157c0daf05d0b9382b010c6b8cd63bb2be3",
+
+  href: "",
  },
  {
   name: "Stem Cells Therapy",
@@ -64,6 +72,7 @@ const features = [
    "We offer advanced treatments like stem cell therapy to improve your quality of life and help you feel better sooner. From chronic pain to sports injuries and arthritis, you’d be surprised at the impressive and effective results of stem cell therapy.",
   icon: LockClosedIcon,
   image: "/stem.jpg",
+  href: "",
  },
  {
   name: "Weight Loss",
@@ -72,6 +81,7 @@ const features = [
   icon: ArrowPathIcon,
   image:
    "https://img.freepik.com/free-photo/slim-tanned-woman-s-body-with-measure-tape_231208-10393.jpg?w=360&t=st=1678920868~exp=1678921468~hmac=8c49aeccc4b4bd8554b1d53bc3295c9b60d9b612f6d5d94eaa64bd93e5c7cbec",
+  href: "",
  },
  {
   name: "Weight Gain",
@@ -79,6 +89,7 @@ const features = [
    "While our culture places immense value on thinness, the prevalence of those who are underweight is a significant public health issue. There are a number of reasons people can be underweight, including genetics and fast metabolism, and underlying medical conditions such as thyroid problems or cancer.",
   icon: FingerPrintIcon,
   image: "/weight-gain.jpg",
+  href: "",
  },
  {
   name: "Pain Management",
@@ -86,6 +97,7 @@ const features = [
    "We understands a life of pain is not a quality a life. Our continual goal is to understand our patients, and their needs. By doing so, we exceed the highest standards in Pain Management by providing optimal, thorough, and compassionate medical care to our patients",
   icon: ArrowPathIcon,
   image: "/pain.jpg",
+  href: "/pain_treatment_lv",
  },
  {
   name: "Sleep Studies",
@@ -93,6 +105,7 @@ const features = [
    "Your body goes through different phases during the different stages of sleep. Brain waves, eye movements, muscle tone, heart rate and breathing all change from stage to stage. By measuring these actions, our specially trained doctors can tell where there are problems and what is causing the problem.",
   icon: FingerPrintIcon,
   image: "/sleeping.jpg",
+  href: "",
  },
  {
   name: "Carboxy Therapy",
@@ -100,6 +113,7 @@ const features = [
    "Carboxy therapy is used to treat a number of ailments that are believed to stem partially from poor blood circulation such as cellulite, dark under eye circles, and stretch marks. Carboxy therapy is a simple procedure that injects carbon dioxide gas to the treatment area to stimulate blood flow to improve the skin’s appearance and elasticity.",
   icon: FingerPrintIcon,
   image: "/carboxy.jpg",
+  href: "",
  },
  {
   name: "MesoTherapy",
@@ -108,6 +122,7 @@ const features = [
   icon: ArrowPathIcon,
   image:
    "https://img.freepik.com/free-photo/photo-positive-smiling-woman-with-broad-charming-smile-dressed-casually-recreats-home-feels-relaxed-comfortable_273609-3203.jpg",
+  href: "",
  },
  {
   name: "Platelet- Rich Plasma Therapy",
@@ -116,6 +131,7 @@ const features = [
   icon: FingerPrintIcon,
   image:
    "https://img.freepik.com/free-photo/beautiful-adult-couple-spend-time-summer-field_1157-23546.jpg?w=996&t=st=1678919505~exp=1678920105~hmac=40463be0dfe1cc2a9a6506620fef80996055d200f69938c97359caddedd3e8b5",
+  href: "",
  },
  {
   name: "Immigration Physical",
@@ -123,6 +139,7 @@ const features = [
    "We offer USCIS (U.S. Citizenship and Immigration Services) medical exams for obtaining an immigrant visa as typically required by United States.Our immigration doctors are here to provide compassionate care and analysis during your immigration physical.",
   icon: FingerPrintIcon,
   image: "/immigrants.jpg",
+  href: "",
  },
  {
   name: "Detox Diet",
@@ -130,6 +147,7 @@ const features = [
    "We blend into the environment which you are living and observe the triggers and cues that may cause use and relapse. We can advise the client on potential changes in his or her living environment that may assist in sustaining recovery..",
   icon: ArrowPathIcon,
   image: "/detox.jpg",
+  href: "",
  },
  {
   name: "Brain Mapping",
@@ -138,6 +156,7 @@ const features = [
   icon: FingerPrintIcon,
   image:
    "https://img.freepik.com/free-photo/handsome-smiling-young-african-man_171337-9650.jpg?w=996&t=st=1678919820~exp=1678920420~hmac=cb90387c9dc15a3c227a56b427fd39b263af99cb1f1c035170e7ea908d040b8d",
+  href: "",
  },
 ];
 
@@ -188,7 +207,7 @@ function ServicesSection() {
          </p>
          <Link
           className="px-8 py-3 mt-5 duration-300 rounded-full bg-amber-400 hover:bg-amber-600"
-          href="#"
+          href={feature.href}
          >
           Learn More
          </Link>
