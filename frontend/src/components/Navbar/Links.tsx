@@ -1,6 +1,6 @@
 export const Integrative_Medicine = [
  {
-  href: "#",
+  href: "/pain_treatment_lv",
   description: "",
   name: "Pain Management",
  },
