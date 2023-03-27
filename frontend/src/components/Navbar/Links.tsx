@@ -1,6 +1,6 @@
 export const Integrative_Medicine = [
  {
-  href: "/pain_treatment_lv",
+  href: "/pain-treatment-in-las-vegas",
   description: "",
   name: "Pain Management",
  },
@@ -42,12 +42,12 @@ export const Integrative_Medicine = [
  {
   href: "#",
   description: "",
-  name: "Red Blue Amber Light Treatment",
+  name: "Red Blue Amber LED Light Treatment",
  },
  {
   href: "#",
   description: "",
-  name: "Acoustic Wave Therapy",
+  name: "Shock Wave Therapy",
  },
  {
   href: "#",
@@ -76,9 +76,9 @@ export const Hormone_Therapy = [
 
 export const Aesthetics = [
  {
-  href: "#",
+  href: "/prp-facials-in-las-vegas",
   description: "",
-  name: "Platelet- Rich Plasma Therapy",
+  name: "Platelet- Rich Plasma Therapy Facials",
  },
  {
   href: "#",
