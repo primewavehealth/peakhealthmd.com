@@ -14,7 +14,7 @@ const features = [
    "Peptide therapy, or the use of specific peptides in treatment, has gained great popularity in recent years. This is due largely to the fact that these peptides are highly specific (i.e.,only do what you want them to do) while also being well-tolerated and safe.",
   icon: CloudArrowUpIcon,
   image: "/peptide.avif",
-  href: "/prp-facials-in-las-vegas",
+  href: "/prp-facial-in-las-vegas",
  },
  {
   name: "Immune System",
