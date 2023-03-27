@@ -47,7 +47,7 @@ function TeleHealth() {
        width={450}
        height={450}
        alt="profile-photo"
-       src="/smiling-hiker.jpg"
+       src="/drmaxine.webp"
       />
      </div>
     </div>
@@ -82,7 +82,7 @@ function TeleHealth() {
        width={450}
        height={450}
        alt="profile-photo"
-       src="/smiling-hiker.jpg"
+       src="/dracebedo.webp"
       />
      </div>
     </div>

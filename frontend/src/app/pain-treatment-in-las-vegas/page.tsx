@@ -9,7 +9,7 @@ import {
 
 function Pain() {
  return (
-  <section>
+  <div>
    <Head>
     <title>
      Affordable Pain Treatment in Las Vegas | Pain Treatment Specialists at the
@@ -231,7 +231,7 @@ function Pain() {
    </div>
 
    <AppointmentCTA />
-  </section>
+  </div>
  );
 }
 
