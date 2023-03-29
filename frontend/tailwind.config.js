@@ -23,6 +23,9 @@ module.exports = {
   container: {
    center: true,
   },
+  listStyleType: {
+   none: "none",
+  },
  },
  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };

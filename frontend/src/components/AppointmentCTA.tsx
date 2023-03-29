@@ -30,7 +30,7 @@ function AppointnmentCTA() {
      </g>
     </svg>
    </div>
-   <div className="flex-col font-bold text-blue-700">
+   <div className="flex-col font-bold text-center text-blue-700">
     <p className="text-4xl">Request An Appointment</p>
     {/* <p>We are the Go to Pain Treatment Center in Las Vegas.</p> */}
    </div>
