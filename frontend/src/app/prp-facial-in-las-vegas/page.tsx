@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "H PRP Facials by PRP specialists in Las Vegasome",
+ title: "PRP Facial Rejuvination by PRP Specialists in Las Vegas",
  description:
   "Get Affordable PRP Facial Rejuvination in Las Vegas. We are a PRP Injection specialists in Las Vegas.",
 };
@@ -66,7 +66,7 @@ function page() {
    <section className="px-6 bg-white">
     <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:px-8">
      <div className="max-w-5xl pb-6 mx-auto prose lg:prose-lg">
-      <h2 className="font-bold leading-loose text-center text-blue-500 lg:text-4xl sm:text-4xl">
+      <h2 className="font-bold text-center text-blue-500 lg:text-4xl sm:text-4xl">
        Rejuvinate your face naturally with platelet rich plasma facial treatment
        in Las Vegas.
       </h2>
@@ -104,7 +104,7 @@ function page() {
    <section className="text-black bg-zinc-50">
     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
      <div className="max-w-lg mx-auto text-center">
-      <h2 className="text-3xl font-bold sm:text-4xl">PRP Facial Procedure</h2>
+      <h2 className="font-bold lg:text-3xl">PRP Facial Procedure</h2>
 
       <p className="mt-4 text-lg">
        We have a proven process for our platelet rich plasma therapy for facial
@@ -289,15 +289,16 @@ function page() {
    </section>
    {/* next section */}
 
-   {/* candidate */}
+   <section>
+    <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:px-8">
+     <div className="max-w-3xl pb-4 mx-auto">
+      <h2 className="text-3xl font-bold text-center sm:text-4xl">
+       Who is a good candidate for a PRP facial?
+      </h2>
+     </div>
 
-   <section className="dark:bg-gray-800 dark:text-gray-100">
-    <div className="grid grid-cols-1 mx-auto lg:grid-cols-2 xl:grid-cols-3">
-     <div className="grid grid-cols-1 xl:grid-cols-2 dark:bg-gray-800">
-      <div className="flex flex-col items-center p-4 px-8 md:p-8">
-       <h2 className="mb-6 text-4xl font-bold leading-none text-center">
-        Who is a good candidate for a PRP facial?
-       </h2>
+     <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
+      <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
        <p className="max-w-lg mx-auto mb-8 text-lg text-justify lg:max-w-4xl">
         A PRP facial can benefit individuals who are looking to improve the
         appearance of their skin, particularly those with fine lines, wrinkles,
@@ -310,122 +311,124 @@ function page() {
         good candidates for PRP facials are individuals who:
        </p>
       </div>
-     </div>
-     <div className="grid grid-cols-1 px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 dark:bg-violet-400 dark:text-gray-900">
-      <div className="flex space-x-2 sm:space-x-4">
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="flex-shrink-0 w-6 h-6"
-       >
-        <path
-         strokeLinecap="round"
-         strokeLinejoin="round"
-         strokeWidth="2"
-         d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-        ></path>
-       </svg>
-       <div className="space-y-2">
-        <p className="leading-snug">
-         Are in good health and have realistic expectations for the treatment
-         outcomes
-        </p>
+
+      <div className="px-6 space-y-4 rounded-sm sm:px-8 lg:px-12 dark:bg-violet-400 dark:text-gray-900">
+       <div className="flex space-x-2 sm:space-x-4">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor"
+         className="flex-shrink-0 w-6 h-6"
+        >
+         <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+         ></path>
+        </svg>
+        <div className="space-y-2">
+         <p className="leading-snug">
+          Are in good health and have realistic expectations for the treatment
+          outcomes
+         </p>
+        </div>
        </div>
-      </div>
-      <div className="flex space-x-2 sm:space-x-4">
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="flex-shrink-0 w-6 h-6"
-       >
-        <path
-         strokeLinecap="round"
-         strokeLinejoin="round"
-         strokeWidth="2"
-         d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-        ></path>
-       </svg>
-       <div className="space-y-2">
-        <p className="leading-snug">
-         Have signs of skin aging, such as fine lines and wrinkles, and uneven
-         skin texture.
-        </p>
+       <div className="flex space-x-2 sm:space-x-4">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor"
+         className="flex-shrink-0 w-6 h-6"
+        >
+         <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+         ></path>
+        </svg>
+        <div className="space-y-2">
+         <p className="leading-snug">
+          Have signs of skin aging, such as fine lines and wrinkles, and uneven
+          skin texture.
+         </p>
+        </div>
        </div>
-      </div>
-      <div className="flex space-x-2 sm:space-x-4">
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="flex-shrink-0 w-6 h-6"
-       >
-        <path
-         strokeLinecap="round"
-         strokeLinejoin="round"
-         strokeWidth="2"
-         d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-        ></path>
-       </svg>
-       <div className="space-y-2">
-        <p className="leading-snug">
-         Are willing to undergo multiple treatment sessions spaced a few weeks
-         apart.
-        </p>
+       <div className="flex space-x-2 sm:space-x-4">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor"
+         className="flex-shrink-0 w-6 h-6"
+        >
+         <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+         ></path>
+        </svg>
+        <div className="space-y-2">
+         <p className="leading-snug">
+          Are willing to undergo multiple treatment sessions spaced a few weeks
+          apart.
+         </p>
+        </div>
        </div>
-      </div>
-      <div className="flex space-x-2 sm:space-x-4">
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="flex-shrink-0 w-6 h-6"
-       >
-        <path
-         strokeLinecap="round"
-         strokeLinejoin="round"
-         strokeWidth="2"
-         d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-        ></path>
-       </svg>
-       <div className="space-y-2">
-        <p className="leading-snug">
-         Have not recently undergone certain cosmetic procedures, such as laser
-         resurfacing or chemical peels, which may affect the skin's healing
-         process.
-        </p>
+       <div className="flex space-x-2 sm:space-x-4">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor"
+         className="flex-shrink-0 w-6 h-6"
+        >
+         <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+         ></path>
+        </svg>
+        <div className="space-y-2">
+         <p className="leading-snug">
+          Have not recently undergone certain cosmetic procedures, such as laser
+          resurfacing or chemical peels, which may affect the skin's healing
+          process.
+         </p>
+        </div>
        </div>
-      </div>
-      <div className="flex space-x-2 sm:space-x-4">
-       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="flex-shrink-0 w-6 h-6"
-       >
-        <path
-         strokeLinecap="round"
-         strokeLinejoin="round"
-         strokeWidth="2"
-         d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-        ></path>
-       </svg>
-       <div className="space-y-2">
-        <p className="leading-snug">
-         Are not taking certain medications or have certain medical conditions
-         that may affect blood clotting or healing.
-        </p>
+       <div className="flex space-x-2 sm:space-x-4">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor"
+         className="flex-shrink-0 w-6 h-6"
+        >
+         <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+         ></path>
+        </svg>
+        <div className="space-y-2">
+         <p className="leading-snug">
+          Are not taking certain medications or have certain medical conditions
+          that may affect blood clotting or healing.
+         </p>
+        </div>
        </div>
       </div>
      </div>
     </div>
    </section>
+
    {/* faq */}
 
    <section className="-mb-8 bg-zinc-50 dark:bg-gray-900">

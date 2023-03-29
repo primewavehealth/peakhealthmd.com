@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 
 import AppointmentCTA from "@/components/AppointmentCTA";
@@ -7,25 +6,17 @@ import {
  PhoneArrowUpRightIcon,
 } from "@heroicons/react/24/outline";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+ title: "Affordable Pain Treatment in Las Vegas by Pain Treatment Specialists",
+ description:
+  "Get Affordable Pain Treatment in Las Vegas. We are a top pain specialists in Las Vegas. Our pain treatment specialist will diagnose your pain and create an individualized plan to help for you recover.",
+};
+
 function Pain() {
  return (
   <div>
-   <Head>
-    <title>
-     Affordable Pain Treatment in Las Vegas | Pain Treatment Specialists at the
-     Vegas Clinic
-    </title>
-    <meta
-     name="description"
-     content=" Get Affordable Pain Treatment in Las Vegas. We are a top pain specialists in Las Vegas. Our pain treatment specialist will diagnose your pain and create an individualized plan to help for you recover."
-     key="desc"
-    />
-    <meta
-     name="keywords"
-     content="best pain treatment in las vegas, pain specialists in las vegas, top pain center in Vegas"
-    />
-   </Head>
-
    <header className="">
     <div className="bg-[url(/pain1.jpg)] bg-center bg-no-repeat bg-cover container flex flex-col items-center px-4 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
      {/* <Image
@@ -59,28 +50,6 @@ function Pain() {
     </div>
    </header>
 
-   {/* start of header */}
-   {/* <header className="relative bg-blue-600">
-    <div className="absolute inset-x-0 bottom-0">
-     <svg
-      viewBox="0 0 224 12"
-      fill="currentColor"
-      className="w-full -mb-1 text-white"
-      preserveAspectRatio="none"
-     >
-      <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
-     </svg>
-    </div>
-    <div className="px-4 pt-16 pb-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-     <div className="lg:max-w-5xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-      <h1 className="my-8 font-sans text-3xl font-bold tracking-tight text-center text-white md:my-12 sm:text-4xl sm:leading-none">
-       Pain Management
-      </h1>
-     </div>
-    </div>
-   </header> */}
-
-   {/* end of header */}
    <div className="grid grid-cols-4">
     <article className="col-span-3 px-8 mx-auto -mt-40 prose bg-white prose-slate lg:prose-lg">
      <h1 className="pt-8 text-5xl font-bold leading-none text-blue-700 sm:text-6xl xl:max-w-3xl">
