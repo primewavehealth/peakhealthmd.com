@@ -13,20 +13,6 @@ export const metadata: Metadata = {
 function page() {
  return (
   <div>
-   {/* <Head>
-    <title>
-     PRP Facials by PRP specialists in Las Vegas 
-    </title>
-    <meta
-     name="description"
-     content=" Get Affordable PRP Facial Rejuvination in Las Vegas. We are a PRP Injection specialists in Las Vegas."
-     key="desc"
-    />
-    <meta
-     name="keywords"
-     content="best PRP Facials in las vegas, PLATELET-RICH PLASMA THERAPY, top prp injections in Vegas"
-    />
-   </Head> */}
    <header className="bg-gradient-to-b from-blue-50 to-sky-400">
     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8 ">
      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
@@ -282,7 +268,7 @@ function page() {
        href="/contact"
        className="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
       >
-       Get Started Today
+       Book an Appointment
       </Link>
      </div>
     </div>
@@ -305,7 +291,7 @@ function page() {
         sun damage, acne scarring, or uneven skin texture. It may also be a
         suitable option for individuals who have tried other non-invasive
         treatments with limited success. However, it's important to note that
-        PRP facials may not be appropriate for everyone. A Our PRP facial
+        PRP facials may not be appropriate for everyone. Our PRP facial
         specialists in Las Vegas will evaluate each patient's medical history
         and overall health before recommending PRP facial treatment. Generally,
         good candidates for PRP facials are individuals who:
