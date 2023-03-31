@@ -165,11 +165,11 @@ function ServicesSection() {
   <div className="py-24 bg-white sm:py-32">
    <div className="w-full px-6 mx-auto lg:px-4">
     <div className="max-w-2xl mx-auto lg:text-center">
-     <h2 className="text-base font-semibold leading-7 text-indigo-600">
+     <p className="text-base font-semibold leading-7 text-indigo-600">
       Our Specialties
-     </h2>
+     </p>
      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-      Our Focus is your health care
+      Our Focus is your wellbeing
      </p>
      <p className="py-4 mt-6 text-lg leading-8 text-gray-600">
       From simple concerns to complex issues, our team of highly experienced

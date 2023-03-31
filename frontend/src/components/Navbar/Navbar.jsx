@@ -323,7 +323,7 @@ export default function Example() {
        <span className="sr-only"></span>
        <Image
         className="w-auto h-8"
-        src="/logo-png.png"
+        src="/logo.webp"
         alt="logo"
         width="150"
         height="100"

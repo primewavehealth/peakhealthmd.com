@@ -53,7 +53,7 @@ function page() {
     <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:px-8">
      <div className="max-w-5xl pb-6 mx-auto prose lg:prose-lg">
       <h2 className="font-bold text-center text-blue-500 lg:text-4xl sm:text-4xl">
-       Rejuvinate your face naturally with platelet rich plasma facial treatment
+       Rejuvinate your face naturally with plasma rich platelet facial treatment
        in Las Vegas.
       </h2>
      </div>
@@ -93,7 +93,7 @@ function page() {
       <h2 className="font-bold lg:text-3xl">PRP Facial Procedure</h2>
 
       <p className="mt-4 text-lg">
-       We have a proven process for our platelet rich plasma therapy for facial
+       We have a proven process for our plasma rich platelet therapy for facial
        rejuvination.
       </p>
      </div>
