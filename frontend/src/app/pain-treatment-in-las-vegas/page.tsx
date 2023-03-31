@@ -50,8 +50,8 @@ function Pain() {
     </div>
    </header>
 
-   <div className="grid grid-cols-4">
-    <article className="col-span-3 px-8 mx-auto -mt-40 prose bg-white prose-slate lg:prose-lg">
+   <div className="grid grid-cols-1 lg:grid-cols-4">
+    <article className="col-span-3 px-8 mx-auto prose bg-white lg:-mt-40 prose-slate lg:prose-lg">
      <h1 className="pt-8 text-5xl font-bold leading-none text-blue-700 sm:text-6xl xl:max-w-3xl">
       Pain Management
      </h1>
@@ -168,8 +168,8 @@ function Pain() {
      </p>
     </article>
 
-    <aside className="flex flex-col">
-     <div>
+    <aside className="flex flex-col mx-auto mt-12 border-t-4 border-gray-500 lg:mt-0">
+     <div className="mx-auto">
       <p className="max-w-[300px] mt-5 text-xl  text-left text-blue-600">
        Got Pain? <br />
        Our team of pain specialists in Las Vegas are available to help you.
