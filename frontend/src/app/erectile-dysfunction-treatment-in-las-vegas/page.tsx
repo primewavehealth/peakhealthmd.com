@@ -52,16 +52,16 @@ function page() {
     </div>
    </header>
    {/* cta */}
-   <div className="container px-6 py-5 m-auto">
-    <div className="flex flex-col items-center h-auto border-2 border-gray-800 rounded-lg lg:border-4 justify-evenly md:flex-row w-100 md:h-60">
+   <div className="container px-6 py-5 m-auto ">
+    <div className="flex flex-col items-center h-auto border-2 border-gray-800 rounded-lg bg-blue-50 lg:border-4 justify-evenly md:flex-row w-100 md:h-60">
      <div className="px-4 pt-4 text-xl lg:text-2xl lg:pt-0 lg:w-8/12">
       <span>
        You're not alone in this. Roughly 1 out of 4 men over 65 - and a
        significant number over 40 - suffer from erectile dysfunction.
       </span>
      </div>
-     <div className="relative px-4 py-4 my-5 text-lg font-medium text-center text-white bg-yellow-600 rounded shadow-md cursor-pointer w-60 hover:bg-yellow-500">
-      <span className="absolute top-0 right-0 inline-flex w-3 h-3 bg-yellow-600 rounded-full animate-ping"></span>
+     <div className="relative px-4 py-4 my-5 text-lg font-medium text-center text-white bg-blue-600 rounded shadow-md cursor-pointer w-60 hover:bg-blue-500">
+      <span className="absolute top-0 right-0 inline-flex w-3 h-3 bg-blue-600 rounded-full animate-ping"></span>
       Request Consultation
      </div>
     </div>
