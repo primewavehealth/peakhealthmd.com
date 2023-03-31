@@ -125,9 +125,9 @@ const features = [
   href: "",
  },
  {
-  name: "Platelet- Rich Plasma Therapy",
+  name: "Plasma-Rich Platelet Therapy",
   description:
-   "Platelet-rich plasma (PRP) is one of the leading areas of regenerative medicine. It uses the body’s own cells to stimulate tissue growth. PRP therapy uses a high concentration of autologous platelets found in the patient’s own plasma.",
+   "Plasma-rich platelet (PRP) is one of the leading areas of regenerative medicine. It uses the body’s own cells to stimulate tissue growth. PRP therapy uses a high concentration of autologous platelets found in the patient’s own plasma.",
   icon: FingerPrintIcon,
   image:
    "https://img.freepik.com/free-photo/beautiful-adult-couple-spend-time-summer-field_1157-23546.jpg?w=996&t=st=1678919505~exp=1678920105~hmac=40463be0dfe1cc2a9a6506620fef80996055d200f69938c97359caddedd3e8b5",

@@ -5,6 +5,11 @@ export const Integrative_Medicine = [
   name: "Pain Management",
  },
  {
+  href: "/erectile-dysfunction-treatment-in-las-vegas",
+  description: "",
+  name: "Erectile Dysfunction",
+ },
+ {
   href: "#",
   description: "",
   name: "Fibromyalgia",
@@ -78,7 +83,7 @@ export const Aesthetics = [
  {
   href: "/prp-facial-in-las-vegas",
   description: "",
-  name: "Platelet- Rich Plasma Therapy Facials",
+  name: "Plasma-Rich Platelet Facials",
  },
  {
   href: "#",
