@@ -2,15 +2,15 @@ import Image from "next/image";
 
 function PageCTA() {
  return (
-  <div className="bg-zinc-100 dark:bg-gray-800">
+  <div className="bg-blue-50 dark:bg-gray-900">
    <div className="flex flex-col py-8 lg:flex-row justify-evenly">
-    <div className="flex flex-col w-2/3 px-4 py-12 mx-auto text-start sm:px-6 lg:py-16 lg:px-8">
+    <div className="flex flex-col px-8 py-12 mx-auto lg:w-2/3 text-start lg:py-16 ">
      <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
       <span className="block">
        Overcome Erectile Dysfunction and stay satisfied.
       </span>
      </h2>
-     <p className="mt-4 text-xl text-gray-600">
+     <p className="mt-4 text-xl text-justify text-gray-600">
       We are the go to erectile dysfunction treatment center in Las Vegas. Call
       today and solve your ED problem-for good! Our licensed physicians offer
       personalized, medical solutions that are private, discreet and guaranteed
