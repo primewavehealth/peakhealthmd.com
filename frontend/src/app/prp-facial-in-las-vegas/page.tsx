@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
  title: "PRP Facial Rejuvination by PRP Specialists in Las Vegas",
  description:
-  "Get Affordable PRP Facial Rejuvination in Las Vegas. We are a PRP Injection specialists in Las Vegas.",
+  "Get a youthful and radiant glow with PRP facials in Las Vegas - the natural and non-invasive way to boost collagen and rejuvenate your skin.",
 };
 
 function page() {

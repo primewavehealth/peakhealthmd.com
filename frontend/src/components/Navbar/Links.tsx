@@ -88,7 +88,7 @@ export const Aesthetics = [
  {
   href: "#",
   description: "",
-  name: "MisoTherapy",
+  name: "MesoTherapy",
  },
  {
   href: "#",

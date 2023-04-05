@@ -10,7 +10,7 @@ const nextConfig = {
  images: {
   loader: "default",
   domains: ["images.unsplash.com", "img.freepik.com"],
-  formats: ["image/webp"],
+  formats: ["image/avif", "image/webp"],
  },
 };
 

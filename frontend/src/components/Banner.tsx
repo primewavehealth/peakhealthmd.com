@@ -1,18 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function Banner() {
  return (
   <main className="bg-blue-50 isolate">
    <div className="relative px-6 lg:px-8">
-    {/* <Image
-     className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain"
+    <Image
+     className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain -z-10"
      alt="banner"
-     // src="https://img.freepik.com/free-photo/race-women-looking-young-horizontal-standing_1291-32.jpg?w=1380&t=st=1678338083~exp=1678338683~hmac=6e156971d795465e4e2a90b5e9c6e749c862d551bffd42add20d0be39b9acd43"
-     src="/main_banner.jpg"
+     src="/vegas-clinic.jpg"
      fill
      quality={100}
-    /> */}
-    <div className="max-w-4xl py-32 mx-auto sm:py-48 lg:py-56">
+    />
+    <div className="max-w-4xl py-32 sm:py-48 lg:py-56">
      <div className="hidden sm:mb-8 sm:flex sm:justify-center">
       <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
        Get 15% off All Hormone Therapies. Hurry, Offer lasts tills 3/30.{" "}

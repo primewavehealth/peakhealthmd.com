@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+ title: "Telehealth in Las Vegas",
+ description:
+  "Get convenient and accessible healthcare with telehealth services in Las Vegas - connect with our experienced healthcare providers from the comfort of your own home.",
+};
 
 function TeleHealth() {
  return (

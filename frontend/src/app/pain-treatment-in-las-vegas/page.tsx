@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
  title: "Affordable Pain Treatment in Las Vegas by Pain Treatment Specialists",
  description:
-  "Get Affordable Pain Treatment in Las Vegas. We are a top pain specialists in Las Vegas. Our pain treatment specialist will diagnose your pain and create an individualized plan to help for you recover.",
+  "Get Affordable Pain Treatment in Las Vegas.  Find lasting relief from chronic pain with help from our pain specialists at the premier pain treatment center in in Las Vegas.",
 };
 
 function Pain() {
@@ -21,32 +21,11 @@ function Pain() {
     <div className="bg-[url(/pain1.jpg)] bg-center bg-no-repeat bg-cover container flex flex-col items-center px-4 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
      {/* <Image
       className="absolute inset-0 bg-center bg-no-repeat bg-cover"
-      alt="banner"
-      // src="https://img.freepik.com/free-photo/race-women-looking-young-horizontal-standing_1291-32.jpg?w=1380&t=st=1678338083~exp=1678338683~hmac=6e156971d795465e4e2a90b5e9c6e749c862d551bffd42add20d0be39b9acd43"
-      src="/main_banner.jpg"
+      alt="banner"     
+      src="/pain1.jpg"
       fill
       quality={100}
      /> */}
-     {/* <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">
-      Pain Management
-     </h1>
-     <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">
-      Learn about types, treatment options and treatment plans.
-     </p>
-     <div className="flex flex-wrap justify-center">
-      <button
-       type="button"
-       className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50"
-      >
-       Get started
-      </button>
-      <button
-       type="button"
-       className="px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900"
-      >
-       Learn more
-      </button>
-     </div> */}
     </div>
    </header>
 
