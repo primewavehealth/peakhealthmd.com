@@ -7,6 +7,7 @@
   "strict": true,
   "forceConsistentCasingInFileNames": true,
   "noEmit": true,
+  "noEmitOnError": true,
   "esModuleInterop": true,
   "module": "esnext",
   "moduleResolution": "node",
@@ -21,7 +22,9 @@
   ],
   "baseUrl": ".",
   "paths": {
-   "@/*": ["./src/*"]
+   "@/*": ["./src/*"],
+   "@components/*": ["components/*"],
+   "@typings/*": ["typings/*"]
   }
  },
  "include": [
@@ -31,9 +34,8 @@
   ".next/types/**/*.ts",
   "src/app/contact/page.tsx",
   "src/components/Team.tsx",
-  "src/components/Team.tsx",
-  "src/components/Team.tsx",
-  "src/components/ScrollToTop.jsx"
+  "src/components/ScrollToTop.jsx",
+  "src/components/UI/Image.jsx"
  ],
  "exclude": ["node_modules"]
 }
