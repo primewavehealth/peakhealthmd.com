@@ -10,7 +10,7 @@ export interface ButtonInterface
  icon?: JSX.Element;
  link?: JSX.Element;
  text: string;
- href?: string;
+ href: string;
  //  children: ReactNode;
  type?: "submit" | "reset" | "button";
 }

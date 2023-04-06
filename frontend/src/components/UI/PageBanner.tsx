@@ -1,5 +1,5 @@
-import { PageBannerInterface } from "@/app/typings/types";
 import Button from "@/components/UI/Button";
+import { PageBannerInterface } from "@/typings/types";
 import Image, { StaticImageData } from "next/image";
 
 export interface imageProps {

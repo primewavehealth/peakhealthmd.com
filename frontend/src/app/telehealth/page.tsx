@@ -1,3 +1,4 @@
+import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -38,15 +39,40 @@ function TeleHealth() {
        Dr. Ingham is our Chief medical director. She specializes in internal
        medicine.{" "}
       </p>
-
-      <Link
-       className="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
-       href="https://www.cal.com/drmaxine"
-       target="_blank"
-      >
-       {" "}
-       Book A Meeting{" "}
-      </Link>
+      <div className="flex justify-between w-full">
+       <div className="mt-4">
+        <Link
+         style={{ display: "block" }}
+         href="https://www.zocdoc.com/practice/prime-wave-77528"
+         className="zd-plugin"
+         data-type="book-button"
+         data-practice-id={77528}
+         title="Prime Wave"
+        >
+         <img
+          src="https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png"
+          alt="Prime Wave"
+          title="Prime Wave"
+          style={{ border: 0 }}
+         />
+        </Link>
+       </div>
+       <Button
+        href="https://www.cal.com/drmaxine"
+        text="Schedule An Appointment"
+        icon=<svg
+         fill="none"
+         stroke="currentColor"
+         strokeLinecap="round"
+         strokeLinejoin="round"
+         strokeWidth="2"
+         className="w-4 h-4 ml-auto"
+         viewBox="0 0 24 24"
+        >
+         <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+       />
+      </div>
      </div>
      <div className="w-full lg:w-1/3 lg:max-w-lg md:w-1/2">
       <Image
@@ -73,15 +99,40 @@ function TeleHealth() {
        {" "}
        Dr. Acebedo specializes in Internal and integrative medicine.{" "}
       </p>
-
-      <Link
-       className="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
-       href="https://www.cal.com/drerich"
-       target="_blank"
-      >
-       {" "}
-       Book A Meeting{" "}
-      </Link>
+      <div className="flex justify-between w-full">
+       <div className="mt-4">
+        <Link
+         style={{ display: "block" }}
+         href="https://www.zocdoc.com/practice/prime-wave-77528"
+         className="zd-plugin"
+         data-type="book-button"
+         data-practice-id={77528}
+         title="Prime Wave"
+        >
+         <img
+          src="https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png"
+          alt="Prime Wave"
+          title="Prime Wave"
+          style={{ border: 0 }}
+         />
+        </Link>
+       </div>
+       <Button
+        href="https://www.cal.com/drerich"
+        text="Schedule An Appointment"
+        icon=<svg
+         fill="none"
+         stroke="currentColor"
+         strokeLinecap="round"
+         strokeLinejoin="round"
+         strokeWidth="2"
+         className="w-4 h-4 ml-auto"
+         viewBox="0 0 24 24"
+        >
+         <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+       />
+      </div>
      </div>
      <div className="w-full lg:w-1/3 lg:max-w-lg md:w-1/2">
       <Image
@@ -108,16 +159,23 @@ function TeleHealth() {
       </h2>
      </div>
      <p className="max-w-2xl mt-6 mb-6 text-center text-slate-800 dark:text-teal-400">
-      We are ever ready to answers your questions.{" "}
-      <Link className="text-primary" href="/contact">
-       {" "}
-       Get in Touch{" "}
-      </Link>{" "}
-      page.
-     </p>
-     <button className="px-4 py-3 font-bold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-2xl hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
-      Start Discussion
-     </button>
+      We are ever ready to answer your questions.
+     </p>{" "}
+     <Button
+      href="/contact"
+      text="Contact Us"
+      icon=<svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     />
     </div>
    </div>
   </section>
