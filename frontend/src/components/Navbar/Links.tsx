@@ -15,16 +15,11 @@ export const Integrative_Medicine = [
   name: "Fibromyalgia",
  },
  {
-  href: "#",
+  href: "/stem-cell-therapy-las-vegas",
   description: "",
-  name: "Stem Cells",
+  name: "Stem Cell Therapy",
  },
 
- {
-  href: "#",
-  description: "",
-  name: "Immune system",
- },
  {
   href: "/long-haul-covid-19-treatment",
   description: "",
