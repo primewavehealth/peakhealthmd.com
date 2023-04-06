@@ -1,5 +1,12 @@
 import PageBanner from "@/components/UI/PageBanner";
+import type { Metadata } from "next";
 import weight from "public/weight-loss-las-vegas.jpg";
+
+export const metadata: Metadata = {
+ title: "Weight Loss Treatment in Las Vegas",
+ description:
+  "Achieve your weight loss goals with our proven and personalized weight loss service in Las Vegas - transform your body and improve your health today.",
+};
 
 function Weightloss() {
  return (
@@ -10,7 +17,7 @@ function Weightloss() {
     src={weight}
     height={400}
     width={400}
-    alt="shockwave-therapy"
+    alt="weight loss las vegas"
     btn={{
      href: "/telehealth",
      text: "Schedule An Appointment",
