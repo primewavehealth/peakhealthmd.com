@@ -50,6 +50,7 @@ function page() {
       </span>
      </div>
      <Button
+      href="/telehealth"
       text="Request Consultation"
       icon=<svg
        fill="none"

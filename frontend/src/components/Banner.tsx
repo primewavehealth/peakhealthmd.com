@@ -3,15 +3,21 @@ import Link from "next/link";
 
 function Banner() {
  return (
-  <main className="bg-blue-50 isolate">
+  <main className="bg-slate-50 isolate">
    <div className="relative px-6 lg:px-8">
-    <Image
-     className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain -z-10"
-     alt="banner"
-     src="/vegas-clinic.jpg"
-     fill
-     quality={100}
-    />
+    <div className="hidden md:flex">
+     <Image
+      className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain -z-10"
+      alt="banner"
+      src="/vegas-clinic.jpg"
+      sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+      fill
+      quality={100}
+     />
+    </div>
+
     <div className="max-w-4xl py-32 sm:py-48 lg:py-56">
      <div className="hidden sm:mb-8 sm:flex sm:justify-center">
       <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

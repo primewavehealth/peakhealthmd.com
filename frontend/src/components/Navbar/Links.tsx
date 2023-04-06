@@ -19,11 +19,7 @@ export const Integrative_Medicine = [
   description: "",
   name: "Stem Cells",
  },
- {
-  href: "/detox-therapy-las-vegas",
-  description: "",
-  name: "Detox Therapy",
- },
+
  {
   href: "#",
   description: "",
@@ -43,21 +39,6 @@ export const Integrative_Medicine = [
   href: "/immigration-physical-las-vegas",
   description: "",
   name: "Immigration Physical",
- },
- {
-  href: "/led-light-therapy-las-vegas",
-  description: "",
-  name: "Red Blue Amber LED Light Therapy",
- },
- {
-  href: "/shockwave-therapy-in-las-vegas",
-  description: "",
-  name: "Shock Wave Therapy",
- },
- {
-  href: "#",
-  description: "",
-  name: "Laser Therapy",
  },
 ];
 
@@ -97,7 +78,7 @@ export const Aesthetics = [
  },
 ];
 
-export const Diet = [
+export const Wellness = [
  {
   href: "/weight-loss-las-vegas",
   description: "",
@@ -112,5 +93,25 @@ export const Diet = [
   href: "/sleep-therapy-las-vegas",
   description: "",
   name: "Sleep Therapy",
+ },
+ {
+  href: "/detox-therapy-las-vegas",
+  description: "",
+  name: "Detox Therapy",
+ },
+ {
+  href: "/led-light-therapy-las-vegas",
+  description: "",
+  name: "LED Light Therapy",
+ },
+ {
+  href: "/shockwave-therapy-in-las-vegas",
+  description: "",
+  name: "Shock Wave Therapy",
+ },
+ {
+  href: "/cold-laser-therapy-las-vegas",
+  description: "",
+  name: "Cold Laser Therapy",
  },
 ];

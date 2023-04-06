@@ -22,7 +22,6 @@ function page() {
     btn={{
      href: "/telehealth",
      text: "Schedule An Appointment",
-
      icon: (
       <svg
        fill="none"

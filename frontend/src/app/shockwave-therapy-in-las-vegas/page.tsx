@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import shockwave from "/public/carboxy.jpg";
+import shockwave from "/public/shockwave-therapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Shock Wave Therapy in Las Vegas",
@@ -13,7 +13,7 @@ function Shockwave() {
   <>
    <PageBanner
     heading="Shock Wave Therapy"
-    body="Shockwave therapy is a non-invasive medical treatment that uses high-energy acoustic waves to stimulate healing in damaged tissue and relieve pain. It has been used to treat a variety of musculoskeletal conditions, such as plantar fasciitis, tennis elbow, and Achilles tendonitis. The treatment works by increasing blood flow and promoting the formation of new blood vessels, which can help to accelerate the body's natural healing process."
+    body="Shockwave therapy is a cutting-edge non-invasive treatment that has proven to be effective in treating various musculoskeletal conditions, including chronic pain and injuries. If you're looking for a reliable shockwave therapy provider in Las Vegas, look no further than our clinic. Our experienced team of medical professionals is dedicated to delivering top-quality care that meets your unique needs. With the latest shockwave therapy technology and personalized treatment plans, we can help you get back to living your life pain-free."
     src={shockwave}
     height={400}
     width={400}
