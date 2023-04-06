@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function AboutHeroSection() {
@@ -27,15 +28,18 @@ function AboutHeroSection() {
     <div className="flex justify-center mt-10">
      <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-        <img
-         alt="Party"
-         src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-         className="absolute inset-0 object-cover w-full h-full"
+       <div className="relative overflow-hidden rounded-lg lg:order-last">
+        <Image
+         className=""
+         alt="banner"
+         src="/about-vegas-clinic1.jpg"
+         width={400}
+         height={600}
+         quality={100}
         />
        </div>
 
-       <article className="prose lg:text-xl lg:py-24">
+       <article className="prose lg:text-xl">
         <p className="text-justify">
          Welcome to the Vegas Clinic offering exceptional pain management,
          aesthetics, weight loss, and hormone therapies in Las Vegas. Our team
