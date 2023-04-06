@@ -33,7 +33,7 @@ function AboutSection() {
      <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
       <Image
        alt="Student"
-       src="/man-outdoors.jpg"
+       src="/run.jpg"
        className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
        height={300}
        width={250}
@@ -42,7 +42,7 @@ function AboutSection() {
 
       <Image
        alt="Student"
-       src="/happy-couple1.jpg"
+       src="/gentle.jpg"
        className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
        height={300}
        width={250}

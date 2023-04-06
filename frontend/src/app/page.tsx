@@ -7,7 +7,7 @@ import ServicesSection from "@/components/ServicesSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "The Vegas Clinic Homepage",
+ title: "The Vegas Clinic",
  description:
   "High tech treatment for pain, fibromyalgia, insomnia, numbness, memory, infections and wight loss.",
 };
