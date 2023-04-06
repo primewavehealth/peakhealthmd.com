@@ -100,23 +100,6 @@ function TeleHealth() {
        Dr. Acebedo specializes in Internal and integrative medicine.{" "}
       </p>
       <div className="flex justify-between w-full">
-       <div className="mt-4">
-        <Link
-         style={{ display: "block" }}
-         href="https://www.zocdoc.com/practice/prime-wave-77528"
-         className="zd-plugin"
-         data-type="book-button"
-         data-practice-id={77528}
-         title="Prime Wave"
-        >
-         <img
-          src="https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png"
-          alt="Prime Wave"
-          title="Prime Wave"
-          style={{ border: 0 }}
-         />
-        </Link>
-       </div>
        <Button
         href="https://www.cal.com/drerich"
         text="Schedule An Appointment"

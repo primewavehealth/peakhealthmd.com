@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Banner() {
  return (
-  <main className="bg-slate-50 isolate">
+  <main className="bg-blue-50 isolate">
    <div className="relative px-6 lg:px-8">
     <div className="hidden md:flex">
      <Image
