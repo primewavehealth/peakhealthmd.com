@@ -10,7 +10,7 @@ export const Integrative_Medicine = [
   name: "Erectile Dysfunction",
  },
  {
-  href: "#",
+  href: "/fibromyalgia-treatment-las-vegas",
   description: "",
   name: "Fibromyalgia",
  },
@@ -20,7 +20,7 @@ export const Integrative_Medicine = [
   name: "Stem Cells",
  },
  {
-  href: "#",
+  href: "/detox-therapy-las-vegas",
   description: "",
   name: "Detox Therapy",
  },
@@ -30,27 +30,27 @@ export const Integrative_Medicine = [
   name: "Immune system",
  },
  {
-  href: "#",
+  href: "/long-haul-covid-19-treatment",
   description: "",
   name: "Long Haul Covid",
  },
  {
-  href: "#",
+  href: "/chronic-fatigue-syndrome-las-vegas",
   description: "",
   name: "Fatigue",
  },
  {
-  href: "#",
+  href: "/immigration-physical-las-vegas",
   description: "",
   name: "Immigration Physical",
  },
  {
-  href: "#",
+  href: "/led-light-therapy-las-vegas",
   description: "",
-  name: "Red Blue Amber LED Light Treatment",
+  name: "Red Blue Amber LED Light Therapy",
  },
  {
-  href: "#",
+  href: "/shockwave-therapy-in-las-vegas",
   description: "",
   name: "Shock Wave Therapy",
  },
@@ -63,17 +63,17 @@ export const Integrative_Medicine = [
 
 export const Hormone_Therapy = [
  {
-  href: "#",
+  href: "/hormone-therapy-menopause-las-vegas",
   description: "",
   name: "Hormone Therapy for Menopause",
  },
  {
-  href: "#",
+  href: "/low-testosterone-treatment-las-vegas",
   description: "",
   name: "Low Testosterone Treatment",
  },
  {
-  href: "#",
+  href: "/peptide-therapy-las-vegas",
   description: "",
   name: "Peptide Therapy",
  },
@@ -86,12 +86,12 @@ export const Aesthetics = [
   name: "Plasma-Rich Platelet Facials",
  },
  {
-  href: "#",
+  href: "/mesotherapy-las-vegas",
   description: "",
   name: "MesoTherapy",
  },
  {
-  href: "#",
+  href: "/carboxytherapy-las-vegas",
   description: "",
   name: "CarboxyTherapy",
  },
@@ -99,17 +99,17 @@ export const Aesthetics = [
 
 export const Diet = [
  {
-  href: "#",
+  href: "/weight-loss-las-vegas",
   description: "",
   name: "Weight Loss",
  },
  {
-  href: "#",
+  href: "/weight-gain-las-vegas",
   description: "",
   name: "Weight Gain",
  },
  {
-  href: "#",
+  href: "/sleep-therapy-las-vegas",
   description: "",
   name: "Sleep Therapy",
  },

@@ -1,5 +1,12 @@
 import PageBanner from "@/components/UI/PageBanner";
+import type { Metadata } from "next";
 import weight from "/public/weight-gain-las-vegas.jpg";
+
+export const metadata: Metadata = {
+ title: "Weight Gain Program in Las Vegas",
+ description:
+  "Struggling to gain weight? Our customized weight gain service in Las Vegas can help you build muscle and achieve a healthy, balanced body composition.",
+};
 
 function page() {
  return (
@@ -10,7 +17,7 @@ function page() {
     src={weight}
     height={400}
     width={400}
-    alt="shockwave-therapy"
+    alt="weight gain las vegas"
     btn={{
      href: "/telehealth",
      text: "Schedule An Appointment",
