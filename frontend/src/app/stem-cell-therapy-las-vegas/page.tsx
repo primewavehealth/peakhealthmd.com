@@ -1,5 +1,12 @@
 import PageBanner from "@/components/UI/PageBanner";
+import type { Metadata } from "next";
 import stem from "/public/stem-cell-therapy-las-vegas.jpg";
+
+export const metadata: Metadata = {
+ title: "Stem cell Therapy in Las Vegas",
+ description:
+  "Discover the power of regenerative medicine with our cutting-edge stem cell therapies in Las Vegas, designed to help you heal faster and feel better than ever before.",
+};
 
 function page() {
  return (
