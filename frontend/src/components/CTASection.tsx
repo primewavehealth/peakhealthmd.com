@@ -8,9 +8,9 @@ function CTASection() {
      <div className="flex flex-wrap items-center -mx-4">
       <div className="w-full px-4 lg:w-1/2">
        <span className="mb-2 text-base font-semibold text-white">
-        We Spcialize in You
+        We Specialize in You
        </span>
-       <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+       <h2 className="mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
         Lets help you <br className="hidden xs:block" />
         Get Better
        </h2>

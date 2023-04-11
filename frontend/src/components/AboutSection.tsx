@@ -8,15 +8,14 @@ function AboutSection() {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="p-8 md:p-12 lg:px-16 lg:py-24">
       <div className="max-w-xl mx-auto text-center">
-       <h2 className="text-2xl font-bold text-white md:text-3xl">
+       <h2 className="mb-4 text-xl font-bold text-white md:text-3xl">
         The Vegas Clinic:&nbsp;&nbsp;Our Mission
        </h2>
 
-       <p className="hidden text-justify text-white/90 sm:mt-4 sm:block">
-        To provide quality health services and facilities for the community, to
-        promote wellness, to relieve suffering, and to restore health as
-        swiftly, safely, and humanely as it can be done, consistent with the
-        best service we can give at the highest value for all concerned.
+       <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
+        At the Vegas Clinic, we are dedicated to providing innovative,
+        evidence-based solutions that enhance the natural beauty and vitality of
+        our patients, while also improving their overall health and well-being.
        </p>
 
        <div className="mt-4 md:mt-8">

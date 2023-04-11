@@ -26,7 +26,7 @@ const features = [
   href: "/immigration-physical-las-vegas",
  },
  {
-  name: "Bio-Identical Hormone Therapy for Menopause",
+  name: "Hormone Therapy for Menopause",
   description:
    "Natural hormone therapy uses “bio-identical” hormones (just like you had when you were younger) and plant-based therapies to reverse bone loss, impaired sexual function and reduced stamina which often affects women later in life.",
   icon: ArrowPathIcon,
@@ -62,8 +62,7 @@ const features = [
   description:
    "Fibromyalgia is a chronic condition which can be difficult to diagnose. It affects mostly women than men. Symptoms include widespread pain, pain worsens with pressure, fatigue, insomnia, restless leg syndrome, numbness or tingling, foggy memory and vision problems.",
   icon: CloudArrowUpIcon,
-  image:
-   "https://img.freepik.com/free-photo/man-with-shoulder-pain_1368-9818.jpg?w=360&t=st=1678921196~exp=1678921796~hmac=d3e1b710cef2b8834b4734e8ee287157c0daf05d0b9382b010c6b8cd63bb2be3",
+  image: "/fibromayalgia.avif",
 
   href: "/fibromyalgia-treatment-las-vegas",
  },
@@ -73,15 +72,14 @@ const features = [
    "We offer advanced treatments like stem cell therapy to improve your quality of life and help you feel better sooner. From chronic pain to sports injuries and arthritis, you’d be surprised at the impressive and effective results of stem cell therapy.",
   icon: LockClosedIcon,
   image: "/stem.jpg",
-  href: "",
+  href: "/stem-cell-therapy-las-vegas",
  },
  {
   name: "Weight Loss",
   description:
    "If you’re ready to be at your ideal weight, our personalized weight loss plan can help you get there. Using a scientific medical weight loss approach that considers your specific body’s needs, we will guide you through a custom plan step-by-step, making sure you hit your goals.",
   icon: ArrowPathIcon,
-  image:
-   "https://img.freepik.com/free-photo/slim-tanned-woman-s-body-with-measure-tape_231208-10393.jpg?w=360&t=st=1678920868~exp=1678921468~hmac=8c49aeccc4b4bd8554b1d53bc3295c9b60d9b612f6d5d94eaa64bd93e5c7cbec",
+  image: "/weight-loss-lv.jpg",
   href: "/weight-loss-las-vegas",
  },
  {
@@ -106,7 +104,7 @@ const features = [
    "Your body goes through different phases during the different stages of sleep. Brain waves, eye movements, muscle tone, heart rate and breathing all change from stage to stage. By measuring these actions, our specially trained doctors can tell where there are problems and what is causing the problem.",
   icon: FingerPrintIcon,
   image: "/sleeping.jpg",
-  href: "",
+  href: "/sleep-therapy-las-vegas",
  },
  {
   name: "Carboxy Therapy",
@@ -114,25 +112,23 @@ const features = [
    "Carboxy therapy is used to treat a number of ailments that are believed to stem partially from poor blood circulation such as cellulite, dark under eye circles, and stretch marks. Carboxy therapy is a simple procedure that injects carbon dioxide gas to the treatment area to stimulate blood flow to improve the skin’s appearance and elasticity.",
   icon: FingerPrintIcon,
   image: "/carboxy.jpg",
-  href: "",
+  href: "/carboxytherapy-las-vegas",
  },
  {
   name: "MesoTherapy",
   description:
    "We practice the specialty of Medical Aesthetics because of the beautifying effects it has on the skin. Wrinkles, cellulite and skin rejuvenation are the most effective complaints successfully treated with Mesotherapy. The injectable as a combination with Botox for whole face treatment also reveals breathtaking results.",
   icon: ArrowPathIcon,
-  image:
-   "https://img.freepik.com/free-photo/photo-positive-smiling-woman-with-broad-charming-smile-dressed-casually-recreats-home-feels-relaxed-comfortable_273609-3203.jpg",
-  href: "",
+  image: "/mesotherapy-las-vegas.jpg",
+  href: "/mesotherapy-las-vegas",
  },
  {
   name: "Plasma-Rich Platelet Therapy",
   description:
    "Plasma-rich platelet (PRP) is one of the leading areas of regenerative medicine. It uses the body’s own cells to stimulate tissue growth. PRP therapy uses a high concentration of autologous platelets found in the patient’s own plasma.",
   icon: FingerPrintIcon,
-  image:
-   "https://img.freepik.com/free-photo/beautiful-adult-couple-spend-time-summer-field_1157-23546.jpg?w=996&t=st=1678919505~exp=1678920105~hmac=40463be0dfe1cc2a9a6506620fef80996055d200f69938c97359caddedd3e8b5",
-  href: "",
+  image: "/platelet-rich-plasma.jpg",
+  href: "/prp-facial-in-las-vegas",
  },
  {
   name: "Immigration Physical",
@@ -140,7 +136,7 @@ const features = [
    "We offer USCIS (U.S. Citizenship and Immigration Services) medical exams for obtaining an immigrant visa as typically required by United States.Our immigration doctors are here to provide compassionate care and analysis during your immigration physical.",
   icon: FingerPrintIcon,
   image: "/immigrants.jpg",
-  href: "",
+  href: "/immigration-physical-las-vegas",
  },
  {
   name: "Detox Diet",
@@ -151,13 +147,12 @@ const features = [
   href: "/detox-therapy-las-vegas",
  },
  {
-  name: "Brain Mapping",
+  name: "Shockwave Therapy",
   description:
-   "Would you like to develop deeper insight about your brain and its capacity? Are you wondering how you can optimize your brain’s performance? Would you like to improve your focus and decrease distractibility? Have you wondered if there were other tools to address anxiety, depression, and stress?",
+   "Shockwave therapy is a cutting-edge non-invasive treatment that has proven to be effective in treating various musculoskeletal conditions, including chronic pain and injuries. If you're looking for a reliable shockwave therapy provider in Las Vegas, look no further than our clinic.",
   icon: FingerPrintIcon,
-  image:
-   "https://img.freepik.com/free-photo/handsome-smiling-young-african-man_171337-9650.jpg?w=996&t=st=1678919820~exp=1678920420~hmac=cb90387c9dc15a3c227a56b427fd39b263af99cb1f1c035170e7ea908d040b8d",
-  href: "",
+  image: "/shock-wave-las-vegas.avif",
+  href: "/shockwave-therapy-in-las-vegas",
  },
 ];
 
@@ -169,7 +164,7 @@ const mobileData = [
   href: "/hormone-therapy-menopause-las-vegas",
  },
  {
-  name: "chronic Fatigue Syndrome",
+  name: "Chronic Fatigue Syndrome",
   href: "/chronic-fatigue-syndrome-las-vegas",
  },
  {
@@ -183,7 +178,7 @@ const mobileData = [
  { name: "Fibromyalgia", href: "/fibromyalgia-treatment-las-vegas" },
  { name: "Weight Loss", href: "/weight-loss-las-vegas" },
  { name: "Plasma-Rich Platelet Therapy", href: "/prp-facial-in-las-vegas" },
- { name: "detox-therapy-las-vegas", href: "/detox-therapy-las-vegas" },
+ { name: "Detox Therapy", href: "/detox-therapy-las-vegas" },
 ];
 function ServicesSection() {
  return (
@@ -225,9 +220,7 @@ function ServicesSection() {
        </div>
       ))}
      </div>
-     {/* <button className="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">
-      Schedule An Appointment
-     </button> */}
+
      <div className="text-center">
       <Button
        text="Request Consultation"
