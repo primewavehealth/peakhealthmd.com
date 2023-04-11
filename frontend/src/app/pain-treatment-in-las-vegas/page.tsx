@@ -9,7 +9,7 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "Affordable Pain Treatment in Las Vegas by Pain Treatment Specialists",
+ title: "Affordable Pain Treatment in Las Vegas",
  description:
   "Get Affordable Pain Treatment in Las Vegas.  Find lasting relief from chronic pain with help from our pain specialists at the premier pain treatment center in in Las Vegas.",
 };
@@ -31,7 +31,7 @@ function Pain() {
 
    <div className="grid grid-cols-1 lg:grid-cols-4">
     <article className="col-span-3 px-8 mx-auto prose bg-white lg:-mt-40 prose-slate lg:prose-lg">
-     <h1 className="pt-8 text-5xl font-bold leading-none text-blue-700 sm:text-6xl xl:max-w-3xl">
+     <h1 className="pt-8 text-2xl font-bold leading-none text-blue-700 lg:text-4xl xl:max-w-3xl">
       Pain Management
      </h1>
      <p className="lead">

@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "PRP Facial Rejuvination by PRP Specialists in Las Vegas",
+ title: "PRP Facial Rejuvenation by PRP Specialists in Las Vegas",
  description:
   "Get a youthful and radiant glow with PRP facials in Las Vegas - the natural and non-invasive way to boost collagen and rejuvenate your skin.",
 };
@@ -28,7 +28,7 @@ function page() {
 
       <div className="px-6 lg-px-0 lg:py-24">
        <h1 className="text-3xl font-bold sm:text-4xl">
-        Las Vegas PRP Facial Rejuvination.
+        Las Vegas PRP Facial rejuvenation.
        </h1>
 
        <p className="mt-4 text-justify">
@@ -90,11 +90,11 @@ function page() {
    <section className="text-black bg-zinc-50">
     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
      <div className="max-w-lg mx-auto text-center">
-      <h2 className="font-bold lg:text-3xl">PRP Facial Procedure</h2>
+      <h2>PRP Facial Procedure</h2>
 
       <p className="mt-4 text-lg">
        We have a proven process for our plasma rich platelet therapy for facial
-       rejuvination.
+       rejuvenation.
       </p>
      </div>
 
@@ -278,14 +278,14 @@ function page() {
    <section>
     <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:px-8">
      <div className="max-w-3xl pb-4 mx-auto">
-      <h2 className="text-3xl font-bold text-center sm:text-4xl">
+      <h2 className="px-6 text-2xl font-bold text-center sm:text-3xl">
        Who is a good candidate for a PRP facial?
       </h2>
      </div>
 
      <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
       <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-       <p className="max-w-lg mx-auto mb-8 text-lg text-justify lg:max-w-4xl">
+       <p className="max-w-lg px-6 mx-auto mb-8 text-lg text-justify lg:max-w-4xl">
         A PRP facial can benefit individuals who are looking to improve the
         appearance of their skin, particularly those with fine lines, wrinkles,
         sun damage, acne scarring, or uneven skin texture. It may also be a

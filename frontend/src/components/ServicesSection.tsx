@@ -190,11 +190,9 @@ function ServicesSection() {
       <h1 className="mb-4 text-2xl font-medium text-center text-gray-900 sm:text-3xl title-font">
        Our Specialties
       </h1>
-      <p className="px-4 mx-auto text-base leading-relaxed text-justify xl:w-2/4 lg:w-3/4">
-       From simple concerns to complex issues, our team of highly experienced
-       health professionals, are ready to attend to you. We offer a range of
-       therapies and treatments to keep you at full capacity so that you’re
-       ready to face the world.
+      <p className="px-4 mx-auto text-base leading-relaxed text-center xl:w-2/4 lg:w-3/4">
+       From traditional medical treatments to cutting-edge therapies, we offer a
+       holistic approach to enhance your well-being.
       </p>
      </div>
      <div className="flex flex-wrap -mx-2 lg:w-4/5 sm:mx-auto sm:mb-2">
@@ -205,9 +203,9 @@ function ServicesSection() {
           <svg
            fill="none"
            stroke="currentColor"
-           stroke-linecap="round"
-           stroke-linejoin="round"
-           stroke-width="3"
+           strokeLinecap="round"
+           strokeLinejoin="round"
+           strokeWidth="3"
            className="flex-shrink-0 w-6 h-6 mr-4 text-indigo-500"
            viewBox="0 0 24 24"
           >
@@ -250,11 +248,9 @@ function ServicesSection() {
      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
       Our Specialties
      </p>
-     <p className="py-4 mt-6 text-lg leading-8 text-justify text-gray-600">
-      From simple concerns to complex issues, our team of highly experienced
-      health professionals, are ready to attend to you. We offer a range of
-      therapies and treatments to keep you at full capacity so that you’re ready
-      to face the world.
+     <p className="py-4 mt-6 text-lg leading-8 text-center text-gray-600">
+      From traditional medical treatments to cutting-edge therapies, we offer a
+      holistic approach to enhance your well-being.
      </p>
     </div>
     <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-7xl">

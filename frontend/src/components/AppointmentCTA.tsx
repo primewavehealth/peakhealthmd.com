@@ -31,7 +31,7 @@ function AppointnmentCTA() {
     </svg>
    </div>
    <div className="flex-col font-bold text-center text-blue-700">
-    <p className="text-4xl">Request An Appointment</p>
+    <p className="text-2xl lg:text-4xl ">Request An Appointment</p>
     {/* <p>We are the Go to Pain Treatment Center in Las Vegas.</p> */}
    </div>
    <div className="flex justify-between text-2xl font-bold align-baseline">
@@ -48,7 +48,7 @@ function AppointnmentCTA() {
 
    <Link
     href="/telehealth"
-    className="inline-block px-6 py-4 my-1 mr-4 text-base font-medium text-white transition bg-blue-700 rounded animate-bounce hover:text-blue-200 md:px-9 lg:px-6 xl:px-9"
+    className="inline-block px-6 py-4 my-1 mr-4 text-base font-medium text-white transition bg-blue-700 rounded hover:text-blue-200 md:px-9 lg:px-6 xl:px-9"
    >
     FInd A Specialist
    </Link>
