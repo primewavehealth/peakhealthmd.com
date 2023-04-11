@@ -5,15 +5,24 @@ function AboutHeroSection() {
  return (
   <section className="bg-white dark:bg-gray-900">
    <div className="container px-4 py-8 mx-auto text-center sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-    <div className="max-w-2xl mx-auto">
+    <article className="max-w-5xl mx-auto prose">
      <h1 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
-      Our Commitment
+      Our Mission
      </h1>
-     <p className="px-4 py-8 mt-6 text-justify text-gray-500 lg:text-2xl dark:text-gray-300">
-      To provide quality health services and facilities for the community, to
-      promote wellness, to relieve suffering, and to restore health as swiftly,
-      safely, and humanely as it can be done, consistent with the best service
-      we can give at the highest value for all concerned.
+     <p className="px-4 py-5 mt-6 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
+      Our mission at the Vegas Clinic is to provide the highest quality
+      integrative medicine, aesthetics, and wellness services to our patients.
+      We believe that health and beauty are inseparable, and we are committed to
+      helping our patients achieve optimal health and vitality, inside and out.
+      <br />
+      Our goal is to empower our patients to take an active role in their own
+      health and well-being by providing personalized care and education that
+      addresses the root cause of their health concerns. We strive to create a
+      warm, welcoming environment that promotes healing and supports our
+      patients on their journey to wellness.
+      <br /> At the Vegas Clinic, we are dedicated to providing innovative,
+      evidence-based solutions that enhance the natural beauty and vitality of
+      our patients, while also improving their overall health and well-being.
      </p>
      <div className="mt-4 md:mt-8">
       <Link
@@ -23,12 +32,12 @@ function AboutHeroSection() {
        Get in Touch
       </Link>
      </div>
-    </div>
+    </article>
 
     <div className="flex justify-center mt-10">
      <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-       <div className="relative overflow-hidden rounded-lg lg:order-last">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
+       <div className="relative col-span-1 mt-12 overflow-hidden rounded-lg lg:order-last">
         <Image
          className=""
          alt="banner"
@@ -39,7 +48,10 @@ function AboutHeroSection() {
         />
        </div>
 
-       <article className="prose lg:text-xl">
+       <article className="col-span-2 prose lg:text-xl">
+        <h1 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
+         About Us
+        </h1>
         <p className="text-justify">
          Welcome to the Vegas Clinic offering exceptional pain management,
          aesthetics, weight loss, and hormone therapies in Las Vegas. Our team

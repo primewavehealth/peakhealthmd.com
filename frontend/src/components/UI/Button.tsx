@@ -29,6 +29,7 @@ const Button = ({
       "text-brand hover:bg-brand-light disabled:hover:bg-transparent",
      variant === "link" && "text-brand hover:underline disabled:no-underline"
     )}
+    id="text"
     {...props}
    >
     {text}
