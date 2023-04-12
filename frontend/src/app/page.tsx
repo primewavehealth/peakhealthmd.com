@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
  title: "The Vegas Clinic",
  description:
-  "High tech treatment for pain, fibromyalgia, insomnia, numbness, memory, infections and wight loss.",
+  "High tech treatment for pain, erectile dysfunction, infections and weight loss in Las Vegas.",
 };
 
 export default function Home() {

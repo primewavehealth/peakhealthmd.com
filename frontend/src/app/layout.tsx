@@ -16,11 +16,13 @@ const inter = Inter({
  variable: "--font-inter",
  display: "swap",
  weight: ["400", "700"],
+ subsets: ["latin"],
 });
 const open_Sans = Open_Sans({
  variable: "--font-open_Sans",
  display: "swap",
  weight: ["400", "600", "500", "700"],
+ subsets: ["latin"],
 });
 
 export default function RootLayout({
