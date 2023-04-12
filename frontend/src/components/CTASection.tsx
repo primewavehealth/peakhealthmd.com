@@ -7,25 +7,25 @@ function CTASection() {
     <div className="bg-primary relative z-10 overflow-hidden rounded py-6 px-8 md:p-[70px]">
      <div className="flex flex-wrap items-center -mx-4">
       <div className="w-full px-4 lg:w-1/2">
-       <span className="mb-2 text-base font-semibold text-white">
+       <span className="hidden mb-2 text-base font-semibold text-white md:block">
         We Specialize in You
        </span>
-       <h2 className="mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+       <h2 className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
         Lets help you <br className="hidden xs:block" />
-        Get Better
+        get better
        </h2>
       </div>
       <div className="w-full px-4 lg:w-1/2">
-       <div className="flex flex-wrap lg:justify-end">
+       <div className="flex flex-wrap justify-center lg:justify-end">
         <Link
          href="/telehealth"
-         className="hover:text-primary my-1 mr-4 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
+         className="hover:text-primary my-1 mr-4 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-2 lg:py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
         >
          FInd A Specialist
         </Link>
         <Link
          href="/contact"
-         className="my-1 inline-block rounded bg-[#13C296] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
+         className="my-1 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-2 lg:py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
         >
          Contact Us
         </Link>

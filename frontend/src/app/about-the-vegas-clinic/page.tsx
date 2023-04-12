@@ -62,10 +62,15 @@ function About() {
          About Us
         </h1>
         <p className="text-justify">
-         Welcome to the Vegas Clinic offering exceptional pain management,
-         aesthetics, weight loss, and hormone therapies in Las Vegas. Our team
-         of experienced medical professionals is dedicated to providing the
-         highest quality care to help you achieve optimal health and wellness.
+         Welcome to the <Link href="/">Vegas Clinic</Link>. We offer exceptional{" "}
+         <Link href="/pain-treatment-in-las-vegas">pain management</Link>,{" "}
+         aesthetics, <Link href="/weight-loss-las-vegas">weight loss</Link>, and{" "}
+         <Link href="/hormone-therapy-menopause-las-vegas">
+          hormone therapies
+         </Link>{" "}
+         in Las Vegas. Our team of experienced medical professionals is
+         dedicated to providing the highest quality care to help you achieve
+         optimal health and wellness.
         </p>
         <p className="text-justify">
          At our clinic, we understand that pain can be debilitating, and that's
@@ -76,8 +81,11 @@ function About() {
         <p className="text-justify">
          In addition to pain management, we also offer a range of aesthetics
          services to help you look and feel your best. Whether you're interested
-         in Botox, fillers, or other cosmetic treatments, our team can help you
-         achieve your desired results.
+         in <Link href="/prp-facial-in-las-vegas">facials</Link>,{" "}
+         <Link href="/carboxytherapy-las-vegas">carboxytherapy</Link>,{" "}
+         <Link href="/mesotherapy-las-vegas"> mesotherapy</Link>, or other
+         cosmetic treatments, our team can help you achieve your desired
+         results.
         </p>{" "}
         <p className="text-justify">
          For those looking to lose weight, we offer a variety of weight loss
@@ -86,10 +94,16 @@ function About() {
          plan that fits your lifestyle and goals.
         </p>{" "}
         <p className="text-justify">
-         We also specialize in hormone therapies, helping patients manage
-         hormonal imbalances that can lead to a range of health issues. Our
-         hormone therapy program is designed to help balance hormones and
-         improve overall health and wellbeing.
+         We also specialize in{" "}
+         <Link href="/peptide-therapy-las-vegas">hormone therapies</Link>,
+         helping patients manage hormonal imbalances that can lead to a range of
+         health issues. Our hormone therapy program is designed to help balance
+         hormones and improve overall health and wellbeing.For men experiencing
+         low testosterone levels, we provide safe and{" "}
+         <Link href="/low-testosterone-treatment-las-vegas">
+          effective low testosterone treatment
+         </Link>{" "}
+         options.
         </p>{" "}
         <p className="text-justify">
          At our clinic, we pride ourselves on providing compassionate,
@@ -99,10 +113,21 @@ function About() {
          best possible care.
         </p>{" "}
         <p className="text-justify">
-         If you're looking for a medical service offering exceptional pain
-         management, aesthetics, weight loss, and hormone therapies in Las
-         Vegas, look no further. Contact us today to schedule your consultation
-         and take the first step towards a healthier, happier you.
+         At our medical practice, we prioritize your overall health and
+         wellbeing. We offer a range of wellness programs tailored to meet your
+         specific needs, including{" "}
+         <Link href="/sleep-therapy-las-vegas">sleep therapy</Link>,{" "}
+         <Link href="/detox-therapy-las-vegas">detox therapy</Link>,{" "}
+         <Link href="/weight-loss-las-vegas">weight gain</Link>,{" "}
+         <Link href="/shockwave-therapy-in-las-vegas">shockwave therapy</Link>.{" "}
+         Our sleep therapy program is designed to improve the quality of your
+         sleep, while our detox therapy program helps to cleanse your body of
+         harmful toxins. For those looking to gain weight in a healthy way, our
+         weight gain program can provide guidance and support. We also offer
+         shockwave therapy for those dealing with pain or injury. Our team of
+         experts is committed to helping you achieve your health goals, so
+         contact us today to learn more about how our wellness programs can
+         benefit you.
         </p>
        </article>
       </div>
