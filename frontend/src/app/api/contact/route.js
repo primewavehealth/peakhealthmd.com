@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
 
-export default async function POST(request) {
+export async function POST(request) {
  const data = request.body;
  if (
   !data ||
@@ -52,7 +52,6 @@ export default async function POST(request) {
   });
 
   return new Response.json({ success: true });
-  console.log(data);
  } catch (err) {
   console.log(err);
   return new Response.json({ message: err.message });

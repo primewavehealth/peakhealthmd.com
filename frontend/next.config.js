@@ -6,7 +6,6 @@ const nextConfig = {
  },
  reactStrictMode: true,
  images: {
-  loader: "default",
   domains: ["images.unsplash.com", "img.freepik.com"],
   formats: ["image/avif", "image/webp"],
  },
