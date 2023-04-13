@@ -25,8 +25,7 @@ export default async function sitemap() {
   "/weight-loss-las-vegas",
  ].map((route) => ({
   url: `https://vegasclinic.com${route}`,
-  lastModified: new Date().toISOString(),
-  priority: "1",
+  lastModified: new Date().toISOString().split("T")[0],
  }));
 
  return [...routes];
