@@ -4,10 +4,10 @@ import Link from "next/link";
 function Banner() {
  return (
   <main className="bg-blue-50 isolate">
-   <div className="px-6  lg:px-8">
+   <div className="relative px-6 lg:px-8">
     <div className="hidden md:flex">
      <Image
-      className="object-cover bg-center bg-no-repeat bg-contain  -z-10"
+      className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain -z-10"
       alt="banner"
       src="/vegas-clinic.jpg"
       sizes="(max-width: 768px) 100vw,
