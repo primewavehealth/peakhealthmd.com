@@ -4,8 +4,6 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
  title: "Wellness Medical Center in Las Vegas",
- description:
-  "Take charge of your health and wellness with our comprehensive medical services in Las Vegas - our expert team can help you achieve your health goals and improve your overall well-being.",
 };
 
 function About() {
@@ -62,7 +60,11 @@ function About() {
          About Us
         </h1>
         <p className="text-justify">
-         Welcome to the <Link href="/">Vegas Clinic</Link>. We offer exceptional{" "}
+         Welcome to the{" "}
+         <Link href="/" target="_blank">
+          Vegas Clinic
+         </Link>
+         . We offer exceptional{" "}
          <Link href="/pain-treatment-in-las-vegas">pain management</Link>,{" "}
          aesthetics, <Link href="/weight-loss-las-vegas">weight loss</Link>, and{" "}
          <Link href="/hormone-therapy-menopause-las-vegas">
