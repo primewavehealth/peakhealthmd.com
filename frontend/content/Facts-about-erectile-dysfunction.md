@@ -1,7 +1,7 @@
 ---
 title: "Facts about Erectile Dysfunction"
 date: "2023-04-19"
-description: "Learn about important facts about erectile dysfunction"
+description: "Learn about important facts including key stats about erectile dysfunction."
 category: "Mens Health"
 image: "/images/erectile-dysfunction-las-vegas.jpg"
 ---
