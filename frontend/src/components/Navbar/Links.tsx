@@ -71,6 +71,11 @@ export const Aesthetics = [
   description: "",
   name: "CarboxyTherapy",
  },
+ {
+  href: "https://www.bold3dbrows.com/",
+  description: "",
+  name: "Bold3DBrows",
+ },
 ];
 
 export const Wellness = [
@@ -87,7 +92,7 @@ export const Wellness = [
  {
   href: "/sleep-therapy-las-vegas",
   description: "",
-  name: "Sleep Therapy",
+  name: "Sleep Study & Sleep Therapy",
  },
  {
   href: "/detox-therapy-las-vegas",

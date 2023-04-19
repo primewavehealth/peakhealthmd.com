@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import peptide from "/public/peptide.jpg";
+import peptide from "/public/images/peptide.jpg";
 
 export const metadata: Metadata = {
  title: "Peptide Therapy in Las Vegas",

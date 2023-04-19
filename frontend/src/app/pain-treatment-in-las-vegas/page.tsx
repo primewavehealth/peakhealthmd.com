@@ -18,7 +18,7 @@ function Pain() {
  return (
   <div>
    <header className="">
-    <div className="bg-[url(/pain1.jpg)] bg-center bg-no-repeat bg-cover container flex flex-col items-center px-4 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+    <div className="bg-[url(/images/pain1.jpg)] bg-center bg-no-repeat bg-cover container flex flex-col items-center px-4 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
      {/* <Image
       className="absolute inset-0 bg-center bg-no-repeat bg-cover"
       alt="banner"     

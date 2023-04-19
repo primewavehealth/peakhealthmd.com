@@ -1,5 +1,5 @@
 import PageBanner from "@/components/UI/PageBanner";
-import detox from "/public/detox-therapy-las-vegas.jpg";
+import detox from "/public/images/detox-therapy-las-vegas.jpg";
 
 import type { Metadata } from "next";
 

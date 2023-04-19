@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import mesotherapy from "/public/mesotherapy-las-vegas.jpg";
+import mesotherapy from "/public/images/mesotherapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Mesotherapy in Las Vegas",

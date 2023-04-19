@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import low from "public/low-testosterone-lasvegas.jpg";
+import low from "public/images/low-testosterone-lasvegas.jpg";
 
 export const metadata: Metadata = {
  title: "Affordable Low Testosterone Treatment in Las Vegas",

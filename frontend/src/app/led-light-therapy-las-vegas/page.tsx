@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import led from "/public/led-light-therapy.jpg";
+import led from "/public/images/led-light-therapy.jpg";
 
 export const metadata: Metadata = {
  title: "LED Light Therapy in Las Vegas",

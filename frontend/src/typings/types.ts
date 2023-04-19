@@ -22,3 +22,9 @@ export interface PageBannerInterface {
  body: string;
  btn: ButtonInterface;
 }
+
+export type BlogPost = {
+ id: string;
+ title: string;
+ date: string;
+};

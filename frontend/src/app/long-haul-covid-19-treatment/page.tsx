@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import covid from "/public/covid-virus.jpg";
+import covid from "/public/images/covid-virus.jpg";
 
 export const metadata: Metadata = {
  title: "Long haul COVID 19 Treatment in Las Vegas",

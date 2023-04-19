@@ -1,4 +1,12 @@
+import { getSortedPostsData } from "@/lib/posts";
+
 export default async function sitemap() {
+ const posts = getSortedPostsData();
+ const blogs = posts.map((post) => ({
+  url: `https://vegasclinic.com/blog/${post.id}`,
+  lastModified: post.date,
+ }));
+
  const routes = [
   "",
   "/about-the-vegas-clinic",
@@ -28,5 +36,5 @@ export default async function sitemap() {
   lastModified: new Date().toISOString().split("T")[0],
  }));
 
- return [...routes];
+ return [...routes, ...blogs];
 }

@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import immigrants from "/public/immigrants.jpg";
+import immigrants from "/public/images/immigrants.jpg";
 
 export const metadata: Metadata = {
  title: "Immigration Physical services in Las Vegas",
