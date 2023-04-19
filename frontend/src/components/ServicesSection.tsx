@@ -14,7 +14,7 @@ const features = [
   description:
    "Peptide therapy, or the use of specific peptides in treatment, has gained great popularity in recent years. This is due largely to the fact that these peptides are highly specific (i.e.,only do what you want them to do) while also being well-tolerated and safe.",
   icon: CloudArrowUpIcon,
-  image: "/peptide.avif",
+  image: "/images/peptide.avif",
   href: "/peptide-therapy-las-vegas",
  },
  {
@@ -22,7 +22,7 @@ const features = [
   description:
    "Strengthen your immune system. Whether you’re looking to boost your immunity and stay ahead of seasonal illnesses or you’re recovering from an injury, immune support boosting treatment may be a great option.",
   icon: LockClosedIcon,
-  image: "/leaves.avif",
+  image: "/images/leaves.avif",
   href: "/immigration-physical-las-vegas",
  },
  {
@@ -30,7 +30,7 @@ const features = [
   description:
    "Natural hormone therapy uses “bio-identical” hormones (just like you had when you were younger) and plant-based therapies to reverse bone loss, impaired sexual function and reduced stamina which often affects women later in life.",
   icon: ArrowPathIcon,
-  image: "/menopause.jpg",
+  image: "/images/menopause.jpg",
   href: "/hormone-therapy-menopause-las-vegas",
  },
  {
@@ -38,7 +38,7 @@ const features = [
   description:
    "Chronic fatigue syndrome (CFS) is characterized by profound tiredness, regardless of bed rest. Its symptoms may worsen with physical or mental activity. There are many causes of CFS ranging from food sensitivity, hormonal imbalances, vitamin deficiencies, endocannabinoid system deficiency and chronic infections or toxicity.",
   icon: FingerPrintIcon,
-  image: "/fatigue.avif",
+  image: "/images/fatigue.avif",
   href: "/chronic-fatigue-syndrome-las-vegas",
  },
  {
@@ -46,7 +46,7 @@ const features = [
   description:
    "Testosterone replacement therapy (TRT) can help increase low testosterone levels in your body to normal, healthy ranges. Our team diagnoses and treats low testosterone along with other health conditions. Customized treatment plans from our team at Low T Center are customized to each patient’s specific needs.",
   icon: ArrowPathIcon,
-  image: "/test.avif",
+  image: "/images/test.avif",
   href: "/low-testosterone-treatment-las-vegas",
  },
  {
@@ -54,7 +54,7 @@ const features = [
   description:
    "Some will develop chronic, lingering symptoms for more than 4 weeks after the initial infection. Symptoms will range from shortness of breath, brain fog, fatigue, dizziness and loss of smell or taste. For those suffering from this condition, we can help you by using acombination of supplements and medications to help you recover.",
   icon: FingerPrintIcon,
-  image: "/covid.jpg",
+  image: "/images/covid.jpg",
   href: "/long-haul-covid-19-treatment",
  },
  {
@@ -62,7 +62,7 @@ const features = [
   description:
    "Fibromyalgia is a chronic condition which can be difficult to diagnose. It affects mostly women than men. Symptoms include widespread pain, pain worsens with pressure, fatigue, insomnia, restless leg syndrome, numbness or tingling, foggy memory and vision problems.",
   icon: CloudArrowUpIcon,
-  image: "/fibromayalgia.avif",
+  image: "/images/fibromayalgia.avif",
 
   href: "/fibromyalgia-treatment-las-vegas",
  },
@@ -71,7 +71,7 @@ const features = [
   description:
    "We offer advanced treatments like stem cell therapy to improve your quality of life and help you feel better sooner. From chronic pain to sports injuries and arthritis, you’d be surprised at the impressive and effective results of stem cell therapy.",
   icon: LockClosedIcon,
-  image: "/stem.jpg",
+  image: "/images/stem.jpg",
   href: "/stem-cell-therapy-las-vegas",
  },
  {
@@ -79,7 +79,7 @@ const features = [
   description:
    "If you’re ready to be at your ideal weight, our personalized weight loss plan can help you get there. Using a scientific medical weight loss approach that considers your specific body’s needs, we will guide you through a custom plan step-by-step, making sure you hit your goals.",
   icon: ArrowPathIcon,
-  image: "/weight-loss-lv.jpg",
+  image: "/images/weight-loss-lv.jpg",
   href: "/weight-loss-las-vegas",
  },
  {
@@ -87,7 +87,7 @@ const features = [
   description:
    "While our culture places immense value on thinness, the prevalence of those who are underweight is a significant public health issue. There are a number of reasons people can be underweight, including genetics and fast metabolism, and underlying medical conditions such as thyroid problems or cancer.",
   icon: FingerPrintIcon,
-  image: "/weight-gain.jpg",
+  image: "/images/weight-gain.jpg",
   href: "/weight-gain-las-vegas",
  },
  {
@@ -95,7 +95,7 @@ const features = [
   description:
    "We understands a life of pain is not a quality a life. Our continual goal is to understand our patients, and their needs. By doing so, we exceed the highest standards in Pain Management by providing optimal, thorough, and compassionate medical care to our patients",
   icon: ArrowPathIcon,
-  image: "/pain.jpg",
+  image: "/images/pain.jpg",
   href: "/pain-treatment-in-las-vegas",
  },
  {
@@ -103,7 +103,7 @@ const features = [
   description:
    "Your body goes through different phases during the different stages of sleep. Brain waves, eye movements, muscle tone, heart rate and breathing all change from stage to stage. By measuring these actions, our specially trained doctors can tell where there are problems and what is causing the problem.",
   icon: FingerPrintIcon,
-  image: "/sleeping.jpg",
+  image: "/images/sleeping.jpg",
   href: "/sleep-therapy-las-vegas",
  },
  {
@@ -111,7 +111,7 @@ const features = [
   description:
    "Carboxy therapy is used to treat a number of ailments that are believed to stem partially from poor blood circulation such as cellulite, dark under eye circles, and stretch marks. Carboxy therapy is a simple procedure that injects carbon dioxide gas to the treatment area to stimulate blood flow to improve the skin’s appearance and elasticity.",
   icon: FingerPrintIcon,
-  image: "/carboxy.jpg",
+  image: "/images/carboxy.jpg",
   href: "/carboxytherapy-las-vegas",
  },
  {
@@ -119,7 +119,7 @@ const features = [
   description:
    "We practice the specialty of Medical Aesthetics because of the beautifying effects it has on the skin. Wrinkles, cellulite and skin rejuvenation are the most effective complaints successfully treated with Mesotherapy. The injectable as a combination with Botox for whole face treatment also reveals breathtaking results.",
   icon: ArrowPathIcon,
-  image: "/mesotherapy-las-vegas.jpg",
+  image: "/images/mesotherapy-las-vegas.jpg",
   href: "/mesotherapy-las-vegas",
  },
  {
@@ -127,7 +127,7 @@ const features = [
   description:
    "Plasma-rich platelet (PRP) is one of the leading areas of regenerative medicine. It uses the body’s own cells to stimulate tissue growth. PRP therapy uses a high concentration of autologous platelets found in the patient’s own plasma.",
   icon: FingerPrintIcon,
-  image: "/platelet-rich-plasma.jpg",
+  image: "/images/platelet-rich-plasma.jpg",
   href: "/prp-facial-in-las-vegas",
  },
  {
@@ -135,7 +135,7 @@ const features = [
   description:
    "We offer USCIS (U.S. Citizenship and Immigration Services) medical exams for obtaining an immigrant visa as typically required by United States.Our immigration doctors are here to provide compassionate care and analysis during your immigration physical.",
   icon: FingerPrintIcon,
-  image: "/immigrants.jpg",
+  image: "/images/immigrants.jpg",
   href: "/immigration-physical-las-vegas",
  },
  {
@@ -143,7 +143,7 @@ const features = [
   description:
    "We blend into the environment which you are living and observe the triggers and cues that may cause use and relapse. We can advise the client on potential changes in his or her living environment that may assist in sustaining recovery..",
   icon: ArrowPathIcon,
-  image: "/detox.jpg",
+  image: "/images/detox.jpg",
   href: "/detox-therapy-las-vegas",
  },
  {
@@ -151,7 +151,7 @@ const features = [
   description:
    "Shockwave therapy is a cutting-edge non-invasive treatment that has proven to be effective in treating various musculoskeletal conditions, including chronic pain and injuries. If you're looking for a reliable shockwave therapy provider in Las Vegas, look no further than our clinic.",
   icon: FingerPrintIcon,
-  image: "/shock-wave-las-vegas.avif",
+  image: "/images/shock-wave-las-vegas.avif",
   href: "/shockwave-therapy-in-las-vegas",
  },
 ];
@@ -267,9 +267,6 @@ function ServicesSection() {
          width={450}
          height={500}
          quality={100}
-         //  sizes="(max-width: 768px) 100vw,
-         //       (max-width: 1200px) 50vw,
-         //       33vw"
         />
         <div className="absolute px-4 py-2 bg-gray-800 bottom-10 left-5 right-5 opacity-70">
          <h3 className="text-xl font-bold text-center text-white">
