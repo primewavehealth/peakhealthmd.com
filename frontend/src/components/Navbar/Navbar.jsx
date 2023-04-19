@@ -41,7 +41,7 @@ export default function Example() {
       <span className="sr-only">Vegas Clinic</span>
       <Image
        className="w-auto h-8"
-       src="/logo.webp"
+       src="/images/logo.webp"
        alt="logo"
        width="200"
        height="200"
@@ -329,7 +329,7 @@ export default function Example() {
        <span className="sr-only"></span>
        <Image
         className="w-auto h-8"
-        src="/logo.webp"
+        src="/images/logo.webp"
         alt="logo"
         width="150"
         height="100"
