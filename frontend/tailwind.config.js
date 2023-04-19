@@ -5,6 +5,7 @@ module.exports = {
   "./app/**/*.{js,ts,jsx,tsx}",
   "./pages/**/*.{js,ts,jsx,tsx}",
   "./components/**/*.{js,ts,jsx,tsx}",
+  "./content/**/*.md",
 
   // Or if using `src` directory:
   "./src/**/*.{js,ts,jsx,tsx}",
@@ -16,7 +17,6 @@ module.exports = {
    },
    fontFamily: {
     sans: ["var(--font-inter)"],
-    serif: ["var(--font-open_Sans)"],
    },
    visibility: ["group-hover"],
   },

@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import weight from "/public/weight-gain-las-vegas.jpg";
+import weight from "/public/images/weight-gain-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Weight Gain Program in Las Vegas",

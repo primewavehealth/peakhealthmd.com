@@ -1,5 +1,5 @@
 import PageBanner from "@/components/UI/PageBanner";
-import led from "/public/led-light-therapy.jpg";
+import led from "/public/images/led-light-therapy.jpg";
 
 import type { Metadata } from "next";
 

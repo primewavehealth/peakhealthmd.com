@@ -3,7 +3,7 @@ import PageCTA from "@/components/PageCTA";
 import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import ed from "/public/erectile-dysfunction-las-vegas.jpg";
+import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Affordable Erectile Dysfunction Treatment in Las Vegas",

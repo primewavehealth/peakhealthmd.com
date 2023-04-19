@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import sleep from "/public/sleep-therapy-las-vegas.jpg";
+import sleep from "/public/images/sleep-therapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Sleep Therapy in Las Vegas",

@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import menopause from "/public/menopause-las-vegas.jpg";
+import menopause from "/public/images/menopause-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Hormone Therapy for Menopause in Las Vegas",

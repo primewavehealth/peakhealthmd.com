@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+ pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
  experimental: {
   appDir: true,
+  mdxRs: true,
  },
  reactStrictMode: true,
  images: {
@@ -14,6 +16,15 @@ const nextConfig = {
    {
     source: "/(.*)",
     headers: securityHeaders,
+   },
+  ];
+ },
+ async redirects() {
+  return [
+   {
+    source: "/about",
+    destination: "/about-the-vegas-clinic",
+    permanent: true,
    },
   ];
  },

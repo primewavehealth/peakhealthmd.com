@@ -19,7 +19,7 @@ function page() {
       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
        <Image
         alt="facial"
-        src="/prp_facials.avif"
+        src="/images/prp_facials.avif"
         className="absolute inset-0 object-contain w-full h-full"
         width={450}
         height={450}

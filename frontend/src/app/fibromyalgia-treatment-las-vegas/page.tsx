@@ -1,5 +1,5 @@
 import PageBanner from "@/components/UI/PageBanner";
-import fibromyalgia from "/public/fibromyalgia-las-vegas.jpg";
+import fibromyalgia from "/public/images/fibromyalgia-las-vegas.jpg";
 
 import type { Metadata } from "next";
 

@@ -39,7 +39,7 @@ function TeleHealth() {
        Dr. Ingham is our Chief medical director. She specializes in internal
        medicine.{" "}
       </p>
-      <div className="flex justify-between w-full">
+      <div className="flex flex-col justify-between w-full lg:flex-row">
        <div className="mt-4">
         <Link
          style={{ display: "block" }}
@@ -80,7 +80,7 @@ function TeleHealth() {
        width={450}
        height={450}
        alt="profile-photo"
-       src="/drmaxine.webp"
+       src="/images/drmaxine.webp"
       />
      </div>
     </div>
@@ -93,13 +93,30 @@ function TeleHealth() {
       </h2>
       <h1 className="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font">
        {" "}
-       Dr. Erich Acebedo{" "}
+       Dr. Alton Walters{" "}
       </h1>
       <p className="mb-8 text-base leading-relaxed text-left text-blueGray-600 ">
        {" "}
-       Dr. Acebedo specializes in Internal and integrative medicine.{" "}
+       Dr. Walters specializes in Internal and integrative medicine.{" "}
       </p>
-      <div className="flex justify-between w-full">
+      <div className="flex flex-col justify-between w-full lg:flex-row">
+       <div className="mt-4">
+        <Link
+         style={{ display: "block" }}
+         href="https://www.zocdoc.com/practice/prime-wave-77528"
+         className="zd-plugin"
+         data-type="book-button"
+         data-practice-id={77528}
+         title="Prime Wave"
+        >
+         <img
+          src="https://offsiteSchedule.zocdoc.com/images/remote/zd_bookonline_162x48.png"
+          alt="Prime Wave"
+          title="Prime Wave"
+          style={{ border: 0 }}
+         />
+        </Link>
+       </div>
        <Button
         href="https://www.cal.com/drerich"
         text="Schedule An Appointment"
@@ -123,7 +140,7 @@ function TeleHealth() {
        width={450}
        height={450}
        alt="profile-photo"
-       src="/dracebedo.webp"
+       src="/images/walters.png"
       />
      </div>
     </div>

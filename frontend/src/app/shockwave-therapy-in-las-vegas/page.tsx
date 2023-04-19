@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import shockwave from "/public/shockwave-therapy-las-vegas.jpg";
+import shockwave from "/public/images/shockwave-therapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Shock Wave Therapy in Las Vegas",

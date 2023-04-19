@@ -1,5 +1,5 @@
 import PageBanner from "@/components/UI/PageBanner";
-import carboxy from "public/carboxytherapy-las-vegas.jpg";
+import carboxy from "public/images/carboxytherapy-las-vegas.jpg";
 
 import type { Metadata } from "next";
 

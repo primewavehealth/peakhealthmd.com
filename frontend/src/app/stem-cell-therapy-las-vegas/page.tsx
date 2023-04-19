@@ -1,6 +1,6 @@
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import stem from "/public/stem-cell-therapy-las-vegas.jpg";
+import stem from "/public/images/stem-cell-therapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Stem cell Therapy in Las Vegas",
