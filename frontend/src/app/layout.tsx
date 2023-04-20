@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
-import { Analytics } from "@vercel/analytics/react";
+import CookieBanner from "@/components/cookiebanner";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -59,13 +60,14 @@ export default function RootLayout({
     inter.variable
    )}
   >
+   <GoogleAnalytics GA_MEASUREMENT_ID="G-NK876YYXRX" />
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
      <Navbar />
      {children}
      <Footer />
-     <Analytics />
     </main>
+    <CookieBanner />
    </body>
   </html>
  );
