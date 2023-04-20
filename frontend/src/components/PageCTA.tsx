@@ -34,7 +34,7 @@ function PageCTA() {
     </div>
     <div className="p-4 mx-auto">
      <Image
-      src="/happy-man.avif"
+      src="/images/happy-man.avif"
       className="bg-cover "
       width={350}
       height={350}
