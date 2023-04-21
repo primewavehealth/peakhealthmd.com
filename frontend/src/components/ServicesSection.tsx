@@ -187,9 +187,9 @@ function ServicesSection() {
    <div className="text-gray-600 md:hidden body-font">
     <div className="container px-5 py-16 mx-auto">
      <div className="mb-20 text-center">
-      <h1 className="mb-4 text-2xl font-medium text-center text-gray-900 sm:text-3xl title-font">
+      <p className="mb-4 text-2xl font-medium text-center text-gray-900 sm:text-3xl title-font">
        Our Specialties
-      </h1>
+      </p>
       <p className="px-4 mx-auto text-base leading-relaxed text-center xl:w-2/4 lg:w-3/4">
        From traditional medical treatments to cutting-edge therapies, we offer a
        holistic approach to enhance your well-being.

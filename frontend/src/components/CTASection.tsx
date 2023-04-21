@@ -10,10 +10,10 @@ function CTASection() {
        <span className="hidden mb-2 text-base font-semibold text-white md:block">
         We Specialize in You
        </span>
-       <h2 className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+       <p className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
         Lets help you <br className="hidden xs:block" />
         get better
-       </h2>
+       </p>
       </div>
       <div className="w-full px-4 lg:w-1/2">
        <div className="flex flex-wrap justify-center lg:justify-end">
