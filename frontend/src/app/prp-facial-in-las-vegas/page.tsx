@@ -28,7 +28,7 @@ function page() {
 
       <div className="px-6 lg-px-0 lg:py-24">
        <h1 className="text-3xl font-bold sm:text-4xl">
-        Las Vegas PRP Facial rejuvenation.
+        Las Vegas PRP Facial Rejuvenation.
        </h1>
 
        <p className="mt-4 text-justify">
