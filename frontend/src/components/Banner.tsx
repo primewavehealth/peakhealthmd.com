@@ -9,12 +9,8 @@ function Banner() {
      <Image
       className="absolute inset-0 object-cover bg-center bg-no-repeat bg-contain -z-10"
       alt="banner"
-      src="/images/vegas-clinic.jpg"
-      sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
+      src="/images/vegas-clinic.png"
       fill
-      quality={100}
      />
     </div>
 

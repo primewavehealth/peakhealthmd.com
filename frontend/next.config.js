@@ -26,6 +26,11 @@ const nextConfig = {
     destination: "/about-the-vegas-clinic",
     permanent: true,
    },
+   {
+    source: "/pain_treatment_lv",
+    destination: "/pain-treatment-in-las-vegas",
+    permanent: true,
+   },
   ];
  },
 };
