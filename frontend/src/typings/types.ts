@@ -28,3 +28,11 @@ export type BlogPost = {
  title: string;
  date: string;
 };
+
+export interface CTA {
+ image?: string;
+ heading: string;
+ subheading?: string;
+ body: string;
+ btn: ButtonInterface;
+}

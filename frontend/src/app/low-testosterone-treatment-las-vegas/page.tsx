@@ -1,3 +1,4 @@
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import low from "public/images/low-testosterone-lasvegas.jpg";
@@ -104,7 +105,7 @@ If you're experiencing symptoms of low testosterone, such as fatigue, decreased 
 
    {/* next section */}
    <section className="px-6 pt-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-3xl md:px-24 lg:px-8 ">
-    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
      <h2 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
       What is Testosterone Replacement Therapy and its Benefits?
      </h2>
@@ -127,16 +128,42 @@ If you're experiencing symptoms of low testosterone, such as fatigue, decreased 
     </div>
    </section>
 
-   <blockquote className="max-w-3xl px-8 py-8 mx-auto">
+   <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
     <span className="py-10">
      {" "}
      <span className="text-lg font-bold">We are the destination for</span>{" "}
      <span className="relative inline-block px-2">
       <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
-      <h3 className="relative text-white">Men’s Health in Las Vegas, Nevada</h3>
+      <h3 className="relative py-3 text-white">
+       Men’s Health in Las Vegas, Nevada
+      </h3>
      </span>
     </span>
    </blockquote>
+   <CTA
+    heading="Comprehensive Testosterone Treatment for Men in Las Vegas"
+    body="If you're experiencing symptoms of low testosterone, The Vegas Clinic can help. We are a leading trt clinic in Las Vegas. Our experienced board certified doctors provide comprehensive testing and customized treatment plans to help you feel your best. We understand the impact that low testosterone can have on your quality of life, including decreased energy, decreased muscle mass, and decreased libido. That's why we offer a range of treatment options, including testosterone replacement therapy, to help you regain your vitality and confidence. Don't let low testosterone hold you back - contact us today to schedule a consultation and start feeling like yourself again."
+    src="/images/happy-man.avif"
+    alt="low-testosterone-treatment-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }
