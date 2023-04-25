@@ -1,3 +1,4 @@
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import sleep from "/public/images/sleep-therapy-las-vegas.jpg";
@@ -131,7 +132,7 @@ function page() {
      </div>
     </div>
    </section>
-   <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto">
+   <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto text-center">
     <span className="py-10">
      {" "}
      <span className="text-lg font-bold">We are the</span>{" "}
@@ -143,6 +144,30 @@ function page() {
      </span>
     </span>
    </blockquote>
+   <CTA
+    heading=" Comprehensive Sleep Therapy  in Las Vegas"
+    body="If you're struggling with sleep problems, The Vegas Clinic offers comprehensive sleep studies and therapies to help you get the rest you need. Our experienced team specializes in diagnosing and treating a range of sleep disorders, from sleep apnea to insomnia. We use state-of-the-art technology to monitor your sleep patterns and provide customized treatment plans to address the underlying causes of your sleep issues. From CPAP therapy to behavioral therapy, we offer a range of treatments tailored to your unique needs. Don't let poor sleep quality affect your health and quality of life - contact us today to schedule a consultation and start sleeping better."
+    src="/images/happy-man.avif"
+    alt="sleep-therapy-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }
