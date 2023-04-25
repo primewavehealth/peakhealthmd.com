@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-import AppointmentCTA from "@/components/AppointmentCTA";
 import {
  CalendarDaysIcon,
  PhoneArrowUpRightIcon,
 } from "@heroicons/react/24/outline";
 
+import CTA from "@/components/UI/CTA";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -29,7 +29,7 @@ function Pain() {
     </div>
    </header>
 
-   <div className="grid grid-cols-1 lg:grid-cols-4">
+   <div className="grid grid-cols-1 pb-12 lg:grid-cols-4">
     <article className="col-span-3 px-8 mx-auto prose bg-white lg:-mt-40 prose-slate lg:prose-lg">
      <h1 className="pt-8 text-2xl font-bold leading-none text-blue-700 lg:text-4xl xl:max-w-3xl">
       Pain Management
@@ -178,7 +178,30 @@ function Pain() {
     </aside>
    </div>
 
-   <AppointmentCTA />
+   <CTA
+    heading=" Comprehensive Pain Care  in Las Vegas"
+    body="Got shoulder pain, back pain, knee or joint pain or any kind of pain?, The Vegas Clinic can help you find relief. Our experienced team of board certified pain doctors in las Vegas specializes in providing personalized pain management solutions to address the root cause of your pain. From cutting-edge therapies such as regenerative medicine and platelet-rich plasma therapy to traditional approaches like medication management and physical therapy, we offer a range of treatments tailored to your unique needs. Our goal is to help you achieve a better quality of life by reducing your pain and improving your overall function. Contact us today to schedule a consultation and take the first step towards a pain-free life."
+    src="/images/happy-man.avif"
+    alt="pain-mgt-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }
