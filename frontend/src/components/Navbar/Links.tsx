@@ -90,6 +90,11 @@ export const Wellness = [
   name: "Weight Gain",
  },
  {
+  href: "/IV-therapy-las-vegas",
+  description: "",
+  name: "IV Therapy",
+ },
+ {
   href: "/sleep-therapy-las-vegas",
   description: "",
   name: "Sleep Study & Sleep Therapy",

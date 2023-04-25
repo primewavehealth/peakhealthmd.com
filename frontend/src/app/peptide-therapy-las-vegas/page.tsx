@@ -39,14 +39,14 @@ function page() {
    />
    <section>
     <div className="max-w-screen-xl px-8 py-8 pt-16 mx-auto lg:px-8">
-     <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
-      <div className="lg:py-4">
+     <div className="grid grid-cols-1 gap-8 mt-8 text-base lg:grid-cols-2 lg:gap-16 md:text-lg">
+      <div className="lg:py-4 ">
        <div className="max-w-3xl pb-4 mx-auto text-center">
         <h2 className="text-3xl font-bold sm:text-4xl">
          What is Peptide Therapy?
         </h2>
        </div>
-       <article className="space-y-4 text-justify text-gray-600">
+       <article className="space-y-4 text-justify text-gray-600 ">
         <p>
          Peptide therapy is a medical treatment that involves the use of short
          chains of amino acids called peptides to target specific cells and
@@ -87,18 +87,18 @@ function page() {
 
    <section className="">
     <div className="px-6 pt-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-     <div className="max-w-lg mx-auto text-center">
+     <div className="max-w-3xl mx-auto text-base text-center md:text-lg">
       <h2 className="text-3xl font-bold sm:text-4xl">
        What are the Types of Peptide Therapy?
       </h2>
 
-      <p className="my-4 text-lg ">
+      <p className="my-4">
        There are various types of peptide therapy, each with their own specific
        uses and benefits. Here are some common types of peptide therapy and
        their potential uses:
       </p>
 
-      <ul className="space-y-4 text-lg text-justify">
+      <ul className="space-y-4 text-justify">
        <li className="">
         <span>
          Growth hormone-releasing peptides (GHRPs): GHRPs stimulate the
@@ -157,19 +157,19 @@ function page() {
 
    {/* next section */}
    <section className="">
-    <div className="px-4 py-8 mx-auto max-w-screen-4xl sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-     <div className="max-w-3xl mx-auto text-justify">
+    <div className="max-w-screen-xl px-8 py-8 mx-auto text-lg sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+     <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
       <h2 className="text-3xl font-bold sm:text-4xl">
        What are the Benefits of Peptide Therapy?
       </h2>
 
-      <p className="my-4 text-lg ">
+      <p className="my-4">
        Peptide therapy has a variety of potential benefits, depending on the
        specific type of peptide used and the health condition being addressed.
        Some potential benefits of peptide therapy include:
       </p>
 
-      <ul className="space-y-4 text-lg text-justify">
+      <ul className="space-y-4 text-justify">
        <li className="">
         <span>
          Improved athletic performance: Peptides such as growth
