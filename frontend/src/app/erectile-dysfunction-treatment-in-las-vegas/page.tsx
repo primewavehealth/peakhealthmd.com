@@ -1,6 +1,6 @@
 import EdPricing from "@/components/EdPricing";
-import PageCTA from "@/components/PageCTA";
 import Button from "@/components/UI/Button";
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
@@ -15,7 +15,7 @@ function page() {
  return (
   <>
    <PageBanner
-    heading="Erectile Dysfunction Treatment"
+    heading="Erectile Dysfunction Treatment in Las Vegas"
     body="Erectile dysfunction (ED) is a common problem that affects many men. It is the inability to get or maintain an erection firm enough for sexual intercourse. ED can be a source of frustration and embarrassment for those who experience it. It is important to understand the causes, symptoms, and treatment options available for this condition."
     src={ed}
     height={400}
@@ -98,7 +98,42 @@ function page() {
     </div>
    </section>
    <EdPricing />
-   <PageCTA />
+   <blockquote className="max-w-screen-xl px-8 py-8 mx-auto">
+    <span className="py-10">
+     {" "}
+     <span className="text-lg font-bold">We are the destination for</span>{" "}
+     <span className="relative inline-block px-2">
+      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+      <h3 className="relative py-3 text-white">
+       Men’s Health in Las Vegas, Nevada
+      </h3>
+     </span>
+    </span>
+   </blockquote>
+   <CTA
+    heading=" Get Permanent Cure for Erectile Dysfunction in Las Vegas"
+    body="The Vegas Clinic is a leading trt clinic in Las Vegas. We offer effective and discreet treatment options for erectile dysfunction. Our experienced and compassionate board certified doctors understands the sensitive nature of this condition and provides personalized care to help patients regain their confidence and sexual satisfaction. Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and custom-compounded medications to address the root cause of ED. Don't suffer in silence any longer - contact us today to schedule a consultation and take the first step towards reclaiming your sexual health."
+    src="/images/happy-man.avif"
+    alt="erectile-dysfunction-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </>
  );
 }
