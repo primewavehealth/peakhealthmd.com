@@ -145,7 +145,7 @@ function page() {
     </span>
    </blockquote>
    <CTA
-    heading=" Comprehensive Sleep Therapy  in Las Vegas"
+    heading="Sleep Therapy Experts in Las Vegas"
     body="If you're struggling with sleep problems, The Vegas Clinic offers comprehensive sleep studies and therapies to help you get the rest you need. Our experienced team specializes in diagnosing and treating a range of sleep disorders, from sleep apnea to insomnia. We use state-of-the-art technology to monitor your sleep patterns and provide customized treatment plans to address the underlying causes of your sleep issues. From CPAP therapy to behavioral therapy, we offer a range of treatments tailored to your unique needs. Don't let poor sleep quality affect your health and quality of life - contact us today to schedule a consultation and start sleeping better."
     src="/images/happy-man.avif"
     alt="sleep-therapy-las-vegas"

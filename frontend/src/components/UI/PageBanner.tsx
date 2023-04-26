@@ -26,7 +26,7 @@ const PageBanner = (allprops: PageBannerInterface & imageProps) => {
      </div>
 
      <div className="flex flex-col px-6 space-y-6 lg-px-0 lg:py-24">
-      <h1 className="text-3xl font-bold sm:text-4xl">{heading}</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">{heading}</h1>
       {subheading && <h3 className="">{subheading}</h3>}
       <p className="mt-4 text-justify">{body}</p>
       <Button text={btn.text} icon={btn.icon} link={btn.link} href={btn.href} />

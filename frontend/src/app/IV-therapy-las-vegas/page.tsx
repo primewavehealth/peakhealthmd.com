@@ -1,6 +1,7 @@
 import PageBanner from "@/components/UI/PageBanner";
 import iv from "public/images/iv-therapy-las-vegas.webp";
 
+import CTA from "@/components/UI/CTA";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -182,6 +183,31 @@ function page() {
      </div>
     </div>
    </section>
+   {/* CTA */}
+   <CTA
+    heading="IV Therapy in Las Vegas"
+    body="Looking for a IV Drip for dehydration, NAD IV Therapy, IV Vitamin Therapy, Hangover IV, Myers cocktail in Las Vegas?, look no further than The Vegas Clinic. Our highly skilled and knowledgeable staff is dedicated to providing safe and effective IV therapy treatments tailored to your unique needs and health goals. With years of experience in IV treatment, we are experts in administering IV therapy for a variety of conditions and wellness purposes. Whether you're seeking to boost your immune system, improve your athletic performance, or simply feel your best, our clinic is here to help. Contact us today to schedule your appointment and experience the expertise of our team."
+    src="/images/happy-man.avif"
+    alt="iv-therapy-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }

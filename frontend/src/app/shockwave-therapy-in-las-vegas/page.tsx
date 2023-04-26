@@ -1,3 +1,4 @@
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import shockwave from "/public/images/shockwave-therapy-las-vegas.jpg";
@@ -181,6 +182,30 @@ function Shockwave() {
      </span>
     </span>
    </blockquote>
+   <CTA
+    heading="Shockwave Therapy Experts in Las Vegas"
+    body="Are you struggling with chronic pain or injuries that just won't heal? Consider shockwave therapy, offered by the Las Vegas Clinic. Our skilled staff is highly trained in providing various types of shockwave therapy, including radial and focused shockwave therapy, to help alleviate pain and promote healing. With years of experience in the field, we are dedicated to delivering safe and effective shockwave therapy treatments tailored to your specific needs. From sports injuries and tendonitis to plantar fasciitis and chronic back pain, our medical practice can help you get back to feeling your best. Contact us today to schedule your appointment and experience the expertise of our team."
+    src="/images/happy-man.avif"
+    alt="shockwave-therapy-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </>
  );
 }

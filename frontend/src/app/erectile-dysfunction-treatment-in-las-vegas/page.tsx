@@ -111,7 +111,8 @@ function page() {
     </span>
    </blockquote>
    <CTA
-    heading=" Get Permanent Cure for Erectile Dysfunction in Las Vegas"
+    heading="  ED Experts in Las Vegas"
+    subheading=" Get Permanent Cure for Erectile Dysfunction in Las Vegas"
     body="The Vegas Clinic is a leading trt clinic in Las Vegas. We offer effective and discreet treatment options for erectile dysfunction. Our experienced and compassionate board certified doctors understands the sensitive nature of this condition and provides personalized care to help patients regain their confidence and sexual satisfaction. Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and custom-compounded medications to address the root cause of ED. Don't suffer in silence any longer - contact us today to schedule a consultation and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"

@@ -131,11 +131,11 @@ If you're experiencing symptoms of low testosterone, such as fatigue, decreased 
    <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
     <span className="py-10">
      {" "}
-     <span className="text-lg font-bold">We are the destination for</span>{" "}
+     <span className="text-lg font-bold">We are the go to</span>{" "}
      <span className="relative inline-block px-2">
       <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
       <h3 className="relative py-3 text-white">
-       Men’s Health in Las Vegas, Nevada
+       Las Vegas Male Performance Clinic
       </h3>
      </span>
     </span>
