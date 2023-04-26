@@ -1,3 +1,4 @@
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import weight from "public/images/weight-loss-las-vegas.jpg";
@@ -182,6 +183,31 @@ function Weightloss() {
      </div>
     </div>
    </section>
+   {/* CTA */}
+   <CTA
+    heading="Weight Loss Experts in Las Vegas"
+    body="Are you struggling to lose weight and improve your health? Look no further than The Vegas Clinic. Our highly trained staff offers various types of weight loss treatments, including personalized nutrition plans, hormone therapy, and medication-assisted weight loss. With years of experience in the field, we are dedicated to helping our patients achieve their weight loss goals in a safe and effective manner. Our team will work with you to develop a customized plan that addresses your unique needs and lifestyle, helping you to shed unwanted pounds and improve your overall health. Contact us today to schedule your appointment and experience the expertise of our team."
+    src="/images/happy-man.avif"
+    alt="weight-loss-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }
