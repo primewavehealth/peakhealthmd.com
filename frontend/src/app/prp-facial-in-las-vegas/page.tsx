@@ -1,7 +1,8 @@
-import AppointnmentCTA from "@/components/AppointmentCTA";
 import Image from "next/image";
 import Link from "next/link";
 
+import CTA from "@/components/UI/CTA";
+import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,42 +14,36 @@ export const metadata: Metadata = {
 function page() {
  return (
   <div>
-   <header className="bg-gradient-to-b from-blue-50 to-sky-400">
-    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8 ">
-     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-       <Image
-        alt="facial"
-        src="/images/prp_facials.avif"
-        className="absolute inset-0 object-contain w-full h-full"
-        width={450}
-        height={450}
-       />
-      </div>
-
-      <div className="px-6 lg-px-0 lg:py-24">
-       <h1 className="text-3xl font-bold sm:text-4xl">
-        Las Vegas PRP Facial Rejuvenation.
-       </h1>
-
-       <p className="mt-4 text-justify">
-        Amazing natural skin is possible at the Las Vegas PRP facial specialist
+   <PageBanner
+    heading="Las Vegas PRP Facial Rejuvenation."
+    body="Amazing natural skin is possible at the Las Vegas PRP facial specialist
         center. Harnesses your body’s own natural power to heal itself and
         improve the quality of your skin. Say good bye to wrinkles and lines.
         Get tighter and firmer skin. Enhance your skin tone and texture and
-        boost your skin's moisture retention.
-       </p>
+        boost your skin's moisture retention."
+    src="/images/prp_facials.avif"
+    height={400}
+    width={400}
+    alt="PRP Facial"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
 
-       <Link
-        href="/telehealth"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-indigo-600 rounded hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Schedule An Appointment
-       </Link>
-      </div>
-     </div>
-    </div>
-   </header>
    <section className="px-6 bg-white">
     <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 sm:py-24 lg:px-8">
      <div className="max-w-5xl pb-6 mx-auto prose lg:prose-lg">
@@ -460,7 +455,32 @@ function page() {
      </div>
     </div>
    </section>
-   <AppointnmentCTA />
+   {/* CTA */}
+   <CTA
+    heading="Menopause Therapy in Las Vegas"
+    body="At the Las Vegas Clinic, where we offer innovative Plasma Rich Platelet (PRP) facials to help you achieve a youthful, radiant glow. Our experienced and skilled medical team provides safe and effective treatments using state-of-the-art equipment and techniques. Our goal is to help you look and feel your best by harnessing the regenerative powers of your own blood cells. So, if you're looking for a non-surgical, natural way to enhance your skin's appearance, schedule a consultation with us today and discover the benefits of PRP facials!
+"
+    src="/images/immune-system.jpg"
+    alt="prp-facials-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }
