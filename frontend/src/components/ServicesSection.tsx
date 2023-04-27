@@ -2,7 +2,6 @@ import {
  ArrowPathIcon,
  CloudArrowUpIcon,
  FingerPrintIcon,
- LockClosedIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,14 +16,7 @@ const features = [
   image: "/images/peptide.avif",
   href: "/peptide-therapy-las-vegas",
  },
- {
-  name: "Immune System",
-  description:
-   "Strengthen your immune system. Whether you’re looking to boost your immunity and stay ahead of seasonal illnesses or you’re recovering from an injury, immune support boosting treatment may be a great option.",
-  icon: LockClosedIcon,
-  image: "/images/leaves.avif",
-  href: "/immigration-physical-las-vegas",
- },
+
  {
   name: "Hormone Therapy for Menopause",
   description:
@@ -46,33 +38,8 @@ const features = [
   description:
    "Testosterone replacement therapy (TRT) can help increase low testosterone levels in your body to normal, healthy ranges. Our team diagnoses and treats low testosterone along with other health conditions. Customized treatment plans from our team at Low T Center are customized to each patient’s specific needs.",
   icon: ArrowPathIcon,
-  image: "/images/test.avif",
+  image: "/images/middle-aged-man.jpg",
   href: "/low-testosterone-treatment-las-vegas",
- },
- {
-  name: "Long COVID-19",
-  description:
-   "Some will develop chronic, lingering symptoms for more than 4 weeks after the initial infection. Symptoms will range from shortness of breath, brain fog, fatigue, dizziness and loss of smell or taste. For those suffering from this condition, we can help you by using acombination of supplements and medications to help you recover.",
-  icon: FingerPrintIcon,
-  image: "/images/covid.jpg",
-  href: "/long-haul-covid-19-treatment",
- },
- {
-  name: "Fibromyalgia",
-  description:
-   "Fibromyalgia is a chronic condition which can be difficult to diagnose. It affects mostly women than men. Symptoms include widespread pain, pain worsens with pressure, fatigue, insomnia, restless leg syndrome, numbness or tingling, foggy memory and vision problems.",
-  icon: CloudArrowUpIcon,
-  image: "/images/fibromayalgia.avif",
-
-  href: "/fibromyalgia-treatment-las-vegas",
- },
- {
-  name: "Stem Cells Therapy",
-  description:
-   "We offer advanced treatments like stem cell therapy to improve your quality of life and help you feel better sooner. From chronic pain to sports injuries and arthritis, you’d be surprised at the impressive and effective results of stem cell therapy.",
-  icon: LockClosedIcon,
-  image: "/images/stem.jpg",
-  href: "/stem-cell-therapy-las-vegas",
  },
  {
   name: "Weight Loss",
@@ -82,14 +49,17 @@ const features = [
   image: "/images/weight-loss-lv.jpg",
   href: "/weight-loss-las-vegas",
  },
+
  {
-  name: "Weight Gain",
+  name: "Fibromyalgia",
   description:
-   "While our culture places immense value on thinness, the prevalence of those who are underweight is a significant public health issue. There are a number of reasons people can be underweight, including genetics and fast metabolism, and underlying medical conditions such as thyroid problems or cancer.",
-  icon: FingerPrintIcon,
-  image: "/images/weight-gain.jpg",
-  href: "/weight-gain-las-vegas",
+   "Fibromyalgia is a chronic condition which can be difficult to diagnose. It affects mostly women than men. Symptoms include widespread pain, pain worsens with pressure, fatigue, insomnia, restless leg syndrome, numbness or tingling, foggy memory and vision problems.",
+  icon: CloudArrowUpIcon,
+  image: "/images/fibromayalgia.avif",
+
+  href: "/fibromyalgia-treatment-las-vegas",
  },
+
  {
   name: "Pain Management",
   description:
@@ -98,14 +68,7 @@ const features = [
   image: "/images/pain.jpg",
   href: "/pain-treatment-in-las-vegas",
  },
- {
-  name: "Sleep Studies",
-  description:
-   "Your body goes through different phases during the different stages of sleep. Brain waves, eye movements, muscle tone, heart rate and breathing all change from stage to stage. By measuring these actions, our specially trained doctors can tell where there are problems and what is causing the problem.",
-  icon: FingerPrintIcon,
-  image: "/images/sleeping.jpg",
-  href: "/sleep-therapy-las-vegas",
- },
+
  {
   name: "Carboxy Therapy",
   description:
@@ -138,14 +101,7 @@ const features = [
   image: "/images/immigrants.jpg",
   href: "/immigration-physical-las-vegas",
  },
- {
-  name: "Detox Diet",
-  description:
-   "We blend into the environment which you are living and observe the triggers and cues that may cause use and relapse. We can advise the client on potential changes in his or her living environment that may assist in sustaining recovery..",
-  icon: ArrowPathIcon,
-  image: "/images/detox.jpg",
-  href: "/detox-therapy-las-vegas",
- },
+
  {
   name: "Shockwave Therapy",
   description:
@@ -172,13 +128,12 @@ const mobileData = [
   href: "low-testosterone-treatment-las-vegas",
  },
  {
-  name: "Long Haul Covid 19 Treatment",
-  href: "/long-haul-covid-19-treatment",
+  name: "SHockwave Therapy",
+  href: "/shockwave-therapy-in-las-vegas",
  },
  { name: "Fibromyalgia", href: "/fibromyalgia-treatment-las-vegas" },
  { name: "Weight Loss", href: "/weight-loss-las-vegas" },
  { name: "Plasma-Rich Platelet Therapy", href: "/prp-facial-in-las-vegas" },
- { name: "Detox Therapy", href: "/detox-therapy-las-vegas" },
 ];
 function ServicesSection() {
  return (
