@@ -62,7 +62,7 @@ function page() {
       <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
        <Image
         alt="prp-facial"
-        src="/vampire-facial.avif"
+        src="/images/vampire-facial.avif"
         className="absolute inset-0 object-contain w-full h-full"
         width={450}
         height={450}
