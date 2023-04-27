@@ -28,7 +28,7 @@ export const Integrative_Medicine = [
  {
   href: "/chronic-fatigue-syndrome-las-vegas",
   description: "",
-  name: "Fatigue",
+  name: "Chronic Fatigue Syndrome",
  },
  {
   href: "/immigration-physical-las-vegas",

@@ -68,17 +68,25 @@ function page() {
    </div>
    {/* next section */}
    <section className="px-6 bg-white">
-    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-24 lg:px-8">
+    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
      <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
       <div className="lg:py-2">
        <article className="space-y-4 prose text-gray-600">
         <h2>What are the Causes of Erectile Dysfunction?</h2>
 
         <p className="text-justify ">
-         ED can be caused by physical or psychological factors. Physical causes
-         may include high blood pressure, diabetes, heart disease, obesity, and
-         certain medications. Psychological causes may include stress, anxiety,
-         depression, and relationship problems.
+         here are several possible causes of ED, both physical and
+         psychological. Physical causes of ED include conditions that affect
+         blood flow to the penis, such as diabetes, high blood pressure, or
+         heart disease. Neurological disorders like multiple sclerosis or
+         Parkinson's disease can also contribute to ED. Lifestyle factors like
+         smoking, excessive alcohol consumption, or drug use can damage blood
+         vessels and nerves, leading to ED. Hormonal imbalances, including low
+         levels of testosterone, can also cause ED. In addition to physical
+         factors, psychological factors can also play a role in ED, such as
+         stress, anxiety, depression, or relationship problems. Identifying the
+         underlying cause of ED is crucial to developing an effective treatment
+         plan.
         </p>
        </article>
       </div>
@@ -88,9 +96,13 @@ function page() {
         <h2>What are the Symptoms of Erectile Dysfunction?</h2>
 
         <p className="text-justify ">
-         The main symptoms of ED are difficulty getting an erection, difficulty
-         maintaining an erection, and decreased sexual desire. If you experience
-         any of these symptoms, it is important to seek medical help..
+         Erectile dysfunction, also known as impotence, is a condition where a
+         man is unable to achieve or maintain an erection sufficient for sexual
+         intercourse. The symptoms of erectile dysfunction may vary depending on
+         the underlying cause of the condition, but common signs include
+         difficulty achieving an erection, difficulty maintaining an erection,
+         and reduced sexual desire. Other symptoms may include premature
+         ejaculation, delayed ejaculation, or a lack of orgasm
         </p>
        </article>
       </div>
@@ -98,7 +110,31 @@ function page() {
     </div>
    </section>
    <EdPricing />
-   <blockquote className="max-w-screen-xl px-8 py-8 mx-auto">
+   {/* next section */}
+   <section className="px-6 pt-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 ">
+    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
+     <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      Consultation
+     </h2>
+     <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
+      <p>
+       At the Vegas Clinic, we understand that erectile dysfunction can be a
+       sensitive and difficult issue to discuss. That's why we offer
+       personalized and discreet consultations to help patients understand their
+       condition and develop an effective treatment plan. During your
+       consultation, our experienced staff will conduct a comprehensive medical
+       history and physical exam, as well as discuss your symptoms and concerns
+       in a private and confidential setting. We will work closely with you to
+       develop a personalized treatment plan that addresses your unique needs
+       and goals, taking into account your medical history, lifestyle, and other
+       factors. Our goal is to provide you with the highest level of care and
+       support, so you can effectively manage your symptoms and achieve a
+       satisfying sex life.
+      </p>
+     </article>
+    </div>
+   </section>
+   <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto">
     <span className="py-10">
      {" "}
      <span className="text-lg font-bold">We are the destination for</span>{" "}
@@ -113,7 +149,7 @@ function page() {
    <CTA
     heading="  ED Experts in Las Vegas"
     subheading=" Get Permanent Cure for Erectile Dysfunction in Las Vegas"
-    body="The Vegas Clinic is a leading trt clinic in Las Vegas. We offer effective and discreet treatment options for erectile dysfunction. Our experienced and compassionate board certified doctors understands the sensitive nature of this condition and provides personalized care to help patients regain their confidence and sexual satisfaction. Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and custom-compounded medications to address the root cause of ED. Don't suffer in silence any longer - contact us today to schedule a consultation and take the first step towards reclaiming your sexual health."
+    body="Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and custom-compounded medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{

@@ -1,6 +1,7 @@
 import PageBanner from "@/components/UI/PageBanner";
 import fibromyalgia from "/public/images/fibromyalgia-las-vegas.jpg";
 
+import CTA from "@/components/UI/CTA";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -47,7 +48,7 @@ function page() {
 
      <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
       <div className="lg:py-4">
-       <article className="space-y-4 text-justify text-gray-600">
+       <article className="space-y-4 prose text-justify text-gray-600">
         <p>
          Chronic fatigue syndrome (CFS), also known as myalgic encephalomyelitis
          (ME), is a complex and debilitating condition characterized by extreme
@@ -65,7 +66,7 @@ function page() {
       </div>
 
       <div className="py-4">
-       <article className="space-y-4 text-justify text-gray-600">
+       <article className="space-y-4 prose text-justify text-gray-600">
         <p>
          Chronic fatigue syndrome (CFS) can have a significant impact on the
          body. The primary symptom of CFS is extreme fatigue that is not
@@ -90,30 +91,53 @@ function page() {
 
    {/* next section */}
    <section className="px-6 pt-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-     <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-      Chronic Fatigue Syndrome Treatment in Las Vegas
+    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
+     <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      Consultation
      </h2>
      <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
       <p>
-       Our treatment options for chronic fatigue syndrome (CFS) is typically
-       focused on managing symptoms and improving quality of life. This may
-       include a combination of medications, lifestyle modifications, and other
-       therapies. Medications commonly used to treat CFS include pain relievers,
-       antidepressants, and medications to improve sleep. We promote lifestyle
-       modifications which include regular exercise, stress reduction
-       techniques, healthy eating, and pacing activities to avoid overexertion.{" "}
+       During your consultation, our experienced doctors will conduct a thorough
+       physical exam and review your medical history, as well as discuss your
+       symptoms and concerns. We will work closely with you to develop a
+       personalized treatment plan that addresses your unique needs and goals,
+       taking into account your medical history, lifestyle, and other factors.
+       Our goal is to provide you with the highest level of care and support, so
+       you can effectively manage your symptoms and improve your quality of
+       life.
       </p>
       <p>
        By managing symptoms and improving overall health, individuals with CFS
        can experience improved energy levels, reduced pain, and improved
-       cognitive function, among other benefits. If you suspect you may have
-       CFS, it is important to speak with a healthcare professional for an
-       accurate diagnosis and appropriate treatment.
+       cognitive function, among other benefits.
       </p>
      </article>
     </div>
    </section>
+   <CTA
+    heading="Chronic Fatigue Treatment in Las Vegas"
+    body="Our skilled and experienced team understands the debilitating effects of chronic fatigue syndrome and is committed to providing effective treatment options to help manage your symptoms. We offer a range of treatments, including medication management, lifestyle modifications, and counseling services. Our goal is to develop a personalized treatment plan that addresses your unique needs and helps improve your quality of life. Contact us today to schedule an appointment and start on the path to managing your chronic fatigue syndrome with our expert care."
+    src="/images/happy-man.avif"
+    alt="iv-therapy-las-vegas"
+    btn={{
+     href: "/telehealth",
+     text: "Schedule An Appointment",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }

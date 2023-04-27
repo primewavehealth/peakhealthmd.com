@@ -136,7 +136,7 @@ function page() {
    </section>
 
    {/* next section */}
-   <section className="">
+   <section className="bg-">
     <div className="max-w-screen-xl px-8 py-16 mx-auto text-lg sm:px-6">
      <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
@@ -185,7 +185,7 @@ function page() {
    </section>
    {/* CTA */}
    <CTA
-    heading="IV Therapy in Las Vegas"
+    heading="IV Infusion in Las Vegas"
     body="Looking for a IV Drip for dehydration, NAD IV Therapy, IV Vitamin Therapy, Hangover IV, Myers cocktail in Las Vegas?, look no further than The Vegas Clinic. Our highly skilled and knowledgeable staff is dedicated to providing safe and effective IV therapy treatments tailored to your unique needs and health goals. With years of experience in IV treatment, we are experts in administering IV therapy for a variety of conditions and wellness purposes. Whether you're seeking to boost your immune system, improve your athletic performance, or simply feel your best, our clinic is here to help. Contact us today to schedule your appointment and experience the expertise of our team."
     src="/images/happy-man.avif"
     alt="iv-therapy-las-vegas"

@@ -1,7 +1,7 @@
 function EdPrincing() {
  return (
   <section className="overflow-hidden text-gray-600 body-font">
-   <div className="container px-5 py-20 mx-auto">
+   <div className="container px-5 py-10 mx-auto">
     <div className="flex flex-col w-full mb-20 text-center">
      <h3 className="mb-2 text-3xl font-bold text-gray-900 sm:text-4xl title-font">
       Erectile Dysfunction Treatment Options
