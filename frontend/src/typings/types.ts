@@ -36,3 +36,15 @@ export interface CTA {
  body: string;
  btn: ButtonInterface;
 }
+
+export type SiteConfig = {
+ name: string;
+ description: string;
+ url: string;
+ ogImage: string;
+ links: {
+  twitter: string;
+  facebook: string;
+  instagram: string;
+ };
+};
