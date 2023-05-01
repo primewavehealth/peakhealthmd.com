@@ -14,7 +14,7 @@ Your first memory of pain may have been of you falling badly during a football g
 
 Pain is a highly unpleasant sensation that occurs as a result of signals traveling through your nerves to the brain. Pain can also be a protective mechanism; it points out tissue damage or foreign bodies and prevents further harm. However, pain also comes with age and certain lifelong conditions, such as arthritis. In such cases, it prevents you from enjoying the simple pleasures of life, such as taking a stroll.
 
-In this article, we look at the various pain management options, taking into consideration that [pain management ](http://localhost:3000/pain-treatment-in-las-vegas) should be holistic, and attend to the patient’s physical, mental and psychological needs.
+In this article, we look at the various pain management options, taking into consideration that [pain management ](/pain-treatment-in-las-vegas) should be holistic, and attend to the patient’s physical, mental and psychological needs.
 
 ## Types of pain
 
@@ -28,7 +28,7 @@ In this article, we look at the various pain management options, taking into con
 ## What Are The Best Medicines For Pain Relief?
 
 Medications are the mainstay of pain medication, and there a vast array of pain relief medications available. Nonetheless, pharmacological pain management must be tactical and stepwise.
-The best drug option for pain management depends on the class of pain, which may be mild, moderate or [severe pain](http://localhost:3000/fibromyalgia-treatment-las-vegas), and how well a patient tolerates the drug.
+The best drug option for pain management depends on the class of pain, which may be mild, moderate or [severe pain](/fibromyalgia-treatment-las-vegas), and how well a patient tolerates the drug.
 
 ### Acetaminophen
 

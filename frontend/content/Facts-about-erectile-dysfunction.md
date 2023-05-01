@@ -8,7 +8,7 @@ image: "/images/erectile-dysfunction-las-vegas.jpg"
 
 ![Erectile Dysfunction!](/images/erectile-dysfunction-las-vegas.jpg)
 
-- [Erectile dysfunction](http://localhost:3000/erectile-dysfunction-treatment-in-las-vegas) (ED) affects approximately 30 million men in the United States alone.
+- [Erectile dysfunction](/erectile-dysfunction-treatment-in-las-vegas) (ED) affects approximately 30 million men in the United States alone.
   ED is more common in older men, with 52% of men aged 40-70 experiencing some degree of ED.
 - Certain health conditions like diabetes, heart disease, and high blood pressure can increase the risk of developing ED.
   Smoking is a significant risk factor for ED, with smokers being twice as likely to develop the condition.
