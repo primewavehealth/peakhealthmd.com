@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
 import CookieBanner from "@/components/cookiebanner";
+import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -14,21 +15,50 @@ const inter = Inter({
  subsets: ["latin"],
 });
 
+export const siteConfig: SiteConfig = {
+ name: "Vegas Clinic",
+ description:
+  "Health and Aesthetics Clinic in Las Vegas focus on pain management, fibromyalgia, ed, weight loss, prp facials and iv therapy and hormone therapies",
+ url: "https://vegasclinic.com",
+ ogImage: "https://vegasclinic.com/og.webp",
+ links: {
+  twitter: "https://twitter.com/vegasclinic",
+  facebook: "https://facebook.com/vegasclinic",
+  instagram: "https://instagram.com/vegasclinic",
+ },
+};
+
 export const metadata: Metadata = {
  title: {
-  default: "THE VEGAS CLINIC",
-  template: "%s | The Vegas Clinic",
+  default: siteConfig.name,
+  template: `%s | ${siteConfig.name}`,
  },
- description:
-  "Take charge of your health and wellness with our comprehensive medical services in Las Vegas - our expert team can help you achieve your health goals and improve your overall well-being.",
+ description: siteConfig.description,
+ keywords: [
+  "Pain Management",
+  "Erectile Dysfunction",
+  "Chronic Fatigue",
+  "Fibromyalgia",
+  "Peptide Therapy",
+  "Weight Loss",
+  "Prp Facials",
+  "IV Therapy",
+  "Hormone Therapy",
+ ],
  openGraph: {
-  title: "Wellness Medical Center in Las Vegas",
-  description:
-   "Take charge of your health and wellness with our comprehensive medical services in Las Vegas - our expert team can help you achieve your health goals and improve your overall well-being.",
-  url: "https://vegasclinic.com",
-  siteName: "The Vegas Clinic",
+  url: siteConfig.url,
+  title: siteConfig.name,
+  description: siteConfig.description,
+  siteName: siteConfig.name,
   locale: "en-US",
   type: "website",
+ },
+ twitter: {
+  card: "summary_large_image",
+  title: siteConfig.name,
+  description: siteConfig.description,
+  images: [`${siteConfig.url}/og.webp`],
+  creator: "@vegasclinic",
  },
  robots: {
   index: true,
