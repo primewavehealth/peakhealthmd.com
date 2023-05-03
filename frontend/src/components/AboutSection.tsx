@@ -17,9 +17,9 @@ function AboutSection() {
         treatment plans to help our patients achieve optimal health. We treat a
         variety of pain conditions, including chronic pain, back pain, neck pain
         and joint pain. We also offer a range of wellness services such as IV
-        therapy and weight loss programs. Our experienced medical professionals
-        are dedicated to providing compassionate, patient-centered care to help
-        our patients live their best lives.
+        therapy, shockwave therapy and weight loss programs. Our experienced
+        medical professionals are dedicated to providing compassionate,
+        patient-centered care to help our patients live their best lives.
        </p>
 
        <div className="mt-4 md:mt-8">
