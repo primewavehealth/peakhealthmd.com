@@ -18,7 +18,7 @@ const inter = Inter({
 export const siteConfig: SiteConfig = {
  name: "Vegas Clinic",
  description:
-  "Health and Aesthetics Clinic in Las Vegas focus on pain management, fibromyalgia, ed, weight loss, prp facials and iv therapy and hormone therapies",
+  "Pain Care and Wellness Clinic in Las Vegas focus on pain management, fibromyalgia, chronic fatigue , weight loss and iv therapy",
  url: "https://vegasclinic.com",
  ogImage: "https://vegasclinic.com/og.webp",
  links: {

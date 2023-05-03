@@ -9,13 +9,17 @@ function AboutSection() {
      <div className="p-8 md:p-12 lg:px-16 lg:py-24">
       <div className="max-w-xl mx-auto text-center">
        <h2 className="mb-4 text-xl font-bold text-white md:text-3xl">
-        The Vegas Clinic:&nbsp;&nbsp;Our Mission
+        Pain Specialists in Las Vegas
        </h2>
 
        <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
-        At the Vegas Clinic, we are dedicated to providing innovative,
-        evidence-based solutions that enhance the natural beauty and vitality of
-        our patients, while also improving their overall health and well-being.
+        We specialize in pain management and wellness, offering personalized
+        treatment plans to help our patients achieve optimal health. We treat a
+        variety of pain conditions, including chronic pain, back pain, neck pain
+        and joint pain. We also offer a range of wellness services such as IV
+        therapy and weight loss programs. Our experienced medical professionals
+        are dedicated to providing compassionate, patient-centered care to help
+        our patients live their best lives.
        </p>
 
        <div className="mt-4 md:mt-8">
