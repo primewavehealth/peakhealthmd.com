@@ -7,9 +7,9 @@ import ServicesSection from "@/components/ServicesSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "The Vegas Clinic",
+ title: "Pain Care and Wellness Clinic in Las Vegas",
  description:
-  "High tech treatment for pain, erectile dysfunction, infections and weight loss in Las Vegas.",
+  "Pain Care and Wellness Clinic in Las Vegas focus on pain management, fibromyalgia, chronic fatigue , weight loss, shockwave therapy and iv therapy",
 };
 
 export default function Home() {
