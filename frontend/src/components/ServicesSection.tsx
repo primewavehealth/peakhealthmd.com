@@ -86,12 +86,12 @@ const features = [
   href: "/mesotherapy-las-vegas",
  },
  {
-  name: "Plasma-Rich Platelet Therapy",
+  name: "Facials Treatment",
   description:
    "Plasma-rich platelet (PRP) is one of the leading areas of regenerative medicine. It uses the body’s own cells to stimulate tissue growth. PRP therapy uses a high concentration of autologous platelets found in the patient’s own plasma.",
   icon: FingerPrintIcon,
   image: "/images/platelet-rich-plasma.jpg",
-  href: "/prp-facial-in-las-vegas",
+  href: "/facials-las-vegas",
  },
  {
   name: "Immigration Physical",
@@ -133,7 +133,7 @@ const mobileData = [
  },
  { name: "Fibromyalgia", href: "/fibromyalgia-treatment-las-vegas" },
  { name: "Weight Loss", href: "/weight-loss-las-vegas" },
- { name: "Plasma-Rich Platelet Therapy", href: "/prp-facial-in-las-vegas" },
+ { name: "Facials", href: "/facials-las-vegas" },
 ];
 function ServicesSection() {
  return (

@@ -10,7 +10,7 @@ image: "/images/weight-loss-lv.jpg"
 
 ## Introduction
 
-If you're looking to lose weight, you don't have to make drastic changes to your lifestyle. Small changes to your habits can add up to big results over time. In this post, we'll explore 10 simple changes you can make today to help you lose weight.
+If you're looking to [lose weight](/weight-loss-las-vegas), you don't have to make drastic changes to your lifestyle. Small changes to your habits can add up to big results over time. In this post, we'll explore 10 simple changes you can make today to help you lose weight.
 
 ## 1. Drink More Water
 
