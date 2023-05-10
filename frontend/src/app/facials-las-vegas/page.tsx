@@ -108,7 +108,7 @@ function Page() {
 
        <a
         href="https://cal.com/thevegasclinic/facials"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-indigo-600 rounded hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
         Book a Session
        </a>
@@ -143,7 +143,7 @@ function Page() {
 
        <a
         href="https://cal.com/thevegasclinic/facials"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-indigo-600 rounded hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
         Book a Session
        </a>
@@ -185,7 +185,7 @@ function Page() {
                      transition
                      "
           >
-           View Details
+           Book A Session
           </Link>
          </div>
         </div>
