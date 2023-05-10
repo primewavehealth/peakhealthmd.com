@@ -57,6 +57,11 @@ export const Hormone_Therapy = [
 
 export const Aesthetics = [
  {
+  href: "/facials-las-vegas",
+  description: "",
+  name: "Facials Treatment",
+ },
+ {
   href: "/prp-facial-in-las-vegas",
   description: "",
   name: "Plasma-Rich Platelet Facials",

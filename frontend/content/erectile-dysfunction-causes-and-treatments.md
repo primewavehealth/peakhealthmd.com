@@ -3,10 +3,10 @@ title: "Erectile Dysfunction - Causes, Diagnosis and Treatment"
 date: "2023-05-1"
 description: "Learn about the causes, diagnosis and treatment options for ED"
 category: "Mens Health"
-image: "/images/erectile-dysfunction-las-vegas.jpg"
+image: "/images/ed.jpg"
 ---
 
-![Erectile Dysfunction!](/images/erectile-dysfunction-las-vegas.jpg)
+![Erectile Dysfunction!](/images/ed.jpg)
 
 ##
 
