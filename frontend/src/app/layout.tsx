@@ -1,5 +1,3 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
@@ -11,9 +9,7 @@ import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import { usePathname, useRouter } from "next/navigation";
 import Script from "next/script";
-import { useEffect } from "react";
 import "./globals.css";
 
 const inter = Inter({
@@ -90,14 +86,6 @@ export default function RootLayout({
 }: {
  children: React.ReactNode;
 }) {
- const router = useRouter();
- const pathname = usePathname();
-
- useEffect(() => {
-  // This pageview only triggers the first time (it's important for Pixel to have real information)
-  fbq.pageview();
- }, [pathname]);
-
  return (
   <html
    lang="en"
