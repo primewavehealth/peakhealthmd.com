@@ -38,8 +38,8 @@ export default function Example() {
        className="w-auto h-8"
        src="/images/logo.webp"
        alt="logo"
-       width="200"
-       height="200"
+       width="236"
+       height="186"
        quality={100}
       />
      </Link>
@@ -326,8 +326,8 @@ export default function Example() {
         className="w-auto h-8"
         src="/images/logo.webp"
         alt="logo"
-        width="150"
-        height="100"
+        width="236"
+        height="186"
         quality={100}
        />
       </Link>
