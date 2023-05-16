@@ -1,7 +1,6 @@
 import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 
 export const metadata: Metadata = {
  title: "Telehealth in Las Vegas",
@@ -40,7 +39,7 @@ function TeleHealth() {
        medicine.{" "}
       </p>
       <div className="flex flex-col justify-between w-full lg:flex-row">
-       <div className="mt-4">
+       {/* <div className="mt-4">
         <Link
          style={{ display: "block" }}
          href="https://www.zocdoc.com/practice/prime-wave-77528"
@@ -56,7 +55,7 @@ function TeleHealth() {
           style={{ border: 0 }}
          />
         </Link>
-       </div>
+       </div> */}
        <Button
         href="https://www.cal.com/drmaxine"
         text="Schedule An Appointment"
@@ -100,7 +99,7 @@ function TeleHealth() {
        Dr. Walters specializes in Internal and integrative medicine.{" "}
       </p>
       <div className="flex flex-col justify-between w-full lg:flex-row">
-       <div className="mt-4">
+       {/* <div className="mt-4">
         <Link
          style={{ display: "block" }}
          href="https://www.zocdoc.com/practice/prime-wave-77528"
@@ -116,7 +115,7 @@ function TeleHealth() {
           style={{ border: 0 }}
          />
         </Link>
-       </div>
+       </div> */}
        <Button
         href="https://www.cal.com/drerich"
         text="Schedule An Appointment"

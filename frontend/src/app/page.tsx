@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import CTASection from "@/components/CTASection";
 import ScrollToTop from "@/components/ScrollToTop";
 import ServicesSection from "@/components/ServicesSection";
+import DMV from "@/components/dmv";
 
 import type { Metadata } from "next";
 
@@ -18,6 +19,7 @@ export default function Home() {
    <Banner />
    <AboutSection />
    <ServicesSection />
+   <DMV />
    <CTASection />
    <ScrollToTop />
   </main>

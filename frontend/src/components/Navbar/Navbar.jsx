@@ -11,12 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import Button from "../Button";
-import {
- Aesthetics,
- Hormone_Therapy,
- Integrative_Medicine,
- Wellness,
-} from "./Links";
+import { Aesthetics, Integrative_Medicine, Therapy, Wellness } from "./Links";
 
 const callsToAction = [
  { name: "Find A Specialist", href: "/telehealth", icon: PlayCircleIcon },
@@ -119,7 +114,7 @@ export default function Example() {
 
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
-       Hormone Therapy
+       Therapy
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
         aria-hidden="true"
@@ -137,7 +132,7 @@ export default function Example() {
       >
        <Popover.Panel className="absolute z-10 w-screen max-w-md mt-3 overflow-hidden bg-white shadow-lg -left-8 top-full rounded-3xl ring-1 ring-gray-900/5">
         <div className="p-4">
-         {Hormone_Therapy.map((item) => (
+         {Therapy.map((item) => (
           <div
            key={item.name}
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
@@ -380,7 +375,7 @@ export default function Example() {
          {({ open }) => (
           <>
            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-            Hormone Therapy
+            Therapy
             <ChevronDownIcon
              className={classNames(
               open ? "rotate-180" : "",
@@ -390,7 +385,7 @@ export default function Example() {
             />
            </Disclosure.Button>
            <Disclosure.Panel className="mt-2 space-y-2">
-            {[...Hormone_Therapy, ...callsToAction].map((item) => (
+            {[...Therapy, ...callsToAction].map((item) => (
              <Disclosure.Button
               key={item.name}
               as="a"

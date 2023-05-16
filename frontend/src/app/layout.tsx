@@ -10,7 +10,8 @@ import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { useRouter } from "next/router";
+import Head from "next/head";
+import { usePathname, useRouter } from "next/navigation";
 import Script from "next/script";
 import { useEffect } from "react";
 import "./globals.css";
@@ -90,20 +91,13 @@ export default function RootLayout({
  children: React.ReactNode;
 }) {
  const router = useRouter();
+ const pathname = usePathname();
 
  useEffect(() => {
   // This pageview only triggers the first time (it's important for Pixel to have real information)
   fbq.pageview();
+ }, [pathname]);
 
-  const handleRouteChange = () => {
-   fbq.pageview();
-  };
-
-  router.events.on("routeChangeComplete", handleRouteChange);
-  return () => {
-   router.events.off("routeChangeComplete", handleRouteChange);
-  };
- }, [router.events]);
  return (
   <html
    lang="en"
@@ -112,12 +106,16 @@ export default function RootLayout({
     inter.variable
    )}
   >
-   <img
-    height="1"
-    width="1"
-    style={{ display: "none" }}
-    src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
-   />
+   <Head>
+    <noscript>
+     <img
+      height="1"
+      width="1"
+      style={{ display: "none" }}
+      src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
+     />
+    </noscript>
+   </Head>
 
    {/* Global Site Code Pixel - Facebook Pixel */}
    <Script
