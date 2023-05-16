@@ -14,11 +14,6 @@ export const Integrative_Medicine = [
   description: "",
   name: "Fibromyalgia",
  },
- {
-  href: "/stem-cell-therapy-las-vegas",
-  description: "",
-  name: "Stem Cell Therapy",
- },
 
  {
   href: "/long-haul-covid-19-treatment",
@@ -37,12 +32,7 @@ export const Integrative_Medicine = [
  },
 ];
 
-export const Hormone_Therapy = [
- {
-  href: "/hormone-therapy-menopause-las-vegas",
-  description: "",
-  name: "Hormone Therapy for Menopause",
- },
+export const Therapy = [
  {
   href: "/low-testosterone-treatment-las-vegas",
   description: "",
@@ -51,7 +41,7 @@ export const Hormone_Therapy = [
  {
   href: "/peptide-therapy-las-vegas",
   description: "",
-  name: "Peptide Therapy",
+  name: "Immune Booster",
  },
 ];
 
@@ -64,18 +54,9 @@ export const Aesthetics = [
  {
   href: "/prp-facial-in-las-vegas",
   description: "",
-  name: "Plasma-Rich Platelet Facials",
+  name: "Anti Aging / Wrinkles",
  },
- {
-  href: "/mesotherapy-las-vegas",
-  description: "",
-  name: "MesoTherapy",
- },
- {
-  href: "/carboxytherapy-las-vegas",
-  description: "",
-  name: "CarboxyTherapy",
- },
+
  {
   href: "https://www.bold3dbrows.com/",
   description: "",
@@ -105,23 +86,8 @@ export const Wellness = [
   name: "Sleep Study & Sleep Therapy",
  },
  {
-  href: "/detox-therapy-las-vegas",
-  description: "",
-  name: "Detox Therapy",
- },
- {
-  href: "/led-light-therapy-las-vegas",
-  description: "",
-  name: "LED Light Therapy",
- },
- {
   href: "/shockwave-therapy-in-las-vegas",
   description: "",
-  name: "Shock Wave Therapy",
- },
- {
-  href: "/cold-laser-therapy-las-vegas",
-  description: "",
-  name: "Cold Laser Therapy",
+  name: "Pain Therapy",
  },
 ];

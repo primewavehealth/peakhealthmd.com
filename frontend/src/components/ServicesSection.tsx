@@ -9,31 +9,6 @@ import Button from "./UI/Button";
 
 const features = [
  {
-  name: "Peptide Therapy",
-  description:
-   "Peptide therapy, or the use of specific peptides in treatment, has gained great popularity in recent years. This is due largely to the fact that these peptides are highly specific (i.e.,only do what you want them to do) while also being well-tolerated and safe.",
-  icon: CloudArrowUpIcon,
-  image: "/images/peptide.avif",
-  href: "/peptide-therapy-las-vegas",
- },
-
- {
-  name: "Hormone Therapy for Menopause",
-  description:
-   "Natural hormone therapy uses “bio-identical” hormones (just like you had when you were younger) and plant-based therapies to reverse bone loss, impaired sexual function and reduced stamina which often affects women later in life.",
-  icon: ArrowPathIcon,
-  image: "/images/menopause.jpg",
-  href: "/hormone-therapy-menopause-las-vegas",
- },
- {
-  name: "Chronic Fatigue Syndrome",
-  description:
-   "Chronic fatigue syndrome (CFS) is characterized by profound tiredness, regardless of bed rest. Its symptoms may worsen with physical or mental activity. There are many causes of CFS ranging from food sensitivity, hormonal imbalances, vitamin deficiencies, endocannabinoid system deficiency and chronic infections or toxicity.",
-  icon: FingerPrintIcon,
-  image: "/images/fatigue.avif",
-  href: "/chronic-fatigue-syndrome-las-vegas",
- },
- {
   name: "Low Testosterone Treatment",
   description:
    "Testosterone replacement therapy (TRT) can help increase low testosterone levels in your body to normal, healthy ranges. Our team diagnoses and treats low testosterone along with other health conditions. Customized treatment plans from our team at Low T Center are customized to each patient’s specific needs.",
@@ -51,44 +26,19 @@ const features = [
  },
 
  {
-  name: "Fibromyalgia",
-  description:
-   "Fibromyalgia is a chronic condition which can be difficult to diagnose. It affects mostly women than men. Symptoms include widespread pain, pain worsens with pressure, fatigue, insomnia, restless leg syndrome, numbness or tingling, foggy memory and vision problems.",
-  icon: CloudArrowUpIcon,
-  image: "/images/fibromayalgia.avif",
-
-  href: "/fibromyalgia-treatment-las-vegas",
- },
-
- {
   name: "Pain Management",
   description:
    "We understands a life of pain is not a quality a life. Our continual goal is to understand our patients, and their needs. By doing so, we exceed the highest standards in Pain Management by providing optimal, thorough, and compassionate medical care to our patients",
-  icon: ArrowPathIcon,
-  image: "/images/pain.jpg",
+  icon: CloudArrowUpIcon,
+  image: "/images/fibromayalgia.avif",
+
   href: "/pain-treatment-in-las-vegas",
  },
 
  {
-  name: "Carboxy Therapy",
-  description:
-   "Carboxy therapy is used to treat a number of ailments that are believed to stem partially from poor blood circulation such as cellulite, dark under eye circles, and stretch marks. Carboxy therapy is a simple procedure that injects carbon dioxide gas to the treatment area to stimulate blood flow to improve the skin’s appearance and elasticity.",
-  icon: FingerPrintIcon,
-  image: "/images/carboxy.jpg",
-  href: "/carboxytherapy-las-vegas",
- },
- {
-  name: "MesoTherapy",
-  description:
-   "We practice the specialty of Medical Aesthetics because of the beautifying effects it has on the skin. Wrinkles, cellulite and skin rejuvenation are the most effective complaints successfully treated with Mesotherapy. The injectable as a combination with Botox for whole face treatment also reveals breathtaking results.",
-  icon: ArrowPathIcon,
-  image: "/images/mesotherapy-las-vegas.jpg",
-  href: "/mesotherapy-las-vegas",
- },
- {
   name: "Facials Treatment",
   description:
-   "Plasma-rich platelet (PRP) is one of the leading areas of regenerative medicine. It uses the body’s own cells to stimulate tissue growth. PRP therapy uses a high concentration of autologous platelets found in the patient’s own plasma.",
+   "Facials are treatments designed to rejuvenate and improve the health of the skin by removing impurities, unclogging pores, and providing hydration",
   icon: FingerPrintIcon,
   image: "/images/platelet-rich-plasma.jpg",
   href: "/facials-las-vegas",
@@ -103,7 +53,7 @@ const features = [
  },
 
  {
-  name: "Shockwave Therapy",
+  name: "Acoustic Therapy",
   description:
    "Shockwave therapy is a cutting-edge non-invasive treatment that has proven to be effective in treating various musculoskeletal conditions, including chronic pain and injuries. If you're looking for a reliable shockwave therapy provider in Las Vegas, look no further than our clinic.",
   icon: FingerPrintIcon,
@@ -128,7 +78,7 @@ const mobileData = [
   href: "low-testosterone-treatment-las-vegas",
  },
  {
-  name: "SHockwave Therapy",
+  name: "Shockwave Therapy",
   href: "/shockwave-therapy-in-las-vegas",
  },
  { name: "Fibromyalgia", href: "/fibromyalgia-treatment-las-vegas" },
