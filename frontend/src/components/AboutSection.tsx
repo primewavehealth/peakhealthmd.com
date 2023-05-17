@@ -8,9 +8,10 @@ function AboutSection() {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="p-8 md:p-12 lg:px-16 lg:py-24">
       <div className="max-w-xl mx-auto text-center">
-       <h2 className="mb-4 text-xl font-bold text-white md:text-3xl">
-        Pain Specialists in Las Vegas
-       </h2>
+       <span className="text-white">Welcome to </span>
+       <h1 className="mb-4 text-xl font-bold text-white md:text-4xl">
+        The Vegas Clinic
+       </h1>
 
        <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
         We specialize in pain management and wellness, offering personalized
