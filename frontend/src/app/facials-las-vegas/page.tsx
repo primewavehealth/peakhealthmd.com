@@ -106,12 +106,12 @@ function Page() {
         your skin type.
        </p>
 
-       <a
+       <Link
         href="https://cal.com/thevegasclinic/facials"
         className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
         Book a Session
-       </a>
+       </Link>
       </div>
      </div>
     </div>
@@ -141,12 +141,12 @@ function Page() {
         and firmness.
        </p>
 
-       <a
+       <Link
         href="https://cal.com/thevegasclinic/facials"
         className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
         Book a Session
-       </a>
+       </Link>
       </div>
      </div>
     </div>
