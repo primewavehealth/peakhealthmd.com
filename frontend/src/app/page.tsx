@@ -1,9 +1,9 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
+import Benefits from "@/components/Benefits";
 import CTASection from "@/components/CTASection";
 import ScrollToTop from "@/components/ScrollToTop";
 import ServicesSection from "@/components/ServicesSection";
-import DMV from "@/components/dmv";
 
 import type { Metadata } from "next";
 
@@ -18,8 +18,8 @@ export default function Home() {
   <main className="flex flex-col min-h-screen">
    <Banner />
    <AboutSection />
+   <Benefits />
    <ServicesSection />
-   <DMV />
    <CTASection />
    <ScrollToTop />
   </main>

@@ -8,7 +8,7 @@ function DMV() {
    </h3>
    <div className="">
     <iframe
-     className="mx-auto text-center"
+     className="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden"
      width="700"
      height="500"
      src="https://www.youtube.com/embed?v=bv7xEG1wXx0"
