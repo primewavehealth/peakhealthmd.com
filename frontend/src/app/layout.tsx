@@ -22,7 +22,7 @@ const inter = Inter({
 export const siteConfig: SiteConfig = {
  name: "The Vegas Clinic",
  description:
-  "Pain Care and Wellness Clinic in Las Vegas focus on pain management, fibromyalgia, chronic fatigue , weight loss, shockwave therapy and iv therapy",
+  "Health and Wellness clinic in Las Vegas.We specialize in pain management, aesthetics, weight loss, shockwave therapy and iv therapy.",
  url: "https://vegasclinic.com",
  ogImage: "https://vegasclinic.com/og.webp",
  links: {
