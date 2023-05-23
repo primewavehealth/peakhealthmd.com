@@ -29,7 +29,12 @@ function page() {
  }
 
  return (
-  <section className="relative flex flex-col items-center justify-center">
+  <section className="relative flex flex-col items-center justify-center py-24">
+   <h3 className="text-2xl text-center pb-14">
+    {" "}
+    PeakHealth / Vegas Clinic is the Official Health Partner of the DMV in Las
+    Vegas.
+   </h3>
    <AiOutlineArrowLeft
     className="absolute text-sm text-black z-10 cursor-pointer select-none left-8 top-2/4;"
     onClick={prevSlide}
@@ -54,7 +59,8 @@ function page() {
         src={slide.url}
         alt="travel image"
         className="w-[900px] h-[500px] rounded-[10px];"
-        fill
+        height={900}
+        width={600}
        />
       )}
      </div>
