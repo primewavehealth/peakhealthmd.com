@@ -1,37 +1,69 @@
+"use client";
+
+import { useState } from "react";
+
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+
 function page() {
+ const slides = [
+  { url: "/images/dmv1.jpg" },
+  { url: "/images/dmv2.jpg" },
+  { url: "/images/dmv3.jpg" },
+  { url: "/images/dmv4.jpg" },
+  { url: "/images/dmv5.jpg" },
+ ];
+ const [current, setCurrent] = useState(0);
+ const length = slides.length;
+
+ const nextSlide = () => {
+  setCurrent(current === length - 1 ? 0 : current + 1);
+ };
+
+ const prevSlide = () => {
+  setCurrent(current === 0 ? length - 1 : current - 1);
+ };
+
+ if (!Array.isArray(slides) || slides.length <= 0) {
+  return null;
+ }
+
  return (
-  <div className="text-lg">
-   <section className="container max-w-screen-xl py-20 mx-auto">
-    <h3 className="pb-10 text-2xl text-center">
-     {" "}
-     Our Parent Company PeakHealth is the Official Health Partner of the DMV in
-     Las Vegas.
-    </h3>
-    <div className="">
-     <iframe
-      className="mx-auto text-center"
-      width="700"
-      height="500"
-      src="https://www.youtube.com/embed?v=bv7xEG1wXx0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-     ></iframe>
-    </div>
-   </section>
-   <section className="container max-w-screen-xl py-12 mx-auto">
-    <h3 className="pb-4 text-2xl text-center"> Spanish Translation</h3>
-    <div className="">
-     <iframe
-      className="mx-auto text-center"
-      width="700"
-      height="500"
-      src="https://www.youtube.com/embed?v=upXvTLtXYAs"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-     ></iframe>
-    </div>
-   </section>
-  </div>
+  <section className="relative flex flex-col items-center justify-center h-screen">
+   <h3 className="text-2xl text-center pb-14">
+    {" "}
+    Our Parent Company PeakHealth is the Official Health Partner of the DMV in
+    Las Vegas.
+   </h3>
+   <FaArrowAltCircleLeft
+    className="absolute text-sm text-black z-10 cursor-pointer select-none left-8 top-2/4;"
+    onClick={prevSlide}
+   />
+   <FaArrowAltCircleRight
+    className="absolute text-sm text-black z-10 cursor-pointer select-none right-8 top-2/4;"
+    onClick={nextSlide}
+   />
+
+   {slides.map((slide, index) => {
+    return (
+     <div
+      className={
+       index === current
+        ? "opacity-100 duration-[1s] scale-[1.08];"
+        : "opacity-0 duration-[1s_ease];"
+      }
+      key={index}
+     >
+      {index === current && (
+       <img
+        src={slide.url}
+        alt="travel image"
+        className="w-[900px] h-[500px] rounded-[10px];"
+       />
+      )}
+     </div>
+    );
+   })}
+  </section>
  );
 }
 
