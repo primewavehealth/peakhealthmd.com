@@ -51,7 +51,7 @@ export default function Form() {
  const processForm = async (data: FormData) => {
   const config = {
    method: "post",
-   url: "/contact",
+   url: "/api/contact",
    headers: {
     "Content-Type": "application/json",
    },
@@ -60,6 +60,7 @@ export default function Form() {
   try {
    const response = await axios(config);
    if (response.status === 200) {
+    console.log(data);
     // Handle success. You can change the message to whatever you want.
     setResult(
      "Your message has been sent. Thank you for contacting us. We will get back to you as soon as possible."
