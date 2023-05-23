@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 function page() {
  const slides = [
@@ -28,17 +29,12 @@ function page() {
  }
 
  return (
-  <section className="relative flex flex-col items-center justify-center h-screen">
-   <h3 className="text-2xl text-center pb-14">
-    {" "}
-    Our Parent Company PeakHealth is the Official Health Partner of the DMV in
-    Las Vegas.
-   </h3>
-   <FaArrowAltCircleLeft
+  <section className="relative flex flex-col items-center justify-center">
+   <AiOutlineArrowLeft
     className="absolute text-sm text-black z-10 cursor-pointer select-none left-8 top-2/4;"
     onClick={prevSlide}
    />
-   <FaArrowAltCircleRight
+   <AiOutlineArrowRight
     className="absolute text-sm text-black z-10 cursor-pointer select-none right-8 top-2/4;"
     onClick={nextSlide}
    />
@@ -54,10 +50,11 @@ function page() {
       key={index}
      >
       {index === current && (
-       <img
+       <Image
         src={slide.url}
         alt="travel image"
         className="w-[900px] h-[500px] rounded-[10px];"
+        fill
        />
       )}
      </div>

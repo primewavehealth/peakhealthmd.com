@@ -17,7 +17,7 @@ function benefits() {
     <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
      <div className="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
         <svg
          fill="#1a55e0"
          height="64px"
@@ -59,7 +59,7 @@ function benefits() {
       </div>
 
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
         <svg
          width="64px"
          height="64px"
@@ -187,7 +187,7 @@ function benefits() {
       </div>
 
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
         <svg
          width="64px"
          height="64px"
@@ -233,7 +233,7 @@ function benefits() {
       </div>
 
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
         <svg
          fill="#1a55e0"
          height="64px"
@@ -285,7 +285,7 @@ function benefits() {
 
      <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
       <Image
-       className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
+       className="hover:scale-110 w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
        alt="banner"
        src="/images/carboxy.jpg"
        height={448}

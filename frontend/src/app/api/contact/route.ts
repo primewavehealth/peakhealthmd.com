@@ -1,19 +1,31 @@
+import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
 
-export async function POST(request) {
- const data = request.body;
+interface EmailProp {
+ nameSurname: string;
+ email: string;
+ message: string;
+ subject: string;
+ phone: number;
+}
+export async function POST(request: NextRequest): Promise<Response> {
+ const data: EmailProp = await request.json();
  if (
   !data ||
   !data.nameSurname ||
+  !data.subject ||
   !data.email ||
   !data.message ||
   !data.phone
  ) {
-  return new Response.json({ message: "Bad request" });
+  console.log(data);
+  return NextResponse.json({ message: "Bad request" });
  }
+
+ console.log(data);
  const mailData = {
   html: `
  <div><strong>Email:</strong> ${data.subject}</div>
@@ -27,21 +39,24 @@ export async function POST(request) {
     <div><strong>Message:</strong> ${data.message}</div>
     <br/>
     <p>Sent from:
-      ${data.email}</p>`,
+      ${email}</p>`,
  };
 
  const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
    user: email,
-   pass,
+   pass: pass,
   },
   secure: true,
+  tls: {
+   rejectUnauthorized: false,
+  },
  });
 
  const mailOptions = {
-  from: data.email,
-  to: email,
+  from: email,
+  to: "info@peakhealthmd.com",
  };
 
  try {
@@ -51,9 +66,9 @@ export async function POST(request) {
    subject: data.subject,
   });
 
-  return new Response.json({ success: true });
- } catch (err) {
+  return NextResponse.json({ success: true });
+ } catch (err: any) {
   console.log(err);
-  return new Response.json({ message: err.message });
+  return NextResponse.json({ message: err.message });
  }
 }
