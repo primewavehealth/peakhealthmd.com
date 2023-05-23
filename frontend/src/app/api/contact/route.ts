@@ -21,9 +21,17 @@ export async function POST(request: NextRequest): Promise<Response> {
   !data.message ||
   !data.phone
  ) {
+<<<<<<< HEAD
   return NextResponse.json({ message: "Bad request" });
  }
 
+=======
+  console.log(data);
+  return NextResponse.json({ message: "Bad request" });
+ }
+
+ console.log(data);
+>>>>>>> 1a5fa38bb3153229fa48df114da92b754ae60a8d
  const mailData = {
   html: `
  <div><strong>Email:</strong> ${data.subject}</div>
