@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
 import CookieBanner from "@/components/cookiebanner";
+import ToasterProvider from "@/lib/ToastProvider";
 import * as fbq from "@/lib/fpixel";
 import { FB_PIXEL_ID } from "@/lib/fpixel";
 import { SiteConfig } from "@/typings/types";
@@ -126,6 +127,7 @@ export default function RootLayout({
    <GoogleAnalytics GA_MEASUREMENT_ID="G-NK876YYXRX" />
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
+     <ToasterProvider />
      <Navbar />
      {children}
      <Footer />

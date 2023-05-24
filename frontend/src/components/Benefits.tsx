@@ -2,11 +2,11 @@ import Image from "next/image";
 
 function benefits() {
  return (
-  <section className="bg-white dark:bg-gray-900">
-   <div className="container max-w-screen-xl px-8 py-16 mx-auto">
-    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+  <section className="bg-gradient-to-b from-white via-zinc-100 to-white dark:bg-gray-900">
+   <div className="container px-8 py-16 mx-auto max-w-[1400px]">
+    <h3 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
      Our <br /> Benefits
-    </h1>
+    </h3>
 
     <div className="mt-2">
      <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
