@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./UI/Button";
 
 function Banner() {
  return (
@@ -33,18 +34,29 @@ function Banner() {
        Unlock Your Full Potentials
       </h2>
 
-      <h2 className="mt-4 leading-10 text-blue-600 lg:text-5xl ">
+      <h2 className="my-6 leading-loose text-blue-600 lg:text-5xl ">
        Discover the Power <br />
        of Wellness at <br />
        The Vegas Clinic
       </h2>
 
-      <Link
-       href="/contact"
-       className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-      >
-       Make An Appointment
-      </Link>
+      <div className="">
+       <Button
+        text="Request Consultation"
+        href="https://cal.com/thevegasclinic/appointment"
+        icon=<svg
+         fill="none"
+         stroke="currentColor"
+         strokeLinecap="round"
+         strokeLinejoin="round"
+         strokeWidth="2"
+         className="w-4 h-4 ml-auto"
+         viewBox="0 0 24 24"
+        >
+         <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+       />
+      </div>
      </div>
     </div>
    </div>

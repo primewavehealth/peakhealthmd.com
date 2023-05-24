@@ -23,7 +23,7 @@ function page() {
     width={400}
     alt="led light therapy"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -155,7 +155,7 @@ The Vegas Clinic offers different types of light therapy, including blue light t
     src="/images/happy-man.avif"
     alt="led-therapy-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

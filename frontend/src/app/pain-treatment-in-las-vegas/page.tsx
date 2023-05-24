@@ -159,7 +159,7 @@ function Pain() {
      </div>
      <div className="flex flex-col justify-center mt-5">
       <Link
-       href="/telehealth"
+       href="https://cal.com/thevegasclinic/appointment"
        className="rounded-md p-4 cursor-pointer tracking-wider text-md  w-[300px] flex justify-center
               items-center
               text-center bg-blue-600 text-white font-bold hover:bg-blue-600 hover:shadow-blue mt-3 hover:scale-90
@@ -187,7 +187,7 @@ function Pain() {
     src="/images/happy-man.avif"
     alt="pain-mgt-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

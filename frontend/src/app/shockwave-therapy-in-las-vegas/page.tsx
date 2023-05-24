@@ -20,7 +20,7 @@ function Shockwave() {
     width={400}
     alt="shockwave-therapy"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -188,7 +188,7 @@ function Shockwave() {
     src="/images/happy-man.avif"
     alt="shockwave-therapy-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

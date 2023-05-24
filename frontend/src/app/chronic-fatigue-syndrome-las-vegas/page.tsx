@@ -21,7 +21,7 @@ function page() {
     width={400}
     alt="Chronic-Fatigue-Syndrome"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -120,7 +120,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="iv-therapy-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

@@ -21,7 +21,7 @@ function Weightloss() {
     width={400}
     alt="weight loss las vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -190,7 +190,7 @@ function Weightloss() {
     src="/images/happy-man.avif"
     alt="weight-loss-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

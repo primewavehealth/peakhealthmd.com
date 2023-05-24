@@ -35,9 +35,9 @@ export async function generateMetadata({
   title,
   description,
   openGraph: {
-   type: "article",
    title,
    description,
+   type: "article",
    publishedTime: date,
    url: `https://vegasclinic.com/blog/${id}`,
    images: [

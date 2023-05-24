@@ -18,10 +18,10 @@ function CTASection() {
       <div className="w-full px-4 lg:w-1/2">
        <div className="flex flex-wrap justify-center lg:justify-end">
         <Link
-         href="/telehealth"
+         href="https://cal.com/thevegasclinic/appointment"
          className="hover:text-primary my-1 mr-4 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-2 lg:py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
         >
-         FInd A Specialist
+         Book An Appointment
         </Link>
         <Link
          href="/contact"

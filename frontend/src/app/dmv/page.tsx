@@ -32,7 +32,7 @@ function page() {
   <section className="relative flex flex-col items-center justify-center py-24">
    <h3 className="text-2xl text-center pb-14">
     {" "}
-    PeakHealth / Vegas Clinic is the Official Health Partner of the DMV in Las
+    Peak Health / Vegas Clinic is the Official Health Partner of the DMV in Las
     Vegas.
    </h3>
    <AiOutlineArrowLeft

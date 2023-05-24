@@ -22,7 +22,7 @@ function page() {
     width={400}
     alt="erectile-dysfunction"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -50,7 +50,7 @@ function page() {
       </span>
      </div>
      <Button
-      href="/telehealth"
+      href="https://cal.com/thevegasclinic/appointment"
       text="Request Consultation"
       icon=<svg
        fill="none"
@@ -153,7 +153,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

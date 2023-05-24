@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function benefits() {
  return (
-  <section className="bg-gradient-to-b from-white via-zinc-100 to-white dark:bg-gray-900">
+  <section className="bg-white">
    <div className="container px-8 py-16 mx-auto max-w-[1400px]">
     <h3 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
      Our <br /> Benefits

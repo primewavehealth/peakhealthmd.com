@@ -20,7 +20,7 @@ function page() {
     width={400}
     alt="Hormone Therapy for Menopause"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -226,7 +226,7 @@ function page() {
     src="/images/menopause.jpg"
     alt="Menopause-therapy-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

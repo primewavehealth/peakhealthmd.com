@@ -26,7 +26,7 @@ function page() {
     width={400}
     alt="PRP Facial"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -260,7 +260,7 @@ function page() {
 
      <div className="mt-12 text-center">
       <Link
-       href="/contact"
+       href="https://cal.com/thevegasclinic/appointment"
        className="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
       >
        Book an Appointment
@@ -463,7 +463,7 @@ function page() {
     src="/images/immune-system.jpg"
     alt="prp-facials-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
