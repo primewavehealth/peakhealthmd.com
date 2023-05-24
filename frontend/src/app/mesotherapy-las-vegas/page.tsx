@@ -19,7 +19,7 @@ function page() {
     width={400}
     alt="mesotherapy"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

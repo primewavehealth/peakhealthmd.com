@@ -14,7 +14,11 @@ import Button from "../Button";
 import { Aesthetics, Integrative_Medicine, Therapy, Wellness } from "./Links";
 
 const callsToAction = [
- { name: "Find A Specialist", href: "/telehealth", icon: PlayCircleIcon },
+ {
+  name: "Find A Specialist",
+  href: "https://cal.com/thevegasclinic/appointment",
+  icon: PlayCircleIcon,
+ },
  { name: "Contact Us", href: "/contact", icon: PhoneIcon },
 ];
 
@@ -283,7 +287,7 @@ export default function Example() {
      </Popover>
 
      <Link
-      href="/telehealth"
+      href="https://cal.com/thevegasclinic/appointment"
       className="text-sm font-semibold leading-6 text-gray-900"
      >
       TeleHealth
@@ -457,7 +461,7 @@ export default function Example() {
         </Disclosure>
 
         <Link
-         href="/telehealth"
+         href="https://cal.com/thevegasclinic/appointment"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          TeleHealth

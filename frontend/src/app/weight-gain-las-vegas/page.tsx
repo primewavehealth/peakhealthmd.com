@@ -19,7 +19,7 @@ function page() {
     width={400}
     alt="weight gain las vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

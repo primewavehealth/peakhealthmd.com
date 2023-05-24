@@ -20,7 +20,7 @@ function page() {
     width={400}
     alt="carboxy-therapy"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (

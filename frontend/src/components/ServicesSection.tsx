@@ -87,7 +87,7 @@ const mobileData = [
 ];
 function ServicesSection() {
  return (
-  <section className="py-24 bg-gradient-to-b from-white via-zinc-100 to-white sm:py-32">
+  <section className="py-24 bg-sky-100 sm:py-32">
    {/* mobile */}
    <div className="text-gray-600 md:hidden body-font">
     <div className="container px-5 py-16 mx-auto">
@@ -104,7 +104,7 @@ function ServicesSection() {
       {mobileData.map(({ name, href }) => (
        <div className="w-full p-2 sm:w-1/2" key={name}>
         <Link href={href} passHref>
-         <div className="flex items-center h-full p-4 bg-gray-100 rounded">
+         <div className="flex items-center h-full p-4 bg-white rounded">
           <svg
            fill="none"
            stroke="currentColor"
@@ -127,7 +127,7 @@ function ServicesSection() {
      <div className="text-center">
       <Button
        text="Request Consultation"
-       href="/telehealth"
+       href="https://cal.com/thevegasclinic/appointment"
        icon=<svg
         fill="none"
         stroke="currentColor"

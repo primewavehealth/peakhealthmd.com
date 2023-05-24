@@ -20,7 +20,7 @@ function page() {
     width={400}
     alt="sleep-therapy"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -150,7 +150,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="sleep-therapy-las-vegas"
     btn={{
-     href: "/telehealth",
+     href: "https://cal.com/thevegasclinic/appointment",
      text: "Schedule An Appointment",
 
      icon: (
