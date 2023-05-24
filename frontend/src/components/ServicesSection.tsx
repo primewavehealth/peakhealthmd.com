@@ -87,12 +87,12 @@ const mobileData = [
 ];
 function ServicesSection() {
  return (
-  <section className="py-24 bg-gradient-to-b from-blue-50 to-slate-50 sm:py-32">
+  <section className="py-24 bg-gradient-to-b from-white via-zinc-100 to-white sm:py-32">
    {/* mobile */}
    <div className="text-gray-600 md:hidden body-font">
     <div className="container px-5 py-16 mx-auto">
      <div className="mb-20 text-center">
-      <p className="mb-4 text-2xl font-medium text-center text-gray-900 sm:text-3xl title-font">
+      <p className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
        Our Specialties
       </p>
       <p className="px-4 mx-auto text-base leading-relaxed text-center xl:w-2/4 lg:w-3/4">
