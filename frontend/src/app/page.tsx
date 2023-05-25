@@ -3,8 +3,9 @@ import Banner from "@/components/Banner";
 import Benefits from "@/components/Benefits";
 import CTASection from "@/components/CTASection";
 import ScrollToTop from "@/components/ScrollToTop";
+import SectionTitle from "@/components/SectionTitle";
 import ServicesSection from "@/components/ServicesSection";
-
+import Testimonials from "@/components/Testimonials";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,6 +21,11 @@ export default function Home() {
    <AboutSection />
    <Benefits />
    <ServicesSection />
+   <SectionTitle
+    pretitle="Testimonials"
+    title="Here's what our customers said"
+   ></SectionTitle>
+   <Testimonials />
    <CTASection />
    <ScrollToTop />
   </main>
