@@ -32,7 +32,8 @@
   "**/*.tsx",
   ".next/types/**/*.ts",
   "src/app/blog/page.jsx",
-  "src/app/api/contact/route.js"
+  "src/app/api/contact/route.js",
+  "src/components/Testimonials.jsx"
  ],
  "exclude": ["node_modules"]
 }
