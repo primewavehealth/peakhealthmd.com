@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
+import Topbar from "@/components/Topbar";
 import CookieBanner from "@/components/cookiebanner";
 import ToasterProvider from "@/lib/ToastProvider";
 import * as fbq from "@/lib/fpixel";
@@ -128,6 +129,7 @@ export default function RootLayout({
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
+     <Topbar />
      <Navbar />
      {children}
      <Footer />

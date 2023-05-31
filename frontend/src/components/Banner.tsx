@@ -15,7 +15,7 @@ function Banner() {
       />
      </div>
 
-     <div className="lg:py-16">
+     <div className="space-y-3 lg:py-24">
       {/* <div className="hidden sm:mb-8 sm:flex ">
        <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
         Peak Health is now Vegas Clinic. <br />
@@ -31,7 +31,7 @@ function Banner() {
       </div> */}
       <h2 className="text-xl font-bold sm:text-2xl">Fabulous You</h2>
 
-      <h2 className="my-6 leading-loose text-blue-600 lg:text-5xl ">
+      <h2 className="leading-loose text-blue-600 lg:text-5xl ">
        Win Your Health Back
        <br />
        at The Vegas Clinic

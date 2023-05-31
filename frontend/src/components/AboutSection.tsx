@@ -1,15 +1,15 @@
 import Image from "next/image";
-import Link from "next/link";
+import Button from "./UI/Button";
 
 function AboutSection() {
  return (
   <section className="bg-gradient-to-r from-blue-600 to-blue-800">
-   <div className="px-4 py-8 mx-auto max-w-screen-2xl sm:px-6 lg:px-8 ">
+   <div className="px-4 py-8 mx-auto lg:py-16 max-w-screen-2xl sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-     <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-      <div className="max-w-xl mx-auto text-center">
-       <span className="text-white">You can bet on us </span>
-       <h1 className="mb-4 text-xl font-bold text-white md:text-4xl">
+     <div className="p-8 md:p-12 lg:px-16 lg:py-30">
+      <div className="max-w-xl mx-auto space-y-3">
+       <span className="text-xl text-white">You can bet on us </span>
+       <h1 className="mb-4 text-xl font-bold text-white md:text-5xl">
         The Vegas Clinic
        </h1>
 
@@ -24,12 +24,22 @@ function AboutSection() {
        </p>
 
        <div className="mt-4 md:mt-8">
-        <Link
+        <Button
+         text="Request Consultation"
          href="/about-the-vegas-clinic"
-         className="inline-block px-12 py-3 text-sm font-medium text-blue-500 transition bg-white border border-white rounded hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
-        >
-         Learn More
-        </Link>
+         variant="white"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto"
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
        </div>
       </div>
      </div>
@@ -38,7 +48,7 @@ function AboutSection() {
       <Image
        alt="Student"
        src="/images/run.jpg"
-       className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
+       className="object-cover w-full h-40 rounded-xl sm:h-56 md:h-full hover:scale-95"
        height={300}
        width={250}
        quality={100}
@@ -47,7 +57,7 @@ function AboutSection() {
       <Image
        alt="Student"
        src="/images/gentle.jpg"
-       className="object-cover w-full h-40 sm:h-56 md:h-full hover:scale-95"
+       className="object-cover w-full h-40 rounded-xl sm:h-56 md:h-full hover:scale-95"
        height={300}
        width={250}
        quality={100}

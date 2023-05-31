@@ -285,7 +285,7 @@ function benefits() {
 
      <div className="hidden rounded-xl lg:flex lg:w-1/2 lg:justify-center">
       <Image
-       className="object-contain xl:w-[34rem] xl:h-[34rem] "
+       className="object-contain xl:w-[34rem] xl:h-[34rem] rounded-xl"
        alt="banner"
        src="/images/doctor-vegas-clinic1.jpg"
        height={500}

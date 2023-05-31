@@ -1,6 +1,6 @@
 import { type ButtonHTMLAttributes } from "react";
 
-type buttonVariant = "regular" | "outline" | "ghost" | "link";
+type buttonVariant = "regular" | "outline" | "ghost" | "link" | "white";
 type buttonSize = "regular" | "large" | "small";
 
 export interface ButtonInterface
