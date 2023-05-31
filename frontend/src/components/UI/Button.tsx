@@ -27,7 +27,8 @@ const Button = ({
       "border border-brand text-brand hover:border-brand-dark hover:bg-brand-light disabled:border-brand disabled:bg-transparent",
      variant === "ghost" &&
       "text-brand hover:bg-brand-light disabled:hover:bg-transparent",
-     variant === "link" && "text-brand hover:underline disabled:no-underline"
+     variant === "link" && "text-brand hover:underline disabled:no-underline",
+     variant === "white" && "text-blue-600 bg-white"
     )}
     id="text"
     {...props}

@@ -10,7 +10,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import Button from "../Button";
 import { Aesthetics, Integrative_Medicine, Therapy, Wellness } from "./Links";
 
 const callsToAction = [
@@ -37,7 +36,7 @@ export default function Example() {
    >
     <div className="flex lg:flex-1">
      <Link href="/" className="-m-1.5 p-1.5">
-      <span className="sr-only">Vegas Clinic</span>
+      <span className="sr-only">The Vegas Clinic</span>
       <Image
        className="w-auto h-8"
        src="/images/logo.webp"
@@ -310,10 +309,13 @@ export default function Example() {
      >
       Blog
      </Link>
+     <Link
+      href="/contact"
+      className="text-sm font-semibold leading-6 text-gray-900"
+     >
+      Contact Us
+     </Link>
     </Popover.Group>
-    <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-     <Button />
-    </div>
    </nav>
    <Dialog
     as="div"
@@ -484,9 +486,12 @@ export default function Example() {
         >
          Blog
         </Link>
-       </div>
-       <div className="py-6">
-        <Button />
+        <Link
+         href="/contact"
+         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+        >
+         Contact Us
+        </Link>
        </div>
       </div>
      </div>
