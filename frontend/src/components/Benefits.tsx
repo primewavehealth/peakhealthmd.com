@@ -5,7 +5,7 @@ function benefits() {
   <section className="bg-white">
    <div className="container px-8 py-16 mx-auto max-w-[1400px]">
     <h3 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-     Our <br /> Benefits
+     Benefits
     </h3>
 
     <div className="mt-2">
@@ -283,13 +283,13 @@ function benefits() {
       </div>
      </div>
 
-     <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
+     <div className="hidden rounded-xl lg:flex lg:w-1/2 lg:justify-center">
       <Image
-       className="hover:scale-110 w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
+       className="object-contain xl:w-[34rem] xl:h-[34rem] "
        alt="banner"
-       src="/images/carboxy.jpg"
-       height={448}
-       width={448}
+       src="/images/doctor-vegas-clinic1.jpg"
+       height={500}
+       width={350}
       />
      </div>
     </div>

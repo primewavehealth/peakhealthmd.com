@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import about from "/public/images/about-vegas-clinic1.jpg";
 
 function About() {
  return (
@@ -42,8 +43,8 @@ function About() {
        <div className="relative col-span-1 mt-12 overflow-hidden rounded-lg lg:order-last">
         <Image
          className=""
-         alt="banner"
-         src="/about-vegas-clinic1.jpg"
+         alt="about the vegas clinic"
+         src={about}
          width={400}
          height={600}
          quality={100}

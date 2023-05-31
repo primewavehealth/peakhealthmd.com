@@ -13,7 +13,7 @@ const Button = ({
  ...props
 }: ButtonInterface) => {
  return (
-  <Link href={href} passHref>
+  <Link href={href} target="_blank" passHref>
    <button
     className={clsx(
      "inline-flex items-center h-fit w-[250px] rounded-sm text-sm font-bold transition-all mt-4",

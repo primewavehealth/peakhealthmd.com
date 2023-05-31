@@ -1,18 +1,11 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
 
-interface EmailProp {
- nameSurname: string;
- email: string;
- message: string;
- subject: string;
- phone: number;
-}
-export async function POST(request: NextRequest): Promise<Response> {
- const data: EmailProp = await request.json();
+export async function POST(request: Request) {
+ const data = await request.json();
  if (
   !data ||
   !data.nameSurname ||
@@ -21,7 +14,7 @@ export async function POST(request: NextRequest): Promise<Response> {
   !data.message ||
   !data.phone
  ) {
-  return NextResponse.json({ message: "Bad request" });
+  return NextResponse.error();
  }
 
  const mailData = {

@@ -23,7 +23,7 @@ export default function Home() {
    <ServicesSection />
    <SectionTitle
     pretitle="Testimonials"
-    title="Here's what our customers said"
+    title="You are in good company"
    ></SectionTitle>
    <Testimonials />
    <CTASection />
