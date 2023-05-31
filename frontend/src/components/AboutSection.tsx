@@ -8,7 +8,7 @@ function AboutSection() {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="p-8 md:p-12 lg:px-16 lg:py-24">
       <div className="max-w-xl mx-auto text-center">
-       <span className="text-white">Welcome to </span>
+       <span className="text-white">You can bet on us </span>
        <h1 className="mb-4 text-xl font-bold text-white md:text-4xl">
         The Vegas Clinic
        </h1>

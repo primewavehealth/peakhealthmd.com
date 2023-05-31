@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Button from "./UI/Button";
 
 function Banner() {
@@ -17,7 +16,7 @@ function Banner() {
      </div>
 
      <div className="lg:py-16">
-      <div className="hidden sm:mb-8 sm:flex ">
+      {/* <div className="hidden sm:mb-8 sm:flex ">
        <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
         Peak Health is now Vegas Clinic. <br />
         Get 15% off All IV Therapies. Hurry, Offer lasts tills 5/30.{" "}
@@ -29,15 +28,13 @@ function Banner() {
          Learn More <span aria-hidden="true">&rarr;</span>
         </Link>
        </div>
-      </div>
-      <h2 className="text-xl font-bold sm:text-2xl">
-       Unlock Your Full Potentials
-      </h2>
+      </div> */}
+      <h2 className="text-xl font-bold sm:text-2xl">Fabulous You</h2>
 
       <h2 className="my-6 leading-loose text-blue-600 lg:text-5xl ">
-       Discover the Power <br />
-       of Wellness at <br />
-       The Vegas Clinic
+       Win Your Health Back
+       <br />
+       at The Vegas Clinic
       </h2>
 
       <div className="">

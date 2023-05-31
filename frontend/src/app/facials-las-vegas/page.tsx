@@ -108,6 +108,7 @@ function Page() {
 
        <Link
         href="https://cal.com/thevegasclinic/facials"
+        target="_blank"
         className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
         Book a Session
@@ -143,6 +144,7 @@ function Page() {
 
        <Link
         href="https://cal.com/thevegasclinic/facials"
+        target="_blank"
         className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
         Book a Session
@@ -173,6 +175,7 @@ function Page() {
           </p>
           <Link
            href="https://cal.com/thevegasclinic/facials"
+           target="_blank"
            className="
            mt-4
                      inline-block
@@ -204,6 +207,7 @@ Choose from our selection of facials, including anti-aging, acne, brightening, a
     alt="facials-treatment-las-vegas"
     btn={{
      href: "https://cal.com/thevegasclinic/facials",
+
      text: "Schedule An Appointment",
 
      icon: (

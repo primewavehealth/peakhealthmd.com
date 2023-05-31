@@ -13,7 +13,7 @@ const features = [
   description:
    "Testosterone replacement therapy (TRT) can help increase low testosterone levels in your body to normal, healthy ranges. Our team diagnoses and treats low testosterone along with other health conditions. Customized treatment plans from our team at Low T Center are customized to each patient’s specific needs.",
   icon: ArrowPathIcon,
-  image: "/images/middle-aged-man.jpg",
+  image: "/images/low-t-vegas-clinic.jpg",
   href: "/low-testosterone-treatment-las-vegas",
  },
  {
@@ -40,7 +40,7 @@ const features = [
   description:
    "Facials are treatments designed to rejuvenate and improve the health of the skin by removing impurities, unclogging pores, and providing hydration",
   icon: FingerPrintIcon,
-  image: "/images/platelet-rich-plasma.jpg",
+  image: "/images/facials-vegas.jpg",
   href: "/facials-las-vegas",
  },
  {
