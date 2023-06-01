@@ -16,7 +16,7 @@ const Button = ({
   <Link href={href} target="_blank" passHref>
    <button
     className={clsx(
-     "inline-flex items-center h-fit w-[250px] rounded-sm text-sm font-bold transition-all mt-4",
+     "inline-flex items-center h-fit w-[250px] rounded-sm hover:scale-110 text-sm font-bold transition-all mt-4",
      "disabled:cursor-not-allowed disabled:opacity-50",
      size === "large" && "px-5 py-3 text-base",
      size === "regular" && "px-6 py-4 text-lg",
