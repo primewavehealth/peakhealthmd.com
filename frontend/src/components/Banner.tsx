@@ -29,7 +29,7 @@ function Banner() {
         </Link>
        </div>
       </div> */}
-      <h2 className="text-xl font-bold sm:text-2xl">Hey, Fabulous You</h2>
+      <h2 className="text-xl font-bold sm:text-2xl">Fabulous You</h2>
 
       <h2 className="leading-loose text-blue-600 lg:text-4xl ">
        Win Your Health Back
