@@ -31,7 +31,7 @@ export default function Example() {
  return (
   <header className=" font-[open_Sans]">
    <nav
-    className="flex items-center justify-between p-4 mx-auto max-w-8xl lg:px-4"
+    className="flex items-center justify-between p-2 mx-auto max-w-8xl lg:px-4"
     aria-label="Global"
    >
     <div className="flex lg:flex-1">
@@ -305,7 +305,7 @@ export default function Example() {
      </Link>
      <Link
       href="/blog"
-      className="text-sm font-semibold leading-6 text-gray-900"
+      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
      >
       Blog
      </Link>
@@ -315,7 +315,7 @@ export default function Example() {
       href="/contact"
       className="p-3 text-sm font-semibold leading-6 text-white bg-blue-600 rounded-md"
      >
-      Contact Us
+      Contact
      </Link>
     </div>
    </nav>

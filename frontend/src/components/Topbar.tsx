@@ -81,7 +81,12 @@ function Topbar() {
     </span>
     <span className="flex items-center justify-between">
      <MdCalendarMonth className="text-2xl text-blue-500" />
-     <strong className="text-blue-600">Make An Appointment</strong>
+     <Link
+      href="https://cal.com/thevegasclinic/appointment"
+      className="text-blue-600"
+     >
+      <strong>Make An Appointment</strong>
+     </Link>
     </span>
    </div>
   </div>
