@@ -309,13 +309,15 @@ export default function Example() {
      >
       Blog
      </Link>
+    </Popover.Group>
+    <div className="hidden lg:flex lg:flex-1 lg:justify-end">
      <Link
       href="/contact"
-      className="text-sm font-semibold leading-6 text-gray-900"
+      className="p-3 text-sm font-semibold leading-6 text-white bg-blue-600 rounded-md"
      >
       Contact Us
      </Link>
-    </Popover.Group>
+    </div>
    </nav>
    <Dialog
     as="div"
