@@ -56,12 +56,6 @@ export const Aesthetics = [
   description: "",
   name: "Anti Aging / Wrinkles",
  },
-
- {
-  href: "https://www.bold3dbrows.com/",
-  description: "",
-  name: "Bold3DBrows",
- },
 ];
 
 export const Wellness = [
