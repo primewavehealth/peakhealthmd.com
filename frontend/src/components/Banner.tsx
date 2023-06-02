@@ -4,7 +4,7 @@ import Button from "./UI/Button";
 function Banner() {
  return (
   <section>
-   <div className="max-w-full mx-auto py-30">
+   <div className="max-w-full mx-auto">
     <div className="relative grid grid-cols-1 lg:grid-cols-2">
      <div className="hidden md:flex lg:order-last">
       <Image
@@ -15,7 +15,7 @@ function Banner() {
       />
      </div>
 
-     <div className="py-32 pl-10 lg:pl-24 xl:pl-36 xl:py-44 lg:space-y-3">
+     <div className="py-32 pl-10 lg:pl-24 xl:pl-36 xl:py-52 lg:space-y-3">
       {/* <div className="hidden sm:mb-8 sm:flex ">
        <div className="relative px-3 py-1 text-sm leading-6 rounded-full text-neutral-800 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
         Peak Health is now Vegas Clinic. <br />
