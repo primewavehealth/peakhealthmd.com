@@ -2,21 +2,21 @@ import Link from "next/link";
 
 function Footer() {
  return (
-  <footer aria-label="Site Footer" className="bg-blue-50">
+  <footer aria-label="Site Footer" className="bg-blue-700">
    <div className="max-w-screen-xl px-4 pb-8 mx-auto sm:px-6 lg:px-8">
     <div className="pt-2 border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
      <nav aria-label="Footer Navigation - Support">
       <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
        <Link
         href="/terms-and-conditions"
-        className="text-gray-500 transition hover:opacity-75"
+        className="text-white transition hover:opacity-75"
        >
         Terms & Conditions
        </Link>
 
        <Link
         href="/privacy-policy"
-        className="text-gray-500 transition hover:opacity-75"
+        className="text-white transition hover:opacity-75"
        >
         Privacy Policy
        </Link>
@@ -26,7 +26,7 @@ function Footer() {
      <ul className="flex justify-center gap-6 mt-8 sm:mt-0 lg:justify-end">
       <Link
        href="https://www.facebook.com/vegasclinic"
-       className="text-gray-500 transition hover:opacity-75"
+       className="text-white transition hover:opacity-75"
        rel="noreferrer"
        target="_blank"
       >
@@ -48,7 +48,7 @@ function Footer() {
 
       <Link
        href="https://www.instagram.com/vegasclinic"
-       className="text-gray-500 transition hover:opacity-75"
+       className="text-white transition hover:opacity-75"
        rel="noreferrer"
        target="_blank"
       >
@@ -70,7 +70,7 @@ function Footer() {
 
       <Link
        href="https://www.twitter.com/vegasclinic"
-       className="text-gray-500 transition hover:opacity-75"
+       className="text-white transition hover:opacity-75"
        rel="noreferrer"
        target="_blank"
       >
