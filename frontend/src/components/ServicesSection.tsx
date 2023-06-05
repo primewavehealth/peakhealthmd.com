@@ -53,7 +53,7 @@ const features = [
  },
 
  {
-  name: "ShockwaveTherapy",
+  name: "Shockwave Therapy",
   description:
    "Shockwave therapy is a cutting-edge non-invasive treatment that has proven to be effective in treating various musculoskeletal conditions, including chronic pain and injuries. If you're looking for a reliable shockwave therapy provider in Las Vegas, look no further than our clinic.",
   icon: FingerPrintIcon,
