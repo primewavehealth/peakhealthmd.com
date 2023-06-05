@@ -10,7 +10,12 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { Aesthetics, Integrative_Medicine, Therapy, Wellness } from "./Links";
+import {
+ Aesthetics,
+ Integrative_Medicine,
+ Mens_Health,
+ Wellness,
+} from "./Links";
 
 const callsToAction = [
  {
@@ -60,7 +65,7 @@ export default function Example() {
     <Popover.Group className="hidden lg:flex lg:gap-x-12">
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
-       Integrative Medicine
+       Mens Health
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
         aria-hidden="true"
@@ -78,7 +83,7 @@ export default function Example() {
       >
        <Popover.Panel className="absolute z-10 w-screen max-w-md mt-3 overflow-hidden bg-white shadow-lg -left-8 top-full rounded-3xl ring-1 ring-gray-900/5">
         <div className="p-4">
-         {Integrative_Medicine.map((item) => (
+         {Mens_Health.map((item) => (
           <div
            key={item.name}
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
@@ -114,10 +119,9 @@ export default function Example() {
        </Popover.Panel>
       </Transition>
      </Popover>
-
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
-       Therapy
+       Integrative Medicine
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
         aria-hidden="true"
@@ -135,7 +139,7 @@ export default function Example() {
       >
        <Popover.Panel className="absolute z-10 w-screen max-w-md mt-3 overflow-hidden bg-white shadow-lg -left-8 top-full rounded-3xl ring-1 ring-gray-900/5">
         <div className="p-4">
-         {Therapy.map((item) => (
+         {Integrative_Medicine.map((item) => (
           <div
            key={item.name}
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
@@ -354,6 +358,34 @@ export default function Example() {
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
+           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
+            Mens Health
+            <ChevronDownIcon
+             className={classNames(
+              open ? "rotate-180" : "",
+              "h-5 w-5 flex-none"
+             )}
+             aria-hidden="true"
+            />
+           </Disclosure.Button>
+           <Disclosure.Panel className="mt-2 space-y-2">
+            {[...Mens_Health, ...callsToAction].map((item) => (
+             <Disclosure.Button
+              key={item.name}
+              as="a"
+              href={item.href}
+              className="block py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+             >
+              {item.name}
+             </Disclosure.Button>
+            ))}
+           </Disclosure.Panel>
+          </>
+         )}
+        </Disclosure>
+        <Disclosure as="div" className="-mx-3">
+         {({ open }) => (
+          <>
            <Disclosure.Button className=" outline-none flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
             Integrative Medicine
             <ChevronDownIcon
@@ -379,34 +411,7 @@ export default function Example() {
           </>
          )}
         </Disclosure>
-        <Disclosure as="div" className="-mx-3">
-         {({ open }) => (
-          <>
-           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-            Therapy
-            <ChevronDownIcon
-             className={classNames(
-              open ? "rotate-180" : "",
-              "h-5 w-5 flex-none"
-             )}
-             aria-hidden="true"
-            />
-           </Disclosure.Button>
-           <Disclosure.Panel className="mt-2 space-y-2">
-            {[...Therapy, ...callsToAction].map((item) => (
-             <Disclosure.Button
-              key={item.name}
-              as="a"
-              href={item.href}
-              className="block py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-             >
-              {item.name}
-             </Disclosure.Button>
-            ))}
-           </Disclosure.Panel>
-          </>
-         )}
-        </Disclosure>
+
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>

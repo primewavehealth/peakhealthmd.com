@@ -53,7 +53,7 @@ const features = [
  },
 
  {
-  name: "Acoustic Therapy",
+  name: "ShockwaveTherapy",
   description:
    "Shockwave therapy is a cutting-edge non-invasive treatment that has proven to be effective in treating various musculoskeletal conditions, including chronic pain and injuries. If you're looking for a reliable shockwave therapy provider in Las Vegas, look no further than our clinic.",
   icon: FingerPrintIcon,
@@ -63,25 +63,26 @@ const features = [
 ];
 
 const mobileData = [
- { name: "Pain Management", href: "/pain-treatment-in-las-vegas" },
- { name: "Peptide Therapy", href: "/peptide-therapy-las-vegas" },
  {
-  name: "Hormone Therapy for Menopause",
-  href: "/hormone-therapy-menopause-las-vegas",
+  name: "Erectile Dysfunction",
+  href: "/erectile-dysfunction-treatment-in-las-vegas",
  },
+ {
+  name: "Low Testosterone Treatment",
+  href: "/low-testosterone-treatment-las-vegas",
+ },
+ { name: "Pain Management", href: "/pain-treatment-in-las-vegas" },
+
  {
   name: "Chronic Fatigue Syndrome",
   href: "/chronic-fatigue-syndrome-las-vegas",
  },
- {
-  name: "Low Testosterone Treatment",
-  href: "low-testosterone-treatment-las-vegas",
- },
+
  {
   name: "Shockwave Therapy",
   href: "/shockwave-therapy-in-las-vegas",
  },
- { name: "Fibromyalgia", href: "/fibromyalgia-treatment-las-vegas" },
+
  { name: "Weight Loss", href: "/weight-loss-las-vegas" },
  { name: "Facials", href: "/facials-las-vegas" },
 ];

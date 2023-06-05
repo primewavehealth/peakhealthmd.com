@@ -3,12 +3,12 @@ import { CgPhone } from "react-icons/cg";
 import { MdCalendarMonth } from "react-icons/md";
 function Topbar() {
  return (
-  <div className="flex justify-around py-2 bg-blue-50">
+  <div className="flex justify-around py-2 bg-blue-700">
    <div className="hidden lg:flex">
     <ul className="flex justify-center gap-6 mt-8 sm:mt-0 lg:justify-end">
      <Link
       href="https://www.facebook.com/vegasclinic"
-      className="text-gray-500 transition hover:opacity-75"
+      className="text-white transition hover:opacity-75"
       rel="noreferrer"
       target="_blank"
      >
@@ -30,7 +30,7 @@ function Topbar() {
 
      <Link
       href="https://www.instagram.com/vegasclinic"
-      className="text-gray-500 transition hover:opacity-75"
+      className="text-white transition hover:opacity-75"
       rel="noreferrer"
       target="_blank"
      >
@@ -52,7 +52,7 @@ function Topbar() {
 
      <Link
       href="https://www.twitter.com/vegasclinic"
-      className="text-gray-500 transition hover:opacity-75"
+      className="text-white transition hover:opacity-75"
       rel="noreferrer"
       target="_blank"
      >
@@ -71,19 +71,21 @@ function Topbar() {
    </div>
    <div className="flex justify-around space-x-4">
     <span className="flex items-center">
-     <CgPhone className="text-2xl text-blue-600" />
+     <CgPhone className="text-2xl text-white transition hover:opacity-75" />
      <Link
       href="tel:7026254334"
       // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
      >
-      <strong className="text-blue-600 ">(702) 625-4334</strong>
+      <strong className="text-white transition hover:opacity-75">
+       (702) 625-4334
+      </strong>
      </Link>
     </span>
     <span className="flex items-center justify-between">
-     <MdCalendarMonth className="text-2xl text-blue-500" />
+     <MdCalendarMonth className="text-2xl text-white transition hover:opacity-75" />
      <Link
       href="https://cal.com/thevegasclinic/appointment"
-      className="text-blue-600"
+      className="text-white transition hover:opacity-75"
      >
       <strong>Make An Appointment</strong>
      </Link>

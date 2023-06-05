@@ -5,22 +5,6 @@ export const Integrative_Medicine = [
   name: "Pain Management",
  },
  {
-  href: "/erectile-dysfunction-treatment-in-las-vegas",
-  description: "",
-  name: "Erectile Dysfunction",
- },
- {
-  href: "/fibromyalgia-treatment-las-vegas",
-  description: "",
-  name: "Fibromyalgia",
- },
-
- {
-  href: "/long-haul-covid-19-treatment",
-  description: "",
-  name: "Long Haul Covid",
- },
- {
   href: "/chronic-fatigue-syndrome-las-vegas",
   description: "",
   name: "Chronic Fatigue Syndrome",
@@ -32,16 +16,21 @@ export const Integrative_Medicine = [
  },
 ];
 
-export const Therapy = [
+export const Mens_Health = [
+ {
+  href: "/erectile-dysfunction-treatment-in-las-vegas",
+  description: "",
+  name: "Erectile Dysfunction",
+ },
  {
   href: "/low-testosterone-treatment-las-vegas",
   description: "",
   name: "Low Testosterone Treatment",
  },
  {
-  href: "/peptide-therapy-las-vegas",
+  href: "/shockwave-therapy-in-las-vegas",
   description: "",
-  name: "Immune Booster",
+  name: "Shock Wave Therapy",
  },
 ];
 
@@ -65,23 +54,8 @@ export const Wellness = [
   name: "Weight Loss",
  },
  {
-  href: "/weight-gain-las-vegas",
-  description: "",
-  name: "Weight Gain",
- },
- {
   href: "/IV-therapy-las-vegas",
   description: "",
   name: "IV Therapy",
- },
- {
-  href: "/sleep-therapy-las-vegas",
-  description: "",
-  name: "Sleep Study & Sleep Therapy",
- },
- {
-  href: "/shockwave-therapy-in-las-vegas",
-  description: "",
-  name: "Pain Therapy",
  },
 ];
