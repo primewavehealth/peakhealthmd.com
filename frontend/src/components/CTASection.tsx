@@ -8,11 +8,12 @@ function CTASection() {
      <div className="flex flex-wrap items-center -mx-4">
       <div className="w-full px-4 lg:w-1/2">
        <span className="hidden mb-2 text-base font-semibold text-white md:block">
-        We Specialize in You
+        Unleash Your Best Self
        </span>
-       <p className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-        Lets help you <br className="hidden xs:block" />
-        get better
+       <p className=" md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+        Experience the Power of Our Comprehensive
+        <br className="hidden xs:block" />
+        Men's Health & Wellness Solutions
        </p>
       </div>
       <div className="w-full px-4 lg:w-1/2">

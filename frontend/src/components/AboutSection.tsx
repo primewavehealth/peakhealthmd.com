@@ -8,19 +8,20 @@ function AboutSection() {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl mx-auto space-y-3">
-       <span className="text-xl text-white">You can bet on us </span>
+       <span className="text-xl text-white">The Vegas Clinic </span>
        <h1 className="mb-4 text-xl font-bold text-white md:text-5xl">
-        The Vegas Clinic
+        Mens Health and Wellness Specialists
        </h1>
 
        <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
-        We specialize in pain management and wellness, offering personalized
-        treatment plans to help our patients achieve optimal health. We treat a
-        variety of pain conditions, including chronic pain, back pain, neck pain
-        and joint pain. We also offer a range of wellness services such as IV
-        therapy, shockwave therapy and weight loss programs. Our experienced
-        medical professionals are dedicated to providing compassionate,
-        patient-centered care to help our patients live their best lives.
+        We specialize in ED, low-t, pain management, weight loss and wellness,
+        offering personalized treatment plans to help our patients achieve
+        optimal health. We treat a variety of pain conditions, including chronic
+        pain, back pain, neck pain and joint pain. We also offer a range of
+        wellness services such as IV therapy, shockwave therapy and weight loss
+        programs. Our experienced medical professionals are dedicated to
+        providing compassionate, patient-centered care to help our patients live
+        their best lives.
        </p>
 
        <div className="mt-4 md:mt-8">
