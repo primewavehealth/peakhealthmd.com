@@ -118,18 +118,18 @@ function page() {
      </h2>
      <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
       <p>
-       At the Vegas Clinic, we understand that erectile dysfunction can be a
-       sensitive and difficult issue to discuss. That's why we offer
-       personalized and discreet consultations to help patients understand their
-       condition and develop an effective treatment plan. During your
-       consultation, our experienced staff will conduct a comprehensive medical
-       history and physical exam, as well as discuss your symptoms and concerns
-       in a private and confidential setting. We will work closely with you to
-       develop a personalized treatment plan that addresses your unique needs
-       and goals, taking into account your medical history, lifestyle, and other
-       factors. Our goal is to provide you with the highest level of care and
-       support, so you can effectively manage your symptoms and achieve a
-       satisfying sex life.
+       We are the choice ED Clinic in Las Vegas. We understand that erectile
+       dysfunction can be a sensitive and difficult issue to discuss. That's why
+       we offer personalized and discreet consultations to help patients
+       understand their condition and develop an effective treatment plan.
+       During your consultation, our experienced staff will conduct a
+       comprehensive medical history and physical exam, as well as discuss your
+       symptoms and concerns in a private and confidential setting. We will work
+       closely with you to develop a personalized treatment plan that addresses
+       your unique needs and goals, taking into account your medical history,
+       lifestyle, and other factors. Our goal is to provide you with the highest
+       level of care and support, so you can effectively manage your symptoms
+       and achieve a satisfying sex life.
       </p>
      </article>
     </div>
