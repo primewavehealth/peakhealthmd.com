@@ -9,15 +9,15 @@ function benefits() {
     </h3>
 
     <div className="mt-2">
-     <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-     <span className="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-     <span className="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+     <span className="inline-block w-40 h-1 bg-blue-900 rounded-full"></span>
+     <span className="inline-block w-3 h-1 ml-1 bg-blue-900 rounded-full"></span>
+     <span className="inline-block w-1 h-1 ml-1 bg-blue-900 rounded-full"></span>
     </div>
 
     <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
      <div className="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-900 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-900">
         <svg
          fill="#1a55e0"
          height="64px"
@@ -59,7 +59,7 @@ function benefits() {
       </div>
 
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-900 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-900">
         <svg
          width="64px"
          height="64px"
@@ -187,7 +187,7 @@ function benefits() {
       </div>
 
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-900 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-900">
         <svg
          width="64px"
          height="64px"
@@ -233,7 +233,7 @@ function benefits() {
       </div>
 
       <div className="space-y-3">
-       <span className="inline-block p-3 text-blue-500 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-500">
+       <span className="inline-block p-3 text-blue-900 bg-blue-100 hover:scale-125 rounded-xl dark:text-white dark:bg-blue-900">
         <svg
          fill="#1a55e0"
          height="64px"
