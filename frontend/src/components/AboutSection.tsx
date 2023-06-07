@@ -3,13 +3,13 @@ import Button from "./UI/Button";
 
 function AboutSection() {
  return (
-  <section className="bg-gradient-to-r from-blue-600 to-blue-900">
+  <section className="bg-blue-900">
    <div className="px-4 py-8 mx-auto lg:py-16 max-w-screen-2xl sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl mx-auto space-y-3">
        <span className="text-xl text-white">
-        We are <strong>PrimeWave</strong>{" "}
+        We are <strong className="text-yellow-400">PrimeWave</strong>{" "}
        </span>
        <h1 className="mb-4 text-xl font-bold text-white md:text-5xl">
         Mens Health and Wellness Specialists
