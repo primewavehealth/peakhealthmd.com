@@ -125,7 +125,7 @@ export default function RootLayout({
           `,
     }}
    />
-   <GoogleAnalytics GA_MEASUREMENT_ID="G-NK876YYXRX" />
+   <GoogleAnalytics GA_MEASUREMENT_ID="G-HH6TSN7KTX" />
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
