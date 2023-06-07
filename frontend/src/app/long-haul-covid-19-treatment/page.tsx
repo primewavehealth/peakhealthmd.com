@@ -19,7 +19,7 @@ function Shockwave() {
     width={400}
     alt="long haul covid 19"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

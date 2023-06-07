@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
  return (
-  <footer aria-label="Site Footer" className="bg-blue-700">
+  <footer aria-label="Site Footer" className="bg-blue-900">
    <div className="max-w-screen-xl px-4 pb-8 mx-auto sm:px-6 lg:px-8">
     <div className="pt-2 border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
      <nav aria-label="Footer Navigation - Support">
@@ -25,7 +25,7 @@ function Footer() {
 
      <ul className="flex justify-center gap-6 mt-8 sm:mt-0 lg:justify-end">
       <Link
-       href="https://www.facebook.com/vegasclinic"
+       href="https://www.facebook.com/primewavehealth"
        className="text-white transition hover:opacity-75"
        rel="noreferrer"
        target="_blank"
@@ -47,7 +47,7 @@ function Footer() {
       </Link>
 
       <Link
-       href="https://www.instagram.com/vegasclinic"
+       href="https://www.instagram.com/primewavehealth"
        className="text-white transition hover:opacity-75"
        rel="noreferrer"
        target="_blank"
@@ -69,7 +69,7 @@ function Footer() {
       </Link>
 
       <Link
-       href="https://www.twitter.com/vegasclinic"
+       href="https://www.twitter.com/primewavehealth"
        className="text-white transition hover:opacity-75"
        rel="noreferrer"
        target="_blank"

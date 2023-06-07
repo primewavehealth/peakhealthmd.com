@@ -39,7 +39,7 @@ export async function generateMetadata({
    description,
    type: "article",
    publishedTime: date,
-   url: `https://vegasclinic.com/blog/${id}`,
+   url: `https://primewavehealth.com/blog/${id}`,
    images: [
     {
      url: ogImage,

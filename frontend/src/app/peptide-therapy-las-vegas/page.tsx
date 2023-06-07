@@ -13,13 +13,13 @@ function page() {
   <div>
    <PageBanner
     heading="Peptide Therapy in Las Vegas"
-    body="If you're looking for cutting-edge treatments for a range of health concerns, The Vegas Clinic offers peptide therapy in Las Vegas. This therapy can be used to address a range of health concerns, from improving athletic performance to reducing inflammation and supporting weight loss. Our team of experienced healthcare professionals will work with you to determine the best course of treatment based on your unique needs and goals."
+    body="If you're looking for cutting-edge treatments for a range of health concerns, Prime Wave offers peptide therapy in Las Vegas. This therapy can be used to address a range of health concerns, from improving athletic performance to reducing inflammation and supporting weight loss. Our team of experienced healthcare professionals will work with you to determine the best course of treatment based on your unique needs and goals."
     src={peptide}
     height={400}
     width={400}
     alt="peptide-therapy"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

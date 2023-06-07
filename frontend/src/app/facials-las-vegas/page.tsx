@@ -42,7 +42,7 @@ function Page() {
     width={400}
     alt="Facials in Las Vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/facials",
+     href: "https://cal.com/primewavehealth/facials",
      text: "Schedule An Appointment",
 
      icon: (
@@ -70,10 +70,10 @@ function Page() {
 
       <article className="space-y-4 text-justify text-gray-600 ">
        <p>
-        At the Vegas Clinic, offer a range of facial treatments that will leave
-        your skin feeling refreshed and rejuvenated. Our facials are tailored to
-        meet your unique needs, and are performed by experienced estheticians
-        who use only the highest quality products.
+        At Prime Wave, offer a range of facial treatments that will leave your
+        skin feeling refreshed and rejuvenated. Our facials are tailored to meet
+        your unique needs, and are performed by experienced estheticians who use
+        only the highest quality products.
        </p>
        <p>
         We offer several types of facials, each with its own unique features and
@@ -107,7 +107,7 @@ function Page() {
        </p>
 
        <Link
-        href="https://cal.com/thevegasclinic/facials"
+        href="https://cal.com/primewavehealth/facials"
         target="_blank"
         className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
@@ -143,7 +143,7 @@ function Page() {
        </p>
 
        <Link
-        href="https://cal.com/thevegasclinic/facials"
+        href="https://cal.com/primewavehealth/facials"
         target="_blank"
         className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
        >
@@ -174,7 +174,7 @@ function Page() {
            {text}
           </p>
           <Link
-           href="https://cal.com/thevegasclinic/facials"
+           href="https://cal.com/primewavehealth/facials"
            target="_blank"
            className="
            mt-4
@@ -206,7 +206,7 @@ Choose from our selection of facials, including anti-aging, acne, brightening, a
     src="/images/facials1.jpg"
     alt="facials-treatment-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/facials",
+     href: "https://cal.com/primewavehealth/facials",
 
      text: "Schedule An Appointment",
 

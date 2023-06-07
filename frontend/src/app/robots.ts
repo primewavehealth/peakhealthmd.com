@@ -5,7 +5,7 @@ export default function robots() {
     userAgent: "*",
    },
   ],
-  sitemap: "https://vegasclinic.com/sitemap.xml",
-  host: "https://vegasclinic.com",
+  sitemap: "https://primewavehealth.com/sitemap.xml",
+  host: "https://primewavehealth.com",
  };
 }

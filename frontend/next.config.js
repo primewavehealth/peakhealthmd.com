@@ -22,7 +22,7 @@ const nextConfig = {
   return [
    {
     source: "/about",
-    destination: "/about-the-vegas-clinic",
+    destination: "/about-primewave",
     permanent: true,
    },
    {

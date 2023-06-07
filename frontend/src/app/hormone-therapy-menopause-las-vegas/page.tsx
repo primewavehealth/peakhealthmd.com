@@ -20,7 +20,7 @@ function page() {
     width={400}
     alt="Hormone Therapy for Menopause"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -204,7 +204,7 @@ function page() {
        While HRT can be effective in treating menopausal symptoms, it is not
        suitable for everyone. Women with a history of breast or ovarian cancer,
        blood clots, or liver disease, or who have a family history of these
-       conditions, should not use HRT. At the Vegas Clinic, we understand that
+       conditions, should not use HRT. At Prime Wave, we understand that
        menopause can be a challenging time for many women, and that hormone
        imbalances can cause a range of uncomfortable symptoms. That's why we
        offer personalized consultations for hormone replacement therapy (HRT) to
@@ -226,7 +226,7 @@ function page() {
     src="/images/menopause.jpg"
     alt="Menopause-therapy-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

@@ -3,12 +3,14 @@ import Button from "./UI/Button";
 
 function AboutSection() {
  return (
-  <section className="bg-gradient-to-r from-blue-600 to-blue-800">
+  <section className="bg-gradient-to-r from-blue-600 to-blue-900">
    <div className="px-4 py-8 mx-auto lg:py-16 max-w-screen-2xl sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl mx-auto space-y-3">
-       <span className="text-xl text-white">The Vegas Clinic </span>
+       <span className="text-xl text-white">
+        We are <strong>PrimeWave</strong>{" "}
+       </span>
        <h1 className="mb-4 text-xl font-bold text-white md:text-5xl">
         Mens Health and Wellness Specialists
        </h1>
@@ -27,8 +29,7 @@ function AboutSection() {
        <div className="mt-4 md:mt-8">
         <Button
          text="Request Consultation"
-         href="/about-the-vegas-clinic"
-         variant="white"
+         href="/about-primewave"
          icon=<svg
           fill="none"
           stroke="currentColor"

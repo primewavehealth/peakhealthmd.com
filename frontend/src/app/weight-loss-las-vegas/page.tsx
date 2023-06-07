@@ -14,14 +14,14 @@ function Weightloss() {
   <div>
    <PageBanner
     heading="Medical Weight Loss Service in Las Vegas"
-    body="Achieving and maintaining a healthy weight can be challenging.At the Vegas Clinic, we offer personalized diet and exercise plans, prescription medications, nutritional counseling, and ongoing support from board certified medical professionals to help you reach your weight loss goals safely and effectively.Losing weight is important for overall health, as it can lower your risk of conditions such as heart disease, diabetes, and high blood pressure.
+    body="Achieving and maintaining a healthy weight can be challenging.At Prime Wave, we offer personalized diet and exercise plans, prescription medications, nutritional counseling, and ongoing support from board certified medical professionals to help you reach your weight loss goals safely and effectively.Losing weight is important for overall health, as it can lower your risk of conditions such as heart disease, diabetes, and high blood pressure.
  Contact us today to learn more about how we can help you achieve a healthier lifestyle."
     src={weight}
     height={400}
     width={400}
     alt="weight loss las vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -95,7 +95,7 @@ function Weightloss() {
          that is safe and effective for you.
         </p>
         <p>
-         Supervision by medical professionals: Vegas Clinic Medical weight loss
+         Supervision by medical professionals: Prime Wave medical weight loss
          service is supervised by our doctors, nurses, and dietitians. This
          ensures that the program is safe and effective, and that any medical
          issues are addressed promptly.
@@ -186,11 +186,11 @@ function Weightloss() {
    {/* CTA */}
    <CTA
     heading="Weight Loss Experts in Las Vegas"
-    body="Are you struggling to lose weight and improve your health? Look no further than The Vegas Clinic. Our highly trained staff offers various types of weight loss treatments, including personalized nutrition plans, hormone therapy, and medication-assisted weight loss. With years of experience in the field, we are dedicated to helping our patients achieve their weight loss goals in a safe and effective manner. Our team will work with you to develop a customized plan that addresses your unique needs and lifestyle, helping you to shed unwanted pounds and improve your overall health. Contact us today to schedule your appointment and experience the expertise of our team."
+    body="Are you struggling to lose weight and improve your health? Look no further than Prime Wave. Our highly trained staff offers various types of weight loss treatments, including personalized nutrition plans, hormone therapy, and medication-assisted weight loss. With years of experience in the field, we are dedicated to helping our patients achieve their weight loss goals in a safe and effective manner. Our team will work with you to develop a customized plan that addresses your unique needs and lifestyle, helping you to shed unwanted pounds and improve your overall health. Contact us today to schedule your appointment and experience the expertise of our team."
     src="/images/happy-man.avif"
     alt="weight-loss-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

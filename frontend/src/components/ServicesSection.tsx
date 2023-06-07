@@ -128,7 +128,7 @@ function ServicesSection() {
      <div className="text-center">
       <Button
        text="Request Consultation"
-       href="https://cal.com/thevegasclinic/appointment"
+       href="https://cal.com/primewavehealth/appointment"
        icon=<svg
         fill="none"
         stroke="currentColor"

@@ -26,7 +26,7 @@ function page() {
     width={400}
     alt="PRP Facial"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -260,7 +260,7 @@ function page() {
 
      <div className="mt-12 text-center">
       <Link
-       href="https://cal.com/thevegasclinic/appointment"
+       href="https://cal.com/primewavehealth/appointment"
        className="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
       >
        Book an Appointment
@@ -458,12 +458,12 @@ function page() {
    {/* CTA */}
    <CTA
     heading="Menopause Therapy in Las Vegas"
-    body="At the Las Vegas Clinic, where we offer innovative Plasma Rich Platelet (PRP) facials to help you achieve a youthful, radiant glow. Our experienced and skilled medical team provides safe and effective treatments using state-of-the-art equipment and techniques. Our goal is to help you look and feel your best by harnessing the regenerative powers of your own blood cells. So, if you're looking for a non-surgical, natural way to enhance your skin's appearance, schedule a consultation with us today and discover the benefits of PRP facials!
+    body="At Prime Wave, where we offer innovative Plasma Rich Platelet (PRP) facials to help you achieve a youthful, radiant glow. Our experienced and skilled medical team provides safe and effective treatments using state-of-the-art equipment and techniques. Our goal is to help you look and feel your best by harnessing the regenerative powers of your own blood cells. So, if you're looking for a non-surgical, natural way to enhance your skin's appearance, schedule a consultation with us today and discover the benefits of PRP facials!
 "
     src="/images/immune-system.jpg"
     alt="prp-facials-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

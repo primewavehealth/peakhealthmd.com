@@ -14,13 +14,13 @@ function page() {
   <div>
    <PageBanner
     heading="Fibromyalgia Treatment in Las Vegas"
-    body="Looking for effective fibromyalgia treatment in Las Vegas? The Vegas Clinic specializes in providing comprehensive and personalized care for individuals with fibromyalgia. Our  experienced team of pain treatment specialists offers a range of treatment options, including medication management, physical therapy, and lifestyle modifications. We are committed to helping our patients manage their symptoms and improve their quality of life."
+    body="Looking for effective fibromyalgia treatment in Las Vegas? Prime Wave specializes in providing comprehensive and personalized care for individuals with fibromyalgia. Our  experienced team of pain treatment specialists offers a range of treatment options, including medication management, physical therapy, and lifestyle modifications. We are committed to helping our patients manage their symptoms and improve their quality of life."
     src={fibromyalgia}
     height={400}
     width={400}
     alt="Fibromyalgia"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -83,8 +83,8 @@ function page() {
       </p>
       <h2 className="pt-6 pb-2">Fribromyalgia Treatment in Las Vegas</h2>{" "}
       <p>
-       At the Vegas Clinic, out treatment for fibromyalgia is often tailored to
-       the individual and may involve a combination of medications, lifestyle
+       At Prime Wave, out treatment for fibromyalgia is often tailored to the
+       individual and may involve a combination of medications, lifestyle
        modifications, and other therapies. Common medications used to treat
        fibromyalgia include pain relievers, antidepressants, and anti-seizure
        drugs. We also promote lifestyle modifications, such as regular exercise,

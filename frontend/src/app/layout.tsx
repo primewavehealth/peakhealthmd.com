@@ -22,15 +22,15 @@ const inter = Inter({
 });
 
 export const siteConfig: SiteConfig = {
- name: "The Vegas Clinic",
+ name: "Prime Wave",
  description:
   "Health and Wellness clinic in Las Vegas.We specialize in pain management, aesthetics, weight loss, shockwave therapy and iv therapy.",
- url: "https://vegasclinic.com",
- ogImage: "https://vegasclinic.com/og.webp",
+ url: "https://primewavehealth.com",
+ ogImage: "https://primewavehealth.com/og.webp",
  links: {
-  twitter: "https://twitter.com/vegasclinic",
-  facebook: "https://facebook.com/vegasclinic",
-  instagram: "https://instagram.com/vegasclinic",
+  twitter: "https://twitter.com/primewavehealth",
+  facebook: "https://facebook.com/primewavehealth",
+  instagram: "https://instagram.com/primewavehealth",
  },
 };
 
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
   images: [`${siteConfig.url}/og.webp`],
-  creator: "@vegasclinic",
+  creator: "@primewavehealth",
  },
  robots: {
   index: true,

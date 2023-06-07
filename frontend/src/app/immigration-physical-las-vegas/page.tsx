@@ -14,13 +14,13 @@ function page() {
   <div>
    <PageBanner
     heading="Affordable Immigration Physical in Las Vegas"
-    body=" At Vegas Clinic, we offer comprehensive immigration health services to support the health and well-being of individuals and families who are making this transition. Our experienced team provides a range of services, including health screenings, vaccinations, and medical evaluations, to help ensure that our patients are healthy and prepared for life in their new home. We also provide resources and support to help our patients navigate the healthcare system and access the care they need. Our goal is to provide compassionate and effective healthcare services that promote the health and well-being of all individuals, regardless of their background or immigration status."
+    body=" At Prime Wave, we offer comprehensive immigration health services to support the health and well-being of individuals and families who are making this transition. Our experienced team provides a range of services, including health screenings, vaccinations, and medical evaluations, to help ensure that our patients are healthy and prepared for life in their new home. We also provide resources and support to help our patients navigate the healthcare system and access the care they need. Our goal is to provide compassionate and effective healthcare services that promote the health and well-being of all individuals, regardless of their background or immigration status."
     src={immigrants}
     height={400}
     width={400}
     alt="Immigration Physical las vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -105,11 +105,11 @@ function page() {
    {/* next section */}
    <CTA
     heading=" Comprehensive Immigration Physical in Las Vegas"
-    body="At The Vegas Clinic, we understand the importance of completing an immigration physical exam. Our experienced and compassionate team is committed to providing our patients with high-quality care and ensuring that the exam process is as stress-free as possible. If you are in need of an immigration physical exam, we encourage you to contact our office to schedule an appointment. We look forward to helping you navigate the immigration process and achieve your goal of living and working in the United States."
+    body="At Prime Wave, we understand the importance of completing an immigration physical exam. Our experienced and compassionate team is committed to providing our patients with high-quality care and ensuring that the exam process is as stress-free as possible. If you are in need of an immigration physical exam, we encourage you to contact our office to schedule an appointment. We look forward to helping you navigate the immigration process and achieve your goal of living and working in the United States."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

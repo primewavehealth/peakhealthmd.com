@@ -15,13 +15,13 @@ function page() {
   <div>
    <PageBanner
     heading="IV Therapy in Las Vegas"
-    body="If you're looking for a quick and effective way to improve your overall health and wellness, IV therapy may be the solution you need. IV therapy is a medical treatment that delivers fluids, vitamins, and minerals directly into your bloodstream via an IV drip. This method allows for faster and more efficient absorption of essential nutrients, providing relief for a variety of symptoms and conditions such as dehydration, fatigue, and illness. The Vegas Clinic offers a range of IV therapy options tailored to meet your specific needs, whether you're looking for an energy boost, immune support, or hangover relief. Contact us today to schedule your IV therapy session and start feeling your best."
+    body="If you're looking for a quick and effective way to improve your overall health and wellness, IV therapy may be the solution you need. IV therapy is a medical treatment that delivers fluids, vitamins, and minerals directly into your bloodstream via an IV drip. This method allows for faster and more efficient absorption of essential nutrients, providing relief for a variety of symptoms and conditions such as dehydration, fatigue, and illness. Prime Wave offers a range of IV therapy options tailored to meet your specific needs, whether you're looking for an energy boost, immune support, or hangover relief. Contact us today to schedule your IV therapy session and start feeling your best."
     src={iv}
     height={400}
     width={400}
     alt="carboxy-therapy"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -186,11 +186,11 @@ function page() {
    {/* CTA */}
    <CTA
     heading="IV Infusion in Las Vegas"
-    body="Looking for a IV Drip for dehydration, NAD IV Therapy, IV Vitamin Therapy, Hangover IV, Myers cocktail in Las Vegas?, look no further than The Vegas Clinic. Our highly skilled and knowledgeable staff is dedicated to providing safe and effective IV therapy treatments tailored to your unique needs and health goals. With years of experience in IV treatment, we are experts in administering IV therapy for a variety of conditions and wellness purposes. Whether you're seeking to boost your immune system, improve your athletic performance, or simply feel your best, our clinic is here to help. Contact us today to schedule your appointment and experience the expertise of our team."
+    body="Looking for a IV Drip for dehydration, NAD IV Therapy, IV Vitamin Therapy, Hangover IV, Myers cocktail in Las Vegas?, look no further than Prime Wave. Our highly skilled and knowledgeable staff is dedicated to providing safe and effective IV therapy treatments tailored to your unique needs and health goals. With years of experience in IV treatment, we are experts in administering IV therapy for a variety of conditions and wellness purposes. Whether you're seeking to boost your immune system, improve your athletic performance, or simply feel your best, our clinic is here to help. Contact us today to schedule your appointment and experience the expertise of our team."
     src="/images/happy-man.avif"
     alt="iv-therapy-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
