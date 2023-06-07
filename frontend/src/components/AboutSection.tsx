@@ -46,7 +46,7 @@ function AboutSection() {
       </div>
      </div>
 
-     <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+     <div className="hidden grid-cols-2 gap-4 md:grid md:grid-cols-1 lg:grid-cols-2">
       <Image
        alt="Student"
        src="/images/young-woman-vegas-clinic.jpg"

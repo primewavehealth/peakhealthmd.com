@@ -10,7 +10,7 @@ function Banner() {
       <Image
        className="absolute inset-0 object-cover overflow-hidden bg-contain -z-10"
        alt="banner"
-       src="/images/vegas-clinic.png"
+       src="/images/primewave-banner.jpg"
        fill
       />
      </div>
