@@ -179,12 +179,12 @@ function ServicesSection() {
           {feature.name}
          </h3>
         </div>
-        <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-0 p-4 duration-500 bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100">
+        <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-0 p-4 duration-500 bg-blue-900 opacity-0 group-hover:h-full group-hover:opacity-100">
          <p className="p-3 overflow-hidden text-sm text-justify text-white">
           {feature.description}
          </p>
          <Link
-          className="px-8 py-3 mt-5 duration-300 rounded-full bg-amber-400 hover:bg-amber-600"
+          className="px-8 py-3 mt-5 duration-300 bg-yellow-400 rounded-full hover:bg-amber-600"
           href={feature.href}
          >
           Learn More
