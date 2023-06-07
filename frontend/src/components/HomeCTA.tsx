@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Button from "./UI/Button";
 
 function CTASection() {
  return (
-  <section className="py-5 lg:py-[50px] bg-blue-700">
+  <section className="py-5 lg:py-[50px] bg-blue-900">
    <div className="container mx-auto">
     <div className="bg-primary relative z-10 overflow-hidden rounded py-6 px-8 md:p-[70px]">
      <div className="flex flex-wrap items-center -mx-4">
@@ -10,27 +10,44 @@ function CTASection() {
        <span className="hidden mb-2 text-base font-semibold text-white md:block">
         Unleash Your Best Self
        </span>
-       <p className=" md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-        Experience the Power of Our Comprehensive
+       <p className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+        Experience the Power of Our Comprehensive{" "}
         <br className="hidden xs:block" />
         Men's Health & Wellness Solutions
        </p>
       </div>
       <div className="w-full px-4 lg:w-1/2">
-       <div className="flex flex-wrap justify-center lg:justify-end">
-        <Link
-         href="https://cal.com/thevegasclinic/appointment"
-         target="_blank"
-         className="hover:text-primary my-1 mr-4 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-2 lg:py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
-        >
-         Book An Appointment
-        </Link>
-        <Link
+       <div className="flex flex-wrap justify-center lg:space-x-4 lg:justify-end">
+        <Button
+         text="Book An Appointment"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto"
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+        <Button
+         text="Contact Us"
          href="/contact"
-         className="my-1 inline-block rounded hover:text-blue-600 bg-white bg-opacity-[15%] py-2 lg:py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
-        >
-         Contact Us
-        </Link>
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto"
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
        </div>
       </div>
      </div>

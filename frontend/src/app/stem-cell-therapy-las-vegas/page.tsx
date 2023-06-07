@@ -20,7 +20,7 @@ function page() {
     width={400}
     alt="detox-therapy"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

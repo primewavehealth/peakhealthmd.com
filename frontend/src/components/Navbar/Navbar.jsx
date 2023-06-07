@@ -20,7 +20,7 @@ import {
 const callsToAction = [
  {
   name: "Find A Specialist",
-  href: "https://cal.com/thevegasclinic/appointment",
+  href: "https://cal.com/primewavehealth/appointment",
   icon: PlayCircleIcon,
  },
  { name: "Contact Us", href: "/contact", icon: PhoneIcon },
@@ -41,13 +41,13 @@ export default function Example() {
    >
     <div className="flex lg:flex-1">
      <Link href="/" className="-m-1.5 p-1.5">
-      <span className="sr-only">The Vegas Clinic</span>
+      <span className="sr-only">Prime Wave</span>
       <Image
-       className="w-auto h-8"
-       src="/images/logo.webp"
+       className=""
+       src="/images/logo.png"
        alt="logo"
-       width="236"
-       height="186"
+       width="140"
+       height="145"
        quality={100}
       />
      </Link>
@@ -302,7 +302,7 @@ export default function Example() {
       DMV
      </Link>
      <Link
-      href="/about-the-vegas-clinic"
+      href="/about-primewave"
       className="text-sm font-semibold leading-6 text-gray-900"
      >
       About
@@ -317,7 +317,7 @@ export default function Example() {
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
      <Link
       href="/contact"
-      className="p-3 text-sm font-semibold leading-6 text-white bg-blue-600 rounded-md"
+      className="p-3 text-sm font-semibold leading-6 text-blue-900 bg-yellow-400 rounded-md"
      >
       Contact
      </Link>
@@ -335,11 +335,11 @@ export default function Example() {
       <Link href="#" className="-m-1.5 p-1.5">
        <span className="sr-only"></span>
        <Image
-        className="w-auto h-8"
-        src="/images/logo.webp"
+        className=""
+        src="/images/logo.png"
         alt="logo"
-        width="236"
-        height="186"
+        width="140"
+        height="145"
         quality={100}
        />
       </Link>
@@ -482,7 +482,7 @@ export default function Example() {
          DMV
         </Link>
         <Link
-         href="/about-the-vegas-clinic"
+         href="/about-primewave"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          About

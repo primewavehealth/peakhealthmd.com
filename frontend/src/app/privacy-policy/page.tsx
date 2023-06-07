@@ -18,9 +18,9 @@ function page() {
   <section className="max-w-screen-md px-6 py-8 mx-auto">
    <article className="prose text-justify">
     <h1 className="text-xl text-start lg:text-3xl">PRIVACY POLICY</h1>
-    At the Vegas Clinic, we value your privacy and are committed to protecting
-    your personal information. This privacy policy outlines how we collect, use,
-    and disclose your personal information when you use our website or services.{" "}
+    At Prime Wave, we value your privacy and are committed to protecting your
+    personal information. This privacy policy outlines how we collect, use, and
+    disclose your personal information when you use our website or services.{" "}
     <br />
     <br />
     1. <strong>Collection of Personal Information</strong> <br />

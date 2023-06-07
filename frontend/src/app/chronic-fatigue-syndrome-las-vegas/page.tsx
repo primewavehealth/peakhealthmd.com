@@ -15,13 +15,13 @@ function page() {
   <div>
    <PageBanner
     heading="Chronic Fatigue Syndrome Treatment in Las Vegas"
-    body="If you're looking for chronic fatigue syndrome treatment options in Las Vegas, The Vegas Clinic offers comprehensive and personalized care. Our experienced team of healthcare professionals will work with you to develop a treatment plan that addresses your unique needs and helps manage your symptoms effectively. Our goal is to improve your quality of life by managing your symptoms and helping you feel your best. "
+    body="If you're looking for chronic fatigue syndrome treatment options in Las Vegas, Prime Wave offers comprehensive and personalized care. Our experienced team of healthcare professionals will work with you to develop a treatment plan that addresses your unique needs and helps manage your symptoms effectively. Our goal is to improve your quality of life by managing your symptoms and helping you feel your best. "
     src={fibromyalgia}
     height={400}
     width={400}
     alt="Chronic-Fatigue-Syndrome"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -120,7 +120,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="iv-therapy-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

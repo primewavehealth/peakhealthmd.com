@@ -23,7 +23,7 @@ function page() {
     width={400}
     alt="led light therapy"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
@@ -151,11 +151,11 @@ function page() {
    <CTA
     heading="Light Therapy in Las Vegas"
     body="
-The Vegas Clinic offers different types of light therapy, including blue light therapy for acne, red light therapy for fine lines and wrinkles, and combination light therapy for skin disorders. Our highly competent and experienced staff will work with you to determine the best course of treatment for your individual needs. Contact us today to learn more about how we can help improve your skin and alleviate chronic pain through the use of LED light therapy."
+Prime Wave offers different types of light therapy, including blue light therapy for acne, red light therapy for fine lines and wrinkles, and combination light therapy for skin disorders. Our highly competent and experienced staff will work with you to determine the best course of treatment for your individual needs. Contact us today to learn more about how we can help improve your skin and alleviate chronic pain through the use of LED light therapy."
     src="/images/happy-man.avif"
     alt="led-therapy-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

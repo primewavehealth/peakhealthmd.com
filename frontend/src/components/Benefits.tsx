@@ -274,11 +274,11 @@ function benefits() {
        </h1>
 
        <p className="text-gray-500 dark:text-gray-300">
-        At the Vegas clinic, we prioritize the needs and well-being of our
-        patients above all else. We strive to create a warm and compassionate
-        environment where individuals feel heard, respected, and actively
-        involved in their healthcare journey. Our focus is on building long-term
-        relationships based on trust, empathy, and personalized attention.
+        At Prime Wave, we prioritize the needs and well-being of our patients
+        above all else. We strive to create a warm and compassionate environment
+        where individuals feel heard, respected, and actively involved in their
+        healthcare journey. Our focus is on building long-term relationships
+        based on trust, empathy, and personalized attention.
        </p>
       </div>
      </div>

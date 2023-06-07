@@ -137,12 +137,12 @@ function Pain() {
      <h4>Consultation</h4>{" "}
      <p>
       {" "}
-      At the Vegas Clinic, we understand the impact that chronic pain can have
-      on your life. That's why we offer personalized consultations to help
-      patients understand their pain and develop an effective treatment plan.
-      During your consultation, our pain experts in las vegas will conduct a
-      thorough physical exam and review your medical history, as well as discuss
-      your symptoms and concerns. We will work closely with you to develop a
+      At Prime Wave, we understand the impact that chronic pain can have on your
+      life. That's why we offer personalized consultations to help patients
+      understand their pain and develop an effective treatment plan. During your
+      consultation, our pain experts in las vegas will conduct a thorough
+      physical exam and review your medical history, as well as discuss your
+      symptoms and concerns. We will work closely with you to develop a
       personalized treatment plan that addresses your unique needs and goals,
       taking into account your medical history, lifestyle, and other factors.
       Our goal is to provide you with the highest level of care and support, so
@@ -159,7 +159,7 @@ function Pain() {
      </div>
      <div className="flex flex-col justify-center mt-5">
       <Link
-       href="https://cal.com/thevegasclinic/appointment"
+       href="https://cal.com/primewavehealth/appointment"
        className="rounded-md p-4 cursor-pointer tracking-wider text-md  w-[300px] flex justify-center
               items-center
               text-center bg-blue-600 text-white font-bold hover:bg-blue-600 hover:shadow-blue mt-3 hover:scale-90
@@ -183,11 +183,11 @@ function Pain() {
 
    <CTA
     heading=" Comprehensive Pain Care  in Las Vegas"
-    body="Got shoulder pain, back pain, knee or joint pain or any kind of pain?, The Vegas Clinic can help you find relief. Our experienced team of board certified pain doctors in las Vegas specializes in providing personalized pain management solutions to address the root cause of your pain. From cutting-edge therapies such as regenerative medicine and platelet-rich plasma therapy to traditional approaches like medication management and physical therapy, we offer a range of treatments tailored to your unique needs. Our goal is to help you achieve a better quality of life by reducing your pain and improving your overall function. Contact us today to schedule a consultation and take the first step towards a pain-free life."
+    body="Got shoulder pain, back pain, knee or joint pain or any kind of pain?, Prime Wave can help you find relief. Our experienced team of board certified pain doctors in las Vegas specializes in providing personalized pain management solutions to address the root cause of your pain. From cutting-edge therapies such as regenerative medicine and platelet-rich plasma therapy to traditional approaches like medication management and physical therapy, we offer a range of treatments tailored to your unique needs. Our goal is to help you achieve a better quality of life by reducing your pain and improving your overall function. Contact us today to schedule a consultation and take the first step towards a pain-free life."
     src="/images/happy-man.avif"
     alt="pain-mgt-las-vegas"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (

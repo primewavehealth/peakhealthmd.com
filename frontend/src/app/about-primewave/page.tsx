@@ -33,10 +33,10 @@ function About() {
       through every step of your journey towards improved health and vitality.
      </p>
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
-      By choosing the Vegas Clinic, you gain access to cutting-edge treatments
-      and state-of-the-art technology, ensuring that you receive the most
-      advanced and effective care available. We are committed to staying at the
-      forefront of medical advancements, continuously updating our practices and
+      By choosing Prime Wave, you gain access to cutting-edge treatments and
+      state-of-the-art technology, ensuring that you receive the most advanced
+      and effective care available. We are committed to staying at the forefront
+      of medical advancements, continuously updating our practices and
       treatments to provide you with the best possible outcomes.{" "}
      </p>
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
@@ -48,17 +48,17 @@ function About() {
       vitality, and a renewed sense of self.
      </p>
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
-      At the Vegas Clinic, your satisfaction, comfort, and confidentiality are
-      our top priorities. We provide a welcoming and non-judgmental environment
-      where you can feel at ease discussing your concerns. Our compassionate and
+      At Prime Wave, your satisfaction, comfort, and confidentiality are our top
+      priorities. We provide a welcoming and non-judgmental environment where
+      you can feel at ease discussing your concerns. Our compassionate and
       dedicated team is here to support you throughout your healthcare journey,
       offering personalized attention and guidance every step of the way.
      </p>
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
       Experience the transformative power of our medical services and unlock a
-      brighter, healthier future. Choose the Vegas Clinic for unmatched
-      expertise, personalized care, cutting-edge treatments, and a commitment to
-      your overall well-being. Together, we will empower you to live life to the
+      brighter, healthier future. Choose Prime Wave for unmatched expertise,
+      personalized care, cutting-edge treatments, and a commitment to your
+      overall well-being. Together, we will empower you to live life to the
       fullest and achieve optimal health and vitality.
      </p>
      <div className="mt-4 md:mt-8">
@@ -77,7 +77,7 @@ function About() {
        <div className="relative col-span-1 mt-12 overflow-hidden rounded-lg lg:order-last">
         <Image
          className=""
-         alt="about the vegas clinic"
+         alt="about Prime Wave"
          src={about}
          width={400}
          height={600}
@@ -92,7 +92,7 @@ function About() {
         <p className="text-justify">
          Our mission at the{" "}
          <Link href="/" target="_blank">
-          Vegas Clinic
+          Prime Wave
          </Link>{" "}
          is to empower individuals to live their lives to the fullest by
          delivering exceptional medical care and promoting holistic well-being.
@@ -131,7 +131,7 @@ function About() {
          our community and beyond.
         </p>{" "}
         <p className="text-justify">
-         At the Vegas Clinic, we are driven by our mission to be the trusted
+         At Prime Wave, we are driven by our mission to be the trusted
          healthcare partner for individuals seeking specialized treatments,
          compassionate care, and improved overall well-being.
         </p>

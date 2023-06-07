@@ -18,11 +18,11 @@ function page() {
   <section className="max-w-screen-md px-6 py-8 mx-auto">
    <article className="prose text-justify">
     <h1 className="text-xl text-start lg:text-3xl">TERMS AND CONDITIONS</h1>
-    Welcome to the Vegas Clinic service website. The following terms and
-    conditions (“Terms”) govern your use of our website and any content,
-    products, or services provided by us. By using our website, you agree to be
-    bound by these Terms. If you do not agree with any of these Terms, please do
-    not use our website. <br />
+    Welcome to Prime Wave service website. The following terms and conditions
+    (“Terms”) govern your use of our website and any content, products, or
+    services provided by us. By using our website, you agree to be bound by
+    these Terms. If you do not agree with any of these Terms, please do not use
+    our website. <br />
     <br />
     1. <strong>Acceptance of Terms</strong> <br />
     By using our website, you agree to these Terms, which may be updated from

@@ -22,7 +22,7 @@ const Button = ({
      size === "regular" && "px-6 py-4 text-lg",
      size === "small" && "px-2 py-2",
      variant === "regular" &&
-      "bg-blue-600 text-white hover:bg-brand-dark disabled:hover:bg-brand",
+      "bg-yellow-400 text-blue-900 hover:bg-brand-dark disabled:hover:bg-brand",
      variant === "outline" &&
       "border border-brand text-brand hover:border-brand-dark hover:bg-brand-light disabled:border-brand disabled:bg-transparent",
      variant === "ghost" &&

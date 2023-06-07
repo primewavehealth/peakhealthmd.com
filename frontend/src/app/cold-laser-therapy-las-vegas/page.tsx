@@ -14,13 +14,13 @@ function page() {
   <div>
    <PageBanner
     heading="Cold Laser Therapy"
-    body="If you're in Las Vegas and looking for an effective and non-invasive treatment for your pain and inflammation, our cold laser therapy services can help. At the Vegas Clinic, we use advanced low-level laser light technology to stimulate healing and reduce pain and inflammation. Our cold laser therapy services can be used to treat a variety of conditions, including sports injuries, arthritis, and carpal tunnel syndrome. Our experienced team will work with you to create a customized treatment plan that addresses your specific needs and goals. We offer state-of-the-art equipment and a comfortable and welcoming environment, making us the premier choice for cold laser therapy services in Las Vegas."
+    body="If you're in Las Vegas and looking for an effective and non-invasive treatment for your pain and inflammation, our cold laser therapy services can help. At Prime Wave, we use advanced low-level laser light technology to stimulate healing and reduce pain and inflammation. Our cold laser therapy services can be used to treat a variety of conditions, including sports injuries, arthritis, and carpal tunnel syndrome. Our experienced team will work with you to create a customized treatment plan that addresses your specific needs and goals. We offer state-of-the-art equipment and a comfortable and welcoming environment, making us the premier choice for cold laser therapy services in Las Vegas."
     src={led}
     height={400}
     width={400}
     alt="laser-therapy"
     btn={{
-     href: "https://cal.com/thevegasclinic/appointment",
+     href: "https://cal.com/primewavehealth/appointment",
      text: "Schedule An Appointment",
 
      icon: (
