@@ -137,11 +137,11 @@ function page() {
    <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto">
     <span className="py-10">
      {" "}
-     <span className="text-lg font-bold">We are the destination for</span>{" "}
+     <span className="text-lg font-bold">We are the destination</span>{" "}
      <span className="relative inline-block px-2">
       <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
       <h3 className="relative py-3 text-white">
-       Men’s Health in Las Vegas, Nevada
+       ED Clinic in Las Vegas, Nevada
       </h3>
      </span>
     </span>
