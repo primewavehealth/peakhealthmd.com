@@ -187,7 +187,7 @@ function ServicesSection() {
           className="px-8 py-3 mt-5 duration-300 bg-yellow-400 rounded-full hover:bg-amber-600"
           href={feature.href}
          >
-          Learn More
+          {feature.name}
          </Link>
         </div>
        </div>
