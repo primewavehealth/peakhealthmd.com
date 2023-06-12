@@ -29,15 +29,15 @@ function Banner() {
         </Link>
        </div>
       </div> */}
-      <h2 className="text-xl font-bold text-blue-800 sm:text-2xl">
-       Hey, Fabulous You
-      </h2>
+      <h1 className="mb-4 text-3xl font-bold text-blue-900 md:text-5xl">
+       Mens Health and Wellness Specialists
+      </h1>
 
-      <h2 className="leading-loose text-blue-900 lg:text-4xl ">
-       Win Your Health Back
+      <p className="text-lg font-bold leading-loose text-blue-900">
+       affordable & proven health solutions
        <br />
-       at PrimeWave
-      </h2>
+       to restore your health and vitality
+      </p>
 
       <div className="">
        <Button

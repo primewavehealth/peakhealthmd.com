@@ -14,7 +14,6 @@ export default async function sitemap() {
   "/chronic-fatigue-syndrome-las-vegas",
   "/erectile-dysfunction-treatment-in-las-vegas",
   "/fibromyalgia-treatment-las-vegas",
-  "/hormone-therapy-menopause-las-vegas",
   "/facials-las-vegas",
   "/immigration-physical-las-vegas",
   "/low-testosterone-treatment-las-vegas",

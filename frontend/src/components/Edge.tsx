@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-function benefits() {
+function Edge() {
  return (
   <section className="bg-white">
    <div className="container px-8 py-16 mx-auto max-w-[1400px]">
     <h3 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-     Benefits
+     Care and Competence
     </h3>
 
     <div className="mt-2">
-     <span className="inline-block w-40 h-1 bg-blue-900 rounded-full"></span>
+     <span className="inline-block h-1 bg-blue-900 rounded-full w-60"></span>
      <span className="inline-block w-3 h-1 ml-1 bg-blue-900 rounded-full"></span>
      <span className="inline-block w-1 h-1 ml-1 bg-blue-900 rounded-full"></span>
     </div>
@@ -298,4 +298,4 @@ function benefits() {
  );
 }
 
-export default benefits;
+export default Edge;
