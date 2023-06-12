@@ -21,11 +21,6 @@ const nextConfig = {
  async redirects() {
   return [
    {
-    source: "/about",
-    destination: "/about-primewave",
-    permanent: true,
-   },
-   {
     source: "/pain_treatment_lv",
     destination: "/pain-treatment-in-las-vegas",
     permanent: true,

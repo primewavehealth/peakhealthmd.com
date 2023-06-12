@@ -11,19 +11,18 @@ function AboutSection() {
        <span className="text-xl text-white">
         We are <strong className="text-yellow-400">PrimeWave</strong>{" "}
        </span>
-       <h1 className="mb-4 text-xl font-bold text-white md:text-5xl">
-        Mens Health and Wellness Specialists
-       </h1>
 
        <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
-        We specialize in ED, low-t, pain management, weight loss and wellness,
-        offering personalized treatment plans to help our patients achieve
-        optimal health. We treat a variety of pain conditions, including chronic
-        pain, back pain, neck pain and joint pain. We also offer a range of
-        wellness services such as IV therapy, shockwave therapy and weight loss
-        programs. Our experienced medical professionals are dedicated to
-        providing compassionate, patient-centered care to help our patients live
-        their best lives.
+        We pride ourselves on our exceptional competence in providing
+        comprehensive medical services for men's health. Our highly skilled team
+        is dedicated to promoting overall well-being through effective
+        treatments. We specialize in a range of services, including ED, low-T,
+        weight loss, pain management, and IV therapy. With our expertise and
+        cutting-edge techniques, we strive to deliver the highest quality care
+        to our patients. Rest assured that our competent professionals are
+        committed to understanding your unique needs and tailoring treatments to
+        help you achieve optimal health. Trust us to provide the competence you
+        deserve for a healthier, happier life.
        </p>
 
        <div className="mt-4 md:mt-8">

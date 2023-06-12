@@ -1,6 +1,6 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
-import Benefits from "@/components/Benefits";
+import Edge from "@/components/Edge";
 import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
@@ -19,7 +19,7 @@ export default function Home() {
   <main className="flex flex-col min-h-screen">
    <Banner />
    <AboutSection />
-   <Benefits />
+   <Edge />
    <ServicesSection />
    <SectionTitle
     pretitle="Testimonials"
