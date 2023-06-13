@@ -1,8 +1,11 @@
-import Link from "next/link";
+"use client";
+import { useRouter } from "next/navigation";
 
 export default function NotFound() {
+ const router = useRouter();
+
  return (
-  <section className="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100">
+  <section className="flex items-center max-h-full p-16 dark:bg-gray-900 dark:text-gray-100">
    <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
     <div className="max-w-md text-center">
      <h2 className="mb-8 font-extrabold text-9xl dark:text-gray-600">
@@ -12,13 +15,12 @@ export default function NotFound() {
       Sorry, we couldn't find the page you are looking for.
      </p>
 
-     <Link
-      rel="noopener noreferrer"
-      href="/"
+     <button
       className="px-8 py-3 font-semibold rounded dark:bg-blue-600 dark:text-gray-900"
+      onClick={() => router.push("/")}
      >
       Back to our homepage
-     </Link>
+     </button>
     </div>
    </div>
   </section>
