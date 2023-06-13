@@ -43,7 +43,7 @@ export const Aesthetics = [
  {
   href: "/prp-facial-in-las-vegas",
   description: "",
-  name: "Anti Aging / Wrinkles",
+  name: "PRP Facials",
  },
 ];
 
