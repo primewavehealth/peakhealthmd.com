@@ -1,7 +1,7 @@
 ---
 title: "The Benefits of IV Therapy for Skin Health and Rejuvenation"
 date: "2023-05-25"
-description: "Discover the transformative benefits of IV therapy for skin health and rejuvenation. Discover how this cutting-edge treatment nourishes your skin from within, promoting collagen production, hydration, and a youthful glow."
+description: "Discover how this cutting-edge IV therapy treatment nourishes your skin from within, promoting collagen production, hydration, and a youthful glow."
 category: "IV Therapy"
 image: "/images/weight-loss-lv.jpg"
 ---
