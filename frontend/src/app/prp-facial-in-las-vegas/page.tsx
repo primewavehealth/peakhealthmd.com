@@ -457,7 +457,7 @@ function page() {
    </section>
    {/* CTA */}
    <CTA
-    heading="Menopause Therapy in Las Vegas"
+    heading="PRP Facials in Las Vegas"
     body="At Prime Wave, where we offer innovative Plasma Rich Platelet (PRP) facials to help you achieve a youthful, radiant glow. Our experienced and skilled medical team provides safe and effective treatments using state-of-the-art equipment and techniques. Our goal is to help you look and feel your best by harnessing the regenerative powers of your own blood cells. So, if you're looking for a non-surgical, natural way to enhance your skin's appearance, schedule a consultation with us today and discover the benefits of PRP facials!
 "
     src="/images/immune-system.jpg"
