@@ -46,15 +46,16 @@ function Edge() {
         </svg>
        </span>
 
-       <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-        Integrated Healthcare Approach
-       </h1>
+       <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+        Advanced Treatment Options
+       </h2>
 
        <p className="text-gray-500 dark:text-gray-300">
-        Our medical and wellness clinic offers a unique and comprehensive
-        approach by combining medical expertise with holistic wellness
-        practices. We believe in addressing the root causes of health issues,
-        focusing on prevention, and optimizing overall well-being.
+        Our clinic offers a wide range of advanced treatment options, including
+        medication-based therapies, interventional procedures, physical therapy,
+        complementary and alternative therapies, and psychological
+        interventions, ensuring that we have the tools to address a variety of
+        pain conditions and customize treatment plans accordingly.
        </p>
       </div>
 
@@ -175,14 +176,16 @@ function Edge() {
         </svg>
        </span>
 
-       <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+       <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
         Expert Multidisciplinary Team
-       </h1>
+       </h2>
 
        <p className="text-gray-500 dark:text-gray-300">
-        Our clinic is staffed with a highly qualified team of healthcare
-        professionals. Each member brings their specialized knowledge and
-        experience to provide personalized care and tailored treatment plans.
+        Our clinic is staffed by a highly skilled and experienced
+        multidisciplinary team of pain specialists, including physicians,
+        physical therapists, psychologists, and alternative medicine
+        practitioners, working collaboratively to provide holistic care and
+        optimal outcomes for our patients.
        </p>
       </div>
 
@@ -219,16 +222,15 @@ function Edge() {
         </svg>
        </span>
 
-       <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-        State-of-the-Art Facilities and Technology
-       </h1>
+       <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+        Technology Driven
+       </h2>
 
        <p className="text-gray-500 dark:text-gray-300">
-        We pride ourselves on maintaining modern facilities equipped with
-        advanced medical technologies. From diagnostic tools to cutting-edge
-        treatment modalities, we ensure that our patients have access to the
-        latest innovations in healthcare for accurate diagnoses and effective
-        interventions.
+        We utilize the latest diagnostic technologies and techniques to
+        accurately identify the underlying causes of pain, enabling us to
+        develop targeted treatment plans and provide precise interventions for
+        effective pain management.
        </p>
       </div>
 
@@ -269,9 +271,9 @@ function Edge() {
         </svg>
        </span>
 
-       <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+       <h2 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
         Patient-Centered Care
-       </h1>
+       </h2>
 
        <p className="text-gray-500 dark:text-gray-300">
         At Prime Wave, we prioritize the needs and well-being of our patients

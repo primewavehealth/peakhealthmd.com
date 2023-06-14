@@ -9,9 +9,9 @@ import Testimonials from "@/components/Testimonials";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "Mens Health  and Wellness Clinic in Las Vegas",
+ title: "Affordable Chronic Pain Care in Las Vegas",
  description:
-  "Mens Health Health and Wellness clinic in Las Vegas. We specialize in ED, low-t, pain management, aesthetics, weight loss, shockwave therapy and iv therapy.",
+  "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life.",
 };
 
 export default function Home() {

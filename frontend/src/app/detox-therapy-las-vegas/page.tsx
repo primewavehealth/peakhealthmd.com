@@ -3,10 +3,21 @@ import detox from "/public/images/detox-therapy-las-vegas.jpg";
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Detoxification Therapy in Las Vegas",
  description:
   "Purify your body and rejuvenate your health with our Detox Therapy in Las Vegas - a holistic approach to eliminate toxins and restore balance.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

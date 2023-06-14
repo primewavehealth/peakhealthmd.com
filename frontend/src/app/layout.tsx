@@ -24,7 +24,7 @@ const inter = Inter({
 export const siteConfig: SiteConfig = {
  name: "Prime Wave",
  description:
-  "Health and Wellness clinic in Las Vegas.We specialize in pain management, aesthetics, weight loss, shockwave therapy and iv therapy.",
+  "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life.",
  url: "https://primewavehealth.com",
  ogImage: "https://primewavehealth.com/og.webp",
  links: {

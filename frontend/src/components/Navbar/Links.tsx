@@ -1,8 +1,18 @@
-export const Integrative_Medicine = [
+export const Pain_Conditions = [
  {
-  href: "/pain-treatment-in-las-vegas",
+  href: "/chronic-pain",
   description: "",
-  name: "Pain Management",
+  name: "Chronic Pain",
+ },
+ {
+  href: "/back-pain",
+  description: "",
+  name: "Back Pain",
+ },
+ {
+  href: "/joint-pain",
+  description: "",
+  name: "Joint Pain",
  },
  {
   href: "/chronic-fatigue-syndrome-las-vegas",
@@ -10,9 +20,9 @@ export const Integrative_Medicine = [
   name: "Chronic Fatigue Syndrome",
  },
  {
-  href: "/immigration-physical-las-vegas",
+  href: "/pain-treatment-in-las-vegas",
   description: "",
-  name: "Immigration Physical",
+  name: "Pain Management",
  },
 ];
 

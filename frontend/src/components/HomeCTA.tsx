@@ -7,13 +7,11 @@ function CTASection() {
     <div className="bg-primary relative z-10 overflow-hidden rounded py-6 px-8 md:p-[70px]">
      <div className="flex flex-wrap items-center -mx-4">
       <div className="w-full px-4 lg:w-1/2">
-       <span className="hidden mb-2 text-base font-semibold text-yellow-400 md:block">
-        Unleash Your Best Self
+       <span className="mx-auto mb-2 text-base font-semibold text-center text-yellow-400 lg:text-left md:block">
+        Your Path to Pain-Free Living Starts Here
        </span>
        <p className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-        Experience the Power of Our Comprehensive{" "}
-        <br className="hidden xs:block" />
-        Men's Health & Wellness Solutions
+        Experience Expert Pain Care in Las Vegas{" "}
        </p>
       </div>
       <div className="w-full px-4 lg:w-1/2">
