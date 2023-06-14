@@ -2,11 +2,22 @@ import PageBanner from "@/components/UI/PageBanner";
 import led from "/public/images/led-light-therapy.jpg";
 
 import type { Metadata } from "next";
-
+/* 
 export const metadata: Metadata = {
  title: "Cold Laser Therapy in las Vegas",
  description:
   "Experience the benefits of Cold Laser Therapy in Las Vegas - a non-invasive, drug-free solution for pain relief, inflammation reduction, and tissue repair.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

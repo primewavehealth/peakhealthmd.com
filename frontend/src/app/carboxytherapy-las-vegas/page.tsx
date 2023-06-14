@@ -3,10 +3,21 @@ import carboxy from "public/images/carboxytherapy-las-vegas.jpg";
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Carboxy Therapy in Las Vegas",
  description:
   "Transform your skin with Carboxy Therapy at Las Vegas' premier non-invasive solution for cellulite, stretch marks, and dark under-eye circles.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

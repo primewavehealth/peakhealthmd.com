@@ -3,10 +3,22 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import led from "/public/images/led-light-therapy.jpg";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "LED Light Therapy in Las Vegas",
  description:
   "Transform your skin with our LED Light Therapy - a non-invasive, painless treatment for acne, wrinkles, and other skin imperfections in Las Vegas.",
+}; */
+
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

@@ -3,10 +3,22 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import sleep from "/public/images/sleep-therapy-las-vegas.jpg";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Sleep Therapy in Las Vegas",
  description:
   "Experience better sleep and improved quality of life with sleep therapy in Las Vegas - our personalized treatment plans can help you overcome sleep disorders and achieve restful, rejuvenating sleep.",
+}; */
+
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

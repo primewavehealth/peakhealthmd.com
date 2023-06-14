@@ -3,9 +3,15 @@ import type { Metadata } from "next";
 import covid from "/public/images/covid-virus.jpg";
 
 export const metadata: Metadata = {
- title: "Long haul COVID 19 Treatment in Las Vegas",
- description:
-  "Find relief from long haul COVID-19 symptoms with our specialized covid treatment in Las Vegas.",
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function Shockwave() {

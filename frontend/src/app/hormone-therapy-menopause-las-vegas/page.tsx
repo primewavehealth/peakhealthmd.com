@@ -1,12 +1,25 @@
 import CTA from "@/components/UI/CTA";
+
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import menopause from "/public/images/menopause-las-vegas.jpg";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Hormone Therapy for Menopause in Las Vegas",
  description:
   "Find relief from menopausal symptoms and restore hormonal balance with our Hormone Therapy services in Las Vegas.",
+}; */
+
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

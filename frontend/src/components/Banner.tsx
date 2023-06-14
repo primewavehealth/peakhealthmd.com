@@ -10,7 +10,7 @@ function Banner() {
       <Image
        className="absolute inset-0 object-cover overflow-hidden bg-contain -z-10"
        alt="banner"
-       src="/images/primewave-banner.jpg"
+       src="/images/backpain.jpg"
        fill
       />
      </div>
@@ -30,13 +30,13 @@ function Banner() {
        </div>
       </div> */}
       <h1 className="mb-4 text-3xl font-bold text-blue-900 md:text-5xl">
-       Mens Health and Wellness Specialists
+       Affordable Chronic Pain Care in Las Vegas
       </h1>
 
       <p className="text-lg font-bold leading-loose text-blue-900">
-       affordable & proven health solutions
+       Technology driven pain care
        <br />
-       to restore your health and vitality
+       tailored to your needs
       </p>
 
       <div className="">

@@ -2,10 +2,21 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import mesotherapy from "/public/images/mesotherapy-las-vegas.jpg";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Mesotherapy in Las Vegas",
  description:
   "Achieve youthful and radiant skin with our Mesotherapy treatment - a safe and effective cosmetic procedure in Las Vegas.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {
