@@ -9,7 +9,6 @@ import axios from "axios";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { z } from "zod";
@@ -79,9 +78,6 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 export default function Form() {
- const [result, setResult] = useState<string>();
- const [resultColor, setResultColor] = useState<string>();
-
  const {
   register,
   handleSubmit,
@@ -113,8 +109,7 @@ export default function Form() {
    }
   } catch (err: any) {
    // Handle errors. You can change the message to whatever you want.
-   setResult(err.response.data.message + ": " + err.response.statusText);
-   setResultColor("text-red-500");
+   toast.error(err.response.data.message + ": " + err.response.statusText);
   }
  };
 
