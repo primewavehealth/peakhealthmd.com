@@ -7,11 +7,53 @@ import {
 } from "@heroicons/react/24/outline";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { z } from "zod";
+
+export const metadata: Metadata = {
+ title: "Contact Pain Care Specialist nearby",
+ description: "Find pain management specialists nearby",
+};
+const jsonLd = {
+ "@context": "https://schema.org",
+ "@type": "localBusiness",
+ image: ["https://primewavehealth.com/images/logo.png"],
+ address: {
+  "@type": "PostalAddress",
+  addressLocality: "Las Vegas",
+  addressRegion: "NV",
+  postalCode: "89113",
+  streetAddress: "8285 W Arby Ave #175",
+ },
+ keywords:
+  "pain care, chronic pain, neck pain, joint pain, pain management, pain specialists",
+ areaServed: {
+  "@type": "GeoCircle",
+  geoMidpoint: {
+   "@type": "GeoCoordinates",
+   latitude: 36.18811,
+   longitude: -115.176468,
+  },
+  geoRadius: 1000,
+ },
+ sameAs: "https://primewavehealth.com",
+ description:
+  "Pain Care Clinic in Las Vegas. Our Pain Care Specialists use latest technology to treat a wide range of chronic pain conditions.",
+ name: "Primewave Pain Care Clinic in Las Vegas",
+ telephone: "7026254334",
+ review: {
+  "@type": "Review",
+  reviewRating: {
+   "@type": "Rating",
+   ratingValue: "4",
+   bestRating: "5",
+  },
+ },
+};
 
 const formSchema = z.object({
  nameSurname: z
@@ -187,7 +229,7 @@ export default function Form() {
          Come say hello at our office HQ.
         </p>
         <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-         <Link target="_blank" href="https://goo.gl/maps/Av88ySUgEKkpLCHy9">
+         <Link target="_blank" href="https://goo.gl/maps/RNnqG3UhQ3je9dFm7">
           8285 W Arby Ave #175, Las Vegas, NV 89113
          </Link>
         </p>
@@ -350,8 +392,23 @@ export default function Form() {
         </div>
        </form>
       </div>
+      <div className="mx-auto">
+       <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.440191155363!2d-115.27468922447918!3d36.058365972467975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c77b87fd04f3%3A0xe5b9c9fcf3f802d9!2sPrimeWave%20Pain%20Care%20Clinic!5e0!3m2!1sen!2sus!4v1686860592723!5m2!1sen!2sus"
+        width="500"
+        height="500"
+        style={{ border: 0 }}
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+       ></iframe>
+      </div>
      </div>
     </div>
+    <script
+     type="application/ld+json"
+     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
    </section>
   </>
  );
