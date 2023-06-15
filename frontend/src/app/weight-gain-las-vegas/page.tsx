@@ -2,10 +2,21 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import weight from "/public/images/weight-gain-las-vegas.jpg";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Weight Gain Program in Las Vegas",
  description:
   "Struggling to gain weight? Our customized weight gain service in Las Vegas can help you build muscle and achieve a healthy, balanced body composition.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

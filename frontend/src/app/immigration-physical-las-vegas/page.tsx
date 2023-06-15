@@ -3,10 +3,21 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import immigrants from "/public/images/immigrants.jpg";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Immigration Physical services in Las Vegas",
  description:
   "Get your immigration physical exam done quickly and efficiently with our certified medical professionals in Las Vegas.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {

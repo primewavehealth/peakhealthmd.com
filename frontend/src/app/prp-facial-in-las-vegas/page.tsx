@@ -5,10 +5,21 @@ import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "PRP Facial Rejuvenation by PRP Specialists in Las Vegas",
  description:
   "Get a youthful and radiant glow with PRP facials in Las Vegas - the natural and non-invasive way to boost collagen and rejuvenate your skin.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 function page() {
