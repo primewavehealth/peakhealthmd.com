@@ -30,7 +30,8 @@ function Banner() {
        </div>
       </div> */}
       <h1 className="mb-4 text-3xl font-bold text-blue-900 md:text-5xl">
-       Affordable Chronic Pain Care in Las Vegas
+       Affordable Chronic Pain <br />
+       Care in Las Vegas
       </h1>
 
       <p className="text-lg font-bold leading-loose text-blue-900">

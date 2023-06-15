@@ -4,10 +4,21 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-export const metadata: Metadata = {
+/* export const metadata: Metadata = {
  title: "Affordable Facials in Las Vegas",
  description:
   "Indulge in our luxurious facials treatment in Las Vegas, tailored to meet your unique skincare needs and leave you feeling rejuvenated. Our experienced estheticians use only the highest quality products to help you achieve your best skin yet.",
+}; */
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
 };
 
 const cards = [
