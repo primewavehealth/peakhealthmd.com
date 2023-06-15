@@ -1,6 +1,6 @@
 ---
 title: "9 Simple Changes That Can Help You Lose Weight Today"
-date: "2023-05-8"
+date: "2023-05-08"
 description: "Discover 9 effortless ways to kickstart your weight loss journey today with our simple yet effective tips."
 category: "Weight Loss"
 image: "/images/weight-loss-lv.jpg"
