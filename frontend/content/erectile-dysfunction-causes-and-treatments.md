@@ -1,6 +1,6 @@
 ---
 title: "Erectile Dysfunction - Causes, Diagnosis and Treatment"
-date: "2023-05-1"
+date: "2023-05-01"
 description: "Learn about the causes, diagnosis and treatment options for ED"
 category: "Mens Health"
 image: "/images/ed.jpg"
