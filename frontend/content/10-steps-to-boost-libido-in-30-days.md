@@ -1,6 +1,6 @@
 ---
 title: "10 Steps To Boost Your Libido In Just 30 Days"
-date: "2023-05-4"
+date: "2023-05-04"
 description: "From exercise, to supplements, to sleeping, here are ten quick steps to boost your libido"
 category: "Mens Health"
 image: "/images/happy-man.avif"
