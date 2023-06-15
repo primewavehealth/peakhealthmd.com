@@ -9,6 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
@@ -403,7 +404,7 @@ export default function Form() {
       </div>
      </div>
     </div>
-    <script
+    <Script
      type="application/ld+json"
      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
