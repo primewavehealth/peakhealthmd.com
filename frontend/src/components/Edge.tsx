@@ -279,8 +279,7 @@ function Edge() {
         At Prime Wave, we prioritize the needs and well-being of our patients
         above all else. We strive to create a warm and compassionate environment
         where individuals feel heard, respected, and actively involved in their
-        healthcare journey. Our focus is on building long-term relationships
-        based on trust, empathy, and personalized attention.
+        healthcare journey.
        </p>
       </div>
      </div>

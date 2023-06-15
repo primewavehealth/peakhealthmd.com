@@ -15,14 +15,14 @@ export const Pain_Conditions = [
   name: "Joint Pain",
  },
  {
+  href: "/neck-pain",
+  description: "",
+  name: "PNeck Pain",
+ },
+ {
   href: "/chronic-fatigue-syndrome-las-vegas",
   description: "",
   name: "Chronic Fatigue Syndrome",
- },
- {
-  href: "/pain-treatment-in-las-vegas",
-  description: "",
-  name: "Pain Management",
  },
 ];
 

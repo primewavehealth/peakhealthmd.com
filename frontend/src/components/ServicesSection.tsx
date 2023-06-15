@@ -5,24 +5,41 @@ const mobileData = [
  {
   name: "Chronic Pain",
   href: "/chronic-pain",
+  text:
+   "Persistent, debilitating discomfort that endures beyond the expected healing time, chronic pain affects daily life, hindering activities and causing distress.",
+ },
+ {
+  name: "Back Pain",
+  href: "/back-pain",
+  text:
+   "Discomfort in the back region, ranging from mild to severe, caused by various factors like muscle strain, injury, or spinal issues.",
  },
  {
   name: "Joint Pain",
   href: "/joint-pain",
+  text:
+   "Discomfort or soreness in the joints, commonly caused by arthritis, injury, or inflammation, leading to limited mobility and hindrance in daily activities.",
  },
- { name: "Pain Mgt", href: "/pain-treatment-in-las-vegas" },
+ {
+  name: "Neck Pain",
+  href: "/neck-pain",
+  text:
+   "Neck pain refers to discomfort or soreness in the neck region, often due to muscle strain, poor posture, or underlying conditions.",
+ },
 
  {
   name: "Chronic Fatigue",
   href: "/chronic-fatigue-syndrome-las-vegas",
+  text:
+   "Persistent and overwhelming tiredness that hampers physical and mental functioning, often accompanied by sleep disturbances and reduced productivity.",
  },
 
  {
-  name: "Back Pain",
-  href: "/back-pain",
+  name: "Fibromylagia",
+  href: "/fibromyalgia-treatment-las-vegas",
+  text:
+   "Fibromyalgia is a chronic disorder causing widespread pain, fatigue, and cognitive difficulties with heightened sensitivity to stimuli.",
  },
-
- { name: "Weight Loss", href: "/weight-loss-las-vegas" },
 ];
 function ServicesSection() {
  return (
@@ -86,20 +103,34 @@ function ServicesSection() {
    <div className="hidden w-full px-6 mx-auto md:block lg:px-4">
     <div className="max-w-2xl mx-auto lg:text-center">
      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-      Our Specialties
+      Pain Conditions we treat
      </p>
-     <p className="py-4 mt-6 text-lg leading-8 text-center text-gray-600">
+     {/* <p className="py-4 mt-6 text-lg leading-8 text-center text-gray-600">
       We care for all pain conditions.
-     </p>
+     </p> */}
     </div>
     <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-7xl">
-     <div className="grid justify-center grid-cols-3 gap-y-4 grid-x-4 place-items-center">
-      {mobileData.map(({ name, href }) => (
-       <div className="p-4 border-4 border-black w-[300px] h-[100px] text-center">
-        <Link href={href}>
-         <span className="text-3xl">{name}</span>
-        </Link>
-       </div>
+     <div className="grid justify-center grid-cols-3 gap-y-8 grid-x-8 place-items-center">
+      {mobileData.map(({ name, href, text }) => (
+       <Link href={href} key={href}>
+        {/* <div className="relative flex flex-col justify-center min-h-screen py-6 overflow-hidden bg-gray-50 sm:py-12"> */}
+
+        <div className="relative p-6 text-gray-600 bg-white shadow-xl hover:shadow-sm ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-6">
+         <div className="max-w-md mx-auto">
+          <div className="divide-y divide-gray-300/50">
+           <div className="py-8 space-y-6 text-base leading-7">
+            <h3 className="text-center">{name} </h3>
+
+            <p className="text-justify">{text}</p>
+           </div>
+           <div className="pt-8 text-base font-semibold leading-7">
+            <span className=" hover:scale-125"> &rarr;</span>
+           </div>
+          </div>
+         </div>
+        </div>
+        {/* </div> */}
+       </Link>
       ))}
      </div>
     </div>

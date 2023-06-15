@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Button from "./UI/Button";
 
 function AboutSection() {
@@ -6,6 +7,16 @@ function AboutSection() {
   <section className="bg-blue-900">
    <div className="px-4 py-8 mx-auto lg:py-16 max-w-screen-2xl sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+     <div className="hidden lg:flex">
+      <Image
+       alt="Student"
+       src="/images/neck-pain-primewave.jpg"
+       className="object-contain w-full rounded-xl sm:h-56 md:h-full"
+       height={400}
+       width={400}
+       quality={100}
+      />
+     </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl mx-auto space-y-3">
        <span className="text-xl text-white lg:text-3xl">
@@ -14,7 +25,8 @@ function AboutSection() {
        </span>
 
        <p className="text-base lg:text-justify lg:text-lg text-white/90 sm:mt-4">
-        Welcome to Primewave, a leading pain management clinic in Las vegas. We
+        Welcome to Primewave, a leading pain management clinic in{" "}
+        <Link href="https://www.lasvegasnevada.gov/">Las vegas</Link>. We
         harness the power of advanced technologies to provide innovative
         treatments for a wide range of pain conditions. Through the use of
         state-of-the-art devices, including neurostimulation, radiofrequency
@@ -47,17 +59,6 @@ function AboutSection() {
         />
        </div>
       </div>
-     </div>
-
-     <div className="hidden lg:flex">
-      <Image
-       alt="Student"
-       src="/images/neck-pain-primewave.jpg"
-       className="object-contain w-full rounded-xl sm:h-56 md:h-full"
-       height={400}
-       width={400}
-       quality={100}
-      />
      </div>
     </div>
    </div>
