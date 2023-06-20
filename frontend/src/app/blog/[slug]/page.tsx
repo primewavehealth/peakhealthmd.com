@@ -34,7 +34,7 @@ export async function generateMetadata({
  const { title, date: publishedTime, description, image, slug } = post;
  const ogImage = image
   ? `https://primewavehealth.com/images/${image}`
-  : "https://primewavehealth.com/og.webp";
+  : "https://primewavehealth.com/images/logo/png";
 
  return {
   title,
