@@ -1,9 +1,8 @@
-import { getSortedPostsData } from "@/lib/posts";
+import { allBlogs } from "contentlayer/generated";
 
 export default async function sitemap() {
- const posts = getSortedPostsData();
- const blogs = posts.map((post) => ({
-  url: `https://primewavehealth.com/blog/${post.id}`,
+ const blogs = allBlogs.map((post) => ({
+  url: `https://primewavehealth.com/blog/${post.slug}`,
   lastModified: post.date,
  }));
 

@@ -27,11 +27,11 @@ function Edge() {
          xmlns="http://www.w3.org/2000/svg"
          viewBox="0 0 329.928 329.928"
         >
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
          <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
          ></g>
          <g id="SVGRepo_iconCarrier">
           {" "}
@@ -68,109 +68,109 @@ function Edge() {
          fill="none"
          xmlns="http://www.w3.org/2000/svg"
         >
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
          <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
          ></g>
          <g id="SVGRepo_iconCarrier">
           {" "}
           <path
            d="M222 76C210.988 106.84 171.627 128.31 147 132"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M236 44.053C123.346 20.1218 96.7679 144.026 136.104 167"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M256 54C302.745 75.4047 288.975 108.654 272.736 144"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M260.902 122C295.577 228.082 142 250.963 142 156.601"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M218.892 153C219.298 150.031 218.46 147.754 218 145"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M191 154C191 151.332 191 148.668 191 146"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M60 345.501C60 309.522 83.3747 224.325 163.582 228.248C185.925 229.341 191.24 351.835 206.062 345.501C232 334.416 223.446 254.231 243.571 224.158C340.019 219.027 341 340.572 341 359"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M296 271C288.365 253.665 267.103 230.409 247 228"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M163 232C139.27 246.396 128.966 267.837 120 292"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M93.0228 347.996C90.4525 330.039 91.6852 307.132 109.075 296.665C157.969 267.237 151.718 362.878 128.138 345.983"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M293.07 271.039C321.891 269.785 283.781 299.392 290.907 273.038"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
           <path
            d="M304 324.289C291.859 322.728 282.476 327.953 271 329"
            stroke="#1a55e0"
-           stroke-opacity="0.9"
-           stroke-width="16"
-           stroke-linecap="round"
-           stroke-linejoin="round"
+           strokeOpacity="0.9"
+           strokeWidth="16"
+           strokeLinecap="round"
+           strokeLinejoin="round"
           ></path>{" "}
          </g>
         </svg>
@@ -199,11 +199,11 @@ function Edge() {
          xmlns="http://www.w3.org/2000/svg"
          stroke="#1a55e0"
         >
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
          <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
          ></g>
          <g id="SVGRepo_iconCarrier">
           {" "}
@@ -213,9 +213,9 @@ function Edge() {
             id="Vector"
             d="M10 15L12 13.0001M12 13.0001L14 11.0001M12 13.0001L10 11.0001M12 13.0001L14 15M4 16.8002V11.4522C4 10.9179 4 10.6506 4.06497 10.4019C4.12255 10.1816 4.2173 9.97307 4.34521 9.78464C4.48955 9.57201 4.69064 9.39569 5.09277 9.04383L9.89436 4.84244C10.6398 4.19014 11.0126 3.86397 11.4324 3.73982C11.8026 3.63035 12.1972 3.63035 12.5674 3.73982C12.9875 3.86406 13.3608 4.19054 14.1074 4.84383L18.9074 9.04383C19.3096 9.39569 19.5102 9.57201 19.6546 9.78464C19.7825 9.97307 19.8775 10.1816 19.9351 10.4019C20 10.6505 20 10.9184 20 11.4522V16.8037C20 17.9216 20 18.4811 19.7822 18.9086C19.5905 19.2849 19.2842 19.5906 18.9079 19.7823C18.4805 20.0001 17.9215 20.0001 16.8036 20.0001H7.19691C6.07899 20.0001 5.5192 20.0001 5.0918 19.7823C4.71547 19.5906 4.40973 19.2849 4.21799 18.9086C4 18.4807 4 17.9203 4 16.8002Z"
             stroke="#1a55e0"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
            ></path>{" "}
           </g>{" "}
          </g>
@@ -245,11 +245,11 @@ function Edge() {
          xmlns="http://www.w3.org/2000/svg"
          viewBox="0 0 512 512"
         >
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
          <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
          ></g>
          <g id="SVGRepo_iconCarrier">
           {" "}

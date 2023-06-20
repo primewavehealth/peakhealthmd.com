@@ -1,14 +1,18 @@
-/** @type {import('next').NextConfig} */
+const { withContentlayer } = require("next-contentlayer");
 
 const nextConfig = {
  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
- experimental: {
-  mdxRs: true,
- },
+
  reactStrictMode: true,
  images: {
-  domains: ["images.unsplash.com", "img.freepik.com"],
   formats: ["image/avif", "image/webp"],
+  remotePatterns: [
+   {
+    protocol: "https",
+    hostname: "freepik.com",
+    pathname: "/**",
+   },
+  ],
  },
  headers() {
   return [
@@ -74,4 +78,4 @@ const securityHeaders = [
  },
 ];
 
-module.exports = nextConfig;
+module.exports = withContentlayer(nextConfig);
