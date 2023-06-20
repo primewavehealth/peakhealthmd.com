@@ -4,15 +4,11 @@ import Navbar from "@/components/Navbar/Navbar";
 import Topbar from "@/components/Topbar";
 import CookieBanner from "@/components/cookiebanner";
 import ToasterProvider from "@/lib/ToastProvider";
-import * as fbq from "@/lib/fpixel";
-import { FB_PIXEL_ID } from "@/lib/fpixel";
+import "@/styles/globals.css";
 import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head";
-import Script from "next/script";
-import "./globals.css";
 
 const inter = Inter({
  variable: "--font-inter",
@@ -42,20 +38,24 @@ export const metadata: Metadata = {
  description: siteConfig.description,
  keywords: [
   "Pain Management",
-  "Erectile Dysfunction",
-  "Chronic Fatigue",
-  "Fibromyalgia",
-  "Peptide Therapy",
-  "Weight Loss",
-  "Prp Facials",
-  "IV Therapy",
-  "Hormone Therapy",
+  "Pain Care",
+  "Chronic Pain",
+  "Joint Pain",
+  "Neck Pain",
+  "Back Pain",
  ],
  openGraph: {
-  url: siteConfig.url,
   title: siteConfig.name,
   description: siteConfig.description,
+  url: siteConfig.url,
   siteName: siteConfig.name,
+  images: [
+   {
+    url: `${siteConfig.url}/og.webp`,
+    width: 500,
+    height: 400,
+   },
+  ],
   locale: "en-US",
   type: "website",
  },
@@ -96,35 +96,6 @@ export default function RootLayout({
     inter.variable
    )}
   >
-   <Head>
-    <noscript>
-     <img
-      height="1"
-      width="1"
-      style={{ display: "none" }}
-      src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
-     />
-    </noscript>
-   </Head>
-
-   {/* Global Site Code Pixel - Facebook Pixel */}
-   <Script
-    id="fb-pixel"
-    strategy="afterInteractive"
-    dangerouslySetInnerHTML={{
-     __html: `
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', ${fbq.FB_PIXEL_ID});
-          `,
-    }}
-   />
    <GoogleAnalytics GA_MEASUREMENT_ID="G-HH6TSN7KTX" />
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
