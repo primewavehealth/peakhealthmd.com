@@ -45,13 +45,14 @@ export const metadata: Metadata = {
   "Back Pain",
  ],
  openGraph: {
-  title: siteConfig.name,
-  description: siteConfig.description,
-  url: siteConfig.url,
-  siteName: siteConfig.name,
+  title: "Prime Wave Health",
+  description:
+   " Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life",
+  url: "https://www.primewavehealth.com",
+  siteName: "Prime Wave Health",
   images: [
    {
-    url: `${siteConfig.url}/og.webp`,
+    url: "https://www.primewavehealth.com/images/logo.png",
     width: 500,
     height: 400,
    },
@@ -61,10 +62,7 @@ export const metadata: Metadata = {
  },
  twitter: {
   card: "summary_large_image",
-  title: siteConfig.name,
-  description: siteConfig.description,
-  images: [`${siteConfig.url}/og.webp`],
-  creator: "@primewavehealth",
+  title: "Prime Wave Health",
  },
  robots: {
   index: true,
