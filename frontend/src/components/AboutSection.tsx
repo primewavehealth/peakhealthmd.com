@@ -5,13 +5,13 @@ import Button from "./UI/Button";
 function AboutSection() {
  return (
   <section className="bg-blue-900">
-   <div className="px-4 py-8 mx-auto lg:py-16 max-w-screen-2xl sm:px-6 lg:px-8">
+   <div className="mx-auto max-w-screen-2xl">
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
      <div className="hidden lg:flex">
       <Image
        alt="Student"
        src="/images/neck-pain-primewave.jpg"
-       className="object-contain w-full rounded-xl sm:h-56 md:h-full"
+       className="object-contain w-full sm:h-56 md:h-full"
        height={400}
        width={400}
        quality={100}
@@ -30,11 +30,11 @@ function AboutSection() {
         harness the power of advanced technologies to provide innovative
         treatments for a wide range of pain conditions. Through the use of
         state-of-the-art devices, including neurostimulation, radiofrequency
-        ablation, and laser therapy, we offer precise and targeted pain relief.
-        Our team of pain care specialists combine their clinical expertise with
-        the latest technological advancements, ensuring optimal outcomes for our
-        patients. Whether you're seeking relief from chronic back pain,
-        neuropathic discomfort, or post-surgical discomfort, our
+        ablation, and shockwave therapy, we offer precise and targeted pain
+        relief. Our team of pain care specialists combine their clinical
+        expertise with the latest technological advancements, ensuring optimal
+        outcomes for our patients. Whether you're seeking relief from chronic
+        back pain, neuropathic discomfort, or post-surgical discomfort, our
         technology-driven approach provides non-invasive and minimally invasive
         options that are tailored to your unique needs. Experience the future of
         pain care at Primewave, where technology and compassion come together to
