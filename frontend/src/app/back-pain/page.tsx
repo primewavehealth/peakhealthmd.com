@@ -134,19 +134,20 @@ function page() {
    </section>
    {/* next section */}
    <section className=" bg-blue-50">
-    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+    <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
        <Image
         className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
         alt="banner"
         src="/images/back2.jpg"
-        fill
+        height={500}
+        width={500}
         loading="lazy"
        />
       </div>
 
-      <div className="lg:py-24">
+      <div>
        <h2 className="text-3xl font-bold sm:text-4xl">
         How We Treat Back Pain
        </h2>
@@ -180,23 +181,23 @@ function page() {
    </section>
    {/* next section */}
    <section className="bg-slate-100">
-    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+    <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
+     <h2 className="text-2xl font-bold sm:text-3xl">
+      Why Choose Primewave for your Chronic Back Pain Treatment in Las Vegas?
+     </h2>
+     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 lg:py-12">
       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
        <Image
         className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
         alt="banner"
         src="/images/back1.jpg"
-        fill
+        height={500}
+        width={500}
         loading="lazy"
        />
       </div>
 
-      <div className="lg:py-24">
-       <h2 className="text-3xl font-bold sm:text-4xl">
-        Why Choose Primewave for your Chronic Back Pain Treatment in Las Vegas?
-       </h2>
-
+      <div>
        <p className="mt-4 text-justify text-gray-600">
         Our expert clinicians have a proven track record of success in helping
         patients find lasting relief from their discomfort. By harnessing the
@@ -212,7 +213,13 @@ function page() {
         our state-of-the-art facility and commitment to delivering exceptional
         care, you can trust that you're in the best hands.
        </p>
-
+       <p className="mt-4 text-justify text-gray-600">
+        Don't let chronic back pain hold you back any longer. Experience the
+        life-changing benefits of shockwave therapy at Primewave. Schedule your
+        consultation today and take the first step towards a pain-free future.
+        Reclaim your life and embrace a brighter, pain-free tomorrow with
+        Primewave. You deserve it!
+       </p>
        <Link
         href="https://cal.com/primewavehealth/appointment"
         target="_blank"

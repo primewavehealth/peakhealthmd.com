@@ -17,12 +17,12 @@ export const Pain_Conditions = [
  {
   href: "/neck-pain",
   description: "",
-  name: "PNeck Pain",
+  name: "Neck Pain",
  },
  {
   href: "/chronic-fatigue-syndrome-las-vegas",
   description: "",
-  name: "Chronic Fatigue Syndrome",
+  name: "Fibromyalgia",
  },
 ];
 
