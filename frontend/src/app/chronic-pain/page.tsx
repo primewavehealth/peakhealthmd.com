@@ -1,7 +1,7 @@
+import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import pain from "/public/images/pain.jpg";
 
 export const metadata: Metadata = {
@@ -208,13 +208,23 @@ function page() {
         provide long-lasting relief.
        </p>
 
-       <Link
-        href="https://cal.com/primewavehealth/appointment"
-        target="_blank"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Book a Session
-       </Link>
+       <div className="">
+        <Button
+         text="Request Consultation"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto "
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+       </div>
       </div>
      </div>
     </div>
@@ -243,16 +253,20 @@ function page() {
         experienced in shockwave therapy and have a deep understanding of
         chronic pain management.
         <br />
+        <br />
         <strong>Advanced Technology</strong>: We utilize state-of-the-art
         shockwave therapy equipment to ensure precise and effective treatment.
+        <br />
         <br />
         <strong>Comprehensive Care</strong>: We offer a holistic approach to
         pain management, combining shockwave therapy with other complementary
         treatments if needed. <br />
+        <br />
         <strong>Compassionate Support</strong> : We're dedicated to providing
         compassionate care and supporting you throughout your pain relief
         journey.
        </p>
+       <br />
        <p className="mt-4 text-justify text-gray-600">
         Don't let chronic pain dictate your life any longer. Take the first step
         towards a pain-free future by contacting Primewave today. Our
@@ -262,13 +276,23 @@ function page() {
         You deserve it.
        </p>
 
-       <Link
-        href="https://cal.com/primewavehealth/appointment"
-        target="_blank"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Book a Session
-       </Link>
+       <div className="">
+        <Button
+         text="Request Consultation"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto "
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+       </div>
       </div>
      </div>
     </div>

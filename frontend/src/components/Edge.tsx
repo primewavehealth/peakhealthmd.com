@@ -5,7 +5,7 @@ function Edge() {
   <section className="bg-white">
    <div className="container px-8 py-16 mx-auto max-w-[1400px]">
     <h3 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-     Care and Competence
+     Why Primewave?
     </h3>
 
     <div className="mt-2">

@@ -1,7 +1,7 @@
+import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import joint from "/public/images/joint-pain-lv.jpg";
 
 export const metadata: Metadata = {
@@ -155,13 +155,13 @@ function page() {
    <section className=" bg-blue-50">
     <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
+      <div className="relative hidden h-64 overflow-hidden rounded-lg lg:flex sm:h-80 lg:order-first lg:h-full">
        <Image
         className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
         alt="banner"
         src="/images/joint1.jpg"
-        height={500}
-        width={500}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         loading="lazy"
        />
       </div>
@@ -184,13 +184,23 @@ function page() {
         embrace a pain-free future.
        </p>
 
-       <Link
-        href="https://cal.com/primewavehealth/appointment"
-        target="_blank"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Book a Session
-       </Link>
+       <div className="">
+        <Button
+         text="Request Consultation"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto "
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+       </div>
       </div>
      </div>
     </div>
@@ -207,8 +217,8 @@ function page() {
         className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
         alt="banner"
         src="/images/joint2.jpg"
-        height={800}
-        width={500}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         loading="lazy"
        />
       </div>
@@ -222,6 +232,7 @@ function page() {
         circulation in the affected area. Experience the transformative benefits
         of this cutting-edge approach!
         <br />
+        <br />
         <strong>Customized Treatment Plans</strong>: We understand that every
         individual is unique, and so are their joint pain challenges. Our team
         of experienced professionals will assess your condition thoroughly and
@@ -229,12 +240,14 @@ function page() {
         With Primewave, you'll receive the care and attention you deserve,
         ensuring optimal results.
         <br />
+        <br />
         <strong>Non-Invasive and Safe</strong>: Unlike invasive procedures or
         medications with unwanted side effects, shockwave therapy is a
         non-surgical, non-pharmaceutical treatment option. It is gentle,
         non-invasive, and has minimal downtime. You can undergo Primewave
         sessions with confidence, knowing that your well-being and safety are
         our top priorities. <br />
+        <br />
         <strong>Rapid Relief and Long-Term Benefits</strong>: Primewave delivers
         both immediate pain relief and long-lasting benefits. Many patients
         report a significant reduction in pain after just a few sessions,
@@ -242,6 +255,7 @@ function page() {
         activities they love. Our therapy aims to address the underlying cause
         of your joint pain for sustainable, lasting results.
        </p>
+       <br />
        <p className="mt-4 text-justify text-gray-600">
         Don't let joint pain hold you back any longer. Experience the remarkable
         power of shockwave therapy with Primewave. Reclaim your mobility,
@@ -249,13 +263,23 @@ function page() {
         consultation today and let us help you embark on a pain-free future.
        </p>
 
-       <Link
-        href="https://cal.com/primewavehealth/appointment"
-        target="_blank"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Book a Session
-       </Link>
+       <div className="">
+        <Button
+         text="Request Consultation"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto "
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+       </div>
       </div>
      </div>
     </div>

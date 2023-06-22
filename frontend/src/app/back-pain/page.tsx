@@ -1,7 +1,7 @@
+import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import back from "/public/images/back-pain-lv.jpg";
 
 export const metadata: Metadata = {
@@ -159,6 +159,7 @@ function page() {
         treatment for chronic back pain using state-of-the-art shockwave therapy
         technology.
        </p>
+       <br />
        <p className="mt-4 text-justify text-gray-600">
         Say goodbye to endless appointments, ineffective pain medications, and
         restricted mobility. With shockwave therapy at Primewave, you can
@@ -167,14 +168,25 @@ function page() {
         healing deep within your tissues, addressing the root cause of your
         chronic back pain.
        </p>
+       <br />
 
-       <Link
-        href="https://cal.com/primewavehealth/appointment"
-        target="_blank"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Book a Session
-       </Link>
+       <div className="">
+        <Button
+         text="Request Consultation"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto "
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+       </div>
       </div>
      </div>
     </div>
@@ -206,6 +218,7 @@ function page() {
         difference as your pain subsides and your mobility improves, allowing
         you to enjoy life to the fullest once again.
        </p>
+       <br />
        <p className="mt-4 text-justify text-gray-600">
         At Primewave, we prioritize your comfort and well-being throughout your
         treatment journey. Our friendly staff will guide you through each step,
@@ -213,6 +226,7 @@ function page() {
         our state-of-the-art facility and commitment to delivering exceptional
         care, you can trust that you're in the best hands.
        </p>
+       <br />
        <p className="mt-4 text-justify text-gray-600">
         Don't let chronic back pain hold you back any longer. Experience the
         life-changing benefits of shockwave therapy at Primewave. Schedule your
@@ -220,13 +234,24 @@ function page() {
         Reclaim your life and embrace a brighter, pain-free tomorrow with
         Primewave. You deserve it!
        </p>
-       <Link
-        href="https://cal.com/primewavehealth/appointment"
-        target="_blank"
-        className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-       >
-        Book a Session
-       </Link>
+       <br />
+       <div className="">
+        <Button
+         text="Request Consultation"
+         href="https://cal.com/primewavehealth/appointment"
+         icon=<svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          className="w-4 h-4 ml-auto "
+          viewBox="0 0 24 24"
+         >
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+         </svg>
+        />
+       </div>
       </div>
      </div>
     </div>
