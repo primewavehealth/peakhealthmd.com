@@ -15,7 +15,7 @@ function page() {
   <div>
    <PageBanner
     heading="Chronic Pain Care in Las Vegas"
-    body="At Primewave, we understand the debilitating impact of chronic pain on your daily life. Whether it's caused by arthritis, fibromyalgia, or other conditions, our dedicated team is here to help. With a holistic approach, we offer a range of treatment options including medication management, physical therapy, interventional procedures, and alternative therapies like acupuncture. Our goal is to alleviate your pain, improve functionality, and enhance your overall well-being. Take the first step towards a pain-free life and schedule your consultation with Primewave today."
+    body="At Primewave, we understand the debilitating impact of chronic pain on your daily life. Whether it's caused by arthritis, fibromyalgia, or other conditions, our dedicated team is here to help. Our goal is to alleviate your pain, improve functionality, and enhance your overall well-being. Take the first step towards a pain-free life and schedule your consultation with Primewave today."
     src={pain}
     height={400}
     width={400}

@@ -15,7 +15,7 @@ function page() {
   <div>
    <PageBanner
     heading="Joint Pain Care in Las Vegas"
-    body="Don't let joint pain limit your life. At Primewave, we understand the debilitating effects of joint pain, whether it's due to arthritis, injury, or other underlying conditions. Our dedicated team of specialists offers a comprehensive range of treatment options tailored to your specific needs. From advanced diagnostic imaging to precision-guided injections, regenerative therapies, physical therapy, and minimally invasive surgeries, we have the expertise and cutting-edge technology to provide effective relief and restore optimal joint function. Take the first step towards a pain-free life and trust our compassionate team to deliver personalized care that addresses the root cause of your joint pain."
+    body="Don't let joint pain limit your life. At Primewave, we understand the debilitating effects of joint pain, whether it's due to arthritis, injury, or other underlying conditions. Our dedicated team of specialists offers a comprehensive range of treatment options tailored to your specific needs. We have the expertise and cutting-edge technology to provide effective relief and restore optimal joint function. Take the first step towards a pain-free life and trust our compassionate team to deliver personalized care that addresses the root cause of your joint pain."
     src={joint}
     height={400}
     width={400}
