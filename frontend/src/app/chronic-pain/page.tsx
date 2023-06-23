@@ -15,7 +15,11 @@ function page() {
   <div>
    <PageBanner
     heading="Chronic Pain Care in Las Vegas"
-    body="At Primewave, we understand the debilitating impact of chronic pain on your daily life. Whether it's caused by arthritis, fibromyalgia, or other conditions, our dedicated team is here to help. Our goal is to alleviate your pain, improve functionality, and enhance your overall well-being. Take the first step towards a pain-free life and schedule your consultation with Primewave today."
+    body=" Are you tired of living with persistent, nagging pain that disrupts your
+        daily life? At Primewave, we understand the impact chronic pain can have
+        on your well-being, and we're here to offer a breakthrough solution. Say
+        goodbye to endless medications and invasive procedures, and embrace a
+        new approach to pain relief with our cutting-edge shockwave therapy."
     src={pain}
     height={400}
     width={400}
@@ -180,14 +184,6 @@ function page() {
        <h2 className="text-3xl font-bold sm:text-4xl">
         How We Treat Chronic Pain
        </h2>
-
-       <p className="mt-4 text-justify text-gray-600">
-        Are you tired of living with persistent, nagging pain that disrupts your
-        daily life? At Primewave, we understand the impact chronic pain can have
-        on your well-being, and we're here to offer a breakthrough solution. Say
-        goodbye to endless medications and invasive procedures, and embrace a
-        new approach to pain relief with our cutting-edge shockwave therapy.
-       </p>
        <p className="mt-4 text-justify text-gray-600">
         Experience the Power of Shockwave Therapy: Our skilled team of medical
         professionals specializes in utilizing shockwave therapy to effectively
