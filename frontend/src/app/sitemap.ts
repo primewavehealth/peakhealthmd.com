@@ -13,6 +13,7 @@ export default async function sitemap() {
   "/back-pain",
   "/joint-pain",
   "/neck-pain",
+  "/knee-pain",
   "/contact",
   "/chronic-fatigue-syndrome-las-vegas",
   "/erectile-dysfunction-treatment-in-las-vegas",

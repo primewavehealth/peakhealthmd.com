@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import knee from "/public/images/knee-pain1.jpg";
 
 export const metadata: Metadata = {
- title: "Neck Pain Care in Las Vegas",
+ title: "Knee Pain Care in Las Vegas",
  description:
   "Experience the power of shockwave therapy for knee pain . Non-invasive, fast, and effective treatment to reduce pain, inflammation, and improve mobility. Book your session now!",
 };
@@ -126,7 +126,7 @@ function page() {
 
     <section className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
      <h2 className="pb-4 text-2xl font-bold text-center sm:text-3xl">
-      ShockWave Therapy for Knee Pain Treatment
+      Shockwave Therapy for Knee Pain Treatment
      </h2>
 
      <article className="space-y-4 text-justify text-gray-600 ">
@@ -143,7 +143,7 @@ function page() {
     {/*  next section  */}
     <section className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
      <h2 className="pb-4 text-2xl font-bold sm:text-3xl">
-      The Primewave Solution for Knee Pain Relief in Las Vegas
+      The Primewave Solution for Knee Pain Treatment in Las Vegas
      </h2>
 
      <article className="space-y-4 text-justify text-gray-600 ">
@@ -175,8 +175,8 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Affordable Neck Pain Treatment in Las Vegas"
-    body="Don't let knee pain hold you back any longer. Take the first step towards a pain-free future by scheduling a consultation at Primewave in Las Vegas. Our compassionate team is ready to guide you on your journey to regaining your mobility and enjoying life to the fullest. Contact us today and discover the transformative power of shockwave therapy for knee pain.
+    heading="Affordable Knee Pain Treatment in Las Vegas"
+    body="Don't let knee pain hold you back any longer. Take the first step towards a pain-free future by scheduling a consultation with our pain specialists in Las Vegas. Our compassionate team is ready to guide you on your journey to regaining your mobility and enjoying life to the fullest. Contact us today and discover the transformative power of shockwave therapy for knee pain.
 "
     src="/images/happy-man.avif"
     alt="Neck Pain Treatment in Las Vegas"
