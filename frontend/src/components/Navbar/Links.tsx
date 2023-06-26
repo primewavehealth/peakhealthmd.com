@@ -20,6 +20,11 @@ export const Pain_Conditions = [
   name: "Neck Pain",
  },
  {
+  href: "/knee-pain",
+  description: "",
+  name: "Knee Pain",
+ },
+ {
   href: "/chronic-fatigue-syndrome-las-vegas",
   description: "",
   name: "Fibromyalgia",
