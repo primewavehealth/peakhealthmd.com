@@ -24,14 +24,14 @@ const mobileData = [
   name: "Neck Pain",
   href: "/neck-pain",
   text:
-   "Neck pain refers to discomfort or soreness in the neck region, often due to muscle strain, poor posture, or underlying conditions.",
+   "Discomfort or pain experienced in the area of the neck, which connects the head to the torso. It can range from mild to severe and may be acute or chronic.",
  },
 
  {
-  name: "Chronic Fatigue",
-  href: "/chronic-fatigue-syndrome-las-vegas",
+  name: "Knee Pain",
+  href: "/knee-pain",
   text:
-   "Persistent and overwhelming tiredness that hampers physical and mental functioning, often accompanied by sleep disturbances and reduced productivity.",
+   "Knee pain is a common complaint that can occur due to various reasons, including injury, overuse, underlying medical conditions, or the natural aging process.",
  },
 
  {
@@ -124,7 +124,7 @@ function ServicesSection() {
             <p className="text-justify">{text}</p>
            </div>
            <div className="pt-8 text-base font-semibold leading-7">
-            <span className=" hover:scale-125"> &rarr;</span>
+            {/* <span className=" hover:scale-125"> &rarr;</span> */}
            </div>
           </div>
          </div>
