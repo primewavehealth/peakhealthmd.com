@@ -1,3 +1,4 @@
+import FacebookPixel from "@/components/FacebookPixel";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
@@ -22,7 +23,7 @@ export const siteConfig: SiteConfig = {
  description:
   "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life.",
  url: "https://primewavehealth.com",
- ogImage: "https://primewavehealth.com/og.webp",
+ ogImage: "https://primewavehealth.com/images/logo.png",
  links: {
   twitter: "https://twitter.com/primewavehealth",
   facebook: "https://facebook.com/primewavehealth",
@@ -104,6 +105,7 @@ export default function RootLayout({
      <Footer />
     </main>
     <CookieBanner />
+    <FacebookPixel />
    </body>
   </html>
  );
