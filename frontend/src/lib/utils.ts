@@ -14,6 +14,10 @@ export function formatDate(input: string | number): string {
  });
 }
 
-/* export function absoluteUrl(path: string) {
- return `${env.NEXT_PUBLIC_APP_URL}${path}`;
-} */
+export function slugify(title: string) {
+ return title
+  .toLowerCase()
+  .trim()
+  .replace(/[^\w ]+/g, "")
+  .replace(/ +/g, "-");
+}
