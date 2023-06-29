@@ -29,16 +29,15 @@ function AboutSection() {
         <Link href="https://www.lasvegasnevada.gov/">Las vegas</Link>. We
         harness the power of advanced technologies to provide innovative
         treatments for a wide range of pain conditions. Through the use of
-        state-of-the-art devices, including neurostimulation, radiofrequency
-        ablation, and shockwave therapy, we offer precise and targeted pain
-        relief. Our team of pain care specialists combine their clinical
-        expertise with the latest technological advancements, ensuring optimal
-        outcomes for our patients. Whether you're seeking relief from chronic
-        back pain, neuropathic discomfort, or post-surgical discomfort, our
-        technology-driven approach provides non-invasive and minimally invasive
-        options that are tailored to your unique needs. Experience the future of
-        pain care at Primewave, where technology and compassion come together to
-        transform lives.
+        state-of-the-art devices, including shockwave therapy, we offer precise
+        and targeted pain relief. Our team of pain care specialists combine
+        their clinical expertise with the latest technological advancements,
+        ensuring optimal outcomes for our patients. Whether you're seeking
+        relief from chronic back pain, neuropathic discomfort, or post-surgical
+        discomfort, our technology-driven approach provides non-invasive and
+        minimally invasive options that are tailored to your unique needs.
+        Experience the future of pain care at Primewave, where technology and
+        compassion come together to transform lives.
        </p>
 
        <div className="mt-4 md:mt-8">

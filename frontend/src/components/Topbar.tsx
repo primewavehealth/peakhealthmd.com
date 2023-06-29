@@ -82,7 +82,7 @@ function Topbar() {
     <span className="flex items-center justify-between transition hover:opacity-75">
      <MdCalendarMonth className="text-2xl text-white" />
      <Link
-      href="https://cal.com/primewavehealth/appointment"
+      href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
       className="text-white "
      >
       <strong>Make An Appointment</strong>

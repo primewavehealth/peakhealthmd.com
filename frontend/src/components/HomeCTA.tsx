@@ -18,7 +18,7 @@ function CTASection() {
        <div className="flex flex-wrap justify-center lg:space-x-4 lg:justify-end">
         <Button
          text="Book An Appointment"
-         href="https://cal.com/primewavehealth/appointment"
+         href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
          icon=<svg
           fill="none"
           stroke="currentColor"

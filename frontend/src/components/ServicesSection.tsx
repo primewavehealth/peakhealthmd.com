@@ -82,7 +82,7 @@ function ServicesSection() {
      <div className="text-center">
       <Button
        text="Request Consultation"
-       href="https://cal.com/primewavehealth/appointment"
+       href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
        icon=<svg
         fill="none"
         stroke="currentColor"
