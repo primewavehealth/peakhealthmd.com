@@ -22,7 +22,8 @@ function page() {
     width={400}
     alt="erectile-dysfunction"
     btn={{
-     href: "https://cal.com/primewavehealth/appointment",
+     href:
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
      text: "Schedule An Appointment",
 
      icon: (
@@ -50,7 +51,7 @@ function page() {
       </span>
      </div>
      <Button
-      href="https://cal.com/primewavehealth/appointment"
+      href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
       text="Request Consultation"
       icon=<svg
        fill="none"
@@ -153,7 +154,8 @@ function page() {
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
-     href: "https://cal.com/primewavehealth/appointment",
+     href:
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
      text: "Schedule An Appointment",
 
      icon: (

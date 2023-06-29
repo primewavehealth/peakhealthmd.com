@@ -43,9 +43,9 @@ export async function generateMetadata({
    siteName: "Primewave - Pain Care and Wellness Clinic",
    images: [
     {
-     url: `${server}/{article?.image.url}`,
-     width: 1200,
-     height: 630,
+     url: `${server}/{article?.image}`,
+     width: 600,
+     height: 300,
      alt: article?.title,
     },
    ],
@@ -59,7 +59,7 @@ export async function generateMetadata({
    description: article?.description,
    images: [
     {
-     url: `${server}/{article?.image.url}`,
+     url: `${server}/{article?.image}`,
      width: 600,
      height: 300,
      alt: article?.title,

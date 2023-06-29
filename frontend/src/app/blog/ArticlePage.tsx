@@ -98,7 +98,7 @@ export default function ArticlePage({
       <div className="flex items-center md:col-span-2">
        {/* {article.tags?.slice(0, 3).map((tag) => (
         <Link
-         href={`/articles/tags/${slugify(tag.title)}`}
+         href={`/blog/tags/${slugify(tag.title)}`}
          key={tag.title}
          className="inline-block py-1.5 px-3 mr-2 mb-2 rounded-md bg-gray-100 hover:bg-gray-200 text-sm text-gray-600 dark:bg-zinc-800 dark:hover:bg-zinc-700 dark:text-zinc-100 truncate"
         >

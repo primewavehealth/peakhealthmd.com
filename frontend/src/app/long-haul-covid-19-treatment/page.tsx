@@ -25,7 +25,8 @@ function Shockwave() {
     width={400}
     alt="long haul covid 19"
     btn={{
-     href: "https://cal.com/primewavehealth/appointment",
+     href:
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
      text: "Schedule An Appointment",
 
      icon: (
