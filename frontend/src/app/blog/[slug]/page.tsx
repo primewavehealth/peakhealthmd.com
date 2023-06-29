@@ -1,147 +1,190 @@
-import { allBlogs } from "contentlayer/generated";
-import { notFound } from "next/navigation";
-
-import { Mdx } from "@/components/mdx-components";
-
-import { buttonVariants } from "@/components/UI/buttons";
-import { cn, formatDate } from "@/lib/utils";
-import "@/styles/mdx.css";
-import { ArrowLeftIcon } from "@heroicons/react/24/outline";
+import Container from "@/components/Container";
+import { server } from "config";
+import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+import { notFound } from "next/navigation";
+import ArticlePage from "../ArticlePage";
 
-/* interface PostPageProps {
- params: {
-  slug: string;
- };
-} */
+// This is the function that Next.js will call to generate the static pages
+export async function generateStaticParams(): Promise<any> {
+ const articles = await allBlogs;
 
-export async function generateStaticParams() {
- return allBlogs.map((post) => ({
-  slug: post.slug,
- }));
+ return articles.map((article: Blog) => ({ slug: article.slug }));
 }
 
+// Get the article data for the given slug
+function getArticle(slug: string, articles: Blog[]): Blog | undefined {
+ return articles.find((a: Blog) => a.slug === slug);
+}
+
+// Dynamic metadata for the article page
 export async function generateMetadata({
  params,
-}: any): Promise<Metadata | undefined> {
- const post = allBlogs.find((post) => post.slug === params.slug);
- if (!post) {
-  return;
- }
-
- const { title, date: publishedTime, description, image, slug } = post;
- const ogImage = image
-  ? `https://primewavehealth.com/images/${image}`
-  : "https://primewavehealth.com/images/logo/png";
-
+}: {
+ params: { slug: string };
+}): Promise<Metadata> {
+ const article = await getArticle(params.slug, await allBlogs);
  return {
-  title,
-  description,
+  title: article?.title,
+  description: article?.description,
+  /* keywords: [
+   article?.tags?.map((tag) => tag.title).join(", "),
+   article?.categories?.map((category) => category.title).join(", "),
+  ], */
+
+  // Open Graph
   openGraph: {
-   title,
-   description,
    type: "article",
-   publishedTime,
-   url: `https://primewavehealth.com/blog/${slug}`,
+   title: article?.title,
+   publishedTime: article?.date,
+   authors: [article?.author!],
+   description: article?.description,
+   url: `${server}/blog/${params.slug}`,
+   siteName: "Primewave - Pain Care and Wellness Clinic",
    images: [
     {
-     url: ogImage,
+     url: `${server}/{article?.image.url}`,
+     width: 1200,
+     height: 630,
+     alt: article?.title,
     },
    ],
+   locale: "en-US",
   },
+
+  // Twitter
   twitter: {
    card: "summary_large_image",
-   title,
-   description,
-   images: [ogImage],
+   title: article?.title,
+   description: article?.description,
+   images: [
+    {
+     url: `${server}/{article?.image.url}`,
+     width: 600,
+     height: 300,
+     alt: article?.title,
+    },
+   ],
+   site: "@primewavehealth",
+  },
+
+  // Alternates
+  alternates: {
+   canonical: `${server}/blog/${params.slug}`,
+   types: {
+    "application/rss+xml": `${server}/feed.xml`,
+   },
   },
  };
 }
 
-export default async function Blog({ params }: any) {
- const post = allBlogs.find((post) => post.slug === params.slug);
+// Get sorted articles from the contentlayer
+async function getSortedArticles(): Promise<Blog[]> {
+ let articles = await allBlogs;
 
- if (!post) {
-  notFound();
+ articles = articles.filter((article: Blog) => article);
+
+ return articles.sort((a: Blog, b: Blog) => {
+  if (a.date && b.date) {
+   return new Date(b.date).getTime() - new Date(a.date).getTime();
+  }
+  return 0;
+ });
+}
+
+// return the next and previous articles
+// return the next and previous articles
+function getNextandPrevArticles(
+ article: Blog,
+ articles: Blog[]
+): { previousArticle: Blog | undefined; nextArticle: Blog | undefined } {
+ let previousArticle: Blog | undefined;
+ let nextArticle: Blog | undefined;
+
+ // if the article is part of a series,
+ //get the next and previous articles from the series
+ if (article.series) {
+  const seriesArticles = articles.filter(
+   (a: Blog) => a.series?.title === article.series?.title
+  );
+
+  const sortedSeriesArticles = seriesArticles.sort((a: Blog, b: Blog) => {
+   if (a.series?.order && b.series?.order) {
+    return a.series?.order - b.series?.order;
+   }
+   return 0;
+  });
+
+  const currentArticleIndex = sortedSeriesArticles.findIndex(
+   (a: Blog) => a.slug === article.slug
+  );
+  if (currentArticleIndex > 0) {
+   previousArticle = sortedSeriesArticles[currentArticleIndex - 1];
+  }
+  if (currentArticleIndex < sortedSeriesArticles.length - 1) {
+   nextArticle = sortedSeriesArticles[currentArticleIndex + 1];
+  }
  }
 
- /* const authors = post.authors.map((author: any) =>
-  allAuthors.find(({ slug }) => slug === `/authors/${author}`)
- ); */
+ // if the article is not part of a series,
+ //get the next and previous articles from the articles list
+ if (!previousArticle) {
+  const currentArticleIndex = articles.findIndex(
+   (a: Blog) => a.slug === article.slug
+  );
+  if (currentArticleIndex > 0) {
+   previousArticle = articles[currentArticleIndex - 1];
+  }
+ }
+
+ if (!nextArticle) {
+  const currentArticleIndex = articles.findIndex(
+   (a: Blog) => a.slug === article.slug
+  );
+  if (currentArticleIndex < articles.length - 1) {
+   nextArticle = articles[currentArticleIndex + 1];
+  }
+ }
+
+ return { previousArticle, nextArticle };
+}
+
+// get related articles
+function getRelatedArticles(article: Blog, articles: Blog[]): Blog[] {
+ return articles
+  .filter((a: Blog) => {
+   if (a.slug === article.slug) return false;
+   if (a.categories.some((c) => article.categories.includes(c))) return true;
+   return false;
+  })
+  .slice(0, 3);
+}
+
+export default async function Page({
+ params,
+}: {
+ params: { slug: string };
+}): Promise<JSX.Element> {
+ const { slug } = params;
+ let articles = await getSortedArticles();
+ let article = getArticle(slug, articles);
+
+ if (!article) return notFound();
+
+ const { previousArticle, nextArticle } = getNextandPrevArticles(
+  article,
+  articles
+ );
+ const relatedArticles = getRelatedArticles(article, articles);
 
  return (
-  <article className="container relative max-w-3xl py-6 lg:py-10">
-   <script type="application/ld+json">
-    {JSON.stringify(post.structuredData)}
-   </script>
-   <Link
-    href="/blog"
-    className={cn(
-     buttonVariants({ variant: "ghost" }),
-     "absolute left-[-200px] top-14 hidden xl:inline-flex"
-    )}
-   >
-    <ArrowLeftIcon className="w-4 h-4 mr-2" />
-    See all posts
-   </Link>
-   <div>
-    {post.date && (
-     <time dateTime={post.date} className="block text-sm text-muted-foreground">
-      Published on {formatDate(post.date)}
-     </time>
-    )}
-    <h1 className="inline-block mt-2 text-4xl leading-tight font-heading lg:text-5xl">
-     {post.title}
-    </h1>
-
-    <p className="pt-2 font-medium">{post.categories}</p>
-
-    {/* {authors?.length ? (
-     <div className="flex mt-4 space-x-4">
-      {authors.map((author: any) =>
-       author ? (
-        <Link
-         key={author._id}
-         href={`https://twitter.com/${author.twitter}`}
-         className="flex items-center space-x-2 text-sm"
-        >
-         <Image
-          src={author.avatar}
-          alt={author.title}
-          width={42}
-          height={42}
-          className="bg-white rounded-full"
-         />
-         <div className="flex-1 leading-tight text-left">
-          <p className="font-medium">{author.title}</p>
-          <p className="text-[12px] text-muted-foreground">@{author.twitter}</p>
-         </div>
-        </Link>
-       ) : null
-      )}
-     </div>
-    ) : null} */}
-   </div>
-   {post.image && (
-    <Image
-     src={post.image}
-     alt={post.title}
-     width={720}
-     height={405}
-     className="my-8 transition-colors border rounded-md bg-muted"
-     priority
-    />
-   )}
-   <Mdx code={post.body.code} />
-   <hr className="mt-12" />
-   <div className="flex justify-center py-6 lg:py-10">
-    <Link href="/blog" className={cn(buttonVariants({ variant: "ghost" }))}>
-     <ArrowLeftIcon className="w-4 h-4 mr-2" />
-     See all posts
-    </Link>
-   </div>
-  </article>
+  <Container className="mt-16 lg:mt-32">
+   <ArticlePage
+    article={article}
+    previousArticle={previousArticle}
+    nextArticle={nextArticle}
+    relatedArticles={relatedArticles}
+   />
+  </Container>
  );
 }

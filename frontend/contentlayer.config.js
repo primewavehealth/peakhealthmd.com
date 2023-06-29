@@ -1,14 +1,52 @@
-import { defineDocumentType, makeSource } from "contentlayer/source-files";
+import {
+ defineDocumentType,
+ defineNestedType,
+ makeSource,
+} from "contentlayer/source-files";
+import readingTime from "reading-time";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePrettyCode from "rehype-pretty-code";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 
 /** @type {import('contentlayer/source-files').ComputedFields} */
+
+const Category = defineNestedType(() => ({
+ name: "Category",
+ fields: {
+  title: {
+   type: "string",
+   description: "The title of the category",
+   required: true,
+  },
+ },
+}));
+
+const Series = defineNestedType(() => ({
+ name: "Series",
+ fields: {
+  title: {
+   type: "string",
+   description: "The title of the series",
+   required: true,
+  },
+  order: {
+   type: "number",
+   description: "The order of the series",
+   required: true,
+  },
+ },
+}));
+
 const computedFields = {
  slug: {
   type: "string",
   resolve: (doc) => doc._raw.flattenedPath,
+ },
+
+ readingTime: {
+  type: "json",
+  resolve: (doc) => readingTime(doc.body.raw),
  },
 
  structuredData: {
@@ -51,19 +89,19 @@ export const Blog = defineDocumentType(() => ({
   image: {
    type: "string",
   },
-  authors: {
-   // Reference types are not embedded.
-   // Until this is fixed, we can use a simple list.
-   // type: "reference",
-   // of: Author,
-   type: "list",
-   of: { type: "string" },
-   required: false,
+  author: {
+   type: "string",
   },
   categories: {
    type: "list",
-   of: { type: "string" },
-   required: false,
+   of: Category,
+   description: "The categories of the post",
+   required: true,
+  },
+  series: {
+   type: "nested",
+   of: Series,
+   description: "The series the post belongs to",
   },
  },
  computedFields,

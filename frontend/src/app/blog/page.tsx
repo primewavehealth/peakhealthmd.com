@@ -1,67 +1,90 @@
-import { allBlogs } from "contentlayer/generated";
-import { compareDesc } from "date-fns";
-import Image from "next/image";
-import Link from "next/link";
+import SimpleLayout from "@/components/SimpleLayout";
+import { server } from "config";
+import { allBlogs, Blog } from "contentlayer/generated";
+import type { Metadata } from "next";
+import SearchArticles from "./SearchArticles";
 
-import { formatDate } from "@/lib/utils";
+export const metadata: Metadata = {
+ title: "Articles",
+ description:
+  "All our blogposts are written with the goal of educate readers and help them make better healthcare choices.",
 
-export const metadata = {
- title: "Blog",
- desription: "Primewave Pain Management Blog",
+ // Open Graph
+ openGraph: {
+  title: "Articles - Primewave",
+  description:
+   "All our blogposts are written with the goal of educate readers and help them make better healthcare choices.",
+  url: `${server}/blog`,
+  type: "website",
+  siteName: "Primewave - Pain care and wellness clinic in Las Vegas",
+  images: [
+   {
+    url: `${server}/images/logo.png`,
+    alt: "Primewave - Pain care and wellness clinic in Las Vegas",
+    width: 600,
+    height: 300,
+   },
+  ],
+  locale: "en_US",
+ },
+
+ // Twitter
+ twitter: {
+  card: "summary_large_image",
+  site: "@primewavehealth",
+  creator: "@primewavehealth",
+  title: "Articles - Primewave",
+  description:
+   "All our blogposts are written with the goal of educate readers and help them make better healthcare choices.",
+  images: [
+   {
+    url: `${server}/images/logo.png`,
+    alt: "Primewave - Pain care and wellness clinic in Las Vegas",
+    width: 600,
+    height: 300,
+   },
+  ],
+ },
+
+ // Canonical
+ alternates: {
+  canonical: `${server}/blog`,
+  types: {
+   "application/rss+xml": `${server}/feed.xml`,
+  },
+ },
 };
 
-export default async function BlogPage() {
- const posts = allBlogs.sort((a, b) => {
-  return compareDesc(new Date(a.date), new Date(b.date));
+// Get sorted articles from the contentlayer
+async function getSortedArticles(): Promise<Blog[]> {
+ let articles = await allBlogs;
+
+ articles = articles.filter((article: Blog) => article);
+
+ return articles.sort((a: Blog, b: Blog) => {
+  if (a.date && b.date) {
+   return new Date(b.date).getTime() - new Date(a.date).getTime();
+  }
+  return 0;
  });
+}
+
+export default async function Articles({
+ params,
+ searchParams,
+}: {
+ params?: any;
+ searchParams?: { [key: string]: string | string[] | undefined };
+}): Promise<JSX.Element> {
+ const articles = await getSortedArticles();
+ const page = searchParams?.page ? parseInt(searchParams.page as string) : 1;
 
  return (
-  <div className="container max-w-4xl py-6 lg:py-10">
-   <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
-    <div className="flex-1 space-y-4">
-     <h1 className="inline-block text-4xl tracking-tight font-heading lg:text-5xl">
-      Blog
-     </h1>
-     <p className="text-xl text-muted-foreground">Our latest blog posts.</p>
-    </div>
-   </div>
-   <hr className="my-8" />
-   {posts?.length ? (
-    <div className="grid gap-10 sm:grid-cols-2">
-     {posts.map((post, index) => (
-      <article
-       key={post._id}
-       className="relative flex flex-col space-y-2 group"
-      >
-       {post.image && (
-        <Image
-         src={post.image}
-         alt={post.title}
-         width={804}
-         height={452}
-         className="transition-colors border rounded-md bg-muted"
-         priority={index <= 1}
-        />
-       )}
-       <div className="flex justify-between px-2">
-        {" "}
-        <p className="text-sm text-muted-foreground">{formatDate(post.date)}</p>
-        <p className="text-sm text-muted-foreground">{post.categories}</p>
-       </div>
-       <h2 className="text-2xl font-extrabold">{post.title}</h2>
-       {post.description && (
-        <p className="text-muted-foreground">{post.description}</p>
-       )}
-
-       <Link href={`/blog/${post.slug}`} className="absolute inset-0">
-        <span className="sr-only">View Article</span>
-       </Link>
-      </article>
-     ))}
-    </div>
-   ) : (
-    <p>No posts published.</p>
-   )}
-  </div>
+  <SimpleLayout
+   title="Writings on Pain Management and Wellness"
+   intro="All our blogposts are written with the goal of educate readers and help them make better healthcare choices."
+  >
+   <SearchArticles articles={articles} page={page} />
+  </SimpleLayout>
  );
 }
