@@ -48,14 +48,14 @@ export const metadata: Metadata = {
  openGraph: {
   title: "Prime Wave Health",
   description:
-   " Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life",
+   "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life",
   url: "https://www.primewavehealth.com",
   siteName: "Prime Wave Health",
   images: [
    {
-    url: "https://www.primewavehealth.com/images/logo.png",
-    width: 500,
-    height: 400,
+    url: "https://primewavehealth.com/images/logo.png",
+    width: 300,
+    height: 200,
    },
   ],
   locale: "en-US",
