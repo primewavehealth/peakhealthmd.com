@@ -28,7 +28,7 @@ export async function generateMetadata({
   return;
  }
 
- const { title, date, description, image, slug } = article;
+ const { title, date: publishedTime, description, image, slug } = article;
  const ogImage = image
   ? `https://primewavehealth.com${image}`
   : `https://primewavehealth.com?title=${title}`;
@@ -41,27 +41,21 @@ export async function generateMetadata({
    title,
    description,
    type: "article",
-   publishedTime: date,
+   publishedTime,
    url: `https://primewavehealth.com/blog/${slug}`,
-   siteName: "Primewave - Pain Care and Wellness Clinic",
    images: [
     {
      url: ogImage,
-     width: 600,
-     height: 300,
-     alt: title,
     },
    ],
-   locale: "en-US",
   },
 
   // Twitter
   twitter: {
    card: "summary_large_image",
-   title: title,
-   description: description,
+   title,
+   description,
    images: [ogImage],
-   site: "@primewavehealth",
   },
  };
 }
