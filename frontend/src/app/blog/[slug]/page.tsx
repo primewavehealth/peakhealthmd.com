@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
-export async function generateStaticParams(): Promise<any> {
+export async function generateStaticParams() {
  const articles = allBlogs;
 
  return articles.map((article: Blog) => ({ slug: article.slug }));
@@ -21,7 +21,7 @@ export async function generateMetadata({
  params,
 }: {
  params: { slug: string };
-}): Promise<Metadata | undefined> {
+}): Promise<Metadata | any> {
  const article = getArticle(params.slug, allBlogs);
 
  if (!article) {
@@ -31,11 +31,12 @@ export async function generateMetadata({
  const { title, date, description, image, slug } = article;
  const ogImage = image
   ? `https://primewavehealth.com${image}`
-  : "https://primewavehealth.com/images/logo.png";
+  : `https://primewavehealth.com?title=${title}`;
 
  return {
   title,
   description,
+
   openGraph: {
    title,
    description,

@@ -36,7 +36,8 @@
   "src/app/api/contact/route.js",
   "src/components/Testimonials.jsx",
   ".contentlayer/generated",
-  "src/components/mdx-components.jsx"
+  "src/components/mdx-components.jsx",
+  "src/app/og/route.js"
  ],
  "exclude": ["node_modules"]
 }
