@@ -14,17 +14,17 @@ import localFont from "next/font/local";
 const inter = localFont({
  src: [
   {
-   path: "/public/fonts/Inter-Regular.ttf",
+   path: "public/fonts/Inter-Regular.ttf",
    weight: "400",
    style: "normal",
   },
   {
-   path: "/public/fonts/Inter-Medium.ttf",
+   path: "public/fonts/Inter-Medium.ttf",
    weight: "600",
    style: "medium",
   },
   {
-   path: "/public/fonts/Inter-Bold.ttf",
+   path: "public/fonts/Inter-Bold.ttf",
    weight: "600",
    style: "bold",
   },
