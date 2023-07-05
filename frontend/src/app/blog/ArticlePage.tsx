@@ -8,6 +8,7 @@ import { Mdx } from "@/components/mdx-components";
 import { cn } from "@/lib/utils";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { Blog } from "contentlayer/generated";
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import Script from "next/script";
 import RelatedArticles from "./RelatedArticles";
@@ -44,6 +45,31 @@ export default function ArticlePage({
    <Script type="application/ld+json" suppressHydrationWarning>
     {JSON.stringify(article.structuredData)}
    </Script>
+   <NextSeo
+    openGraph={{
+     title: `${article.title}`,
+     description: `${article.description}`,
+     url: `https://primewavehealth.com/blog/${article.slug}`,
+     type: "article",
+     article: {
+      publishedTime: `https://primewavehealth.com/blog/${article.date}`,
+     },
+     images: [
+      {
+       url: `https://primewavehealth.com/og?title=${article.title}`,
+       width: 1900,
+       height: 1000,
+       alt: "article image",
+      },
+      {
+       url: `https://primewavehealth.com/blog/${article.image}`,
+       width: 600,
+       height: 300,
+       alt: "article image",
+      },
+     ],
+    }}
+   />
    <div className="max-w-3xl mx-auto">
     <article className="lg:ml-28">
      <Link
