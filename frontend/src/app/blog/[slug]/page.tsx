@@ -1,5 +1,4 @@
 import Container from "@/components/Container";
-import { server } from "config";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -7,7 +6,7 @@ import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
 export async function generateStaticParams(): Promise<any> {
- const articles = await allBlogs;
+ const articles = allBlogs;
 
  return articles.map((article: Blog) => ({ slug: article.slug }));
 }
@@ -22,31 +21,34 @@ export async function generateMetadata({
  params,
 }: {
  params: { slug: string };
-}): Promise<Metadata> {
- const article = await getArticle(params.slug, await allBlogs);
- return {
-  title: article?.title,
-  description: article?.description,
-  /* keywords: [
-   article?.tags?.map((tag) => tag.title).join(", "),
-   article?.categories?.map((category) => category.title).join(", "),
-  ], */
+}): Promise<Metadata | undefined> {
+ const article = getArticle(params.slug, allBlogs);
 
-  // Open Graph
+ if (!article) {
+  return;
+ }
+
+ const { title, date, description, image, slug } = article;
+ const ogImage = image
+  ? `https://primewavehealth.com${image}`
+  : "https://primewavehealth.com/images/logo.png";
+
+ return {
+  title,
+  description,
   openGraph: {
+   title,
+   description,
    type: "article",
-   title: article?.title,
-   publishedTime: article?.date,
-   authors: [article?.author!],
-   description: article?.description,
-   url: `${server}/blog/${params.slug}`,
+   publishedTime: date,
+   url: `https://primewavehealth.com/blog/${slug}`,
    siteName: "Primewave - Pain Care and Wellness Clinic",
    images: [
     {
-     url: `${server}/${article?.image}`,
+     url: ogImage,
      width: 600,
      height: 300,
-     alt: article?.title,
+     alt: title,
     },
    ],
    locale: "en-US",
@@ -55,32 +57,17 @@ export async function generateMetadata({
   // Twitter
   twitter: {
    card: "summary_large_image",
-   title: article?.title,
-   description: article?.description,
-   images: [
-    {
-     url: `${server}/${article?.image}`,
-     width: 600,
-     height: 300,
-     alt: article?.title,
-    },
-   ],
+   title: title,
+   description: description,
+   images: [ogImage],
    site: "@primewavehealth",
-  },
-
-  // Alternates
-  alternates: {
-   canonical: `${server}/blog/${params.slug}`,
-   types: {
-    "application/rss+xml": `${server}/feed.xml`,
-   },
   },
  };
 }
 
 // Get sorted articles from the contentlayer
 async function getSortedArticles(): Promise<Blog[]> {
- let articles = await allBlogs;
+ let articles = allBlogs;
 
  articles = articles.filter((article: Blog) => article);
 

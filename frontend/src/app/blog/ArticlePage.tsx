@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { Blog } from "contentlayer/generated";
 import Link from "next/link";
+import Script from "next/script";
 import RelatedArticles from "./RelatedArticles";
 
 function slugify(str: string): string {
@@ -39,12 +40,12 @@ export default function ArticlePage({
  relatedArticles?: Blog[];
 }): JSX.Element {
  return (
-  <div className="xl:relative">
+  <section className="xl:relative">
+   <Script type="application/ld+json" suppressHydrationWarning>
+    {JSON.stringify(article.structuredData)}
+   </Script>
    <div className="max-w-3xl mx-auto">
     <article className="lg:ml-28">
-     <script type="application/ld+json">
-      {JSON.stringify(article.structuredData)}
-     </script>
      <Link
       href="/blog"
       className={cn(
@@ -140,6 +141,6 @@ export default function ArticlePage({
     </article>
     <ScrollToTop />
    </div>
-  </div>
+  </section>
  );
 }
