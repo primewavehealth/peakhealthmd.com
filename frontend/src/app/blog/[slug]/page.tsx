@@ -37,7 +37,7 @@ export async function generateMetadata({
   title,
   description,
 
-  openGraph: {
+  /* openGraph: {
    title,
    description,
    type: "article",
@@ -48,15 +48,15 @@ export async function generateMetadata({
      url: ogImage,
     },
    ],
-  },
+  }, */
 
   // Twitter
-  twitter: {
+  /* twitter: {
    card: "summary_large_image",
    title,
    description,
    images: [ogImage],
-  },
+  }, */
  };
 }
 
