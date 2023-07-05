@@ -9,26 +9,12 @@ import "@/styles/globals.css";
 import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 
-const inter = localFont({
- src: [
-  {
-   path: "public/fonts/Inter-Regular.ttf",
-   weight: "400",
-   style: "normal",
-  },
-  {
-   path: "public/fonts/Inter-Medium.ttf",
-   weight: "600",
-   style: "medium",
-  },
-  {
-   path: "public/fonts/Inter-Bold.ttf",
-   weight: "600",
-   style: "bold",
-  },
- ],
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+ weight: ["400", "700"],
+ subsets: ["latin"],
  variable: "--font-inter",
  display: "swap",
 });
