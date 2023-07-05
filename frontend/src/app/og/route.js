@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
@@ -7,12 +6,10 @@ export async function GET(req) {
  const { searchParams } = req.nextUrl;
  const postTitle = searchParams.get("title");
 
- const fontData = Inter({
-  variable: "--font-inter",
-  display: "swap",
-  weight: ["400", "700"],
-  subsets: ["latin"],
- });
+ const font = fetch(
+  new URL("../../public/fonts/Inter-Bold.ttf", import.meta.url)
+ ).then((res) => res.arrayBuffer());
+ const fontData = await font;
 
  return new ImageResponse(
   (
@@ -24,7 +21,7 @@ export async function GET(req) {
      flexDirection: "column",
      alignItems: "flex-start",
      justifyContent: "center",
-     backgroundImage: "url(https://primewavehealth.com/bg.png)",
+     backgroundImage: "url(https://primewavehealth.com/images/bg.png)",
     }}
    >
     <div
