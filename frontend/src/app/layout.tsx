@@ -1,4 +1,3 @@
-import FacebookPixel from "@/components/FacebookPixel";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
@@ -106,7 +105,7 @@ export default function RootLayout({
      <Footer />
     </main>
     <CookieBanner />
-    <FacebookPixel />
+    {/* <FacebookPixel /> */}
    </body>
   </html>
  );
