@@ -57,7 +57,7 @@ export async function generateMetadata({
    description: article?.description,
    images: [ogImage],
    site: "@primewavehealth",
-   creator: "@mprimewavehealth",
+   creator: "@primewavehealth",
   },
  };
 }
