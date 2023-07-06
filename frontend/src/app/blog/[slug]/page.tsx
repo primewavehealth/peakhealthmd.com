@@ -31,9 +31,9 @@ export async function generateMetadata({
   : `https://primewavehealth.com/og?title=${article?.title}`; */
 
  const ogImage = {
-  url: `https://primewavehealth.com/og?title=${article?.title}`,
-  width: 1200,
-  height: 630,
+  url: `https://primewavehealth.com/${article?.image}`,
+  width: 800,
+  height: 400,
   alt: article?.title,
  };
 

@@ -57,10 +57,10 @@ const securityHeaders = [
   value: "DENY",
  },
  // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
- {
+ /* {
   key: "X-Content-Type-Options",
   value: "nosniff",
- },
+ }, */
  // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control
  {
   key: "X-DNS-Prefetch-Control",
