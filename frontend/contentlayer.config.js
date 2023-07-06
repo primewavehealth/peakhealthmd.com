@@ -58,8 +58,8 @@ const computedFields = {
    datePublished: doc.date,
    description: doc.description,
    image: doc.image
-    ? `https://primewavehealth.com${doc.image}`
-    : `https://primewavehealth.com/api/og?title=${doc.title}`,
+    ? `https://primewavehealth.com/${doc.image}`
+    : `https://primewavehealth.com/og?title=${doc.title}`,
    url: `https://primewavehealth.com/blog/${doc._raw.flattenedPath}`,
    author: {
     "@type": "Person",
