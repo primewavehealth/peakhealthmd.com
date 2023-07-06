@@ -5,14 +5,16 @@ import { notFound } from "next/navigation";
 import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
-export async function generateStaticParams() {
- const articles = allBlogs;
-
+export async function generateStaticParams(): Promise<any> {
+ const articles = await allBlogs;
  return articles.map((article: Blog) => ({ slug: article.slug }));
 }
 
 // Get the article data for the given slug
 function getArticle(slug: string, articles: Blog[]): Blog | undefined {
+ if (undefined) {
+  console.log("no post");
+ }
  return articles.find((a: Blog) => a.slug === slug);
 }
 
@@ -21,42 +23,42 @@ export async function generateMetadata({
  params,
 }: {
  params: { slug: string };
-}): Promise<Metadata | any> {
+}): Promise<Metadata> {
  const article = getArticle(params.slug, allBlogs);
 
- if (!article) {
-  return;
- }
+ /* const ogImage = image
+  ? `https://primewavehealth.com${article?.image}`
+  : `https://primewavehealth.com/og?title=${article?.title}`; */
 
- const { title, date: publishedTime, description, image, slug } = article;
- const ogImage = image
-  ? `https://primewavehealth.com${image}`
-  : `https://primewavehealth.com?title=${title}`;
+ const ogImage = {
+  url: `https://primewavehealth.com/og?title=${article?.title}`,
+  width: 1200,
+  height: 630,
+  alt: article?.title,
+ };
 
  return {
-  title,
-  description,
+  title: article?.title,
+  description: article?.description,
 
-  /* openGraph: {
-   title,
-   description,
+  openGraph: {
+   title: article?.title,
+   description: article?.description,
    type: "article",
-   publishedTime,
-   url: `https://primewavehealth.com/blog/${slug}`,
-   images: [
-    {
-     url: ogImage,
-    },
-   ],
-  }, */
+   publishedTime: article?.date,
+   url: `https://primewavehealth.com/blog/${params.slug}`,
+   images: [ogImage],
+  },
 
   // Twitter
-  /* twitter: {
+  twitter: {
    card: "summary_large_image",
-   title,
-   description,
+   title: article?.title,
+   description: article?.description,
    images: [ogImage],
-  }, */
+   site: "@primewavehealth",
+   creator: "@mprimewavehealth",
+  },
  };
 }
 
@@ -75,7 +77,7 @@ async function getSortedArticles(): Promise<Blog[]> {
 }
 
 // return the next and previous articles
-// return the next and previous articles
+
 function getNextandPrevArticles(
  article: Blog,
  articles: Blog[]
