@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   "Neck Pain",
   "Back Pain",
  ],
- /* openGraph: {
+ openGraph: {
   title: "Prime Wave Health",
   description:
    "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   ],
   locale: "en-US",
   type: "website",
- }, */
+ },
  twitter: {
   card: "summary_large_image",
   title: "Prime Wave Health",

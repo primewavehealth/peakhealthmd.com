@@ -288,12 +288,6 @@ export default function Example() {
      </Popover>
 
      <Link
-      href="/telehealth"
-      className="text-sm font-semibold leading-6 text-gray-900"
-     >
-      TeleHealth
-     </Link>
-     <Link
       href="/dmv"
       className="text-sm font-semibold leading-6 text-gray-900"
      >
@@ -467,12 +461,6 @@ export default function Example() {
          )}
         </Disclosure>
 
-        <Link
-         href="/telehealth"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         TeleHealth
-        </Link>
         <Link
          href="/dmv"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
