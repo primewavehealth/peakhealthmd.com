@@ -6,7 +6,7 @@ import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
 export async function generateStaticParams(): Promise<any> {
- const articles = await allBlogs;
+ const articles = allBlogs;
  return articles.map((article: Blog) => ({ slug: article.slug }));
 }
 
@@ -23,7 +23,7 @@ export async function generateMetadata({
  params,
 }: {
  params: { slug: string };
-}): Promise<Metadata> {
+}): Promise<Metadata | undefined> {
  const article = getArticle(params.slug, allBlogs);
 
  /* const ogImage = image
@@ -34,7 +34,7 @@ export async function generateMetadata({
   url: `https://primewavehealth.com/${article?.image}`,
   width: 800,
   height: 400,
-  alt: article?.title,
+  alt: article?.title ?? "",
  };
 
  return {
@@ -42,22 +42,26 @@ export async function generateMetadata({
   description: article?.description,
 
   openGraph: {
-   title: article?.title,
-   description: article?.description,
+   title: article?.title ?? "",
+   description: article?.description ?? "",
    type: "article",
-   publishedTime: article?.date,
-   url: `https://primewavehealth.com/blog/${params.slug}`,
+   publishedTime: article?.date ?? "",
+   url: `https://primewavehealth.com/blog/${article?.slug}`,
    images: [ogImage],
   },
 
   // Twitter
   twitter: {
    card: "summary_large_image",
-   title: article?.title,
-   description: article?.description,
+   title: article?.title ?? "",
+   description: article?.description ?? "",
    images: [ogImage],
    site: "@primewavehealth",
    creator: "@primewavehealth",
+  },
+
+  alternates: {
+   canonical: `primewavehealth.com/blog/${params.slug}`,
   },
  };
 }
