@@ -1,16 +1,15 @@
-"use server";
-
 import Container from "@/components/Container";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
-/* export async function generateStaticParams(): Promise<any> {
+export async function generateStaticParams(): Promise<any> {
  const articles = await allBlogs;
  return articles.map((article: Blog) => ({ slug: article.slug }));
-} */
+}
 
 // Get the article data for the given slug
 
@@ -28,6 +27,7 @@ export async function generateMetadata({
  params: { slug: string };
 }): Promise<Metadata | undefined> {
  const article = getArticle(params.slug, allBlogs);
+
  if (!article) {
   return;
  }
@@ -43,7 +43,6 @@ export async function generateMetadata({
  };
 
  return {
-  metadataBase: new URL("https://primewavehealth.com"),
   title: article?.title,
   description: article?.description,
 
@@ -52,7 +51,7 @@ export async function generateMetadata({
    description: article?.description ?? "",
    type: "article",
    publishedTime: article?.date ?? "",
-   url: `https://primewavehealth.com/blog/${article?.slug}`,
+   url: `https://primewavehealth.com/blog/${params.slug}`,
    images: [ogImage],
   },
 
@@ -66,8 +65,9 @@ export async function generateMetadata({
    creator: "@primewavehealth",
   },
 
+  // Alternates
   alternates: {
-   canonical: `primewavehealth.com/blog/${params.slug}`,
+   canonical: `https://primewavehealth.comblog/${params.slug}`,
   },
  };
 }
@@ -154,6 +154,9 @@ function getRelatedArticles(article: Blog, articles: Blog[]): Blog[] {
   .slice(0, 3);
 }
 
+function SearchBarFallback() {
+ return <>Not Found</>;
+}
 export default async function Page({
  params,
 }: {
@@ -173,12 +176,14 @@ export default async function Page({
 
  return (
   <Container className="mt-16 lg:mt-32">
-   <ArticlePage
-    article={article}
-    previousArticle={previousArticle}
-    nextArticle={nextArticle}
-    relatedArticles={relatedArticles}
-   />
+   <Suspense fallback={<SearchBarFallback />}>
+    <ArticlePage
+     article={article}
+     previousArticle={previousArticle}
+     nextArticle={nextArticle}
+     relatedArticles={relatedArticles}
+    />
+   </Suspense>
   </Container>
  );
 }
