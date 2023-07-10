@@ -25,12 +25,9 @@ export async function generateMetadata({
  params,
 }: {
  params: { slug: string };
-}): Promise<Metadata | undefined> {
+}): Promise<Metadata> {
  const article = getArticle(params.slug, allBlogs);
 
- if (!article) {
-  return;
- }
  /* const ogImage = image
   ? `https://primewavehealth.com${article?.image}`
   : `https://primewavehealth.com/og?title=${article?.title}`; */
