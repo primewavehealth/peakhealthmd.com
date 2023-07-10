@@ -18,7 +18,7 @@ export default function SocialShare({
 }: {
  article: Blog;
 }): JSX.Element {
- const url = `${server}/articles/${article.slug}`;
+ const url = `${server}/blog/${article.slug}`;
  return (
   <div className="flex justify-center space-x-2">
    <div>
