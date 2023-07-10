@@ -7,7 +7,7 @@ import SearchArticles from "../../SearchArticles";
 
 // Get sorted articles from the contentlayer
 async function getSortedArticles(): Promise<Blog[]> {
- let articles = await allBlogs;
+ let articles = allBlogs;
 
  articles = articles.filter((article: Blog) => article);
 
@@ -42,7 +42,7 @@ export async function generateMetadata({
     {
      url: `${server}/images/logo.png`,
      width: 600,
-     height: 200,
+     height: 300,
      alt: `Articles categorized as ${params.slug}`,
     },
    ],
@@ -103,7 +103,8 @@ export default async function Articles({
  }
 
  // Find category title from slug
- const catTitle = articles[0].categories.find(
+
+ const catTitle = articles[0]!.categories.find(
   (category: Category) =>
    category.title
     .toLowerCase()
