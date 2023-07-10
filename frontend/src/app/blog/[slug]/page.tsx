@@ -7,10 +7,10 @@ import { notFound } from "next/navigation";
 import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
-export async function generateStaticParams(): Promise<any> {
+/* export async function generateStaticParams(): Promise<any> {
  const articles = await allBlogs;
  return articles.map((article: Blog) => ({ slug: article.slug }));
-}
+} */
 
 // Get the article data for the given slug
 
