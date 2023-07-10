@@ -88,6 +88,7 @@ export const Blog = defineDocumentType(() => ({
   },
   image: {
    type: "string",
+   required: true,
   },
   author: {
    type: "string",
