@@ -1,3 +1,5 @@
+"use server";
+
 import Container from "@/components/Container";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
@@ -6,12 +8,13 @@ import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
 export async function generateStaticParams(): Promise<any> {
- const articles = allBlogs;
+ const articles = await allBlogs;
  return articles.map((article: Blog) => ({ slug: article.slug }));
 }
 
 // Get the article data for the given slug
-function getArticle(slug: string, articles: Blog[]): Blog | undefined {
+
+function getArticle(slug: string, articles: Blog[]) {
  if (undefined) {
   console.log("no post");
  }
@@ -25,7 +28,9 @@ export async function generateMetadata({
  params: { slug: string };
 }): Promise<Metadata | undefined> {
  const article = getArticle(params.slug, allBlogs);
-
+ if (!article) {
+  return;
+ }
  /* const ogImage = image
   ? `https://primewavehealth.com${article?.image}`
   : `https://primewavehealth.com/og?title=${article?.title}`; */
@@ -38,6 +43,7 @@ export async function generateMetadata({
  };
 
  return {
+  metadataBase: new URL("https://primewavehealth.com"),
   title: article?.title,
   description: article?.description,
 
