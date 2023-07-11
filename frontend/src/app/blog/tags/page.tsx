@@ -110,7 +110,7 @@ export default async function Tags(): Promise<JSX.Element> {
       <div key={index} className="mt-2 mb-2 mr-5">
        <Link
         className="mr-3 text-sm font-medium text-teal-500 uppercase hover:text-teal-600 dark:hover:text-teal-400"
-        href={`blog/tags/${tag
+        href={`/tags/${tag
          .toLowerCase()
          .trim()
          .replace(/[^\w\s-]/g, "")
