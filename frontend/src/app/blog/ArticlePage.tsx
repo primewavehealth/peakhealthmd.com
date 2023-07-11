@@ -82,7 +82,7 @@ export default function ArticlePage({
           className="font-medium text-teal-500 hover:text-teal-600 dark:text-teal-400 dark:hover:text-teal-300"
          >
           {category.title}
-          {index < article.categories.length - 1 ? `, ` : ``}
+          {index < article.categories!.length - 1 ? `, ` : ``}
          </Link>
         ))}
        </span>
@@ -98,7 +98,7 @@ export default function ArticlePage({
 
      <div className="grid grid-cols-2 gap-4 mt-8 md:grid-cols-3">
       <div className="flex items-center md:col-span-2">
-       {/* {article.tags?.slice(0, 3).map((tag) => (
+       {article.tags?.slice(0, 3).map((tag) => (
         <Link
          href={`/blog/tags/${slugify(tag.title)}`}
          key={tag.title}
@@ -106,7 +106,7 @@ export default function ArticlePage({
         >
          {tag.title}
         </Link>
-       ))} */}
+       ))}
       </div>
 
       <div className="flex items-center justify-end">

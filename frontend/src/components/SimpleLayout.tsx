@@ -1,4 +1,4 @@
-import Container from "@/app/blog/Container";
+import BlogContainer from "@/app/blog/BlogContainer";
 
 export default function SimpleLayout({
  title,
@@ -10,7 +10,7 @@ export default function SimpleLayout({
  children: React.ReactNode;
 }): JSX.Element {
  return (
-  <Container className="px-8 mx-auto mt-16 sm:mt-32">
+  <BlogContainer className="px-8 mx-auto mt-16 sm:mt-32">
    <header className="max-w-4xl text-center">
     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
      {title}
@@ -20,6 +20,6 @@ export default function SimpleLayout({
     )}
    </header>
    <div className="mt-8 sm:mt-6">{children}</div>
-  </Container>
+  </BlogContainer>
  );
 }
