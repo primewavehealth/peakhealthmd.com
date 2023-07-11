@@ -86,7 +86,7 @@ export default async function Articles({
  // Filter articles by category title
  if (params?.slug) {
   articles = articles.filter((article: Blog) =>
-   article.categories.some(
+   article.categories!.some(
     (category) =>
      category.title
       .toLowerCase()
@@ -104,7 +104,7 @@ export default async function Articles({
 
  // Find category title from slug
 
- const catTitle = articles[0]!.categories.find(
+ const catTitle = articles[0]?.categories!.find(
   (category: Category) =>
    category.title
     .toLowerCase()
