@@ -108,12 +108,12 @@ export const Blog = defineDocumentType(() => ({
    type: "list",
    of: Category,
    description: "The categories of the post",
+   required: true,
   },
   tags: {
    type: "list",
    of: Tag,
    description: "The tags of the post",
-   required: true,
   },
   series: {
    type: "nested",
