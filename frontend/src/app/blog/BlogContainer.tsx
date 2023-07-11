@@ -27,7 +27,7 @@ const InnerContainer = forwardRef(function InnerContainer(
  );
 });
 
-const Container = forwardRef(function Container(
+const BlogContainer = forwardRef(function Container(
  { children, ...props }: { children: React.ReactNode; [key: string]: any },
  ref
 ): JSX.Element {
@@ -38,7 +38,7 @@ const Container = forwardRef(function Container(
  );
 });
 
-(Container as any).Outer = OuterContainer;
-(Container as any).Inner = InnerContainer;
+(BlogContainer as any).Outer = OuterContainer;
+(BlogContainer as any).Inner = InnerContainer;
 
-export default Container;
+export default BlogContainer;

@@ -44,10 +44,10 @@ export async function generateMetadata({
   description: article?.description,
 
   openGraph: {
-   title: article?.title ?? "",
-   description: article?.description ?? "",
+   title: article!.title,
+   description: article!.description,
    type: "article",
-   publishedTime: article?.date ?? "",
+   publishedTime: article!.date,
    url: `https://primewavehealth.com/blog/${params.slug}`,
    images: [ogImage],
   },
@@ -55,8 +55,8 @@ export async function generateMetadata({
   // Twitter
   twitter: {
    card: "summary_large_image",
-   title: article?.title ?? "",
-   description: article?.description ?? "",
+   title: article!.title,
+   description: article!.description,
    images: [ogImage],
    site: "@primewavehealth",
    creator: "@primewavehealth",
@@ -73,7 +73,7 @@ export async function generateMetadata({
 async function getSortedArticles(): Promise<Blog[]> {
  let articles = allBlogs;
 
- articles = articles.filter((article: Blog) => article);
+ articles = articles.filter((article: Blog) => article.status === "published");
 
  return articles.sort((a: Blog, b: Blog) => {
   if (a.date && b.date) {
@@ -145,7 +145,8 @@ function getRelatedArticles(article: Blog, articles: Blog[]): Blog[] {
  return articles
   .filter((a: Blog) => {
    if (a.slug === article.slug) return false;
-   if (a.categories.some((c) => article.categories.includes(c))) return true;
+   if (a.categories!.some((c) => article.categories!.includes(c))) return true;
+   if (a.tags?.some((t) => article.tags?.includes(t))) return true;
    return false;
   })
   .slice(0, 3);

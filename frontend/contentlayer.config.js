@@ -22,6 +22,17 @@ const Category = defineNestedType(() => ({
  },
 }));
 
+const Tag = defineNestedType(() => ({
+ name: "Tag",
+ fields: {
+  title: {
+   type: "string",
+   description: "The title of the tag",
+   required: true,
+  },
+ },
+}));
+
 const Series = defineNestedType(() => ({
  name: "Series",
  fields: {
@@ -97,12 +108,23 @@ export const Blog = defineDocumentType(() => ({
    type: "list",
    of: Category,
    description: "The categories of the post",
+  },
+  tags: {
+   type: "list",
+   of: Tag,
+   description: "The tags of the post",
    required: true,
   },
   series: {
    type: "nested",
    of: Series,
    description: "The series the post belongs to",
+  },
+  status: {
+   type: "enum",
+   options: ["draft", "published"],
+   description: "The status of the post",
+   required: true,
   },
  },
  computedFields,

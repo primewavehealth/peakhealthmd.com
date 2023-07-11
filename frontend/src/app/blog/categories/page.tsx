@@ -2,7 +2,7 @@ import { server } from "config";
 import { allBlogs, Blog, Category } from "contentlayer/generated";
 import type { Metadata } from "next";
 import Link from "next/link";
-import Container from "../Container";
+import BlogContainer from "../BlogContainer";
 
 // Get sorted articles from the contentlayer
 async function getSortedArticles(): Promise<Blog[]> {
@@ -27,7 +27,7 @@ export async function generateMetadata({
  const articles = await getSortedArticles();
  // get all the unique categories
  const categories = articles.reduce((acc: any, article: Blog) => {
-  article.categories.forEach((category: Category) => {
+  article.categories!.forEach((category: Category) => {
    if (!acc[category.title]) {
     acc[category.title] = 1;
    }
@@ -86,7 +86,7 @@ export default async function Tags(): Promise<JSX.Element> {
 
  // Categories with number of articles
  const categories = articles.reduce((acc: any, article: Blog) => {
-  article.categories.forEach((category: Category) => {
+  article.categories!.forEach((category: Category) => {
    if (acc[category.title]) {
     acc[category.title] += 1;
    } else {
@@ -97,7 +97,7 @@ export default async function Tags(): Promise<JSX.Element> {
  }, {});
 
  return (
-  <Container className="mt-12 lg:mb-48">
+  <BlogContainer className="mt-12 lg:mb-48">
    <div className="flex flex-col items-start justify-start py-12 divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:items-center md:justify-center md:space-x-6 md:divide-y-0">
     <div className="pt-6 pb-8 space-x-2 text-center md:space-y-5">
      <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-center text-zinc-800 dark:text-zinc-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
@@ -134,6 +134,6 @@ export default async function Tags(): Promise<JSX.Element> {
      ))}
     </div>
    </div>
-  </Container>
+  </BlogContainer>
  );
 }
