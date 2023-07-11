@@ -60,7 +60,7 @@ export async function generateMetadata({
   twitter: {
    card: "summary_large_image",
    site: "@primewavehealth",
-   creator: "@mir_sazzat",
+   creator: "@primewavehealth",
    title: "Blog Tags - Primewave Health",
    description:
     "This page contains all the tags of articles available on this website.",
@@ -110,7 +110,7 @@ export default async function Tags(): Promise<JSX.Element> {
       <div key={index} className="mt-2 mb-2 mr-5">
        <Link
         className="mr-3 text-sm font-medium text-teal-500 uppercase hover:text-teal-600 dark:hover:text-teal-400"
-        href={`/tags/${tag
+        href={`blog/tags/${tag
          .toLowerCase()
          .trim()
          .replace(/[^\w\s-]/g, "")
@@ -121,7 +121,7 @@ export default async function Tags(): Promise<JSX.Element> {
        </Link>
        <Link
         className="-ml-2 text-sm font-semibold uppercase text-zinc-500 dark:text-zinc-400"
-        href={`articles/tags/${tag
+        href={`blog/tags/${tag
          .toLowerCase()
          .trim()
          .replace(/[^\w\s-]/g, "")
