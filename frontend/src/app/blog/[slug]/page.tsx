@@ -6,12 +6,11 @@ import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
 export async function generateStaticParams(): Promise<any> {
- const articles = await allBlogs;
+ const articles = allBlogs;
  return articles.map((article: Blog) => ({ slug: article.slug }));
 }
 
 // Get the article data for the given slug
-
 function getArticle(slug: string, articles: Blog[]) {
  if (undefined) {
   console.log("no post");
@@ -24,38 +23,39 @@ export async function generateMetadata({
  params,
 }: {
  params: { slug: string };
-}): Promise<Metadata> {
+}): Promise<Metadata | undefined> {
  const article = getArticle(params.slug, allBlogs);
+ if (!article) {
+  return;
+ }
 
- /* const ogImage = image
-  ? `https://primewavehealth.com${article?.image}`
-  : `https://primewavehealth.com/og?title=${article?.title}`; */
+ const { title, description, date: publishedTime, image, slug } = article;
 
- const ogImage = {
-  url: `https://primewavehealth.com/${article?.image}`,
-  width: 800,
-  height: 400,
-  alt: article?.title ?? "",
- };
+ const ogImage = image
+  ? `https://primewavehealth.com/${image}`
+  : `https://primewavehealth.com/og?title=${title}`;
 
  return {
-  title: article?.title,
-  description: article?.description,
-
+  title,
+  description,
   openGraph: {
-   title: article?.title ?? "",
-   description: article?.description ?? "",
+   title,
+   description,
    type: "article",
-   publishedTime: article?.date ?? "",
-   url: `https://primewavehealth.com/blog/${params.slug}`,
-   images: [ogImage],
+   publishedTime,
+   url: `https://primewavehealth.com/blog/${slug}`,
+   images: [
+    {
+     url: ogImage,
+    },
+   ],
   },
 
   // Twitter
   twitter: {
    card: "summary_large_image",
-   title: article?.title ?? "",
-   description: article?.description ?? "",
+   title,
+   description,
    images: [ogImage],
    site: "@primewavehealth",
    creator: "@primewavehealth",
@@ -63,7 +63,7 @@ export async function generateMetadata({
 
   // Alternates
   alternates: {
-   canonical: `https://primewavehealth.comblog/${params.slug}`,
+   canonical: `https://primewavehealth.comblog/${slug}`,
   },
  };
 }
