@@ -16,7 +16,7 @@ const callsToAction = [
  {
   name: "Find A Specialist",
   href:
-   "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
+   "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
   icon: PlayCircleIcon,
  },
  { name: "Contact Us", href: "/contact", icon: PhoneIcon },

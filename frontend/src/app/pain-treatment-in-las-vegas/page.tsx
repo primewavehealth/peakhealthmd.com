@@ -159,7 +159,7 @@ function Pain() {
      </div>
      <div className="flex flex-col justify-center mt-5">
       <Link
-       href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
+       href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services"
        className="rounded-md p-4 cursor-pointer tracking-wider text-md  w-[300px] flex justify-center
               items-center
               text-center bg-blue-600 text-white font-bold hover:bg-blue-600 hover:shadow-blue mt-3 hover:scale-90
@@ -188,7 +188,7 @@ function Pain() {
     alt="pain-mgt-las-vegas"
     btn={{
      href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
      text: "Schedule An Appointment",
 
      icon: (

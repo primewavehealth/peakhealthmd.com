@@ -22,7 +22,7 @@ function Weightloss() {
     alt="weight loss las vegas"
     btn={{
      href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
      text: "Schedule An Appointment",
 
      icon: (
@@ -192,7 +192,7 @@ function Weightloss() {
     alt="weight-loss-las-vegas"
     btn={{
      href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
      text: "Schedule An Appointment",
 
      icon: (
