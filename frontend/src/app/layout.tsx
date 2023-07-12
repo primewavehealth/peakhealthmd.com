@@ -20,10 +20,8 @@ const inter = Inter({
 
 export const siteConfig: SiteConfig = {
  name: "Prime Wave",
- description:
-  "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life.",
+ description: "Get affordable chronic pain care in Las Vegas at Primewave.",
  url: "https://primewavehealth.com",
- ogImage: "https://primewavehealth.com/images/logo.png",
  links: {
   twitter: "https://twitter.com/primewavehealth",
   facebook: "https://facebook.com/primewavehealth",
@@ -32,6 +30,7 @@ export const siteConfig: SiteConfig = {
 };
 
 export const metadata: Metadata = {
+ metadataBase: new URL("https://primewavehealth.com"),
  title: {
   default: siteConfig.name,
   template: `%s | ${siteConfig.name}`,
@@ -47,17 +46,9 @@ export const metadata: Metadata = {
  ],
  openGraph: {
   title: "Prime Wave Health",
-  description:
-   "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life",
+  description: "Get affordable chronic pain care in Las Vegas at Primewave.",
   url: "https://www.primewavehealth.com",
   siteName: "Prime Wave Health",
-  images: [
-   {
-    url: "https://primewavehealth.com/images/logo.png",
-    width: 300,
-    height: 200,
-   },
-  ],
   locale: "en-US",
   type: "website",
  },
