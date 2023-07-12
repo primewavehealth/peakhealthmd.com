@@ -47,7 +47,7 @@ function AppointnmentCTA() {
    </div>
 
    <Link
-    href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
+    href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services"
     className="inline-block px-6 py-4 my-1 mr-4 text-base font-medium text-white transition bg-blue-700 rounded hover:text-blue-200 md:px-9 lg:px-6 xl:px-9"
    >
     FInd A Specialist

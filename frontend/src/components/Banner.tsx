@@ -43,7 +43,7 @@ function Banner() {
       <div className="">
        <Button
         text="Request Consultation"
-        href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start"
+        href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services"
         icon=<svg
          fill="none"
          stroke="currentColor"

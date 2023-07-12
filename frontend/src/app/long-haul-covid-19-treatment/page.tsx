@@ -26,7 +26,7 @@ function Shockwave() {
     alt="long haul covid 19"
     btn={{
      href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/start",
+      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
      text: "Schedule An Appointment",
 
      icon: (
