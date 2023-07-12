@@ -2,7 +2,6 @@ import Container from "@/components/Container";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import ArticlePage from "../ArticlePage";
 
 // This is the function that Next.js will call to generate the static pages
@@ -44,10 +43,10 @@ export async function generateMetadata({
   description: article?.description,
 
   openGraph: {
-   title: article!.title,
-   description: article!.description,
+   title: article?.title ?? "",
+   description: article?.description ?? "",
    type: "article",
-   publishedTime: article!.date,
+   publishedTime: article?.date ?? "",
    url: `https://primewavehealth.com/blog/${params.slug}`,
    images: [ogImage],
   },
@@ -55,8 +54,8 @@ export async function generateMetadata({
   // Twitter
   twitter: {
    card: "summary_large_image",
-   title: article!.title,
-   description: article!.description,
+   title: article?.title ?? "",
+   description: article?.description ?? "",
    images: [ogImage],
    site: "@primewavehealth",
    creator: "@primewavehealth",
@@ -174,14 +173,12 @@ export default async function Page({
 
  return (
   <Container className="mt-16 lg:mt-32">
-   <Suspense fallback={<SearchBarFallback />}>
-    <ArticlePage
-     article={article}
-     previousArticle={previousArticle}
-     nextArticle={nextArticle}
-     relatedArticles={relatedArticles}
-    />
-   </Suspense>
+   <ArticlePage
+    article={article}
+    previousArticle={previousArticle}
+    nextArticle={nextArticle}
+    relatedArticles={relatedArticles}
+   />
   </Container>
  );
 }
