@@ -15,7 +15,7 @@ function page() {
   <div>
    <PageBanner
     heading="Chronic Lower Back Pain Treatment in Las Vegas"
-    body="At Primewave, we combine advanced technology with expert care to revolutionize chronic lower back pain treatment. Through state-of-the-art techniques such as non-invasive shockwave therapy. We provide unparalleled precision and efficacy in relieving pain and restoring function. Experience a new era of pain management and regain control of your life with our innovative technological solutions."
+    body="At Primewave, we combine advanced technology with expert care to revolutionize treatment for lower back pain. Through state-of-the-art techniques such as non-invasive shockwave therapy. We provide unparalleled precision and efficacy in relieving pain and restoring function. Experience a new era of pain management and regain control of your life with our innovative technological solutions."
     src={back}
     height={400}
     width={400}
