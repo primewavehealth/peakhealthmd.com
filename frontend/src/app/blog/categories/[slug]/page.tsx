@@ -65,7 +65,7 @@ export async function generateMetadata({
    ],
   },
   alternates: {
-   canonical: `${server}/blog/categories/${params.slug}`,
+   canonical: `/blog/categories/${params.slug}`,
    types: {
     "application/rss+xml": `${server}/feed.xml`,
    },

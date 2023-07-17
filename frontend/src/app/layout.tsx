@@ -52,10 +52,6 @@ export const metadata: Metadata = {
   locale: "en-US",
   type: "website",
  },
- twitter: {
-  card: "summary_large_image",
-  title: "Prime Wave Health",
- },
  robots: {
   index: true,
   follow: true,
@@ -66,6 +62,13 @@ export const metadata: Metadata = {
    "max-image-preview": "large",
    "max-snippet": -1,
   },
+ },
+ twitter: {
+  card: "summary_large_image",
+  title: "Prime Wave Health",
+ },
+ verification: {
+  google: "AIxS_V2hiFfSnQitdraPhR62eVTY1OXQ-s_vM8qDVRE",
  },
 
  icons: {
