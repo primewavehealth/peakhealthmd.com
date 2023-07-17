@@ -36,14 +36,7 @@ export const metadata: Metadata = {
   template: `%s | ${siteConfig.name}`,
  },
  description: siteConfig.description,
- keywords: [
-  "Pain Management",
-  "Pain Care",
-  "Chronic Pain",
-  "Joint Pain",
-  "Neck Pain",
-  "Back Pain",
- ],
+
  openGraph: {
   title: "Prime Wave Health",
   description: "Get affordable chronic pain care in Las Vegas at Primewave.",

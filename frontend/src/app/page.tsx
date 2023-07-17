@@ -12,6 +12,17 @@ export const metadata: Metadata = {
  title: "Affordable Chronic Pain Care in Las Vegas",
  description:
   "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life.",
+ keywords: [
+  "Pain Management",
+  "Pain Care in Las Vegas",
+  "Chronic Pain Care Las Vegas",
+  "Joint Pain Care Las Vegas",
+  "Neck Pain Care Las Vegas",
+  "Back Pain Care Las Vegas",
+  "Pain Treatment in Las Vegas",
+  "Pain Doctor in Las Vegas",
+  "",
+ ],
 };
 
 export default function Home() {
