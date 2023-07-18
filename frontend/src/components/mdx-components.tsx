@@ -5,9 +5,42 @@ import * as React from "react";
 import { Callout } from "@/components/callout";
 import { MdxCard } from "@/components/mdx-card";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 interface stringProp {
  className: string;
+}
+
+const CustomLink = (props: any) => {
+ const href = props.href;
+
+ if (href.startsWith("/")) {
+  return (
+   <Link className="underline underline-offset-4" href={href} {...props}>
+    {props.children}
+   </Link>
+  );
+ }
+
+ if (href.startsWith("#")) {
+  return <a className="underline underline-offset-4" {...props} />;
+ }
+
+ return (
+  <Link
+   className="underline underline-offset-4"
+   target="_blank"
+   rel="noopener noreferrer"
+   href={href}
+   {...props}
+  >
+   {props.children}
+  </Link>
+ );
+};
+
+function RoundedImage(props: any) {
+ return <Image alt={props.alt} className="rounded-lg" {...props} />;
 }
 
 const components: any = {
@@ -65,12 +98,12 @@ const components: any = {
    {...props}
   />
  ),
- a: ({ className, ...props }: stringProp) => (
+ /* a: ({ className, ...props }: stringProp) => (
   <a
    className={cn("font-medium underline underline-offset-4", className)}
    {...props}
   />
- ),
+ ), */
  p: ({ className, ...props }: stringProp) => (
   <p
    className={cn("leading-7 [&:not(:first-child)]:mt-6", className)}
@@ -95,14 +128,14 @@ const components: any = {
    {...props}
   />
  ),
- img: ({
+ /* img: ({
   className,
   alt,
   ...props
  }: React.ImgHTMLAttributes<HTMLImageElement>) => (
   // eslint-disable-next-line @next/next/no-img-element
   <img className={cn("rounded-md border", className)} alt={alt} {...props} />
- ),
+ ), */
  hr: ({ ...props }) => <hr className="my-4 md:my-8" {...props} />,
  table: ({ className, ...props }: React.HTMLAttributes<HTMLTableElement>) => (
   <div className="w-full my-6 overflow-y-auto">
@@ -148,9 +181,10 @@ const components: any = {
    {...props}
   />
  ),
- Image,
+ Image: RoundedImage,
  Callout,
  Card: MdxCard,
+ a: CustomLink,
 };
 
 interface MdxProps {

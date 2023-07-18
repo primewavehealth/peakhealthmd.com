@@ -2,8 +2,6 @@ import SimpleLayout from "@/components/SimpleLayout";
 import { server } from "config";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
-import { Suspense } from "react";
-import Loading from "./loading";
 import SearchArticles from "./SearchArticles";
 
 export const metadata: Metadata = {
@@ -50,7 +48,7 @@ export const metadata: Metadata = {
 
  // Canonical
  alternates: {
-  canonical: `${server}/blog`,
+  canonical: `$/blog`,
   types: {
    "application/rss+xml": `${server}/feed.xml`,
   },
@@ -59,7 +57,7 @@ export const metadata: Metadata = {
 
 // Get sorted articles from the contentlayer
 async function getSortedArticles(): Promise<Blog[]> {
- let articles = await allBlogs;
+ let articles = allBlogs;
 
  articles = articles.filter((article: Blog) => article);
 
@@ -86,9 +84,7 @@ export default async function Articles({
    title="Writings on Pain Management and Wellness"
    intro="All our blogposts are written with the goal of educate readers and help them make better healthcare choices."
   >
-   <Suspense fallback={<Loading />}>
-    <SearchArticles articles={articles} page={page} />
-   </Suspense>
+   <SearchArticles articles={articles} page={page} />
   </SimpleLayout>
  );
 }
