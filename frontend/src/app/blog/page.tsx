@@ -2,6 +2,8 @@ import SimpleLayout from "@/components/SimpleLayout";
 import { server } from "config";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
+import { Suspense } from "react";
+import Loading from "./loading";
 import SearchArticles from "./SearchArticles";
 
 export const metadata: Metadata = {
@@ -84,7 +86,9 @@ export default async function Articles({
    title="Writings on Pain Management and Wellness"
    intro="All our blogposts are written with the goal of educate readers and help them make better healthcare choices."
   >
-   <SearchArticles articles={articles} page={page} />
+   <Suspense fallback={<Loading />}>
+    <SearchArticles articles={articles} page={page} />
+   </Suspense>
   </SimpleLayout>
  );
 }
