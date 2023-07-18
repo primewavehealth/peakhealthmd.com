@@ -12,45 +12,29 @@ export async function GET(request) {
    ? searchParams.get("title")?.slice(0, 100)
    : "Blog Post";
 
-  const image = await fetch(new URL("/images/bg.png", import.meta.url)).then(
-   (res) => res.arrayBuffer()
-  );
-
   return new ImageResponse(
    (
     <div
      style={{
-      backgroundColor: "yellow",
-      backgroundSize: "150px 150px",
       height: "100%",
       width: "100%",
       display: "flex",
-      textAlign: "center",
-      alignItems: "center",
-      justifyContent: "center",
       flexDirection: "column",
-      flexWrap: "nowrap",
+      alignItems: "flex-start",
+      justifyContent: "center",
+      backgroundImage: "url(https://primewavehealth.com/images/bg.png)",
      }}
     >
      <div
       style={{
+       marginLeft: 190,
+       marginRight: 190,
        display: "flex",
-       alignItems: "center",
-       justifyContent: "center",
-       justifyItems: "center",
-      }}
-     >
-      <img width="256" height="256" src={image} />
-     </div>
-     <div
-      style={{
-       fontSize: 60,
+       fontSize: 130,
+       letterSpacing: "-0.05em",
        fontStyle: "normal",
-       letterSpacing: "-0.025em",
-       color: "white",
-       marginTop: 30,
-       padding: "0 120px",
-       lineHeight: 1.4,
+       color: "blue",
+       lineHeight: "120px",
        whiteSpace: "pre-wrap",
       }}
      >
@@ -59,8 +43,8 @@ export async function GET(request) {
     </div>
    ),
    {
-    width: 1200,
-    height: 630,
+    width: 1920,
+    height: 1080,
    }
   );
  } catch (e) {

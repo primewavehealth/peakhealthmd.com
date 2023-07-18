@@ -11,6 +11,8 @@ import clsx from "clsx";
 import type { Metadata } from "next";
 
 import { Inter } from "next/font/google";
+import { Suspense } from "react";
+import Loading from "./blog/loading";
 
 const inter = Inter({
  weight: ["400", "700"],
@@ -83,7 +85,9 @@ export default function RootLayout({
     inter.variable
    )}
   >
-   <GoogleAnalytics GA_MEASUREMENT_ID="G-HH6TSN7KTX" />
+   <Suspense fallback={<Loading />}>
+    <GoogleAnalytics GA_MEASUREMENT_ID="G-HH6TSN7KTX" />
+   </Suspense>
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
@@ -92,8 +96,12 @@ export default function RootLayout({
      {children}
      <Footer />
     </main>
-    <CookieBanner />
-    <FacebookPixel />
+    <Suspense fallback={<Loading />}>
+     <CookieBanner />
+    </Suspense>
+    <Suspense fallback={<Loading />}>
+     <FacebookPixel />
+    </Suspense>
    </body>
   </html>
  );

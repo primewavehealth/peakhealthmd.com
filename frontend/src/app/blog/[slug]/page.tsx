@@ -151,9 +151,6 @@ function getRelatedArticles(article: Blog, articles: Blog[]): Blog[] {
   .slice(0, 3);
 }
 
-function SearchBarFallback() {
- return <>Not Found</>;
-}
 export default async function Page({
  params,
 }: {
