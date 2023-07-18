@@ -5,13 +5,14 @@ function Banner() {
  return (
   <section>
    <div className="max-w-full min-h-full mx-auto">
-    <div className="relative grid grid-cols-1 lg:grid-cols-2">
+    <div className="relative grid grid-cols-1 lg:grid-cols-2 h-[600px]">
      <div className="hidden md:flex lg:order-last">
       <Image
        className="absolute inset-0 object-cover overflow-hidden bg-contain -z-10"
        alt="banner"
        src="/images/backpain.jpg"
        fill
+       sizes="(min-width: 808px) 50vw, 100vw"
       />
      </div>
 

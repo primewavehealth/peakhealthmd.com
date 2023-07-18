@@ -42,8 +42,8 @@ export default function Example() {
        className=""
        src="/images/logo.png"
        alt="logo"
-       width="140"
-       height="145"
+       width={140}
+       height={145}
        quality={100}
       />
      </Link>
@@ -330,8 +330,8 @@ export default function Example() {
         className=""
         src="/images/logo.png"
         alt="logo"
-        width="140"
-        height="145"
+        width={140}
+        height={145}
         quality={100}
        />
       </Link>

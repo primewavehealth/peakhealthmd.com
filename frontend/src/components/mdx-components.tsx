@@ -5,13 +5,12 @@ import * as React from "react";
 import { Callout } from "@/components/callout";
 import { MdxCard } from "@/components/mdx-card";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 
 interface stringProp {
  className: string;
 }
 
-const CustomLink = (props: any) => {
+/* const CustomLink = (props: any) => {
  const href = props.href;
 
  if (href.startsWith("/")) {
@@ -37,7 +36,7 @@ const CustomLink = (props: any) => {
    {props.children}
   </Link>
  );
-};
+}; */
 
 function RoundedImage(props: any) {
  return <Image alt={props.alt} className="rounded-lg" {...props} />;
@@ -98,12 +97,12 @@ const components: any = {
    {...props}
   />
  ),
- /* a: ({ className, ...props }: stringProp) => (
+ a: ({ className, ...props }: stringProp) => (
   <a
    className={cn("font-medium underline underline-offset-4", className)}
    {...props}
   />
- ), */
+ ),
  p: ({ className, ...props }: stringProp) => (
   <p
    className={cn("leading-7 [&:not(:first-child)]:mt-6", className)}
@@ -184,7 +183,6 @@ const components: any = {
  Image: RoundedImage,
  Callout,
  Card: MdxCard,
- a: CustomLink,
 };
 
 interface MdxProps {
