@@ -2,56 +2,71 @@ import { ImageResponse } from "next/server";
 
 export const runtime = "edge";
 
-export async function GET(req) {
- const { searchParams } = req.nextUrl;
- const postTitle = searchParams.get("title");
+export async function GET(request) {
+ try {
+  const { searchParams } = new URL(request.url);
 
- const font = fetch(
-  new URL("/public/fonts/Inter-Bold.ttf", import.meta.url)
- ).then((res) => res.arrayBuffer());
- const fontData = await font;
+  // ?title=<title>
+  const hasTitle = searchParams.has("title");
+  const title = hasTitle
+   ? searchParams.get("title")?.slice(0, 100)
+   : "Blog Post";
 
- return new ImageResponse(
-  (
-   <div
-    style={{
-     height: "100%",
-     width: "100%",
-     display: "flex",
-     flexDirection: "column",
-     alignItems: "flex-start",
-     justifyContent: "center",
-     backgroundImage: "url(https://primewavehealth.com/images/bg.png)",
-    }}
-   >
+  const image = await fetch(new URL("/images/bg.png", import.meta.url)).then(
+   (res) => res.arrayBuffer()
+  );
+
+  return new ImageResponse(
+   (
     <div
      style={{
-      marginLeft: 190,
-      marginRight: 190,
+      backgroundColor: "yellow",
+      backgroundSize: "150px 150px",
+      height: "100%",
+      width: "100%",
       display: "flex",
-      fontSize: 130,
-      fontFamily: "Inter",
-      letterSpacing: "-0.05em",
-      fontStyle: "normal",
-      color: "white",
-      lineHeight: "120px",
-      whiteSpace: "pre-wrap",
+      textAlign: "center",
+      alignItems: "center",
+      justifyContent: "center",
+      flexDirection: "column",
+      flexWrap: "nowrap",
      }}
     >
-     {postTitle}
+     <div
+      style={{
+       display: "flex",
+       alignItems: "center",
+       justifyContent: "center",
+       justifyItems: "center",
+      }}
+     >
+      <img width="256" height="256" src={image} />
+     </div>
+     <div
+      style={{
+       fontSize: 60,
+       fontStyle: "normal",
+       letterSpacing: "-0.025em",
+       color: "white",
+       marginTop: 30,
+       padding: "0 120px",
+       lineHeight: 1.4,
+       whiteSpace: "pre-wrap",
+      }}
+     >
+      {title}
+     </div>
     </div>
-   </div>
-  ),
-  {
-   width: 1900,
-   height: 1080,
-   fonts: [
-    {
-     name: "Inter",
-     data: fontData,
-     style: "normal",
-    },
-   ],
-  }
- );
+   ),
+   {
+    width: 1200,
+    height: 630,
+   }
+  );
+ } catch (e) {
+  console.log(`${e.message}`);
+  return new Response(`Failed to generate the image`, {
+   status: 500,
+  });
+ }
 }

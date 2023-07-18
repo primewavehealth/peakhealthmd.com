@@ -1,9 +1,9 @@
+const { get } = require("@vercel/edge-config");
 const { withContentlayer } = require("next-contentlayer");
 
 const nextConfig = {
  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 
- reactStrictMode: true,
  images: {
   formats: ["image/avif", "image/webp"],
   remotePatterns: [
@@ -14,25 +14,23 @@ const nextConfig = {
    },
   ],
  },
- /*  headers() {
+ headers() {
   return [
    {
     source: "/(.*)",
     headers: securityHeaders,
    },
   ];
- }, */
- async redirects() {
-  return [
-   {
-    source: "/pain_treatment_lv",
-    destination: "/pain-treatment-in-las-vegas",
-    permanent: true,
-   },
-  ];
+ },
+ redirects() {
+  try {
+   return get("redirects");
+  } catch {
+   return [];
+  }
  },
 };
-/* 
+
 const ContentSecurityPolicy = `    
     style-src 'self' 'unsafe-inline';
     img-src * blob: data:;
@@ -77,5 +75,5 @@ const securityHeaders = [
   value: "camera=(), microphone=(), geolocation=()",
  },
 ];
- */
+
 module.exports = withContentlayer(nextConfig);
