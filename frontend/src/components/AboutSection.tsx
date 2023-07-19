@@ -6,7 +6,7 @@ function AboutSection() {
  return (
   <section className="bg-blue-900">
    <div className="mx-auto max-w-screen-2xl">
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
      <div className="hidden lg:flex">
       <Image
        alt="Student"
@@ -18,13 +18,13 @@ function AboutSection() {
       />
      </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
-      <div className="max-w-xl mx-auto space-y-3">
+      <div className="max-w-xl pt-12 mx-auto space-y-3">
        <span className="text-xl text-white lg:text-3xl">
         Technology Meets Pain Care at{" "}
         <strong className="text-yellow-400">PrimeWave</strong>{" "}
        </span>
 
-       <p className="text-base lg:text-justify lg:text-lg text-white/90 sm:mt-4">
+       <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
         Welcome to Primewave, a leading pain management clinic in{" "}
         <Link href="https://www.lasvegasnevada.gov/">Las vegas</Link>. We
         harness the power of advanced technologies to provide innovative
