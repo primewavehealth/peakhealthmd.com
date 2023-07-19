@@ -6,14 +6,14 @@ function AboutSection() {
  return (
   <section className="bg-blue-900">
    <div className="mx-auto max-w-screen-2xl">
-    <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-     <div className="hidden lg:flex">
+    <div className="grid grid-cols-1 lg:grid-cols-2">
+     <div className="relative hidden h-full lg:flex">
       <Image
        alt="Student"
-       src="/images/neck-pain-primewave.jpg"
-       className="object-contain w-full sm:h-56 md:h-full"
-       height={400}
-       width={400}
+       src="/images/neck-pain-3d.jpg"
+       className="object-cover"
+       fill
+       sizes="100vw"
        quality={100}
       />
      </div>
