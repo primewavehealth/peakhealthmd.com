@@ -1,5 +1,10 @@
 export const Pain_Conditions = [
  {
+  href: "/pain-management-in-las-vegas",
+  description: "",
+  name: "Pain Management",
+ },
+ {
   href: "/chronic-pain",
   description: "",
   name: "Chronic Pain",
@@ -25,7 +30,7 @@ export const Pain_Conditions = [
   name: "Knee Pain",
  },
  {
-  href: "/chronic-fatigue-syndrome-las-vegas",
+  href: "/fibromyalgia-treatment-las-vegas",
   description: "",
   name: "Fibromyalgia",
  },
