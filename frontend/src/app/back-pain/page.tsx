@@ -19,7 +19,7 @@ function page() {
     src={back}
     height={400}
     width={400}
-    alt="erectile-dysfunction"
+    alt="back-pain"
     btn={{
      href:
       "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",

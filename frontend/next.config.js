@@ -29,6 +29,15 @@ const nextConfig = {
    return [];
   }
  },
+ async redirects() {
+  return [
+   {
+    source: "/pain-treatment-in-las-vegas",
+    destination: "/pain-management-in-las-vegas",
+    permanent: true,
+   },
+  ];
+ },
 };
 
 const ContentSecurityPolicy = `    
