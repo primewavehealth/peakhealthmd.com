@@ -57,9 +57,9 @@ function ServicesSection() {
      </div>
      <div className="flex flex-wrap -mx-2 lg:w-4/5 sm:mx-auto sm:mb-2">
       {mobileData.map(({ name, href }) => (
-       <div className="w-full p-2 sm:w-1/2" key={name}>
+       <div className="w-full p-2 sm:w-1/2 " key={name}>
         <Link href={href} passHref>
-         <div className="flex items-center h-full p-4 bg-white rounded">
+         <div className="flex items-center h-full p-4 bg-white rounded hover:border-4 hover:border-blue-600">
           <svg
            fill="none"
            stroke="currentColor"
@@ -115,13 +115,13 @@ function ServicesSection() {
        <Link href={href} key={href}>
         {/* <div className="relative flex flex-col justify-center min-h-screen py-6 overflow-hidden bg-gray-50 sm:py-12"> */}
 
-        <div className="relative p-6 text-gray-600 bg-white shadow-xl hover:shadow-sm ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-6">
+        <div className="relative p-6 w-[450px] h-[400px] text-gray-600 bg-white shadow-xl hover:border-4 hover:border-blue-600 ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-6">
          <div className="max-w-md mx-auto">
           <div className="divide-y divide-gray-300/50">
            <div className="py-8 space-y-6 text-base leading-7">
             <h3 className="text-center">{name} </h3>
 
-            <p className="text-justify">{text}</p>
+            <p className="text-justify duration-300 ">{text}</p>
            </div>
            <div className="pt-8 text-base font-semibold leading-7">
             {/* <span className=" hover:scale-125"> &rarr;</span> */}
