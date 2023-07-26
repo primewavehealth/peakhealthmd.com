@@ -5,7 +5,7 @@ import Image from "next/image";
 import back from "/public/images/back-pain-lv.jpg";
 
 export const metadata: Metadata = {
- title: "Chronic Back Pain Treatment in Las Vegas",
+ title: "Lower Back Pain Treatment in Las Vegas",
  description:
   "Experience personalized care for chronic lower back pain care in las vegas. Our expert team offers effective treatments to alleviate discomfort and improve your quality of life. Schedule a consultation today!",
 };
@@ -14,8 +14,8 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Chronic Lower Back Pain Treatment in Las Vegas"
-    body="At Primewave, we combine advanced technology with expert care to revolutionize treatment for lower back pain. Through state-of-the-art techniques such as non-invasive shockwave therapy. We provide unparalleled precision and efficacy in relieving pain and restoring function. Experience a new era of pain management and regain control of your life with our innovative technological solutions."
+    heading="Lower Back Pain Treatment in Las Vegas"
+    body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of back pain treatment in Las Vegas and regain control of your life."
     src={back}
     height={400}
     width={400}
@@ -69,15 +69,15 @@ function page() {
       <article className="space-y-4 text-justify text-gray-600 ">
        <p>
         Back pain can occur when any of the structures in the back are affected
-        or injured. Common causes of back pain include muscle strains, ligament
-        sprains, herniated discs, degenerative disc disease, osteoarthritis,
-        spinal stenosis, and abnormalities like scoliosis. Injuries from
-        accidents or falls can also lead to back pain. Poor posture, lack of
-        exercise, obesity, and sedentary lifestyle can contribute to the
-        development of back pain. When the structures of the back are
-        compromised or subjected to excessive stress, it can result in localized
-        pain, radiating pain, stiffness, muscle spasms, and limited range of
-        motion.
+        or injured. Common causes of back pain include muscle strains,sciatica,
+        ligament sprains, herniated discs, degenerative disc disease,
+        osteoarthritis, spinal stenosis, and abnormalities like scoliosis.
+        Injuries from accidents or falls can also lead to back pain. Poor
+        posture, lack of exercise, obesity, and sedentary lifestyle can
+        contribute to the development of back pain. When the structures of the
+        back are compromised or subjected to excessive stress, it can result in
+        localized pain, radiating pain, stiffness, muscle spasms, and limited
+        range of motion.
        </p>
       </article>
      </div>
@@ -196,7 +196,7 @@ function page() {
    <section className="bg-slate-100">
     <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
      <h2 className="text-2xl font-bold sm:text-3xl">
-      Why Choose Primewave for your Chronic Back Pain Treatment in Las Vegas?
+      Why Choose Primewave for your Lower Back Pain Treatment in Las Vegas?
      </h2>
      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 lg:py-12">
       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
@@ -212,8 +212,8 @@ function page() {
 
       <div>
        <p className="mt-4 text-justify text-gray-600">
-        Our expert clinicians have a proven track record of success in helping
-        patients find lasting relief from their discomfort. By harnessing the
+        Our pain doctors in las Vegas have a proven track record of success in
+        helping patients find lasting lower back pain relief. By harnessing the
         power of shockwave therapy, we can significantly reduce inflammation,
         relieve muscle tension, and promote tissue regeneration. You'll feel the
         difference as your pain subsides and your mobility improves, allowing

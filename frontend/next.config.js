@@ -36,6 +36,31 @@ const nextConfig = {
     destination: "/pain-management-in-las-vegas",
     permanent: true,
    },
+   {
+    source: "/neck-pain",
+    destination: "/neck-pain-las-vegas",
+    permanent: true,
+   },
+   {
+    source: "/joint-pain",
+    destination: "/joint-pain-las-vegas",
+    permanent: true,
+   },
+   {
+    source: "/knee-pain",
+    destination: "/knee-pain-las-vegas",
+    permanent: true,
+   },
+   {
+    source: "/back-pain",
+    destination: "/back-pain-las-vegas",
+    permanent: true,
+   },
+   {
+    source: "/chronic-pain",
+    destination: "/chronic-pain-las-vegas",
+    permanent: true,
+   },
   ];
  },
 };

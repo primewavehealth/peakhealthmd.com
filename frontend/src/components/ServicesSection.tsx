@@ -4,32 +4,32 @@ import Button from "./UI/Button";
 const mobileData = [
  {
   name: "Chronic Pain",
-  href: "/chronic-pain",
+  href: "/chronic-pain-las-vegas",
   text:
    "Persistent, debilitating discomfort that endures beyond the expected healing time, chronic pain affects daily life, hindering activities and causing distress.",
  },
  {
   name: "Back Pain",
-  href: "/back-pain",
+  href: "/back-pain-las-vegas",
   text:
    "Discomfort in the back region, ranging from mild to severe, caused by various factors like muscle strain, injury, or spinal issues.",
  },
  {
   name: "Joint Pain",
-  href: "/joint-pain",
+  href: "/joint-pain-las-vegas",
   text:
    "Discomfort or soreness in the joints, commonly caused by arthritis, injury, or inflammation, leading to limited mobility and hindrance in daily activities.",
  },
  {
   name: "Neck Pain",
-  href: "/neck-pain",
+  href: "/neck-pain-las-vegas",
   text:
    "Discomfort or pain experienced in the area of the neck, which connects the head to the torso. It can range from mild to severe and may be acute or chronic.",
  },
 
  {
   name: "Knee Pain",
-  href: "/knee-pain",
+  href: "/knee-pain-las-vegas",
   text:
    "Knee pain is a common complaint that can occur due to various reasons, including injury, overuse, underlying medical conditions, or the natural aging process.",
  },

@@ -14,9 +14,9 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Discover the Power of Shockwave Therapy for Chronic Pain Relief!
+    heading="Chronic Pain Relief in Las Vegas
 "
-    body=" Why endure another day of discomfort when you can experience the transformative benefits of Shockwave Therapy? This cutting-edge, non-invasive treatment has been clinically proven to effectively alleviate chronic pain conditions, targeting the root cause rather than just masking the symptoms.
+    body="Primewave is here to offer you a life-changing solution. Our dedicated team of chronic pain doctors in Las Vegas and caring staff are committed to providing comprehensive and compassionate care for individuals suffering from chronic pain. Why endure another day of discomfort when you can experience the transformative benefits of Shockwave Therapy? This cutting-edge, non-invasive treatment has been clinically proven to effectively alleviate chronic pain conditions, targeting the root cause rather than just masking the symptoms.
 "
     src={pain}
     height={400}
@@ -101,9 +101,10 @@ function page() {
 
      <article className="space-y-4 text-justify text-gray-600 ">
       <p>
-       <strong>Expertise and Innovation</strong> : At Primewave, we bring
-       together a team of highly skilled and experienced medical professionals
-       who are at the forefront of pain management. Our specialists are
+       <strong>Expertise and Innovation</strong> : Our clinic is staffed with
+       highly skilled pain specialists in Las Vegas who have extensive
+       experience in treating various forms of chronic pain, including back
+       pain, arthritis, fibromyalgia, migraines, and more. Our specialists are
        well-versed in the latest advancements in Shockwave Therapy, ensuring
        that you receive the most effective and innovative treatment available.
       </p>

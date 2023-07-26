@@ -5,27 +5,27 @@ export const Pain_Conditions = [
   name: "Pain Management",
  },
  {
-  href: "/chronic-pain",
+  href: "/chronic-pain-las-vegas",
   description: "",
   name: "Chronic Pain",
  },
  {
-  href: "/back-pain",
+  href: "/back-pain-las-vegas",
   description: "",
   name: "Back Pain",
  },
  {
-  href: "/joint-pain",
+  href: "/joint-pain-las-vegas",
   description: "",
   name: "Joint Pain",
  },
  {
-  href: "/neck-pain",
+  href: "/neck-pain-las-vegas",
   description: "",
   name: "Neck Pain",
  },
  {
-  href: "/knee-pain",
+  href: "/knee-pain-las-vegas",
   description: "",
   name: "Knee Pain",
  },
