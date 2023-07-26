@@ -55,7 +55,7 @@ function page() {
         Our experienced pain management physicians specialize in treating&nbsp;
         <Link
          className="underline underline-offset-4"
-         href="/chronic-pain"
+         href="/chronic-pain-las-vegas"
          target="_blank"
         >
          chronic pain
@@ -79,7 +79,7 @@ function page() {
         Our experts are well-versed in addressing various{" "}
         <Link
          className="underline underline-offset-4"
-         href="/back-pain"
+         href="/back-pain-las-vegas"
          target="_blank"
         >
          back pain
@@ -97,7 +97,7 @@ function page() {
         If you're experiencing{" "}
         <Link
          className="underline underline-offset-4"
-         href="/joint-pain"
+         href="/joint-pain-las-vegas"
          target="_blank"
         >
          joint pain
@@ -113,7 +113,7 @@ function page() {
        <p>
         <Link
          className="underline underline-offset-4"
-         href="/knee-pain"
+         href="/knee-pain-las-vegas"
          target="_blank"
         >
          Knee pain
@@ -129,7 +129,7 @@ function page() {
        <p>
         <Link
          className="underline underline-offset-4"
-         href="/neck-pain"
+         href="/neck-pain-las-vegas"
          target="_blank"
         >
          Neck pain
