@@ -4,13 +4,13 @@ import Button from "./UI/Button";
 
 function AboutSection() {
  return (
-  <section className="bg-blue-900">
+  <section className="text-blue-900">
    <div className="mx-auto max-w-screen-2xl">
     <div className="grid grid-cols-1 lg:grid-cols-2">
      <div className="relative hidden h-full lg:flex">
       <Image
-       alt="Student"
-       src="/images/neck-pain-3d.jpg"
+       alt="neck-pain"
+       src="/images/pain-doctor.jpg"
        className="object-cover"
        fill
        sizes="100vw"
@@ -19,25 +19,23 @@ function AboutSection() {
      </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl pt-12 mx-auto space-y-3">
-       <span className="text-xl text-white lg:text-3xl">
+       <span className="text-xl font-semibold lg:text-3xl">
         Technology Meets Pain Care at{" "}
         <strong className="text-yellow-400">PrimeWave</strong>{" "}
        </span>
 
-       <p className="text-base text-justify lg:text-lg text-white/90 sm:mt-4">
+       <p className="text-base text-justify lg:text-lg sm:mt-4">
         Welcome to Primewave, a leading pain management clinic in{" "}
-        <Link href="https://www.lasvegasnevada.gov/">Las vegas</Link>. We
-        harness the power of advanced technologies to provide innovative
-        treatments for a wide range of pain conditions. Through the use of
-        state-of-the-art devices, including shockwave therapy, we offer precise
-        and targeted pain relief. Our team of pain care specialists combine
-        their clinical expertise with the latest technological advancements,
-        ensuring optimal outcomes for our patients. Whether you're seeking
-        relief from chronic back pain, neuropathic discomfort, or post-surgical
-        discomfort, our technology-driven approach provides non-invasive and
-        minimally invasive options that are tailored to your unique needs.
-        Experience the future of pain care at Primewave, where technology and
-        compassion come together to transform lives.
+        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. We
+        specialize in providing top-notch care for all types of pain. Our clinic
+        is staffed with highly skilled pain doctors who are dedicated to
+        delivering the highest standard of expertise and quality care to our
+        patients. Using the latest advancements in pain management, including
+        cutting-edge technologies like shockwave therapy, we tailor personalized
+        treatment plans to address each individual's unique pain concerns. With
+        a focus on non-invasive and evidence-based approaches, our pain care
+        clinic is committed to helping patients regain their quality of life and
+        find lasting relief from pain.
        </p>
 
        <div className="mt-4 md:mt-8">
