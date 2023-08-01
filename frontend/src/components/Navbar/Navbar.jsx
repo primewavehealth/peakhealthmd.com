@@ -30,7 +30,7 @@ export default function Example() {
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
  return (
-  <header className="bg-gradient-to-r from-stone-50 to-zinc-100">
+  <header className="bg-blue-50">
    <nav
     className="flex items-center justify-between p-2 mx-auto max-w-8xl lg:px-4"
     aria-label="Global"

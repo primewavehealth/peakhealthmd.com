@@ -1,11 +1,11 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
-import Edge from "@/components/Edge";
 import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
-import ServicesSection from "@/components/ServicesSection";
 import Testimonials from "@/components/Testimonials";
+import Treatments from "@/components/Treatments";
+import Why from "@/components/Why";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -30,8 +30,8 @@ export default function Home() {
   <main className="flex flex-col min-h-screen">
    <Banner />
    <AboutSection />
-   <Edge />
-   <ServicesSection />
+   <Why />
+   <Treatments />
    <SectionTitle
     pretitle="Testimonials"
     title="You are in good company"

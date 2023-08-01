@@ -8,7 +8,7 @@ export default function Testimonials() {
    <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
     <div className="lg:col-span-2 xl:col-auto">
      <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-      <p className="text-2xl leading-normal ">
+      <p className="text-lg leading-normal lg:text-xl ">
        I went to Peak Health the day before a modeling gig for a mini facial and
        IV Drip and I <Mark>felt AMAZING</Mark> during the entire photoshoot the
        day after. The clinic and nurses were welcoming and laid-back and I will
@@ -20,7 +20,7 @@ export default function Testimonials() {
     </div>
     <div className="">
      <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-      <p className="text-2xl leading-normal ">
+      <p className="text-lg leading-normal lg:text-xl ">
        <Mark>Friendly staff</Mark> . Clear consultation of my issue. They help
        relieve my muscle pain on my neck and shoulders. Definitely recommend to
        come back.
@@ -31,7 +31,7 @@ export default function Testimonials() {
     </div>
     <div className="">
      <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-      <p className="text-2xl leading-normal ">
+      <p className="text-lg leading-normal lg:text-xl ">
        This place is great! <Mark>Clean and beautiful</Mark>. No long waits
        ever! The staff is so cool and the care you get is amazing. They truly
        want to help people here.
