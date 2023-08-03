@@ -43,30 +43,36 @@ const mobileData = [
 
 function Treatments() {
  return (
-  <div
-   id="treatments"
-   className="relative py-20 text-blue-900 bg-white section"
-  >
-   <div className="container px-4 mx-auto xl:max-w-6xl">
-    <header className="mx-auto mb-12 text-center lg:px-20">
-     <h2 className="mb-2 text-4xl font-bold leading-normal ">
-      Pain Conditions We Treat
-     </h2>
-    </header>
+  <div className="py-24">
+   <div id="treatments" className="relative text-blue-900 bg-white section">
+    <div className="container px-4 mx-auto xl:max-w-6xl">
+     <header className="mx-auto mb-12 text-center lg:px-20">
+      <h2 className="mb-2 text-4xl font-bold leading-normal ">
+       Pain Conditions We Treat
+      </h2>
+     </header>
 
-    <div className="flex flex-row flex-wrap -mx-4 text-center">
-     {mobileData.map(({ name, href, text }) => (
-      <div className="flex-shrink w-full max-w-full px-4 transition ease-in-out sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp duration-0 hover:duration-700">
-       <Link href={href} className="inline-block">
-        <div className="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
-         <h3 className="mb-2 text-xl font-semibold leading-normal ">{name}</h3>
-         <p className="text-left text-gray-500 ">{text}</p>
-        </div>
-       </Link>
-      </div>
-     ))}
+     <div className="flex flex-row flex-wrap -mx-4 text-center">
+      {mobileData.map(({ name, href, text }) => (
+       <div className="flex-shrink w-full max-w-full px-4 transition ease-in-out sm:w-1/2 lg:w-1/3 lg:px-6 duration-0 hover:duration-700">
+        <Link href={href} className="inline-block">
+         <div className="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
+          <h3 className="mb-2 text-xl font-semibold leading-normal ">{name}</h3>
+          <p className="text-left text-gray-500 ">{text}</p>
+         </div>
+        </Link>
+       </div>
+      ))}
+     </div>
     </div>
    </div>
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+     fill="#1E3A8A"
+     fillOpacity="1"
+     d="M0,160L120,181.3C240,203,480,245,720,224C960,203,1200,117,1320,74.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+    ></path>
+   </svg>
   </div>
  );
 }

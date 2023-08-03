@@ -12,9 +12,6 @@ export async function generateStaticParams(): Promise<any> {
 
 // Get the article data for the given slug
 function getArticle(slug: string, articles: Blog[]) {
- if (undefined) {
-  console.log("no post");
- }
  return articles.find((a: Blog) => a.slug === slug);
 }
 
