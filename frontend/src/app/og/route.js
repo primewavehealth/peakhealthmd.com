@@ -48,7 +48,6 @@ export async function GET(request) {
    }
   );
  } catch (e) {
-  console.log(`${e.message}`);
   return new Response(`Failed to generate the image`, {
    status: 500,
   });
