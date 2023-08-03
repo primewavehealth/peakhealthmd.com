@@ -24,7 +24,7 @@ function AboutSection() {
        </span>
 
        <p className="py-6 text-base text-justify lg:text-lg sm:mt-4">
-        Welcome to Primewave, we are a leading pain management clinic in{" "}
+        Welcome to Primewave. We are a leading pain management clinic in{" "}
         <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. Our
         clinic is staffed with highly skilled pain doctors who are dedicated to
         delivering the highest standard of expertise and quality care to our
