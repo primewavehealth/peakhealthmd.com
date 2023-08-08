@@ -48,7 +48,7 @@ export default function Services() {
     id="treatments"
     className="bg-gradient-to-tr from-indigo-100 via-purple-50 to-yellow-100 dark:text-gray-100 dark:from-indigo-900 dark:via-purple-900 dark:to-teal-900"
    >
-    <h3 className="max-w-lg pt-16 mx-auto text-blue-900">
+    <h3 className="max-w-lg px-8 pt-16 mx-auto text-blue-900">
      Pain Conditions We Treat
     </h3>
     <div className="container px-4 py-16 mx-auto xl:max-w-7xl lg:px-8 lg:py-16">
