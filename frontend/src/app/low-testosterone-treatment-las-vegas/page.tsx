@@ -6,7 +6,7 @@ import low from "public/images/low-testosterone-lasvegas.jpg";
 export const metadata: Metadata = {
  title: "Affordable Low Testosterone Treatment in Las Vegas",
  description:
-  "Restore your vitality and energy with our personalized Low Testosterone Treatment in Las Vegas.",
+  "Regain vitality with affordable low testosterone treatment in Las Vegas. Our experts offer effective solutions for hormonal balance and well-being.",
 };
 
 function page() {
