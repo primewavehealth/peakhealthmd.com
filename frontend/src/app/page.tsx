@@ -4,6 +4,7 @@ import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
+import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import Why from "@/components/Why";
 import type { Metadata } from "next";
@@ -58,6 +59,7 @@ export default function Home() {
    <AboutSection />
    <Why />
    <Services />
+   <Team />
    <SectionTitle
     pretitle="Testimonials"
     title="You are in good company"
