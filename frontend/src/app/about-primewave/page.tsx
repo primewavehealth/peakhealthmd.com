@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import about from "/public/images/about-vegas-clinic1.jpg";
+
+export const metadata: Metadata = {
+ title: "About Primewave Health",
+ description:
+  "Discover relief at Lass Vegas's premier pain control clinic. Our experts utilize cutting-edge techniques to manage and alleviate pain, restoring your quality of life.",
+};
 
 function About() {
  return (

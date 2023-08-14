@@ -63,7 +63,7 @@ function page() {
         &nbsp; conditions. Whether you're dealing with arthritis,&nbsp;
         <Link
          className="underline underline-offset-4"
-         href="/fibromyalgia-management-las-vegas"
+         href="/fibromyalga-treatment-las-vegas"
          target="_blank"
         >
          fibromyalgia

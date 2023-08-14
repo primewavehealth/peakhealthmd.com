@@ -45,14 +45,6 @@ export const metadata: Metadata = {
    },
   ],
  },
-
- // Canonical
- alternates: {
-  canonical: `$/blog`,
-  types: {
-   "application/rss+xml": `${server}/feed.xml`,
-  },
- },
 };
 
 // Get sorted articles from the contentlayer
