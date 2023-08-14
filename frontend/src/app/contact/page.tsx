@@ -7,18 +7,11 @@ import {
 } from "@heroicons/react/24/outline";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
-import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { z } from "zod";
-
-export const metadata: Metadata = {
- title: "Contact Primewave Health",
- description:
-  "Connect with us at Las Vegas's leading pain control clinic. Reach out today for expert guidance on managing and conquering chronic pain. Relief is a call away.",
-};
 
 const jsonLd = {
  "@context": "https://schema.org",
@@ -44,8 +37,8 @@ const jsonLd = {
  },
  sameAs: "https://primewavehealth.com",
  description:
-  "Pain Care Clinic in Las Vegas. Our Pain Care Specialists use latest technology to treat a wide range of chronic pain conditions.",
- name: "Primewave Pain Care Clinic in Las Vegas",
+  "Connect with us at Las Vegas's leading pain control clinic. Reach out today for expert guidance on managing and conquering chronic pain. Relief is a call away.",
+ name: "Primewave Pain Conrtol Clinic in Las Vegas",
  telephone: "7026254334",
  review: {
   "@type": "Review",
