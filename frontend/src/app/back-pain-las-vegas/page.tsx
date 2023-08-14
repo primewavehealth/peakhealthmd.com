@@ -2,12 +2,49 @@ import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import Image from "next/image";
+import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
 
 export const metadata: Metadata = {
  title: "Lower Back Pain Treatment in Las Vegas",
  description:
   "Experience personalized care for chronic lower back pain care in las vegas. Our expert team offers effective treatments to alleviate discomfort and improve your quality of life. Schedule a consultation today!",
+};
+
+const jsonLd = {
+ "@context": "https://schema.org",
+ "@type": "localBusiness",
+ image: ["https://primewavehealth.com/images/logo.png"],
+ address: {
+  "@type": "PostalAddress",
+  addressLocality: "Las Vegas",
+  addressRegion: "NV",
+  postalCode: "89113",
+  streetAddress: "8285 W Arby Ave #175",
+ },
+ hashMap:
+  "https://www.google.com/maps/dir/36.188072,-115.204211/primewave/@36.1256461,-115.4161627,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c77b87fd04f3:0xe5b9c9fcf3f802d9!2m2!1d-115.2721143!2d36.058366?entry=ttu",
+ areaServed: {
+  "@type": "GeoCircle",
+  geoMidpoint: {
+   "@type": "GeoCoordinates",
+   latitude: 36.18811,
+   longitude: -115.176468,
+  },
+  geoRadius: 1000,
+ },
+ sameAs: "https://primewavehealth.com/back-pain-las-vegas",
+ description: "Lower back Pain Care in Las Vegas",
+ name: "Primewave Pain Care Clinic",
+ telephone: "7026254334",
+ review: {
+  "@type": "Review",
+  reviewRating: {
+   "@type": "Rating",
+   ratingValue: "4",
+   bestRating: "5",
+  },
+ },
 };
 
 function page() {
@@ -257,6 +294,10 @@ function page() {
      </div>
     </div>
    </section>
+   <Script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+   />
   </div>
  );
 }
