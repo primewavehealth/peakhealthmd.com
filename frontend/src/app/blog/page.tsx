@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import SearchArticles from "./SearchArticles";
 
 export const metadata: Metadata = {
- title: "Articles",
+ title: "Blog",
  description:
   "All our blogposts are written with the goal of educate readers and help them make better healthcare choices.",
 
