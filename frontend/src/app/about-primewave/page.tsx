@@ -14,9 +14,9 @@ function About() {
   <section className="bg-white dark:bg-gray-900">
    <div className="container px-4 py-8 mx-auto text-center sm:py-12 sm:px-6 lg:py-16 lg:px-8">
     <article className="max-w-5xl mx-auto prose">
-     <h3 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
-      We Are Here For You
-     </h3>
+     <h1 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
+      About Primewave Health
+     </h1>
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
       Welcome to Primewave, a leading chronic pain management clinic in Las
       Vegas, Nevada. We are dedicated to providing comprehensive care and

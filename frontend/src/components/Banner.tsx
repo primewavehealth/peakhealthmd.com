@@ -24,8 +24,9 @@ function Banner() {
     <h1 className="mt-2 text-3xl font-bold tracking-tight text-blue-900 md:text-6xl">
      Affordable Chronic Pain Care in Las Vegas
     </h1>
-    <p className="mt-3 text-blue-900 md:text-lg">
-     Revolutionary Pain Care Solutions Tailored for You.
+    <p className="mt-3 text-blue-900 md:text-xl">
+     Revitalize your life, one pain-free step at a time – Explore the tailored
+     treatments of Primewave Pain Care Clinic.
     </p>
     <div className="flex flex-col justify-center gap-3 mt-5 md:flex-row">
      <Link href="#treatments">
