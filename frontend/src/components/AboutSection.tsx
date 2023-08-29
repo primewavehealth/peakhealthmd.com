@@ -36,7 +36,7 @@ function AboutSection() {
        <div className="mt-4 md:mt-8">
         <Button
          text="Request Consultation"
-         href="/about-primewave"
+         href="/consultation"
          icon=<svg
           fill="none"
           stroke="currentColor"

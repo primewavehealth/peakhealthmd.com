@@ -46,7 +46,7 @@ export default function Services() {
   <>
    <div
     id="treatments"
-    className="bg-gradient-to-tr from-indigo-100 via-purple-50 to-yellow-100 dark:text-gray-100 dark:from-indigo-900 dark:via-purple-900 dark:to-teal-900"
+    className="bg-gradient-to-tr from-indigo-100 via-purple-50 to-blue-100 dark:text-gray-100 dark:from-indigo-900 dark:via-purple-900 dark:to-teal-900"
    >
     <h3 className="max-w-xl px-8 pt-16 mx-auto text-blue-900">
      Pain Conditions We Treat

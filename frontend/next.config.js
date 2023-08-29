@@ -2,8 +2,23 @@ const { get } = require("@vercel/edge-config");
 const { withContentlayer } = require("next-contentlayer");
 
 const nextConfig = {
- pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+ webpack5: true,
+ webpack: (config) => {
+  config.resolve.fallback = {
+   fs: false,
+   net: false,
+   dns: false,
+   child_process: false,
+   tls: false,
+  };
 
+  return config;
+ },
+ pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+ experimental: {
+  serverActions: true,
+  serverActionsBodySizeLimit: "2mb",
+ },
  images: {
   formats: ["image/avif", "image/webp"],
   remotePatterns: [

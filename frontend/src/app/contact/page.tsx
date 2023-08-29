@@ -85,7 +85,7 @@ export default function Form() {
   resolver: zodResolver(formSchema),
  });
 
- const processForm = async (data: FormData) => {
+ const submitHandler = async (data: FormData) => {
   const config = {
    method: "post",
    url: "/api/contact",
@@ -105,7 +105,6 @@ export default function Form() {
     reset();
    }
   } catch (err: any) {
-   // Handle errors. You can change the message to whatever you want.
    toast.error(err.response.data.message + ": " + err.response.statusText);
   }
  };
@@ -152,9 +151,6 @@ export default function Form() {
         <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
          Our friendly team is here to help.
         </p>
-        {/* <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-        info@primewavehealth.com
-       </p> */}
        </div>
 
        <div>
@@ -263,7 +259,7 @@ export default function Form() {
       </div>
 
       <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
-       <form className="w-full" onSubmit={handleSubmit(processForm)} noValidate>
+       <form className="w-full" onSubmit={handleSubmit(submitHandler)}>
         <div className="mb-4">
          <div className="relative">
           {errors.nameSurname?.message ? (
@@ -377,7 +373,7 @@ export default function Form() {
           } bg-black hover:bg-gray-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline duration-300`}
           type="submit"
           disabled={isSubmitting}
-          onClick={handleSubmit(processForm)}
+          onClick={handleSubmit(submitHandler)}
          >
           {isSubmitting ? "Sending..." : "Send"}
          </button>

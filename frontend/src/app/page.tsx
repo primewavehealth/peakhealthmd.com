@@ -1,12 +1,12 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
+import Edge from "@/components/Edge";
 import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
-import Why from "@/components/Why";
 import type { Metadata } from "next";
 import Script from "next/script";
 
@@ -57,7 +57,7 @@ export default function Home() {
   <main className="flex flex-col min-h-screen">
    <Banner />
    <AboutSection />
-   <Why />
+   <Edge />
    <Services />
    <Team />
    <SectionTitle
