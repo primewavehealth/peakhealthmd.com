@@ -28,6 +28,7 @@ export default async function sitemap() {
   "/low-testosterone-treatment-las-vegas",
   "/pain-treatment-in-las-vegas",
   "/shockwave-therapy-in-las-vegas",
+  "/consultation",
  ].map((route) => ({
   url: `https://primewavehealth.com${route}`,
   lastModified: new Date().toISOString().split("T")[0],
