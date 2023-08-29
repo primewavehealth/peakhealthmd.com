@@ -3,7 +3,10 @@ const { withContentlayer } = require("next-contentlayer");
 
 const nextConfig = {
  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
-
+ experimental: {
+  serverActions: true,
+  serverActionsBodySizeLimit: "2mb",
+ },
  images: {
   formats: ["image/avif", "image/webp"],
   remotePatterns: [
