@@ -39,3 +39,9 @@ input[type="email"] {
  -moz-appearance: none;
  appearance: none;
 }
+
+@layer utilities {
+ .clip-bg {
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);
+ }
+}
