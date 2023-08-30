@@ -24,13 +24,13 @@ function AboutSection() {
        </span>
 
        <p className="py-6 text-base text-justify lg:text-lg sm:mt-4">
-        Welcome to Primewave. We are a leading pain management clinic in{" "}
-        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. Our
-        clinic is staffed with highly skilled pain doctors who are dedicated to
-        delivering the highest standard of expertise and quality care to our
-        patients. Using the latest advancements in pain management, including
-        cutting-edge technologies like shockwave therapy, we tailor personalized
-        treatment plans to address each individual's unique pain concerns.
+        Greetings and warmest welcome to Primewave Health in the heart of{" "}
+        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. We
+        recognize the immense challenges that accompany chronic pain, affecting
+        not just your body but your spirit too. We stand by your side with a
+        team of compassionate experts, ready to craft personalized treatment
+        journeys that lead you back to a life filled with joy, movement, and
+        relief from pain's grasp.
        </p>
 
        <div className="mt-4 md:mt-8">
