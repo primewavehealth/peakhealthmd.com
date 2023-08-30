@@ -15,8 +15,7 @@ import { Aesthetics, Mens_Health, Pain_Conditions, Wellness } from "./Links";
 const callsToAction = [
  {
   name: "Find A Specialist",
-  href:
-   "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+  href: "https://primewavehealth.setmore.com",
   icon: PlayCircleIcon,
  },
  { name: "Contact Us", href: "/contact", icon: PhoneIcon },

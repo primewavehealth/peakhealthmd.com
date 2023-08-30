@@ -37,8 +37,7 @@ function page() {
     width={400}
     alt="PRP Facial"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -272,7 +271,7 @@ function page() {
 
      <div className="mt-12 text-center">
       <Link
-       href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services"
+       href="https://primewavehealth.setmore.com"
        className="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
       >
        Book an Appointment
@@ -475,8 +474,7 @@ function page() {
     src="/images/immune-system.jpg"
     alt="prp-facials-las-vegas"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
 
      icon: (

@@ -35,8 +35,7 @@ function page() {
     width={400}
     alt="led light therapy"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
 
      icon: (
@@ -168,8 +167,7 @@ Prime Wave offers different types of light therapy, including blue light therapy
     src="/images/happy-man.avif"
     alt="led-therapy-las-vegas"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
 
      icon: (
