@@ -3,20 +3,20 @@ import Link from "next/link";
 
 function NewBanner() {
  return (
-  <div className="w-full bg-blue-50">
+  <div className="w-screen bg-blue-50">
    <div className="flex bg-white h-[600px]">
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
       <h2 className="text-4xl font-black text-center text-blue-900 lg:pt-14 sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">
-       Affordable Chronic Pain Care <br className="hidden lg:block" />{" "}
+       Affordable Pain Care in <br className="hidden lg:block" />{" "}
        <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
-        in Las Vegas
+        Las Vegas
        </span>
        .
       </h2>
       <p className="py-4 text-2xl font-medium text-blue-900">
-       Revitalize your life, one pain-free step at a time – Explore the tailored
-       treatments of Primewave Pain Care Clinic.
+       Discover Compassionate Care Tailored to Your Pain Needs - Get Started
+       Today.
       </p>
       <div className="flex flex-col justify-center gap-3 mt-5 md:justify-start md:flex-row">
        <Link href="#treatments">
