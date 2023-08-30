@@ -15,8 +15,8 @@ function NewBanner() {
        .
       </h2>
       <p className="py-4 text-2xl font-medium text-blue-900">
-       Discover Compassionate Care Tailored to Your Pain Needs - Get Started
-       Today.
+       Compassionate Care Tailored to Your Pain Needs - <br />
+       Get Started Today.
       </p>
       <div className="flex flex-col justify-center gap-3 mt-5 md:justify-start md:flex-row">
        <Link href="#treatments">
@@ -44,7 +44,7 @@ function NewBanner() {
        </Link>
        <Link
         className="inline-flex items-center justify-center gap-2 px-6 py-3 font-medium text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
-        href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services"
+        href="https://primewavehealth.setmore.com"
        >
         <span>Schedule an Appointnment</span>{" "}
         <svg

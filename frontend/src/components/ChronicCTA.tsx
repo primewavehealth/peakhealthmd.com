@@ -20,7 +20,7 @@ function ChronicCTA() {
     <div className="pt-6 lg:mt-0 lg:flex-shrink-0">
      <div className="inline-flex mt-12 rounded-md shadow">
       <Link
-       href="https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services"
+       href="https://primewavehealth.setmore.com"
        className={cn(
         buttonVariants({ variant: "default", size: "lg" }),
         "self-start -mt-20 rounded-none"

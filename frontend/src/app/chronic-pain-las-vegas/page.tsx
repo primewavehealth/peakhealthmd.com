@@ -23,8 +23,7 @@ function page() {
     width={400}
     alt="chronic-pain"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
 
      icon: (
@@ -156,8 +155,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="Chronic Pain Treatment in Las Vegas"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
 
      icon: (

@@ -21,8 +21,7 @@ function page() {
     width={400}
     alt="Chronic-Fatigue-Syndrome"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
      icon: (
       <svg
@@ -121,8 +120,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="iv-therapy-las-vegas"
     btn={{
-     href:
-      "https://squareup.com/appointments/book/ezlfeg7ddtr94y/L8CHHENSSH5NZ/services",
+     href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
 
      icon: (
