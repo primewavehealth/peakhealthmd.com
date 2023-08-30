@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function NewBanner() {
  return (
-  <div className="w-screen bg-blue-50">
+  <div className="w-full overflow-hidden bg-blue-50">
    <div className="flex bg-white h-[600px]">
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
