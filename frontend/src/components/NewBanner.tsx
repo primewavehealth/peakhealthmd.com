@@ -7,7 +7,7 @@ function NewBanner() {
    <div className="flex bg-white h-[600px]">
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
-      <h2 className="text-4xl font-black text-center text-blue-900 lg:pt-14 sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">
+      <h2 className="text-4xl font-black text-center text-blue-900 lg:pt-14 sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
        Affordable Pain Care in <br className="hidden lg:block" />{" "}
        <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
         Las Vegas
@@ -66,13 +66,13 @@ function NewBanner() {
      </div>
     </div>
     <div className="hidden lg:block lg:w-1/2 clip-bg">
-     <div className="h-full object-cover bg-[url('/public/images/happy-couple.jpg')]">
+     <div className="w-full h-full">
       <Image
        alt="neck-pain"
        src="/images/happy-couple.jpg"
        className="object-cover"
-       width={800}
-       height={800}
+       width={1000}
+       height={1000}
        sizes="100vw"
        quality={100}
       />
