@@ -1,4 +1,3 @@
-import EdPricing from "@/components/EdPricing";
 import Button from "@/components/UI/Button";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
@@ -75,7 +74,7 @@ function page() {
         <h2>What are the Causes of Erectile Dysfunction?</h2>
 
         <p className="text-justify ">
-         here are several possible causes of ED, both physical and
+         There are several possible causes of ED, both physical and
          psychological. Physical causes of ED include conditions that affect
          blood flow to the penis, such as diabetes, high blood pressure, or
          heart disease. Neurological disorders like multiple sclerosis or
@@ -99,22 +98,21 @@ function page() {
          Erectile dysfunction, also known as impotence, is a condition where a
          man is unable to achieve or maintain an erection sufficient for sexual
          intercourse. The symptoms of erectile dysfunction may vary depending on
-         the underlying cause of the condition, but common signs include
-         difficulty achieving an erection, difficulty maintaining an erection,
-         and reduced sexual desire. Other symptoms may include premature
-         ejaculation, delayed ejaculation, or a lack of orgasm
+         the underlying cause of the condition, but common signs include weak
+         erection and reduced sexual desire. Other symptoms may include
+         premature ejaculation, delayed ejaculation, or a lack of orgasm
         </p>
        </article>
       </div>
      </div>
     </div>
    </section>
-   <EdPricing />
+   {/*  <EdPricing /> */}
    {/* next section */}
    <section className="px-6 pt-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 ">
     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
      <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-      Consultation
+      Erectile Dysfunction Treatment Options
      </h2>
      <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
       <p>
@@ -122,7 +120,7 @@ function page() {
        dysfunction can be a sensitive and difficult issue to discuss. That's why
        we offer personalized and discreet consultations to help patients
        understand their condition and develop an effective treatment plan.
-       During your consultation, our experienced staff will conduct a
+       During your consultation, our ed specialist in Las Vegas will conduct a
        comprehensive medical history and physical exam, as well as discuss your
        symptoms and concerns in a private and confidential setting. We will work
        closely with you to develop a personalized treatment plan that addresses
@@ -147,9 +145,9 @@ function page() {
     </span>
    </blockquote>
    <CTA
-    heading="  ED Experts in Las Vegas"
+    heading="  Affordable ED Treatment in Las Vegas"
     subheading=" Get Permanent Cure for Erectile Dysfunction in Las Vegas"
-    body="Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and custom-compounded medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
+    body="Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and erectile dysfunction medication to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
