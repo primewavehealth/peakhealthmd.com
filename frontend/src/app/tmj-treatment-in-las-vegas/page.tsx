@@ -1,7 +1,7 @@
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import pain from "/public/images/pain.jpg";
+import tmj from "/public/images/tmj.jpg";
 
 export const metadata: Metadata = {
  title: "TMJ Treatment in Las Vegas",
@@ -18,10 +18,10 @@ function page() {
 This disorder can cause severe pain and discomfort in the jaw joint and surrounding areas, making it difficult to eat, speak, and even sleep.
  If you're one of the many individuals in Las Vegas suffering from TMJ, you're not alone. Fortunately, 
 there are effective treatment options available to help alleviate your pain and improve your quality of life."
-    src={pain}
+    src={tmj}
     height={400}
     width={400}
-    alt="chronic-pain"
+    alt="tmj"
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
@@ -67,9 +67,8 @@ there are effective treatment options available to help alleviate your pain and 
       </p>
 
       <p>
-       If you're experiencing any of these symptoms, seeking treatment from a
-       pain clinic in Las Vegas is essential to find relief and regain control
-       of your life.
+       If you're experiencing any of these symptoms, seeking treatment is
+       essential to find relief and regain control of your life.
       </p>
      </article>
     </section>
