@@ -44,7 +44,7 @@ function page() {
    <div className="max-w-screen-xl px-8 py-16 mx-auto text-lg">
     <section className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
      <h2 className="pb-12 font-bold text-center">
-      Pain Management Services in Las Vegas
+      Pain Treatment Services in Las Vegas
      </h2>
 
      <article className="space-y-8 text-justify text-gray-600 ">

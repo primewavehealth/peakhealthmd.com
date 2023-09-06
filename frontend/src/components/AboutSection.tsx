@@ -5,9 +5,9 @@ import Button from "./UI/Button";
 function AboutSection() {
  return (
   <section className="text-blue-900">
-   <div className="py-12 mx-auto max-w-screen-2xl">
+   <div className="py-16 mx-auto max-w-screen-2xl">
     <div className="grid grid-cols-1 lg:grid-cols-2">
-     <div className="relative hidden h-full lg:flex">
+     <div className="relative hidden h-full py-6 lg:flex">
       <Image
        alt="neck-pain"
        src="/images/pain-doctor.jpg"
