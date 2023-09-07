@@ -271,6 +271,7 @@ function page() {
 
      <div className="mt-12 text-center">
       <Link
+       target="_blank"
        href="https://primewavehealth.setmore.com"
        className="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
       >

@@ -49,6 +49,7 @@ function page() {
       </span>
      </div>
      <Button
+      target="_blank"
       href="https://primewavehealth.setmore.com"
       text="Request Consultation"
       icon=<svg

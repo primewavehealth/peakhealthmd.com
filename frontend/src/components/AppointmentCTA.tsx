@@ -47,6 +47,7 @@ function AppointnmentCTA() {
    </div>
 
    <Link
+    target="_blank"
     href="https://primewavehealth.setmore.com"
     className="inline-block px-6 py-4 my-1 mr-4 text-base font-medium text-white transition bg-blue-700 rounded hover:text-blue-200 md:px-9 lg:px-6 xl:px-9"
    >

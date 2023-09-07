@@ -81,7 +81,11 @@ function Topbar() {
     </span>
     <span className="flex items-center justify-between transition hover:opacity-75">
      <MdCalendarMonth className="text-2xl text-white" />
-     <Link href="https://primewavehealth.setmore.com" className="text-white ">
+     <Link
+      target="_blank"
+      href="https://primewavehealth.setmore.com"
+      className="text-white "
+     >
       <strong>Make An Appointment</strong>
      </Link>
     </span>

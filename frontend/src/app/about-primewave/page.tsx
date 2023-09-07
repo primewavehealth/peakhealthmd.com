@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 function About() {
  return (
   <section className="bg-white dark:bg-gray-900">
-   <div className="container px-4 py-8 mx-auto text-center sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+   <div className="container px-4 py-8 mx-auto text-center sm:py-12 sm:px-6 lg:py-32 lg:px-8">
     <article className="max-w-5xl mx-auto prose">
      <h1 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
       About Primewave Health
@@ -25,38 +25,16 @@ function About() {
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
       At Primewave, we understand that pain can significantly impact your
       quality of life, limiting your ability to perform everyday activities and
-      enjoy the things you love. Our compassionate team of pain specialists is
-      here to support you on your journey to pain relief and improved
-      well-being.
-     </p>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
-      We believe in a personalized approach to pain management, recognizing that
-      each patient's experience is unique. Our highly skilled medical
-      professionals utilize cutting-edge diagnostic techniques and
-      evidence-based treatments to accurately identify the source of your pain
-      and develop tailored treatment plans that address your specific needs.{" "}
-     </p>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
-      Our clinic offers a wide range of advanced pain management options,
-      including medication-based therapies, minimally invasive procedures,
-      physical therapy, alternative and complementary therapies, and
-      psychological support. We prioritize your comfort and safety throughout
-      every step of your treatment, ensuring that you receive the highest
-      standard of care.
-     </p>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
-      At Primewave, we are dedicated to not only alleviating your pain but also
-      empowering you with the knowledge and resources to actively participate in
-      your own pain management. We emphasize patient education, providing you
-      with the tools and strategies necessary to effectively cope with your pain
-      and optimize your overall well-being.
-     </p>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
-      We understand the challenges that come with chronic pain, and our team is
-      committed to being your partner in your journey to find relief and regain
-      control of your life. We are here to listen, support, and guide you
+      enjoy the things you love. We are here to listen, support, and guide you
       towards a brighter future, free from the constraints of pain.
      </p>
+     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
+      Our highly skilled medical professionals utilize cutting-edge diagnostic
+      techniques and evidence-based treatments to accurately identify the source
+      of your pain and develop tailored treatment plans that address your
+      specific needs.{" "}
+     </p>
+
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
       Take the first step towards a pain-free life and schedule a consultation
       with our experienced team at Primewave. Let us help you regain your
@@ -71,6 +49,44 @@ function About() {
       </Link>
      </div>
     </article>
+
+    {/*
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+*/}
+
+    <section className="my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+     <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+      <div className="max-w-xl mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
+       <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+       </h2>
+
+       <p className="hidden text-gray-500 md:mt-4 md:block">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
+        tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et
+        fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt
+        duis.
+       </p>
+
+       <div className="mt-4 md:mt-8">
+        <a
+         href="#"
+         className="inline-block px-12 py-3 text-sm font-medium text-white transition rounded bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        >
+         Get Started Today
+        </a>
+       </div>
+      </div>
+     </div>
+
+     <img
+      alt="Student"
+      src="https://images.unsplash.com/photo-1464582883107-8adf2dca8a9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      className="object-cover w-full h-56 sm:h-full"
+     />
+    </section>
 
     <div className="flex justify-center mt-10">
      <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
@@ -128,9 +144,9 @@ function About() {
          and return to the activities they love.
         </p>{" "}
         <p className="text-justify">
-         At our pain care clinic, we are committed to providing exceptional
-         care, effective solutions, and unwavering support to help our patients
-         find relief, restore function, and embrace a life without limits.
+         At Primewave, we are committed to providing exceptional care, effective
+         solutions, and unwavering support to help our patients find relief,
+         restore function, and embrace a life without limits.
         </p>
        </article>
       </div>
