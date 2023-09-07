@@ -30,7 +30,7 @@ export default function SearchArticles({
  const page = searchParams.get("page")
   ? parseInt(searchParams.get("page")!)
   : 1;
- const articlesPerPage = 5;
+ const articlesPerPage = 8;
  const totalArticles = articles.length;
  const startIndex = (page - 1) * articlesPerPage;
  let endIndex = page * articlesPerPage;

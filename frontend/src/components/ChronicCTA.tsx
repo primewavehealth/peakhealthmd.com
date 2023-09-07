@@ -1,7 +1,4 @@
-import { buttonVariants } from "@/components/UI/buttons";
-import { cn } from "@/lib/utils";
-import { ArrowSmallRightIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
+import Button from "./UI/Button";
 
 function ChronicCTA() {
  return (
@@ -18,18 +15,21 @@ function ChronicCTA() {
      pain-free lifestyle faster.
     </p>
     <div className="pt-6 lg:mt-0 lg:flex-shrink-0">
-     <div className="inline-flex mt-12 rounded-md shadow">
-      <Link
-       href="https://primewavehealth.setmore.com"
-       className={cn(
-        buttonVariants({ variant: "default", size: "lg" }),
-        "self-start -mt-20 rounded-none"
-       )}
+     <Button
+      text="Schedule An Appointment"
+      href="/consultation"
+      icon=<svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
       >
-       <span className="font-bold">Schedule An Appointment</span>
-       <ArrowSmallRightIcon className="w-4 h-4 mr-2" />
-      </Link>
-     </div>
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     />
     </div>
    </div>
   </div>
