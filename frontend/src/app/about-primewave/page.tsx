@@ -1,7 +1,9 @@
+import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import about from "/public/images/about-vegas-clinic1.jpg";
+import maxine from "/public/images/maxine-ingham.webp";
 
 export const metadata: Metadata = {
  title: "About Primewave Health",
@@ -20,7 +22,8 @@ function About() {
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
       Welcome to Primewave, a leading chronic pain management clinic in Las
       Vegas, Nevada. We are dedicated to providing comprehensive care and
-      effective solutions for individuals experiencing acute and chronic pain.
+      effective solutions for individuals experiencing chronic pain and mens
+      health issues.
      </p>
      <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
       At Primewave, we understand that pain can significantly impact your
@@ -40,51 +43,38 @@ function About() {
       with our experienced team at Primewave. Let us help you regain your
       independence, rediscover your passions, and embrace a life without limits.
      </p>
-     <div className="mt-4 md:mt-8">
-      <Link
-       href="/contact"
-       className="px-12 py-3 text-sm font-medium text-white bg-blue-600 rounded shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-      >
-       Get in Touch
-      </Link>
-     </div>
     </article>
 
-    {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
-
-    <section className="my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
-     <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-      <div className="max-w-xl mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
-       <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+    <section className="max-w-screen-xl py-8 mx-auto my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+     <div className="p-8 md:p-12 lg:py-12">
+      <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
+       <h2 className="pb-4 text-2xl font-bold text-gray-900 md:text-4xl">
+        Meet Our Team Lead
        </h2>
-
-       <p className="hidden text-gray-500 md:mt-4 md:block">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-        tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et
-        fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt
-        duis.
-       </p>
-
-       <div className="mt-4 md:mt-8">
-        <a
-         href="#"
-         className="inline-block px-12 py-3 text-sm font-medium text-white transition rounded bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+       <span className="text-2xl font-bold text-gray-900 md:text-3xl">
+        <Link
+         href="https://health.usnews.com/doctors/maxine-ingham-512322"
+         target="_blank"
         >
-         Get Started Today
-        </a>
-       </div>
+         {" "}
+         Dr. Maxine Ingham
+        </Link>
+       </span>
+
+       <p className="text-xl text-justify text-gray-500 md:text-left md:mt-4">
+        Dr. Ingham is an internist. She received her medical degree from Medical
+        University of South Carolina College of Medicine and has been in
+        practice for more than 20 years. She is our medical Director.
+       </p>
       </div>
      </div>
-
-     <img
-      alt="Student"
-      src="https://images.unsplash.com/photo-1464582883107-8adf2dca8a9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-      className="object-cover w-full h-56 sm:h-full"
+     <Image
+      className="object-contain w-full mt-8 h-60"
+      alt="about Prime Wave"
+      src={maxine}
+      width={400}
+      height={600}
+      quality={100}
      />
     </section>
 
@@ -151,6 +141,23 @@ function About() {
        </article>
       </div>
      </div>
+    </div>
+    <div className="mt-4 md:mt-8">
+     <Button
+      text="Get in Touch"
+      href="/contact"
+      icon=<svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     />
     </div>
    </div>
   </section>
