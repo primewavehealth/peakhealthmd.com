@@ -127,11 +127,7 @@ function page() {
      </div>
      <div className="pt-6">
       Click{" "}
-      <Link
-       target="_blank"
-       target="_blank"
-       href="https://primewavehealth.setmore.com"
-      >
+      <Link target="_blank" href="https://primewavehealth.setmore.com">
        Here{" "}
       </Link>
       {}to Book An Appointment
