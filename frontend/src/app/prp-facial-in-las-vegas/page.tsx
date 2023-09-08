@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 
+import Button from "@/components/UI/Button";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
@@ -268,15 +268,22 @@ function page() {
        </div>
       </div>
      </div>
-
-     <div className="mt-12 text-center">
-      <Link
-       target="_blank"
-       href="https://primewavehealth.setmore.com"
-       className="inline-block px-12 py-3 text-sm font-medium text-white transition bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring focus:ring-yellow-400"
-      >
-       Book an Appointment
-      </Link>
+     <div className="text-center">
+      <Button
+       text="Schedule an Appointment"
+       href="/contact"
+       icon=<svg
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        className="w-4 h-4 ml-auto"
+        viewBox="0 0 24 24"
+       >
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+       </svg>
+      />
      </div>
     </div>
    </section>

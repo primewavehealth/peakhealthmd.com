@@ -49,7 +49,7 @@ function About() {
      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
        <h2 className="pb-4 text-2xl font-bold text-gray-900 md:text-4xl">
-        Meet Our Team Lead
+        Meet Our Medical Director
        </h2>
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
         <Link
@@ -64,7 +64,7 @@ function About() {
        <p className="text-xl text-justify text-gray-500 md:text-left md:mt-4">
         Dr. Ingham is an internist. She received her medical degree from Medical
         University of South Carolina College of Medicine and has been in
-        practice for more than 20 years. She is our medical Director.
+        practice for more than 20 years.
        </p>
       </div>
      </div>
