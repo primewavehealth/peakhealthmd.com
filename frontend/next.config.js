@@ -3,7 +3,7 @@ const { withContentlayer } = require("next-contentlayer");
 
 const nextConfig = {
  webpack5: true,
- webpack: (config) => {
+ /*  webpack: (config) => {
   config.resolve.fallback = {
    fs: false,
    net: false,
@@ -13,7 +13,7 @@ const nextConfig = {
   };
 
   return config;
- },
+ }, */
  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
  experimental: {
   serverActions: true,
