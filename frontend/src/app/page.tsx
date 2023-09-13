@@ -1,7 +1,7 @@
 import AboutSection from "@/components/AboutSection";
+import Banner from "@/components/Banner";
 import Edge from "@/components/Edge";
 import HomeCTA from "@/components/HomeCTA";
-import NewBanner from "@/components/NewBanner";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
@@ -55,7 +55,7 @@ const jsonLd = {
 export default function Home() {
  return (
   <main className="flex flex-col min-h-screen">
-   <NewBanner />
+   <Banner />
    <AboutSection />
    <Edge />
    <Services />

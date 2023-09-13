@@ -6,13 +6,12 @@ function AboutSection() {
   <section className="text-blue-900">
    <div className="py-12 mx-auto max-w-screen-2xl">
     <div className="grid grid-cols-1 lg:grid-cols-2">
-     <div className="relative hidden h-full py-6 lg:flex">
+     <div className="relative hidden h-full lg:flex">
       <Image
        alt="neck-pain"
        src="/images/pain-doctor.jpg"
-       className="object-cover"
+       className="object-contain"
        fill
-       sizes="100vw"
        quality={100}
       />
      </div>
@@ -27,9 +26,9 @@ function AboutSection() {
         <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. We
         recognize the immense challenges that accompany chronic pain, affecting
         not just your body but your spirit too. We stand by your side with a
-        team of compassionate experts, ready to craft personalized treatment
-        journeys that lead you back to a life filled with joy, movement, and
-        relief from pain's grasp.
+        team of compassionate pain experts in Las Vegas, ready to craft
+        personalized treatment journeys that lead you back to a life filled with
+        joy, movement, and relief from pain's grasp.
        </p>
 
        <div className="mt-4 md:mt-8">
