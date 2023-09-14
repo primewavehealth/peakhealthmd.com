@@ -2,8 +2,8 @@ import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import about from "/public/images/about-vegas-clinic1.jpg";
 import maxine from "/public/images/maxine-ingham.webp";
+import about from "/public/images/primewavehealth-team.jpg";
 
 export const metadata: Metadata = {
  title: "About Primewave Health",
@@ -79,19 +79,18 @@ function About() {
     </section>
 
     <div className="flex justify-center mt-10">
-     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
-       <div className="relative col-span-1 mt-12 overflow-hidden rounded-lg lg:order-last">
-        <Image
-         className=""
-         alt="about Prime Wave"
-         src={about}
-         width={400}
-         height={600}
-         quality={100}
-        />
-       </div>
-
+     <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:py-12 sm:px-6 lg:px-8">
+      <div className="mx-auto overflow-hidden rounded-lg ">
+       <Image
+        className=""
+        alt="about Prime Wave"
+        src={about}
+        width={800}
+        height={600}
+        quality={100}
+       />
+      </div>
+      <div className="flex pt-12 mx-auto">
        <article className="col-span-2 prose lg:text-xl">
         <h3 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
          A Comprehensive Approach To Healing
