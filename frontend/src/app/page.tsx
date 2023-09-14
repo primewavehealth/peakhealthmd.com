@@ -64,7 +64,6 @@ export default function Home() {
     pretitle="Testimonials"
     title="You are in good company"
    ></SectionTitle>
-
    <Testimonials />
    <HomeCTA />
    <ScrollToTop />
