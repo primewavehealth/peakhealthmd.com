@@ -38,7 +38,8 @@
   "src/components/Testimonials.jsx",
   ".contentlayer/generated",
   "src/components/mdx-components.jsx",
-  "src/app/og/route.js"
+  "src/app/og/route.js",
+  "src/components/Video.jsx"
  ],
  "exclude": ["node_modules"]
 }

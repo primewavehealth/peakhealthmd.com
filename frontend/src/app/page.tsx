@@ -5,8 +5,8 @@ import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
-import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
+import Video from "@/components/Video";
 import type { Metadata } from "next";
 import Script from "next/script";
 
@@ -59,11 +59,12 @@ export default function Home() {
    <AboutSection />
    <Edge />
    <Services />
-   <Team />
+   <Video />
    <SectionTitle
     pretitle="Testimonials"
     title="You are in good company"
    ></SectionTitle>
+
    <Testimonials />
    <HomeCTA />
    <ScrollToTop />

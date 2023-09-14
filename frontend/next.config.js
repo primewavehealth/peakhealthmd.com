@@ -2,7 +2,6 @@ const { get } = require("@vercel/edge-config");
 const { withContentlayer } = require("next-contentlayer");
 
 const nextConfig = {
- webpack5: true,
  /*  webpack: (config) => {
   config.resolve.fallback = {
    fs: false,
