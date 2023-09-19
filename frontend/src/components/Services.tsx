@@ -5,39 +5,39 @@ const mobileData = [
   name: "Chronic Pain",
   href: "/chronic-pain-las-vegas",
   text:
-   "Persistent, debilitating discomfort that endures beyond the expected healing time, chronic pain affects daily life, hindering activities and causing distress.",
+   "Chronic pain affects millions. Understand its complexities and discover effective treatments to regain control and live a pain-free life.",
  },
  {
   name: "Back Pain",
   href: "/back-pain-las-vegas",
   text:
-   "Discomfort in the back region, ranging from mild to severe, caused by various factors like muscle strain, injury, or spinal issues.",
+   "Back pain can hinder your daily life. Learn about its causes and find effective treatments for lasting relief and improved mobility.",
  },
  {
   name: "Joint Pain",
   href: "/joint-pain-las-vegas",
   text:
-   "Discomfort or soreness in the joints, commonly caused by arthritis, injury, or inflammation, leading to limited mobility and hindrance in daily activities.",
+   "Joint pain can disrupt your life. Explore the causes and effective treatments to regain mobility and live pain-free today.",
  },
  {
   name: "Neck Pain",
   href: "/neck-pain-las-vegas",
   text:
-   "Discomfort or pain experienced in the area of the neck, which connects the head to the torso. It can range from mild to severe and may be acute or chronic.",
+   "Neck pain can be debilitating, but there is hope. Learn about the causes and find effective treatments for lasting relief.",
  },
 
  {
   name: "Knee Pain",
   href: "/knee-pain-las-vegas",
   text:
-   "Knee pain is a common complaint that can occur due to various reasons, including injury, overuse, underlying medical conditions, or the natural aging process.",
+   "Understand the underlying causes of knee pain and explore our proven treatments for a pain-free and active life. Discover relief now!.",
  },
 
  {
-  name: "Fibromylagia",
-  href: "/fibromyalgia-treatment-las-vegas",
+  name: "Ed Treatment",
+  href: "/erectile-dysfunction-treatment-in-las-vegas",
   text:
-   "Fibromyalgia is a chronic disorder causing widespread pain, fatigue, and cognitive difficulties with heightened sensitivity to stimuli.",
+   "Erectile dysfunction is common but treatable. Explore our solutions for renewed confidence and a fulfilling sex life.",
  },
 ];
 
