@@ -1,9 +1,7 @@
 "use client";
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
 
 export default function NotFound() {
- const router = useRouter();
-
  return (
   <section className="flex items-center max-h-full p-16 dark:bg-gray-900 dark:text-gray-100">
    <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
@@ -17,7 +15,7 @@ export default function NotFound() {
 
      <button
       className="px-8 py-3 font-semibold rounded dark:bg-blue-600 dark:text-gray-900"
-      onClick={() => router.push("/")}
+      onClick={() => redirect("/")}
      >
       Back to our homepage
      </button>

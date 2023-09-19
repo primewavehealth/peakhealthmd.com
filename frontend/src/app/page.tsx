@@ -13,7 +13,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
  title: "Affordable Chronic Pain Care in Las Vegas",
  description:
-  "Get affordable chronic pain care in Las Vegas at Primewave. Our dedicated team provides cost-effective treatment options for long-lasting pain relief, helping you regain control of your life.",
+  "Las Vegas's top pain clinic: Comprehensive pain care services for a pain-free life. Find relief with our expert team. Book an appointment today!",
 };
 
 const jsonLd = {
