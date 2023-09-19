@@ -287,7 +287,9 @@ function page() {
 
    {/* faqs*/}
    <section className="max-w-3xl mx-auto my-12">
-    <h2 className="py-4 text-center">Joint Pain FAQs</h2>
+    <h2 className="py-4 text-center">
+     Frequently Asked Questions About Joint Pain
+    </h2>
     <div className="space-y-4">
      <details
       className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
