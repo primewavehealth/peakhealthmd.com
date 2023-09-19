@@ -173,6 +173,161 @@ function page() {
      ),
     }}
    />
+
+   {/* faqs*/}
+   <section className="max-w-3xl mx-auto my-12">
+    <h2 className="py-4 text-center">Chronic Pain FAQs</h2>
+    <div className="space-y-4">
+     <details
+      className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+      open
+     >
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can chronic pain affect my emotional well-being and mental health?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, chronic pain often leads to emotional and psychological challenges
+       such as depression, anxiety, and irritability. Addressing these aspects
+       is crucial for comprehensive pain management.
+      </p>
+     </details>
+
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Are there gender differences in how chronic pain is experienced and
+        treated?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, research suggests that gender plays a role in chronic pain
+       perception and response to treatment. Women may experience pain
+       differently and often face disparities in diagnosis and treatment.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can lifestyle changes, like diet and exercise, really impact chronic
+        pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Absolutely, lifestyle modifications can significantly influence chronic
+       pain. A balanced diet, regular exercise, and stress management techniques
+       can reduce pain intensity and improve overall well-being.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Is there a connection between chronic pain and sleep disorders?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, chronic pain can disrupt sleep patterns, leading to conditions like
+       insomnia. Conversely, poor sleep can worsen pain. Addressing sleep issues
+       is essential for managing chronic pain effectively.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        How do cultural and societal factors impact the perception and treatment
+        of chronic pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Cultural beliefs, societal stigmas, and healthcare disparities can
+       influence how individuals experience and seek treatment for chronic pain.
+       Understanding and addressing these factors is crucial for equitable pain
+       care.
+      </p>
+     </details>
+    </div>
+   </section>
   </div>
  );
 }

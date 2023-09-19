@@ -297,6 +297,162 @@ function page() {
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
    />
+   {/* faqs*/}
+   <section className="max-w-3xl mx-auto my-12">
+    <h2 className="py-4 text-center">Back Pain FAQs</h2>
+    <div className="space-y-4">
+     <details
+      className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+      open
+     >
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can psychological factors contribute to or worsen back pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, psychological factors like stress, anxiety, and depression can
+       contribute to the development and exacerbation of back pain. These
+       emotions can lead to muscle tension and increased perception of pain.
+       Addressing mental well-being is essential in managing back pain.
+      </p>
+     </details>
+
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Is there a link between posture and back pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, posture plays a significant role in back pain. Poor posture can
+       strain the muscles and ligaments in the back, leading to discomfort and
+       chronic pain. Ergonomic adjustments and posture awareness can help
+       prevent and alleviate back pain.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can certain dietary choices influence back pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, diet can have an impact on back pain. Inflammation-promoting foods
+       and excessive weight can stress the spine. A balanced diet rich in
+       anti-inflammatory foods and maintaining a healthy weight can reduce the
+       risk of back pain.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Do genetics play a role in back pain susceptibility?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, genetics can contribute to an individual's predisposition to back
+       pain. Some genetic factors can influence the structure and function of
+       the spine, making certain individuals more susceptible to conditions like
+       herniated discs or scoliosis.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can environmental factors, such as workplace conditions, lead to back
+        pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, workplace conditions, including prolonged sitting, heavy lifting,
+       and repetitive motions, can contribute to back pain. Ergonomic
+       adjustments and proper workplace practices are crucial to prevent
+       work-related back pain.
+      </p>
+     </details>
+    </div>
+   </section>
   </div>
  );
 }

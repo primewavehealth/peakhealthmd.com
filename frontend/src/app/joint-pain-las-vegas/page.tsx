@@ -284,6 +284,161 @@ function page() {
      </div>
     </div>
    </section>
+
+   {/* faqs*/}
+   <section className="max-w-3xl mx-auto my-12">
+    <h2 className="py-4 text-center">Joint Pain FAQs</h2>
+    <div className="space-y-4">
+     <details
+      className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+      open
+     >
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can weather and climate affect joint pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, some people report increased joint pain in response to changes in
+       weather, particularly in cold and damp conditions. While the exact
+       mechanisms are not fully understood, it's believed that changes in
+       temperature and atmospheric pressure may influence joint discomfort.
+      </p>
+     </details>
+
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Are there different types of joint pain, and do they require different
+        treatments?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, there are various types of joint pain, including osteoarthritis,
+       rheumatoid arthritis, gout, and more. Each type may require different
+       treatments and management approaches tailored to the underlying
+       condition.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can joint pain be a symptom of an underlying medical condition unrelated
+        to the joints?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, joint pain can sometimes be a symptom of systemic illnesses like
+       lupus, Lyme disease, or certain infections. Identifying and addressing
+       the underlying condition is crucial for effective treatment.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Do genetics play a role in joint pain susceptibility?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, genetics can influence an individual's predisposition to certain
+       joint conditions, such as osteoarthritis or rheumatoid arthritis.
+       Understanding genetic factors can help tailor treatment approaches.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can lifestyle factors like diet and exercise impact joint pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Absolutely, lifestyle choices play a significant role in joint health.
+       Maintaining a balanced diet, staying physically active, and managing
+       weight can help reduce joint pain and improve overall joint function.
+      </p>
+     </details>
+    </div>
+   </section>
   </div>
  );
 }
