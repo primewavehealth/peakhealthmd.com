@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 function page() {
  return (
-  <div>
+  <>
    <PageBanner
     heading="Low Testosterone Treatment in Las Vegas"
     body="
@@ -140,6 +140,18 @@ If you're experiencing symptoms of low testosterone, such as fatigue, decreased 
      </span>
     </span>
    </blockquote>
+   {/* video */}
+   <div className="mx-auto my-12">
+    <iframe
+     width="560"
+     height="315"
+     src="https://www.youtube.com/embed/II7AG16M6fQ?si=iAnwoZW-TfW9PAU3"
+     title="YouTube video player"
+     frameBorder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowFullScreen
+    ></iframe>
+   </div>
    <CTA
     heading="Comprehensive Testosterone Treatment for Men in Las Vegas"
     body="If you're experiencing symptoms of low testosterone, Prime Wave can help. We are a leading trt clinic in Las Vegas. Our experienced board certified doctors provide comprehensive testing and customized treatment plans to help you feel your best. We understand the impact that low testosterone can have on your quality of life, including decreased energy, decreased muscle mass, and decreased libido. That's why we offer a range of treatment options, including testosterone replacement therapy, to help you regain your vitality and confidence. Don't let low testosterone hold you back - contact us today to schedule a consultation and start feeling like yourself again."
@@ -164,7 +176,7 @@ If you're experiencing symptoms of low testosterone, such as fatigue, decreased 
      ),
     }}
    />
-  </div>
+  </>
  );
 }
 
