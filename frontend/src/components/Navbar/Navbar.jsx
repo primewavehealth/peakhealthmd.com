@@ -293,6 +293,13 @@ export default function Example() {
       DMV
      </Link>
      <Link
+      href="https://tangramlasvegas.com"
+      target="_blank"
+      className="text-sm font-semibold leading-6 text-gray-900"
+     >
+      TanGram
+     </Link>
+     <Link
       href="/about-primewave"
       className="text-sm font-semibold leading-6 text-gray-900"
      >
@@ -479,6 +486,13 @@ export default function Example() {
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          DMV
+        </Link>
+        <Link
+         href="https://tangramlasvegas.com"
+         target="_blank"
+         className="text-sm font-semibold leading-6 text-gray-900"
+        >
+         TanGram
         </Link>
         <Link
          href="/about-primewave"
