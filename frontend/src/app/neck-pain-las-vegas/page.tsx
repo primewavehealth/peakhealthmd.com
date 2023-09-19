@@ -211,6 +211,162 @@ function page() {
      ),
     }}
    />
+
+   {/* faqs*/}
+   <section className="max-w-3xl mx-auto my-12">
+    <h2 className="py-4 text-center">Neck Pain FAQs</h2>
+    <div className="space-y-4">
+     <details
+      className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+      open
+     >
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Is there a link between smartphone and computer use and neck pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, excessive use of smartphones and computers, particularly when
+       looking down at screens, can strain the neck and lead to a condition
+       known as "tech neck." Proper ergonomics and posture while using these
+       devices can help prevent such pain.
+      </p>
+     </details>
+
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Is there a connection between sleep position and neck pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, sleeping positions can impact neck pain. Sleeping with improper neck
+       support or in positions that strain the neck can lead to discomfort.
+       Choosing the right pillow and mattress and maintaining good sleep posture
+       is essential for preventing neck pain.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Are there any dietary factors that can worsen or alleviate neck pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Diet can influence inflammation, which plays a role in neck pain.
+       Consuming an anti-inflammatory diet rich in fruits, vegetables, and
+       omega-3 fatty acids may help reduce neck pain. Conversely, excessive
+       sugar and processed foods may worsen inflammation.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can emotional stress and mental health impact neck pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, emotional stress and mental health issues can contribute to neck
+       pain. Stress often leads to muscle tension in the neck and shoulders,
+       exacerbating discomfort. Managing stress and addressing mental health can
+       help alleviate neck pain.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can neck pain be a symptom of underlying heart or vascular problems?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, in some cases, neck pain can be a symptom of heart or vascular
+       issues, such as angina or carotid artery disease. If neck pain is
+       accompanied by other concerning symptoms, it should be evaluated by a
+       healthcare professional.
+      </p>
+     </details>
+    </div>
+   </section>
   </div>
  );
 }

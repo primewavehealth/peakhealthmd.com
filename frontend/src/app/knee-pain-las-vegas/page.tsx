@@ -199,6 +199,162 @@ function page() {
      ),
     }}
    />
+
+   {/* faqs*/}
+   <section className="max-w-3xl mx-auto my-12">
+    <h2 className="py-4 text-center">Knee Pain FAQs</h2>
+    <div className="space-y-4">
+     <details
+      className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+      open
+     >
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can weather changes affect knee pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Some individuals with knee issues report increased pain during changes in
+       weather, particularly in cold and damp conditions. The exact reasons are
+       not well understood, but it may be related to changes in joint pressure
+       or fluid levels.
+      </p>
+     </details>
+
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Is there a relationship between knee pain and mental health issues?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, chronic knee pain can have a significant impact on mental health,
+       leading to conditions like depression and anxiety. Managing both physical
+       and emotional aspects of knee pain is crucial for overall well-being.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can certain types of exercise or sports increase the risk of knee pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, high-impact sports or activities that involve repetitive knee
+       movements, like running or basketball, can increase the risk of knee
+       injuries and pain. Proper training techniques, conditioning, and
+       protective gear are essential to reduce this risk.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can knee pain be triggered or worsened by food allergies or
+        sensitivities?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       For some individuals, food allergies or sensitivities may lead to
+       inflammation, which can exacerbate knee pain, particularly in cases of
+       underlying joint conditions. Identifying and eliminating trigger foods
+       may help.
+      </p>
+     </details>
+     <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+       <h2 className="text-lg font-bold text-gray-900">
+        Can previous injuries or surgeries in other parts of the body contribute
+        to knee pain?
+       </h2>
+
+       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+         xmlns="http://www.w3.org/2000/svg"
+         className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
+         viewBox="0 0 20 20"
+         fill="currentColor"
+        >
+         <path
+          fillRule="evenodd"
+          d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+          clipRule="evenodd"
+         />
+        </svg>
+       </span>
+      </summary>
+
+      <p className="mt-4 text-lg leading-relaxed text-gray-700">
+       Yes, injuries or surgeries in other areas of the body, like the hip or
+       lower back, can alter gait and biomechanics, potentially leading to knee
+       pain over time.
+      </p>
+     </details>
+    </div>
+   </section>
   </div>
  );
 }
