@@ -2,9 +2,11 @@ import Link from "next/link";
 
 function Footer() {
  return (
-  <footer aria-label="Site Footer" className="bg-blue-900">
+  <footer aria-label="Site Footer" className="bottom-0 text-white bg-blue-900">
    <div className="max-w-screen-xl px-4 pb-8 mx-auto sm:px-6 lg:px-8">
     <div className="pt-2 border-t border-gray-100 sm:flex sm:items-center sm:justify-between">
+     {" "}
+     &copy; {new Date().getFullYear()} All Rights Reserved
      <nav aria-label="Footer Navigation - Support">
       <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
        <Link
@@ -22,7 +24,6 @@ function Footer() {
        </Link>
       </ul>
      </nav>
-
      <ul className="flex justify-center gap-6 mt-8 sm:mt-0 lg:justify-end">
       <Link
        href="https://www.facebook.com/primewavehealth"
