@@ -4,17 +4,17 @@ import type { Metadata } from "next";
 import knee from "/public/images/knee-pain1.jpg";
 
 export const metadata: Metadata = {
- title: "Knee Pain Care in Las Vegas",
+ title: "Knee Pain Treatment in Las Vegas",
  description:
-  "Experience the power of shockwave therapy for knee pain . Non-invasive, fast, and effective treatment to reduce pain, inflammation, and improve mobility. Book your session now!",
+  "Affordable knee pain treatment in Las Vegas: Say goodbye to discomfort, regain mobility, and enjoy life fully with our specialized care.",
 };
 
 function page() {
  return (
   <div>
    <PageBanner
-    heading="Knee Pain Care in Las Vegas"
-    body="Experience the power of pain relief with shockwave therapy at Primewave in Las Vegas. Our cutting-edge treatment utilizes advanced technology to stimulate healing, reduce inflammation, and regenerate damaged tissues, providing fast and effective relief from knee pain. Say goodbye to invasive procedures and hello to a non-invasive solution that brings back your mobility and improves your quality of life. Don't let knee pain limit you any longer – book your appointment today and start your journey towards a pain-free future with Primewave's shockwave therapy."
+    heading="Affordable Knee Pain Treatment in Las Vegas"
+    body="Experience the freedom of movement once again with our affordable knee pain treatment in Las Vegas. Our team of pain experts is committed to addressing the root causes of your knee pain, tailoring a comprehensive treatment plan just for you. Don't let knee discomfort limit your activities – we're here to help you regain your mobility and enjoy life to the fullest. Say goodbye to the limitations of knee pain and take the first step towards a pain-free, active lifestyle with us in Las Vegas."
     src={knee}
     height={400}
     width={400}
@@ -175,7 +175,7 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Affordable Knee Pain Treatment in Las Vegas"
+    heading="Knee Pain Relief is Here"
     body="Don't let knee pain hold you back any longer. Take the first step towards a pain-free future by scheduling a consultation with our pain specialists in Las Vegas. Our compassionate team is ready to guide you on your journey to regaining your mobility and enjoying life to the fullest. Contact us today and discover the transformative power of shockwave therapy for knee pain.
 "
     src="/images/happy-man.avif"

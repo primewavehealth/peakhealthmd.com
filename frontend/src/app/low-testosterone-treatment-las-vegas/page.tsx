@@ -6,16 +6,15 @@ import low from "public/images/low-testosterone-lasvegas.jpg";
 export const metadata: Metadata = {
  title: "Affordable Low Testosterone Treatment in Las Vegas",
  description:
-  "Regain vitality with affordable low testosterone treatment in Las Vegas. Our experts offer effective solutions for hormonal balance and well-being.",
+  "Affordable low testosterone treatment in Las Vegas: Rejuvenate your vitality without breaking the bank. Expert care for lasting results at budget-friendly prices.",
 };
 
 function page() {
  return (
   <>
    <PageBanner
-    heading="Low Testosterone Treatment in Las Vegas"
-    body="
-If you're experiencing symptoms of low testosterone, such as fatigue, decreased sex drive, and muscle loss, seeking treatment from a qualified healthcare provider is important. Prime Wave offers low testosterone treatment options, including testosterone replacement therapy, to help alleviate symptoms and improve quality of life. Our experienced providers work with each patient to develop an individualized treatment plan that addresses their specific needs and concerns. Don't let low testosterone impact your quality of life - schedule a consultation with our team today."
+    heading="Affordable Low Testosterone Treatment in Las Vegas"
+    body="Revitalize your life with affordable low testosterone treatment in Las Vegas. Don't let low energy, mood swings, and decreased vitality hold you back any longer. Our expert team of ED specialists is committed to helping you regain your vigor and zest for life. Experience a transformation in your overall well-being without breaking the bank – because you deserve nothing but the best at prices you can afford."
     src={low}
     height={400}
     width={400}
@@ -153,7 +152,7 @@ If you're experiencing symptoms of low testosterone, such as fatigue, decreased 
     ></iframe>
    </div>
    <CTA
-    heading="Comprehensive Testosterone Treatment for Men in Las Vegas"
+    heading="Comprehensive Low T Treatment in Las Vegas"
     body="If you're experiencing symptoms of low testosterone, Prime Wave can help. We are a leading trt clinic in Las Vegas. Our experienced board certified doctors provide comprehensive testing and customized treatment plans to help you feel your best. We understand the impact that low testosterone can have on your quality of life, including decreased energy, decreased muscle mass, and decreased libido. That's why we offer a range of treatment options, including testosterone replacement therapy, to help you regain your vitality and confidence. Don't let low testosterone hold you back - contact us today to schedule a consultation and start feeling like yourself again."
     src="/images/happy-man.avif"
     alt="low-testosterone-treatment-las-vegas"

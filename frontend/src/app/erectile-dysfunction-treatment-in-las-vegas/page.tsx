@@ -7,7 +7,7 @@ import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 export const metadata: Metadata = {
  title: "Affordable Erectile Dysfunction Treatment in Las Vegas",
  description:
-  "Regain your sexual health and confidence with our advanced Erectile Dsyfunction treatment in Las Vegas.",
+  "Affordable erectile dysfunction treatment in Las Vegas: Rediscover confidence and intimacy without straining your wallet. Expert care at budget-friendly prices",
 };
 
 function page() {
@@ -15,7 +15,7 @@ function page() {
   <>
    <PageBanner
     heading="Affordable Erectile Dysfunction Treatment in Las Vegas"
-    body="Unlock a renewed sense of vitality and confidence with our cutting-edge ED treatment services. Say goodbye to performance anxiety and hello to a fulfilling, intimate life. Our expert team is dedicated to restoring your natural vigor, ensuring you enjoy every moment to the fullest."
+    body="Unlock a renewed sense of vitality and confidence with our affordable erectile dysfunction treatment in Las Vegas. Say goodbye to performance anxiety and hello to a fulfilling, intimate life. Our expert team is dedicated to restoring your natural vigor, ensuring you enjoy every moment to the fullest."
     src={ed}
     height={400}
     width={400}
@@ -40,12 +40,12 @@ function page() {
     }}
    />{" "}
    {/* cta */}
-   <div className="container px-6 m-auto lg:py-6 ">
-    <div className="flex flex-col items-center h-auto py-6 mt-6 border-2 border-gray-800 rounded-lg bg-blue-50 lg:border-4 justify-evenly md:flex-row w-100 md:h-60">
-     <div className="px-4 pt-4 text-xl lg:text-2xl lg:pt-0 lg:w-8/12">
+   <div className="container max-w-5xl px-6 mx-auto mt-8">
+    <div className="flex flex-col items-center h-auto py-8 align-middle border-2 border-gray-800 rounded-lg bg-blue-50 lg:border-4 justify-evenly md:flex-row ">
+     <div className="px-6 text-xl lg:text-2xl lg:pt-0 lg:w-8/12">
       <span>
-       You're not alone in this. Roughly 1 out of 4 men over 65 - and a
-       significant number over 40 - suffer from erectile dysfunction.
+       You're not alone. Approximately 40% of men are affected at age 40 and
+       nearly 70% of men are affected at age 70.
       </span>
      </div>
      <Button
@@ -65,6 +65,19 @@ function page() {
      />
     </div>
    </div>
+   {/* blockquote */}
+   <blockquote className="max-w-screen-xl px-8 py-12 mx-auto">
+    <span className="py-10">
+     {" "}
+     <span className="text-lg font-bold">Get</span>{" "}
+     <span className="relative inline-block px-2">
+      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+      <h3 className="relative py-3 text-white">
+       Permanent Cure for Erectile Dysfunction in Las Vegas
+      </h3>
+     </span>
+    </span>
+   </blockquote>
    {/* next section */}
    <section className="px-6 bg-white">
     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
@@ -157,8 +170,8 @@ function page() {
     ></iframe>
    </div>
    <CTA
-    heading="Get Permanent Cure for Erectile Dysfunction in Las Vegas"
-    subheading=" Wave Goodbye to Weak Erection and ED Disorder"
+    heading="Wave Goodbye to Weak Erection"
+    subheading=" Say No to ED Disorder"
     body="Our state-of-the-art facility offers ed treatment options such as shockwave therapy and erectile dysfunction medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer. You can overcome your ed disorder - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"

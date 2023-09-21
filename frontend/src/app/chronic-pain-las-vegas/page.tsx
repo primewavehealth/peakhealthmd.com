@@ -5,18 +5,19 @@ import type { Metadata } from "next";
 import pain from "/public/images/pain.jpg";
 
 export const metadata: Metadata = {
- title: "Chronic Pain Care in Las Vegas",
+ title: "Affordable Chronic Pain Treatment in Las Vegas",
  description:
-  "Experience effective chronic pain care tailored to your needs. Our expert team offers personalized treatment options for long-lasting relief and improved quality of life. Schedule your consultation now!",
+  "Affordable chronic pain treatment in Las Vegas: Take control of your life again with our expert care. Experience relief without the high costs.",
 };
 
 function page() {
  return (
   <div>
    <PageBanner
-    heading="Chronic Pain Relief in Las Vegas
+    heading="Affordable Chronic Pain Treatment in Las Vegas
 "
-    body="Primewave is here to offer you a life-changing solution. Our dedicated team of chronic pain doctors in Las Vegas and caring staff are committed to providing comprehensive and compassionate care for individuals suffering from chronic pain. Why endure another day of discomfort when you can experience the transformative benefits of Shockwave Therapy? This cutting-edge, non-invasive treatment has been clinically proven to effectively alleviate chronic pain conditions, targeting the root cause rather than just masking the symptoms.
+    body="
+Find lasting relief from chronic pain with our affordable chronic pain treatment in Las Vegas. Our dedicated team of pain doctors in Las Vegas and caring staff are committed to providing comprehensive and compassionate care for individuals suffering from chronic pain. Why endure another day of discomfort when you can experience the transformative benefits of Shockwave Therapy? This cutting-edge, non-invasive treatment has been clinically proven to effectively alleviate chronic pain conditions, targeting the root cause rather than just masking the symptoms.
 "
     src={pain}
     height={400}

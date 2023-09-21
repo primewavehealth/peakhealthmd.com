@@ -6,9 +6,9 @@ import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
 
 export const metadata: Metadata = {
- title: "Lower Back Pain Treatment in Las Vegas",
+ title: "Affordable Lower Back Pain Treatment in Las Vegas",
  description:
-  "Experience personalized care for chronic lower back pain care in las vegas. Our expert team offers effective treatments to alleviate discomfort and improve your quality of life. Schedule a consultation today!",
+  "Affordable lower back pain treatment in Las Vegas: Get relief and regain your active life. Expert care that fits your budget.",
 };
 
 const jsonLd = {
@@ -52,7 +52,7 @@ function page() {
   <div>
    <PageBanner
     heading="Lower Back Pain Treatment in Las Vegas"
-    body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of back pain treatment in Las Vegas and regain control of your life."
+    body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of affordable back pain treatment in Las Vegas and regain control of your life."
     src={back}
     height={400}
     width={400}

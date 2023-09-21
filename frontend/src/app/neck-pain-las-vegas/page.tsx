@@ -4,17 +4,17 @@ import type { Metadata } from "next";
 import neck from "/public/images/neck-pain.jpg";
 
 export const metadata: Metadata = {
- title: "Neck Pain Care in Las Vegas",
+ title: "Affordable Neck Pain Treatment in Las Vegas",
  description:
-  "Relieve neck pain and restore mobility with expert neck pain care services. Our tailored treatments and therapies provide effective relief for a pain-free life. Book now!",
+  "Affordable neck pain treatment in Las Vegas: Expert care to relieve your discomfort and restore your quality of life. Get relief today!",
 };
 
 function page() {
  return (
   <div>
    <PageBanner
-    heading="Neck Pain Care in Las Vegas"
-    body="Are you suffering from neck pain? Primewave offers specialized neck pain care to alleviate discomfort and restore your well-being. Our team of experts understands the complexities of neck pain, whether it's caused by muscle strain, poor posture, or underlying conditions. Experience relief and regain mobility under the care of our dedicated professionals. Book your appointment today and take the first step towards a pain-free neck."
+    heading="Affordable Neck Pain Treatment in Las Vegas"
+    body="Relieve neck pain and reclaim your comfort with our affordable neck pain treatment in Las Vegas. Our team of pain specialists understands the debilitating effects of neck pain and is dedicated to crafting a personalized treatment plan to suit your needs. Say goodbye to those persistent aches and stiffness, and hello to a life with unrestricted movement and vitality. Trust us to be your partner in wellness, as we help you break free from the constraints of neck pain right here in Las Vegas."
     src={neck}
     height={400}
     width={400}
@@ -188,7 +188,7 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Affordable Neck Pain Treatment in Las Vegas"
+    heading="Get Neck Pain Relief in Las Vegas"
     body="Don't let neck pain hold you back any longer! Take the first step toward a pain-free future by scheduling a consultation at Primewave today. Our dedicated team is ready to provide the exceptional care and expertise you deserve. Reclaim your life from neck pain and embrace a healthier, happier you!"
     src="/images/happy-man.avif"
     alt="Neck Pain Treatment in Las Vegas"
