@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 import { Inter } from "next/font/google";
 import { Suspense } from "react";
-import Loading from "./blog/loading";
+import Loading from "./Loading";
 
 const inter = Inter({
  weight: ["400", "700"],
