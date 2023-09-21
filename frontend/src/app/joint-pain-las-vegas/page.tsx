@@ -5,17 +5,17 @@ import Image from "next/image";
 import joint from "/public/images/joint-pain-lv.jpg";
 
 export const metadata: Metadata = {
- title: "Joint Pain Care in Las Vegas",
+ title: "Affordable Joint Pain Treatment in Las Vegas",
  description:
-  "Find relief from joint pain with our specialized care services. Our pain specialists in Las Vegas provides personalized treatment options for improved mobility and a pain-free life. Schedule your consultation now!",
+  "Affordable joint pain treatment in Las Vegas: Regain mobility and relief without breaking the bank. Trust our experts for lasting comfort",
 };
 
 function page() {
  return (
   <div>
    <PageBanner
-    heading="Joint Pain Care in Las Vegas"
-    body="Don't let joint pain limit your life. At Primewave, we understand the debilitating effects of joint pain, whether it's due to arthritis, injury, or other underlying conditions. Our dedicated team of specialists offers a comprehensive range of treatment options tailored to your specific needs. We have the expertise and cutting-edge technology to provide effective relief and restore optimal joint function. Take the first step towards a pain-free life and trust our compassionate team to deliver personalized care that addresses the root cause of your joint pain."
+    heading="Joint Pain Treatment in Las Vegas"
+    body="Discover the path to pain-free living with our top-notch joint pain treatment in Las Vegas. At our state-of-the-art facility, we're dedicated to providing you with the relief you deserve. Our experienced team of pain specialists understands the challenges of joint pain and will create a personalized treatment plan to restore your mobility and comfort. Say goodbye to stiffness and discomfort and hello to a more active, pain-free life. Take the first step towards healthier joints – trust us with your well-being."
     src={joint}
     height={400}
     width={400}
