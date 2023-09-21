@@ -14,8 +14,8 @@ function page() {
  return (
   <>
    <PageBanner
-    heading="Erectile Dysfunction Treatment in Las Vegas"
-    body="Erectile dysfunction (ED) is a common problem that affects many men. It is the inability to get or maintain an erection firm enough for sexual intercourse. ED can be a source of frustration and embarrassment for those who experience it. It is important to understand the causes, symptoms, and treatment options available for this condition."
+    heading="Affordable Erectile Dysfunction Treatment in Las Vegas"
+    body="Unlock a renewed sense of vitality and confidence with our cutting-edge ED treatment services. Say goodbye to performance anxiety and hello to a fulfilling, intimate life. Our expert team is dedicated to restoring your natural vigor, ensuring you enjoy every moment to the fullest."
     src={ed}
     height={400}
     width={400}
@@ -157,9 +157,9 @@ function page() {
     ></iframe>
    </div>
    <CTA
-    heading="  Affordable ED Treatment in Las Vegas"
-    subheading=" Get Permanent Cure for Erectile Dysfunction in Las Vegas"
-    body="Our state-of-the-art facility offers cutting-edge treatments such as shockwave therapy and erectile dysfunction medication to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
+    heading="Get Permanent Cure for Erectile Dysfunction in Las Vegas"
+    subheading=" Wave Goodbye to Weak Erection and ED Disorder"
+    body="Our state-of-the-art facility offers ed treatment options such as shockwave therapy and erectile dysfunction medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer. You can overcome your ed disorder - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
