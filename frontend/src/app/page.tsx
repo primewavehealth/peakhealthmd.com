@@ -7,14 +7,24 @@ import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import type { Metadata } from "next";
 import Script from "next/script";
 
-export const metadata: Metadata = {
- title: "Affordable Chronic Pain Care in Las Vegas",
+export async function generateMetadata() {
+ return {
+  title: "Affordable Pain Care in Las Vegas",
+  description:
+   "Discover affordable pain care services in Las Vegas. From back pain to joint pain, our expert treatments restore comfort and mobility. Your relief, your budget.",
+  alternates: {
+   canonical: "/",
+  },
+ };
+}
+
+/* export const metadata: Metadata = {
+ title: "Affordable Pain Care in Las Vegas",
  description:
-  "Las Vegas's top pain clinic: Comprehensive pain care services for a pain-free life. Find relief with our expert team. Book an appointment today!",
-};
+  "Discover affordable pain care services in Las Vegas. From back pain to joint pain, our expert treatments restore comfort and mobility. Your relief, your budget.",
+}; */
 
 const jsonLd = {
  "@context": "https://schema.org",
