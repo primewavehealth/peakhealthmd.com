@@ -1,19 +1,20 @@
-import Image from "next/image";
 import Link from "next/link";
 
 function AboutSection() {
  return (
   <section className="text-blue-900">
-   <div className="py-12 mx-auto max-w-screen-2xl">
+   <div className="mx-auto lg:my-16 max-w-screen-2xl">
     <div className="grid grid-cols-1 lg:grid-cols-2">
-     <div className="relative hidden h-full lg:flex">
-      <Image
-       alt="neck-pain"
-       src="/images/pain-doctor.jpg"
-       className="object-contain"
-       fill
-       quality={100}
-      />
+     <div className="relative mx-auto lg:pt-12 ">
+      <iframe
+       width="400"
+       height="450"
+       src="https://www.youtube.com/embed/i3JIaBuluCw?si=iEm3xGEOqVcwnOIg"
+       title="YouTube video player"
+       frameBorder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowFullScreen
+      ></iframe>
      </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl pt-12 mx-auto space-y-3">

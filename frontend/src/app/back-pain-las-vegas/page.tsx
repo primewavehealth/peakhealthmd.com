@@ -1,31 +1,15 @@
 import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
 
-export async function generateMetadata({
- params,
-}: {
- params: { slug: string };
-}) {
- const { slug } = params;
-
- return {
-  title: "Affordable Lower Back Pain Treatment in Las Vegas",
-  description:
-   "Affordable lower back pain treatment in Las Vegas: Get relief and regain your active life. Expert care that fits your budget.",
-  alternates: {
-   canonical: `/${slug}`,
-  },
- };
-}
-
-/* export const metadata: Metadata = {
+export const metadata: Metadata = {
  title: "Affordable Lower Back Pain Treatment in Las Vegas",
  description:
   "Affordable lower back pain treatment in Las Vegas: Get relief and regain your active life. Expert care that fits your budget.",
-}; */
+};
 
 const jsonLd = {
  "@context": "https://schema.org",
