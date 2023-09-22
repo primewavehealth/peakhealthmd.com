@@ -1,6 +1,6 @@
 function Edge() {
  return (
-  <section className="w-5/6 mx-auto rounded-lg lg:mb-12 drop-shadow-2xl">
+  <section className="w-5/6 mx-auto my-12 rounded-lg drop-shadow-xl">
    <div className="container flex flex-col-reverse mx-auto lg:flex-row">
     <div className="flex flex-col px-6 py-8 space-y-6 text-white bg-blue-800 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5">
      <div className="flex space-x-2 sm:space-x-4">
