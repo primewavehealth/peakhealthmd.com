@@ -40,7 +40,7 @@ export default function SearchArticles({
  const currentArticles = articles.slice(startIndex, endIndex);
 
  return (
-  <div className="max-w-5xl px-8 mx-auto">
+  <div className="max-w-md px-8 mx-auto md:max-w-2xl lg:max-w-5xl">
    <div className="relative max-w-3xl mb-12 sm:mb-16">
     <input
      aria-label="Search articles"
