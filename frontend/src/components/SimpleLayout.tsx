@@ -10,7 +10,7 @@ export default function SimpleLayout({
  children: React.ReactNode;
 }): JSX.Element {
  return (
-  <BlogContainer className="mx-auto mt-16 overflow-x-hidden sm:mt-32">
+  <BlogContainer className="container mx-auto mt-16 overflow-x-hidden sm:mt-32">
    <div className="max-w-md text-center lg:max-w-3xl">
     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
      {title}
