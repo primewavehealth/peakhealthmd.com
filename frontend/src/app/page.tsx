@@ -64,7 +64,7 @@ const jsonLd = {
 
 export default function Home() {
  return (
-  <main className="flex flex-col min-h-screen">
+  <main className="container flex flex-col">
    <Banner />
    <AboutSection />
    <Edge />
