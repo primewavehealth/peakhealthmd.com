@@ -38,7 +38,7 @@ export default function ArticlePage({
  relatedArticles?: Blog[];
 }): JSX.Element {
  return (
-  <section className="xl:relative">
+  <section className="overflow-x-hidden xl:relative">
    <Script type="application/ld+json" suppressHydrationWarning>
     {JSON.stringify(article.structuredData)}
    </Script>
@@ -46,7 +46,7 @@ export default function ArticlePage({
    <div className="max-w-3xl mx-auto">
     <article className="lg:ml-28">
      <Link
-      className="inline-flex absolute left-[100px] items-center justify-center gap-2 px-6 py-3 font-medium text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
+      className="-m-16 lg:m-0 inline-flex absolute left-[100px] items-center justify-center gap-2 px-6 py-2 lg:py-3 font-medium text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
       href="/blog"
      >
       <span>See All Blog Posts</span>{" "}
