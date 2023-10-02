@@ -1,5 +1,18 @@
 import HeroesSection from "@/components/HeroesSection";
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+ robots: {
+  index: false,
+  follow: false,
+  nocache: false,
+  googleBot: {
+   index: false,
+   follow: false,
+  },
+ },
+};
 
 function page() {
  return (

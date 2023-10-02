@@ -7,13 +7,10 @@ function AboutSection() {
     <div className="grid grid-cols-1 lg:grid-cols-2">
      <div className="relative mx-auto lg:pt-12 ">
       <iframe
-       width="400"
-       height="450"
-       src="https://www.youtube.com/embed/i3JIaBuluCw?si=iEm3xGEOqVcwnOIg"
-       title="YouTube video player"
+       width="750"
+       height="700"
+       src="https://www.zygotebody.com"
        frameBorder="0"
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       allowFullScreen
       ></iframe>
      </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
