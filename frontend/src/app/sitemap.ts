@@ -9,6 +9,7 @@ export default async function sitemap() {
  const routes = [
   "",
   "/about-primewave",
+  "/erectile-dysfunction-doctor-las-vegas",
   "/chronic-pain-las-vegas",
   "/back-pain-las-vegas",
   "/joint-pain-las-vegas",
