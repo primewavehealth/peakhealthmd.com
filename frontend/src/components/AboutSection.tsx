@@ -14,12 +14,12 @@ function AboutSection() {
       ></iframe>
      </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
-      <div className="max-w-xl pt-12 mx-auto space-y-3">
+      <div className="max-w-xl px-6 pt-12 mx-auto space-y-3">
        <span className="text-4xl font-semibold">
         Experience Unrivaled Pain Relief at Our Premier Care Clinic{" "}
        </span>
 
-       <p className="py-6 text-base text-justify lg:text-lg sm:mt-4">
+       <p className="py-6 leading-10 text-justify sm:mt-4 ">
         Greetings and warmest welcome to Primewave Health in the heart of{" "}
         <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. We
         recognize the immense challenges that accompany chronic pain, affecting

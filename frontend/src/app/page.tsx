@@ -5,8 +5,8 @@ import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
+import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import Script from "next/script";
 
 export async function generateMetadata() {
@@ -69,10 +69,10 @@ export default function Home() {
    <AboutSection />
    <Edge />
    <Services />
-   <Video />
+   <Team />
    <SectionTitle
     pretitle="Testimonials"
-    title="You are in good company"
+    title="What Our Customers Are Saying"
    ></SectionTitle>
    <Testimonials />
    <HomeCTA />
