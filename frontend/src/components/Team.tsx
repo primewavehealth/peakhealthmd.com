@@ -14,21 +14,22 @@ export default function Team() {
       and support on your journey to a pain-free future.
      </p>
     </div>
-    <div className="grid items-center gap-12 md:grid-cols-3">
-     <div className="space-y-4 text-center">
+    <div className="grid items-center gap-12 md:grid-cols-2">
+     <div className="col-span-1 space-y-4 text-center">
       <Image
        className="object-cover w-64 h-64 mx-auto rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-       src="/images/kyrahbacote.png"
+       src="/images/victorkim.png"
        alt="team"
        width={288}
        height={281}
       />
       <div>
-       <h4 className="text-2xl">Dr. Kyrah Bacote</h4>
-       <span className="block text-sm text-gray-500">Integrative Medicine</span>
+       <h4 className="text-2xl">Dr. Victor Kim</h4>
+       <span className="block text-sm text-gray-500">Osteopathic Medicine</span>
       </div>
      </div>
-     {/* <div className="space-y-4 text-center">
+
+     <div className="col-span-1 space-y-4 text-center">
       <Image
        className="object-cover w-64 h-64 mx-auto rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
        src="/images/kyrahbacote.png"
@@ -39,19 +40,6 @@ export default function Team() {
       <div>
        <h4 className="text-2xl">Dr. Kyrah Bacote</h4>
        <span className="block text-sm text-gray-500">Integrative Medicine</span>
-      </div>
-     </div> */}
-     <div className="space-y-4 text-center">
-      <Image
-       className="object-cover w-64 h-64 mx-auto rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-       src="/images/maxine-ingham.webp"
-       alt="team"
-       width={288}
-       height={281}
-      />
-      <div>
-       <h4 className="text-2xl">Dr. Maxine Ingham</h4>
-       <span className="block text-sm text-gray-500">Internal Medicine</span>
       </div>
      </div>
     </div>
