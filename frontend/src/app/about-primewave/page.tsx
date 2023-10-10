@@ -57,14 +57,16 @@ function About() {
          target="_blank"
         >
          {" "}
-         Dr. Maxine Ingham
+         Dr. Victor Kim
         </Link>
        </span>
 
        <p className="text-xl text-justify text-gray-500 md:text-left md:mt-4">
-        Dr. Ingham is an internist. She received her medical degree from Medical
-        University of South Carolina College of Medicine and has been in
-        practice for more than 20 years.
+        Dr. KIm is an Ostheopathic Medicine specialist. She received her medical
+        degree from Western University of Health Sciences, College of
+        Osteopathic Medicine of the Pacific, Pomona, California. He certified by
+        the American Osteopathic Board of Neuromusculoskeletal Medicine and the
+        American Board of Family Medicine.
        </p>
       </div>
      </div>
