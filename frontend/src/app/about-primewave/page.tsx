@@ -2,8 +2,8 @@ import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import maxine from "/public/images/maxine-ingham.webp";
 import about from "/public/images/primewavehealth-team.jpg";
+import victor from "/public/images/victorkim.png";
 
 export const metadata: Metadata = {
  title: "About Primewave Health",
@@ -53,7 +53,7 @@ function About() {
        </h2>
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
         <Link
-         href="https://health.usnews.com/doctors/maxine-ingham-512322"
+         href="https://www.healthgrades.com/physician/dr-victor-kim-g9xnl"
          target="_blank"
         >
          {" "}
@@ -73,7 +73,7 @@ function About() {
      <Image
       className="object-contain w-full mt-8 h-60"
       alt="about Prime Wave"
-      src={maxine}
+      src={victor}
       width={400}
       height={600}
       quality={100}
