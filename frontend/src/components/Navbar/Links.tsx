@@ -44,7 +44,7 @@ export const Pain_Conditions = [
 
 export const Mens_Health = [
  {
-  href: "/erectile-dysfunction-treatment-in-las-vegas",
+  href: "/erectile-dysfunction-treatment-las-vegas",
   description: "",
   name: "Erectile Dysfunction",
  },
@@ -54,7 +54,7 @@ export const Mens_Health = [
   name: "Low Testosterone Treatment",
  },
  {
-  href: "/shockwave-therapy-in-las-vegas",
+  href: "/shockwave-therapy-las-vegas",
   description: "",
   name: "Shock Wave Therapy",
  },
@@ -67,7 +67,7 @@ export const Aesthetics = [
   name: "Facials Treatment",
  },
  {
-  href: "/prp-facial-in-las-vegas",
+  href: "/prp-facial-las-vegas",
   description: "",
   name: "PRP Facials",
  },
