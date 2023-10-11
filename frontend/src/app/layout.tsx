@@ -1,4 +1,3 @@
-import FacebookPixel from "@/components/FacebookPixel";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
@@ -9,7 +8,6 @@ import "@/styles/globals.css";
 import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
-
 import { Inter } from "next/font/google";
 import { Suspense } from "react";
 import Loading from "./Loading";
@@ -98,9 +96,6 @@ export default function RootLayout({
     </main>
     <Suspense fallback={<Loading />}>
      <CookieBanner />
-    </Suspense>
-    <Suspense fallback={<Loading />}>
-     <FacebookPixel />
     </Suspense>
    </body>
   </html>
