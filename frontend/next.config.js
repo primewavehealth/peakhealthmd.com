@@ -47,12 +47,12 @@ const nextConfig = {
   return [
    {
     source: "/pain-treatment-in-las-vegas",
-    destination: "/pain-management-in-las-vegas",
+    destination: "/pain-management-clinics-in-las-vegas",
     permanent: true,
    },
    {
-    source: "/neck-pain",
-    destination: "/neck-pain-las-vegas",
+    source: "/pain-management-in-las-vegas",
+    destination: "/pain-management-clinics-in-las-vegas",
     permanent: true,
    },
    {

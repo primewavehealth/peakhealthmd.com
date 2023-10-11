@@ -1,6 +1,6 @@
 export const Pain_Conditions = [
  {
-  href: "/pain-management-in-las-vegas",
+  href: "/pain-management-clinics-in-las-vegas",
   description: "",
   name: "Pain Management",
  },

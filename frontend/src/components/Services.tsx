@@ -35,7 +35,7 @@ const mobileData = [
 
  {
   name: "Ed Treatment",
-  href: "/erectile-dysfunction-treatment-in-las-vegas",
+  href: "/erectile-dysfunction-treatment-las-vegas",
   text:
    "Erectile dysfunction is common but treatable. Explore our solutions for renewed confidence and a fulfilling sex life.",
  },
