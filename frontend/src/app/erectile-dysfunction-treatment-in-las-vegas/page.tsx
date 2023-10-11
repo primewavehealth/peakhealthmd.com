@@ -8,6 +8,9 @@ export const metadata: Metadata = {
  title: "Affordable Erectile Dysfunction Treatment in Las Vegas",
  description:
   "Affordable erectile dysfunction treatment in Las Vegas: Rediscover confidence and intimacy without straining your wallet. Expert care at budget-friendly prices",
+ alternates: {
+  canonical: "/erectile-dysfunction-treatment-las-vegas",
+ },
 };
 
 function page() {

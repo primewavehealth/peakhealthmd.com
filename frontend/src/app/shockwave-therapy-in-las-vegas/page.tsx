@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Shock Wave Therapy in Las Vegas",
  description:
   "Find relief from chronic pain with shockwave therapy in Las Vegas - a safe and effective treatment that can help you get back to your active lifestyle.",
+ alternates: {
+  canonical: "/shockwave-therapy-las-vegas",
+ },
 };
 
 function Shockwave() {

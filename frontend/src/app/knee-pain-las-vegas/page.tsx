@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Knee Pain Treatment in Las Vegas",
  description:
   "Affordable knee pain treatment in Las Vegas: Say goodbye to discomfort, regain mobility, and enjoy life fully with our specialized care.",
+ alternates: {
+  canonical: "/knee-pain-las-vegas",
+ },
 };
 
 function page() {

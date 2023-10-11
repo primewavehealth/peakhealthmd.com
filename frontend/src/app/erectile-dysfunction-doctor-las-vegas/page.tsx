@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Erectile Dysfunction Doctor in Las Vegas",
  description:
   "Trusted Erectile Dysfunction Doctor in Las Vegas: Expert care, personalized treatment. Regain your confidence and vitality. Book your consultation today!",
+ alternates: {
+  canonical: "/erectile-dysfunction-doctor-las-vegas",
+ },
 };
 
 function page() {

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
  title: "Chronic Fatigue Syndrome Treatment in Las Vegas",
  description:
   "Get relief from chronic fatigue syndrome with our specialized fatigue treatment in Las Vegas.",
+ alternates: {
+  canonical: "/chronic-fatigue-syndrome-las-vegas",
+ },
 };
 
 function page() {

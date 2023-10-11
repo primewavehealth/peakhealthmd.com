@@ -6,9 +6,12 @@ import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
 
 export const metadata: Metadata = {
- title: "Affordable Lower Back Pain Treatment in Las Vegas",
+ title: "Affordable Back Pain Treatment in Las Vegas",
  description:
   "Affordable lower back pain treatment in Las Vegas: Get relief and regain your active life. Expert care that fits your budget.",
+ alternates: {
+  canonical: "/back-pain-las-vegas",
+ },
 };
 
 const jsonLd = {
