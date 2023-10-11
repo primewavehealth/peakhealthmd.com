@@ -1,17 +1,13 @@
 import Link from "next/link";
+import YoutubeEmbed from "./Video";
 
 function AboutSection() {
  return (
   <section className="text-blue-900">
    <div className="mx-auto lg:my-16 max-w-screen-2xl">
     <div className="grid grid-cols-1 lg:grid-cols-2">
-     <div className="relative mx-auto lg:pt-12 ">
-      <iframe
-       width="750"
-       height="700"
-       src="https://www.zygotebody.com"
-       frameBorder="0"
-      ></iframe>
+     <div className="relative mx-auto lg:pt-20 ">
+      <YoutubeEmbed />
      </div>
      <div className="p-8 md:p-12 lg:px-16 lg:py-30">
       <div className="max-w-xl px-6 pt-12 mx-auto space-y-3">
