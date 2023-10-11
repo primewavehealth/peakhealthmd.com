@@ -2,12 +2,15 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import peptide from "/public/images/peptide.jpg";
 
-/* export const metadata: Metadata = {
+export const metadata: Metadata = {
  title: "Peptide Therapy in Las Vegas",
  description:
   "Transform your health and well-being with peptide therapy in Las Vegas - a cutting-edge treatment that can enhance your physical and mental performance.",
-}; */
-export const metadata: Metadata = {
+ alternates: {
+  canonical: "/peptide-therapy-las-vegas",
+ },
+};
+/* export const metadata: Metadata = {
  robots: {
   index: false,
   follow: false,
@@ -17,7 +20,7 @@ export const metadata: Metadata = {
    follow: false,
   },
  },
-};
+}; */
 
 function page() {
  return (

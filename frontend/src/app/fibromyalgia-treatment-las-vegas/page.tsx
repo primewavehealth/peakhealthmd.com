@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Affordable Fibromyalgia Treatment in Las Vegas",
  description:
   "Find relief from the symptoms of fibromyalgia with our specialized fibromyalgia treatment in Las Vegas.",
+ alternates: {
+  canonical: "/fibromyalgia-treatment-las-vegas",
+ },
 };
 
 function page() {

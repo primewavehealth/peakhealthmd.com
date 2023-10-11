@@ -8,6 +8,9 @@ export const metadata: Metadata = {
  title: "Affordable Chronic Pain Treatment in Las Vegas",
  description:
   "Affordable chronic pain treatment in Las Vegas: Take control of your life again with our expert care. Experience relief without the high costs.",
+ alternates: {
+  canonical: "/chronic-pain-las-vegas",
+ },
 };
 
 function page() {

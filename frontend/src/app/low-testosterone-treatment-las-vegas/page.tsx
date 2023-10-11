@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Affordable Low Testosterone Treatment in Las Vegas",
  description:
   "Affordable low testosterone treatment in Las Vegas: Rejuvenate your vitality without breaking the bank. Expert care for lasting results at budget-friendly prices.",
+ alternates: {
+  canonical: "/low-testosterone-treatment-las-vegas",
+ },
 };
 
 function page() {

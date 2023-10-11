@@ -8,6 +8,9 @@ export const metadata: Metadata = {
  title: "Affordable Joint Pain Treatment in Las Vegas",
  description:
   "Affordable joint pain treatment in Las Vegas: Regain mobility and relief without breaking the bank. Trust our experts for lasting comfort",
+ alternates: {
+  canonical: "/joint-pain-las-vegas",
+ },
 };
 
 function page() {

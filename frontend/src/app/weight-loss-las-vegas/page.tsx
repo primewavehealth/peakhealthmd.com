@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Medical Weight Loss Service in Las Vegas",
  description:
   "Achieve your weight loss goals with our proven and personalized weight loss service in Las Vegas - transform your body and improve your health today.",
+ alternates: {
+  canonical: "/weight-loss-las-vegas",
+ },
 };
 
 function Weightloss() {

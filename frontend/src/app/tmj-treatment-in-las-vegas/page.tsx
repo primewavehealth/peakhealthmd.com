@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "TMJ Treatment in Las Vegas",
  description:
   "Discover effective TMJ treatment options in Las Vegas. Find relief from jaw pain, headaches, and discomfort at our specialized pain clinic.",
+ alternates: {
+  canonical: "/tmj-treatment-in-las-vegas",
+ },
 };
 
 function page() {

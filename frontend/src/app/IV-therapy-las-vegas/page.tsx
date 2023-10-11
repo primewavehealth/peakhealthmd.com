@@ -8,6 +8,9 @@ export const metadata: Metadata = {
  title: "IV Therapy in Las Vegas",
  description:
   "Revitalize your body and boost your energy levels with IV therapy at our Las Vegas medical practice.",
+ alternates: {
+  canonical: "/IV-therapy-las-vegas",
+ },
 };
 
 function page() {

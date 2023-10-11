@@ -9,6 +9,9 @@ export const metadata: Metadata = {
  title: "About Primewave Health",
  description:
   "Discover relief at Lass Vegas's premier pain control clinic. Our experts utilize cutting-edge techniques to manage and alleviate pain, restoring your quality of life.",
+ alternates: {
+  canonical: "/about-primewave",
+ },
 };
 
 function About() {

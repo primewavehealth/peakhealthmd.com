@@ -7,6 +7,9 @@ export const metadata: Metadata = {
  title: "Affordable Neck Pain Treatment in Las Vegas",
  description:
   "Affordable neck pain treatment in Las Vegas: Expert care to relieve your discomfort and restore your quality of life. Get relief today!",
+ alternates: {
+  canonical: "/neck-pain-las-vegas",
+ },
 };
 
 function page() {
