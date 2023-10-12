@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Navbar from "@/components/Navbar/Navbar";
 import Topbar from "@/components/Topbar";
 import ToasterProvider from "@/lib/ToastProvider";
@@ -8,8 +7,7 @@ import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Suspense } from "react";
-import Loading from "./Loading";
+import Script from "next/script";
 
 const GTM_ID = "GTM-NFW6JJZC";
 
@@ -84,7 +82,7 @@ export default function RootLayout({
     inter.variable
    )}
   >
-   {/* <Script id="google-tag-manager" strategy="afterInteractive">
+   <Script id="google-tag-manager" strategy="afterInteractive">
     {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -92,10 +90,10 @@ export default function RootLayout({
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
-   </Script> */}
-   <Suspense fallback={<Loading />}>
+   </Script>
+   {/*  <Suspense fallback={<Loading />}>
     <GoogleAnalytics GA_MEASUREMENT_ID="G-HH6TSN7KTX" />
-   </Suspense>
+   </Suspense> */}
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
@@ -107,11 +105,11 @@ export default function RootLayout({
     {/* <Suspense fallback={<Loading />}>
      <CookieBanner />
     </Suspense> */}
-    {/*  <noscript
+    <noscript
      dangerouslySetInnerHTML={{
       __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
      }}
-    /> */}
+    />
    </body>
   </html>
  );
