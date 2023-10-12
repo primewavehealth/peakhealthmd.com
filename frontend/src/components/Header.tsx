@@ -71,7 +71,10 @@ function Header() {
       </div>
 
       <div className="block md:hidden">
-       <button className="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75">
+       <button
+        id="nav"
+        className="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75"
+       >
         <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-5 h-5"
