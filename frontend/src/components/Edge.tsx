@@ -1,8 +1,8 @@
 function Edge() {
  return (
   <section className="w-5/6 mx-auto my-12 rounded-lg drop-shadow-xl">
-   <div className="container flex flex-col-reverse mx-auto lg:flex-row">
-    <div className="flex flex-col px-6 py-8 space-y-6 text-white bg-blue-800 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5">
+   <div className="container flex flex-col-reverse mx-auto">
+    <div className="flex flex-col px-6 py-8 space-y-6 text-white bg-blue-800 rounded-sm sm:p-8">
      <div className="flex space-x-2 sm:space-x-4">
       <svg
        xmlns="http://www.w3.org/2000/svg"
@@ -74,14 +74,13 @@ function Edge() {
       </div>
      </div>
     </div>
-    <div className="bg-blue-200 lg:w-1/2 xl:w-3/5 dark:bg-gray-800">
-     <div className="flex items-center justify-center py-12">
-      <h2 className="text-4xl font-black text-center text-blue-900 lg:pt-14 sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white">
-       Why Choose <br className="hidden lg:block" />{" "}
+    <div className="bg-blue-200 dark:bg-gray-800">
+     <div className="flex items-center justify-center py-6">
+      <h2 className="text-3xl font-black text-center text-blue-900 md:text-left sm:mx-auto sm:w-10/12 sm:text-4xl dark:text-white">
+       Why Choose{" "}
        <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
         Primewave
        </span>
-       .
       </h2>
      </div>
     </div>
