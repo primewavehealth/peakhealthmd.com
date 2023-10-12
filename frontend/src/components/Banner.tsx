@@ -67,13 +67,14 @@ function Banner() {
     <div className="hidden lg:block lg:w-1/2 clip-bg">
      <div className="w-full h-full">
       <Image
-       alt="neck-pain"
+       alt="banner"
        src="/images/prime-couple.jpg"
        className="object-cover"
        width={1000}
        height={1000}
        sizes="100vw"
        quality={100}
+       priority
       />
       <div className="h-full bg-blue-800 opacity-75"></div>
      </div>
