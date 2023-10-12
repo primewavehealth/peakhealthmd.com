@@ -1,30 +1,22 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
-import Edge from "@/components/Edge";
 import HomeCTA from "@/components/HomeCTA";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
+import type { Metadata } from "next";
 import Script from "next/script";
 
-export async function generateMetadata() {
- return {
-  title: "Affordable Pain Care in Las Vegas",
-  description:
-   "Discover affordable pain care services in Las Vegas. From back pain to joint pain, our expert treatments restore comfort and mobility. Your relief, your budget.",
-  alternates: {
-   canonical: "/",
-  },
- };
-}
-
-/* export const metadata: Metadata = {
+export const metadata: Metadata = {
  title: "Affordable Pain Care in Las Vegas",
  description:
   "Discover affordable pain care services in Las Vegas. From back pain to joint pain, our expert treatments restore comfort and mobility. Your relief, your budget.",
-}; */
+ alternates: {
+  canonical: "/",
+ },
+};
 
 const jsonLd = {
  "@context": "https://schema.org",
@@ -67,7 +59,6 @@ export default function Home() {
   <main className="container flex flex-col overflow-x-hidden">
    <Banner />
    <AboutSection />
-   <Edge />
    <Services />
    <Team />
    <SectionTitle
