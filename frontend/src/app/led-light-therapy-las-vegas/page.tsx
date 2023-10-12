@@ -37,6 +37,7 @@ function page() {
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "schedule",
 
      icon: (
       <svg
@@ -169,6 +170,7 @@ Prime Wave offers different types of light therapy, including blue light therapy
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "cta",
 
      icon: (
       <svg

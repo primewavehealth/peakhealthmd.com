@@ -55,6 +55,7 @@ function Page() {
     btn={{
      href: "https://cal.com/primewavehealth/facials",
      text: "Schedule An Appointment",
+     id: "schedule",
 
      icon: (
       <svg
@@ -218,8 +219,8 @@ Choose from our selection of facials, including anti-aging, acne, brightening, a
     alt="facials-treatment-las-vegas"
     btn={{
      href: "https://cal.com/primewavehealth/facials",
-
      text: "Schedule An Appointment",
+     id: "cta",
 
      icon: (
       <svg

@@ -63,6 +63,7 @@ function page() {
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "schedule",
 
      icon: (
       <svg
@@ -212,6 +213,7 @@ function page() {
 
        <div className="">
         <Button
+         id="request"
          text="Request Consultation"
          href="https://primewavehealth.setmore.com"
          icon=<svg
@@ -277,6 +279,7 @@ function page() {
        <br />
        <div className="">
         <Button
+         id="consult"
          text="Request Consultation"
          href="https://primewavehealth.setmore.com"
          icon=<svg

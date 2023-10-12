@@ -29,6 +29,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "schedule",
 
      icon: (
       <svg
@@ -161,6 +162,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "cta",
 
      icon: (
       <svg
