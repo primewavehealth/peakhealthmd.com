@@ -29,7 +29,13 @@ const PageBanner = (allprops: PageBannerInterface & imageProps) => {
       <h1 className="text-2xl font-bold sm:text-3xl">{heading}</h1>
       {subheading && <h3 className="">{subheading}</h3>}
       <p className="mt-4 text-justify">{body}</p>
-      <Button text={btn.text} icon={btn.icon} link={btn.link} href={btn.href} />
+      <Button
+       text={btn.text}
+       id={btn.id}
+       icon={btn.icon}
+       link={btn.link}
+       href={btn.href}
+      />
      </div>
     </div>
    </div>

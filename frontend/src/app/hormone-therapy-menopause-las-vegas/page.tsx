@@ -35,6 +35,7 @@ function page() {
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "schedule",
      icon: (
       <svg
        fill="none"
@@ -241,6 +242,7 @@ function page() {
     btn={{
      href: "https://primewavehealth.setmore.com",
      text: "Schedule An Appointment",
+     id: "cta",
 
      icon: (
       <svg
