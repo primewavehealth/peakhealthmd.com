@@ -39,6 +39,7 @@ export default function CookieBanner() {
 
    <div className="flex gap-2">
     <button
+     id="cookiebanner"
      className="px-5 py-2 text-gray-300 border-gray-900 rounded-md"
      onClick={() => setCookieConsent(false)}
     >
@@ -46,6 +47,7 @@ export default function CookieBanner() {
     </button>
     <button
      className="px-5 py-2 text-white bg-gray-900 rounded-lg"
+     id="setCookieConsent"
      onClick={() => setCookieConsent(true)}
     >
      Allow Cookies

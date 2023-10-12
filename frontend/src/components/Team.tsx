@@ -24,7 +24,7 @@ export default function Team() {
        height={281}
       />
       <div>
-       <h4 className="text-2xl">Dr. Victor Kim</h4>
+       <h3 className="text-2xl">Dr. Victor Kim</h3>
        <span className="block text-sm text-gray-500">Osteopathic Medicine</span>
       </div>
      </div>
@@ -38,7 +38,7 @@ export default function Team() {
        height={281}
       />
       <div>
-       <h4 className="text-2xl">Dr. Kyrah Bacote</h4>
+       <h3 className="text-2xl">Dr. Kyrah Bacote</h3>
        <span className="block text-sm text-gray-500">Integrative Medicine</span>
       </div>
      </div>

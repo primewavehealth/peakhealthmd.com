@@ -18,6 +18,7 @@ function CTASection() {
        <div className="flex flex-wrap justify-center space-x-2 lg:space-x-4 lg:justify-end">
         <Button
          text="Book An Appointment"
+         id="book"
          href="https://primewavehealth.setmore.com"
          icon=<svg
           fill="none"
@@ -33,6 +34,7 @@ function CTASection() {
         />
         <Button
          text="Contact Us"
+         id="contact"
          href="/contact"
          icon=<svg
           fill="none"

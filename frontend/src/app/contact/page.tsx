@@ -366,6 +366,7 @@ export default function Form() {
 
         <div className="flex items-center justify-between gap-10">
          <button
+          id="contact"
           className={`${
            isSubmitting
             ? "opacity-50 cursor-not-allowed"

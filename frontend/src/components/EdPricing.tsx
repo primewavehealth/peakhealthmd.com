@@ -81,7 +81,10 @@ function EdPrincing() {
         </span>
         DOCTOR CONSULTATION ( PRE AND POST)
        </p>
-       <button className="flex items-center w-full px-4 py-2 mt-auto text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-gray-500">
+       <button
+        id="schedule"
+        className="flex items-center w-full px-4 py-2 mt-auto text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-gray-500"
+       >
         Schedule an Appointment
         <svg
          fill="none"
@@ -170,7 +173,10 @@ function EdPrincing() {
         </span>
         DOCTOR CONSULTATION
        </p>
-       <button className="flex items-center w-full px-4 py-2 mt-auto text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">
+       <button
+        id="appointment"
+        className="flex items-center w-full px-4 py-2 mt-auto text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
+       >
         Schedule An Appointment
         <svg
          fill="none"
@@ -225,7 +231,10 @@ function EdPrincing() {
         DOCTOR CONSULTATION
        </p>
 
-       <button className="flex items-center w-full px-4 py-2 mt-auto text-white bg-orange-600 border-0 rounded focus:outline-none hover:bg-gray-500">
+       <button
+        id="apt"
+        className="flex items-center w-full px-4 py-2 mt-auto text-white bg-orange-600 border-0 rounded focus:outline-none hover:bg-gray-500"
+       >
         Schedule An Appointment
         <svg
          fill="none"
@@ -280,7 +289,10 @@ function EdPrincing() {
         DOCTOR CONSULTATION
        </p>
 
-       <button className="flex items-center w-full px-4 py-2 mt-auto text-white bg-red-600 border-0 rounded focus:outline-none hover:bg-gray-500">
+       <button
+        id="sch"
+        className="flex items-center w-full px-4 py-2 mt-auto text-white bg-red-600 border-0 rounded focus:outline-none hover:bg-gray-500"
+       >
         Schedule An Appointment
         <svg
          fill="none"
