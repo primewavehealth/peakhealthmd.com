@@ -1,3 +1,4 @@
+import Consultation from "@/components/Consultation";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
@@ -48,7 +49,7 @@ function page() {
      <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
       <div className="lg:py-4">
        <div className="max-w-3xl pb-4 mx-auto text-center">
-        <h2 className="text-3xl font-bold sm:text-4xl">
+        <h2 className="text-2xl font-bold sm:text-4xl">
          What is Low Testosterone?
         </h2>
        </div>
@@ -76,7 +77,7 @@ function page() {
 
       <div className="py-4">
        <div className="max-w-3xl pb-4 mx-auto text-justify">
-        <h2 className="text-3xl font-bold sm:text-4xl">
+        <h2 className="text-2xl font-bold sm:text-4xl">
          What are the Symptoms of Low Testosterone?
         </h2>
        </div>
@@ -107,54 +108,62 @@ function page() {
    </section>
 
    {/* next section */}
-   <section className="px-6 pt-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-3xl md:px-24 lg:px-8 ">
-    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
-     <h2 className="mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-      What is Testosterone Replacement Therapy and its Benefits?
-     </h2>
-     <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
-      <p>
-       Testosterone replacement therapy (TRT) is a medical treatment that
-       involves supplementing the body with testosterone to increase low levels
-       of this hormone. Testosterone is a hormone that is important for male
-       development and physical characteristics, such as maintaining muscle
-       mass, bone density, sex drive, and energy levels.The type of TRT and
-       dosage will depend on the individual's specific needs and medical
-       history.
-      </p>
-      <p>
-       TRT can have a range of benefits, including increased sex drive, improved
-       erectile function, increased muscle mass and strength, improved bone
-       density, increased energy levels, and improved mood.
-      </p>
-     </article>
+   <section className="bg-gray-50">
+    <div className="container flex flex-wrap">
+     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4 bg-gray-50">
+      <Consultation />
+     </div>
+     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
+       <h2 className="mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        What is Testosterone Replacement Therapy and its Benefits?
+       </h2>
+       <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
+        <p>
+         Testosterone replacement therapy (TRT) is a medical treatment that
+         involves supplementing the body with testosterone to increase low
+         levels of this hormone. Testosterone is a hormone that is important for
+         male development and physical characteristics, such as maintaining
+         muscle mass, bone density, sex drive, and energy levels.The type of TRT
+         and dosage will depend on the individual's specific needs and medical
+         history.
+        </p>
+        <p>
+         TRT can have a range of benefits, including increased sex drive,
+         improved erectile function, increased muscle mass and strength,
+         improved bone density, increased energy levels, and improved mood.
+        </p>
+       </article>
+      </div>
+
+      <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
+       <span className="py-10">
+        {" "}
+        <span className="text-lg font-bold">We are the go to</span>{" "}
+        <span className="relative inline-block px-2">
+         <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+         <h3 className="relative py-3 text-white">
+          Mens Health Clinic in Las Vegas{" "}
+         </h3>
+        </span>
+       </span>
+      </blockquote>
+      {/* video */}
+      <div className="mx-auto my-12 lg:max-w-xl">
+       <iframe
+        width="450"
+        height="315"
+        src="https://www.youtube.com/embed/II7AG16M6fQ?si=iAnwoZW-TfW9PAU3"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+       ></iframe>
+      </div>
+     </div>
     </div>
    </section>
 
-   <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
-    <span className="py-10">
-     {" "}
-     <span className="text-lg font-bold">We are the go to</span>{" "}
-     <span className="relative inline-block px-2">
-      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
-      <h3 className="relative py-3 text-white">
-       Mens Health Clinic in Las Vegas{" "}
-      </h3>
-     </span>
-    </span>
-   </blockquote>
-   {/* video */}
-   <div className="mx-auto my-12">
-    <iframe
-     width="560"
-     height="315"
-     src="https://www.youtube.com/embed/II7AG16M6fQ?si=iAnwoZW-TfW9PAU3"
-     title="YouTube video player"
-     frameBorder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     allowFullScreen
-    ></iframe>
-   </div>
    <CTA
     heading="Comprehensive Low T Treatment in Las Vegas"
     body="If you're experiencing symptoms of low testosterone, Prime Wave can help. We are a leading trt clinic in Las Vegas. Our experienced board certified doctors provide comprehensive testing and customized treatment plans to help you feel your best. We understand the impact that low testosterone can have on your quality of life, including decreased energy, decreased muscle mass, and decreased libido. That's why we offer a range of treatment options, including testosterone replacement therapy, to help you regain your vitality and confidence. Don't let low testosterone hold you back - contact us today to schedule a consultation and start feeling like yourself again."
