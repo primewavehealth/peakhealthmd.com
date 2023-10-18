@@ -9,6 +9,7 @@ import toast from "react-hot-toast";
 import { z } from "zod";
 
 // Define Zod schema for validation
+
 const formSchema = z.object({
  name: z
   .string()
@@ -192,11 +193,6 @@ function Consultation() {
         showTimeSelect
         filterDate={isWeekday}
         dateFormat="MMMM d, yyyy h:mm aa"
-        holidays={[
-         { date: "2023-12-25", holidayName: "Christmas" },
-         { date: "2024-01-01", holidayName: "New Year's Day" },
-         { date: "2023-11-23", holidayName: "Thanksgiving Day" },
-        ]}
        />
       )}
      />
