@@ -1,3 +1,4 @@
+import Consultation from "@/components/Consultation";
 import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
@@ -81,95 +82,100 @@ function page() {
     }}
    />
    {/* next section */}
-   <section className="">
-    <div className="max-w-screen-xl px-8 py-16 mx-auto text-lg">
-     <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-       What is Chronic Back Pain?
-      </h2>
-
-      <article className="space-y-4 text-justify text-gray-600 ">
-       <p>
-        Chronic back pain refers to persistent or long-lasting pain in the back
-        that persists for a duration of three months or more. It is different
-        from acute back pain, which typically lasts for a short period and is
-        often associated with a specific injury or trauma. Chronic back pain can
-        be a complex condition that affects millions of people worldwide and can
-        have a significant impact on daily life. The experience of chronic back
-        pain can vary widely among individuals, both in terms of the intensity
-        of pain and the specific symptoms experienced.
-       </p>
-      </article>
+   <section className="bg-white">
+    <div className="container flex flex-wrap">
+     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4">
+      <Consultation />
      </div>
-     <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-       What Causes Chronic Back Pain?
-      </h2>
+     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+      <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
+        What is Chronic Back Pain?
+       </h2>
 
-      <article className="space-y-4 text-justify text-gray-600 ">
-       <p>
-        Back pain can occur when any of the structures in the back are affected
-        or injured. Common causes of back pain include muscle strains,sciatica,
-        ligament sprains, herniated discs, degenerative disc disease,
-        osteoarthritis, spinal stenosis, and abnormalities like scoliosis.
-        Injuries from accidents or falls can also lead to back pain. Poor
-        posture, lack of exercise, obesity, and sedentary lifestyle can
-        contribute to the development of back pain. When the structures of the
-        back are compromised or subjected to excessive stress, it can result in
-        localized pain, radiating pain, stiffness, muscle spasms, and limited
-        range of motion.
-       </p>
-      </article>
-     </div>
-     <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-       Symptoms of Chronic Lower Back Pain
-      </h2>
+       <article className="space-y-4 text-justify text-gray-600 ">
+        <p>
+         Chronic back pain refers to persistent or long-lasting pain in the back
+         that persists for a duration of three months or more. It is different
+         from acute back pain, which typically lasts for a short period and is
+         often associated with a specific injury or trauma. Chronic back pain
+         can be a complex condition that affects millions of people worldwide
+         and can have a significant impact on daily life. The experience of
+         chronic back pain can vary widely among individuals, both in terms of
+         the intensity of pain and the specific symptoms experienced.
+        </p>
+       </article>
+      </div>
+      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-2xl font-bold text-center md:text-4xl">
+        What Causes Chronic Back Pain?
+       </h2>
 
-      <article className="space-y-4 text-justify text-gray-600 ">
-       <p>
-        Constant or intermittent pain: Chronic back pain can be present
-        continuously or may come and go in episodes. The pain may vary in
-        intensity, ranging from mild to severe.
-       </p>
-       <p>
-        Dull, aching, or throbbing pain: The pain is often described as a
-        persistent ache, dull sensation, or throbbing discomfort in the back. It
-        may be localized to a specific area or may radiate to other parts of the
-        body, such as the hips, buttocks, or legs.
-       </p>
-       <p>
-        Stiffness and reduced flexibility: Chronic back pain can lead to
-        stiffness and limited range of motion in the back. This stiffness may be
-        more pronounced after prolonged periods of inactivity, such as waking up
-        in the morning or sitting for extended periods.
-       </p>
-       <p>
-        Shooting or sharp pain: Some individuals with chronic back pain may
-        experience sharp, shooting pain that radiates down the legs. This type
-        of pain is commonly associated with conditions like sciatica, where the
-        sciatic nerve is compressed or irritated.
-       </p>
-       <p>
-        Muscle spasms: Chronic back pain can be accompanied by muscle spasms,
-        which are involuntary contractions of the back muscles. These spasms can
-        cause sudden, intense pain and may be triggered by certain movements or
-        activities.
-       </p>
-       <p>
-        Fatigue and sleep disturbances: Living with chronic pain can lead to
-        fatigue and disrupt sleep patterns. Poor sleep quality and lack of
-        restorative sleep can further contribute to the perception of pain and
-        affect overall well-being.
-       </p>
-       <p>
-        Emotional and psychological impact: Chronic back pain can take a toll on
-        a person's emotional well-being. It can lead to feelings of frustration,
-        anxiety, stress, or depression. The persistent nature of the pain and
-        its impact on daily activities and quality of life can contribute to
-        emotional distress.
-       </p>
-      </article>
+       <article className="space-y-4 text-justify text-gray-600 ">
+        <p>
+         Back pain can occur when any of the structures in the back are affected
+         or injured. Common causes of back pain include muscle strains,sciatica,
+         ligament sprains, herniated discs, degenerative disc disease,
+         osteoarthritis, spinal stenosis, and abnormalities like scoliosis.
+         Injuries from accidents or falls can also lead to back pain. Poor
+         posture, lack of exercise, obesity, and sedentary lifestyle can
+         contribute to the development of back pain. When the structures of the
+         back are compromised or subjected to excessive stress, it can result in
+         localized pain, radiating pain, stiffness, muscle spasms, and limited
+         range of motion.
+        </p>
+       </article>
+      </div>
+      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
+        Symptoms of Chronic Back Pain
+       </h2>
+
+       <article className="space-y-4 text-justify text-gray-600 ">
+        <p>
+         Constant or intermittent pain: Chronic back pain can be present
+         continuously or may come and go in episodes. The pain may vary in
+         intensity, ranging from mild to severe.
+        </p>
+        <p>
+         Dull, aching, or throbbing pain: The pain is often described as a
+         persistent ache, dull sensation, or throbbing discomfort in the back.
+         It may be localized to a specific area or may radiate to other parts of
+         the body, such as the hips, buttocks, or legs.
+        </p>
+        <p>
+         Stiffness and reduced flexibility: Chronic back pain can lead to
+         stiffness and limited range of motion in the back. This stiffness may
+         be more pronounced after prolonged periods of inactivity, such as
+         waking up in the morning or sitting for extended periods.
+        </p>
+        <p>
+         Shooting or sharp pain: Some individuals with chronic back pain may
+         experience sharp, shooting pain that radiates down the legs. This type
+         of pain is commonly associated with conditions like sciatica, where the
+         sciatic nerve is compressed or irritated.
+        </p>
+        <p>
+         Muscle spasms: Chronic back pain can be accompanied by muscle spasms,
+         which are involuntary contractions of the back muscles. These spasms
+         can cause sudden, intense pain and may be triggered by certain
+         movements or activities.
+        </p>
+        <p>
+         Fatigue and sleep disturbances: Living with chronic pain can lead to
+         fatigue and disrupt sleep patterns. Poor sleep quality and lack of
+         restorative sleep can further contribute to the perception of pain and
+         affect overall well-being.
+        </p>
+        <p>
+         Emotional and psychological impact: Chronic back pain can take a toll
+         on a person's emotional well-being. It can lead to feelings of
+         frustration, anxiety, stress, or depression. The persistent nature of
+         the pain and its impact on daily activities and quality of life can
+         contribute to emotional distress.
+        </p>
+       </article>
+      </div>
      </div>
     </div>
    </section>
@@ -189,7 +195,7 @@ function page() {
       </div>
 
       <div>
-       <h2 className="text-3xl font-bold sm:text-4xl">
+       <h2 className="text-2xl font-bold md:text-4xl">
         How We Treat Back Pain
        </h2>
 
@@ -236,7 +242,7 @@ function page() {
    {/* next section */}
    <section className="bg-slate-100">
     <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
-     <h2 className="text-2xl font-bold sm:text-3xl">
+     <h2 className="py-4 text-2xl font-bold md:text-4xl">
       Why Choose Primewave for your Lower Back Pain Treatment in Las Vegas?
      </h2>
      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 lg:py-12">

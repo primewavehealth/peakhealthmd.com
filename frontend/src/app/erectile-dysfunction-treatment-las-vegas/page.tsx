@@ -1,3 +1,4 @@
+import Consultation from "@/components/Consultation";
 import Button from "@/components/UI/Button";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
@@ -126,53 +127,61 @@ function page() {
    </section>
    {/*  <EdPricing /> */}
    {/* next section */}
-   <section className="px-6 pt-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 ">
-    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
-     <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-      Erectile Dysfunction Treatment Options
-     </h2>
-     <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
-      <p>
-       We are the choice ED Clinic in Las Vegas. We understand that erectile
-       dysfunction can be a sensitive and difficult issue to discuss. That's why
-       we offer personalized and discreet consultations to help patients
-       understand their condition and develop an effective treatment plan.
-       During your consultation, our ed specialist in Las Vegas will conduct a
-       comprehensive medical history and physical exam, as well as discuss your
-       symptoms and concerns in a private and confidential setting. We will work
-       closely with you to develop a personalized treatment plan that addresses
-       your unique needs and goals, taking into account your medical history,
-       lifestyle, and other factors. Our goal is to provide you with the highest
-       level of care and support, so you can effectively manage your symptoms
-       and achieve a satisfying sex life.
-      </p>
-     </article>
+   <section className="bg-gray-50">
+    <div className="container flex flex-wrap">
+     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4 bg-gray-50">
+      <Consultation />
+     </div>
+     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
+       <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        Erectile Dysfunction Treatment Options
+       </h2>
+       <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
+        <p>
+         We are the choice ED Clinic in Las Vegas. We understand that erectile
+         dysfunction can be a sensitive and difficult issue to discuss. That's
+         why we offer personalized and discreet consultations to help patients
+         understand their condition and develop an effective treatment plan.
+         During your consultation, our ed specialist in Las Vegas will conduct a
+         comprehensive medical history and physical exam, as well as discuss
+         your symptoms and concerns in a private and confidential setting. We
+         will work closely with you to develop a personalized treatment plan
+         that addresses your unique needs and goals, taking into account your
+         medical history, lifestyle, and other factors. Our goal is to provide
+         you with the highest level of care and support, so you can effectively
+         manage your symptoms and achieve a satisfying sex life.
+        </p>
+       </article>
+      </div>
+
+      <blockquote className="max-w-xl pb-12 mx-auto">
+       <span className="py-10">
+        {" "}
+        <span className="text-lg font-bold">We are the destination</span>{" "}
+        <span className="relative inline-block px-2">
+         <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+         <h3 className="relative py-3 text-white">
+          ED Clinic in Las Vegas, Nevada
+         </h3>
+        </span>
+       </span>
+      </blockquote>
+      {/* video */}
+      <div className="mx-auto my-12 lg:max-w-xl">
+       <iframe
+        width="450"
+        height="315"
+        src="https://www.youtube.com/embed/4iOjUMIDsiw?si=wp7kN2sfhUfoNK0B"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+       ></iframe>
+      </div>
+     </div>
     </div>
    </section>
-   <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto">
-    <span className="py-10">
-     {" "}
-     <span className="text-lg font-bold">We are the destination</span>{" "}
-     <span className="relative inline-block px-2">
-      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
-      <h3 className="relative py-3 text-white">
-       ED Clinic in Las Vegas, Nevada
-      </h3>
-     </span>
-    </span>
-   </blockquote>
-   {/* video */}
-   <div className="mx-auto my-12">
-    <iframe
-     width="560"
-     height="315"
-     src="https://www.youtube.com/embed/4iOjUMIDsiw?si=wp7kN2sfhUfoNK0B"
-     title="YouTube video player"
-     frameBorder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-     allowFullScreen
-    ></iframe>
-   </div>
    <CTA
     heading="Wave Goodbye to Weak Erection"
     subheading=" Say No to ED Disorder"

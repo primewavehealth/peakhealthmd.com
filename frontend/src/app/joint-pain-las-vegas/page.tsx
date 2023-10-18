@@ -1,3 +1,4 @@
+import Consultation from "@/components/Consultation";
 import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
@@ -45,113 +46,119 @@ function page() {
    />
    {/* next section */}
    <section className="">
-    <div className="max-w-screen-xl px-8 py-16 mx-auto text-lg">
-     <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-       What is Joint Pain?
-      </h2>
-
-      <article className="space-y-4 text-justify text-gray-600 ">
-       <p>
-        Joint pain refers to discomfort or soreness experienced in the joints,
-        which are the connections between two or more bones in the body. Joints
-        are complex structures that allow for movement and provide support to
-        the skeletal system. They are composed of bones, cartilage, ligaments,
-        tendons, and other tissues. The ends of the bones within a joint are
-        covered with a layer of smooth cartilage, which helps reduce friction
-        and absorb shock during movement. Surrounding the joint is the synovial
-        membrane, which produces synovial fluid to lubricate the joint and
-        provide nourishment to the cartilage. Ligaments connect the bones,
-        providing stability, while tendons connect muscles to bones, enabling
-        movement. Joint pain can occur due to various reasons, including
-        inflammation, injury, degeneration, or underlying medical conditions.
-       </p>
-      </article>
+    <div className="container flex flex-wrap">
+     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4">
+      <Consultation />
      </div>
-     <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-       What Causes Joint Pain?
-      </h2>
+     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+      <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        What is Joint Pain?
+       </h2>
 
-      <article className="space-y-4 text-justify text-gray-600 ">
-       <p>
-        Inflammatory Conditions: Conditions such as arthritis (e.g., rheumatoid
-        arthritis, psoriatic arthritis) and autoimmune diseases can cause
-        inflammation in the joints, leading to pain, swelling, and stiffness.
-       </p>
-       <p>
-        Degenerative Conditions: Degenerative joint diseases, such as
-        osteoarthritis, occur when the cartilage in the joints gradually wears
-        down, resulting in joint pain, stiffness, and reduced mobility.
-       </p>
-       <p>
-        Injuries: Joint pain can be caused by injuries, such as sprains,
-        strains, dislocations, or fractures. These injuries can damage the
-        structures within the joint, including ligaments, tendons, and
-        cartilage.
-       </p>
-       <p>
-        Overuse or Repetitive Strain: Continuous or repetitive movements,
-        excessive stress, or overuse of joints, particularly in sports or
-        certain occupations, can lead to joint pain and inflammation.
-       </p>
-       <p>
-        Infections: Infections, such as septic arthritis, can cause joint pain
-        by affecting the synovial membrane and joint structures.
-       </p>
-       <p>
-        Other Factors: Joint pain can also be influenced by factors such as age,
-        genetics, obesity, hormonal changes, and certain systemic diseases.
-       </p>
-      </article>
-     </div>
-     <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-       Symptoms of Joint Pain
-      </h2>
+       <article className="space-y-4 text-justify text-gray-600 ">
+        <p>
+         Joint pain refers to discomfort or soreness experienced in the joints,
+         which are the connections between two or more bones in the body. Joints
+         are complex structures that allow for movement and provide support to
+         the skeletal system. They are composed of bones, cartilage, ligaments,
+         tendons, and other tissues. The ends of the bones within a joint are
+         covered with a layer of smooth cartilage, which helps reduce friction
+         and absorb shock during movement. Surrounding the joint is the synovial
+         membrane, which produces synovial fluid to lubricate the joint and
+         provide nourishment to the cartilage. Ligaments connect the bones,
+         providing stability, while tendons connect muscles to bones, enabling
+         movement. Joint pain can occur due to various reasons, including
+         inflammation, injury, degeneration, or underlying medical conditions.
+        </p>
+       </article>
+      </div>
+      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        What Causes Joint Pain?
+       </h2>
 
-      <article className="space-y-4 text-justify text-gray-600 ">
-       <p>
-        Joint pain can manifest in various ways depending on the underlying
-        cause, but here are some common symptoms associated with joint pain:
-       </p>
-       <p>
-        Pain: Persistent or intermittent pain in one or more joints is the
-        primary symptom. The pain can range from mild to severe and may be
-        described as aching, throbbing, sharp, or dull. The intensity and
-        duration of pain can vary.
-       </p>
-       <p>
-        Swelling: Inflammation within the joint can lead to swelling, which may
-        cause visible enlargement of the affected joint. The swelling can be
-        accompanied by warmth and tenderness around the joint.
-       </p>
-       <p>
-        Stiffness: Joint stiffness refers to a reduced range of motion or
-        difficulty in moving the affected joint. This can make it challenging to
-        perform daily activities or engage in physical tasks.
-       </p>
-       <p>
-        Redness and warmth: Inflammatory conditions can cause increased blood
-        flow to the affected joint, resulting in redness and warmth in the
-        surrounding area.
-       </p>
-       <p>
-        Grinding or popping sensation: Some people may experience a grinding or
-        popping sensation within the joint during movement. This can occur due
-        to damage or irregularities in the joint structure.
-       </p>
-       <p>
-        Weakness: Joint pain can cause muscle weakness in the surrounding area,
-        particularly if the pain limits your ability to exercise or engage in
-        physical activities.
-       </p>
-       <p>
-        Limited mobility: Joint pain often restricts movement, leading to a
-        decreased range of motion. You may find it difficult to bend, flex, or
-        extend the affected joint fully.
-       </p>
-      </article>
+       <article className="space-y-4 text-justify text-gray-600 ">
+        <p>
+         Inflammatory Conditions: Conditions such as arthritis (e.g., rheumatoid
+         arthritis, psoriatic arthritis) and autoimmune diseases can cause
+         inflammation in the joints, leading to pain, swelling, and stiffness.
+        </p>
+        <p>
+         Degenerative Conditions: Degenerative joint diseases, such as
+         osteoarthritis, occur when the cartilage in the joints gradually wears
+         down, resulting in joint pain, stiffness, and reduced mobility.
+        </p>
+        <p>
+         Injuries: Joint pain can be caused by injuries, such as sprains,
+         strains, dislocations, or fractures. These injuries can damage the
+         structures within the joint, including ligaments, tendons, and
+         cartilage.
+        </p>
+        <p>
+         Overuse or Repetitive Strain: Continuous or repetitive movements,
+         excessive stress, or overuse of joints, particularly in sports or
+         certain occupations, can lead to joint pain and inflammation.
+        </p>
+        <p>
+         Infections: Infections, such as septic arthritis, can cause joint pain
+         by affecting the synovial membrane and joint structures.
+        </p>
+        <p>
+         Other Factors: Joint pain can also be influenced by factors such as
+         age, genetics, obesity, hormonal changes, and certain systemic
+         diseases.
+        </p>
+       </article>
+      </div>
+      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        Symptoms of Joint Pain
+       </h2>
+
+       <article className="space-y-4 text-justify text-gray-600 ">
+        <p>
+         Joint pain can manifest in various ways depending on the underlying
+         cause, but here are some common symptoms associated with joint pain:
+        </p>
+        <p>
+         Pain: Persistent or intermittent pain in one or more joints is the
+         primary symptom. The pain can range from mild to severe and may be
+         described as aching, throbbing, sharp, or dull. The intensity and
+         duration of pain can vary.
+        </p>
+        <p>
+         Swelling: Inflammation within the joint can lead to swelling, which may
+         cause visible enlargement of the affected joint. The swelling can be
+         accompanied by warmth and tenderness around the joint.
+        </p>
+        <p>
+         Stiffness: Joint stiffness refers to a reduced range of motion or
+         difficulty in moving the affected joint. This can make it challenging
+         to perform daily activities or engage in physical tasks.
+        </p>
+        <p>
+         Redness and warmth: Inflammatory conditions can cause increased blood
+         flow to the affected joint, resulting in redness and warmth in the
+         surrounding area.
+        </p>
+        <p>
+         Grinding or popping sensation: Some people may experience a grinding or
+         popping sensation within the joint during movement. This can occur due
+         to damage or irregularities in the joint structure.
+        </p>
+        <p>
+         Weakness: Joint pain can cause muscle weakness in the surrounding area,
+         particularly if the pain limits your ability to exercise or engage in
+         physical activities.
+        </p>
+        <p>
+         Limited mobility: Joint pain often restricts movement, leading to a
+         decreased range of motion. You may find it difficult to bend, flex, or
+         extend the affected joint fully.
+        </p>
+       </article>
+      </div>
      </div>
     </div>
    </section>
