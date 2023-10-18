@@ -85,11 +85,11 @@ function Consultation() {
    <div className="flex flex-col justify-center p-8 pt-0">
     <div className="pt-8 lg:pt-16">
      <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white">
-      Free Consultation
+      Schedule Appointment
      </h1>
 
      <p className="w-full mt-4 text-lg font-bold text-gray-500 dark:text-gray-400">
-      Submit Your Details Below To Get A Free Consultation
+      Submit Your Details Below
      </p>
     </div>
     <form onSubmit={handleSubmit(submitHandler)}>
@@ -227,7 +227,7 @@ function Consultation() {
       disabled={isSubmitting}
       onClick={handleSubmit(submitHandler)}
      >
-      Schedule Consultation
+      Schedule Appointment
      </button>
     </form>
    </div>
