@@ -80,7 +80,7 @@ function Consultation() {
  };
 
  return (
-  <section className="dark:bg-gray-900">
+  <section id="form" className="dark:bg-gray-900">
    <div className="flex flex-col justify-center p-8 pt-0">
     <div className="pt-8 lg:pt-16">
      <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white">

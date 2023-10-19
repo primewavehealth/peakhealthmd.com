@@ -24,7 +24,7 @@ function page() {
     width={400}
     alt="Low Testosterone Treatment in Las Vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "#form",
      text: "Schedule An Appointment",
      id: "schedule",
 
