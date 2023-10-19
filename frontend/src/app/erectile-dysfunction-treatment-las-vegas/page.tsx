@@ -168,9 +168,9 @@ function page() {
        </span>
       </blockquote>
       {/* video */}
-      <div className="mx-auto my-12 lg:max-w-xl">
+      <div className="mx-auto my-12 w-fit">
        <iframe
-        width="450"
+        width="400"
         height="315"
         src="https://www.youtube.com/embed/4iOjUMIDsiw?si=wp7kN2sfhUfoNK0B"
         title="YouTube video player"
