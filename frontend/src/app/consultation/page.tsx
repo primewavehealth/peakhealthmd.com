@@ -1,68 +1,9 @@
 "use client";
 
 import Consultation from "@/components/Consultation";
-import { zodResolver } from "@hookform/resolvers/zod";
-import axios from "axios";
 import Link from "next/link";
-import { useForm } from "react-hook-form";
-import toast from "react-hot-toast";
-import { z } from "zod";
-
-// Define Zod schema for validation
-const formSchema = z.object({
- name: z
-  .string()
-  .min(3, "Name must be at least 3 characters")
-  .max(20, "Name is too long"),
- phone: z
-  .string()
-  .min(1, { message: "Phone is required" })
-  .regex(/^(\+?1)?[2-9]\d{2}[2-9](?!11)\d{6}$/, {
-   message: "Must be a valid phone number",
-  }),
- email: z.string().min(1, { message: "Email is required" }).email({
-  message: "Must be a valid email",
- }),
- message: z.string().max(10, "Message cannot be more than 200 characters"),
-});
-
-type FormData = z.infer<typeof formSchema>;
 
 function page() {
- const {
-  register,
-  handleSubmit,
-  reset,
-  formState: { errors, isSubmitting },
- } = useForm<FormData>({
-  mode: "onChange",
-  resolver: zodResolver(formSchema),
- });
-
- const submitHandler = async (data: FormData) => {
-  const config = {
-   method: "post",
-   url: "/api/consultation",
-   headers: {
-    "Content-Type": "application/json",
-   },
-   data: data,
-  };
-  try {
-   const response = await axios(config);
-   if (response.status === 200) {
-    toast.success(
-     "Your message has been sent. Thank you for contacting us. We will get back to you as soon as possible."
-    );
-
-    // Reset the form after successful submission
-    reset();
-   }
-  } catch (err: any) {
-   toast.error(err.response.data.message + ": " + err.response.statusText);
-  }
- };
-
  return (
   <section className="min-h-screen bg-white dark:bg-gray-900 lg:flex">
    <div className="flex flex-col justify-center w-full p-8 lg:w-1/2 lg:bg-gray-100 lg:px-12 lg:dark:bg-gray-800 xl:px-32">
@@ -125,13 +66,6 @@ function page() {
         />
        </svg>
       </Link>
-     </div>
-     <div className="pt-6">
-      Click{" "}
-      <Link target="_blank" href="https://primewavehealth.setmore.com">
-       Here{" "}
-      </Link>
-      {}to Book An Appointment
      </div>
     </div>
    </div>
