@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 
 export const metadata: Metadata = {
- title: "Affordable Erectile Dysfunction Treatment in Las Vegas",
+ title: "Erectile Dysfunction Treatment in Las Vegas",
  description:
   "Affordable erectile dysfunction treatment in Las Vegas: Rediscover confidence and intimacy without straining your wallet. Expert care at budget-friendly prices",
  alternates: {
@@ -18,7 +18,7 @@ function page() {
  return (
   <>
    <PageBanner
-    heading="Affordable Erectile Dysfunction Treatment in Las Vegas"
+    heading="Erectile Dysfunction Treatment in Las Vegas"
     body="Unlock a renewed sense of vitality and confidence with our affordable erectile dysfunction treatment in Las Vegas. Say goodbye to performance anxiety and hello to a fulfilling, intimate life. Our expert team is dedicated to restoring your natural vigor, ensuring you enjoy every moment to the fullest."
     src={ed}
     height={400}
@@ -71,14 +71,14 @@ function page() {
     </div>
    </div>
    {/* blockquote */}
-   <blockquote className="max-w-screen-xl px-8 py-12 mx-auto">
+   <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
     <span className="py-10">
      {" "}
      <span className="text-lg font-bold">Get</span>{" "}
      <span className="relative inline-block px-2">
       <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
       <h3 className="relative py-3 text-white">
-       Permanent Cure for Erectile Dysfunction in Las Vegas
+       Permanent Cure for Erectile Dysfunction in Las Vegas{" "}
       </h3>
      </span>
     </span>
@@ -155,22 +155,22 @@ function page() {
        </article>
       </div>
 
-      <blockquote className="max-w-xl pb-12 mx-auto">
+      <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
        <span className="py-10">
         {" "}
         <span className="text-lg font-bold">We are the destination</span>{" "}
         <span className="relative inline-block px-2">
          <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
          <h3 className="relative py-3 text-white">
-          ED Clinic in Las Vegas, Nevada
+          ED Clinic in Las Vegas, Nevada{" "}
          </h3>
         </span>
        </span>
       </blockquote>
       {/* video */}
-      <div className="mx-auto my-12 w-fit">
+      <div className="mx-auto my-12 w-[350px] lg:w-[400px]">
        <iframe
-        width="400"
+        width="350"
         height="315"
         src="https://www.youtube.com/embed/4iOjUMIDsiw?si=wp7kN2sfhUfoNK0B"
         title="YouTube video player"

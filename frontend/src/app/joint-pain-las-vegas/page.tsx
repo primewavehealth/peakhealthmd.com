@@ -6,7 +6,7 @@ import Image from "next/image";
 import joint from "/public/images/joint-pain-lv.jpg";
 
 export const metadata: Metadata = {
- title: "Affordable Joint Pain Treatment in Las Vegas",
+ title: "Joint Pain Treatment in Las Vegas",
  description:
   "Affordable joint pain treatment in Las Vegas: Regain mobility and relief without breaking the bank. Trust our experts for lasting comfort",
  alternates: {

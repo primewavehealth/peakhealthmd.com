@@ -55,7 +55,7 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Lower Back Pain Treatment in Las Vegas"
+    heading="Back Pain Treatment in Las Vegas"
     body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of affordable back pain treatment in Las Vegas and regain control of your life."
     src={back}
     height={400}

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import neck from "/public/images/neck-pain.jpg";
 
 export const metadata: Metadata = {
- title: "Affordable Neck Pain Treatment in Las Vegas",
+ title: "Neck Pain Treatment in Las Vegas",
  description:
   "Affordable neck pain treatment in Las Vegas: Expert care to relieve your discomfort and restore your quality of life. Get relief today!",
  alternates: {
@@ -17,7 +17,7 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Affordable Neck Pain Treatment in Las Vegas"
+    heading="Neck Pain Treatment in Las Vegas"
     body="Relieve neck pain and reclaim your comfort with our affordable neck pain treatment in Las Vegas. Our team of pain specialists understands the debilitating effects of neck pain and is dedicated to crafting a personalized treatment plan to suit your needs. Say goodbye to those persistent aches and stiffness, and hello to a life with unrestricted movement and vitality. Trust us to be your partner in wellness, as we help you break free from the constraints of neck pain right here in Las Vegas."
     src={neck}
     height={400}
