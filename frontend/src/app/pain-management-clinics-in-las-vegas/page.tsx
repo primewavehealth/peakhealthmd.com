@@ -5,7 +5,7 @@ import Link from "next/link";
 import pain from "/public/images/pain-treatment-las-vegas.jpg";
 
 export const metadata: Metadata = {
- title: "Affordable Pain Management Clinics in Las Vegas",
+ title: "Pain Management Clinics in Las Vegas",
  description:
   "Affordable pain Management clinics in Las Vegas - Experience top-quality management for all your pain needs. Regain control and well-being. Book now for relief!",
  alternates: {
@@ -17,7 +17,7 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Affordable Pain Management Clinics in Las Vegas"
+    heading="Pain Management Clinics in Las Vegas"
     body="At Primewave, we understand how debilitating pain can be, and we are here to provide comprehensive and compassionate care to help you regain control of your life. Our team of highly skilled pain  management doctors in Las Vegas is dedicated to diagnosing and treating a wide range of pain conditions, including back pain, joint pain, knee pain, and neck pain. We are the destination pain management clinic in Las Vegas that will meet your specific needs"
     src={pain}
     height={400}

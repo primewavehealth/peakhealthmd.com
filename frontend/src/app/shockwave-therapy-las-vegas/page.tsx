@@ -1,3 +1,4 @@
+import Consultation from "@/components/Consultation";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
@@ -99,10 +100,13 @@ function Shockwave() {
     </div>
    </section>
    {/* next section */}
-   <section className="">
-    <div className="max-w-screen-xl px-8 pt-16 mx-auto text-lg">
-     <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
-      <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+   <section className="mt-6 bg-gray-50">
+    <div className="container flex flex-wrap mx-auto">
+     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4 bg-gray-50">
+      <Consultation />
+     </div>
+     <div className="max-w-3xl px-6 mx-auto text-justify lg: mt-6text-base md:text-lg">
+      <h2 className="pb-4 text-3xl font-bold text-center lg:mt-14 sm:text-4xl">
        Benefits of Shockwave Therapy
       </h2>
 

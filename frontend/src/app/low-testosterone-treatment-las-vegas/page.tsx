@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import low from "public/images/low-testosterone-lasvegas.jpg";
 
 export const metadata: Metadata = {
- title: "Affordable Low Testosterone Treatment in Las Vegas",
+ title: "Low Testosterone Treatment in Las Vegas",
  description:
   "Affordable low testosterone treatment in Las Vegas: Rejuvenate your vitality without breaking the bank. Expert care for lasting results at budget-friendly prices.",
  alternates: {
@@ -17,7 +17,7 @@ function page() {
  return (
   <>
    <PageBanner
-    heading="Affordable Low Testosterone Treatment in Las Vegas"
+    heading="Low Testosterone Treatment in Las Vegas"
     body="Revitalize your life with affordable low testosterone treatment in Las Vegas. Don't let low energy, mood swings, and decreased vitality hold you back any longer. Our expert team of ED specialists is committed to helping you regain your vigor and zest for life. Experience a transformation in your overall well-being without breaking the bank – because you deserve nothing but the best at prices you can afford."
     src={low}
     height={400}
