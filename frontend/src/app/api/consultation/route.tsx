@@ -11,11 +11,11 @@ export async function POST(request: Request) {
   return NextResponse.error();
  }
 
- const DateTime = format(new Date(data.datetime), "MM/dd/yyyy 'at' h:m a");
+ const DateTime = format(new Date(data.datetime), "MM/dd/yyyy 'at' hh:mm a");
 
  const mailData = {
   html: `
- <div><strong>From Free Consultation Form<strong></div>
+ <div><strong>From Website Appointment Scheduling Form<strong></div>
     <br/>
     <div><strong>Name:</strong> ${data.name}</div> 
     <br/>
@@ -48,7 +48,8 @@ export async function POST(request: Request) {
 
  const mailOptions = {
   from: email,
-  to: "primewavehealth@gmail.com",
+  to: "info@primewavehealth.com",
+  subject: "Website Appointment",
  };
 
  try {
