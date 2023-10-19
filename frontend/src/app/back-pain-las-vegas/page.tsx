@@ -62,7 +62,7 @@ function page() {
     width={400}
     alt="back-pain"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "#form",
      text: "Schedule An Appointment",
      id: "schedule",
 

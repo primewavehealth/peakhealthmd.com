@@ -25,7 +25,7 @@ function page() {
     width={400}
     alt="joint-pain"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "#form",
      text: "Schedule An Appointment",
      id: "schedule",
 
