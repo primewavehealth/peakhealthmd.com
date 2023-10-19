@@ -91,7 +91,7 @@ function Consultation() {
       Submit Your Details Below
      </p>
     </div>
-    <form onSubmit={handleSubmit(submitHandler)}>
+    <form id="confirm_appointment" onSubmit={handleSubmit(submitHandler)}>
      {/* <div className="-mx-2 md:flex md:items-center"> */}
      {/* Name */}
      <div className="mt-4 w-80">
