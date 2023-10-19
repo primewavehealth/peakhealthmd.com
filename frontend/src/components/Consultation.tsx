@@ -74,9 +74,8 @@ function Consultation() {
   }
  };
 
- const currentDate = new Date();
- const isWeekday = () => {
-  const day = currentDate.getDay();
+ const isWeekday = (date: Date) => {
+  const day = date.getDay();
   return day !== 0 && day !== 6;
  };
 
@@ -95,7 +94,7 @@ function Consultation() {
     <form onSubmit={handleSubmit(submitHandler)}>
      {/* <div className="-mx-2 md:flex md:items-center"> */}
      {/* Name */}
-     <div className="w-full lg:w-[350px] mt-4">
+     <div className="mt-4 w-80">
       {/* <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
         Full Name
        </label> */}
@@ -113,7 +112,7 @@ function Consultation() {
       )}
      </div>
      {/* Phone Number */}
-     <div className="w-full lg:w-[350px] mt-4">
+     <div className="mt-4 w-80">
       {/* <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
         Phone Number
        </label> */}
@@ -130,10 +129,10 @@ function Consultation() {
        <div className="mt-1 text-xs text-red-500">{errors.phone?.message}</div>
       )}
      </div>
-     {/* </div> */}
+
      {/* Email */}
-     {/* <div className="-mx-2 md:flex md:items-center"> */}
-     <div className="w-full lg:w-[350px] mt-4">
+
+     <div className="mt-4 w-80">
       {/* <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
         Email
        </label> */}
@@ -157,7 +156,7 @@ function Consultation() {
 
       <select
        placeholder="Select A Service"
-       className={`shadow appearance-none outline-none border rounded w-full py-2 pl-10 text-gray-700  leading-tight duration-300 ${
+       className={`shadow appearance-none outline-none border rounded w-80 py-2 pl-10 text-gray-700  leading-tight duration-300 ${
         errors.services?.message && "shadow-[0_0_0_2px] shadow-red-500"
        }`}
        {...register("services")}
@@ -178,31 +177,36 @@ function Consultation() {
      </div>
 
      {/* Date Time */}
-
-     <Controller
-      name="datetime"
-      control={control}
-      render={({ field }) => (
-       <DatePicker
-        placeholderText="Choose A Date and Time"
-        className={`shadow appearance-none outline-none border rounded w-[470px] mt-4 lg:w-[350px] px-0 py-2 pl-10 text-gray-700  leading-tight duration-300 ${
-         errors.email?.message && "shadow-[0_0_0_2px] shadow-red-500"
-        }`}
-        selected={field.value}
-        onChange={(datetime: Date) => field.onChange(datetime)}
-        showTimeSelect
-        filterDate={isWeekday}
-        dateFormat="MMMM d, yyyy h:mm aa"
-       />
+     <div className="mt-4">
+      <Controller
+       name="datetime"
+       control={control}
+       render={({ field }) => (
+        <DatePicker
+         minDate={new Date()}
+         minTime={new Date(0, 0, 0, 9, 0)}
+         maxTime={new Date(0, 0, 0, 16, 30)}
+         isClearable={true}
+         placeholderText="Choose A Date and Time"
+         className={`shadow w-80 appearance-none outline-none border rounded  px-0 py-2 pl-10 text-gray-700  leading-tight duration-300 ${
+          errors.email?.message && "shadow-[0_0_0_2px] shadow-red-500"
+         }`}
+         selected={field.value}
+         onChange={(datetime: Date) => field.onChange(datetime)}
+         showTimeSelect
+         filterDate={isWeekday}
+         dateFormat="MMMM d, yyyy h:mm aa"
+        />
+       )}
+      />
+      {errors.datetime?.message && (
+       <div className="mt-1 text-xs text-red-500">
+        {errors.datetime?.message}
+       </div>
       )}
-     />
-     {errors.datetime?.message && (
-      <div className="mt-1 text-xs text-red-500">
-       {errors.datetime?.message}
-      </div>
-     )}
+     </div>
      {/* text area */}
-     <div className="w-full lg:w-[350px] mt-4">
+     <div className="mt-4 w-80">
       {/*  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
        Message
       </label> */}
@@ -221,7 +225,7 @@ function Consultation() {
       )}
      </div>
      <button
-      className="w-full lg:w-[350px] px-6 py-3 mt-4 text-md font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+      className="px-6 py-3 mt-4 font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md w-80 text-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
       id="consult"
       type="submit"
       disabled={isSubmitting}
