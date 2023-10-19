@@ -1,67 +1,9 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import axios from "axios";
+import Consultation from "@/components/Consultation";
 import Link from "next/link";
-import { useForm } from "react-hook-form";
-import toast from "react-hot-toast";
-import { z } from "zod";
-
-// Define Zod schema for validation
-const formSchema = z.object({
- name: z
-  .string()
-  .min(3, "Name must be at least 3 characters")
-  .max(20, "Name is too long"),
- phone: z
-  .string()
-  .min(1, { message: "Phone is required" })
-  .regex(/^(\+?1)?[2-9]\d{2}[2-9](?!11)\d{6}$/, {
-   message: "Must be a valid phone number",
-  }),
- email: z.string().min(1, { message: "Email is required" }).email({
-  message: "Must be a valid email",
- }),
- message: z.string().max(10, "Message cannot be more than 200 characters"),
-});
-
-type FormData = z.infer<typeof formSchema>;
 
 function page() {
- const {
-  register,
-  handleSubmit,
-  reset,
-  formState: { errors, isSubmitting },
- } = useForm<FormData>({
-  mode: "onChange",
-  resolver: zodResolver(formSchema),
- });
-
- const submitHandler = async (data: FormData) => {
-  const config = {
-   method: "post",
-   url: "/api/consultation",
-   headers: {
-    "Content-Type": "application/json",
-   },
-   data: data,
-  };
-  try {
-   const response = await axios(config);
-   if (response.status === 200) {
-    toast.success(
-     "Your message has been sent. Thank you for contacting us. We will get back to you as soon as possible."
-    );
-
-    // Reset the form after successful submission
-    reset();
-   }
-  } catch (err: any) {
-   toast.error(err.response.data.message + ": " + err.response.statusText);
-  }
- };
-
  return (
   <section className="min-h-screen bg-white dark:bg-gray-900 lg:flex">
    <div className="flex flex-col justify-center w-full p-8 lg:w-1/2 lg:bg-gray-100 lg:px-12 lg:dark:bg-gray-800 xl:px-32">
@@ -125,100 +67,11 @@ function page() {
        </svg>
       </Link>
      </div>
-     <div className="pt-6">
-      Click{" "}
-      <Link target="_blank" href="https://primewavehealth.setmore.com">
-       Here{" "}
-      </Link>
-      {}to Book An Appointment
-     </div>
     </div>
    </div>
 
    <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24">
-    <form onSubmit={handleSubmit(submitHandler)}>
-     <div className="-mx-2 md:flex md:items-center">
-      <div className="flex-1 px-2">
-       <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-        Full Name
-       </label>
-       <input
-        type="text"
-        placeholder="John Doe"
-        className={`block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:placeholder-gray-600 dark:focus:border-blue-400 ${
-         errors.name?.message && "shadow-[0_0_0_2px] shadow-red-500"
-        }`}
-        {...register("name")}
-       />
-
-       {errors.name?.message && (
-        <div className="mt-1 text-xs text-red-500">{errors.name?.message}</div>
-       )}
-      </div>
-
-      <div className="flex-1 px-2 mt-4 md:mt-0">
-       <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-        Phone Number
-       </label>
-       <input
-        type="tel"
-        placeholder="7021234567"
-        className={`block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:placeholder-gray-600 dark:focus:border-blue-400 ${
-         errors.phone?.message && "shadow-[0_0_0_2px] shadow-red-500"
-        }`}
-        {...register("phone")}
-       />
-
-       {errors.phone?.message && (
-        <div className="mt-1 text-xs text-red-500">{errors.phone?.message}</div>
-       )}
-      </div>
-     </div>
-     <div className="w-full mt-4">
-      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-       Email
-      </label>
-      <input
-       type="email"
-       placeholder="johndoe@example.com"
-       className={`block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:placeholder-gray-600 dark:focus:border-blue-400 ${
-        errors.email?.message && "shadow-[0_0_0_2px] shadow-red-500"
-       }`}
-       {...register("email")}
-      />
-      {errors.email?.message && (
-       <div className="mt-1 text-xs text-red-500">{errors.email?.message}</div>
-      )}
-     </div>
-     <div className="w-full mt-4">
-      <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-       Message
-      </label>
-      <textarea
-       className={`block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:placeholder-gray-600 dark:focus:border-blue-400 md:h-56  ${
-        errors.message?.message && "shadow-[0_0_0_2px] shadow-red-500"
-       }`}
-       placeholder="Message is Optional"
-       rows={5}
-       {...register("message")}
-      ></textarea>
-      {errors.message?.message && (
-       <div className="mt-1 text-xs text-red-500">
-        {errors.message?.message}
-       </div>
-      )}
-     </div>
-
-     <button
-      className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
-      id="consult"
-      type="submit"
-      disabled={isSubmitting}
-      onClick={handleSubmit(submitHandler)}
-     >
-      Submit
-     </button>
-    </form>
+    <Consultation />
    </div>
   </section>
  );

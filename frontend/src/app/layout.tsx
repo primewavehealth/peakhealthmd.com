@@ -82,7 +82,8 @@ export default function RootLayout({
     inter.variable
    )}
   >
-   <Script id="google-tag-manager" strategy="beforeInteractive">
+   {/*  <Suspense fallback={<Loading />}> */}
+   <Script id="google-tag-manager" strategy="lazyOnload">
     {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -91,9 +92,7 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
    </Script>
-   {/*  <Suspense fallback={<Loading />}>
-    <GoogleAnalytics GA_MEASUREMENT_ID="G-HH6TSN7KTX" />
-   </Suspense> */}
+   {/* </Suspense> */}
    <body className="flex flex-col antialiased">
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
