@@ -8,8 +8,10 @@ import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+/* 
+const GTM_ID = "GTM-NFW6JJZC"; */
 
-const GTM_ID = "GTM-NFW6JJZC";
+const GTM_ID = "GTM-PLFT32N8";
 
 const inter = Inter({
  weight: ["400", "700"],
@@ -101,9 +103,6 @@ export default function RootLayout({
      {children}
      <Footer />
     </main>
-    {/* <Suspense fallback={<Loading />}>
-     <CookieBanner />
-    </Suspense> */}
     <noscript
      dangerouslySetInnerHTML={{
       __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
