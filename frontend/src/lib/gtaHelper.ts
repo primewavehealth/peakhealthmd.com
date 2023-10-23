@@ -1,5 +1,23 @@
-export const pageview = (GA_MEASUREMENT_ID: string, url: string) => {
+/* export const pageview = (GA_MEASUREMENT_ID: string, url: string) => {
  window.gtag("config", GA_MEASUREMENT_ID, {
   page_path: url,
  });
+};
+ */
+
+type WindowWithDataLayer = Window & {
+ dataLayer: Record<string, any>[];
+};
+
+declare const window: WindowWithDataLayer;
+
+export const GTM_ID = "GTM-PLFT32N8";
+
+export const pageview = (url: string) => {
+ if (typeof window.dataLayer !== "undefined") {
+  window.dataLayer.push({
+   event: "pageview",
+   page: url,
+  });
+ }
 };
