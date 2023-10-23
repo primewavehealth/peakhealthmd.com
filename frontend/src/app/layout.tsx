@@ -4,14 +4,13 @@ import Topbar from "@/components/Topbar";
 import ToasterProvider from "@/lib/ToastProvider";
 import "@/styles/globals.css";
 import { SiteConfig } from "@/typings/types";
+
+import GoogleTag from "@/components/GoogleTag";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
-/* 
-const GTM_ID = "GTM-NFW6JJZC"; */
-
-const GTM_ID = "GTM-PLFT32N8";
+import { Suspense } from "react";
+import Loading from "./Loading";
 
 const inter = Inter({
  weight: ["400", "700"],
@@ -84,18 +83,10 @@ export default function RootLayout({
     inter.variable
    )}
   >
-   {/*  <Suspense fallback={<Loading />}> */}
-   <Script id="google-tag-manager" strategy="beforeInteractive">
-    {`
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','${GTM_ID}');
-        `}
-   </Script>
-   {/* </Suspense> */}
    <body className="flex flex-col antialiased">
+    <Suspense fallback={<Loading />}>
+     <GoogleTag />
+    </Suspense>
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
      <Topbar />
@@ -103,11 +94,6 @@ export default function RootLayout({
      {children}
      <Footer />
     </main>
-    <noscript
-     dangerouslySetInnerHTML={{
-      __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
-     }}
-    />
    </body>
   </html>
  );
