@@ -111,7 +111,7 @@ function Topbar() {
       href="https://primewavehealth.setmore.com"
       className="text-white "
      >
-      <strong>Make An Appointment</strong>
+      <strong>Appointments</strong>
      </Link>
     </span>
    </div>
