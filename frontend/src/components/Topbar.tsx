@@ -94,6 +94,8 @@ function Topbar() {
    </div>
    <div className="flex justify-around space-x-4">
     <span className="flex items-center transition hover:opacity-75">
+     {" "}
+     <span className="pr-4 font-bold text-white">CALL NOW</span>
      <CgPhone className="text-2xl text-white " />
      <Link
       href="tel:7026254334"
