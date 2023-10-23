@@ -8,6 +8,8 @@ import { Controller, useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { z } from "zod";
 
+import { useRouter } from "next/navigation";
+
 // Define Zod schema for validation
 
 const formSchema = z.object({
@@ -39,6 +41,8 @@ const formSchema = z.object({
 type FormData = z.infer<typeof formSchema>;
 
 function Consultation() {
+ const router = useRouter();
+
  const {
   register,
   handleSubmit,
@@ -49,6 +53,10 @@ function Consultation() {
   mode: "onChange",
   resolver: zodResolver(formSchema),
  });
+
+ const thankyou = () => {
+  router.push("/thank-you");
+ };
 
  const submitHandler = async (data: FormData) => {
   const config = {
@@ -62,12 +70,13 @@ function Consultation() {
   try {
    const response = await axios(config);
    if (response.status === 200) {
-    toast.success(
+    /* toast.success(
      "Your message has been sent. Thank you for contacting us. We will get back to you as soon as possible."
-    );
+    ); */
 
     // Reset the form after successful submission
     reset();
+    thankyou();
    }
   } catch (err: any) {
    toast.error(err.response.data.message + ": " + err.response.statusText);
