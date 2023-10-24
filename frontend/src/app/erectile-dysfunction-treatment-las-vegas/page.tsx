@@ -55,7 +55,7 @@ function page() {
       </span>
      </div>
      <Button
-      href="https://primewavehealth.setmore.com"
+      href="/appointment"
       text="Request Consultation"
       icon=<svg
        fill="none"
@@ -190,7 +190,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

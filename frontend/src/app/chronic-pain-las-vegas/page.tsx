@@ -27,7 +27,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
     width={400}
     alt="chronic-pain"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 
@@ -160,7 +160,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
     src="/images/happy-man.avif"
     alt="Chronic Pain Treatment in Las Vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

@@ -19,7 +19,7 @@ function CTASection() {
         <Button
          text="Book An Appointment"
          id="book"
-         href="https://primewavehealth.setmore.com"
+         href="/appointment"
          icon=<svg
           fill="none"
           stroke="currentColor"

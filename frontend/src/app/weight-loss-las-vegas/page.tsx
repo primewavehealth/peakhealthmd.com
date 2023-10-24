@@ -24,7 +24,7 @@ function Weightloss() {
     width={400}
     alt="weight loss las vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 
@@ -194,7 +194,7 @@ function Weightloss() {
     src="/images/happy-man.avif"
     alt="weight-loss-las-vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

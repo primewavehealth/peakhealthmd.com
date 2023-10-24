@@ -212,7 +212,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="Neck Pain Treatment in Las Vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

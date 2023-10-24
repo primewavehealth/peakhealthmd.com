@@ -26,7 +26,7 @@ there are effective treatment options available to help alleviate your pain and 
     width={400}
     alt="tmj"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 
@@ -109,7 +109,7 @@ We pride ourselves on offering the most advanced TMJ treatment in Las Vegas. Our
     src="/images/happy-man.avif"
     alt="Chronic Pain Treatment in Las Vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

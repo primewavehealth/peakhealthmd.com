@@ -25,7 +25,7 @@ function Shockwave() {
     width={400}
     alt="long haul covid 19"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 

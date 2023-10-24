@@ -23,7 +23,7 @@ function page() {
     width={400}
     alt="Fibromyalgia"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 

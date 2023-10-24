@@ -221,7 +221,7 @@ function page() {
         <Button
          id="request"
          text="Request Consultation"
-         href="https://primewavehealth.setmore.com"
+         href="/appointment"
          icon=<svg
           fill="none"
           stroke="currentColor"
@@ -287,7 +287,7 @@ function page() {
         <Button
          id="consult"
          text="Request Consultation"
-         href="https://primewavehealth.setmore.com"
+         href="/appointment"
          icon=<svg
           fill="none"
           stroke="currentColor"

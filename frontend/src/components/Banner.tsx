@@ -42,8 +42,7 @@ function Banner() {
        </Link>
        <Link
         className="inline-flex items-center justify-center gap-2 px-6 py-3 font-medium text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
-        target="_blank"
-        href="https://primewavehealth.setmore.com"
+        href="/appointment"
        >
         <span>Schedule an Appointnment</span>{" "}
         <svg
