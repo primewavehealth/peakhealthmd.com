@@ -24,7 +24,7 @@ function Shockwave() {
     width={400}
     alt="shockwave-therapy"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 
@@ -196,7 +196,7 @@ function Shockwave() {
     src="/images/happy-man.avif"
     alt="shockwave-therapy-las-vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

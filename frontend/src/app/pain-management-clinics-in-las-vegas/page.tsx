@@ -24,7 +24,7 @@ function page() {
     width={400}
     alt="pain-mgt"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 
@@ -204,7 +204,7 @@ function page() {
     src="/images/happy-man.avif"
     alt="Pain management in Las Vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

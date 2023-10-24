@@ -37,7 +37,7 @@ function page() {
     width={400}
     alt="PRP Facial"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
      icon: (
@@ -483,7 +483,7 @@ function page() {
     src="/images/immune-system.jpg"
     alt="prp-facials-las-vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 

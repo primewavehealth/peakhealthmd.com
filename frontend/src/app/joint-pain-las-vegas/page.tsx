@@ -198,7 +198,7 @@ function page() {
        <div className="">
         <Button
          text="Request Consultation"
-         href="https://primewavehealth.setmore.com"
+         href="/appointment"
          icon=<svg
           fill="none"
           stroke="currentColor"
@@ -278,7 +278,7 @@ function page() {
         <Button
          text="Request Consultation"
          id="consult"
-         href="https://primewavehealth.setmore.com"
+         href="/appointment"
          icon=<svg
           fill="none"
           stroke="currentColor"

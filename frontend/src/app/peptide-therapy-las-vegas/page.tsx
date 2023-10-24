@@ -33,7 +33,7 @@ function page() {
     width={400}
     alt="peptide-therapy"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
 

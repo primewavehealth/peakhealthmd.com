@@ -33,7 +33,7 @@ function page() {
     width={400}
     alt="Hormone Therapy for Menopause"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "schedule",
      icon: (
@@ -240,7 +240,7 @@ function page() {
     src="/images/menopause.jpg"
     alt="Menopause-therapy-las-vegas"
     btn={{
-     href: "https://primewavehealth.setmore.com",
+     href: "/appointment",
      text: "Schedule An Appointment",
      id: "cta",
 
