@@ -28,7 +28,7 @@ function AboutSection() {
        <div className="mt-4 md:mt-8">
         <Link
          className="inline-flex items-center justify-center gap-2 px-6 py-3 font-medium text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
-         href="/consultation"
+         href="/appointment"
         >
          <span>Request Consultation</span>{" "}
          <svg

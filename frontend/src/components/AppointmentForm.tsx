@@ -40,7 +40,7 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-function Consultation() {
+function AppointmentForm() {
  const router = useRouter();
 
  const {
@@ -61,7 +61,7 @@ function Consultation() {
  const submitHandler = async (data: FormData) => {
   const config = {
    method: "post",
-   url: "/api/consultation",
+   url: "/api/appointment",
    headers: {
     "Content-Type": "application/json",
    },
@@ -247,4 +247,4 @@ function Consultation() {
  );
 }
 
-export default Consultation;
+export default AppointmentForm;

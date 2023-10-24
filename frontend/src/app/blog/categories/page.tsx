@@ -74,9 +74,6 @@ export async function generateMetadata({
   },
   alternates: {
    canonical: `${server}/blog/categories`,
-   types: {
-    "application/rss+xml": `${server}/feed.xml`,
-   },
   },
  };
 }

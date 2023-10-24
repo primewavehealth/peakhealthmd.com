@@ -1,6 +1,6 @@
 "use client";
 
-import Consultation from "@/components/Consultation";
+import AppointmentForm from "@/components/AppointmentForm";
 import Link from "next/link";
 
 function page() {
@@ -71,7 +71,7 @@ function page() {
    </div>
 
    <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24">
-    <Consultation />
+    <AppointmentForm />
    </div>
   </section>
  );
