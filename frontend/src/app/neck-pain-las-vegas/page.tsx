@@ -1,4 +1,4 @@
-import Consultation from "@/components/Consultation";
+import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";

@@ -17,7 +17,7 @@ function ChronicCTA() {
     <div className="pt-6 lg:mt-0 lg:flex-shrink-0">
      <Button
       text="Schedule An Appointment"
-      href="/consultation"
+      href="/appointment"
       icon=<svg
        fill="none"
        stroke="currentColor"

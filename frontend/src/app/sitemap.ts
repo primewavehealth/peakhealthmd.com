@@ -1,6 +1,8 @@
 import { allBlogs } from "contentlayer/generated";
 
-export default async function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
  const blogs = allBlogs.map((post) => ({
   url: `https://primewavehealth.com/blog/${post.slug}`,
   lastModified: post.date,
@@ -12,7 +14,7 @@ export default async function sitemap() {
   "/erectile-dysfunction-treatment-las-vegas",
   "/erectile-dysfunction-doctor-las-vegas",
   "/low-testosterone-treatment-las-vegas",
-  "/pain-treatment-clinics-in-las-vegas",
+  "/pain-management-clinics-in-las-vegas",
   "/shockwave-therapy-las-vegas",
   "/chronic-pain-las-vegas",
   "/back-pain-las-vegas",
@@ -30,7 +32,7 @@ export default async function sitemap() {
   "/fibromyalgia-treatment-las-vegas",
   "/tmj-treatment-in-las-vegas",
   "/peptide-therapy-las-vegas",
-  "/consultation",
+  "/appointment",
   "/contact",
  ].map((route) => ({
   url: `https://primewavehealth.com${route}`,
