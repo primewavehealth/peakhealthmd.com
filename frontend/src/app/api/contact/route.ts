@@ -47,7 +47,7 @@ export async function POST(request: Request) {
 
  const mailOptions = {
   from: email,
-  to: "info@peakhealthmd.com",
+  to: "info@primewavehealth.com",
  };
 
  try {
