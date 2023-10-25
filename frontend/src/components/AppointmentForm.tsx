@@ -92,9 +92,9 @@ function AppointmentForm() {
   <section id="form" className="dark:bg-gray-900">
    <div className="flex flex-col justify-center p-8 pt-0">
     <div className="pt-8 lg:pt-16">
-     <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white">
+     <p className="text-2xl font-semibold text-gray-800 capitalize dark:text-white">
       Schedule Appointment
-     </h1>
+     </p>
 
      <p className="w-full mt-4 text-lg font-bold text-gray-500 dark:text-gray-400">
       Submit Your Details Below
