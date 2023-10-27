@@ -4,13 +4,11 @@ import Topbar from "@/components/Topbar";
 import ToasterProvider from "@/lib/ToastProvider";
 import "@/styles/globals.css";
 import { SiteConfig } from "@/typings/types";
-
-import GoogleTag from "@/components/GoogleTag";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Suspense } from "react";
-import Loading from "./Loading";
+
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({
  weight: ["400", "700"],
@@ -84,9 +82,7 @@ export default function RootLayout({
    )}
   >
    <body className="flex flex-col antialiased">
-    <Suspense fallback={<Loading />}>
-     <GoogleTag />
-    </Suspense>
+    <GoogleTagManager gtmId="GTM-NFW6JJZC" />
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
      <Topbar />
