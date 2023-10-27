@@ -2,6 +2,7 @@ import Consultation from "@/components/AppointmentForm";
 import Button from "@/components/UI/Button";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { YouTubeEmbed } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 
@@ -170,7 +171,13 @@ function page() {
       </blockquote>
       {/* video */}
       <div className="mx-auto my-12 w-[350px] lg:w-[400px]">
-       <iframe
+       <YouTubeEmbed
+        videoid="4iOjUMIDsiw"
+        width={350}
+        height={400}
+        params="controls=0"
+       />
+       {/* <iframe
         width="350"
         height="315"
         src="https://www.youtube.com/embed/4iOjUMIDsiw?si=wp7kN2sfhUfoNK0B"
@@ -178,7 +185,7 @@ function page() {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-       ></iframe>
+       ></iframe> */}
       </div>
      </div>
     </div>

@@ -1,6 +1,7 @@
 import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { YouTubeEmbed } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import low from "public/images/low-testosterone-lasvegas.jpg";
 
@@ -150,7 +151,8 @@ function page() {
       </blockquote>
       {/* video */}
       <div className="mx-auto my-12 lg:max-w-xl">
-       <iframe
+       <YouTubeEmbed videoid="II7AG16M6fQ" params="controls=0" />
+       {/* <iframe
         width="450"
         height="315"
         src="https://www.youtube.com/embed/II7AG16M6fQ?si=iAnwoZW-TfW9PAU3"
@@ -158,7 +160,7 @@ function page() {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-       ></iframe>
+       ></iframe> */}
       </div>
      </div>
     </div>

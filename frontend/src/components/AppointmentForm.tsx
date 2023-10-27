@@ -1,6 +1,7 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+import { sendGTMEvent } from "@next/third-parties/google";
 import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -54,10 +55,6 @@ function AppointmentForm() {
   resolver: zodResolver(formSchema),
  });
 
- const thankyou = () => {
-  router.push("/thank-you");
- };
-
  const submitHandler = async (data: FormData) => {
   const config = {
    method: "post",
@@ -70,13 +67,12 @@ function AppointmentForm() {
   try {
    const response = await axios(config);
    if (response.status === 200) {
-    /* toast.success(
+    toast.success(
      "Your message has been sent. Thank you for contacting us. We will get back to you as soon as possible."
-    ); */
+    );
 
     // Reset the form after successful submission
     reset();
-    thankyou();
    }
   } catch (err: any) {
    toast.error(err.response.data.message + ": " + err.response.statusText);
@@ -87,7 +83,14 @@ function AppointmentForm() {
   const day = date.getDay();
   return day !== 0 && day !== 6;
  };
+ function sendEvent() {
+  sendGTMEvent({ event: "form_submit", value: "form_submit" });
+ }
 
+ const handleTwoFunctions = () => {
+  handleSubmit(submitHandler);
+  sendEvent();
+ };
  return (
   <section id="form" className="dark:bg-gray-900">
    <div className="flex flex-col justify-center p-8 pt-0">
@@ -237,7 +240,7 @@ function AppointmentForm() {
       id="consult"
       type="submit"
       disabled={isSubmitting}
-      onClick={handleSubmit(submitHandler)}
+      onClick={handleTwoFunctions}
      >
       Schedule Appointment
      </button>
