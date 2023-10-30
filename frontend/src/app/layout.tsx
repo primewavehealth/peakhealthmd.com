@@ -7,6 +7,7 @@ import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// @ts-ignore
 
 import { GoogleTagManager } from "@next/third-parties/google";
 

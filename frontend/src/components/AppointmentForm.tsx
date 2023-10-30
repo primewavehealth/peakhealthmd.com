@@ -1,6 +1,7 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+// @ts-ignore
 import { sendGTMEvent } from "@next/third-parties/google";
 import axios from "axios";
 import DatePicker from "react-datepicker";
