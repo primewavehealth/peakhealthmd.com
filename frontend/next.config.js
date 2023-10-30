@@ -14,10 +14,7 @@ const nextConfig = {
   return config;
  }, */
  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
- experimental: {
-  serverActions: true,
-  serverActionsBodySizeLimit: "2mb",
- },
+
  images: {
   formats: ["image/avif", "image/webp"],
   remotePatterns: [
