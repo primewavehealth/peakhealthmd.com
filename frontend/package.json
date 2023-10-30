@@ -9,12 +9,6 @@
   "lint": "next lint",
   "prepare": "husky install"
  },
- "lint-staged": {
-  "*.{js,jsx,ts,tsx}": [
-   "eslint --fix"
-  ],
-  "*.{js,jsx,ts. tsx, css,md}": "prettier --write"
- },
  "dependencies": {
   "@headlessui/react": "^1.7.15",
   "@heroicons/react": "^2.0.18",
