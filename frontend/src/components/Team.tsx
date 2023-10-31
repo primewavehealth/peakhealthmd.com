@@ -8,10 +8,10 @@ export default function Team() {
       Meet Our Providers
      </h2>
      <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
-      Meet our dedicated team of compassionate healthcare professionals at the
-      forefront of pain management in Las Vegas. With a shared commitment to
-      improving your quality of life, we're here to provide personalized care
-      and support on your journey to a pain-free future.
+      Meet our dedicated team of compassionate and experienced healthcare
+      professionals at the forefront of pain management in Las Vegas. With a
+      shared commitment to improving your quality of life, we're here to provide
+      personalized care and support on your journey to a pain-free future.
      </p>
     </div>
     <div className="grid items-center gap-12 md:grid-cols-2">
