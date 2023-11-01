@@ -48,6 +48,11 @@ const nextConfig = {
     permanent: true,
    },
    {
+    source: "/erectile-dysfunction-treatment-in-las-vegas",
+    destination: "/erectile-dysfunction-treatment-las-vegas",
+    permanent: true,
+   },
+   {
     source: "/pain-management-in-las-vegas",
     destination: "/pain-management-clinics-in-las-vegas",
     permanent: true,
