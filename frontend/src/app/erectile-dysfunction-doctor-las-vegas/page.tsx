@@ -238,7 +238,9 @@ function page() {
 
        <h3 className="mb-4 text-2xl font-bold "> Shockwave Therapy</h3>
        <p className="mb-6">
-        <Link href="/shockwave-therapy-las-vegas">Shockwave therapy</Link>
+        <Link href="/shockwave-therapy-las-vegas" className="text-blue-800">
+         Shockwave therapy
+        </Link>{" "}
         is a non-invasive treatment involving low-intensity shockwaves applied
         to penile tissue, promoting blood vessel growth and potentially
         enhancing erections. It serves as a promising alternative for those who
