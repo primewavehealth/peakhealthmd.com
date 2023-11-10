@@ -1,7 +1,8 @@
-import Consultation from "@/components/AppointmentForm";
+import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
+import Link from "next/link";
 import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 
 export const metadata: Metadata = {
@@ -43,140 +44,225 @@ function page() {
      ),
     }}
    />
-   {/* next section */}
+   {/* body */}
 
-   <section className="bg-gray-50">
-    <div className="container flex flex-wrap">
-     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4">
-      <Consultation />
-     </div>
-     <div className="w-full p-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
-      <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
-       <h2 className="pb-12 font-bold text-center">
-        Best ED Specialist in Las Vegas
+   <div className="container p-4 mx-auto">
+    <div className="lg:flex">
+     <div className="p-4 lg:w-2/3">
+      <section className="p-6 rounded-lg md:pl-16">
+       <h2 className="mb-4 text-2xl font-bold lg:text-4xl">
+        What is Erectile Dysfunction?
        </h2>
+       <p className="mb-6">
+        <Link
+         href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/erectile-dysfunction"
+         className="text-blue-800"
+        >
+         Erectile Dysfunction
+        </Link>{" "}
+        is a common medical condition characterized by the persistent inability
+        to achieve or maintain a firm erection sufficient for sexual
+        intercourse. It primarily involves the malfunction of the vascular,
+        neurological, and hormonal systems. In healthy sexual function, a
+        complex interplay of these systems leads to increased blood flow to the
+        penis upon sexual arousal, causing an erection. However, in ED, this
+        process is disrupted, often due to factors such as compromised blood
+        vessel health, nerve damage, or hormonal imbalances, which hinder the
+        normal physiological response required for an erection. Understanding
+        the anatomy and physiology of ED is essential for both diagnosis and the
+        selection of appropriate treatment options. At{" "}
+        <Link href="/about-primewave" className="text-blue-800">
+         Primewave Health{" "}
+        </Link>
+        Our ED specialists in Las Vegas can help you overcome this condition and
+        regain your vitality.
+       </p>
+       <div className="md:hidden">
+        <AppointmentForm />
+       </div>
+      </section>
 
-       <article className="space-y-8 text-justify text-gray-600 ">
-        <div>
-         <p>
-          At our Men's Sexual Health Clinic, we understand the importance of
-          addressing sensitive issues like erectile dysfunction (ED). Our
-          dedicated team of ED specialists in las vegas is here to provide you
-          with top-notch care and personalized solutions. We offer a range of
-          services, from diagnosis to treatment, to help you regain your
-          confidence and vitality.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">Causes of Erectile Dysfunction</h3>
-         <p>
-          Understanding the causes of erectile dysfunction is crucial in finding
-          the right treatment. Our specialists will discuss the potential
-          factors contributing to your ED, which can include medical,
-          psychological, or lifestyle-related issues.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">Erectile Dysfunction Symptoms</h3>
-         <p>
-          Recognizing the symptoms of ED is essential for early intervention. If
-          you're experiencing difficulties achieving or maintaining an erection,
-          don't hesitate to reach out to our specialists for a consultation.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">Erectile Dysfunction Diagnosis</h3>
-         <p>
-          Accurate diagnosis is the first step towards overcoming ED. Our ED
-          specialists use advanced diagnostic tools and techniques to identify
-          the root causes of your condition. From physical exams to laboratory
-          tests, we leave no stone unturned.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">Erectile Dysfunction Treatment</h3>
-         <p>
-          Our ED specialists are highly trained in the latest techniques and
-          therapies for erectile dysfunction treatment. We know that ED can have
-          various underlying causes, so we tailor our treatment plans to your
-          specific needs. Whether it's through medications, lifestyle changes,
-          or other therapies, we'll work closely with you to find the most
-          effective solution.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">Impotence Doctor</h3>
-         <p>
-          Our impotence doctors are experienced in diagnosing and treating ED
-          comprehensively. We understand that impotence can be a challenging
-          issue, and our compassionate approach ensures that you receive the
-          best possible care.
-         </p>
-        </div>
+      <section className="p-6 mt-6 rounded-lg md:pl-16">
+       <h2 className="mb-4 text-2xl font-bold lg:text-4xl">
+        Causes of Erectile Dysfunction
+       </h2>
+       <p className="mb-8">
+        Understanding the{" "}
+        <Link
+         href="https://www.mayoclinic.org/diseases-conditions/erectile-dysfunction/symptoms-causes/syc-20355776"
+         className="text-blue-800"
+        >
+         causes of Erectile Dysfunction (ED)
+        </Link>{" "}
+        is a crucial step in addressing this prevalent condition that affects
+        many men. ED can result from a complex interplay of physical,
+        psychological, and lifestyle factors, and it often becomes more common
+        with age. In this article, we will delve into the various factors that
+        contribute to ED, shedding light on the multifaceted nature of this
+        condition.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold ">
+        Physical Causes of Erectile Dysfunction
+       </h3>
+       <p className="mb-6">
+        <Link
+         href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/erectile-dysfunction"
+         className="text-blue-800"
+        >
+         Erectile Dysfunction
+        </Link>{" "}
+        often results from physical factors that impede the normal functioning
+        of the male reproductive system. Vascular problems, such as
+        atherosclerosis or hypertension, can restrict blood flow to the penis,
+        making it difficult to achieve an erection. Neurological issues, like
+        nerve damage due to injury or diseases, disrupt the transmission of
+        signals essential for an erection. Additionally, hormonal imbalances,
+        particularly low testosterone levels, can affect sexual performance,
+        highlighting the intricate interplay of bodily systems in ED.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold ">Psychological Causes of ED</h3>
+       <p className="mb-6">
+        Psychological factors play a significant role in the development of ED.
+        Stress and anxiety, which can result from work pressures or personal
+        issues, often interfere with the ability to attain and maintain an
+        erection. Conditions like depression may alter one's mood and libido,
+        leading to sexual difficulties. Relationship issues can create emotional
+        stress that adversely impacts sexual performance, underlining the
+        importance of considering mental health in the context of ED.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold "> Lifestyle Causes of ED</h3>
+       <p className="mb-6">
+        Lifestyle choices are closely linked to ED. Smoking and substance abuse
+        harm the circulatory system and can contribute to the onset of ED. An
+        inactive lifestyle and obesity not only affect overall health but also
+        impair sexual function by reducing blood flow and promoting hormonal
+        imbalances. Poor dietary choices can deprive the body of essential
+        nutrients, further underscoring the connection between lifestyle and
+        sexual health.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold ">Age related Causes of ED</h3>
+       <p className="mb-6">
+        As men age, they experience a series of natural changes in their bodies
+        that can make them more susceptible to ED. The aging process often leads
+        to a decrease in testosterone levels, which can affect sexual desire and
+        performance. Understanding the role of age-related factors is essential,
+        as it helps individuals and healthcare providers differentiate between
+        age-related changes and pathological causes of ED.
+       </p>
+      </section>
+      <section className="p-6 mt-6 rounded-lg md:pl-16 ">
+       <h2 className="mb-4 text-2xl font-bold lg:text-4xl ">
+        Symptoms of Erectile Dysfunction
+       </h2>
+       <p className="mb-6">
+        Identifying the symptoms of Erectile Dysfunction (ED) is essential for
+        addressing this common men's health concern, which includes difficulties
+        achieving and maintaining an erection and reduced sexual desire,
+        affecting both physical and emotional aspects of intimacy.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold ">
+        {" "}
+        Inability to Achieve an Erection
+       </h3>
+       <p className="mb-6">
+        One of the primary symptoms of Erectile Dysfunction is the persistent
+        difficulty in attaining a firm and sustained erection during sexual
+        activity. Men experiencing this symptom may find it challenging to
+        initiate or participate in sexual intercourse, often leading to feelings
+        of frustration and disappointment.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold ">
+        Difficulty Maintaining an Erection
+       </h3>
+       <p className="mb-6">
+        ED can manifest as an inability to sustain an erection throughout sexual
+        activity, causing intermittent or short-lived erections that hinder the
+        completion of intercourse. This difficulty can result in a loss of
+        confidence and self-esteem, impacting not only sexual relationships but
+        also overall emotional well-being.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold "> Reduced Sexual Desire</h3>
+       <p className="mb-6">
+        ED may be accompanied by a noticeable decrease in sexual desire or
+        libido, making individuals less interested in engaging in sexual
+        activities. This reduction in sexual interest can strain intimate
+        relationships and contribute to emotional distress, further underscoring
+        the importance of addressing both the physical and emotional aspects of
+        ED.
+       </p>
+      </section>
+      <section className="p-6 mt-6 rounded-lg md:pl-16 ">
+       <h2 className="mb-4 text-2xl font-bold lg:text-4xl ">
+        Treatment for Erectile Dysfunction
+       </h2>
+       <p className="mb-6">
+        Exploring{" "}
+        <Link
+         href="https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/treatment"
+         className="text-blue-800"
+        >
+         {" "}
+         treatment options for Erectile Dysfunction (ED)
+        </Link>
+        is crucial for individuals seeking to regain their sexual well-being and
+        confidence. From lifestyle modifications and psychological counseling to
+        medication and innovative shockwave therapy, understanding the available
+        approaches is the first step towards effectively managing ED and
+        improving one's quality of life.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold "> Lifestyle Modifications</h3>
+       <p className="mb-6">
+        Lifestyle changes encompass alterations in diet and exercise routines,
+        which promote overall health and improved blood flow, potentially aiding
+        in ED management. Quitting smoking, reducing alcohol and drug use, and
+        maintaining a healthy body weight are integral components of lifestyle
+        adjustments that can positively impact sexual health.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold "> Psychological Counseling</h3>
+       <p className="mb-6">
+        Psychological counseling involves therapy sessions aimed at addressing
+        underlying emotional issues contributing to ED. These therapeutic
+        approaches can help individuals manage stress, anxiety, depression, and
+        relationship-related concerns, facilitating improved sexual well-being
+        and confidence.
+       </p>
+       <h3 className="mb-4 text-2xl font-bold "> Medications</h3>
+       <p className="mb-6">
+        Medications such as oral options (e.g., Viagra and Cialis) can enhance
+        erectile function by promoting blood flow to the penis. Additionally,
+        injections and suppositories offer direct treatment for ED when oral
+        medications are not effective or feasible. Understanding the various
+        medication options is essential for individuals seeking pharmacological
+        solutions to ED.
+       </p>
 
-        <div>
-         <h3 className="pb-4">Erectile Dysfunction Medications</h3>
-         <p>
-          When appropriate, we may recommend medications to help with your ED.
-          Our specialists will guide you through the available options, ensuring
-          that you receive the most suitable treatment.
-         </p>
-        </div>
-
-        <div>
-         <h3 className="pb-4">Natural Remedies for ED</h3>
-         <p>
-          For those looking for natural approaches to ED, our specialists can
-          discuss lifestyle changes, dietary recommendations, and exercises that
-          may help improve your condition.
-         </p>
-        </div>
-
-        <div>
-         <h3 className="pb-4">Lifestyle Changes for ED</h3>
-         <p>
-          Lifestyle plays a significant role in erectile dysfunction. We'll work
-          with you to make positive lifestyle changes that can enhance your
-          sexual health and overall well-being. If you're seeking an ED
-          specialist who offers comprehensive services, personalized treatment
-          plans, and a compassionate approach, look no further. Contact our
-          Men's Sexual Health Clinic today to schedule a consultation and take
-          the first step towards reclaiming your vitality and confidence. Your
-          journey to overcoming erectile dysfunction starts here.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">ED Therapy Options</h3>
-         <p>
-          Beyond medications, we offer a variety of ED therapy options,
-          including counseling, vacuum erection devices, and penile implants.
-          Our specialists will discuss these options with you, considering your
-          preferences and goals.
-         </p>
-        </div>
-        <div>
-         <h3 className="pb-4">ED Clinic Near Me</h3>
-         <p>
-          Conveniently located in the San Martin Medical Arts Pavilion, our ED
-          clinic is easily accessible, ensuring that you can receive the care
-          you need without hassle.
-         </p>
-        </div>
-       </article>
-      </div>
+       <h3 className="mb-4 text-2xl font-bold "> Shockwave Therapy</h3>
+       <p className="mb-6">
+        <Link href="/shockwave-therapy-las-vegas">Shockwave therapy</Link>
+        is a non-invasive treatment involving low-intensity shockwaves applied
+        to penile tissue, promoting blood vessel growth and potentially
+        enhancing erections. It serves as a promising alternative for those who
+        prefer non-pharmaceutical treatments or have not responded well to other
+        therapies, making it essential for individuals exploring modern ED
+        treatment approaches.
+       </p>
+      </section>
+     </div>
+     <div className="hidden p-4 md:flex lg:w-1/3">
+      <AppointmentForm />
      </div>
     </div>
-   </section>
+   </div>
 
-   {/* next section */}
+   {/*body*/}
    <CTA
-    heading="Las Vegas ED Doctor"
-    body="Ready to take control of your sexual health? Don't wait any longer. Our Erectile Dysfunction Doctor in Las Vegas is here to help you regain your vitality and confidence. Schedule your consultation today, and let us provide you with personalized treatment options to address your unique needs. Take the first step towards a more satisfying and fulfilling life. Your journey to improved sexual health begins here. Reach out now, and let us guide you towards a brighter future."
+    heading="ED Specialist in Las Vegas"
+    body="Ready to take control of your sexual health? Don't wait any longer. Our experienced ED Specialist in Las Vegas is here to help you regain your vitality and confidence. Schedule your consultation today, and let us provide you with personalized treatment options to address your unique needs. Take the first step towards a more satisfying and fulfilling life. Your journey to improved sexual health begins here. Reach out now, and let us guide you towards a brighter future."
     src="/images/happy-man.avif"
     alt="Las Vegas ED Doctor"
     btn={{
      href: "/appointment",
-     text: "Schedule An Appointment",
+     text: "Schedule An ED Consultation",
      id: "cta",
 
      icon: (

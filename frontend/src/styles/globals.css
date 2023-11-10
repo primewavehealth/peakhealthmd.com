@@ -8,7 +8,7 @@ html {
 
 @layer base {
  body {
-  @apply bg-[zinc-100] text-[#1f2937] tracking-wide scroll-smooth;
+  @apply bg-[zinc-100] text-[#1f2937] tracking-wide;
  }
 
  h1,
