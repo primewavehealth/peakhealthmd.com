@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { Aesthetics, Mens_Health, Pain_Conditions, Wellness } from "./Links";
+import { Mens_Health, Pain_Conditions, Wellness } from "./Links";
 
 const callsToAction = [
  {
@@ -174,7 +174,7 @@ export default function Example() {
       </Transition>
      </Popover>
 
-     <Popover className="relative">
+     {/* <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Aesthetics
        <ChevronDownIcon
@@ -229,7 +229,8 @@ export default function Example() {
         </div>
        </Popover.Panel>
       </Transition>
-     </Popover>
+                 </Popover> */}
+
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Wellness
@@ -287,19 +288,6 @@ export default function Example() {
       </Transition>
      </Popover>
 
-     <Link
-      href="https://tangramlasvegas.com"
-      target="_blank"
-      className="text-sm font-semibold leading-6 text-gray-900"
-     >
-      TanGram
-     </Link>
-     {/* <Link
-      href="/healthyheroes"
-      className="text-sm font-semibold leading-6 text-gray-900"
-     >
-      Healthy Heroes
-     </Link> */}
      <Link
       href="/about-primewave"
       className="text-sm font-semibold leading-6 text-gray-900"
@@ -426,7 +414,7 @@ export default function Example() {
          )}
         </Disclosure>
 
-        <Disclosure as="div" className="-mx-3">
+        {/* <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
@@ -453,7 +441,8 @@ export default function Example() {
            </Disclosure.Panel>
           </>
          )}
-        </Disclosure>
+                             </Disclosure> */}
+
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
@@ -483,13 +472,6 @@ export default function Example() {
          )}
         </Disclosure>
 
-        <Link
-         href="https://tangramlasvegas.com"
-         target="_blank"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         TanGram
-        </Link>
         {/* <Link
          href="/healthyheroes"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"

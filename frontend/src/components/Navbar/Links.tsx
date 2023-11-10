@@ -60,7 +60,7 @@ export const Mens_Health = [
  },
 ];
 
-export const Aesthetics = [
+/* export const Aesthetics = [
  {
   href: "/facials-las-vegas",
   description: "",
@@ -71,7 +71,7 @@ export const Aesthetics = [
   description: "",
   name: "PRP Facials",
  },
-];
+]; */
 
 export const Wellness = [
  {
