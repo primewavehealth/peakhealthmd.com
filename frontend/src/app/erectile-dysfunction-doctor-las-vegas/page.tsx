@@ -82,7 +82,7 @@ function page() {
        </div>
       </section>
 
-      <section className="p-6 mt-6 rounded-lg md:pl-16">
+      <section className="p-6 mt-5 rounded-lg md:pl-16">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl">
         Causes of Erectile Dysfunction
        </h2>
@@ -150,7 +150,7 @@ function page() {
         age-related changes and pathological causes of ED.
        </p>
       </section>
-      <section className="p-6 mt-6 rounded-lg md:pl-16 ">
+      <section className="p-6 mt-5 rounded-lg md:pl-16 ">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl ">
         Symptoms of Erectile Dysfunction
        </h2>
@@ -191,7 +191,7 @@ function page() {
         ED.
        </p>
       </section>
-      <section className="p-6 mt-6 rounded-lg md:pl-16 ">
+      <section className="p-6 mt-5 rounded-lg md:pl-16 ">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl ">
         Treatment for Erectile Dysfunction
        </h2>
@@ -210,6 +210,18 @@ function page() {
         approaches is the first step towards effectively managing ED and
         improving one's quality of life.
        </p>
+
+       <p className="mb-2">The common treatment options include:</p>
+       <ul className="pl-4 mb-8 list-disc!">
+        <li className="mb-2">Lifestyle Modifications</li>
+        <li className="mb-2">Psychological Counseling</li>
+        <li className="mb-2">Medications</li>
+        <li className="mb-2">
+         <Link href="/shockwave-therapy-las-vegas" className="text-blue-800">
+          Shockwave Therapy
+         </Link>{" "}
+        </li>
+       </ul>
        <h3 className="mb-4 text-2xl font-bold "> Lifestyle Modifications</h3>
        <p className="mb-6">
         Lifestyle changes encompass alterations in diet and exercise routines,
@@ -236,17 +248,14 @@ function page() {
         solutions to ED.
        </p>
 
-       <h3 className="mb-4 text-2xl font-bold "> Shockwave Therapy</h3>
+       <h3 className="mb-4 text-2xl font-bold ">Shockwave Therapy</h3>
        <p className="mb-6">
-        <Link href="/shockwave-therapy-las-vegas" className="text-blue-800">
-         Shockwave therapy
-        </Link>{" "}
-        is a non-invasive treatment involving low-intensity shockwaves applied
-        to penile tissue, promoting blood vessel growth and potentially
-        enhancing erections. It serves as a promising alternative for those who
-        prefer non-pharmaceutical treatments or have not responded well to other
-        therapies, making it essential for individuals exploring modern ED
-        treatment approaches.
+        Shockwave therapy is a non-invasive treatment involving low-intensity
+        shockwaves applied to penile tissue, promoting blood vessel growth and
+        potentially enhancing erections. It serves as a promising alternative
+        for those who prefer non-pharmaceutical treatments or have not responded
+        well to other therapies, making it essential for individuals exploring
+        modern ED treatment approaches.
        </p>
       </section>
      </div>
