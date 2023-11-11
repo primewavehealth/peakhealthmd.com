@@ -1,7 +1,8 @@
-import ChronicCTA from "@/components/ChronicCTA";
+import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
+import Link from "next/link";
 import pain from "/public/images/pain.jpg";
 
 export const metadata: Metadata = {
@@ -46,113 +47,296 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      ),
     }}
    />
-   <div className="max-w-screen-xl px-8 py-16 mx-auto text-lg">
-    <section className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
-     <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-      Why Shockwave Therapy Is A Great Solution For Chronic Pain?
-     </h2>
+   {/* body */}
 
-     <article className="space-y-4 text-justify text-gray-600 ">
-      <p>
-       Shockwave therapy, also known as extracorporeal shockwave therapy (ESWT),
-       has been found to be an effective solution for treating chronic pain in
-       certain conditions. Here are several reasons why shockwave therapy is
-       considered effective:
-      </p>
-      <p>
-       <strong>Stimulates tissue healing</strong>: Shockwave therapy works by
-       delivering high-energy sound waves to the affected area. These sound
-       waves stimulate the body's natural healing response by increasing blood
-       circulation and promoting the formation of new blood vessels. This
-       enhanced blood flow helps deliver nutrients and oxygen to the injured
-       tissues, facilitating tissue repair and regeneration.
-      </p>
-      <p>
-       <strong>Reduces inflammation</strong>: Chronic pain is often associated
-       with inflammation in the affected area. Shockwave therapy has been shown
-       to have anti-inflammatory effects by suppressing inflammatory mediators
-       and promoting the release of anti-inflammatory substances. By reducing
-       inflammation, it can alleviate pain and discomfort.
-      </p>
-      <p>
-       <strong>Disrupts pain signals</strong>: Shockwave therapy can help
-       disrupt the transmission of pain signals to the brain. The high-energy
-       sound waves stimulate sensory nerve fibers, which can interfere with the
-       transmission of pain signals, leading to temporary pain relief.
-      </p>
-      <p>
-       <strong>Breaks down scar tissue</strong> : Chronic pain can be caused by
-       the presence of scar tissue or fibrous adhesions in the affected area.
-       Shockwave therapy can break down these adhesions and promote the
-       reabsorption of scar tissue. This process helps improve the flexibility
-       and function of the affected area, thereby reducing pain.
-      </p>
-      <p>
-       <strong>Non-invasive and minimal side effects</strong>: Shockwave therapy
-       is a non-invasive treatment option, meaning it does not require surgical
-       intervention. Compared to invasive procedures, such as surgery, shockwave
-       therapy carries fewer risks and has minimal side effects. Most patients
-       may experience some temporary discomfort or mild bruising at the
-       treatment site, but these effects are generally well-tolerated.
-      </p>
-     </article>
-    </section>
-    <ChronicCTA />
-    <section className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
-     <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
-      Why Primewave?
-     </h2>
+   <div className="container py-8 mx-auto">
+    <article className="p-8 leading-8 md:pl-16">
+     <div className="flex flex-col md:flex-row">
+      <div className="w-full md:w-2/3 md:pr-8">
+       <h2 className="mb-4 text-2xl font-bold">
+        Chronic Pain: Causes, Symptoms and Treatment
+       </h2>
+       <div className="mb-4">
+        <h3 className="mb-2 text-xl font-bold">What is chronic pain?</h3>
+        <p>
+         <Link
+          href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/chronic-pain"
+          className="underline-offset-4"
+         >
+          Chronic pain
+         </Link>{" "}
+         is pain that lasts for more than three months. It can be constant or
+         intermittent, and it can be mild, moderate, or severe. Chronic pain can
+         be caused by a variety of conditions, including injury, illness,
+         arthritis, and nerve damage. It can also be idiopathic, meaning that
+         the cause is unknown.
+        </p>
+       </div>
+       <div className="mb-4">
+        <h3 className="mb-2 text-xl font-bold">
+         What are the different types of pain?
+        </h3>
+        <p>
+         Pain can be classified into two main types: acute and chronic. Acute
+         pain is sudden pain that is usually caused by an injury or illness. It
+         is usually short-lived and goes away once the underlying cause is
+         treated. Chronic pain, on the other hand, is pain that lasts for more
+         than three months. It can be caused by a variety of conditions, and it
+         can be difficult to treat.
+        </p>
+       </div>
+       <div className="mb-4">
+        <h3 className="mb-2 text-xl font-bold">
+         What’s the difference between chronic pain and other pain?
+        </h3>
+        <p>
+         The main difference between chronic pain and other pain is the
+         duration. Chronic pain lasts for more than three months, while other
+         types of pain are usually short-lived. Chronic pain is also more likely
+         to be associated with other symptoms, such as depression, anxiety, and
+         fatigue.
+        </p>
+       </div>
+      </div>
+      <div className="w-full md:-mt-16 md:w-1/3">
+       <AppointmentForm />
+      </div>
+     </div>
+    </article>
 
-     <article className="space-y-4 text-justify text-gray-600 ">
+    <article className="p-8 prose md:-mt-24 md:pl-16 md:w-2/3">
+     <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
       <p>
-       <strong>Expertise and Innovation</strong> : Our clinic is staffed with
-       highly skilled pain specialists in Las Vegas who have extensive
-       experience in treating various forms of chronic pain, including back
-       pain, arthritis, fibromyalgia, migraines, and more. Our specialists are
-       well-versed in the latest advancements in Shockwave Therapy, ensuring
-       that you receive the most effective and innovative treatment available.
+       There are many different{" "}
+       <Link
+        href="https://my.clevelandclinic.org/health/diseases/4798-chronic-pain"
+        className="underline-offset-4"
+       >
+        causes of chronic pain
+       </Link>{" "}
+       , including:
       </p>
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">
+        Injury: Chronic pain can be caused by an injury to the bones, muscles,
+        nerves, or joints.
+       </li>
+       <li className="mb-2">
+        Illness: Chronic pain can also be caused by a variety of illnesses, such
+        as arthritis, cancer, diabetes, and fibromyalgia.
+       </li>
+       <li className="mb-2">
+        Nerve damage: Nerve damage can cause chronic pain in the affected area.
+       </li>
+       <li className="mb-2">
+        Idiopathic pain: Sometimes, the cause of chronic pain is unknown.
+       </li>
+      </ul>
+     </div>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">
+       Where do people experience chronic pain?
+      </h3>
       <p>
-       <strong>Personalized Approach</strong>: We understand that each
-       individual's experience with chronic pain is unique. That's why we take a
-       personalized approach to your care. Our compassionate team will conduct a
-       comprehensive assessment, considering your medical history, lifestyle,
-       and specific pain condition to tailor a treatment plan that addresses
-       your needs with precision.
+       Chronic pain can occur anywhere in the body, but it is most common in the
+       following areas:
       </p>
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">
+        Back:{" "}
+        <Link href="/back-pain-las-vegas" className="underline-offset-4">
+         Back pain
+        </Link>{" "}
+        is the most common type of chronic pain, affecting over 26 million
+        adults in the United States each year. It can be caused by a variety of
+        factors, such as muscle strain, arthritis, and herniated discs.
+       </li>
+       <li className="mb-2">
+        Neck:{" "}
+        <Link href="/neck-pain-las-vegas" className="underline-offset-4">
+         Neck pain
+        </Link>{" "}
+        is another common type of chronic pain, affecting over 12 million adults
+        in the United States each year. It can be caused by muscle strain,
+        arthritis, and whiplash injuries.
+       </li>
+       <li className="mb-2">
+        Head: Chronic headaches, such as migraines and tension headaches, can be
+        debilitating and can have a significant impact on a person's quality of
+        life.
+       </li>
+       <li className="mb-2">
+        Joints: Arthritis is the leading cause of chronic pain in the joints. It
+        can cause pain, stiffness, and inflammation in the{" "}
+        <Link href="/joint-pain-las-vegas">joints</Link>.
+       </li>
+       <li className="mb-2">
+        Nerves: Nerve damage can cause chronic pain in the affected area. This
+        can be caused by injuries, infections, and certain medical conditions,
+        such as diabetes and shingles.
+       </li>
+      </ul>
+      <p>Other common areas where people experience chronic pain include:</p>
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">
+        Muscles: Muscle pain can be caused by strain, overuse, and injuries.
+       </li>
+       <li className="mb-2">
+        Bones: Bone pain can be caused by arthritis, osteoporosis, and cancer.
+       </li>
+       <li className="mb-2">
+        Abdomen: Abdominal pain can be caused by a variety of factors, such as
+        irritable bowel syndrome (IBS), Crohn's disease, and ulcerative colitis.
+       </li>
+       <li className="mb-2">
+        Pelvis: Pelvic pain can be caused by endometriosis, menstrual cramps,
+        and pelvic inflammatory disease (PID).
+       </li>
+       <li className="mb-2">
+        Skin: Skin pain can be caused by a variety of conditions, such as
+        eczema, psoriasis, and shingles.
+       </li>
+      </ul>
       <p>
-       <strong>Advanced Shockwave Technology</strong> : Primewave is equipped
-       with state-of-the-art Shockwave Therapy technology, setting us apart as
-       leaders in the field. Our cutting-edge equipment delivers focused and
-       precise shockwaves to the affected areas, stimulating healing and
-       providing long-lasting pain relief. Rest assured, you'll be in the hands
-       of experts utilizing the latest tools for your well-being.
+       It is important to note that chronic pain can also be widespread, meaning
+       that it occurs in multiple areas of the body.
       </p>
+     </div>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">
+       What are the symptoms of chronic pain?
+      </h3>
       <p>
-       <strong>Proven Results and Patient Satisfaction</strong>: The success
-       stories of our patients speak for themselves. With Shockwave Therapy at
-       Primewave, countless individuals have experienced substantial pain
-       reduction, improved mobility, and enhanced quality of life. Our
-       dedication to exceptional patient care has earned us a reputation for
-       delivering remarkable results and unparalleled satisfaction.
+       The symptoms of chronic pain can vary depending on the underlying cause.
+       However, some of the most common symptoms include:
       </p>
-
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">Pain that lasts for more than three months</li>
+       <li className="mb-2">Pain that is constant or intermittent</li>
+       <li className="mb-2">Pain that can be mild, moderate, or severe</li>
+       <li className="mb-2">
+        Pain that is associated with other symptoms, such as depression,
+        anxiety, and fatigue
+       </li>
+      </ul>
+     </div>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">What is the "terrible triad?"</h3>
       <p>
-       <strong>Affordable Pain Care</strong>: At Primewave, we believe that
-       everyone deserves access to top-notch healthcare without compromising
-       their budget. That's why we offer shockwave therapy for chronic pain
-       treatment at an affordable cost, ensuring that you can receive the care
-       you need without financial burden. Rest assured, our commitment to
-       affordability never compromises the quality of our services or the
-       expertise of our medical professionals.
+       The "terrible triad" is a term used to describe three of the most common
+       symptoms of chronic pain: pain, fatigue, and depression. These symptoms
+       can interact with each other and make it difficult to manage chronic
+       pain.
       </p>
-     </article>
-    </section>
-
-    {/*  next section  */}
+     </div>
+    </article>
+    <article className="p-8 prose md:pl-16 md:w-2/3">
+     <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">How is chronic pain diagnosed?</h3>
+      <p>
+       There is no single test to diagnose chronic pain. Your doctor will likely
+       start by asking you about your pain and its history. They may also
+       perform a physical exam and order some tests to rule out any underlying
+       medical conditions.
+      </p>
+     </div>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">How is chronic pain treated?</h3>
+      <p>
+       There is no cure for chronic pain, but there are a number of treatments
+       that can help to manage the pain and improve quality of life. Treatment
+       options include:
+      </p>
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">
+        Medications: There are a number of medications that can be used to treat
+        chronic pain, including over-the-counter pain relievers, prescription
+        pain medications, and antidepressants.
+       </li>
+       <li className="mb-2">
+        Physical therapy: Physical therapy can help to strengthen muscles,
+        improve flexibility, and reduce pain.
+       </li>
+       <li className="mb-2">
+        Interventional pain management: Interventional pain management
+        procedures, such as injections and nerve blocks, can be used to deliver
+        pain medication directly to the source of the pain.
+       </li>
+       <li className="mb-2">
+        Shockwave therapy:{" "}
+        <Link
+         href="/shockwave-therapy-las-vegas"
+         className="underline-offset-4"
+        >
+         Shockwave therapy
+        </Link>{" "}
+        is a non-invasive treatment that uses high-energy sound waves to
+        stimulate healing and reduce pain.
+       </li>
+       <li className="mb-2">
+        Surgery: Surgery may be an option for some people with chronic pain, but
+        it is usually a last resort.
+       </li>
+      </ul>
+     </div>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">
+       What medications can treat chronic pain?
+      </h3>
+      <p>
+       There are a number of medications that can be used to treat chronic pain,
+       including:
+      </p>
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">
+        Over-the-counter pain relievers: Over-the-counter pain relievers, such
+        as ibuprofen and acetaminophen, can be effective for mild to moderate
+        chronic pain.
+       </li>
+       <li className="mb-2">
+        Prescription pain medications: Prescription pain medications, such as
+        opioids and nerve pain medications, can be used for more severe chronic
+        pain.
+       </li>
+       <li className="mb-2">
+        Antidepressants: Antidepressants can be used to treat chronic pain by
+        reducing inflammation and improving mood.
+       </li>
+      </ul>
+     </div>
+     <div className="mb-4">
+      <h3 className="mb-2 text-xl font-bold">
+       Can lifestyle changes help with chronic pain?
+      </h3>
+      <p>
+       Yes, lifestyle changes can help to manage chronic pain. Some helpful
+       lifestyle changes include:
+      </p>
+      <ul className="pl-4 mb-8 list-disc">
+       <li className="mb-2">
+        Exercise: Regular exercise can help to strengthen muscles, improve
+        flexibility, and reduce pain.
+       </li>
+       <li className="mb-2">
+        Weight loss: Losing weight can help to reduce pain in the joints.
+       </li>
+       <li className="mb-2">
+        Smoking cessation: Smoking can worsen chronic pain, so quitting smoking
+        is important.
+       </li>
+       <li className="mb-2">
+        Stress management: Stress can worsen chronic pain, so it is important to
+        find effective ways to manage stress.
+       </li>
+      </ul>
+     </div>
+    </article>
    </div>
 
-   {/* next section */}
+   {/* next article */}
    <CTA
     heading="Take the First Step Towards a Pain-Free Future Today!"
     body="Don't let chronic pain hold you back from enjoying life to the fullest. Take the leap towards a pain-free future by scheduling a consultation with our experienced team at Primewave. We will assess your condition, discuss the benefits of Shockwave Therapy, and develop a personalized treatment plan tailored to your needs.
@@ -181,7 +365,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    />
 
    {/* faqs*/}
-   <section className="max-w-3xl mx-auto my-12">
+   <article className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
      Frequently Asked Questions About Chronic Pain
     </h2>
@@ -195,7 +379,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         Can chronic pain affect my emotional well-being and mental health?
        </h2>
 
-       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+       <span className="shrink-0 rounded-full  p-1.5 text-gray-900 sm:p-3">
         <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
@@ -225,7 +409,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         treated?
        </h2>
 
-       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+       <span className="shrink-0 rounded-full  p-1.5 text-gray-900 sm:p-3">
         <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
@@ -254,7 +438,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         pain?
        </h2>
 
-       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+       <span className="shrink-0 rounded-full  p-1.5 text-gray-900 sm:p-3">
         <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
@@ -282,7 +466,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         Is there a connection between chronic pain and sleep disorders?
        </h2>
 
-       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+       <span className="shrink-0 rounded-full  p-1.5 text-gray-900 sm:p-3">
         <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
@@ -311,7 +495,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         of chronic pain?
        </h2>
 
-       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+       <span className="shrink-0 rounded-full  p-1.5 text-gray-900 sm:p-3">
         <svg
          xmlns="http://www.w3.org/2000/svg"
          className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-45"
@@ -335,7 +519,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </p>
      </details>
     </div>
-   </section>
+   </article>
   </div>
  );
 }
