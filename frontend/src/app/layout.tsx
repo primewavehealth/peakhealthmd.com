@@ -83,7 +83,7 @@ export default function RootLayout({
    )}
   >
    <body className="flex flex-col antialiased">
-    <GoogleTagManager gtmId="GTM-NFW6JJZC" />
+    <GoogleTagManager gtmId="GTM-PLFT32N8" />
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
      <Topbar />
