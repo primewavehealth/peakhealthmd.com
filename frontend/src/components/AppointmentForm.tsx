@@ -88,9 +88,24 @@ function AppointmentForm() {
   sendGTMEvent({ event: "form_submit", value: "form_submit" });
  }
 
+ function gtagSendEvent(url: string) {
+  var callback = function () {
+   if (typeof url === "string") {
+    window.location.href = url;
+   }
+  };
+  gtag("event", "manual_conversion_SUBMIT_LEAD_FORM", {
+   event_callback: callback,
+   event_timeout: 2000,
+   // <event_parameters>
+  });
+  return false;
+ }
+
  const handleTwoFunctions = () => {
   handleSubmit(submitHandler);
   sendEvent();
+  gtagSendEvent("primewavehealth.com/chronic-pain-las-vegas");
  };
  return (
   <section id="form" className="dark:bg-gray-900">
