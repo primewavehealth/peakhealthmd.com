@@ -52,7 +52,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    <div className="container py-8 mx-auto">
     <article className="p-8 leading-8 md:pl-16">
      <div className="flex flex-col md:flex-row">
-      <div className="w-full md:w-2/3 md:pr-8">
+      <div className="w-full md:pr-8">
        <h2 className="mb-4 text-2xl font-bold">
         Chronic Pain: Causes, Symptoms and Treatment
        </h2>
@@ -104,7 +104,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      </div>
     </article>
 
-    <article className="p-8 prose md:-mt-24 md:pl-16 md:w-2/3">
+    <article className="p-8 prose md:-mt-24 md:pl-16 ">
      <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
      <div className="mb-4">
       <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
@@ -170,7 +170,10 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        <li className="mb-2">
         Joints: Arthritis is the leading cause of chronic pain in the joints. It
         can cause pain, stiffness, and inflammation in the{" "}
-        <Link href="/joint-pain-las-vegas">joints</Link>.
+        <Link href="/joint-pain-las-vegas" className="underline-offset-4">
+         joints
+        </Link>
+        .
        </li>
        <li className="mb-2">
         Nerves: Nerve damage can cause chronic pain in the affected area. This
@@ -232,7 +235,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </p>
      </div>
     </article>
-    <article className="p-8 prose md:pl-16 md:w-2/3">
+    <article className="p-8 prose md:pl-16 ">
      <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
      <div className="mb-4">
       <h3 className="mb-2 text-xl font-bold">How is chronic pain diagnosed?</h3>
