@@ -50,7 +50,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    {/* body */}
 
    <div className="container py-8 mx-auto">
-    <article className="p-8 leading-8 md:pl-16">
+    <article className="p-8 leading-8 md:pl-24">
      <div className="flex flex-col md:flex-row">
       <div className="w-full md:pr-8">
        <h2 className="mb-4 text-2xl font-bold">
@@ -104,7 +104,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      </div>
     </article>
 
-    <article className="p-8 prose md:-mt-24 md:pl-16 ">
+    <article className="p-8 prose md:-mt-24 md:pl-24 max-w-none md:w-2/3">
      <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
      <div className="mb-4">
       <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
@@ -235,7 +235,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </p>
      </div>
     </article>
-    <article className="p-8 prose md:pl-16 ">
+    <article className="p-8 prose md:pl-24 max-w-none md:w-2/3">
      <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
      <div className="mb-4">
       <h3 className="mb-2 text-xl font-bold">How is chronic pain diagnosed?</h3>
