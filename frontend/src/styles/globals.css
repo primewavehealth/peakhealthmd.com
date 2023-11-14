@@ -6,6 +6,24 @@ html {
  scroll-snap-type: y mandatory;
 }
 
+.prose a {
+ @apply transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-4 decoration-[0.1em];
+}
+
+.prose h2,
+h3,
+h4 {
+ @apply font-semibold;
+}
+
+/* Remove Safari input shadow on mobile */
+input[type="text"],
+input[type="email"] {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+}
+
 @layer base {
  body {
   @apply bg-[zinc-100] text-[#1f2937] tracking-wide;
