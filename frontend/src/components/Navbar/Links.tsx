@@ -30,11 +30,15 @@ export const Pain_Conditions = [
   name: "Knee Pain",
  },
  {
+  href: "/sciatic-nerve-treatment-las-vegas",
+  description: "",
+  name: "Sciatica",
+ },
+ {
   href: "/tmj-treatment-in-las-vegas",
   description: "",
   name: "TMJ",
  },
-
  {
   href: "/fibromyalgia-treatment-las-vegas",
   description: "",

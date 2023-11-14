@@ -54,11 +54,11 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      <div className="flex flex-col md:flex-row">
       <div className="w-full md:pr-8">
        <h2 className="mb-4 text-2xl font-bold">
-        Chronic Pain: Causes, Symptoms and Treatment
+        Everything You Want to Know About Chronic Pain
        </h2>
        <div className="mb-4">
         <h3 className="mb-2 text-xl font-bold">What is chronic pain?</h3>
-        <p>
+        <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
          <Link
           href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/chronic-pain"
           className="underline-offset-4"
@@ -104,7 +104,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      </div>
     </article>
 
-    <article className="p-8 prose md:-mt-24 md:pl-24 max-w-none md:w-2/3">
+    <article className="p-8 prose md:-mt-9 md:pl-24 max-w-none md:w-2/3">
      <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
      <div className="mb-4">
       <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
@@ -173,7 +173,6 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         <Link href="/joint-pain-las-vegas" className="underline-offset-4">
          joints
         </Link>
-        .
        </li>
        <li className="mb-2">
         Nerves: Nerve damage can cause chronic pain in the affected area. This
