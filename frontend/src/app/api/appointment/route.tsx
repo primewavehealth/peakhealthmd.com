@@ -15,23 +15,46 @@ export async function POST(request: Request) {
 
  const mailData = {
   html: `
- <div><strong>From Website Appointment Scheduling Form<strong></div>
-    <br/>
-    <div><strong>Name:</strong> ${data.name}</div> 
-    <br/>
-     <div><strong>Phone:</strong> ${data.phone}</div>
-    <br/>
-     <div><strong>Email:</strong> ${data.email}</div>
-    <br/>    
-    <div><strong>Service:</strong> ${data.services}</div>
-    <br/>  
-    <div><strong>Date:</strong> ${DateTime}</div>
-    <br/>  
-    
-    <div><strong>Message:</strong> ${data.message}</div>
-    <br/>
-    <p>Sent from:
-      ${email}</p>`,
+ <body class="bg-gray-100 p-4">
+
+    <div class="max-w-md mx-auto bg-white p-8 rounded-md shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">New Inquiry</h2>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-600">Name:</label>
+            <p class="text-gray-800"> ${data.name}</p>
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-600">Phone:</label>
+            <p class="text-gray-800">${data.phone}</p>
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-600">Email:</label>
+            <p class="text-gray-800">${data.email}</p>
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-600">Service:</label>
+            <p class="text-gray-800">${data.services}</p>
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-600">Date:</label>
+            <p class="text-gray-800">${DateTime}</p>
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-sm font-medium text-gray-600">Message:</label>
+            <p class="text-gray-800">${data.message}</p>
+        </div>
+
+        <p class="text-sm text-gray-500">Sent from:
+      ${email}</p>
+    </div>
+
+</body>`,
  };
 
  const transporter = nodemailer.createTransport({

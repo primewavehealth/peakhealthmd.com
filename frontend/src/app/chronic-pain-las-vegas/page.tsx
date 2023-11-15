@@ -28,7 +28,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
     width={400}
     alt="chronic-pain"
     btn={{
-     href: "/appointment",
+     href: "#form",
      text: "Schedule An Appointment",
      id: "schedule",
 
@@ -49,293 +49,294 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    />
    {/* body */}
 
-   <div className="container py-8 mx-auto">
-    <article className="p-8 leading-8 md:pl-24">
-     <div className="flex flex-col md:flex-row">
-      <div className="w-full md:pr-8">
-       <h2 className="mb-4 text-2xl font-bold">
-        Everything You Want to Know About Chronic Pain
-       </h2>
-       <div className="mb-4">
-        <h3 className="mb-2 text-xl font-bold">What is chronic pain?</h3>
-        <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
-         <Link
-          href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/chronic-pain"
-          className="underline-offset-4"
-         >
-          Chronic pain
-         </Link>{" "}
-         is pain that lasts for more than three months. It can be constant or
-         intermittent, and it can be mild, moderate, or severe. Chronic pain can
-         be caused by a variety of conditions, including injury, illness,
-         arthritis, and nerve damage. It can also be idiopathic, meaning that
-         the cause is unknown.
-        </p>
-       </div>
-       <div className="mb-4">
-        <h3 className="mb-2 text-xl font-bold">
-         What are the different types of pain?
-        </h3>
-        <p>
-         Pain can be classified into two main types: acute and chronic. Acute
-         pain is sudden pain that is usually caused by an injury or illness. It
-         is usually short-lived and goes away once the underlying cause is
-         treated. Chronic pain, on the other hand, is pain that lasts for more
-         than three months. It can be caused by a variety of conditions, and it
-         can be difficult to treat.
-        </p>
-       </div>
-       <div className="mb-4">
-        <h3 className="mb-2 text-xl font-bold">
-         What’s the difference between chronic pain and other pain?
-        </h3>
-        <p>
-         The main difference between chronic pain and other pain is the
-         duration. Chronic pain lasts for more than three months, while other
-         types of pain are usually short-lived. Chronic pain is also more likely
-         to be associated with other symptoms, such as depression, anxiety, and
-         fatigue.
-        </p>
-       </div>
-      </div>
-      <div className="w-full md:-mt-16 md:w-1/3">
-       <AppointmentForm />
-      </div>
-     </div>
-    </article>
-
-    <article className="p-8 prose md:-mt-9 md:pl-24 max-w-none md:w-2/3">
-     <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
-      <p>
-       There are many different{" "}
-       <Link
-        href="https://my.clevelandclinic.org/health/diseases/4798-chronic-pain"
-        className="underline-offset-4"
-       >
-        causes of chronic pain
-       </Link>{" "}
-       , including:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Injury: Chronic pain can be caused by an injury to the bones, muscles,
-        nerves, or joints.
-       </li>
-       <li className="mb-2">
-        Illness: Chronic pain can also be caused by a variety of illnesses, such
-        as arthritis, cancer, diabetes, and fibromyalgia.
-       </li>
-       <li className="mb-2">
-        Nerve damage: Nerve damage can cause chronic pain in the affected area.
-       </li>
-       <li className="mb-2">
-        Idiopathic pain: Sometimes, the cause of chronic pain is unknown.
-       </li>
-      </ul>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">
-       Where do people experience chronic pain?
-      </h3>
-      <p>
-       Chronic pain can occur anywhere in the body, but it is most common in the
-       following areas:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Back:{" "}
-        <Link href="/back-pain-las-vegas" className="underline-offset-4">
-         Back pain
-        </Link>{" "}
-        is the most common type of chronic pain, affecting over 26 million
-        adults in the United States each year. It can be caused by a variety of
-        factors, such as muscle strain, arthritis, and herniated discs.
-       </li>
-       <li className="mb-2">
-        Neck:{" "}
-        <Link href="/neck-pain-las-vegas" className="underline-offset-4">
-         Neck pain
-        </Link>{" "}
-        is another common type of chronic pain, affecting over 12 million adults
-        in the United States each year. It can be caused by muscle strain,
-        arthritis, and whiplash injuries.
-       </li>
-       <li className="mb-2">
-        Head: Chronic headaches, such as migraines and tension headaches, can be
-        debilitating and can have a significant impact on a person's quality of
-        life.
-       </li>
-       <li className="mb-2">
-        Joints: Arthritis is the leading cause of chronic pain in the joints. It
-        can cause pain, stiffness, and inflammation in the{" "}
-        <Link href="/joint-pain-las-vegas" className="underline-offset-4">
-         joints
-        </Link>
-       </li>
-       <li className="mb-2">
-        Nerves: Nerve damage can cause chronic pain in the affected area. This
-        can be caused by injuries, infections, and certain medical conditions,
-        such as diabetes and shingles.
-       </li>
-      </ul>
-      <p>Other common areas where people experience chronic pain include:</p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Muscles: Muscle pain can be caused by strain, overuse, and injuries.
-       </li>
-       <li className="mb-2">
-        Bones: Bone pain can be caused by arthritis, osteoporosis, and cancer.
-       </li>
-       <li className="mb-2">
-        Abdomen: Abdominal pain can be caused by a variety of factors, such as
-        irritable bowel syndrome (IBS), Crohn's disease, and ulcerative colitis.
-       </li>
-       <li className="mb-2">
-        Pelvis: Pelvic pain can be caused by endometriosis, menstrual cramps,
-        and pelvic inflammatory disease (PID).
-       </li>
-       <li className="mb-2">
-        Skin: Skin pain can be caused by a variety of conditions, such as
-        eczema, psoriasis, and shingles.
-       </li>
-      </ul>
-      <p>
-       It is important to note that chronic pain can also be widespread, meaning
-       that it occurs in multiple areas of the body.
-      </p>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">
-       What are the symptoms of chronic pain?
-      </h3>
-      <p>
-       The symptoms of chronic pain can vary depending on the underlying cause.
-       However, some of the most common symptoms include:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">Pain that lasts for more than three months</li>
-       <li className="mb-2">Pain that is constant or intermittent</li>
-       <li className="mb-2">Pain that can be mild, moderate, or severe</li>
-       <li className="mb-2">
-        Pain that is associated with other symptoms, such as depression,
-        anxiety, and fatigue
-       </li>
-      </ul>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">What is the "terrible triad?"</h3>
-      <p>
-       The "terrible triad" is a term used to describe three of the most common
-       symptoms of chronic pain: pain, fatigue, and depression. These symptoms
-       can interact with each other and make it difficult to manage chronic
-       pain.
-      </p>
-     </div>
-    </article>
-    <article className="p-8 prose md:pl-24 max-w-none md:w-2/3">
-     <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">How is chronic pain diagnosed?</h3>
-      <p>
-       There is no single test to diagnose chronic pain. Your doctor will likely
-       start by asking you about your pain and its history. They may also
-       perform a physical exam and order some tests to rule out any underlying
-       medical conditions.
-      </p>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">How is chronic pain treated?</h3>
-      <p>
-       There is no cure for chronic pain, but there are a number of treatments
-       that can help to manage the pain and improve quality of life. Treatment
-       options include:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Medications: There are a number of medications that can be used to treat
-        chronic pain, including over-the-counter pain relievers, prescription
-        pain medications, and antidepressants.
-       </li>
-       <li className="mb-2">
-        Physical therapy: Physical therapy can help to strengthen muscles,
-        improve flexibility, and reduce pain.
-       </li>
-       <li className="mb-2">
-        Interventional pain management: Interventional pain management
-        procedures, such as injections and nerve blocks, can be used to deliver
-        pain medication directly to the source of the pain.
-       </li>
-       <li className="mb-2">
-        Shockwave therapy:{" "}
+   <div className="container flex flex-col mx-auto mt-8 md:flex-row">
+    <div className="w-full p-8 mb-4 bg-white md:mb-0">
+     <article className="p-8 leading-8 md:pl-18">
+      <h2 className="mb-4 text-2xl font-bold">
+       Everything You Want to Know About Chronic Pain
+      </h2>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">What is chronic pain?</h3>
+       <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
         <Link
-         href="/shockwave-therapy-las-vegas"
+         href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/chronic-pain"
          className="underline-offset-4"
         >
-         Shockwave therapy
+         Chronic pain
         </Link>{" "}
-        is a non-invasive treatment that uses high-energy sound waves to
-        stimulate healing and reduce pain.
-       </li>
-       <li className="mb-2">
-        Surgery: Surgery may be an option for some people with chronic pain, but
-        it is usually a last resort.
-       </li>
-      </ul>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">
-       What medications can treat chronic pain?
-      </h3>
-      <p>
-       There are a number of medications that can be used to treat chronic pain,
-       including:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Over-the-counter pain relievers: Over-the-counter pain relievers, such
-        as ibuprofen and acetaminophen, can be effective for mild to moderate
-        chronic pain.
-       </li>
-       <li className="mb-2">
-        Prescription pain medications: Prescription pain medications, such as
-        opioids and nerve pain medications, can be used for more severe chronic
+        is pain that lasts for more than three months. It can be constant or
+        intermittent, and it can be mild, moderate, or severe. Chronic pain can
+        be caused by a variety of conditions, including injury, illness,
+        arthritis, and nerve damage. It can also be idiopathic, meaning that the
+        cause is unknown.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        What are the different types of pain?
+       </h3>
+       <p>
+        Pain can be classified into two main types: acute and chronic. Acute
+        pain is sudden pain that is usually caused by an injury or illness. It
+        is usually short-lived and goes away once the underlying cause is
+        treated. Chronic pain, on the other hand, is pain that lasts for more
+        than three months. It can be caused by a variety of conditions, and it
+        can be difficult to treat.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        What’s the difference between chronic pain and other pain?
+       </h3>
+       <p>
+        The main difference between chronic pain and other pain is the duration.
+        Chronic pain lasts for more than three months, while other types of pain
+        are usually short-lived. Chronic pain is also more likely to be
+        associated with other symptoms, such as depression, anxiety, and
+        fatigue.
+       </p>
+      </div>
+     </article>
+
+     <article className="p-8 prose md:pl-18 max-w-none ">
+      <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
+       <p>
+        There are many different{" "}
+        <Link
+         href="https://my.clevelandclinic.org/health/diseases/4798-chronic-pain"
+         className="underline-offset-4"
+        >
+         causes of chronic pain
+        </Link>{" "}
+        , including:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Injury: Chronic pain can be caused by an injury to the bones, muscles,
+         nerves, or joints.
+        </li>
+        <li className="mb-2">
+         Illness: Chronic pain can also be caused by a variety of illnesses,
+         such as arthritis, cancer, diabetes, and fibromyalgia.
+        </li>
+        <li className="mb-2">
+         Nerve damage: Nerve damage can cause chronic pain in the affected area.
+        </li>
+        <li className="mb-2">
+         Idiopathic pain: Sometimes, the cause of chronic pain is unknown.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        Where do people experience chronic pain?
+       </h3>
+       <p>
+        Chronic pain can occur anywhere in the body, but it is most common in
+        the following areas:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Back:{" "}
+         <Link href="/back-pain-las-vegas" className="underline-offset-4">
+          Back pain
+         </Link>{" "}
+         is the most common type of chronic pain, affecting over 26 million
+         adults in the United States each year. It can be caused by a variety of
+         factors, such as muscle strain, arthritis, and herniated discs.
+        </li>
+        <li className="mb-2">
+         Neck:{" "}
+         <Link href="/neck-pain-las-vegas" className="underline-offset-4">
+          Neck pain
+         </Link>{" "}
+         is another common type of chronic pain, affecting over 12 million
+         adults in the United States each year. It can be caused by muscle
+         strain, arthritis, and whiplash injuries.
+        </li>
+        <li className="mb-2">
+         Head: Chronic headaches, such as migraines and tension headaches, can
+         be debilitating and can have a significant impact on a person's quality
+         of life.
+        </li>
+        <li className="mb-2">
+         Joints: Arthritis is the leading cause of chronic pain in the joints.
+         It can cause pain, stiffness, and inflammation in the{" "}
+         <Link href="/joint-pain-las-vegas" className="underline-offset-4">
+          joints
+         </Link>
+        </li>
+        <li className="mb-2">
+         Nerves: Nerve damage can cause chronic pain in the affected area. This
+         can be caused by injuries, infections, and certain medical conditions,
+         such as diabetes and shingles.
+        </li>
+       </ul>
+       <p>Other common areas where people experience chronic pain include:</p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Muscles: Muscle pain can be caused by strain, overuse, and injuries.
+        </li>
+        <li className="mb-2">
+         Bones: Bone pain can be caused by arthritis, osteoporosis, and cancer.
+        </li>
+        <li className="mb-2">
+         Abdomen: Abdominal pain can be caused by a variety of factors, such as
+         irritable bowel syndrome (IBS), Crohn's disease, and ulcerative
+         colitis.
+        </li>
+        <li className="mb-2">
+         Pelvis: Pelvic pain can be caused by endometriosis, menstrual cramps,
+         and pelvic inflammatory disease (PID).
+        </li>
+        <li className="mb-2">
+         Skin: Skin pain can be caused by a variety of conditions, such as
+         eczema, psoriasis, and shingles.
+        </li>
+       </ul>
+       <p>
+        It is important to note that chronic pain can also be widespread,
+        meaning that it occurs in multiple areas of the body.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        What are the symptoms of chronic pain?
+       </h3>
+       <p>
+        The symptoms of chronic pain can vary depending on the underlying cause.
+        However, some of the most common symptoms include:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">Pain that lasts for more than three months</li>
+        <li className="mb-2">Pain that is constant or intermittent</li>
+        <li className="mb-2">Pain that can be mild, moderate, or severe</li>
+        <li className="mb-2">
+         Pain that is associated with other symptoms, such as depression,
+         anxiety, and fatigue
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">What is the "terrible triad?"</h3>
+       <p>
+        The "terrible triad" is a term used to describe three of the most common
+        symptoms of chronic pain: pain, fatigue, and depression. These symptoms
+        can interact with each other and make it difficult to manage chronic
         pain.
-       </li>
-       <li className="mb-2">
-        Antidepressants: Antidepressants can be used to treat chronic pain by
-        reducing inflammation and improving mood.
-       </li>
-      </ul>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">
-       Can lifestyle changes help with chronic pain?
-      </h3>
-      <p>
-       Yes, lifestyle changes can help to manage chronic pain. Some helpful
-       lifestyle changes include:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Exercise: Regular exercise can help to strengthen muscles, improve
-        flexibility, and reduce pain.
-       </li>
-       <li className="mb-2">
-        Weight loss: Losing weight can help to reduce pain in the joints.
-       </li>
-       <li className="mb-2">
-        Smoking cessation: Smoking can worsen chronic pain, so quitting smoking
-        is important.
-       </li>
-       <li className="mb-2">
-        Stress management: Stress can worsen chronic pain, so it is important to
-        find effective ways to manage stress.
-       </li>
-      </ul>
-     </div>
-    </article>
+       </p>
+      </div>
+     </article>
+     <article className="p-8 prose md:pl-18 max-w-none ">
+      <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        How is chronic pain diagnosed?
+       </h3>
+       <p>
+        There is no single test to diagnose chronic pain. Your doctor will
+        likely start by asking you about your pain and its history. They may
+        also perform a physical exam and order some tests to rule out any
+        underlying medical conditions.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">How is chronic pain treated?</h3>
+       <p>
+        There is no cure for chronic pain, but there are a number of treatments
+        that can help to manage the pain and improve quality of life. Treatment
+        options include:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Medications: There are a number of medications that can be used to
+         treat chronic pain, including over-the-counter pain relievers,
+         prescription pain medications, and antidepressants.
+        </li>
+        <li className="mb-2">
+         Physical therapy: Physical therapy can help to strengthen muscles,
+         improve flexibility, and reduce pain.
+        </li>
+        <li className="mb-2">
+         Interventional pain management: Interventional pain management
+         procedures, such as injections and nerve blocks, can be used to deliver
+         pain medication directly to the source of the pain.
+        </li>
+        <li className="mb-2">
+         Shockwave therapy:{" "}
+         <Link
+          href="/shockwave-therapy-las-vegas"
+          className="underline-offset-4"
+         >
+          Shockwave therapy
+         </Link>{" "}
+         is a non-invasive treatment that uses high-energy sound waves to
+         stimulate healing and reduce pain.
+        </li>
+        <li className="mb-2">
+         Surgery: Surgery may be an option for some people with chronic pain,
+         but it is usually a last resort.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        What medications can treat chronic pain?
+       </h3>
+       <p>
+        There are a number of medications that can be used to treat chronic
+        pain, including:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Over-the-counter pain relievers: Over-the-counter pain relievers, such
+         as ibuprofen and acetaminophen, can be effective for mild to moderate
+         chronic pain.
+        </li>
+        <li className="mb-2">
+         Prescription pain medications: Prescription pain medications, such as
+         opioids and nerve pain medications, can be used for more severe chronic
+         pain.
+        </li>
+        <li className="mb-2">
+         Antidepressants: Antidepressants can be used to treat chronic pain by
+         reducing inflammation and improving mood.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        Can lifestyle changes help with chronic pain?
+       </h3>
+       <p>
+        Yes, lifestyle changes can help to manage chronic pain. Some helpful
+        lifestyle changes include:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Exercise: Regular exercise can help to strengthen muscles, improve
+         flexibility, and reduce pain.
+        </li>
+        <li className="mb-2">
+         Weight loss: Losing weight can help to reduce pain in the joints.
+        </li>
+        <li className="mb-2">
+         Smoking cessation: Smoking can worsen chronic pain, so quitting smoking
+         is important.
+        </li>
+        <li className="mb-2">
+         Stress management: Stress can worsen chronic pain, so it is important
+         to find effective ways to manage stress.
+        </li>
+       </ul>
+      </div>
+     </article>
+    </div>
+    <div className="w-full p-8 bg-white md:w-1/3" id="form">
+     <AppointmentForm />
+    </div>
    </div>
 
    {/* next article */}
