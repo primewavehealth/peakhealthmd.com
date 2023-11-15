@@ -1,4 +1,4 @@
-import Consultation from "@/components/AppointmentForm";
+import AppointmentForm from "@/components/AppointmentForm";
 import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
@@ -83,11 +83,8 @@ function page() {
    />
    {/* next section */}
    <section className="bg-white">
-    <div className="container flex flex-wrap">
-     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4">
-      <Consultation />
-     </div>
-     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+    <div className="container flex flex-col mx-auto mt-8 md:flex-row">
+     <div className="w-full p-8 mb-4 bg-white md:w-2/3 md:mb-0">
       <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
         What is Chronic Back Pain?
@@ -176,6 +173,9 @@ function page() {
         </p>
        </article>
       </div>
+     </div>
+     <div className="w-full p-8 bg-white md:w-1/3" id="form">
+      <AppointmentForm />
      </div>
     </div>
    </section>
