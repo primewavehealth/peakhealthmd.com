@@ -369,7 +369,7 @@ function page() {
 
    {/* next article */}
    <CTA
-    heading="Help for sciatica nerve pain"
+    heading="Bye Bye to Constant Lower Back Pain"
     body="Are you tired of enduring severe back pain, constantly grappling with the discomfort of a pinched nerve in your lower back? Find solace in effective lower back pain treatment options that provide much-needed relief. Whether your lower back hurts due to muscle strain, poor posture, or conditions like lumbar spinal stenosis, specialized treatments are tailored to alleviate your specific discomfort. Embrace targeted lower back pain relief techniques designed to address the root causes of your pain, promoting healing and restoring comfort. Don't let persistent lower back pain disrupt your daily life; explore dedicated solutions that prioritize your well-being and offer a path to a pain-free, healthier back."
     src="/images/happy-man.avif"
     alt="Help for lower back pain"
