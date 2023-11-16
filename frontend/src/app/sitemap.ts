@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   "/pain-management-clinics-in-las-vegas",
   "/shockwave-therapy-las-vegas",
   "/chronic-pain-las-vegas",
+  "/podiatrist-foot-doctor-las-vegas",
+  "/sciatic-nerve-treatment-las-vegas",
   "/back-pain-las-vegas",
   "/joint-pain-las-vegas",
   "/neck-pain-las-vegas",
