@@ -15,6 +15,11 @@ export const Pain_Conditions = [
   name: "Back Pain",
  },
  {
+  href: "/podiatrist-foot-doctor-las-vegas",
+  description: "",
+  name: "Foot Pain",
+ },
+ {
   href: "/joint-pain-las-vegas",
   description: "",
   name: "Joint Pain",

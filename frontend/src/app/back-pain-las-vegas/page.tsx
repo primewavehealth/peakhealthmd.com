@@ -7,7 +7,7 @@ import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
 
 export const metadata: Metadata = {
- title: "Back Pain Treatment in Las Vegas",
+ title: "Lower Back Pain Treatment in Las Vegas",
  description:
   "Affordable lower back pain treatment in Las Vegas: Get relief and regain your active life. Expert care that fits your budget.",
  alternates: {
@@ -55,7 +55,7 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Back Pain Treatment in Las Vegas"
+    heading="Lower Back Pain Treatment in Las Vegas"
     body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of affordable back pain treatment in Las Vegas and regain control of your life."
     src={back}
     height={400}
@@ -87,12 +87,12 @@ function page() {
      <div className="w-full p-8 mb-4 bg-white md:w-2/3 md:mb-0">
       <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
-        What is Chronic Back Pain?
+        What is Lower Back Pain?
        </h2>
 
        <article className="space-y-4 text-justify text-gray-600 ">
         <p>
-         Chronic back pain refers to persistent or long-lasting pain in the back
+         lower back pain refers to persistent or long-lasting pain in the back
          that persists for a duration of three months or more. It is different
          from acute back pain, which typically lasts for a short period and is
          often associated with a specific injury or trauma. Chronic back pain
@@ -105,7 +105,7 @@ function page() {
       </div>
       <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-2xl font-bold text-center md:text-4xl">
-        What Causes Chronic Back Pain?
+        What Causes Lower Back Pain?
        </h2>
 
        <article className="space-y-4 text-justify text-gray-600 ">
@@ -125,7 +125,7 @@ function page() {
       </div>
       <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
-        Symptoms of Chronic Back Pain
+        Symptoms of Lower Back Pain
        </h2>
 
        <article className="space-y-4 text-justify text-gray-600 ">

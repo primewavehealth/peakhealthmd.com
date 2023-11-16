@@ -50,7 +50,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    {/* body */}
 
    <div className="container flex flex-col mx-auto mt-8 md:flex-row">
-    <div className="w-full p-8 mb-4 bg-white md:mb-0">
+    <div className="w-full p-8 mb-4 bg-white md:mb-0 md:w-4/5">
      <article className="p-8 leading-8 md:pl-18">
       <h2 className="mb-4 text-2xl font-bold">
        Everything You Want to Know About Chronic Pain
