@@ -50,8 +50,8 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    {/* body */}
 
    <div className="container flex flex-col mx-auto mt-8 md:flex-row">
-    <div className="w-full p-8 mb-4 bg-white md:mb-0 md:w-4/5">
-     <article className="p-8 leading-8 md:pl-18">
+    <div className="w-full p-6 mb-4 bg-white md:p-8 md:mb-0 md:w-4/5">
+     <article className="p-6 leading-8 md:p-8 md:pl-18">
       <h2 className="mb-4 text-2xl font-bold">
        Everything You Want to Know About Chronic Pain
       </h2>
@@ -98,7 +98,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </div>
      </article>
 
-     <article className="p-8 prose md:pl-18 max-w-none ">
+     <article className="p-6 prose md:p-8 md:pl-18 max-w-none ">
       <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
       <div className="mb-4">
        <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
@@ -229,7 +229,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </p>
       </div>
      </article>
-     <article className="p-8 prose md:pl-18 max-w-none ">
+     <article className="p-6 prose md:p-8 md:pl-18 max-w-none ">
       <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
       <div className="mb-4">
        <h3 className="mb-2 text-xl font-bold">
@@ -334,7 +334,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </div>
      </article>
     </div>
-    <div className="w-full p-8 bg-white md:w-1/3" id="form">
+    <div className="w-full p-6 bg-white md:p-8 md:w-1/3" id="form">
      <AppointmentForm />
     </div>
    </div>
