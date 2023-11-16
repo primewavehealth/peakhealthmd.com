@@ -48,8 +48,8 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
    {/* body */}
 
    <div className="container flex flex-col mx-auto mt-8 md:flex-row">
-    <div className="w-full p-8 mb-4 bg-white md:mb-0 md:w-4/5">
-     <article className="p-8 prose md:pl-24 max-w-none">
+    <div className="w-full p-6 mb-4 bg-white md:p-8 md:mb-0 md:w-4/5">
+     <article className="p-6 prose md:p-8 md:pl-24 max-w-none">
       <div className="flex flex-col md:flex-row">
        <div className="w-full md:pr-8">
         <h2 className="mb-4 text-2xl font-bold">
@@ -109,7 +109,7 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
       </div>
      </article>
 
-     <article className="p-8 prose md:-mt-9 md:pl-24 max-w-none">
+     <article className="p-6 prose md:p-8 md:-mt-9 md:pl-24 max-w-none">
       <h2 className="mb-4 text-2xl font-bold">
        Causes and Symptoms of Sciatica
       </h2>
@@ -199,7 +199,7 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
        </ul>
       </div>
      </article>
-     <article className="p-8 prose md:pl-24 max-w-none">
+     <article className="p-6 prose md:p-8 md:pl-24 max-w-none">
       <h2 className="mb-4 text-2xl font-bold">
        Diagnosis and Treatment of Sciatica
       </h2>
@@ -239,7 +239,7 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
       </div>
      </article>
     </div>
-    <div className="w-full p-8 bg-white md:w-1/3">
+    <div className="w-full p-6 bg-white md:p-8 md:w-1/3">
      <AppointmentForm />
     </div>
    </div>

@@ -1,10 +1,11 @@
 import AppointmentForm from "@/components/AppointmentForm";
-import Button from "@/components/UI/Button";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import Image from "next/image";
 import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
+
+import CTA from "@/components/UI/CTA";
+import Link from "next/link";
 
 export const metadata: Metadata = {
  title: "Lower Back Pain Treatment in Las Vegas",
@@ -82,229 +83,318 @@ function page() {
     }}
    />
    {/* next section */}
-   <section className="bg-white">
-    <div className="container flex flex-col mx-auto mt-8 md:flex-row">
-     <div className="w-full p-8 mb-4 bg-white md:w-2/3 md:mb-0">
-      <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
-       <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
-        What is Lower Back Pain?
-       </h2>
-
-       <article className="space-y-4 text-justify text-gray-600 ">
-        <p>
-         lower back pain refers to persistent or long-lasting pain in the back
-         that persists for a duration of three months or more. It is different
-         from acute back pain, which typically lasts for a short period and is
-         often associated with a specific injury or trauma. Chronic back pain
-         can be a complex condition that affects millions of people worldwide
-         and can have a significant impact on daily life. The experience of
-         chronic back pain can vary widely among individuals, both in terms of
-         the intensity of pain and the specific symptoms experienced.
-        </p>
-       </article>
-      </div>
-      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
-       <h2 className="pb-4 text-2xl font-bold text-center md:text-4xl">
-        What Causes Lower Back Pain?
-       </h2>
-
-       <article className="space-y-4 text-justify text-gray-600 ">
-        <p>
-         Back pain can occur when any of the structures in the back are affected
-         or injured. Common causes of back pain include muscle strains,sciatica,
-         ligament sprains, herniated discs, degenerative disc disease,
-         osteoarthritis, spinal stenosis, and abnormalities like scoliosis.
-         Injuries from accidents or falls can also lead to back pain. Poor
-         posture, lack of exercise, obesity, and sedentary lifestyle can
-         contribute to the development of back pain. When the structures of the
-         back are compromised or subjected to excessive stress, it can result in
-         localized pain, radiating pain, stiffness, muscle spasms, and limited
-         range of motion.
-        </p>
-       </article>
-      </div>
-      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
-       <h2 className="pb-4 text-2xl font-bold text-center sm:text-4xl">
-        Symptoms of Lower Back Pain
-       </h2>
-
-       <article className="space-y-4 text-justify text-gray-600 ">
-        <p>
-         Constant or intermittent pain: Chronic back pain can be present
-         continuously or may come and go in episodes. The pain may vary in
-         intensity, ranging from mild to severe.
-        </p>
-        <p>
-         Dull, aching, or throbbing pain: The pain is often described as a
-         persistent ache, dull sensation, or throbbing discomfort in the back.
-         It may be localized to a specific area or may radiate to other parts of
-         the body, such as the hips, buttocks, or legs.
-        </p>
-        <p>
-         Stiffness and reduced flexibility: Chronic back pain can lead to
-         stiffness and limited range of motion in the back. This stiffness may
-         be more pronounced after prolonged periods of inactivity, such as
-         waking up in the morning or sitting for extended periods.
-        </p>
-        <p>
-         Shooting or sharp pain: Some individuals with chronic back pain may
-         experience sharp, shooting pain that radiates down the legs. This type
-         of pain is commonly associated with conditions like sciatica, where the
-         sciatic nerve is compressed or irritated.
-        </p>
-        <p>
-         Muscle spasms: Chronic back pain can be accompanied by muscle spasms,
-         which are involuntary contractions of the back muscles. These spasms
-         can cause sudden, intense pain and may be triggered by certain
-         movements or activities.
-        </p>
-        <p>
-         Fatigue and sleep disturbances: Living with chronic pain can lead to
-         fatigue and disrupt sleep patterns. Poor sleep quality and lack of
-         restorative sleep can further contribute to the perception of pain and
-         affect overall well-being.
-        </p>
-        <p>
-         Emotional and psychological impact: Chronic back pain can take a toll
-         on a person's emotional well-being. It can lead to feelings of
-         frustration, anxiety, stress, or depression. The persistent nature of
-         the pain and its impact on daily activities and quality of life can
-         contribute to emotional distress.
-        </p>
-       </article>
-      </div>
-     </div>
-     <div className="w-full p-8 bg-white md:w-1/3" id="form">
-      <AppointmentForm />
-     </div>
-    </div>
-   </section>
-   {/* next section */}
-   <section className=" bg-blue-50">
-    <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
-     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
-       <Image
-        className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
-        alt="banner"
-        src="/images/back2.jpg"
-        height={500}
-        width={500}
-        loading="lazy"
-       />
-      </div>
-
-      <div>
-       <h2 className="text-2xl font-bold md:text-4xl">
-        How We Treat Back Pain
-       </h2>
-
-       <p className="mt-4 text-justify text-gray-600">
-        Are you tired of living with constant back pain? Primewave is here to
-        offer you a revolutionary solution: Shockwave Therapy. Our experienced
-        team of pain specialists in las vegas provide effective and non-invasive
-        treatment for chronic back pain using state-of-the-art shockwave therapy
-        technology.
-       </p>
-       <br />
-       <p className="mt-4 text-justify text-gray-600">
-        Say goodbye to endless appointments, ineffective pain medications, and
-        restricted mobility. With shockwave therapy at Primewave, you can
-        experience long-lasting relief and regain control over your life. Our
-        cutting-edge treatment method utilizes targeted shockwave to stimulate
-        healing deep within your tissues, addressing the root cause of your
-        chronic back pain.
-       </p>
-       <br />
-
-       <div className="">
-        <Button
-         id="request"
-         text="Request Consultation"
-         href="/appointment"
-         icon=<svg
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          className="w-4 h-4 ml-auto "
-          viewBox="0 0 24 24"
-         >
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-         </svg>
-        />
+   <div className="container flex flex-col mx-auto mt-8 md:flex-row">
+    <div className="w-full p-6 mb-4 bg-white md:p-8 md:mb-0 md:w-4/5">
+     <article className="p-6 prose md:p-8 md:pl-24 -mt-9 max-w-none">
+      <div className="flex flex-col md:flex-row">
+       <div className="w-full md:pr-8">
+        <h2 className="mb-4 text-2xl font-bold">
+         Understanding the Lower Back Pain
+        </h2>
+        <div className="mb-4">
+         <h3 className="mb-2 text-xl font-bold">What is Back Pain?</h3>
+         <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
+          <Link
+           href="https://www.niams.nih.gov/health-topics/back-pain"
+           className="underline-offset-4"
+          >
+           Lower back pain
+          </Link>{" "}
+          is a pervasive issue affecting millions of people worldwide. According
+          to recent studies, nearly 80% of adults experience lower back pain at
+          some point in their lives. This statistic emphasizes the need for a
+          comprehensive understanding of the causes, symptoms, and effective
+          management strategies for this common ailment.
+         </p>
+        </div>
+        <div className="mb-4">
+         <h3 className="mb-2 text-xl font-bold">Anatomy of the lower back</h3>
+         <p>
+          The{" "}
+          <Link
+           href="https://www.kenhub.com/en/library/anatomy/anatomy-of-the-back-spine-and-back-muscles"
+           className="underline-offset-4"
+          >
+           anatomy of the back
+          </Link>{" "}
+          comprises the spine, a complex structure of vertebrae, intervertebral
+          discs, muscles, ligaments, and nerves. The spine, a central support
+          column, grants strength and flexibility, while intervertebral discs
+          act as shock absorbers. Muscles and ligaments provide stability and
+          facilitate movement. The intricate network of nerves relays signals
+          between the brain and body. This structural complexity affords the
+          back its remarkable strength and flexibility but also makes it
+          susceptible to pain when subjected to strain, injury, or poor posture.
+          Understanding this anatomy is crucial for addressing and preventing
+          issues like lower back pain.
+         </p>
+        </div>
        </div>
       </div>
-     </div>
-    </div>
-   </section>
-   {/* next section */}
-   <section className="bg-slate-100">
-    <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
-     <h2 className="py-4 text-2xl font-bold md:text-4xl">
-      Why Choose Primewave for your Lower Back Pain Treatment in Las Vegas?
-     </h2>
-     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 lg:py-12">
-      <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-       <Image
-        className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
-        alt="banner"
-        src="/images/back1.jpg"
-        height={500}
-        width={500}
-        loading="lazy"
-       />
+     </article>
+
+     <article className="p-6 prose md:p-8 -mt-9 md:pl-24 max-w-none">
+      <h2 className="mb-4 text-2xl font-bold">
+       Common causes of lower back pain
+      </h2>
+      <div className="mb-4">
+       <p>
+        There are many possible causes of lower back pain, but the most common
+        are:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Muscle strain and overuse: Muscle strain often results from sudden
+         movements or lifting heavy objects improperly. Overuse, especially
+         without proper conditioning, can lead to chronic issues.
+        </li>
+        <li className="mb-2">
+         Herniated discs: When the gel-like center of an intervertebral disc
+         protrudes, it can press on nearby nerves, causing pain and discomfort.
+        </li>
+        <li className="mb-2">
+         Poor posture: Incorrect posture, whether sitting or standing, places
+         undue stress on the lower back, contributing to pain over time.
+        </li>
+        <li className="mb-2">
+         Sedentary lifestyle: A lack of physical activity weakens the supporting
+         muscles of the lower back, making it more susceptible to pain and
+         injury.
+        </li>
+       </ul>
       </div>
 
-      <div>
-       <p className="mt-4 text-justify text-gray-600">
-        Our pain doctors in las Vegas have a proven track record of success in
-        helping patients find lasting lower back pain relief. By harnessing the
-        power of shockwave therapy, we can significantly reduce inflammation,
-        relieve muscle tension, and promote tissue regeneration. You'll feel the
-        difference as your pain subsides and your mobility improves, allowing
-        you to enjoy life to the fullest once again.
-       </p>
-       <br />
-       <p className="mt-4 text-justify text-gray-600">
-        At Primewave, we prioritize your comfort and well-being throughout your
-        treatment journey. Our friendly staff will guide you through each step,
-        ensuring a personalized approach tailored to your specific needs. With
-        our state-of-the-art facility and commitment to delivering exceptional
-        care, you can trust that you're in the best hands.
-       </p>
-       <br />
-       <p className="mt-4 text-justify text-gray-600">
-        Don't let chronic back pain hold you back any longer. Experience the
-        life-changing benefits of shockwave therapy at Primewave. Schedule your
-        consultation today and take the first step towards a pain-free future.
-        Reclaim your life and embrace a brighter, pain-free tomorrow with
-        Primewave. You deserve it!
-       </p>
-       <br />
-       <div className="">
-        <Button
-         id="consult"
-         text="Request Consultation"
-         href="/appointment"
-         icon=<svg
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          className="w-4 h-4 ml-auto "
-          viewBox="0 0 24 24"
-         >
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-         </svg>
-        />
-       </div>
+      <div className="mb-4">
+       <h2 className="mb-2 text-xl font-bold">Symptoms of Lower Back Pain</h2>
+
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Persistent Discomfort: Chronic pain involves enduring discomfort that
+         persists beyond the expected duration of healing.
+        </li>
+        <li className="mb-2">
+         Reduced Quality of Life: Individuals with chronic pain often experience
+         a diminished quality of life due to the ongoing physical and emotional
+         impact.
+        </li>
+        <li className="mb-2">
+         Fatigue: The consistent presence of pain can lead to fatigue and
+         exhaustion, affecting daily activities.
+        </li>
+        <li className="mb-2">
+         Mood Changes: Chronic pain is linked to mood alterations, including
+         irritability, anxiety, and depression.
+        </li>
+        <li className="mb-2">
+         Sleep Disturbances: Sufferers may face difficulties falling or staying
+         asleep, exacerbating the overall impact on well-being.
+        </li>
+        <li className="mb-2">
+         Limited Mobility: Chronic pain can restrict movement and lead to
+         decreased flexibility and mobility.
+        </li>
+       </ul>
       </div>
-     </div>
+      <div className="mb-4">
+       <h3>Risk factors for lower back pain</h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Age: As we age, the spine undergoes natural wear and tear, increasing
+         the likelihood of experiencing lower back pain.
+        </li>
+        <li className="mb-2">
+         Lack of exercise: Regular exercise is crucial for maintaining the
+         strength and flexibility of the lower back muscles.
+        </li>
+        <li className="mb-2">
+         Obesity Excess: weight puts additional strain on the spine,
+         contributing to the development and exacerbation of lower back pain.
+        </li>
+        <li className="mb-2">
+         Occupational factors: Certain professions, such as those involving
+         prolonged sitting or heavy lifting, pose an increased risk of lower
+         back pain.
+        </li>
+       </ul>
+      </div>
+     </article>
+
+     <article className="p-6 prose md:p-8 md:pl-24 -mt-9 max-w-none">
+      <div className="mb-4">
+       <h2 className="mb-2 text-xl font-bold">
+        How to Prevent Lower Back Pain
+       </h2>
+       <h3>Maintain good posture</h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         1. Proper sitting and standing positions: Educating oneself on
+         ergonomic principles and maintaining correct postures during daily
+         activities can significantly reduce the risk of lower back pain.
+        </li>
+        <li className="mb-2">
+         2. Ergonomic considerations: Investing in ergonomic furniture and tools
+         can create a supportive environment, minimizing the strain on the lower
+         back.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        {" "}
+        Regular exercise and stretching
+       </h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Strengthening core muscles Engaging in exercises that target the core
+         muscles, such as the abdominal and lower back muscles, enhances
+         stability and reduces the risk of injury.
+        </li>
+        <li className="mb-2">
+         Flexibility exercises Incorporating stretching routines into daily life
+         promotes flexibility, reducing muscle tension and the likelihood of
+         developing lower back pain.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        Weight management and healthy lifestyle habits
+       </h3>
+       <p>
+        Maintaining a healthy weight through proper nutrition and regular
+        exercise helps alleviate the strain on the lower back.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        Strategies for preventing workplace-related lower back pain
+       </h3>
+
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Desk ergonomics: Adjusting workspace setups and using ergonomic
+         accessories contribute to a more comfortable and spine-friendly work
+         environment.
+        </li>
+        <li className="mb-2">
+         Taking breaks and stretching during work hours: Implementing regular
+         breaks to stand, stretch, and change positions helps prevent the
+         negative effects of prolonged sitting.
+        </li>
+       </ul>
+      </div>
+     </article>
+
+     <article className="p-6 prose md:p-8 md:pl-24 -mt-9 max-w-none">
+      <div className="mb-4">
+       <h2 className="mb-2 text-xl font-bold">How to Manage Lower Back Pain</h2>
+       <h3>Home remedies for lower back pain</h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Ice and heat therapy: Applying ice or heat to the affected area can
+         help alleviate pain and reduce inflammation.
+        </li>
+        <li className="mb-2">
+         Over-the-counter pain medications: Non-prescription pain relievers,
+         when used as directed, can provide temporary relief from lower back
+         pain.
+        </li>
+        <li className="mb-2">
+         Rest and gentle movement Balancing rest with gentle movements and
+         activities, such as walking or swimming, supports the healing process.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3>Physical therapy exercises</h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Targeted exercises for lower back strength: Working with a physical
+         therapist to develop a personalized exercise routine can strengthen the
+         lower back muscles and improve overall spinal health.
+        </li>
+        <li className="mb-2">
+         Stretching routines: Incorporating specific stretching exercises into a
+         daily routine can enhance flexibility and reduce muscle tightness.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3>Professional treatments</h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Chiropractic care: Chiropractic adjustments focus on realigning the
+         spine to alleviate pain and improve overall spinal function.
+        </li>
+        <li className="mb-2">
+         Massage therapy: Massage can help relax tight muscles, improve
+         circulation, and promote healing in the lower back.
+        </li>
+        <li className="mb-2">
+         Acupuncture: This traditional Chinese medicine technique involves the
+         insertion of thin needles into specific points on the body, aiming to
+         alleviate pain and improve energy flow.
+        </li>
+       </ul>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        {" "}
+        When to Consult a Healthcare Professional
+       </h3>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Persistent or severe pain: Persistent or severe lower back pain that
+         does not improve with self-care measures warrants professional
+         evaluation.
+        </li>
+        <li className="mb-2">
+         Signs of underlying medical conditions: Symptoms such as numbness,
+         tingling, or weakness in the legs may indicate underlying issues
+         requiring medical attention.
+        </li>
+        <li className="mb-2">
+         Diagnostic procedures and tests: Medical professionals may recommend
+         imaging studies or other diagnostic tests to identify the precise cause
+         of lower back pain and tailor an effective treatment plan.
+        </li>
+       </ul>
+      </div>
+     </article>
     </div>
-   </section>
+    <div className="w-full p-6 bg-white md:p-8 md:w-1/3">
+     <AppointmentForm />
+    </div>
+   </div>
+
+   {/* next article */}
+   <CTA
+    heading="Help for sciatica nerve pain"
+    body="Are you tired of enduring severe back pain, constantly grappling with the discomfort of a pinched nerve in your lower back? Find solace in effective lower back pain treatment options that provide much-needed relief. Whether your lower back hurts due to muscle strain, poor posture, or conditions like lumbar spinal stenosis, specialized treatments are tailored to alleviate your specific discomfort. Embrace targeted lower back pain relief techniques designed to address the root causes of your pain, promoting healing and restoring comfort. Don't let persistent lower back pain disrupt your daily life; explore dedicated solutions that prioritize your well-being and offer a path to a pain-free, healthier back."
+    src="/images/happy-man.avif"
+    alt="Help for lower back pain"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
+
+   {/* end */}
    <Script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -372,9 +462,12 @@ function page() {
 
       <p className="mt-4 text-lg leading-relaxed text-gray-700">
        Yes, posture plays a significant role in back pain. Poor posture can
-       strain the muscles and ligaments in the back, leading to discomfort and
-       chronic pain. Ergonomic adjustments and posture awareness can help
-       prevent and alleviate back pain.
+       strain the muscles and ligaments in the back, leading to discomfort and{" "}
+       <Link href="/chronic-pain-las-vegas" className="underline-offset-4">
+        chronic pain
+       </Link>{" "}
+       . Ergonomic adjustments and posture awareness can help prevent and
+       alleviate back pain.
       </p>
      </details>
      <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
