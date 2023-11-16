@@ -24,7 +24,7 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
     src={pain}
     height={400}
     width={400}
-    alt="chronic-pain"
+    alt="sciatica nerve treatment in Las Vegas"
     btn={{
      href: "/appointment",
      text: "Schedule An Appointment",
@@ -47,195 +47,201 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
    />
    {/* body */}
 
-   <div className="container py-8 mx-auto">
-    <article className="p-8 leading-8 md:pl-24">
-     <div className="flex flex-col md:flex-row">
-      <div className="w-full md:pr-8">
-       <h2 className="mb-4 text-2xl font-bold">
-        Sciatica Nerve: A Comprehensive Guide
-       </h2>
-       <div className="mb-4">
-        <h3 className="mb-2 text-xl font-bold">What is sciatica?</h3>
-        <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
-         <Link
-          href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/sciatica"
-          className="underline-offset-4"
-         >
-          Sciatica
-         </Link>{" "}
-         is a painful condition that affects millions of people worldwide. It is
-         caused by irritation or compression of the sciatic nerve, the largest
-         nerve in the body. The sciatic nerve runs from the{" "}
-         <Link href="/back-pain-las-vegas" className="underline-offset-4">
-          lower back
-         </Link>{" "}
-         down the buttocks and legs. When the sciatic nerve is irritated or
-         compressed, it can cause pain, numbness, tingling, and weakness in the
-         leg.
-        </p>
-       </div>
-       <div className="mb-4">
-        <h3 className="mb-2 text-xl font-bold">
-         Prevalence and Impact of sciatica
-        </h3>
-        <p>
-         Sciatica is a common condition, affecting{" "}
-         <Link
-          href="https://www.health.harvard.edu/pain/sciatica-of-all-the-nerve"
-          className="underline-offset-4"
-         >
-          up to 40%
-         </Link>{" "}
-         of people at some point in their lives. It is more common in people
-         between the ages of 30 and 50. Sciatica can have a significant impact
-         on quality of life, making it difficult to work, exercise, and enjoy
-         everyday activities.
-        </p>
-       </div>
-       <div className="mb-4">
-        <h3 className="mb-2 text-xl font-bold">Anatomy of the Sciatic Nerve</h3>
-        <p>
-         The sciatic nerve is formed by the roots of the L4, L5, S1, and S2
-         spinal nerves. It exits the pelvis through the greater sciatic foramen
-         and runs down the back of the thigh. The sciatic nerve branches into
-         smaller nerves that supply the muscles, skin, and joints of the leg and
-         foot.
-        </p>
+   <div className="container flex flex-col mx-auto mt-8 md:flex-row">
+    <div className="w-full p-8 mb-4 bg-white md:mb-0 md:w-4/5">
+     <article className="p-8 prose md:pl-24 max-w-none">
+      <div className="flex flex-col md:flex-row">
+       <div className="w-full md:pr-8">
+        <h2 className="mb-4 text-2xl font-bold">
+         Sciatica Nerve: A Comprehensive Guide
+        </h2>
+        <div className="mb-4">
+         <h3 className="mb-2 text-xl font-bold">What is sciatica?</h3>
+         <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
+          <Link
+           href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/sciatica"
+           className="underline-offset-4"
+          >
+           Sciatica
+          </Link>{" "}
+          is a painful condition that affects millions of people worldwide. It
+          is caused by irritation or compression of the sciatic nerve, the
+          largest nerve in the body. The sciatic nerve runs from the{" "}
+          <Link href="/back-pain-las-vegas" className="underline-offset-4">
+           lower back
+          </Link>{" "}
+          down the buttocks and legs. When the sciatic nerve is irritated or
+          compressed, it can cause pain, numbness, tingling, and weakness in the
+          leg.
+         </p>
+        </div>
+        <div className="mb-4">
+         <h3 className="mb-2 text-xl font-bold">
+          Prevalence and Impact of sciatica
+         </h3>
+         <p>
+          Sciatica is a common condition, affecting{" "}
+          <Link
+           href="https://www.health.harvard.edu/pain/sciatica-of-all-the-nerve"
+           className="underline-offset-4"
+          >
+           up to 40%
+          </Link>{" "}
+          of people at some point in their lives. It is more common in people
+          between the ages of 30 and 50. Sciatica can have a significant impact
+          on quality of life, making it difficult to work, exercise, and enjoy
+          everyday activities.
+         </p>
+        </div>
+        <div className="mb-4">
+         <h3 className="mb-2 text-xl font-bold">
+          Anatomy of the Sciatic Nerve
+         </h3>
+         <p>
+          The sciatic nerve is formed by the roots of the L4, L5, S1, and S2
+          spinal nerves. It exits the pelvis through the greater sciatic foramen
+          and runs down the back of the thigh. The sciatic nerve branches into
+          smaller nerves that supply the muscles, skin, and joints of the leg
+          and foot.
+         </p>
+        </div>
        </div>
       </div>
-      <div className="w-full md:-mt-16 md:w-1/3">
-       <AppointmentForm />
+     </article>
+
+     <article className="p-8 prose md:-mt-9 md:pl-24 max-w-none">
+      <h2 className="mb-4 text-2xl font-bold">
+       Causes and Symptoms of Sciatica
+      </h2>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        What are the causes of sciatica?
+       </h3>
+       <p>
+        There are many possible{" "}
+        <Link
+         href="https://www.mayoclinic.org/diseases-conditions/sciatica/symptoms-causes/syc-20377435"
+         className="underline-offset-4"
+        >
+         causes of sciatica
+        </Link>{" "}
+        , but the most common are:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Herniated disc: A herniated disc occurs when the inner part of a spinal
+         disc ruptures and pushes out through the outer part of the disc. This
+         can put pressure on the sciatic nerve and cause pain.
+        </li>
+        <li className="mb-2">
+         Lumbar spinal stenosis: Lumbar spinal stenosis is a narrowing of the
+         spinal canal in the lower back. This can put pressure on the sciatic
+         nerve and cause pain.
+        </li>
+        <li className="mb-2">
+         Degenerative disc disease: Degenerative disc disease is a condition in
+         which the discs in the spine break down and become more susceptible to
+         injury. This can lead to a herniated disc or other problems that can
+         compress the sciatic nerve.
+        </li>
+        <li className="mb-2">
+         Piriformis syndrome: Piriformis syndrome is a condition in which the
+         piriformis muscle, located in the buttocks, spasms and compresses the
+         sciatic nerve.
+        </li>
+       </ul>
+       <p>Less common causes of sciatica include:</p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">
+         Spondylolisthesis: Spondylolisthesis is a condition in which a vertebra
+         slips forward on the vertebra below it. This can put pressure on the
+         sciatic nerve and cause pain.
+        </li>
+        <li className="mb-2">
+         Spinal tumor: A spinal tumor can compress the sciatic nerve and cause
+         pain.
+        </li>
+        <li className="mb-2">
+         Cauda equina syndrome: Cauda equina syndrome is a rare but serious
+         condition in which the nerve roots at the end of the spinal cord are
+         compressed. This can cause pain, numbness, weakness, and loss of
+         bladder or bowel control.
+        </li>
+        <li className="mb-2">
+         Sacroiliac joint dysfunction: Sacroiliac joint dysfunction is a
+         condition in which the sacroiliac joints, located at the base of the
+         spine, are misaligned or inflamed. This can cause pain in the buttocks
+         and legs.
+        </li>
+        <li className="mb-2">
+         Pregnancy: Pregnancy can cause changes in the spine that can put
+         pressure on the sciatic nerve and cause pain.
+        </li>
+       </ul>
       </div>
-     </div>
-    </article>
 
-    <article className="p-8 prose md:-mt-9 md:pl-24 max-w-none md:w-2/3">
-     <h2 className="mb-4 text-2xl font-bold">
-      Causes and Symptoms of Sciatica
-     </h2>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">
-       What are the causes of sciatica?
-      </h3>
-      <p>
-       There are many possible{" "}
-       <Link
-        href="https://www.mayoclinic.org/diseases-conditions/sciatica/symptoms-causes/syc-20377435"
-        className="underline-offset-4"
-       >
-        causes of sciatica
-       </Link>{" "}
-       , but the most common are:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Herniated disc: A herniated disc occurs when the inner part of a spinal
-        disc ruptures and pushes out through the outer part of the disc. This
-        can put pressure on the sciatic nerve and cause pain.
-       </li>
-       <li className="mb-2">
-        Lumbar spinal stenosis: Lumbar spinal stenosis is a narrowing of the
-        spinal canal in the lower back. This can put pressure on the sciatic
-        nerve and cause pain.
-       </li>
-       <li className="mb-2">
-        Degenerative disc disease: Degenerative disc disease is a condition in
-        which the discs in the spine break down and become more susceptible to
-        injury. This can lead to a herniated disc or other problems that can
-        compress the sciatic nerve.
-       </li>
-       <li className="mb-2">
-        Piriformis syndrome: Piriformis syndrome is a condition in which the
-        piriformis muscle, located in the buttocks, spasms and compresses the
-        sciatic nerve.
-       </li>
-      </ul>
-      <p>Less common causes of sciatica include:</p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">
-        Spondylolisthesis: Spondylolisthesis is a condition in which a vertebra
-        slips forward on the vertebra below it. This can put pressure on the
-        sciatic nerve and cause pain.
-       </li>
-       <li className="mb-2">
-        Spinal tumor: A spinal tumor can compress the sciatic nerve and cause
-        pain.
-       </li>
-       <li className="mb-2">
-        Cauda equina syndrome: Cauda equina syndrome is a rare but serious
-        condition in which the nerve roots at the end of the spinal cord are
-        compressed. This can cause pain, numbness, weakness, and loss of bladder
-        or bowel control.
-       </li>
-       <li className="mb-2">
-        Sacroiliac joint dysfunction: Sacroiliac joint dysfunction is a
-        condition in which the sacroiliac joints, located at the base of the
-        spine, are misaligned or inflamed. This can cause pain in the buttocks
-        and legs.
-       </li>
-       <li className="mb-2">
-        Pregnancy: Pregnancy can cause changes in the spine that can put
-        pressure on the sciatic nerve and cause pain.
-       </li>
-      </ul>
-     </div>
-
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">
-       What are the symptoms of sciatica?
-      </h3>
-      <p>
-       The primary symptom of sciatica is pain along the path of the sciatic
-       nerve. The pain is typically described as sharp, burning, or tingling. It
-       may start in the lower back and radiate down the buttocks, leg, and foot.
-       The pain may be worse with certain activities, such as sitting, bending,
-       or lifting. Other common symptoms of sciatica include:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">Numbness or tingling in the leg or foot</li>
-       <li className="mb-2">Weakness in the leg</li>
-       <li className="mb-2">Burning sensation in the leg or foot</li>
-       <li className="mb-2">Loss of bladder or bowel control</li>
-      </ul>
-     </div>
-    </article>
-    <article className="p-8 prose md:pl-24 max-w-none md:w-2/3">
-     <h2 className="mb-4 text-2xl font-bold">
-      Diagnosis and Treatment of Sciatica
-     </h2>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">Diagnosis of Sciatica </h3>
-      <p>
-       There is no single test that can diagnose sciatica. The diagnosis is
-       usually made based on a physical examination and a discussion of the
-       patient's symptoms. In some cases, diagnostic imaging tests, such as
-       X-rays, MRI, or CT scans, may be ordered to help rule out other causes of
-       pain.
-      </p>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">Treatment Options for Sciatica</h3>
-      <p>
-       Treatment for sciatica depends on the severity of the symptoms and the
-       underlying cause. In most cases, non-invasive treatments, such as rest,
-       ice and heat therapy, over-the-counter pain relievers, exercise, and
-       chiropractic care, can relieve pain and improve symptoms. In some cases,
-       epidural steroid injections or surgery may be necessary.
-      </p>
-     </div>
-     <div className="mb-4">
-      <h3 className="mb-2 text-xl font-bold">Prevention of Sciatica</h3>
-      <p>
-       There are a number of things that can be done to reduce the risk of
-       sciatica, including:
-      </p>
-      <ul className="pl-4 mb-8 list-disc">
-       <li className="mb-2">Maintaining a healthy weight</li>
-       <li className="mb-2">Regular exercise</li>
-       <li className="mb-2">Proper</li>
-      </ul>
-     </div>
-    </article>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        What are the symptoms of sciatica?
+       </h3>
+       <p>
+        The primary symptom of sciatica is pain along the path of the sciatic
+        nerve. The pain is typically described as sharp, burning, or tingling.
+        It may start in the lower back and radiate down the buttocks, leg, and
+        foot. The pain may be worse with certain activities, such as sitting,
+        bending, or lifting. Other common symptoms of sciatica include:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">Numbness or tingling in the leg or foot</li>
+        <li className="mb-2">Weakness in the leg</li>
+        <li className="mb-2">Burning sensation in the leg or foot</li>
+        <li className="mb-2">Loss of bladder or bowel control</li>
+       </ul>
+      </div>
+     </article>
+     <article className="p-8 prose md:pl-24 max-w-none">
+      <h2 className="mb-4 text-2xl font-bold">
+       Diagnosis and Treatment of Sciatica
+      </h2>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">Diagnosis of Sciatica </h3>
+       <p>
+        There is no single test that can diagnose sciatica. The diagnosis is
+        usually made based on a physical examination and a discussion of the
+        patient's symptoms. In some cases, diagnostic imaging tests, such as
+        X-rays, MRI, or CT scans, may be ordered to help rule out other causes
+        of pain.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">
+        Treatment Options for Sciatica
+       </h3>
+       <p>
+        Treatment for sciatica depends on the severity of the symptoms and the
+        underlying cause. In most cases, non-invasive treatments, such as rest,
+        ice and heat therapy, over-the-counter pain relievers, exercise, and
+        chiropractic care, can relieve pain and improve symptoms. In some cases,
+        epidural steroid injections or surgery may be necessary.
+       </p>
+      </div>
+      <div className="mb-4">
+       <h3 className="mb-2 text-xl font-bold">Prevention of Sciatica</h3>
+       <p>
+        There are a number of things that can be done to reduce the risk of
+        sciatica, including:
+       </p>
+       <ul className="pl-4 mb-8 list-disc">
+        <li className="mb-2">Maintaining a healthy weight</li>
+        <li className="mb-2">Regular exercise</li>
+        <li className="mb-2">Proper</li>
+       </ul>
+      </div>
+     </article>
+    </div>
+    <div className="w-full p-8 bg-white md:w-1/3">
+     <AppointmentForm />
+    </div>
    </div>
 
    {/* next article */}
@@ -243,7 +249,7 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
     heading="Help for sciatica nerve pain"
     body="Discover relief from sciatic nerve pain at Primewave Health in Las Vegas. Our pain doctors offers personalized treatment plans, utilizing advanced diagnostics to target the root causes of your discomfort. From non-invasive options like chiropractic care and shockewave therapy to advanced interventions including injections, we provide comprehensive solutions.Take control of your life again – find relief at Primewave Health in Las Vegas."
     src="/images/happy-man.avif"
-    alt="Chronic Pain Treatment in Las Vegas"
+    alt="Help for sciatica nerve pain"
     btn={{
      href: "/appointment",
      text: "Schedule An Appointment",

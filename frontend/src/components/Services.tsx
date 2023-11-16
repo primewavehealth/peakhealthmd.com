@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const mobileData = [
  {
-  name: "Chronic Pain",
-  href: "/chronic-pain-las-vegas",
+  name: "Foot Pain",
+  href: "/podiatrist-foot-doctor-las-vegas",
   text:
-   "Chronic pain affects millions. Understand its complexities and discover effective treatments to regain control and live a pain-free life.",
+   "Foot pain affects millions. Understand its complexities and discover effective treatments to regain control and live a pain-free life.",
  },
  {
   name: "Back Pain",
