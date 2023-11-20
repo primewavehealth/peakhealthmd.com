@@ -49,7 +49,7 @@ function page() {
    <div className="container p-4 mx-auto">
     <div className="lg:flex">
      <div className="p-4 lg:w-2/3">
-      <section className="p-6 rounded-lg md:pl-16">
+      <article className="p-6 rounded-lg md:pl-16">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl">
         What is Erectile Dysfunction?
        </h2>
@@ -80,9 +80,9 @@ function page() {
        <div className="md:hidden">
         <AppointmentForm />
        </div>
-      </section>
+      </article>
 
-      <section className="p-6 mt-5 rounded-lg md:pl-16">
+      <article className="p-6 mt-5 rounded-lg md:pl-16">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl">
         Causes of Erectile Dysfunction
        </h2>
@@ -149,8 +149,8 @@ function page() {
         as it helps individuals and healthcare providers differentiate between
         age-related changes and pathological causes of ED.
        </p>
-      </section>
-      <section className="p-6 mt-5 rounded-lg md:pl-16 ">
+      </article>
+      <article className="p-6 mt-5 rounded-lg md:pl-16 ">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl ">
         Symptoms of Erectile Dysfunction
        </h2>
@@ -190,8 +190,8 @@ function page() {
         the importance of addressing both the physical and emotional aspects of
         ED.
        </p>
-      </section>
-      <section className="p-6 mt-5 rounded-lg md:pl-16 ">
+      </article>
+      <article className="p-6 mt-5 rounded-lg md:pl-16 ">
        <h2 className="mb-4 text-2xl font-bold lg:text-4xl ">
         Treatment for Erectile Dysfunction
        </h2>
@@ -240,12 +240,11 @@ function page() {
        </p>
        <h3 className="mb-4 text-2xl font-bold "> Medications</h3>
        <p className="mb-6">
-        Medications such as oral options (e.g., Viagra and Cialis) can enhance
-        erectile function by promoting blood flow to the penis. Additionally,
-        injections and suppositories offer direct treatment for ED when oral
-        medications are not effective or feasible. Understanding the various
-        medication options is essential for individuals seeking pharmacological
-        solutions to ED.
+        Medications such as oral options can enhance erectile function by
+        promoting blood flow to the penis. Additionally, injections and
+        suppositories offer direct treatment for ED when oral medications are
+        not effective or feasible. Understanding the various medication options
+        is essential for individuals seeking pharmacological solutions to ED.
        </p>
 
        <h3 className="mb-4 text-2xl font-bold ">Shockwave Therapy</h3>
@@ -257,7 +256,7 @@ function page() {
         well to other therapies, making it essential for individuals exploring
         modern ED treatment approaches.
        </p>
-      </section>
+      </article>
      </div>
      <div className="hidden p-4 md:flex lg:w-1/3">
       <AppointmentForm />
