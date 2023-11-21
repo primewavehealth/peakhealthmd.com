@@ -1,8 +1,8 @@
-import Consultation from "@/components/AppointmentForm";
-import Button from "@/components/UI/Button";
+import AppointmentForm from "@/components/AppointmentForm";
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import Image from "next/image";
+import Link from "next/link";
 import joint from "/public/images/joint-pain-lv.jpg";
 
 export const metadata: Metadata = {
@@ -45,23 +45,24 @@ function page() {
     }}
    />
    {/* next section */}
-   <section className="">
-    <div className="container flex flex-wrap">
-     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4">
-      <Consultation />
-     </div>
-     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+
+   <div className="container flex flex-col mx-auto mt-8 md:flex-row">
+    <div className="w-full p-8 mb-4 md:w-2/3 md:mb-0">
+     <div className="w-full px-6 text-lg lg:px-4 lg:py-16">
       <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
         What is Joint Pain?
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
         <p>
-         Joint pain refers to discomfort or soreness experienced in the joints,
-         which are the connections between two or more bones in the body. Joints
-         are complex structures that allow for movement and provide support to
-         the skeletal system. They are composed of bones, cartilage, ligaments,
+         <Link href="https://my.clevelandclinic.org/health/symptoms/17752-joint-pain">
+          Joint pain
+         </Link>{" "}
+         refers to discomfort or soreness experienced in the joints, which are
+         the connections between two or more bones in the body. Joints are
+         complex structures that allow for movement and provide support to the
+         skeletal system. They are composed of bones, cartilage, ligaments,
          tendons, and other tissues. The ends of the bones within a joint are
          covered with a layer of smooth cartilage, which helps reduce friction
          and absorb shock during movement. Surrounding the joint is the synovial
@@ -78,16 +79,24 @@ function page() {
         What Causes Joint Pain?
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
+        <p>
+         The common{" "}
+         <Link href="https://www.mayoclinic.org/symptoms/joint-pain/basics/causes/sym-20050668">
+          causes of joint pain
+         </Link>{" "}
+         include:{" "}
+        </p>
         <p>
          Inflammatory Conditions: Conditions such as arthritis (e.g., rheumatoid
          arthritis, psoriatic arthritis) and autoimmune diseases can cause
          inflammation in the joints, leading to pain, swelling, and stiffness.
         </p>
         <p>
-         Degenerative Conditions: Degenerative joint diseases, such as
-         osteoarthritis, occur when the cartilage in the joints gradually wears
-         down, resulting in joint pain, stiffness, and reduced mobility.
+         Degenerative Conditions: Degenerative joint diseases, such as{" "}
+         <Link href="/ostheoarthritis-treatment">osteoarthritis</Link> , occur
+         when the cartilage in the joints gradually wears down, resulting in
+         joint pain, stiffness, and reduced mobility.
         </p>
         <p>
          Injuries: Joint pain can be caused by injuries, such as sprains,
@@ -116,7 +125,7 @@ function page() {
         Symptoms of Joint Pain
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
         <p>
          Joint pain can manifest in various ways depending on the underlying
          cause, but here are some common symptoms associated with joint pain:
@@ -161,142 +170,38 @@ function page() {
       </div>
      </div>
     </div>
-   </section>
-   {/* next section */}
-   <section className=" bg-blue-50">
-    <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
-     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="relative hidden h-64 overflow-hidden rounded-lg lg:flex sm:h-80 lg:order-first lg:h-full">
-       <Image
-        className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
-        alt="banner"
-        src="/images/joint1.jpg"
-        fill
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        loading="lazy"
-       />
-      </div>
 
-      <div>
-       <h2 className="text-3xl font-bold sm:text-4xl">
-        How We Treat Joint Pain
-       </h2>
-
-       <p className="mt-4 text-justify text-gray-600">
-        Are you tired of living with persistent joint pain that limits your
-        mobility and hampers your quality of life? Say goodbye to discomfort and
-        hello to freedom with Primewave's groundbreaking shockwave therapy!
-       </p>
-       <p className="mt-4 text-justify text-gray-600">
-        Imagine a life without the constant ache and stiffness in your joints.
-        Our state-of-the-art shockwave therapy is a non-invasive, drug-free
-        solution designed to alleviate joint pain and restore your body's
-        natural harmony. It's time to take control of your well-being and
-        embrace a pain-free future.
-       </p>
-
-       <div className="">
-        <Button
-         text="Request Consultation"
-         href="/appointment"
-         icon=<svg
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          className="w-4 h-4 ml-auto "
-          viewBox="0 0 24 24"
-         >
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-         </svg>
-        />
-       </div>
-      </div>
-     </div>
+    <div className="w-full p-8 md:w-1/3 ">
+     <AppointmentForm />
     </div>
-   </section>
+   </div>
+
    {/* next section */}
-   <section className="bg-slate-100">
-    <div className="max-w-screen-xl px-8 py-8 mx-auto sm:py-12 sm:px-6 lg:py-16">
-     <h2 className="text-2xl font-bold text-center sm:text-3xl">
-      Why Choose Primewave for your Joint Pain Treatment in Las Vegas?
-     </h2>
-     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 lg:py-12">
-      <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full ">
-       <Image
-        className="absolute inset-0 z-10 object-contain bg-center bg-no-repeat bg-contain"
-        alt="banner"
-        src="/images/joint2.jpg"
-        fill
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        loading="lazy"
-       />
-      </div>
+   <CTA
+    heading="Joint Pain Relief is Possible"
+    body="Don't let joint pain dictate your daily life any longer—Primewave Health in Las Vegas is your beacon of relief! Our cutting-edge joint pain treatments are designed to address the root cause, providing rapid and lasting relief. With a team of experienced pain specialists in las vegas dedicated to your well-being, Primewave Health is committed to restoring your mobility and improving your overall quality of life. Act now to reclaim your comfort and vitality—schedule your appointment today, because every moment without relief is a moment too long."
+    src="/images/happy-man.avif"
+    alt="Joint Pain Treatment in Las Vegas"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
 
-      <div>
-       <p className="mt-4 text-justify text-gray-600">
-        <strong>Revolutionary Technology</strong>: Our shockwave therapy
-        harnesses the power of high-energy sound waves to target the root cause
-        of your joint pain. By stimulating your body's healing mechanisms, it
-        promotes tissue regeneration, reduces inflammation, and improves blood
-        circulation in the affected area. Experience the transformative benefits
-        of this cutting-edge approach!
-        <br />
-        <br />
-        <strong>Customized Treatment Plans</strong>: We understand that every
-        individual is unique, and so are their joint pain challenges. Our team
-        of experienced professionals will assess your condition thoroughly and
-        develop a personalized treatment plan tailored to your specific needs.
-        With Primewave, you'll receive the care and attention you deserve,
-        ensuring optimal results.
-        <br />
-        <br />
-        <strong>Non-Invasive and Safe</strong>: Unlike invasive procedures or
-        medications with unwanted side effects, shockwave therapy is a
-        non-surgical, non-pharmaceutical treatment option. It is gentle,
-        non-invasive, and has minimal downtime. You can undergo Primewave
-        sessions with confidence, knowing that your well-being and safety are
-        our top priorities. <br />
-        <br />
-        <strong>Rapid Relief and Long-Term Benefits</strong>: Primewave delivers
-        both immediate pain relief and long-lasting benefits. Many patients
-        report a significant reduction in pain after just a few sessions,
-        allowing them to regain their freedom of movement and engage in
-        activities they love. Our therapy aims to address the underlying cause
-        of your joint pain for sustainable, lasting results.
-       </p>
-       <br />
-       <p className="mt-4 text-justify text-gray-600">
-        Don't let joint pain hold you back any longer. Experience the remarkable
-        power of shockwave therapy with Primewave. Reclaim your mobility,
-        rediscover your joy, and embrace a life without limits. Schedule your
-        consultation today and let us help you embark on a pain-free future.
-       </p>
-
-       <div className="">
-        <Button
-         text="Request Consultation"
-         id="consult"
-         href="/appointment"
-         icon=<svg
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          className="w-4 h-4 ml-auto "
-          viewBox="0 0 24 24"
-         >
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-         </svg>
-        />
-       </div>
-      </div>
-     </div>
-    </div>
-   </section>
-
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
    {/* faqs*/}
    <section className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">

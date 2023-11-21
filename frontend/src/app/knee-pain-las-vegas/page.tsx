@@ -1,7 +1,8 @@
-import Consultation from "@/components/AppointmentForm";
+import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
+import Link from "next/link";
 import knee from "/public/images/knee-pain1.jpg";
 
 export const metadata: Metadata = {
@@ -45,24 +46,50 @@ function page() {
    />
    {/* next section */}
 
-   <section className="">
-    <div className="container flex flex-wrap">
-     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4">
-      <Consultation />
-     </div>
-     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+   <div className="container flex flex-col mx-auto mt-8 md:flex-row">
+    <div className="w-full p-8 mb-4 md:w-2/3 md:mb-0">
+     <div className="w-full px-6 text-lg lg:px-4 lg:py-16">
       <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
         What is Knee Pain?
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
         <p>
-         Knee pain is a common complaint that can occur due to various reasons,
-         including injury, overuse, underlying medical conditions, or the
-         natural aging process. The knee is a complex joint composed of bones,
-         ligaments, tendons, muscles, and cartilage, and any disruption or
-         damage to these structures can lead to knee pain.
+         <Link href="https://my.clevelandclinic.org/health/symptoms/21207-knee-pain">
+          Knee pain
+         </Link>{" "}
+         is a common complaint that can occur due to various reasons, including
+         injury, overuse, underlying medical conditions, or the natural aging
+         process. The knee is a complex joint composed of bones, ligaments,
+         tendons, muscles, and cartilage, and any disruption or damage to these
+         structures can lead to knee pain.
+        </p>
+       </article>
+      </div>
+
+      <div className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        The Anatomy of the Knee?
+       </h2>
+
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
+        <p>
+         The{" "}
+         <Link href="https://my.clevelandclinic.org/health/body/24777-knee-joint">
+          knee
+         </Link>{" "}
+         is a complex hinge joint that connects the thigh bone (femur) to the
+         shin bone (tibia) and the smaller bone in the lower leg (fibula).
+         Central to its structure is the patella, or kneecap, which articulates
+         with the femur to facilitate smooth movement. Ligaments, such as the
+         anterior cruciate ligament (ACL) and posterior cruciate ligament (PCL),
+         provide stability, while the meniscus, two wedge-shaped pieces of
+         cartilage, acts as a cushion between the femur and tibia, absorbing
+         shock and aiding in load distribution. This intricate interplay of
+         bones, ligaments, and cartilage enables the knee to function as a
+         pivotal joint in supporting body weight and facilitating various
+         movements.
         </p>
        </article>
       </div>
@@ -72,7 +99,14 @@ function page() {
         What Causes Knee Pain?
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
+        <p>
+         The possible{" "}
+         <Link href="https://www.mayoclinic.org/diseases-conditions/knee-pain/symptoms-causes/syc-20350849">
+          causes of knee pain
+         </Link>{" "}
+         include:
+        </p>
         <p>
          Injuries: Knee pain often results from injuries, such as sprains,
          strains, tears, or fractures. These injuries can occur due to sudden
@@ -109,7 +143,7 @@ function page() {
         What are the Symptoms of Knee Damage?
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
         <p>
          Pain: Knee pain can range from a dull ache to sharp, stabbing pain. The
          intensity and location of the pain may vary depending on the specific
@@ -134,60 +168,56 @@ function page() {
         </p>
        </article>
       </div>
-
       <div className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
-       <h2 className="pb-4 text-2xl font-bold text-center sm:text-3xl">
-        Shockwave Therapy for Knee Pain Treatment
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        How is Knee Pain Treated?
        </h2>
 
-       <article className="space-y-4 text-justify text-gray-600 ">
+       <article className="space-y-4 prose text-justify text-gray-600 max-w-none">
         <p>
-         Unlike traditional treatments, such as medication or surgery, shockwave
-         therapy stimulates the body's natural healing mechanisms to address the
-         underlying issues causing your knee pain. Through the use of focused,
-         high-energy sound waves, this advanced therapy accelerates tissue
-         repair, reduces inflammation, and promotes regeneration in the affected
-         area.
-        </p>
-       </article>
-      </div>
-
-      {/*  next section  */}
-      <div className="max-w-3xl pt-16 mx-auto text-base text-justify md:text-lg">
-       <h2 className="pb-4 text-2xl font-bold sm:text-3xl">
-        The Primewave Solution for Knee Pain Treatment in Las Vegas
-       </h2>
-
-       <article className="space-y-4 text-justify text-gray-600 ">
-        <p>
-         Expert Care: Our experienced team of medical professionals will assess
-         your condition thoroughly, taking into account your medical history and
-         unique needs. With their expertise and in-depth knowledge of shockwave
-         therapy, they will develop a personalized treatment plan tailored
-         specifically to you. Cutting-Edge Technology: Primewave is equipped
-         with the latest shockwave therapy technology, ensuring precise and
-         targeted treatment. Our advanced equipment allows for controlled energy
-         delivery, maximizing the therapeutic effects while minimizing
-         discomfort.
+         Physical Therapy: Engaging in a tailored physical therapy program can
+         be instrumental in alleviating knee pain. Therapists employ targeted
+         exercises to strengthen surrounding muscles, improve flexibility, and
+         correct biomechanical issues, fostering long-term relief and enhanced
+         joint function.
         </p>
         <p>
-         Non-Invasive and Safe: Say goodbye to invasive surgeries and lengthy
-         recovery periods. Shockwave therapy is a non-invasive procedure that
-         requires no incisions or anesthesia. It's a safe and reliable treatment
-         option with minimal side effects.
+         Nonsteroidal Anti-Inflammatory Drugs (NSAIDs): Over-the-counter NSAIDs,
+         such as ibuprofen, can effectively manage knee pain by reducing
+         inflammation and mitigating discomfort. These medications offer a
+         readily accessible and often rapid solution for individuals seeking
+         temporary relief from mild to moderate knee pain.
         </p>
         <p>
-         Fast and Effective: We understand that time is of the essence when it
-         comes to your well-being. With shockwave therapy, many patients
-         experience significant pain relief and improved functionality after
-         just a few sessions. Get back to doing what you love faster with
-         Primewave.
+         Intra-Articular Injections: Injectable treatments, like corticosteroids
+         or hyaluronic acid, may be recommended to directly target knee joint
+         inflammation. Administered by healthcare professionals, these
+         injections can provide substantial relief for those experiencing
+         persistent pain, aiding in the restoration of joint mobility and
+         function.
+        </p>
+        <p>
+         Weight Management: Maintaining a healthy weight is a proactive approach
+         to manage knee pain, particularly for individuals with osteoarthritis.
+         Shedding excess pounds can alleviate stress on the knee joints,
+         diminishing pain and enhancing overall joint health over time.
+        </p>
+        <p>
+         Orthopedic Braces and Supports: Utilizing orthopedic braces or supports
+         can provide additional stability to the knee joint, reducing strain and
+         promoting proper alignment. These supportive devices are valuable for
+         both injury prevention and as part of a comprehensive treatment plan
+         for managing various knee conditions.
         </p>
        </article>
       </div>
      </div>
     </div>
-   </section>
+
+    <div className="w-full p-8 md:w-1/3 ">
+     <AppointmentForm />
+    </div>
+   </div>
 
    {/* next section */}
    <CTA
