@@ -159,7 +159,7 @@ function page() {
    </section>
 
    <CTA
-    heading="Comprehensive Low T Treatment in Las Vegas"
+    heading="Low Testosterone Treatment in Las Vegas"
     body="If you're experiencing symptoms of low testosterone, Prime Wave can help. We are a leading trt clinic in Las Vegas. Our experienced board certified doctors provide comprehensive testing and customized treatment plans to help you feel your best. We understand the impact that low testosterone can have on your quality of life, including decreased energy, decreased muscle mass, and decreased libido. That's why we offer a range of treatment options, including testosterone replacement therapy, to help you regain your vitality and confidence. Don't let low testosterone hold you back - contact us today to schedule a consultation and start feeling like yourself again."
     src="/images/happy-man.avif"
     alt="low-testosterone-treatment-las-vegas"

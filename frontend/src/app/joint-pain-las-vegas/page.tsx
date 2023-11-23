@@ -178,7 +178,7 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Joint Pain Relief is Possible"
+    heading="Joint Pain Treatment in Las Vegas"
     body="Don't let joint pain dictate your daily life any longer—Primewave Health in Las Vegas is your beacon of relief! Our cutting-edge joint pain treatments are designed to address the root cause, providing rapid and lasting relief. With a team of experienced pain specialists in las vegas dedicated to your well-being, Primewave Health is committed to restoring your mobility and improving your overall quality of life. Act now to reclaim your comfort and vitality—schedule your appointment today, because every moment without relief is a moment too long."
     src="/images/happy-man.avif"
     alt="Joint Pain Treatment in Las Vegas"

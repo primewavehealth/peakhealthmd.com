@@ -103,7 +103,7 @@ there are effective treatment options available to help alleviate your pain and 
 
    {/* next section */}
    <CTA
-    heading="Experience TMJ Relief"
+    heading="TMJ Treatment in Las Vegas"
     body="
 We pride ourselves on offering the most advanced TMJ treatment in Las Vegas. Our combination of shockwave therapy and medication stands out. Our experienced staff, well-versed in the complexities of TMJ disorders, ensures that you receive the highest level of care. With a deep understanding of shockwave therapy's effectiveness and a tailored medication regimen, our experts work together to alleviate your TMJ symptoms. Count on our expertise to bring you lasting relief, helping you regain pain-free jaw function and improved quality of life. Trust us for comprehensive, effective TMJ treatment that truly makes a difference."
     src="/images/happy-man.avif"

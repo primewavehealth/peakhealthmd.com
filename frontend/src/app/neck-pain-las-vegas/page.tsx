@@ -207,7 +207,7 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Get Neck Pain Relief in Las Vegas"
+    heading="Neck Pain Treatment in Las Vegas"
     body="Don't let neck pain hold you back any longer! Take the first step toward a pain-free future by scheduling a consultation at Primewave today. Our dedicated team is ready to provide the exceptional care and expertise you deserve. Reclaim your life from neck pain and embrace a healthier, happier you!"
     src="/images/happy-man.avif"
     alt="Neck Pain Treatment in Las Vegas"

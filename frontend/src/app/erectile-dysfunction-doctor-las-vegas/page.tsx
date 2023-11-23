@@ -266,7 +266,7 @@ function page() {
 
    {/*body*/}
    <CTA
-    heading="ED Specialist in Las Vegas"
+    heading="Erectile Dysfunction Doctor in Las Vegas"
     body="Ready to take control of your sexual health? Don't wait any longer. Our experienced ED Specialist in Las Vegas is here to help you regain your vitality and confidence. Schedule your consultation today, and let us provide you with personalized treatment options to address your unique needs. Take the first step towards a more satisfying and fulfilling life. Your journey to improved sexual health begins here. Reach out now, and let us guide you towards a brighter future."
     src="/images/happy-man.avif"
     alt="Las Vegas ED Doctor"

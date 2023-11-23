@@ -191,7 +191,7 @@ function Shockwave() {
     </span>
    </blockquote>
    <CTA
-    heading="Shockwave Therapy Experts in Las Vegas"
+    heading="Shock Wave Therapy in Las Vegas"
     body="Are you struggling with chronic pain or injuries that just won't heal? Consider shockwave therapy, offered by Prime Wave. Our skilled staff is highly trained in providing various types of shockwave therapy, including radial and focused shockwave therapy, to help alleviate pain and promote healing. With years of experience in the field, we are dedicated to delivering safe and effective shockwave therapy treatments tailored to your specific needs. From sports injuries and tendonitis to plantar fasciitis and chronic back pain, our medical practice can help you get back to feeling your best. Contact us today to schedule your appointment and experience the expertise of our team."
     src="/images/happy-man.avif"
     alt="shockwave-therapy-las-vegas"

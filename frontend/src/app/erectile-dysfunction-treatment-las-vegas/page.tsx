@@ -178,7 +178,7 @@ function page() {
     </div>
    </section>
    <CTA
-    heading="Wave Goodbye to Weak Erection"
+    heading="Erectile Dysfunction Treatment in Las Vegas"
     subheading=" Say No to ED Disorder"
     body="Our state-of-the-art facility offers ed treatment options such as shockwave therapy and erectile dysfunction medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer. You can overcome your ed disorder - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"

@@ -221,7 +221,7 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Knee Pain Relief is Here"
+    heading="Knee Pain Treatment in Las Vegas"
     body="Don't let knee pain hold you back any longer. Take the first step towards a pain-free future by scheduling a consultation with our pain specialists in Las Vegas. Our compassionate team is ready to guide you on your journey to regaining your mobility and enjoying life to the fullest. Contact us today and discover the transformative power of shockwave therapy for knee pain.
 "
     src="/images/happy-man.avif"
