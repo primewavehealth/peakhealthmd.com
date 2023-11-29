@@ -55,7 +55,7 @@ export default function Example() {
       onClick={() => setMobileMenuOpen(true)}
      >
       <span className="sr-only">Open main menu</span>
-      <Bars3Icon className="w-6 h-6" aria-hidden="true" />
+      <Bars3Icon className="w-12 h-12 font-bold" aria-hidden="true" />
      </button>
     </div>
 
@@ -357,7 +357,7 @@ export default function Example() {
        onClick={() => setMobileMenuOpen(false)}
       >
        <span className="sr-only">Close menu</span>
-       <XMarkIcon className="w-6 h-6" aria-hidden="true" />
+       <XMarkIcon className="w-12 h-12 font-bold" aria-hidden="true" />
       </button>
      </div>
      <div className="flow-root mt-6">
