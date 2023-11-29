@@ -63,6 +63,7 @@ function Banner() {
       </div>
      </div>
     </div>
+
     <div className="hidden lg:block lg:w-1/2 clip-bg">
      <div className="w-full h-full">
       <Image

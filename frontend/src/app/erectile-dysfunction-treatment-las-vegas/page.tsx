@@ -206,7 +206,7 @@ function page() {
    {/* faqs*/}
    <section className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
-     Frequently Asked Questions About Erectile Dysfunctions
+     Frequently Asked Questions About Erectile Dysfunction
     </h2>
     <div className="space-y-4">
      <details
