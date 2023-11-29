@@ -89,10 +89,10 @@ function page() {
       <div className="flex flex-col md:flex-row">
        <div className="w-full md:pr-8">
         <h2 className="mb-4 text-2xl font-bold">
-         Understanding the Lower Back Pain
+         Understanding Lower Back Pain
         </h2>
         <div className="mb-4">
-         <h3 className="mb-2 text-xl font-bold">What is Back Pain?</h3>
+         <h3 className="mb-2 text-xl font-bold">What is LowerBack Pain?</h3>
          <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
           <Link
            href="https://www.niams.nih.gov/health-topics/back-pain"

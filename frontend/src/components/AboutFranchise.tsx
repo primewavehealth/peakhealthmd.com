@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function AboutFranchise() {
  return (
-  <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+  <div className="relative flex flex-col-reverse mt-16 md:mt-2 py-16 lg:pt-0 lg:flex-col lg:pb-0 h-[600px]">
    <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
     <svg
      className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
@@ -12,17 +12,19 @@ function AboutFranchise() {
      preserveAspectRatio="none slice"
     >
      <path d="M50 0H100L50 100H0L50 0Z" />
-    </svg>
-    <Image
-     alt="banner"
-     src="/images/passport.jpg"
-     className="object-cover"
-     width={1500}
-     height={1000}
-     sizes="100vw"
-     quality={100}
-     priority
-    />
+    </svg>{" "}
+    <div className="h-full">
+     {" "}
+     <Image
+      alt="banner"
+      src="/images/passport2.jpg"
+      className="object-contain w-full"
+      width={1000}
+      height={400}
+      quality={100}
+      priority
+     />
+    </div>
    </div>
    <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
     <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
