@@ -20,14 +20,18 @@ export const metadata: Metadata = {
 
 const jsonLd = {
  "@context": "https://schema.org",
- "@type": "localBusiness",
+ "@type": "MedicalBusiness",
+ name: "Primewave Pain Care Clinic",
  image: ["https://primewavehealth.com/images/logo.png"],
+ description: "Pain Control Clinic in Las Vegas",
+ openingHours: ["Mo-Fr 09:00-18:00", "Sa 09:00-12:00"],
+ url: "https://primewavehealth.com/",
  address: {
   "@type": "PostalAddress",
+  streetAddress: "8285 W Arby Ave #175",
   addressLocality: "Las Vegas",
   addressRegion: "NV",
   postalCode: "89113",
-  streetAddress: "8285 W Arby Ave #175",
  },
  hashMap:
   "https://www.google.com/maps/dir/36.188072,-115.204211/primewave/@36.1256461,-115.4161627,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c77b87fd04f3:0xe5b9c9fcf3f802d9!2m2!1d-115.2721143!2d36.058366?entry=ttu",
@@ -40,12 +44,18 @@ const jsonLd = {
   },
   geoRadius: 1000,
  },
- sameAs: "https://primewavehealth.com",
- description: "Pain Control Clinic in Las Vegas",
- name: "Primewave Pain Care Clinic",
+ sameAs: [
+  "https://www.facebook.com/primewavehealth/",
+  "https://twitter.com/primewavehealth",
+ ],
+
  telephone: "7026254334",
  review: {
   "@type": "Review",
+  author: {
+   "@type": "Person",
+   name: "Richard Parks",
+  },
   reviewRating: {
    "@type": "Rating",
    ratingValue: "4",

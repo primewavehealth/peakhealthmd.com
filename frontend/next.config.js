@@ -23,6 +23,11 @@ const nextConfig = {
     hostname: "freepik.com",
     pathname: "/**",
    },
+   {
+    protocol: "https",
+    hostname: "placehold.co",
+    pathname: "/**",
+   },
   ],
  },
  headers() {
