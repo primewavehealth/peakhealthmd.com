@@ -341,7 +341,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
 
    {/* next article */}
    <CTA
-    heading="Take the First Step Towards a Pain-Free Future Today!"
+    heading="Chronic Pain Treatment in Las Vegas"
     body="Don't let chronic pain hold you back from enjoying life to the fullest. Take the leap towards a pain-free future by scheduling a consultation with our experienced team at Primewave. We will assess your condition, discuss the benefits of Shockwave Therapy, and develop a personalized treatment plan tailored to your needs.
     Reclaim your life and bid farewell to chronic pain. Contact us now to book your appointment or learn more about our innovative Shockwave Therapy. Primewave is here to support you on your journey to a healthier, happier you!"
     src="/images/happy-man.avif"

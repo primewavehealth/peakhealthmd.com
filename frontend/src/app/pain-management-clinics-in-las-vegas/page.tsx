@@ -18,7 +18,7 @@ function page() {
   <div>
    <PageBanner
     heading="Pain Management Clinics in Las Vegas"
-    body="At Primewave, we understand how debilitating pain can be, and we are here to provide comprehensive and compassionate care to help you regain control of your life. Our team of highly skilled pain  management doctors in Las Vegas is dedicated to diagnosing and treating a wide range of pain conditions, including back pain, joint pain, knee pain, and neck pain. We are the destination pain management clinic in Las Vegas that will meet your specific needs"
+    body="At Primewave, we understand how debilitating pain can be, and we are here to provide comprehensive and compassionate care to help you regain control of your life. Our team of highly skilled pain  management doctors in Las Vegas is dedicated to diagnosing and treating a wide range of pain conditions, including back pain, joint pain, knee pain, and neck pain. We are the one of the leading destination pain management clinics in Las Vegas that will meet your specific needs"
     src={pain}
     height={400}
     width={400}
@@ -199,7 +199,7 @@ function page() {
 
    {/* next section */}
    <CTA
-    heading="Las Vegas Pain Specialists"
+    heading="Pain Management Clinics in Las Vegas"
     body="Got shoulder pain, back pain, knee or joint pain or any kind of pain?, Prime Wave can help you find relief. Our experienced team of board certified pain doctors in Las Vegas specializes in providing personalized pain management solutions to address the root cause of your pain. We offer a range of managements tailored to your unique needs. Our goal is to help you achieve a better quality of life by reducing your pain and improving your overall function. Contact us today to schedule a consultation and take the first step towards a pain-free life."
     src="/images/happy-man.avif"
     alt="Pain management in Las Vegas"

@@ -57,7 +57,7 @@ function page() {
   <div>
    <PageBanner
     heading="Lower Back Pain Treatment in Las Vegas"
-    body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of affordable back pain treatment in Las Vegas and regain control of your life."
+    body="Whether you have right lower back pain or left lower back pain, our back pain specialists in Las Vegas utlitize  advanced technology to deliver lower back pain relief. Through state-of-the-art techniques such as non-invasive shockwave therapy, we provide unparalleled precision and efficacy in relieving back pain and restoring function. Experience a new era of affordable lower back pain treatment in Las Vegas and regain control of your life."
     src={back}
     height={400}
     width={400}
@@ -369,7 +369,7 @@ function page() {
 
    {/* next article */}
    <CTA
-    heading="Bye Bye to Constant Lower Back Pain"
+    heading="Lower Back Pain Treatment in Las Vegas"
     body="Are you tired of enduring severe back pain, constantly grappling with the discomfort of a pinched nerve in your lower back? Find solace in effective lower back pain treatment options that provide much-needed relief. Whether your lower back hurts due to muscle strain, poor posture, or conditions like lumbar spinal stenosis, specialized treatments are tailored to alleviate your specific discomfort. Embrace targeted lower back pain relief techniques designed to address the root causes of your pain, promoting healing and restoring comfort. Don't let persistent lower back pain disrupt your daily life; explore dedicated solutions that prioritize your well-being and offer a path to a pain-free, healthier back."
     src="/images/happy-man.avif"
     alt="Help for lower back pain"
