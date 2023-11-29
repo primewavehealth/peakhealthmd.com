@@ -295,6 +295,12 @@ export default function Example() {
       About
      </Link>
      <Link
+      href="/franchise"
+      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
+     >
+      Franchise
+     </Link>
+     <Link
       href="/blog"
       className="pr-4 text-sm font-semibold leading-6 text-gray-900"
      >
@@ -483,6 +489,12 @@ export default function Example() {
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          About
+        </Link>
+        <Link
+         href="/franchise"
+         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+        >
+         Franchise
         </Link>
         <Link
          href="/blog"
