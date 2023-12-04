@@ -23,24 +23,7 @@ const jsonLd = {
   "@type": "AnatomicalStructure",
   name: "Joints",
  },
- cause: [
-  {
-   "@type": "MedicalCause",
-   name: "Arthritis",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Joint injuries or trauma",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Tendonitis",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "gout",
-  },
- ],
+
  differentialDiagnosis: {
   "@type": "DDxElement",
   diagnosis: {
@@ -48,7 +31,8 @@ const jsonLd = {
    name: "Joint Pain",
   },
  },
- distinguishingSign: [
+
+ signOrSymptom: [
   {
    "@type": "MedicalSymptom",
    name: "Pain or discomfort in one or more joints",
@@ -57,8 +41,6 @@ const jsonLd = {
    "@type": "MedicalSymptom",
    name: "Swelling and tenderness",
   },
- ],
- signOrSymptom: [
   {
    "@type": "MedicalSymptom",
    name: "Stiffness or reduced range of motion",
@@ -120,28 +102,6 @@ const jsonLd = {
   {
    "@type": "MedicalRiskFactor",
    name: "Gender",
-  },
- ],
- secondaryPrevention: [
-  {
-   "@type": "LifestyleModification",
-   name: "Protective measures during physical activities",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Maintaining a healthy weight",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Regular exercise for joint flexing and flexibility",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Good posture habits",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Avoiding prolonged repetitive motions",
   },
  ],
 };
