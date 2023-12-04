@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
  "@context": "http://schema.org",
- "@type": "WebSite",
+ "@type": "MedicalBusiness",
  name: "Primewave Pain Care Clinic",
  image: ["https://primewavehealth.com/images/logo.png"],
  description: "Pain Control Clinic in Las Vegas",
