@@ -18,38 +18,137 @@ export const metadata: Metadata = {
 
 const jsonLd = {
  "@context": "https://schema.org",
- "@type": "localBusiness",
- image: ["https://primewavehealth.com/images/logo.png"],
- address: {
-  "@type": "PostalAddress",
-  addressLocality: "Las Vegas",
-  addressRegion: "NV",
-  postalCode: "89113",
-  streetAddress: "8285 W Arby Ave #175",
+ "@type": "MedicalCondition",
+ alternateName: "Lower Back Pain",
+ associatedAnatomy: {
+  "@type": "AnatomicalStructure",
+  name: "Lower Back",
  },
- hashMap:
-  "https://www.google.com/maps/dir/36.188072,-115.204211/primewave/@36.1256461,-115.4161627,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c77b87fd04f3:0xe5b9c9fcf3f802d9!2m2!1d-115.2721143!2d36.058366?entry=ttu",
- areaServed: {
-  "@type": "GeoCircle",
-  geoMidpoint: {
-   "@type": "GeoCoordinates",
-   latitude: 36.18811,
-   longitude: -115.176468,
+ cause: [
+  {
+   "@type": "MedicalCause",
+   name: "Muscle strain or sprain",
   },
-  geoRadius: 1000,
- },
- sameAs: "https://primewavehealth.com/back-pain-las-vegas",
- description: "Lower back Pain Care in Las Vegas",
- name: "Primewave Pain Care Clinic",
- telephone: "7026254334",
- review: {
-  "@type": "Review",
-  reviewRating: {
-   "@type": "Rating",
-   ratingValue: "4",
-   bestRating: "5",
+  {
+   "@type": "MedicalCause",
+   name: "Herniated or bulging discs",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "Poor posture",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "Trauma or injury",
+  },
+ ],
+ differentialDiagnosis: {
+  "@type": "DDxElement",
+  diagnosis: {
+   "@type": "MedicalCondition",
+   name: "Lower Back Pain",
   },
  },
+ distinguishingSign: [
+  {
+   "@type": "MedicalSymptom",
+   name: "Localized pain in the back",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Stiffness or limited flexibility",
+  },
+ ],
+ signOrSymptom: [
+  {
+   "@type": "MedicalSymptom",
+   name: "Radiating pain to the legs",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Muscle spasms",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Muscle spasms",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Radiating pain to the legs (if nerve compression is involved)",
+  },
+ ],
+
+ name: "Lower Back Pain",
+ possibleTreatment: [
+  {
+   "@type": "MedicalTherapy",
+   name: "Physical therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Pain medication (NSAIDs)",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Shockwave Therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Heat or cold therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Exercise and stretching",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Rest and activity modification",
+  },
+ ],
+ riskFactor: [
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Age",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Poor physical fitness",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Excess weight or obesity",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Occupational factors (heavy lifting, prolonged sitting)",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Smoking",
+  },
+ ],
+ secondaryPrevention: [
+  {
+   "@type": "LifestyleModification",
+   name: "Proper lifting techniques",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Maintaining a healthy weight",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Regular exercise for back strength and flexibility",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Good posture habits",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Avoiding prolonged sitting",
+  },
+ ],
 };
 
 function page() {
@@ -560,6 +659,10 @@ function page() {
      </details>
     </div>
    </section>
+   <Script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+   />
   </div>
  );
 }
