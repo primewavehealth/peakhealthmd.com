@@ -24,24 +24,7 @@ const jsonLd = {
   "@type": "AnatomicalStructure",
   name: "Lower Back",
  },
- cause: [
-  {
-   "@type": "MedicalCause",
-   name: "Muscle strain or sprain",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Herniated or bulging discs",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Poor posture",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Trauma or injury",
-  },
- ],
+
  differentialDiagnosis: {
   "@type": "DDxElement",
   diagnosis: {
@@ -49,7 +32,8 @@ const jsonLd = {
    name: "Lower Back Pain",
   },
  },
- distinguishingSign: [
+
+ signOrSymptom: [
   {
    "@type": "MedicalSymptom",
    name: "Localized pain in the back",
@@ -57,16 +41,6 @@ const jsonLd = {
   {
    "@type": "MedicalSymptom",
    name: "Stiffness or limited flexibility",
-  },
- ],
- signOrSymptom: [
-  {
-   "@type": "MedicalSymptom",
-   name: "Radiating pain to the legs",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Muscle spasms",
   },
   {
    "@type": "MedicalSymptom",
@@ -125,28 +99,6 @@ const jsonLd = {
   {
    "@type": "MedicalRiskFactor",
    name: "Smoking",
-  },
- ],
- secondaryPrevention: [
-  {
-   "@type": "LifestyleModification",
-   name: "Proper lifting techniques",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Maintaining a healthy weight",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Regular exercise for back strength and flexibility",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Good posture habits",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "Avoiding prolonged sitting",
   },
  ],
 };

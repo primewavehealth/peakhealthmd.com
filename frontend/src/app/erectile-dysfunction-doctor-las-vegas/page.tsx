@@ -23,24 +23,6 @@ const jsonLd = {
   "@type": "AnatomicalStructure",
   name: "Penis",
  },
- cause: [
-  {
-   "@type": "MedicalCause",
-   name: "Low testosterone",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "High blood pressure",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Diabetes",
-  },
-  {
-   "@type": "MedicalCause",
-   name: "Obesity",
-  },
- ],
  differentialDiagnosis: {
   "@type": "DDxElement",
   diagnosis: {
@@ -48,16 +30,7 @@ const jsonLd = {
    name: "Erectile Dysfunction",
   },
  },
- distinguishingSign: [
-  {
-   "@type": "MedicalSymptom",
-   name: "Inability to get or maintain an erection",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Reduced sexual desire",
-  },
- ],
+
  signOrSymptom: [
   {
    "@type": "MedicalSymptom",
@@ -112,20 +85,6 @@ const jsonLd = {
   {
    "@type": "MedicalRiskFactor",
    name: "Anxiety",
-  },
- ],
- secondaryPrevention: [
-  {
-   "@type": "LifestyleModification",
-   name: "stopping smoking",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "limit alcohol consumption",
-  },
-  {
-   "@type": "LifestyleModification",
-   name: "manage health conditions",
   },
  ],
 };
