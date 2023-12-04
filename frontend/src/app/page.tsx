@@ -27,10 +27,9 @@ const jsonLd = {
  openingHours: ["Mo-Fr 09:00-18:00", "Sa 09:00-12:00"],
  priceRange: "By Appointment",
  telephone: "7026254334",
- email: "info@primewavehealth.com",
+
  url: "https://primewavehealth.com",
- hashMap:
-  "https://www.google.com/maps/dir/36.188072,-115.204211/primewave/@36.1256461,-115.4161627,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c77b87fd04f3:0xe5b9c9fcf3f802d9!2m2!1d-115.2721143!2d36.058366?entry=ttu",
+
  sameAs: [
   "https://www.facebook.com/primewavehealth/",
   "https://twitter.com/primewavehealth",
@@ -57,15 +56,6 @@ const jsonLd = {
   bestRating: "5",
   worstRating: "2",
   ratingCount: "20",
- },
- potentialAction: {
-  "@type": "SearchAction",
-  target: {
-   "@type": "EntryPoint",
-   urlTemplate:
-    "https://query.primewavehealth.com/search?q={search_term_string}",
-  },
-  "query-input": "required name=search_term_string",
  },
 };
 
