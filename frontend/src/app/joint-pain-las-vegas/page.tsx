@@ -3,6 +3,7 @@ import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 import joint from "/public/images/joint-pain-lv.jpg";
 
 export const metadata: Metadata = {
@@ -12,6 +13,137 @@ export const metadata: Metadata = {
  alternates: {
   canonical: "/joint-pain-las-vegas",
  },
+};
+
+const jsonLd = {
+ "@context": "https://schema.org",
+ "@type": "MedicalCondition",
+ alternateName: "Joint Pain",
+ associatedAnatomy: {
+  "@type": "AnatomicalStructure",
+  name: "Joints",
+ },
+ cause: [
+  {
+   "@type": "MedicalCause",
+   name: "Arthritis",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "Joint injuries or trauma",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "Tendonitis",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "gout",
+  },
+ ],
+ differentialDiagnosis: {
+  "@type": "DDxElement",
+  diagnosis: {
+   "@type": "MedicalCondition",
+   name: "Joint Pain",
+  },
+ },
+ distinguishingSign: [
+  {
+   "@type": "MedicalSymptom",
+   name: "Pain or discomfort in one or more joints",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Swelling and tenderness",
+  },
+ ],
+ signOrSymptom: [
+  {
+   "@type": "MedicalSymptom",
+   name: "Stiffness or reduced range of motion",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Warmth or redness around the joint",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Weakness or instability",
+  },
+ ],
+
+ name: "Joint Pain",
+ possibleTreatment: [
+  {
+   "@type": "MedicalTherapy",
+   name: "Physical therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Pain medication (NSAIDs)",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Shockwave Therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Heat or cold therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Use of assistive devices (braces, canes)",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Rest and activity modification",
+  },
+ ],
+ riskFactor: [
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Age",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Genetics",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Excess weight or obesity",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Occupational factors (heavy lifting, prolonged sitting)",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Gender",
+  },
+ ],
+ secondaryPrevention: [
+  {
+   "@type": "LifestyleModification",
+   name: "Protective measures during physical activities",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Maintaining a healthy weight",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Regular exercise for joint flexing and flexibility",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Good posture habits",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "Avoiding prolonged repetitive motions",
+  },
+ ],
 };
 
 function page() {
@@ -358,6 +490,10 @@ function page() {
      </details>
     </div>
    </section>
+   <Script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+   />
   </div>
  );
 }

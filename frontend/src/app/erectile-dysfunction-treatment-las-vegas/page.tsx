@@ -5,6 +5,7 @@ import PageBanner from "@/components/UI/PageBanner";
 // @ts-ignore
 import { YouTubeEmbed } from "@next/third-parties/google";
 import type { Metadata } from "next";
+import Script from "next/script";
 import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 
 export const metadata: Metadata = {
@@ -14,6 +15,121 @@ export const metadata: Metadata = {
  alternates: {
   canonical: "/erectile-dysfunction-treatment-las-vegas",
  },
+};
+
+const jsonLd = {
+ "@context": "https://schema.org",
+ "@type": "MedicalCondition",
+ alternateName: "Erectile Dysfunction",
+ associatedAnatomy: {
+  "@type": "AnatomicalStructure",
+  name: "Penis",
+ },
+ cause: [
+  {
+   "@type": "MedicalCause",
+   name: "Low testosterone",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "High blood pressure",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "Diabetes",
+  },
+  {
+   "@type": "MedicalCause",
+   name: "Obesity",
+  },
+ ],
+ differentialDiagnosis: {
+  "@type": "DDxElement",
+  diagnosis: {
+   "@type": "MedicalCondition",
+   name: "Erectile Dysfunction",
+  },
+ },
+ distinguishingSign: [
+  {
+   "@type": "MedicalSymptom",
+   name: "Inability to get or maintain an erection",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Reduced sexual desire",
+  },
+ ],
+ signOrSymptom: [
+  {
+   "@type": "MedicalSymptom",
+   name: "Inability to get or maintain an erection",
+  },
+  {
+   "@type": "MedicalSymptom",
+   name: "Reduced sexual desire",
+  },
+ ],
+
+ name: "Erectile Dysfunction",
+ possibleTreatment: [
+  {
+   "@type": "MedicalTherapy",
+   name: "Psychological therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Drug therapy",
+  },
+  {
+   "@type": "MedicalTherapy",
+   name: "Shockwave Therapy",
+  },
+ ],
+ riskFactor: [
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Age",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Gender",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Achohol",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Depression",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Stress",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Weight",
+  },
+  {
+   "@type": "MedicalRiskFactor",
+   name: "Anxiety",
+  },
+ ],
+ secondaryPrevention: [
+  {
+   "@type": "LifestyleModification",
+   name: "stopping smoking",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "limit alcohol consumption",
+  },
+  {
+   "@type": "LifestyleModification",
+   name: "manage health conditions",
+  },
+ ],
 };
 
 function page() {
@@ -416,6 +532,10 @@ function page() {
      </details>
     </div>
    </section>
+   <Script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+   />
   </>
  );
 }
