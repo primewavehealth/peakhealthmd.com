@@ -68,8 +68,8 @@ function Banner() {
      <div className="w-full h-full">
       <Image
        alt="banner"
-       src="/images/prime-couple.jpg"
-       className="object-cover"
+       src="/images/pain-clinic.jpeg"
+       className="object-contain"
        width={1000}
        height={1000}
        sizes="100vw"

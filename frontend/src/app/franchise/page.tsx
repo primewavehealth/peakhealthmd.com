@@ -75,11 +75,11 @@ function page() {
       Records, Marketing, Front office and Back office. Our system allows you to
       become a successful franchise owner without prior experience in medical or
       healthcare. You do not need to be a licensed medical health clinician to
-      own a Primewave franchise. Your franchise comes with a full medical staff
-      of ten or more employees, which fulfil the USCIS U.S immigration
-      citizenship programs. Staff includes (Medical Director, Doctor(s),
-      Nurse(s) & Medical Assistant(s), franchisees also receive ongoing and
-      extensive training on running a medical clinic, regardless of experience.
+      own a Primewave franchise. We can provide the medical staff needed to
+      fulfil the USCIS U.S immigration citizenship programs. Staff includes
+      (Medical Director, Doctor(s), Nurse(s) & Medical Assistant(s), franchisees
+      also receive ongoing and extensive training on running a medical clinic,
+      regardless of experience.
      </p>
     </div>
    </section>
