@@ -1,6 +1,7 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
 import HomeCTA from "@/components/HomeCTA";
+import NewPatientBanner from "@/components/NewPatientsBanner";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
@@ -66,11 +67,14 @@ export default function Home() {
    <AboutSection />
    <Services />
    <Team />
+   <NewPatientBanner />
    <SectionTitle
     pretitle="Testimonials"
     title="What Our Customers Are Saying"
    ></SectionTitle>
+
    <Testimonials />
+
    <HomeCTA />
    <ScrollToTop />
    <Script
