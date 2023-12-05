@@ -25,18 +25,15 @@ function page() {
       Visa Franchise Program & Pathway to U.S.A Citizenship
      </p>
      <p className="mb-4 text-lg leading-8 text-gray-700">
-      Primewave is a medical health franchise that participates in the VISA
-      Franchise and Citizenship programs that allow foreign nationals and ten
-      family members to qualify for Visa’s. A Primewave Franchise is an avenue
-      for Immigrants living in the U.S, a pathway to U.S Citizenship. We
-      participate in various Visa programs including{" "}
-      <strong>E2, EB4, EB5, E1 Treaty</strong>. It is also a great option for
+      Primewave is a medical health franchise that can help you explore the
+      opportunities in the VISA Franchise and Citizenship programs that allow
+      foreign nationals and ten family members to qualify for Visas such as E2,
+      EB4, EB5 and E1. A Primewave Franchise is an avenue for Immigrants living
+      in the U.S, a pathway to U.S Citizenship. It is also a great option for
       student immigrants on student visa’s such as H1B, L-1 looking to stay in
       the U.S, build their careers and ultimately become U.S Citizens. As a
       Primewave Franchisee you will have access to our resources and support
-      that come with being a part of our franchise family. We process your
-      immigration paperwork fast to get you up and running and generating
-      income.
+      that come with being a part of our franchise family.
      </p>
      <p className="mb-6 text-lg leading-8 text-gray-700">
       Our Franchise is turnkey and streamlined to ensure optimum revenue, that
