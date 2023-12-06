@@ -12,5 +12,12 @@
   },
   "editor.minimap.enabled": false
  },
- "cSpell.words": ["clsx", "contentlayer", "pageview", "tailwindcss", "Topbar"]
+ "cSpell.words": [
+  "clsx",
+  "contentlayer",
+  "pageview",
+  "tailwindcss",
+  "telehealth",
+  "Topbar"
+ ]
 }

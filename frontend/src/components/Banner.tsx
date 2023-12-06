@@ -16,7 +16,10 @@ function Banner() {
       </h1>
       <p className="py-4 text-2xl font-medium text-blue-900">
        Fast Relief, Personalized Care, and Peace of Mind – Because You Deserve
-       It. <br /> #1 Shockwave treatment center
+       It. <br />{" "}
+       <span className="text-lg lg:text-2xl">
+        #1 Shockwave treatment center in Vegas
+       </span>
       </p>
       <div className="flex flex-col justify-center gap-3 mt-5 md:justify-start md:flex-row">
        <Link
