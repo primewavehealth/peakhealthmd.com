@@ -1,12 +1,12 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
 import HomeCTA from "@/components/HomeCTA";
-import NewPatientBanner from "@/components/NewPatientsBanner";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
+import TwoColumnSection from "@/components/TwoColumns";
 import type { Metadata } from "next";
 import Script from "next/script";
 
@@ -67,7 +67,7 @@ export default function Home() {
    <AboutSection />
    <Services />
    <Team />
-   <NewPatientBanner />
+   <TwoColumnSection />
    <SectionTitle
     pretitle="Testimonials"
     title="What Our Customers Are Saying"
