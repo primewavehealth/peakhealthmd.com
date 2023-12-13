@@ -10,7 +10,7 @@ export default function Page() {
     </h1>
 
     {/* Description */}
-    <p className="my-8 text-lg leading-8 ">
+    <p className="my-8 text-lg leading-10 ">
      Discover a unique opportunity in Spring Valley, Las Vegas, where exclusive
      Exam Rooms are available for sublet within a state-of-the-art Medical
      Clinic. Nestled in the heart of this vibrant community, these well-equipped
@@ -20,9 +20,14 @@ export default function Page() {
      for patient care. With convenient access to amenities and a thriving local
      community, subletting these Exam Rooms presents a strategic and
      advantageous choice for practitioners looking to enhance their medical
-     presence in Spring Valley. Don't miss out on this rare chance to elevate
-     your practice in a thriving medical hub. We are located at the San Martin
-     Medical Arts Pavilion - 8285 W Arby Ave, Las Vegas, NV 89113.
+     presence in Las Vegas. Don't miss out on this rare chance to elevate your
+     practice in a thriving medical hub. We are located at the{" "}
+     <Link
+      href="https://maps.app.goo.gl/dQoAjg7TN7xFtpkH7"
+      className="text-blue-700"
+     >
+      San Martin Medical Arts Pavilion - 8285 W Arby Ave, Las Vegas, NV 89113.
+     </Link>
     </p>
 
     {/* Image Slider */}
