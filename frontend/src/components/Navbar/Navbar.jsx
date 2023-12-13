@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { Mens_Health, Pain_Conditions, Wellness } from "./Links";
+import { Mens_Health, Pain_Conditions, Womens_Health } from "./Links";
 
 const callsToAction = [
  {
@@ -233,7 +233,7 @@ export default function Example() {
 
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
-       Wellness
+       Womens_Health
        <ChevronDownIcon
         className="flex-none w-5 h-5 text-gray-400"
         aria-hidden="true"
@@ -251,7 +251,7 @@ export default function Example() {
       >
        <Popover.Panel className="absolute z-10 w-screen max-w-md mt-3 overflow-hidden bg-white shadow-lg -left-8 top-full rounded-3xl ring-1 ring-gray-900/5">
         <div className="p-4">
-         {Wellness.map((item) => (
+         {Womens_Health.map((item) => (
           <div
            key={item.name}
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
@@ -305,6 +305,12 @@ export default function Example() {
       className="pr-4 text-sm font-semibold leading-6 text-gray-900"
      >
       Franchise
+     </Link>
+     <Link
+      href="/office-space"
+      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
+     >
+      Office Space
      </Link>
      <Link
       href="/blog"
@@ -459,7 +465,7 @@ export default function Example() {
          {({ open }) => (
           <>
            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-            Wellness
+            Womens_Health
             <ChevronDownIcon
              className={classNames(
               open ? "rotate-180" : "",
@@ -469,7 +475,7 @@ export default function Example() {
             />
            </Disclosure.Button>
            <Disclosure.Panel className="mt-2 space-y-2">
-            {[...Wellness, ...callsToAction].map((item) => (
+            {[...Womens_Health, ...callsToAction].map((item) => (
              <Disclosure.Button
               key={item.name}
               as={item.href}
@@ -501,6 +507,12 @@ export default function Example() {
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          About
+        </Link>
+        <Link
+         href="/office-space"
+         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+        >
+         Office Space
         </Link>
         <Link
          href="/franchise"
