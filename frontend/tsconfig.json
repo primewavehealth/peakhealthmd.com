@@ -40,7 +40,8 @@
   "src/components/mdx-components.jsx",
   "src/app/og/route.js",
   "src/components/Video.jsx",
-  "src/components/OfficeSpaceSlider.jsx"
+  "src/components/OfficeSpaceSlider.jsx",
+  "src/lib/images.js"
  ],
  "exclude": ["node_modules"]
 }
