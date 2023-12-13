@@ -2,11 +2,11 @@ import OfficeSpaceSlider from "@/components/OfficeSpaceSlider.jsx";
 import Link from "next/link";
 export default function Page() {
  return (
-  <div className="font-sans">
+  <article className="prose max-w-none">
    <div className="container p-6 my-12 mx-auto max-w-[1200px]">
     {/* Title */}
     <h1 className="mb-4 text-3xl font-bold">
-     Exams Rooms For Use Inside Medical Clinic in Spring Valley, Las Vegas
+     Grow your business in Fabulous Las Vegas Medical Clinic.
     </h1>
 
     {/* Description */}
@@ -36,12 +36,48 @@ export default function Page() {
     {/* Features */}
     <div className="mt-16 lg:">
      <h2 className="mb-4 text-2xl font-bold">Key Features</h2>
-     <ul className="list-disc list-inside">
-      <li>Prime Location</li>
-      <li>Spacious Office</li>
-      <li>Modern Amenities</li>
-      {/* Add more features as needed */}
+     <ul className="list-disc list-inside ">
+      <li className="mb-2">Cleanest Medical Exam Rooms</li>
+      <li className="mb-2">
+       Just bring your license & Ins., and we provide the rest.
+      </li>
+      <li className="mb-2">Billing and Marketing expertise</li>
+      <li className="mb-2">
+       Upper scale neighborhood. Across from the new Durango Casino
+      </li>
+      <li className="mb-2">Caring and experienced staff</li>
+      <li className="mb-2">
+       Affluent location. Located in Dignity Health/ St. Rose Hospital complex.
+      </li>
+      <li className="mb-2">Open to see patients 24/7.</li>
+      <li className="mb-2">
+       Ideal Medical Network for Nurses, Physicians, Aesthetician,
+       Chiropractors, Personal Trainers, Therapists, Phlebotomists
+      </li>
+      <li className="mb-2">See patients, be a patient!</li>
      </ul>
+    </div>
+
+    <div className="space-y-4">
+     <p>
+      Have meetings, sleep studies, medical seminars, training sessions, doctor
+      visits, nurses station, blood draws, facials, chiropractor services,
+      weight loss sessions, therapy sessions, telemedicine, wellness
+      consultations, IV Parties, and more.
+     </p>
+
+     <p>
+      Includes professional medical staff, private office or exam room, front
+      office medical assistance, medical equipment and supplies, parking,
+      advertising and more.
+     </p>
+
+     <p>Hourly, Daily, Weekly, Monthly</p>
+
+     <p>
+      Be part of Las Vegas' Medical Scene. Network today: Call or stop by
+      Monday-Thursday 9am (PST)-5pm (PST)
+     </p>
     </div>
 
     {/* Contact Form */}
@@ -72,6 +108,6 @@ export default function Page() {
      </Link>
     </div>
    </div>
-  </div>
+  </article>
  );
 }
