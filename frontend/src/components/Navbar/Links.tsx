@@ -82,7 +82,7 @@ export const Mens_Health = [
  },
 ]; */
 
-export const Wellness = [
+export const Womens_Health = [
  {
   href: "/weight-loss-las-vegas",
   description: "",
