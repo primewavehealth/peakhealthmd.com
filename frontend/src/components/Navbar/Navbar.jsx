@@ -287,12 +287,7 @@ export default function Example() {
        </Popover.Panel>
       </Transition>
      </Popover>
-     <Link
-      href="/shockwave-therapy-las-vegas"
-      className="text-sm font-semibold leading-6 text-gray-900"
-     >
-      Shockwave Therapy
-     </Link>
+
      <Link
       href="/about-primewave"
       className="text-sm font-semibold leading-6 text-gray-900"
@@ -305,6 +300,12 @@ export default function Example() {
       className="pr-4 text-sm font-semibold leading-6 text-gray-900"
      >
       Franchise
+     </Link>
+     <Link
+      href="/jobs"
+      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
+     >
+      Careers
      </Link>
      <Link
       href="/office-space"
@@ -496,12 +497,7 @@ export default function Example() {
         >
          Healthy Heroes
         </Link> */}
-        <Link
-         href="/shockwave-therapy-las-vegas"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Shockwave Therapy
-        </Link>
+
         <Link
          href="/about-primewave"
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
@@ -519,6 +515,12 @@ export default function Example() {
          className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
         >
          Franchise
+        </Link>
+        <Link
+         href="/jobs"
+         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+        >
+         Careers
         </Link>
         <Link
          href="/blog"

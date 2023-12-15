@@ -1,0 +1,143 @@
+[
+ {
+  "id": 1,
+  "title": "Medical Director",
+  "description": "We are seeking an experienced Medical Director to oversee and lead our medical team.",
+  "requirements": "Have all necessary qualifications",
+  "duties": [
+   "Responding to patients’ medical problems by referring to their history, carrying out diagnosis, treatment, counseling, and referral, where necessary.",
+   "Perform Integrative Wellness assessments and treatments",
+   "Perform Medical Aesthetic procedures e.g., Botox and PRP injections",
+   "Develop relationships with pharmacies and labs",
+   "Order and prescribe patient prescriptions",
+   "Upsell the clinic’s procedures and products to patients",
+   "Ordering lab tests and interpreting the test results",
+   "Always maintain confidentiality and impartiality",
+   "Collecting, recording, and maintaining sensitive patient information such as examination results, medical history, and reports",
+   "Explaining procedures or prescribed treatments to patients",
+   "Discussing and evaluating new pharmaceutical products with pharmaceutical representatives",
+   "Keeping up to date with medical developments, treatment, and medication"
+  ],
+  "salary": "fifty"
+ },
+ {
+  "id": 2,
+  "title": "Family MD",
+  "description": "We are seeking an experienced Medical Director to oversee and lead our medical team.",
+  "requirements": "Have all necessary qualifications",
+  "duties": [
+   "Responding to patients’ medical problems by referring to their history, carrying out diagnosis, treatment, counseling, and referral, where necessary.",
+   "Perform Integrative Wellness assessments and treatments",
+   "Perform Medical Aesthetic procedures e.g., Botox and PRP injections",
+   "Develop relationships with pharmacies and labs",
+   "Order and prescribe patient prescriptions",
+   "Upsell the clinic’s procedures and products to patients",
+   "Ordering lab tests and interpreting the test results",
+   "Always maintain confidentiality and impartiality",
+   "Collecting, recording, and maintaining sensitive patient information such as examination results, medical history, and reports",
+   "Explaining procedures or prescribed treatments to patients",
+   "Discussing and evaluating new pharmaceutical products with pharmaceutical representatives",
+   "Keeping up to date with medical developments, treatment, and medication"
+  ],
+  "salary": "fifty"
+ },
+ {
+  "id": 3,
+  "title": "Aesthetics MD",
+  "description": "Exciting opportunity for an Aesthetics MD to join our team. Specialize in cosmetic and aesthetic procedures...",
+  "requirements": "Have all necessary qualifications",
+  "duties": [
+   "Develop relationships with pharmacies and labs",
+   "Order and prescribe patient prescriptions",
+   "Create and maintain clinic protocols",
+   "Increase patient volume",
+   "Upsell the clinic’s procedures and products to patients",
+   "Always maintain confidentiality and impartiality",
+   "Collecting, recording, and maintaining sensitive patient information such as examination results, medical history, and reports",
+   "Liaising with medical professionals in the community and hospitals",
+   "Promoting health education in conjunction with other health professionals",
+   "Meeting targets set by the government for specified treatments",
+   "Discussing and evaluating new pharmaceutical products with pharmaceutical representatives",
+   "Keeping up to date with medical developments, treatment, and medication"
+  ],
+  "salary": "fifty"
+ },
+ {
+  "id": 4,
+  "title": "Nurse Practitioner (NP)",
+  "description": "We are looking for a dedicated and skilled Nurse Practitioner to provide high-quality patient care...",
+  "requirements": "Have all necessary qualifications",
+  "duties": [
+   "Order and study diagnostic test",
+   "Diagnose health conditions and illnesses",
+   "Prescribe medication ",
+   "Maintain accurate medical records and schedules  ",
+   "Inform patient about their health conditions and promote good health practices",
+   "Develop and implement treatment plans for patients assigned within the scope of practice ",
+   "Refers patients to overseeing physician for consultation or to specialized health resources for treatment  ",
+   "Perform physical examinations and preventive health measures within prescribed guidelines and instructions ",
+   "Educates and coaches clinical staff on best practices and assists center managers in facilitating program management"
+  ],
+  "salary": "fifty"
+ },
+ {
+  "id": 5,
+  "title": "Registered Nurse (RN)",
+  "description": "We are seeking an experienced Registered Nurse. Provide compassionate care and support to our patients...",
+  "requirements": "Have all necessary requirements",
+  "duties": [
+   "Schedule appointments ",
+   "Obtain blood samples",
+   "Perform data entry",
+   "Measure and record vital signs ",
+   "Clean exam rooms",
+   "Answer phone calls ",
+   "Ability to communicate effectively with patients and fellow employees ",
+   "Recording patient vital signs, documenting physicians notes and changes in medical condition ",
+   "Prepping exam rooms for clinical procedure and assisting",
+   "Manage inventory of clinic supplies and coordinated reordering",
+   "Obtains authorization for all necessary medical office tests/procedures",
+   "Answer patient questions and provide assistance when necessary "
+  ],
+  "salary": "fifty"
+ },
+ {
+  "id": 6,
+  "title": "Medical Assistant (MA)",
+  "description": "responsibilities for assisting doctors and nurses in providing care to their patients.",
+  "requirements": "Have all the necessary qualifications",
+  "duties": [
+   "Schedule appointments ",
+   "Obtain blood samples",
+   "Perform data entry",
+   "Measure and record vital signs ",
+   "Clean exam rooms",
+   "Answer phone calls ",
+   "Ability to communicate effectively with patients and fellow employees ",
+   "Recording patient vital signs, documenting physicians notes and changes in medical condition ",
+   "Prepping exam rooms for clinical procedure and assisting",
+   "Manage inventory of clinic supplies and coordinated reordering",
+   "Obtains authorization for all necessary medical office tests/procedures",
+   "Answer patient questions and provide assistance when necessary "
+  ],
+  "salary": "fifty"
+ },
+ {
+  "id": 7,
+  "title": "Medical receptionist (MR)",
+  "description": " greeting and checking in patients, answering questions, processing forms, and scheduling appointments along with helping to manage social medical portals and some back office assistance. ",
+  "requirements": "Have all necessary qualifications",
+  "duties": [
+   "Answer and direct phones calls using proper phone etiquette",
+   "Greet and assist visitors in a professional and friendly manner ",
+   "Coordinate and schedule appointments, meetings, and events",
+   "Maintain office supplies and inventory",
+   "Assist with tasks such as filing, data entry, and document preparation",
+   "Coordinate projects and ensure timely completing",
+   "Provide administrative support to staff members as needed ",
+   "Collecting co-pays and balances",
+   "Scanning in new patient paperwork, release forms, and insurance cards"
+  ],
+  "salary": "fifty"
+ }
+]
