@@ -2,10 +2,10 @@ import OfficeSpaceSlider from "@/components/OfficeSpaceSlider.jsx";
 import Link from "next/link";
 export default function Page() {
  return (
-  <article className="prose max-w-none">
+  <article className="px-6 prose max-w-none">
    <div className="container p-6 my-12 mx-auto max-w-[1200px]">
     {/* Title */}
-    <h1 className="mb-4 text-3xl font-bold">
+    <h1 className="mb-4 text-3xl font-bold ">
      Grow Your Business in A Fabulous Las Vegas Medical Clinic.
     </h1>
 
@@ -67,7 +67,7 @@ export default function Page() {
      </ul>
     </div>
 
-    <div className="space-y-4">
+    <div className=" space-inset-y-4">
      <p>
       Have meetings, sleep studies, medical seminars, training sessions, doctor
       visits, nurses station, blood draws, facials, chiropractor services,
