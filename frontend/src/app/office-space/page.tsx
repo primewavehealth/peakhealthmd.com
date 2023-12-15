@@ -6,22 +6,22 @@ export default function Page() {
    <div className="container p-6 my-12 mx-auto max-w-[1200px]">
     {/* Title */}
     <h1 className="mb-4 text-3xl font-bold">
-     Grow your business in Fabulous Las Vegas Medical Clinic.
+     Grow Your Business in A Fabulous Las Vegas Medical Clinic.
     </h1>
 
     {/* Description */}
     <p className="my-8 text-lg leading-10 ">
      Discover a unique opportunity in Spring Valley, Las Vegas, where exclusive
-     Exam Rooms are available for sublet within a state-of-the-art Medical
-     Clinic. Nestled in the heart of this vibrant community, these well-equipped
-     exam spaces offer an ideal environment for healthcare professionals seeking
-     a prime location to establish or expand their practice. The clinic boasts
-     modern facilities and a welcoming ambiance, providing a conducive setting
-     for patient care. With convenient access to amenities and a thriving local
-     community, subletting these Exam Rooms presents a strategic and
-     advantageous choice for practitioners looking to enhance their medical
-     presence in Las Vegas. Don't miss out on this rare chance to elevate your
-     practice in a thriving medical hub. We are located at the{" "}
+     Exam Rooms are available within a state-of-the-art Medical Clinic. Nestled
+     in the heart of this vibrant community, these well-equipped exam spaces
+     offer an ideal environment for healthcare professionals seeking a prime
+     location to establish or expand their practice. The clinic boasts modern
+     facilities and a welcoming ambiance, providing a conducive setting for
+     patient care. With convenient access to amenities and a thriving local
+     community, these Exam Rooms presents a strategic and advantageous choice
+     for practitioners looking to enhance their medical presence in Las Vegas.
+     Don't miss out on this rare chance to elevate your practice in a thriving
+     medical hub. We are located at the{" "}
      <Link
       href="https://maps.app.goo.gl/dQoAjg7TN7xFtpkH7"
       className="text-blue-700"
@@ -32,6 +32,15 @@ export default function Page() {
 
     {/* Image Slider */}
     <OfficeSpaceSlider />
+
+    <div className="mt-16 lg:">
+     <h2 className="mb-4 text-2xl font-bold">Dimensions</h2>
+     <ul className="list-disc list-inside ">
+      <li className="mb-2">Lab Room: 8.5’ x9’</li>
+      <li className="mb-2">Exam Room 2: (big room) 13’ x 10’</li>
+      <li className="mb-2">Exam Room 3: (my office) 11’ x 9’</li>
+     </ul>
+    </div>
 
     {/* Features */}
     <div className="mt-16 lg:">
