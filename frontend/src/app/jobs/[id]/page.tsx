@@ -14,12 +14,11 @@ type JobProp = {
 
 function Job() {
  const params = useParams();
- console.log(params);
 
  const jobs: JobProp[] = require("../jobs.json");
- console.log(jobs);
+
  const job = jobs.find((job) => job.id == params.id);
- console.log(job);
+
  return (
   <article className="container p-4 mx-auto my-12 prose lg:pl-16 max-w-none">
    {/* <!-- Job Details Card --> */}

@@ -21,11 +21,21 @@ const callsToAction = [
  { name: "Contact Us", href: "/contact", icon: PhoneIcon },
 ];
 
+const navigation = {
+ pages: [
+  { name: "About", href: "about-primewave" },
+  { name: "Franchise", href: "franchise" },
+  { name: "Careers", href: "jobs" },
+  { name: "Medical Space", href: "medical-space" },
+  { name: "Blog", href: "blog" },
+ ],
+};
+
 function classNames(...classes) {
  return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Navbar() {
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
  return (
@@ -174,63 +184,6 @@ export default function Example() {
       </Transition>
      </Popover>
 
-     {/* <Popover className="relative">
-      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
-       Aesthetics
-       <ChevronDownIcon
-        className="flex-none w-5 h-5 text-gray-400"
-        aria-hidden="true"
-       />
-      </Popover.Button>
-
-      <Transition
-       as={Fragment}
-       enter="transition ease-out duration-200"
-       enterFrom="opacity-0 translate-y-1"
-       enterTo="opacity-100 translate-y-0"
-       leave="transition ease-in duration-150"
-       leaveFrom="opacity-100 translate-y-0"
-       leaveTo="opacity-0 translate-y-1"
-      >
-       <Popover.Panel className="absolute z-10 w-screen max-w-md mt-3 overflow-hidden bg-white shadow-lg -left-8 top-full rounded-3xl ring-1 ring-gray-900/5">
-        <div className="p-4">
-         {Aesthetics.map((item) => (
-          <div
-           key={item.name}
-           className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
-          >
-           <div className="flex-auto">
-            <Link
-             href={item.href}
-             className="block font-semibold text-gray-900"
-            >
-             {item.name}
-             <span className="absolute inset-0" />
-            </Link>
-            <p className="mt-1 text-gray-600">{item.description}</p>
-           </div>
-          </div>
-         ))}
-        </div>
-        <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-         {callsToAction.map((item) => (
-          <Link
-           key={item.name}
-           href={item.href}
-           className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-          >
-           <item.icon
-            className="flex-none w-5 h-5 text-gray-400"
-            aria-hidden="true"
-           />
-           {item.name}
-          </Link>
-         ))}
-        </div>
-       </Popover.Panel>
-      </Transition>
-                 </Popover> */}
-
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Women's Health
@@ -288,37 +241,18 @@ export default function Example() {
       </Transition>
      </Popover>
 
-     <Link
-      href="/about-primewave"
-      className="text-sm font-semibold leading-6 text-gray-900"
-     >
-      About
-     </Link>
-
-     <Link
-      href="/franchise"
-      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
-     >
-      Franchise
-     </Link>
-     <Link
-      href="/jobs"
-      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
-     >
-      Careers
-     </Link>
-     <Link
-      href="/medical-space"
-      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
-     >
-      Medical Space
-     </Link>
-     <Link
-      href="/blog"
-      className="pr-4 text-sm font-semibold leading-6 text-gray-900"
-     >
-      Blog
-     </Link>
+     {navigation.pages.map((page) => (
+      <Disclosure>
+       <Disclosure.Button
+        key={page.name}
+        as="a"
+        href={page.href}
+        className="block font-semibold text-gray-900"
+       >
+        {page.name}
+       </Disclosure.Button>
+      </Disclosure>
+     ))}
     </Popover.Group>
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
      <Link
@@ -433,35 +367,6 @@ export default function Example() {
          )}
         </Disclosure>
 
-        {/* <Disclosure as="div" className="-mx-3">
-         {({ open }) => (
-          <>
-           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-            Aesthetics
-            <ChevronDownIcon
-             className={classNames(
-              open ? "rotate-180" : "",
-              "h-5 w-5 flex-none"
-             )}
-             aria-hidden="true"
-            />
-           </Disclosure.Button>
-           <Disclosure.Panel className="mt-2 space-y-2">
-            {[...Aesthetics, ...callsToAction].map((item) => (
-             <Disclosure.Button
-              key={item.name}
-              as="a"
-              href={item.href}
-              className="block py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-             >
-              {item.name}
-             </Disclosure.Button>
-            ))}
-           </Disclosure.Panel>
-          </>
-         )}
-                             </Disclosure> */}
-
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
@@ -490,50 +395,18 @@ export default function Example() {
           </>
          )}
         </Disclosure>
-
-        {/* <Link
-         href="/healthyheroes"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Healthy Heroes
-        </Link> */}
-
-        <Link
-         href="/about-primewave"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         About
-        </Link>
-        <Link
-         href="/medical-space"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Medical Space
-        </Link>
-        <Link
-         href="/franchise"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Franchise
-        </Link>
-        <Link
-         href="/jobs"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Careers
-        </Link>
-        <Link
-         href="/blog"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Blog
-        </Link>
-        <Link
-         href="/contact"
-         className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
-        >
-         Contact Us
-        </Link>
+        {navigation.pages.map((page) => (
+         <Disclosure>
+          <Disclosure.Button
+           key={page.name}
+           as="a"
+           href={page.href}
+           className="block font-semibold text-gray-900"
+          >
+           {page.name}
+          </Disclosure.Button>
+         </Disclosure>
+        ))}
        </div>
       </div>
      </div>
