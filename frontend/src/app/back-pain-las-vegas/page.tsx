@@ -374,6 +374,7 @@ function page() {
       </div>
      </article>
     </div>
+
     <div className="w-full p-6 bg-white md:p-8 md:w-1/3">
      <AppointmentForm />
     </div>
