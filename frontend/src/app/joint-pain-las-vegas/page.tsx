@@ -17,93 +17,40 @@ export const metadata: Metadata = {
 
 const jsonLd = {
  "@context": "https://schema.org",
- "@type": "MedicalCondition",
- alternateName: "Joint Pain",
- associatedAnatomy: {
-  "@type": "AnatomicalStructure",
-  name: "Joints",
+ "@type": "MedicalWebPage",
+ about: {
+  "@type": "MedicalCondition",
+  name: ["Joint Pain"],
  },
+ abstract:
+  "Joint pain: Symptoms include swelling, stiffness, and limited range of motion. Diagnosis involves medical history, imaging, and lab tests. Treatment includes medications, physical therapy, and lifestyle changes.",
+ mainContentOfPage: ["Diagnosis", "Symptoms", "Treatment"],
+ audience: "https://schema.org/Patient",
+ headline: "Joint Pain- diagnosis, symptoms and treatment",
+ keywords: [
+  "Joint pain",
+  "osteoarthritis",
+  "arthritis",
+  "joint pain treatment",
+ ],
 
- differentialDiagnosis: {
-  "@type": "DDxElement",
-  diagnosis: {
-   "@type": "MedicalCondition",
-   name: "Joint Pain",
-  },
+ specialty: "https://schema.org/Musculoskeletal",
+ author: {
+  "@type": "Person",
+  image:
+   "https://media.licdn.com/dms/image/D5603AQF24_JouUc7pQ/profile-displayphoto-shrink_200_200/0/1673043161881?e=2147483647&v=beta&t=Izwa8q3PYEYthaQv3er4_oGYroBzYLZXOEtpMIsUZjM",
+  name: "Zachary Trujillo",
+  sameAs: "https://www.linkedin.com/in/zachary-trujillo-1a598b159/",
  },
-
- signOrSymptom: [
-  {
-   "@type": "MedicalSymptom",
-   name: "Pain or discomfort in one or more joints",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Swelling and tenderness",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Stiffness or reduced range of motion",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Warmth or redness around the joint",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Weakness or instability",
-  },
- ],
-
- name: "Joint Pain",
- possibleTreatment: [
-  {
-   "@type": "MedicalTherapy",
-   name: "Physical therapy",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Pain medication (NSAIDs)",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Shockwave Therapy",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Heat or cold therapy",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Use of assistive devices (braces, canes)",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Rest and activity modification",
-  },
- ],
- riskFactor: [
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Age",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Genetics",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Excess weight or obesity",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Occupational factors (heavy lifting, prolonged sitting)",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Gender",
-  },
- ],
+ reviewedBy: {
+  "@type": "Person",
+  image:
+   "https://img.webmd.com/lhd/provider_prod/700291_ProviderProfileImage_d0396c1e-46e0-4a4b-9551-6de2b6904b38.JPG?resize=150px:*",
+  name: "Dr. Vitcor Kim",
+  sameAs:
+   "https://doctor.webmd.com/doctor/victor-kim-d490810f-08ea-48b9-915d-53700b51185d-overview",
+ },
+ lastReviewed: "2023-12-18",
 };
 
 function page() {
@@ -140,7 +87,7 @@ function page() {
 
    <div className="container flex flex-col mx-auto mt-8 md:flex-row">
     <div className="w-full p-8 mb-4 md:w-2/3 md:mb-0">
-     <div className="w-full px-6 text-lg lg:px-4 lg:py-16">
+     <div className="w-full text-lg lg:py-16">
       <div className="max-w-3xl mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
         What is Joint Pain?
@@ -212,7 +159,7 @@ function page() {
         </p>
        </article>
       </div>
-      <div className="max-w-3xl pt-10 mx-auto text-base text-justify md:text-lg">
+      <div className="max-w-3xl pt-12 mx-auto text-base text-justify md:text-lg">
        <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
         Symptoms of Joint Pain
        </h2>
@@ -261,6 +208,165 @@ function page() {
        </article>
       </div>
      </div>
+     <article className="space-y-4 prose text-justify text-gray-600 lg:px-12 max-w-none">
+      <section className="mx-auto lg:px-6 ">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        Diagnosis and Assessment of Joint Pain
+       </h2>
+
+       <p className="mb-4">
+        <strong>Importance of Accurate Diagnosis in Pain Management:</strong>{" "}
+        Accurate diagnosis is crucial for effective pain management. Our team
+        conducts a comprehensive assessment, including clinical evaluation,
+        imaging studies, and collaborative consultation.
+       </p>
+
+       <ul className="mb-4 list-disc lg:ml-8">
+        <li>
+         <strong>Clinical Evaluation:</strong> Comprehensive analysis of medical
+         history and symptoms.
+        </li>
+        <li>
+         <strong>Imaging Studies:</strong> Advanced techniques like X-rays and
+         MRIs for detailed joint images.
+        </li>
+        <li>
+         <strong>Laboratory Tests:</strong> Blood tests to identify underlying
+         health issues.
+        </li>
+        <li>
+         <strong>Collaborative Consultation:</strong> Open communication for an
+         accurate diagnosis.
+        </li>
+       </ul>
+      </section>
+
+      <section className="mx-auto lg:px-6 ">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        Treatment Options for Joint Pain
+       </h2>
+
+       <div className="mb-4">
+        <strong>Non-Pharmacological Approaches:</strong> Holistic strategies for
+        joint pain relief.
+       </div>
+
+       <ul className="mb-4 list-disc lg:ml-8">
+        <li>
+         <strong>Physical Therapy:</strong> Tailored exercise programs for
+         muscle strength and joint function.
+        </li>
+        <li>
+         <strong>Exercise Recommendations:</strong> Low-impact activities like
+         swimming and walking.
+        </li>
+        <li>
+         <strong>Weight Management:</strong> Guidance for maintaining a healthy
+         weight.
+        </li>
+       </ul>
+
+       <div className="mb-4">
+        <strong>Medications for Pain Relief and Inflammation:</strong>{" "}
+        Prescription and over-the-counter options.
+       </div>
+
+       <ul className="mb-4 list-disc lg:ml-8">
+        <li>
+         <strong>Analgesics:</strong> Over-the-counter or prescription pain
+         relievers.
+        </li>
+        <li>
+         <strong>NSAIDs:</strong> Medications to reduce inflammation and pain.
+        </li>
+        <li>
+         <strong>DMARDs:</strong> Disease-modifying drugs for certain
+         conditions.
+        </li>
+       </ul>
+
+       <div className="mb-4">
+        <strong>Interventional Procedures:</strong> Targeted relief options.
+       </div>
+
+       <ul className="list-disc lg:ml-8">
+        <li>
+         <strong>Joint Injections:</strong> Localized relief with corticosteroid
+         injections.
+        </li>
+        <li>
+         <strong>Nerve Blocks:</strong> Blocking pain signals for immediate
+         relief.
+        </li>
+       </ul>
+      </section>
+
+      <section className="mx-auto lg:px-6 ">
+       <h2 className="pb-4 text-3xl font-bold text-center sm:text-4xl">
+        Lifestyle Modifications for Joint Health
+       </h2>
+
+       <div className="mb-4">
+        <strong>Exercise Recommendations for Joint Pain:</strong> Promoting
+        joint health through physical activity.
+       </div>
+
+       <ul className="mb-4 list-disc lg:ml-8">
+        <li>
+         <strong>Range-of-Motion Exercises:</strong> Gentle stretching and
+         flexibility exercises.
+        </li>
+        <li>
+         <strong>Strengthening Exercises:</strong> Building muscle support for
+         joints.
+        </li>
+        <li>
+         <strong>Aerobic Activities:</strong> Low-impact exercises like swimming
+         and cycling.
+        </li>
+       </ul>
+
+       <div className="mb-4">
+        <strong>Dietary Tips to Support Joint Health:</strong> Nourishing your
+        body for joint well-being.
+       </div>
+
+       <ul className="mb-4 list-disc lg:ml-8">
+        <li>
+         <strong>Omega-3 Fatty Acids:</strong> Foods like fatty fish, flaxseeds,
+         and walnuts.
+        </li>
+        <li>
+         <strong>Antioxidant-Rich Foods:</strong> Colorful fruits and vegetables
+         for anti-inflammatory benefits.
+        </li>
+        <li>
+         <strong>Calcium and Vitamin D:</strong> Supporting bone and joint
+         health.
+        </li>
+       </ul>
+
+       <div className="mb-4">
+        <strong>Stress Management and Its Impact on Joint Pain:</strong>{" "}
+        Techniques to reduce stress.
+       </div>
+
+       <ul className="list-disc lg:ml-8">
+        <li>
+         <strong>Mindfulness and Meditation:</strong> Practices for stress
+         reduction.
+        </li>
+        <li>
+         <strong>Yoga and Tai Chi:</strong> Gentle exercises for flexibility and
+         stress relief.
+        </li>
+        <li>
+         <strong>Sleep Hygiene:</strong> Establishing good sleep habits for
+         overall health.
+        </li>
+       </ul>
+      </section>
+     </article>
     </div>
 
     <div className="w-full p-8 md:w-1/3 ">

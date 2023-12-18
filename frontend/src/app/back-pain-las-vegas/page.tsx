@@ -1,11 +1,12 @@
 import AppointmentForm from "@/components/AppointmentForm";
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
+
+import Image from "next/image";
+import Link from "next/link";
 import Script from "next/script";
 import back from "/public/images/back-pain-lv.jpg";
-
-import CTA from "@/components/UI/CTA";
-import Link from "next/link";
 
 export const metadata: Metadata = {
  title: "Lower Back Pain Treatment in Las Vegas",
@@ -18,89 +19,40 @@ export const metadata: Metadata = {
 
 const jsonLd = {
  "@context": "https://schema.org",
- "@type": "MedicalCondition",
- alternateName: "Lower Back Pain",
- associatedAnatomy: {
-  "@type": "AnatomicalStructure",
-  name: "Lower Back",
+ "@type": "MedicalWebPage",
+ about: {
+  "@type": "MedicalCondition",
+  name: ["Lower Back Pain"],
  },
+ abstract:
+  "Back pain: Common symptoms include stiffness, discomfort, and limited mobility. Diagnosis involves medical history, imaging, and physical exams. Treatment options range from physical therapy to medications and, in severe cases, surgical interventions.",
+ mainContentOfPage: ["Diagnosis", "Symptoms", "Treatment"],
+ audience: "https://schema.org/Patient",
+ headline: "Lower back pain- diagnosis, symptoms and treatment",
+ keywords: [
+  "back pain",
+  "lower back pain",
+  "lower back pain treatment",
+  "lower back pain treatment in Las Vegas",
+ ],
 
- differentialDiagnosis: {
-  "@type": "DDxElement",
-  diagnosis: {
-   "@type": "MedicalCondition",
-   name: "Lower Back Pain",
-  },
+ specialty: "https://schema.org/Musculoskeletal",
+ author: {
+  "@type": "Person",
+  image:
+   "https://media.licdn.com/dms/image/D5603AQF24_JouUc7pQ/profile-displayphoto-shrink_200_200/0/1673043161881?e=2147483647&v=beta&t=Izwa8q3PYEYthaQv3er4_oGYroBzYLZXOEtpMIsUZjM",
+  name: "Zachary Trujillo",
+  sameAs: "https://www.linkedin.com/in/zachary-trujillo-1a598b159/",
  },
-
- signOrSymptom: [
-  {
-   "@type": "MedicalSymptom",
-   name: "Localized pain in the back",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Stiffness or limited flexibility",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Muscle spasms",
-  },
-  {
-   "@type": "MedicalSymptom",
-   name: "Radiating pain to the legs (if nerve compression is involved)",
-  },
- ],
-
- name: "Lower Back Pain",
- possibleTreatment: [
-  {
-   "@type": "MedicalTherapy",
-   name: "Physical therapy",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Pain medication (NSAIDs)",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Shockwave Therapy",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Heat or cold therapy",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Exercise and stretching",
-  },
-  {
-   "@type": "MedicalTherapy",
-   name: "Rest and activity modification",
-  },
- ],
- riskFactor: [
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Age",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Poor physical fitness",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Excess weight or obesity",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Occupational factors (heavy lifting, prolonged sitting)",
-  },
-  {
-   "@type": "MedicalRiskFactor",
-   name: "Smoking",
-  },
- ],
+ reviewedBy: {
+  "@type": "Person",
+  image:
+   "https://img.webmd.com/lhd/provider_prod/700291_ProviderProfileImage_d0396c1e-46e0-4a4b-9551-6de2b6904b38.JPG?resize=150px:*",
+  name: "Dr. Vitcor Kim",
+  sameAs:
+   "https://doctor.webmd.com/doctor/victor-kim-d490810f-08ea-48b9-915d-53700b51185d-overview",
+ },
+ lastReviewed: "2023-12-18",
 };
 
 function page() {
@@ -269,6 +221,15 @@ function page() {
        </ul>
       </div>
      </article>
+
+     <div className="max-w-4xl px-8 py-4 mx-auto">
+      <Image
+       src="/images/back_pain.jpg"
+       width={1200}
+       height={768}
+       alt="back pain"
+      />
+     </div>
 
      <article className="p-6 prose md:p-8 md:pl-24 -mt-9 max-w-none">
       <div className="mb-4">
