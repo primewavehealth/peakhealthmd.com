@@ -19,7 +19,7 @@ function page() {
    <Hero />
 
    {/* next section */}
-   <section id="more" className="flex items-center justify-center px-6 my-16">
+   <section className="flex items-center justify-center px-6 my-16" id="learn">
     <div className="flex flex-col items-center justify-center mx-auto md:max-w-4xl">
      <h2 className="mb-4 text-3xl font-bold text-blue-900 md:text-5xl">
       About Our HealthCare Visa{" "}

@@ -19,16 +19,16 @@ function Hero() {
 
      <div className="flex items-stretch justify-center">
       <Link
-       href="#"
-       className="inline-block px-8 py-4 mr-5 font-semibold text-center text-white bg-black rounded-md md:mr-6 lg:mr-8"
+       href="#learn"
+       className="inline-block px-8 py-4 mr-5 font-semibold text-center text-white bg-blue-900 rounded-md md:mr-6 lg:mr-8 hover:bg-yellow-400 hover:text-blue-900"
       >
-       Get Started
+       Learn More
       </Link>
       <Link
-       href="#"
-       className="flex items-center justify-center px-6 py-3 font-bold text-black border border-black border-solid rounded-md"
+       href="#form"
+       className="flex items-center justify-center px-6 py-3 font-bold text-blue-900 bg-yellow-400 rounded-md hover:text-white hover:bg-blue-900"
       >
-       <svg
+       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -42,8 +42,8 @@ function Hero() {
        >
         <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
         <path d="m10 15 5-3-5-3z" />
-       </svg>
-       <p className="text-sm text-black sm:text-base">Watch Demo</p>
+       </svg> */}
+       <p className="text-sm sm:text-base ">Get In Touch</p>
       </Link>
      </div>
     </div>
