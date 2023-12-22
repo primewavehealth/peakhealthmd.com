@@ -1,6 +1,8 @@
-import AboutFranchise from "@/components/AboutFranchise";
 import type { Metadata } from "next";
-import Link from "next/link";
+import CTA from "./CTA";
+import FAQ from "./FAQ";
+import Form from "./Form";
+import Hero from "./Hero";
 
 export const metadata: Metadata = {
  title: "Franchise",
@@ -14,16 +16,18 @@ export const metadata: Metadata = {
 function page() {
  return (
   <div>
-   <AboutFranchise />
+   <Hero />
+
    {/* next section */}
    <section id="more" className="flex items-center justify-center px-6 my-16">
     <div className="flex flex-col items-center justify-center mx-auto md:max-w-4xl">
-     <h2 className="mb-4 text-3xl font-bold">
-      Reasons to Join the Primewave Family?
+     <h2 className="mb-4 text-3xl font-bold text-blue-900 md:text-5xl">
+      About Our HealthCare Visa{" "}
+      <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
+       Franchise
+      </span>
      </h2>
-     <p className="mb-4 text-lg text-gray-700">
-      Visa Franchise Program & Pathway to U.S.A Citizenship
-     </p>
+
      <p className="mb-4 text-lg leading-8 text-gray-700">
       Primewave is a medical health franchise that can help you explore the
       opportunities in the VISA Franchise and Citizenship programs that allow
@@ -41,7 +45,7 @@ function page() {
       most Visa Programs. All medical staff are trained to see patients in an
       efficient manner that produces income.
      </p>
-     <Link
+     {/* <Link
       className="inline-flex items-center justify-center gap-2 px-6 py-3 my-6 font-bold text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
       href="/contact"
      >
@@ -60,14 +64,17 @@ function page() {
         clipRule="evenodd"
        ></path>
       </svg>
-     </Link>
+     </Link> */}
     </div>
    </section>
    <section className="flex items-center justify-center px-6 my-8">
     <div className="flex flex-col items-center justify-center mx-auto md:max-w-4xl">
-     <h3 className="mb-6 text-xl font-semibold">
-      Medical Health Experience Not Required
-     </h3>
+     <h2 className="mb-4 text-3xl font-bold text-blue-900 md:text-5xl">
+      No Need For Medical{" "}
+      <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
+       Experience
+      </span>
+     </h2>
 
      <p className="mb-4 text-lg leading-8 text-gray-700">
       We supply highly qualified medical professionals that are knowledgeable in
@@ -83,19 +90,10 @@ function page() {
      </p>
     </div>
    </section>
-   <section className="flex px-6 my-8 text-left">
-    <div className="flex flex-col items-center justify-center mx-auto md:max-w-4xl">
-     <h3 className="mb-6 text-xl font-semibold">Contact Information</h3>
 
-     <p className="mb-4 text-xl leading-8 text-gray-700">
-      Primewave was Founded in 2018
-      <br /> Located in the Dignity Hospital / San Martin Medical Arts Pavilion
-      <br /> 8285 W. Arby Ave. Suite 175 Las Vegas, Nevada 89113
-      <br /> 1(702)625-4334 <br />
-      www.primewavehealth.com
-     </p>
-    </div>
-   </section>
+   <CTA />
+   <FAQ />
+   <Form />
   </div>
  );
 }

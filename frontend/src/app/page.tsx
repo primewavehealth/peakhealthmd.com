@@ -1,10 +1,10 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
 import HomeCTA from "@/components/HomeCTA";
+import NewTeam from "@/components/NewTeam";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
-import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import TwoColumnSection from "@/components/TwoColumns";
 import type { Metadata } from "next";
@@ -66,7 +66,7 @@ export default function Home() {
    <Banner />
    <AboutSection />
    <Services />
-   <Team />
+   <NewTeam />
    <TwoColumnSection />
    <SectionTitle
     pretitle="Testimonials"
