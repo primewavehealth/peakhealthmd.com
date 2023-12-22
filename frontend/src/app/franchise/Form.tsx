@@ -1,6 +1,6 @@
 function Form() {
  return (
-  <section>
+  <section id="form">
    <div className="w-full px-5 py-16 mx-auto max-w-7xl md:px-10 md:py-24 lg:py-32">
     <div className="grid items-center gap-8 sm:gap-20 lg:grid-cols-2">
      <div className="flex px-6 my-8 text-left">
