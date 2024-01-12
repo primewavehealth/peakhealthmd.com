@@ -18,7 +18,7 @@ function NewTeam() {
 
     <div className="mt-8 md:w-1/2 md:mt-0">
      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-      <div className="text-center">
+      {/* <div className="text-center">
        <Image
         className="inline-block object-cover w-full h-full mb-4"
         src="/images/victorkim.png"
@@ -29,7 +29,7 @@ function NewTeam() {
 
        <p className="text-lg font-semibold">Victor Kim</p>
        <span className="block text-sm text-gray-500">Osteopathic Medicine</span>
-      </div>
+      </div> */}
 
       <div className="text-center">
        <Image
