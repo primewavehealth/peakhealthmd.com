@@ -64,10 +64,11 @@ export default function Home() {
  return (
   <main className="container flex flex-col overflow-x-hidden">
    <Banner />
+   <TwoColumnSection />
    <AboutSection />
    <Services />
    <NewTeam />
-   <TwoColumnSection />
+
    <SectionTitle
     pretitle="Testimonials"
     title="What Our Customers Are Saying"
