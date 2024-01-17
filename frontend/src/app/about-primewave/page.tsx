@@ -58,25 +58,25 @@ function About() {
      </p>
     </div>
 
-    {/*  <section className="max-w-screen-xl mx-auto mt-4 mb-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+    <section className="max-w-screen-xl mx-auto mt-4 mb-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
         <Link
-         href="https://www.healthgrades.com/physician/dr-victor-kim-g9xnl"
+         href="https://health.usnews.com/doctors/naysha-isom-661766"
          target="_blank"
         >
          {" "}
-         Dr. Victor Kim
+         Dr. Naysha M. Isom
         </Link>
        </span>
 
        <p className="text-xl text-justify text-gray-500 md:text-left md:mt-4">
-        Dr. Kim is an Osteopathic and Family Medicine specialist. He received
-        his medical degree from Western University of Health Sciences, College
-        of Osteopathic Medicine of the Pacific, Pomona, California. He certified
-        by the American Osteopathic Board of Neuromusculoskeletal Medicine and
-        the American Board of Family Medicine. Dr. Kim is Our Medical Director.
+        Dr. Naysha M. Isom is a family medicine doctor in Las Vegas, Nevada. She
+        received her medical degree from Chicago Medical School/Rosalind
+        Franklin University of Medicine Science and has been in practice between
+        11-20 years. Dr. Naysha M. Isom has expertise in treating Hypertension,
+        Chronic diabetes, among other conditions.
        </p>
       </div>
      </div>
@@ -88,7 +88,7 @@ function About() {
       height={600}
       quality={100}
      />
-    </section> */}
+    </section>
     <section className="max-w-screen-xl py-8 mx-auto my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
