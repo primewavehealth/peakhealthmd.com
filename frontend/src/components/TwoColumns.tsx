@@ -32,7 +32,7 @@ const TwoColumnSection = () => {
        15% Holiday Discount
       </h3>
       <p className="text-xl font-bold text-center ">
-       Get 15% off all treatments till new year
+       on all treatments till the end of January
       </p>
       <Link
        href="/appointment"
