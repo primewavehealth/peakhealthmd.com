@@ -18,18 +18,18 @@ function NewTeam() {
 
     <div className="mt-8 md:w-1/2 md:mt-0">
      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-      {/* <div className="text-center">
+      <div className="text-center">
        <Image
         className="inline-block object-cover w-full h-full mb-4"
-        src="/images/victorkim.png"
+        src="/images/naysha-isom.jpg"
         alt="team"
         width={288}
         height={281}
        />
 
-       <p className="text-lg font-semibold">Victor Kim</p>
-       <span className="block text-sm text-gray-500">Osteopathic Medicine</span>
-      </div> */}
+       <p className="text-lg font-semibold">Dr. Naysha M. Isom</p>
+       <span className="block text-sm text-gray-500">Family Medicine</span>
+      </div>
 
       <div className="text-center">
        <Image
