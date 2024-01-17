@@ -58,7 +58,7 @@ function About() {
      </p>
     </div>
 
-    <section className="max-w-screen-xl mx-auto mt-4 mb-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+    {/* <section className="max-w-screen-xl mx-auto mt-4 mb-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
@@ -82,13 +82,13 @@ function About() {
      </div>
      <Image
       className="object-contain w-full mt-8 h-60"
-      alt="about Prime Wave"
-      src="/images/victorkim.png"
+      alt="Dr. Naysha M. Isom"
+      src="/images/naysha-isom.jpg"
       width={400}
       height={600}
       quality={100}
      />
-    </section>
+    </section> */}
     <section className="max-w-screen-xl py-8 mx-auto my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
@@ -113,7 +113,7 @@ function About() {
      </div>
      <Image
       className="object-contain w-full mt-8 h-60"
-      alt="about Prime Wave"
+      alt="Dr. Kyrah Bacote"
       src="/images/kyrahbacote.png"
       width={400}
       height={600}

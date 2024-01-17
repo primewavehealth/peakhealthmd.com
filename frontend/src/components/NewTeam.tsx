@@ -18,24 +18,24 @@ function NewTeam() {
 
     <div className="mt-8 md:w-1/2 md:mt-0">
      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-      <div className="text-center">
+      {/*  <div className="text-center">
        <Image
         className="inline-block object-cover w-full h-full mb-4"
         src="/images/naysha-isom.jpg"
-        alt="team"
+        alt="Dr. Naysha M. Isom"
         width={288}
         height={281}
        />
 
        <p className="text-lg font-semibold">Dr. Naysha M. Isom</p>
        <span className="block text-sm text-gray-500">Family Medicine</span>
-      </div>
+      </div> */}
 
       <div className="text-center">
        <Image
         className="inline-block object-cover w-full h-full mb-4"
         src="/images/kyrahbacote.png"
-        alt="team"
+        alt="Dr. Kyrah Bacote"
         width={288}
         height={281}
        />
