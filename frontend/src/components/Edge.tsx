@@ -22,7 +22,7 @@ function Edge() {
        <p className="text-lg font-medium leadi">ADVANCED TREATMENT OPTIONS</p>
        <p className="leadi">
         We utilize the latest diagnostic technologies and techniques to
-        accurately identify the underlying causes of pain.
+        accurately identify the underlying causes of your condition.
        </p>
       </div>
      </div>
