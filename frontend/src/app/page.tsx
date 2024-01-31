@@ -11,9 +11,9 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 export const metadata: Metadata = {
- title: "Affordable Pain Care in Las Vegas",
+ title: "Find Your Path to Wellness: Las vegas's Premier Wellness Clinic",
  description:
-  "Discover affordable pain care services in Las Vegas. From back pain to joint pain, our expert treatments restore comfort and mobility. Your relief, your budget.",
+  "Take control of your health & happiness with Primewave Health. Tailored treatments, cutting-edge technology & lasting results.",
  alternates: {
   canonical: "/",
  },
