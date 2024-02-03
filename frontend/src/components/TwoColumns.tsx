@@ -29,10 +29,10 @@ const TwoColumnSection = () => {
        </div>
       </div>
       <h3 className="my-4 text-3xl font-semibold text-center text-gray-700">
-       15% Holiday Discount
+       15% Valentine Discount
       </h3>
       <p className="text-xl font-bold text-center ">
-       on all treatments till the end of January
+       on all treatments till the end of February
       </p>
       <Link
        href="/appointment"

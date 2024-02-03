@@ -34,13 +34,13 @@ function NewTeam() {
       <div className="text-center">
        <Image
         className="inline-block object-cover w-full h-full mb-4"
-        src="/images/kyrahbacote.png"
+        src="/images/primewavehealth-doctor.jpg"
         alt="Dr. Kyrah Bacote"
         width={288}
         height={281}
        />
-       <p className="text-lg font-semibold">Dr. Kyrah Bacote</p>
-       <span className="block text-sm text-gray-500">Integrative Medicine</span>
+       {/* <p className="text-lg font-semibold">Dr. Kyrah Bacote</p>
+       <span className="block text-sm text-gray-500">Integrative Medicine</span> */}
       </div>
       <div className="text-center"></div>
      </div>
