@@ -1,7 +1,6 @@
 import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import about from "/public/images/primewavehealth-team.jpg";
 
 export const metadata: Metadata = {
@@ -90,7 +89,7 @@ function About() {
      />
     </section> */}
     <section className="max-w-screen-xl py-8 mx-auto my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
-     <div className="p-8 md:p-12 lg:py-12">
+     {/* <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
         <Link href="https://www.linkedin.com/in/kyrah-bacote" target="_blank">
@@ -110,11 +109,11 @@ function About() {
         Physical Therapy and minoring in Chemistry.
        </p>
       </div>
-     </div>
+     </div> */}
      <Image
       className="object-contain w-full mt-8 h-60"
       alt="Dr. Kyrah Bacote"
-      src="/images/kyrahbacote.png"
+      src="/images/primewavehealth-doctor.jpg"
       width={400}
       height={600}
       quality={100}
