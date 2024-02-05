@@ -8,7 +8,7 @@ function Banner() {
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
       <h1 className="text-4xl font-black text-center text-blue-900 lg:pt-8 sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
-       Leading Wellness Clinic in <br className="hidden lg:block" />{" "}
+       Advancing Integrative Medicine in <br className="hidden lg:block" />{" "}
        <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
         Las Vegas
        </span>

@@ -17,11 +17,11 @@ function AboutSection() {
 
        <p className="py-6 leading-10 text-justify sm:mt-4 ">
         Greetings and warmest welcome to Primewave Health in the heart of{" "}
-        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>.We take a
-        holistic approach to wellness. We stand by your side with a team of
-        compassionate wellness experts in Las Vegas, ready to craft personalized
-        treatment journeys that lead you back to a life filled with joy,
-        movement, and improved wellness.
+        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>.We are
+        leading integrative medicine clinic in Las Vegas. We stand by your side
+        with a team of compassionate wellness experts in Las Vegas, ready to
+        craft personalized treatment journeys that lead you back to a life
+        filled with joy, movement, and improved wellness.
        </p>
 
        <div className="mt-4 md:mt-8">
