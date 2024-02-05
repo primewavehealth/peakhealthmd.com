@@ -11,7 +11,7 @@ function CTASection() {
         Find Your Path to Wellness
        </span>
        <p className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-        Experience personalized holistic care at Primewave Health{" "}
+        Personalized care for a healthier you.{" "}
        </p>
       </div>
       <div className="w-full px-4 lg:w-1/2">
