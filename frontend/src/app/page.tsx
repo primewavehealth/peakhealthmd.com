@@ -63,15 +63,14 @@ const jsonLd = {
 export default function Home() {
  return (
   <main className="container flex flex-col overflow-x-hidden">
-   <Banner />
    <TwoColumnSection />
+   <Banner />
    <AboutSection />
    <Services />
    <NewTeam />
-
    <SectionTitle
     pretitle="Testimonials"
-    title="What Our Customers Are Saying"
+    title="What Our Patients Are Saying"
    ></SectionTitle>
 
    <Testimonials />
