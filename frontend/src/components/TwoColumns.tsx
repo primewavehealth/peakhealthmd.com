@@ -32,7 +32,7 @@ const TwoColumnSection = () => {
        15% Valentine Discount
       </h3>
       <p className="text-xl font-bold text-center ">
-       on all treatments till the end of February
+       on all treatments until the end of February
       </p>
       <Link
        href="/appointment"
