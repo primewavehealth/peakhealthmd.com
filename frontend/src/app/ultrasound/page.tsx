@@ -11,7 +11,7 @@ function page() {
      <div className="max-w-3xl mx-auto text-center">
       {/*  <!-- Title --> */}
       <h1 className="mb-4 text-4xl font-bold md:text-6xl">
-       State-of-the-Art Ultrasound Services in Las Vegas
+       Primewave Health Ultrasound Services in Las Vegas
       </h1>
       <p className="mb-6 text-sm text-[#636262] sm:text-xl lg:mb-8">
        Experience precise and reliable ultrasound diagnostics with our expert
@@ -34,6 +34,15 @@ function page() {
     <div className="container mx-auto">
      <h2 className="mb-8 text-3xl font-bold text-center">Our Services</h2>
      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="p-6 bg-white rounded-lg shadow-lg">
+       <h3 className="mb-4 text-xl font-semibold">Vascular Ultrasound</h3>
+       <p>
+        Detecting and monitoring vascular conditions is crucial for maintaining
+        overall health. Our vascular ultrasound services utilize Doppler imaging
+        to assess blood flow and identify potential issues such as blood clots
+        or arterial blockages.
+       </p>
+      </div>
       <div className="p-6 bg-white rounded-lg shadow-lg">
        <h3 className="mb-4 text-xl font-semibold">Diagnostic Ultrasound</h3>
        <p>
@@ -71,15 +80,6 @@ function page() {
         conditions.
        </p>
       </div>
-      <div className="p-6 bg-white rounded-lg shadow-lg">
-       <h3 className="mb-4 text-xl font-semibold">Vascular Ultrasound</h3>
-       <p>
-        Detecting and monitoring vascular conditions is crucial for maintaining
-        overall health. Our vascular ultrasound services utilize Doppler imaging
-        to assess blood flow and identify potential issues such as blood clots
-        or arterial blockages.
-       </p>
-      </div>
      </div>
     </div>
    </section>
@@ -93,8 +93,8 @@ function page() {
      </h2> */}
 
      <p className="mb-4 text-lg leading-8 text-gray-700">
-      At City X Ultrasound Services, we are dedicated to providing top-quality
-      ultrasound imaging services to the residents of City X and beyond. Our
+      At Primewave Health, we are dedicated to providing top-quality ultrasound
+      imaging services to the residents of Las Vegas and beyond. Our
       state-of-the-art facility is equipped with the latest technology and
       staffed by experienced professionals who are committed to delivering
       accurate and timely results
