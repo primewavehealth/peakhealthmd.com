@@ -25,7 +25,7 @@ const navigation = {
  pages: [
   { name: "About", href: "about-primewave" },
   { name: "Franchise", href: "franchise" },
-  { name: "Careers", href: "jobs" },
+  { name: "Ultrasound", href: "ultrasound" },
   { name: "Medical Space", href: "medical-space" },
   { name: "Blog", href: "blog" },
  ],
