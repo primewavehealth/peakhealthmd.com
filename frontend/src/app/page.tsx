@@ -67,7 +67,7 @@ export default function Home() {
    <Banner />
    <AboutSection />
    <Services />
-   <NewTeam />
+   {/*<NewTeam /> Commented out until we can update photos*/}
    <SectionTitle
     pretitle="Testimonials"
     title="What Our Patients "
