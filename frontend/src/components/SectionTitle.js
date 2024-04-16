@@ -14,8 +14,11 @@ export default function SectionTitle(props) {
    )}
 
    {props.title && (
-    <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-blue-900 lg:leading-tight lg:text-4xl dark:text-white">
+    <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight header-color lg:leading-tight lg:text-4xl dark:text-white">
      {props.title}
+     <span className="header-gradient-color">
+        {props.titleGradient}
+     </span>
     </h2>
    )}
 

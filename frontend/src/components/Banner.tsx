@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import "./styles/header.css"
 
 function Banner() {
  return (
@@ -7,12 +8,11 @@ function Banner() {
    <div className="flex bg-white h-[600px]">
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
-      <h1 className="text-4xl font-black text-center text-blue-900 lg:pt-8 sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
+      <h1 className="text-4xl font-black text-center header-color sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
        Advancing Integrative Medicine in <br className="hidden lg:block" />{" "}
-       <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
+       <span className="header-gradient-color">
         Las Vegas
        </span>
-       .
       </h1>
       <p className="py-4 text-2xl font-medium text-blue-900">
        Reclaim Your Health and Happiness <br />{" "}

@@ -1,6 +1,7 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
 import HomeCTA from "@/components/HomeCTA";
+import NewPatientBanner from "@/components/NewPatientsBanner";
 import NewTeam from "@/components/NewTeam";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
@@ -63,19 +64,16 @@ const jsonLd = {
 export default function Home() {
  return (
   <main className="container flex flex-col overflow-x-hidden">
-   <TwoColumnSection />
    <Banner />
    <AboutSection />
    <Services />
    <NewTeam />
    <SectionTitle
     pretitle="Testimonials"
-    title="What Our Patients Are Saying"
+    title="What Our Patients "
+    titleGradient="Are Saying"
    ></SectionTitle>
-
    <Testimonials />
-
-   <HomeCTA />
    <ScrollToTop />
    <Script
     type="application/ld+json"

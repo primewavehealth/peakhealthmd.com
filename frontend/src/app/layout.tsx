@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import Topbar from "@/components/Topbar";
 import ToasterProvider from "@/lib/ToastProvider";
+import HomeCTA from "@/components/HomeCTA"
 import "@/styles/globals.css";
 import { SiteConfig } from "@/typings/types";
 import clsx from "clsx";
@@ -89,6 +90,7 @@ export default function RootLayout({
      <Topbar />
      <Navbar />
      {children}
+     <HomeCTA/>
      <Footer />
     </main>
    </body>

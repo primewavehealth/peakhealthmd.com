@@ -3,21 +3,24 @@ import Edge from "./Edge";
 
 function AboutSection() {
  return (
-  <section className="text-blue-900">
+  <section className="header-color">
    <div className="mx-auto lg:my-16 max-w-screen-2xl">
     <div className="grid grid-cols-1 lg:grid-cols-2">
      <div className="relative mx-auto lg:pt-14">
       <Edge />
      </div>
-     <div className="p-8 md:p-12 lg:px-16 lg:py-30">
+     <div className="p-8 md:p-12 lg:px-16 lg:py-30 text-center">
       <div className="max-w-xl px-6 pt-12 mx-auto space-y-3">
        <span className="text-4xl font-semibold">
-        Experience Unrivaled Pain Relief at Our Premier Care Clinic{" "}
+        Experience Unrivaled Pain Relief at Our{" "}
+        <span className="header-gradient-color">
+         Premier Care Clinic
+        </span>
        </span>
 
        <p className="py-6 leading-10 text-justify sm:mt-4 ">
         Greetings and warmest welcome to Primewave Health in the heart of{" "}
-        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>.We are
+        <Link href="https://www.lasvegasnevada.gov/">Las Vegas</Link>. We are
         leading integrative medicine clinic in Las Vegas. We stand by your side
         with a team of compassionate wellness experts in Las Vegas, ready to
         craft personalized treatment journeys that lead you back to a life

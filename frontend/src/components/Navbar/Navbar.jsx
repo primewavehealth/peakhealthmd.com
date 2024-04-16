@@ -242,7 +242,7 @@ export default function Navbar() {
      </Popover>
 
      {navigation.pages.map((page) => (
-      <Disclosure>
+      <Disclosure key={page.name}>
        <Disclosure.Button
         key={page.name}
         as="a"

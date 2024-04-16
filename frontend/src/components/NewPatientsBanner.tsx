@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function NewPatientBanner() {
  return (
-  <div className="relative flex flex-col justify-center overflow-hidden sm:py-12">
-   <div className="max-w-4xl p-20 mx-auto text-center bg-blue-900 rounded-3xl">
+  <div className="relative flex-col sm:py-12">
+   <div className="max-w-4xl p-10 md:p-20 mx-auto text-center bg-blue-900 rounded-3xl">
     <h2 className="text-5xl font-bold leading-tight text-white">
      Primewave Health is Accepting New Patients
     </h2>
