@@ -5,7 +5,7 @@ import "./styles/header.css"
 function Banner() {
  return (
   <div className="w-full overflow-hidden bg-blue-50">
-   <div className="flex bg-white h-[600px]">
+   <div className="flex bg-white h-[425px] lg:h-[600px]">
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
       <h1 className="text-4xl font-black text-center header-color sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
@@ -14,7 +14,7 @@ function Banner() {
         Las Vegas
        </span>
       </h1>
-      <p className="py-4 text-2xl font-medium text-blue-900">
+      <p className="pt-2 text-2xl font-medium text-blue-900">
        Reclaim Your Health and Happiness <br />{" "}
        {/* <span className="text-lg lg:text-2xl">
         #1 Shockwave treatment center in Vegas
