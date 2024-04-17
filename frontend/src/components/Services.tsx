@@ -57,13 +57,13 @@ export default function Services() {
      </span>
     </h3>
     
-    <div className="container px-4 mx-auto xl:max-w-7xl md:px-8 md:py-6">
+    <div className="container px-4 pb-6 mx-auto xl:max-w-7xl md:px-8 md:py-6">
      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:pb-10">
       {mobileData.map(({ name, href, text }) => (
        <div className="p-5 transition bg-white border border-white rounded-lg shadow-sm md:p-7 xl:p-10 hover:border-blue-600">
         <Link href={href} className="inline-block">
          <h4 className="mb-2 text-lg font-bold">{name}</h4>
-         <p className="leading-relaxed text-gray-600 dark:text-gray-400">
+         <p className="leading-relaxed text-gray-600">
           {text}
          </p>
         </Link>
