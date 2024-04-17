@@ -48,7 +48,7 @@ export default function Services() {
   <>
    <div
     id="treatments"
-    className="rounded bg-gradient-to-tr from-indigo-100 via-purple-50 to-blue-100 dark:text-gray-100 dark:from-indigo-900 dark:via-purple-900 dark:to-teal-900"
+    className="rounded bg-gradient-to-tr from-indigo-100 via-purple-50 to-blue-100"
    >
     <h3 className="max-w-xl px-8 py-8 mx-auto text-center header-color">
      Pain Conditions{" "} 
