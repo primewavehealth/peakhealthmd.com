@@ -76,7 +76,7 @@ function Edge() {
     </div>
     <div className="bg-blue-200">
      <div className="flex items-center justify-center py-6">
-      <h2 className="text-3xl font-black text-center text-blue-900 md:text-left sm:mx-auto sm:w-10/12 sm:text-4xl dark:text-white">
+      <h2 className="text-3xl font-black text-center text-blue-900 md:text-left sm:mx-auto sm:w-10/12 sm:text-4xl">
        Why Choose{" "}
        <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300">
         Primewave
