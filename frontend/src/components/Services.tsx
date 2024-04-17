@@ -48,17 +48,17 @@ export default function Services() {
   <>
    <div
     id="treatments"
-    className="bg-gradient-to-tr from-indigo-100 via-purple-50 to-blue-100 dark:text-gray-100 dark:from-indigo-900 dark:via-purple-900 dark:to-teal-900"
+    className="rounded bg-gradient-to-tr from-indigo-100 via-purple-50 to-blue-100 dark:text-gray-100 dark:from-indigo-900 dark:via-purple-900 dark:to-teal-900"
    >
-    <h3 className="max-w-xl px-8 pt-16 mx-auto text-center header-color">
+    <h3 className="max-w-xl px-8 py-8 mx-auto text-center header-color">
      Pain Conditions{" "} 
      <span className="header-gradient-color"> 
       We Treat
      </span>
     </h3>
     
-    <div className="container px-4 py-16 mx-auto xl:max-w-7xl lg:px-8 lg:py-16">
-     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="container px-4 mx-auto xl:max-w-7xl md:px-8 md:py-6">
+     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:pb-10">
       {mobileData.map(({ name, href, text }) => (
        <div className="p-5 transition bg-white border border-white rounded-lg shadow-sm md:p-7 xl:p-10 hover:border-blue-600 dark:bg-gray-800 dark:border-gray-800 dark:hover:border-blue-400 dark:shadow-none">
         <Link href={href} className="inline-block">

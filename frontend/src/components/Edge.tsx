@@ -74,7 +74,7 @@ function Edge() {
       </div>
      </div>
     </div>
-    <div className="bg-blue-200 dark:bg-gray-800">
+    <div className="bg-blue-200">
      <div className="flex items-center justify-center py-6">
       <h2 className="text-3xl font-black text-center text-blue-900 md:text-left sm:mx-auto sm:w-10/12 sm:text-4xl dark:text-white">
        Why Choose{" "}
