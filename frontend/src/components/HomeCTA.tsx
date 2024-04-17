@@ -2,12 +2,12 @@ import Button from "./UI/Button";
 
 function CTASection() {
  return (
-  <section className="py-5 lg:py-[50px] bg-blue-900">
+  <section className="sm:py-2 lg:py-[0px] bg-blue-900">
    <div className="container mx-auto flex justify-center">
-    <div className="bg-primary relative z-10 overflow-hidden rounded py-6 px-8 md:p-[70px]">
+    <div className="bg-primary relative overflow-hidden rounded py-6 px-8 md:p-[70px]">
      <div className="flex flex-wrap items-center -mx-4">
       <div className="w-full px-4 text-center lg:w-1/2">
-       <span className="mx-auto mb-2 text-base font-semibold text-yellow-400 lg:text-left md:block">
+       <span className="mx-auto mb-2 text-xl font-semibold text-yellow-400 lg:text-left md:block">
         Find Your Path to Wellness
        </span>
        <p className=" text-center md:text-start mb-6 text-xl lg:text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">

@@ -4,7 +4,7 @@ function Footer() {
  return (
   <footer aria-label="Site Footer" className="bottom-0 text-white bg-blue-900">
    <div className="pb-8 mx-auto">
-    <div className="px-20 py-6 lg:px-40 pt-2 text-center border-t-1 md:border-t border-gray-200 sm:flex sm:justify-between">
+    <div className="px-20 lg:px-40 pt-7 text-center border-t-1 md:border-t border-gray-200 sm:flex sm:justify-between">
      {" "}
      &copy; {new Date().getFullYear()} All Rights Reserved
      <nav aria-label="Footer Navigation - Support">
