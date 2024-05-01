@@ -95,9 +95,9 @@ export default async function Tags(): Promise<JSX.Element> {
 
  return (
   <BlogContainer className="mt-12 lg:mb-48">
-   <div className="flex flex-col items-start justify-start py-12 divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:items-center md:justify-center md:space-x-6 md:divide-y-0">
+   <div className="flex flex-col items-start justify-start py-12 divide-y divide-gray-200 md:mt-24 md:items-center md:justify-center md:space-x-6 md:divide-y-0">
     <div className="pt-6 pb-8 space-x-2 text-center md:space-y-5">
-     <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-center text-zinc-800 dark:text-zinc-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
+     <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-center text-zinc-800 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
       Blog Categories
      </h1>
     </div>
@@ -105,7 +105,7 @@ export default async function Tags(): Promise<JSX.Element> {
      {Object.keys(categories).map((category, index) => (
       <div key={index} className="mx-auto mt-2 mb-2 lg:mr-5">
        <Link
-        className="mr-3 text-sm font-medium text-blue-700 uppercase hover:text-blue-600 dark:hover:text-blue-400"
+        className="mr-3 text-sm font-medium text-blue-700 uppercase hover:text-blue-600"
         href={`/blog/categories/${category
          .toLowerCase()
          .trim()
@@ -116,7 +116,7 @@ export default async function Tags(): Promise<JSX.Element> {
         {category}
        </Link>
        <Link
-        className="-ml-2 text-sm font-semibold uppercase text-zinc-500 dark:text-zinc-400"
+        className="-ml-2 text-sm font-semibold uppercase text-zinc-500"
         href={`/blog/categories/${category
          .toLowerCase()
          .trim()

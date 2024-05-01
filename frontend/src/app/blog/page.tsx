@@ -75,11 +75,13 @@ export default async function Articles({
  const page = searchParams?.page ? parseInt(searchParams.page as string) : 1;
 
  return (
+<div className="mx-auto">
   <SimpleLayout
    title="Writings on Pain Management and Wellness"
    intro="All our blogposts are written with the goal of educate readers and help them make better healthcare choices."
   >
    <SearchArticles articles={articles} page={page} />
   </SimpleLayout>
+  </div>
  );
 }

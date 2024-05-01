@@ -24,19 +24,19 @@ export default function Pagination({
    nextLabel={"Next"}
    breakLabel={"..."}
    breakLinkClassName={
-    "px-3 py-2 ml-0 leading-tight text-zinc-800 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:text-zinc-200 dark:hover:bg-gray-700 dark:hover:text-white"
+    "px-3 py-2 ml-0 leading-tight text-zinc-800 border border-gray-300 hover:bg-gray-100 hover:text-gray-700"
    }
    pageLinkClassName={
-    "px-3 py-2 ml-0 leading-tight text-zinc-800 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:text-zinc-200 dark:hover:bg-gray-700 dark:hover:text-white"
+    "px-3 py-2 ml-0 leading-tight text-zinc-800 border border-gray-300 hover:bg-gray-100 hover:text-gray-700"
    }
    activeLinkClassName={
-    "bg-blue-50 hover:bg-blue-100 hover:text-blue-700  dark:bg-gray-700 dark:text-white"
+    "bg-blue-50 hover:bg-blue-100 hover:text-blue-700"
    }
    previousLinkClassName={
-    "px-3 py-2 ml-0 leading-tight text-zinc-800 border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:text-zinc-200 dark:hover:bg-gray-700 dark:hover:text-white"
+    "px-3 py-2 ml-0 leading-tight text-zinc-800 border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700"
    }
    nextLinkClassName={
-    "px-3 py-2 leading-tight text-zinc-800 border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:text-zinc-200 dark:hover:bg-gray-700 dark:hover:text-white"
+    "px-3 py-2 leading-tight text-zinc-800 border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700"
    }
    disabledLinkClassName={"cursor-not-allowed opacity-50 pointer-events-none"}
    initialPage={page - 1}
