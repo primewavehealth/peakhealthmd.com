@@ -54,10 +54,8 @@ export default function Form() {
  return (
   <>
    <section className="px-4 bg-white lg:px-8">
-    <div className="container px-6 py-12 mx-auto ">
-     <div className="py-8 lg:mt-8">
-      <p className="font-medium text-blue-500">Contact us</p>
-
+    <div className="container px-6 mx-auto ">
+     <div className="lg:mt-8">
       <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">
        Chat to our friendly team
       </h1>
@@ -67,9 +65,9 @@ export default function Form() {
       </p>
      </div>
 
-     <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
-      <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-       <div>
+     <div className="grid grid-cols-1 gap-12 mt-2 lg:grid-cols-2 ">
+      <div className="grid grid-cols-1 bg-gray-50 rounded px-4 py-6 gap-12 md:grid-cols-2">
+       <div className="mx-auto">
         <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -84,19 +82,27 @@ export default function Form() {
            strokeLinejoin="round"
            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
           />
+
          </svg>
         </span>
-
         <h2 className="mt-4 text-base font-medium text-gray-800">
          Email
         </h2>
         <p className="mt-2 text-sm text-gray-500 ">
          Our friendly team is here to help.
         </p>
+        <Link
+         href="mailto:info@primewavehealth.com"
+         // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+        >
+         <p className="mt-2 text-sm text-blue-500">
+          Click to email info@primewavehealth.com
+         </p>
+        </Link>
        </div>
 
-       <div>
-        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
+       <div className="mx-auto">
+        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
          <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -129,7 +135,7 @@ export default function Form() {
         </p>
        </div>
 
-       <div>
+       <div className="mx-auto">
         <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +171,7 @@ export default function Form() {
         </p>
        </div>
 
-       <div>
+       <div className="mx-auto">
         <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +200,7 @@ export default function Form() {
          // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
         >
          <p className="mt-2 text-sm text-blue-500">
-          click to Call (702) 625-4334
+          Click to Call (702) 625-4334
          </p>
         </Link>
        </div>
@@ -203,10 +209,10 @@ export default function Form() {
       <ContactForm />
 
       {/*  contact form end */}
-      <div className="mx-auto">
+      <div className="mx-auto bg-gray-50 rounded py-10 px-10 mb-10">
        <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.440191155363!2d-115.27468922447918!3d36.058365972467975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c77b87fd04f3%3A0xe5b9c9fcf3f802d9!2sPrimeWave%20Pain%20Care%20Clinic!5e0!3m2!1sen!2sus!4v1686860592723!5m2!1sen!2sus"
-        width="500"
+        width="1410"
         height="500"
         style={{ border: 0 }}
         loading="lazy"
