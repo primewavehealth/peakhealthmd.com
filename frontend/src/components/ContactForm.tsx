@@ -72,7 +72,7 @@ function ContactForm() {
 
  return (
   <>
-   <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+   <div className="p-4 py-6 rounded-lg bg-gray-50 md:p-8">
     <form className="w-full" onSubmit={handleSubmit(submitHandler)}>
      <div className="mb-4">
       <div className="relative">

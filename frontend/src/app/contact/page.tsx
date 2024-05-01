@@ -56,13 +56,13 @@ export default function Form() {
    <section className="px-4 bg-white lg:px-8">
     <div className="container px-6 py-12 mx-auto ">
      <div className="py-8 lg:mt-8">
-      <p className="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+      <p className="font-medium text-blue-500">Contact us</p>
 
       <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">
        Chat to our friendly team
       </h1>
 
-      <p className="mt-3 text-gray-500 dark:text-gray-400">
+      <p className="mt-3 text-gray-500 ">
        We’d love to hear from you.
       </p>
      </div>
@@ -70,7 +70,7 @@ export default function Form() {
      <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
        <div>
-        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -87,16 +87,16 @@ export default function Form() {
          </svg>
         </span>
 
-        <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+        <h2 className="mt-4 text-base font-medium text-gray-800">
          Email
         </h2>
-        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+        <p className="mt-2 text-sm text-gray-500 ">
          Our friendly team is here to help.
         </p>
        </div>
 
        <div>
-        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -118,19 +118,19 @@ export default function Form() {
          </svg>
         </span>
 
-        <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+        <h2 className="mt-4 text-base font-medium text-gray-800">
          Live chat
         </h2>
-        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+        <p className="mt-2 text-sm text-gray-500">
          Our friendly team is here to help.
         </p>
-        <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+        <p className="mt-2 text-sm text-blue-500">
          Start new chat
         </p>
        </div>
 
        <div>
-        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -152,13 +152,13 @@ export default function Form() {
          </svg>
         </span>
 
-        <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+        <h2 className="mt-4 text-base font-medium text-gray-800 ">
          Office
         </h2>
-        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+        <p className="mt-2 text-sm text-gray-500">
          Come say hello at our office HQ.
         </p>
-        <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+        <p className="mt-2 text-sm text-blue-500">
          <Link target="_blank" href="https://goo.gl/maps/RNnqG3UhQ3je9dFm7">
           8285 W Arby Ave #175, Las Vegas, NV 89113
          </Link>
@@ -166,7 +166,7 @@ export default function Form() {
        </div>
 
        <div>
-        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+        <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80">
          <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -183,17 +183,17 @@ export default function Form() {
          </svg>
         </span>
 
-        <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+        <h2 className="mt-4 text-base font-medium text-gray-800">
          Phone
         </h2>
-        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+        <p className="mt-2 text-sm text-gray-500">
          Mon-Fri from 8am to 5pm.
         </p>
         <Link
          href="tel:7026254334"
          // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
         >
-         <p className="mt-2 text-sm text-blue-500 dark:text-blue-400 ">
+         <p className="mt-2 text-sm text-blue-500">
           click to Call (702) 625-4334
          </p>
         </Link>
