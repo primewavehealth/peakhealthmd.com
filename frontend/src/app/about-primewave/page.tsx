@@ -14,32 +14,32 @@ export const metadata: Metadata = {
 
 function About() {
  return (
-  <section className="bg-white dark:bg-gray-900">
+  <section className="bg-white">
    <div className="container px-4 py-8 mx-auto text-center sm:py-12 sm:px-6 lg:py-32 lg:px-8">
     <article className="max-w-5xl mx-auto prose">
-     <h1 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
+     <h1 className="text-2xl font-extrabold text-gray-800 lg:text-4xl">
       About Primewave Health
      </h1>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
+     <p className="px-4 text-base leading-6 text-justify lg:text-xl">
       Welcome to Primewave, a leading chronic pain management clinic in Las
       Vegas, Nevada. We are dedicated to providing comprehensive care and
       effective solutions for individuals experiencing chronic pain and mens
       health issues.
      </p>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
+     <p className="px-4 text-base leading-6 text-justify lg:text-xl">
       At Primewave, we understand that pain can significantly impact your
       quality of life, limiting your ability to perform everyday activities and
       enjoy the things you love. We are here to listen, support, and guide you
       towards a brighter future, free from the constraints of pain.
      </p>
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
+     <p className="px-4 text-base leading-6 text-justify lg:text-xl">
       Our highly skilled medical professionals utilize cutting-edge diagnostic
       techniques and evidence-based treatments to accurately identify the source
       of your pain and develop tailored treatment plans that address your
       specific needs.{" "}
      </p>
 
-     <p className="px-4 text-base leading-6 text-justify lg:text-xl dark:text-gray-300">
+     <p className="px-4 text-base leading-6 text-justify lg:text-xl">
       Take the first step towards a pain-free life and schedule a consultation
       with our experienced team at Primewave. Let us help you regain your
       independence, rediscover your passions, and embrace a life without limits.
@@ -134,7 +134,7 @@ function About() {
       </div>
       <div className="flex pt-12 mx-auto">
        <article className="col-span-2 prose lg:text-xl">
-        <h3 className="text-2xl font-extrabold text-gray-800 dark:text-white lg:text-4xl">
+        <h3 className="text-2xl font-extrabold text-gray-800 lg:text-4xl">
          A Comprehensive Approach To Healing
         </h3>
         <p className="text-justify">

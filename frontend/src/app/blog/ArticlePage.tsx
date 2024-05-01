@@ -133,7 +133,7 @@ export default function ArticlePage({
       </Link>
 
       <Link
-       className="flex items-center justify-end text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-300"
+       className="flex items-center justify-end text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 hover:text-zinc-300"
        href={`/blog/${nextArticle?.slug}`}
       >
        <span className="mr-2">Next Blog</span>

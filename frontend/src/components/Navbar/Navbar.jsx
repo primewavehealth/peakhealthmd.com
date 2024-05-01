@@ -24,7 +24,7 @@ const callsToAction = [
 const navigation = {
  pages: [
   { name: "About", href: "about-primewave" },
-  { name: "Franchise", href: "franchise" },
+  { name: "Franchise", target:"_blank", href: "https://www.primewavefranchise.com/", rel:"noopener noreferrer" },
   { name: "Ultrasound", href: "ultrasound" },
   { name: "Medical Space", href: "medical-space" },
   { name: "Blog", href: "blog" },

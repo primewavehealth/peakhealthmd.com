@@ -53,12 +53,12 @@ const jsonLd = {
 export default function Form() {
  return (
   <>
-   <section className="px-4 bg-white lg:px-8 dark:bg-gray-900">
+   <section className="px-4 bg-white lg:px-8">
     <div className="container px-6 py-12 mx-auto ">
      <div className="py-8 lg:mt-8">
       <p className="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
 
-      <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+      <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">
        Chat to our friendly team
       </h1>
 
