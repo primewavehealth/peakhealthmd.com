@@ -11,7 +11,7 @@ function Form() {
         Primewave was Founded in 2018
         <br /> Located in the Dignity Hospital / San Martin Medical Arts
         Pavilion
-        <br /> 8285 W. Arby Ave. Suite 175 Las Vegas, Nevada 89113
+        <br /> 7464 W. Sahara Ave Las Vegas, NV 89117
         <br /> 1(702)625-4334 <br />
         www.primewavehealth.com
        </p>

@@ -38,10 +38,10 @@ const jsonLd = {
  ],
  address: {
   "@type": "PostalAddress",
-  streetAddress: "8285 W Arby Ave #175",
+  streetAddress: "7464 W. Sahara Ave",
   addressLocality: "Las Vegas",
   addressRegion: "NV",
-  postalCode: "89113",
+  postalCode: "89117",
  },
  areaServed: {
   "@type": "GeoCircle",

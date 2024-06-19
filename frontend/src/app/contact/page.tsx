@@ -20,8 +20,8 @@ const jsonLd = {
     "@type": "PostalAddress",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
-    postalCode: "89113",
-    streetAddress: "8285 W Arby Ave #175",
+    postalCode: "89117",
+    streetAddress: "7464 W. Sahara Ave",
   },
   hashMap:
     "https://www.google.com/maps/dir/36.188072,-115.204211/primewave/@36.1256461,-115.4161627,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c77b87fd04f3:0xe5b9c9fcf3f802d9!2m2!1d-115.2721143!2d36.058366?entry=ttu",
@@ -164,7 +164,7 @@ export default function Form() {
                     target="_blank"
                     href="https://www.google.com/maps/place/7464+W+Sahara+Ave,+Las+Vegas,+NV+89117/@36.1448982,-115.2549892,16z/data=!3m1!4b1!4m6!3m5!1s0x80c8c0c1e51d7703:0x9710d72f1b5f70b1!8m2!3d36.1448982!4d-115.2549892!16s%2Fg%2F11c23txy33?entry=ttu"
                   >
-                    7464 W. Sahara Ave LAS Vegas, NV 89117
+                    7464 W. Sahara Ave Las Vegas, NV 89117
                   </Link>
                 </p>
               </div>

@@ -23,10 +23,10 @@ export default function Page() {
      Don't miss out on this rare chance to elevate your practice in a thriving
      medical hub. We are located at the{" "}
      <Link
-      href="https://maps.app.goo.gl/dQoAjg7TN7xFtpkH7"
+      href="https://www.google.com/maps/place/7464+W+Sahara+Ave,+Las+Vegas,+NV+89117/@36.1448982,-115.2549892,16z/data=!3m1!4b1!4m6!3m5!1s0x80c8c0c1e51d7703:0x9710d72f1b5f70b1!8m2!3d36.1448982!4d-115.2549892!16s%2Fg%2F11c23txy33?entry=ttu"
       className="text-blue-700"
      >
-      San Martin Medical Arts Pavilion - 8285 W Arby Ave, Las Vegas, NV 89113.
+      7464 W. Sahara Ave Las Vegas, NV 89117
      </Link>
     </p>
 
