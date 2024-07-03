@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import "./styles/header.css"
+import "./styles/header.css";
 
 function Banner() {
  return (
@@ -8,12 +8,14 @@ function Banner() {
    <div className="flex bg-white h-[425px] lg:h-[600px]">
     <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2 ">
      <div>
-      <h1 className="text-4xl font-black text-center header-color sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
-       Advancing Integrative Medicine in <br className="hidden lg:block" />{" "}
-       <span className="header-gradient-color">
-        Las Vegas
-       </span>
+      <h1 className="text-4xl font-black text-center header-color sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-6xl">
+       Don't Change
+       <h1 className="text-4xl font-black text-center header-color sm:mx-auto sm:w-10/12 md:w-2/3 sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-6xl">
+        Your Lifestyle,
+       </h1>
+       <span className="header-gradient-color">Change Your Health</span>
       </h1>
+
       <p className="pt-2 text-2xl font-medium text-blue-900">
        Reclaim Your Health and Happiness <br />{" "}
        {/* <span className="text-lg lg:text-2xl">
@@ -70,7 +72,7 @@ function Banner() {
      <div className="w-full h-full">
       <Image
        alt="banner"
-       src="/images/pain-clinic.jpeg"
+       src="/images/hero-image.jpg"
        className="object-contain"
        width={1000}
        height={1000}
@@ -78,7 +80,6 @@ function Banner() {
        quality={100}
        priority
       />
-      <div className="h-full bg-blue-800 opacity-75"></div>
      </div>
     </div>
    </div>
