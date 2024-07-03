@@ -1,16 +1,21 @@
 "use client";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
-    Bars3Icon,
-    ChevronDownIcon,
-    PhoneIcon,
-    PlayCircleIcon,
-    XMarkIcon,
+ Bars3Icon,
+ ChevronDownIcon,
+ PhoneIcon,
+ PlayCircleIcon,
+ XMarkIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { Mens_Health, Pain_Conditions, Womens_Health } from "./Links";
+import {
+ Mens_Health,
+ Pain_Conditions,
+ Treatments,
+ Womens_Health,
+} from "./Links";
 
 const callsToAction = [
  {
@@ -24,7 +29,12 @@ const callsToAction = [
 const navigation = {
  pages: [
   { name: "About", href: "about-primewave" },
-  { name: "Franchise", target:"_blank", href: "https://www.primewavefranchise.com/", rel:"noopener noreferrer" },
+  {
+   name: "Franchise",
+   target: "_blank",
+   href: "https://www.primewavefranchise.com/",
+   rel: "noopener noreferrer",
+  },
   /* { name: "Ultrasound", href: "ultrasound" },
   { name: "Medical Space", href: "medical-space" }, */
   { name: "Blog", href: "blog" },
@@ -126,7 +136,63 @@ export default function Navbar() {
        </Popover.Panel>
       </Transition>
      </Popover>
+     <Popover className="relative">
+      <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
+       Treatments
+       <ChevronDownIcon
+        className="flex-none w-5 h-5 text-gray-400"
+        aria-hidden="true"
+       />
+      </Popover.Button>
 
+      <Transition
+       as={Fragment}
+       enter="transition ease-out duration-200"
+       enterFrom="opacity-0 translate-y-1"
+       enterTo="opacity-100 translate-y-0"
+       leave="transition ease-in duration-150"
+       leaveFrom="opacity-100 translate-y-0"
+       leaveTo="opacity-0 translate-y-1"
+      >
+       <Popover.Panel className="absolute z-10 w-screen max-w-md mt-3 overflow-hidden bg-white shadow-lg -left-8 top-full rounded-3xl ring-1 ring-gray-900/5">
+        <div className="p-4">
+         {Treatments.map((item) => (
+          <div
+           key={item.name}
+           className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
+          >
+           <div className="flex-auto">
+            <Link
+             href={item.href}
+             className="block font-semibold text-gray-900"
+            >
+             {item.name}
+             <span className="absolute inset-0" />
+            </Link>
+            <p className="mt-1 text-gray-600">{item.description}</p>
+           </div>
+          </div>
+         ))}
+        </div>
+        <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+         {callsToAction.map((item) => (
+          <Link
+           key={item.name}
+           href={item.href}
+           className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
+          >
+           <item.icon
+            className="flex-none w-5 h-5 text-gray-400"
+            aria-hidden="true"
+           />
+           {item.name}
+          </Link>
+         ))}
+        </div>
+       </Popover.Panel>
+      </Transition>
+     </Popover>
+     {/* Commented out mens and womens health incase we want to bring back
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
        Men's Health
@@ -182,7 +248,8 @@ export default function Navbar() {
         </div>
        </Popover.Panel>
       </Transition>
-     </Popover>
+                 </Popover>
+                 
 
      <Popover className="relative">
       <Popover.Button className="flex items-center text-sm font-semibold leading-6 text-gray-900 outline-none gap-x-1">
@@ -239,7 +306,8 @@ export default function Navbar() {
         </div>
        </Popover.Panel>
       </Transition>
-     </Popover>
+                 </Popover>
+                 */}
 
      {navigation.pages.map((page) => (
       <Disclosure key={page.name}>

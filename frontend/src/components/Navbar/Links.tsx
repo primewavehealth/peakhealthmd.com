@@ -51,6 +51,34 @@ export const Pain_Conditions = [
  },
 ];
 
+export const Treatments = [
+ {
+  href: "/erectile-dysfunction-treatment-las-vegas",
+  description: "",
+  name: "Erectile Dysfunction",
+ },
+ {
+  href: "/low-testosterone-treatment-las-vegas",
+  description: "",
+  name: "Low Testosterone Treatment",
+ },
+ {
+  href: "/shockwave-therapy-las-vegas",
+  description: "",
+  name: "Shock Wave Therapy",
+ },
+ {
+  href: "/weight-loss-las-vegas",
+  description: "",
+  name: "Weight Loss",
+ },
+ {
+  href: "/IV-therapy-las-vegas",
+  description: "",
+  name: "IV Therapy",
+ },
+];
+
 export const Mens_Health = [
  {
   href: "/erectile-dysfunction-treatment-las-vegas",
