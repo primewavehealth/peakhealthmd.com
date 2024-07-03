@@ -1,11 +1,11 @@
 "use client";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
- Bars3Icon,
- ChevronDownIcon,
- PhoneIcon,
- PlayCircleIcon,
- XMarkIcon,
+    Bars3Icon,
+    ChevronDownIcon,
+    PhoneIcon,
+    PlayCircleIcon,
+    XMarkIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,8 +25,8 @@ const navigation = {
  pages: [
   { name: "About", href: "about-primewave" },
   { name: "Franchise", target:"_blank", href: "https://www.primewavefranchise.com/", rel:"noopener noreferrer" },
-  { name: "Ultrasound", href: "ultrasound" },
-  { name: "Medical Space", href: "medical-space" },
+  /* { name: "Ultrasound", href: "ultrasound" },
+  { name: "Medical Space", href: "medical-space" }, */
   { name: "Blog", href: "blog" },
  ],
 };
