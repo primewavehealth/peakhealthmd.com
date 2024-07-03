@@ -35,6 +35,12 @@ const navigation = {
    href: "https://www.primewavefranchise.com/",
    rel: "noopener noreferrer",
   },
+  {
+   name: "Medical News",
+   target: "_blank",
+   href: "https://www.americasfavoritedoctorandnurse.com/",
+   rel: "noopener noreferrer",
+  },
   /* { name: "Ultrasound", href: "ultrasound" },
   { name: "Medical Space", href: "medical-space" }, */
   { name: "Blog", href: "blog" },
