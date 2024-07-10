@@ -102,7 +102,7 @@ function Shockwave() {
    {/* next section */}
    <section className="mt-6 bg-gray-50">
     <div className="container flex flex-wrap mx-auto">
-     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4 bg-gray-50">
+     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 md:max-h-[925px] bg-gray-50">
       <Consultation />
      </div>
      <div className="max-w-3xl px-6 mx-auto text-justify lg: mt-6text-base md:text-lg">
@@ -178,18 +178,6 @@ function Shockwave() {
      </div>
     </div>
    </section>
-   <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto">
-    <span className="py-10">
-     {" "}
-     <span className="text-lg font-bold">We are the</span>{" "}
-     <span className="relative inline-block px-2">
-      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
-      <h3 className="relative py-3 text-white">
-       Top Wellness Center in Las Vegas, Nevada
-      </h3>
-     </span>
-    </span>
-   </blockquote>
    <CTA
     heading="Shock Wave Therapy in Las Vegas"
     body="Are you struggling with chronic pain or injuries that just won't heal? Consider shockwave therapy, offered by Prime Wave. Our skilled staff is highly trained in providing various types of shockwave therapy, including radial and focused shockwave therapy, to help alleviate pain and promote healing. With years of experience in the field, we are dedicated to delivering safe and effective shockwave therapy treatments tailored to your specific needs. From sports injuries and tendonitis to plantar fasciitis and chronic back pain, our medical practice can help you get back to feeling your best. Contact us today to schedule your appointment and experience the expertise of our team."
