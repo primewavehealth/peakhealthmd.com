@@ -2,6 +2,7 @@ import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
+import Image from "next/image";
 import shockwave from "/public/images/shockwave-therapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
@@ -102,7 +103,7 @@ function Shockwave() {
    {/* next section */}
    <section className="mt-6 bg-gray-50">
     <div className="container flex flex-wrap mx-auto">
-     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 md:max-h-[925px] bg-gray-50">
+     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 md:max-h-[980px] bg-gray-50">
       <Consultation />
      </div>
      <div className="max-w-3xl px-6 mx-auto text-justify lg: mt-6text-base md:text-lg">
@@ -129,6 +130,16 @@ function Shockwave() {
          help to promote healing and reduce inflammation.
         </p>
        </>
+
+       <div className="py-10">
+        <Image
+         src="/images/shockwave-therapy.jpg"
+         className="object-contain w-full h-full "
+         height="400"
+         width="400"
+         alt="Shockwave Therapy Picture"
+        />
+       </div>
       </article>
      </div>
     </div>
