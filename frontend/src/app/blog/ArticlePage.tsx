@@ -125,7 +125,7 @@ export default function ArticlePage({
      <hr className="mt-8 mb-8 border-t border-zinc-200 dark:border-zinc-700" />
      <div className="grid grid-cols-2 gap-4 my-2">
       <Link
-       className="flex items-center text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-300"
+       className="flex items-center text-zinc-500 dark:text-zinc-400  dark:hover:text-zinc-300"
        href={`/blog/${previousArticle?.slug}`}
       >
        <ArrowLeftIcon className="w-5 mr-2" />
@@ -133,7 +133,7 @@ export default function ArticlePage({
       </Link>
 
       <Link
-       className="flex items-center justify-end text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 hover:text-zinc-300"
+       className="flex items-center justify-end text-zinc-500 dark:text-zinc-400   hover:text-zinc-300"
        href={`/blog/${nextArticle?.slug}`}
       >
        <span className="mr-2">Next Blog</span>

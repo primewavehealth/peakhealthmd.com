@@ -206,7 +206,7 @@ function page() {
    {/* next section */}
    <section className="bg-gray-50">
     <div className="container flex flex-wrap">
-     <div className="items-center justify-center py-8 mx-auto lg:pl-16 lg:w-1/4 bg-gray-50">
+     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 max-h-[1050px] bg-gray-50">
       <Consultation />
      </div>
      <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:pt-8">
@@ -245,7 +245,7 @@ function page() {
        </span>
       </blockquote>
       {/* video */}
-      <div className="mx-auto md:w-[900px] h-[450px]">
+      <div className="mx-auto pb-6 md:w-[900px] h-[450px]">
        <iframe
         width="100%"
         height="100%"
