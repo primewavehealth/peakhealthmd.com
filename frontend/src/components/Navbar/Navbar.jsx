@@ -43,8 +43,6 @@ const navigation = {
    href: "https://www.americasfavoritedoctorandnurse.com/",
    rel: "noopener noreferrer",
   },
-  /* { name: "Ultrasound", href: "ultrasound" },
-  { name: "Medical Space", href: "medical-space" }, */
  ],
 };
 
@@ -389,7 +387,7 @@ export default function Navbar() {
          {({ open }) => (
           <>
            <Disclosure.Button className=" outline-none flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-            Pain Conditions
+            Conditions
             <ChevronDownIcon
              className={classNames(
               open ? "rotate-180" : "",
@@ -413,6 +411,37 @@ export default function Navbar() {
           </>
          )}
         </Disclosure>
+        <Disclosure as="div" className="-mx-3">
+         {({ open }) => (
+          <>
+           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
+            Treatments
+            <ChevronDownIcon
+             className={classNames(
+              open ? "rotate-180" : "",
+              "h-5 w-5 flex-none"
+             )}
+             aria-hidden="true"
+            />
+           </Disclosure.Button>
+           <Disclosure.Panel className="mt-2 space-y-2">
+            {[...Mens_Health, ...Womens_Health, ...callsToAction].map(
+             (item) => (
+              <Disclosure.Button
+               key={item.name}
+               as="a"
+               href={item.href}
+               className="block py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+              >
+               {item.name}
+              </Disclosure.Button>
+             )
+            )}
+           </Disclosure.Panel>
+          </>
+         )}
+        </Disclosure>
+        {/* 
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
@@ -441,7 +470,6 @@ export default function Navbar() {
           </>
          )}
         </Disclosure>
-
         <Disclosure as="div" className="-mx-3">
          {({ open }) => (
           <>
@@ -470,6 +498,7 @@ export default function Navbar() {
           </>
          )}
         </Disclosure>
+        */}
         {navigation.pages.map((page) => (
          <Disclosure>
           <Disclosure.Button

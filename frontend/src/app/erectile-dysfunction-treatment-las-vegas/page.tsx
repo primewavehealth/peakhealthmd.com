@@ -165,11 +165,9 @@ function page() {
    {/* next section */}
    <section className="px-6 bg-white">
     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
-     <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-16">
+     <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-20">
       <article className="space-y-4 prose text-gray-600">
-       <h2 className="text-center">
-        What are the Causes of Erectile Dysfunction?
-       </h2>
+       <h2 className="text-center">Causes of Erectile Dysfunction?</h2>
 
        <p className="text-justify ">
         There are several possible causes of ED, both physical and
@@ -187,8 +185,8 @@ function page() {
        </p>
       </article>
 
-      <article className="prose text-gray-600 text-center ">
-       <h2 className="">What are the Symptoms of Erectile Dysfunction?</h2>
+      <article className="prose text-gray-600 text-center">
+       <h2 className="">Symptoms of Erectile Dysfunction</h2>
 
        <p className="text-justify ">
         Erectile dysfunction, also known as impotence, is a condition where a
@@ -206,7 +204,7 @@ function page() {
    {/* next section */}
    <section className="bg-gray-50">
     <div className="container flex flex-wrap">
-     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 md:max-h-[1050px] bg-gray-50">
+     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 md:max-h-[1000px] bg-gray-50">
       <Consultation />
      </div>
      <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:pt-8">
