@@ -2,7 +2,7 @@ import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
-import shockwave from "/public/images/pain-clinic.jpeg";
+import shockwave from "/public/images/shockwave-therapy-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Shock Wave Therapy in Las Vegas",
