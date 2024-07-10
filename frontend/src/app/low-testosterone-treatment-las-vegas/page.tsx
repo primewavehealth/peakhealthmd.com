@@ -2,7 +2,6 @@ import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 // @ts-ignore
-import { YouTubeEmbed } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import low from "public/images/low-testosterone-lasvegas.jpg";
 
@@ -112,10 +111,10 @@ function page() {
    {/* next section */}
    <section className="bg-gray-50">
     <div className="container flex flex-wrap">
-     <div className="items-center justify-center mx-auto lg:pl-16 lg:w-1/4 bg-gray-50">
+     <div className="items-center justify-center mx-auto py-8 lg:w-1/4 md:max-h-[1175px] bg-gray-50">
       <Consultation />
      </div>
-     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:py-16">
+     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:pt-16">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
        <h2 className="mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
         What is Testosterone Replacement Therapy and its Benefits?
@@ -141,7 +140,7 @@ function page() {
       <blockquote className="max-w-screen-xl px-8 py-12 mx-auto text-center">
        <span className="py-10">
         {" "}
-        <span className="text-lg font-bold">We are the go to</span>{" "}
+        <span className="text-3xl font-bold">We are the go to</span>{" "}
         <span className="relative inline-block px-2">
          <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
          <h3 className="relative py-3 text-white">
@@ -151,8 +150,15 @@ function page() {
        </span>
       </blockquote>
       {/* video */}
-      <div className="mx-auto my-12 lg:max-w-xl">
-       <YouTubeEmbed videoid="II7AG16M6fQ" params="controls=0" />
+      <div className="mx-auto my-12 md:w-[900px] h-[450px]">
+       <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/II7AG16M6fQ?si=qYGjMKaitrTH0VIp"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen={true}
+       ></iframe>
       </div>
      </div>
     </div>
