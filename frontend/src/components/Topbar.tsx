@@ -92,7 +92,7 @@ function Topbar() {
      </li>
     </ul>
    </div>
-   <div className="flex justify-around space-x-4">
+   <div className="flex justify-around space-x-4 lg:pl-96">
     <span className="flex items-center transition hover:opacity-75">
      {" "}
      <CgPhone className="text-2xl text-white " />
