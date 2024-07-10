@@ -40,7 +40,7 @@ export default function SearchArticles({
  const currentArticles = articles.slice(startIndex, endIndex);
 
  return (
-  <div className="mx-auto ">
+  <div className="mx-auto w-max">
    <div className="relative max-w-3xl mb-12 sm:mb-16">
     <input
      aria-label="Search articles"
@@ -63,13 +63,9 @@ export default function SearchArticles({
     <div className="grid max-w-3xl space-y-16 content-center h-[20vh] mb-12">
      <div className="text-center">
       <NoSymbolIcon className="w-20 h-20 mx-auto text-gray-500" />
-      <p className="text-xl font-medium text-gray-500">
-       No articles found.
-      </p>
+      <p className="text-xl font-medium text-gray-500">No articles found.</p>
 
-      <p className="text-gray-500">
-       Try searching for something else.
-      </p>
+      <p className="text-gray-500">Try searching for something else.</p>
      </div>
     </div>
    )}
