@@ -12,7 +12,7 @@ export interface imageProps {
 const PageBanner = (allprops: PageBannerInterface & imageProps) => {
  const { body, heading, subheading, src, height, width, alt, btn } = allprops;
  return (
-  <header className="bg-blue-50">
+  <header className="bg-gray-100">
    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-6 lg:py-8 lg:px-8 ">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
      <div className="hidden h-64 overflow-hidden rounded-lg lg:flex sm:h-80 lg:order-last lg:h-full">
