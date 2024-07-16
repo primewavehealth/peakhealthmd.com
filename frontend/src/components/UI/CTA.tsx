@@ -10,7 +10,7 @@ export interface imageProps {
 function CTA(allprops: CTA & imageProps) {
  const { body, heading, subheading, src, alt, btn } = allprops;
  return (
-  <div className="bg-blue-50 dark:bg-gray-900">
+  <div className="bg-gradient-to-t from-blue-100 to-blue-50 dark:bg-gray-900">
    <div className="flex flex-col justify-between max-w-screen-xl py-8 mx-auto lg:flex-row">
     <div className="flex flex-col px-8 py-12 mx-auto lg:w-2/3 text-start lg:py-8 ">
      <h2 className="text-2xl font-extrabold text-black dark:text-white sm:text-3xl">

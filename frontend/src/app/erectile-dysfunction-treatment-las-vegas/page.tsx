@@ -93,6 +93,7 @@ const jsonLd = {
 function page() {
  return (
   <>
+   {/* Page banner */}
    <PageBanner
     heading="Erectile Dysfunction Treatment in Las Vegas"
     body="Unlock a renewed sense of vitality and confidence with our affordable erectile dysfunction treatment in Las Vegas. Say goodbye to performance anxiety and hello to a fulfilling, intimate life. Our expert team is dedicated to restoring your natural vigor, ensuring you enjoy every moment to the fullest."
@@ -120,8 +121,61 @@ function page() {
      ),
     }}
    />{" "}
+   {/* blockquote */}
+   <blockquote className="max-w-screen-xl px-8 pt-8 md:pt-16 mx-auto text-center">
+    <span className="py-10">
+     {" "}
+     <span className="text-2xl md:text-4xl -skew-x-12 font-bold">
+      Get a
+     </span>{" "}
+     <span className="relative inline-block px-2">
+      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+      <h3 className="relative py-3 text-white">
+       Permanent Cure for Erectile Dysfunction in Las Vegas{" "}
+      </h3>
+     </span>
+    </span>
+   </blockquote>
+   {/* next section */}
+   <section className="px-6 bg-white">
+    <div className="max-w-screen-2xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+     <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-24">
+      <article className="space-y-4 prose text-gray-600">
+       <h2 className="text-center text-2xl">Causes of Erectile Dysfunction?</h2>
+
+       <p className="text-justify text-xl">
+        There are several possible causes of ED, both physical and
+        psychological. Physical causes of ED include conditions that affect
+        blood flow to the penis, such as diabetes, high blood pressure, or heart
+        disease. Neurological disorders like multiple sclerosis or Parkinson's
+        disease can also contribute to ED. Lifestyle factors like smoking,
+        excessive alcohol consumption, or drug use can damage blood vessels and
+        nerves, leading to ED. Hormonal imbalances, including low levels of
+        testosterone, can also cause ED. In addition to physical factors,
+        psychological factors can also play a role in ED, such as stress,
+        anxiety, depression, or relationship problems. Identifying the
+        underlying cause of ED is crucial to developing an effective treatment
+        plan.
+       </p>
+      </article>
+
+      <article className="prose text-gray-600 text-center">
+       <h2 className="">Symptoms of Erectile Dysfunction</h2>
+
+       <p className="text-justify text-xl">
+        Erectile dysfunction, also known as impotence, is a condition where a
+        man is unable to achieve or maintain an erection sufficient for sexual
+        intercourse. The symptoms of erectile dysfunction may vary depending on
+        the underlying cause of the condition, but common signs include weak
+        erection and reduced sexual desire. Other symptoms may include premature
+        ejaculation, delayed ejaculation, or a lack of orgasm.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
    {/* cta */}
-   <div className="container max-w-5xl px-6 mx-auto mt-8">
+   <div className="container max-w-5xl px-6 mx-auto mt-8 mb-8">
     <div className="flex flex-col items-center h-auto py-8 align-middle border-2 border-gray-800 rounded-lg bg-blue-50 lg:border-4 justify-evenly md:flex-row ">
      <div className="px-6 text-xl lg:text-2xl lg:pt-0 lg:w-8/12">
       <span>
@@ -147,78 +201,35 @@ function page() {
      />
     </div>
    </div>
-   {/* blockquote */}
-   <blockquote className="max-w-screen-xl px-8 pt-8 md:pt-16 mx-auto text-center">
-    <span className="py-10">
-     {" "}
-     <span className="text-2xl md:text-4xl -skew-x-12 font-bold">
-      Get a
-     </span>{" "}
-     <span className="relative inline-block px-2">
-      <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
-      <h3 className="relative py-3 text-white">
-       Permanent Cure for Erectile Dysfunction in Las Vegas{" "}
-      </h3>
-     </span>
-    </span>
-   </blockquote>
-   {/* next section */}
-   <section className="px-6 bg-white">
-    <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
-     <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-20">
-      <article className="space-y-4 prose text-gray-600">
-       <h2 className="text-center">Causes of Erectile Dysfunction?</h2>
-
-       <p className="text-justify ">
-        There are several possible causes of ED, both physical and
-        psychological. Physical causes of ED include conditions that affect
-        blood flow to the penis, such as diabetes, high blood pressure, or heart
-        disease. Neurological disorders like multiple sclerosis or Parkinson's
-        disease can also contribute to ED. Lifestyle factors like smoking,
-        excessive alcohol consumption, or drug use can damage blood vessels and
-        nerves, leading to ED. Hormonal imbalances, including low levels of
-        testosterone, can also cause ED. In addition to physical factors,
-        psychological factors can also play a role in ED, such as stress,
-        anxiety, depression, or relationship problems. Identifying the
-        underlying cause of ED is crucial to developing an effective treatment
-        plan.
-       </p>
-      </article>
-
-      <article className="prose text-gray-600 text-center">
-       <h2 className="">Symptoms of Erectile Dysfunction</h2>
-
-       <p className="text-justify ">
-        Erectile dysfunction, also known as impotence, is a condition where a
-        man is unable to achieve or maintain an erection sufficient for sexual
-        intercourse. The symptoms of erectile dysfunction may vary depending on
-        the underlying cause of the condition, but common signs include weak
-        erection and reduced sexual desire. Other symptoms may include premature
-        ejaculation, delayed ejaculation, or a lack of orgasm
-       </p>
-      </article>
-     </div>
-    </div>
-   </section>
    {/*  <EdPricing /> */}
    {/* next section */}
    <section className="bg-gray-50">
+    {/* blockquote */}
+    <blockquote className="max-w-screen-xl px-8 py-8 md:pt-16 mx-auto text-center">
+     <span className="py-10">
+      {" "}
+      <span className="text-2xl md:text-4xl -skew-x-12 font-bold">
+       We are the destination
+      </span>{" "}
+      <span className="relative inline-block px-2">
+       <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+       <h3 className="relative py-3 text-white">ED Clinic in Las Vegas </h3>
+      </span>
+     </span>
+    </blockquote>
     <div className="container flex flex-wrap">
-     <div className="items-center justify-center py-8 mx-auto lg:w-1/4 md:max-h-[1000px] bg-gray-50">
-      <Consultation />
-     </div>
-     <div className="w-full px-8 text-lg lg:px-4 lg:w-3/4 lg:pt-8">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
-       <h2 className="max-w-xl mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-        Erectile Dysfunction Treatment Options
-       </h2>
-       <article className="space-y-4 text-base text-justify text-gray-700 md:text-lg">
-        <p>
+     <div className="w-full px-8 text-lg lg:px-4 lg:pt-8 mx-auto lg:gap-24 grid lg:grid-cols-2">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center  lg:max-w-3xl md:mb-12">
+       <article className="space-y-4 prose text-base text-justify text-gray-700 md:text-lg">
+        <h2 className="max-w-2xl mb-6 text-2xl text-center leading-none tracking-tight text-gray-900">
+         Erectile Dysfunction Treatment Options
+        </h2>
+        <p className="text-xl">
          We are the choice ED Clinic in Las Vegas. We understand that erectile
          dysfunction can be a sensitive and difficult issue to discuss. That's
          why we offer personalized and discreet consultations to help patients
          understand their condition and develop an effective treatment plan.
-         During your consultation, our ed specialist in Las Vegas will conduct a
+         During your consultation, our ED specialist in Las Vegas will conduct a
          comprehensive medical history and physical exam, as well as discuss
          your symptoms and concerns in a private and confidential setting. We
          will work closely with you to develop a personalized treatment plan
@@ -230,38 +241,33 @@ function page() {
        </article>
       </div>
 
-      <blockquote className="max-w-screen-xl px-8 pb-12 mx-auto text-center">
-       <span className="py-10">
-        {" "}
-        <span className="text-3xl font-bold">We are the destination</span>{" "}
-        <span className="relative inline-block px-2">
-         <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
-         <h3 className="relative py-3 text-white">
-          ED Clinic in Las Vegas, Nevada{" "}
-         </h3>
-        </span>
-       </span>
-      </blockquote>
       {/* video */}
-      <div className="mx-auto pb-6 md:w-[900px] h-[450px]">
-       <iframe
-        width="100%"
-        height="100%"
-        src="https://www.youtube.com/embed/4iOjUMIDsiw?si=hhYxHcYHPevYd7Kf"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen={true}
-       ></iframe>
+      <div className="mx-auto pb-6 text-justify">
+       <h2 className="max-w-2xl prose mb-6 text-center tracking-tight text-2xl text-gray-900">
+        Hear From Our Customers
+       </h2>
+       <div className="mx-auto pb-6 md:w-[600px] h-[340px] text-justify">
+        <iframe
+         width="100%"
+         height="100%"
+         src="https://www.youtube.com/embed/4iOjUMIDsiw?si=hhYxHcYHPevYd7Kf"
+         title="YouTube video player"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         allowFullScreen={true}
+        ></iframe>{" "}
+       </div>
       </div>
+     </div>
+     <div className="w-full items-center justify-center py-8 mx-auto max-h-[650px] bg-gray-50">
+      <Consultation />
      </div>
     </div>
    </section>
    {/* faqs*/}
-   <section className="max-w-3xl mx-auto my-12">
-    <h2 className="py-4 text-center">
-     Frequently Asked Questions About Erectile Dysfunction
-    </h2>
+   <section className="w-full max-w-[90%] md:max-w-[60%] mx-auto my-12">
     <div className="space-y-4">
+     <h2 className="pt-2 text-center">Frequently Asked Questions</h2>
+     <h2 className="pb-4 text-center">About Erectile Dysfunction</h2>
      <details
       className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
       open
@@ -472,7 +478,7 @@ function page() {
    <CTA
     heading="Erectile Dysfunction Treatment in Las Vegas"
     subheading=" Say No to ED Disorder"
-    body="Our state-of-the-art facility offers ed treatment options such as shockwave therapy and erectile dysfunction medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer. You can overcome your ed disorder - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
+    body="Our state-of-the-art facility offers ED treatment options such as shockwave therapy and erectile dysfunction medications to address the root cause of ED. With our expert care and support, you can regain your sexual confidence and enjoy a fulfilling sex life. Don't suffer in silence any longer. You can overcome your ED disorder - contact us today to schedule an appointment and take the first step towards reclaiming your sexual health."
     src="/images/happy-man.avif"
     alt="erectile-dysfunction-las-vegas"
     btn={{
