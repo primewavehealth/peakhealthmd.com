@@ -141,7 +141,7 @@ function page() {
     <div className="max-w-screen-2xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
      <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2 lg:gap-24">
       <article className="space-y-4 prose text-gray-600">
-       <h2 className="text-center text-2xl">Causes of Erectile Dysfunction?</h2>
+       <h2 className="text-center text-3xl">Causes of Erectile Dysfunction?</h2>
 
        <p className="text-justify text-xl">
         There are several possible causes of ED, both physical and
@@ -160,7 +160,7 @@ function page() {
       </article>
 
       <article className="prose text-gray-600 text-center">
-       <h2 className="">Symptoms of Erectile Dysfunction</h2>
+       <h2 className="text-3xl">Symptoms of Erectile Dysfunction</h2>
 
        <p className="text-justify text-xl">
         Erectile dysfunction, also known as impotence, is a condition where a
@@ -221,7 +221,7 @@ function page() {
      <div className="w-full px-8 text-lg lg:px-4 lg:pt-8 mx-auto lg:gap-24 grid lg:grid-cols-2">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center  lg:max-w-3xl md:mb-12">
        <article className="space-y-4 prose text-base text-justify text-gray-700 md:text-lg">
-        <h2 className="max-w-2xl mb-6 text-2xl text-center leading-none tracking-tight text-gray-900">
+        <h2 className="max-w-2xl mb-6 text-3xl text-center leading-none tracking-tight text-gray-900">
          Erectile Dysfunction Treatment Options
         </h2>
         <p className="text-xl">
@@ -243,7 +243,7 @@ function page() {
 
       {/* video */}
       <div className="mx-auto pb-6 text-justify">
-       <h2 className="max-w-2xl prose mb-6 text-center tracking-tight text-2xl text-gray-900">
+       <h2 className="max-w-2xl prose mb-6 text-center tracking-tight text-3xl text-gray-900">
         Hear From Our Customers
        </h2>
        <div className="mx-auto pb-6 md:w-[600px] h-[340px] text-justify">
