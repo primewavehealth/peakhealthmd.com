@@ -3,11 +3,6 @@
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 
-const handleSubmit = (event: any) => {
- event.preventDefault(); // Prevents default form submission
- console.log("BOOKed");
-};
-
 export default function AppointmentForm() {
  useEffect(() => {
   (async function () {
@@ -20,9 +15,7 @@ export default function AppointmentForm() {
    cal("on", {
     action: "bookingSuccessful",
     callback: (e) => {
-     gtag("event", "conversion_event_book_appointment", {
-      // <event_parameters>
-     });
+     window.gtag;
     },
    });
   })();
