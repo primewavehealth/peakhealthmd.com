@@ -10,7 +10,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import AccountIcon from "../AccountIcon";
 import {
  Mens_Health,
  Pain_Conditions,
@@ -330,8 +329,6 @@ export default function Navbar() {
     </Popover.Group>
 
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-     <AccountIcon />
-
      <Link
       href="/contact"
       className="inline-flex items-center justify-center gap-2 px-8 py-3 font-bold text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
