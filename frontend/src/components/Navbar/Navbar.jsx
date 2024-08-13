@@ -3,48 +3,20 @@ import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
  Bars3Icon,
  ChevronDownIcon,
- PhoneIcon,
- PlayCircleIcon,
  XMarkIcon,
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
+import AccountIcon from "../AccountIcon";
 import {
+ Calls_to_Action,
  Mens_Health,
+ Navigation,
  Pain_Conditions,
  Treatments,
  Womens_Health,
 } from "./Links";
-
-const callsToAction = [
- {
-  name: "Find A Specialist",
-  href: "/appointment",
-  icon: PlayCircleIcon,
- },
- { name: "Contact Us", href: "/contact", icon: PhoneIcon },
-];
-
-const navigation = {
- pages: [
-  { name: "About", href: "about-primewave" },
-  { name: "Blog", href: "blog" },
-
-  {
-   name: "Franchise",
-   target: "_blank",
-   href: "https://www.primewavefranchise.com/",
-   rel: "noopener noreferrer",
-  },
-  {
-   name: "Medical Radio Show",
-   target: "_blank",
-   href: "https://www.americasfavoritedoctorandnurse.com/",
-   rel: "noopener noreferrer",
-  },
- ],
-};
 
 function classNames(...classes) {
  return classes.filter(Boolean).join(" ");
@@ -107,7 +79,7 @@ export default function Navbar() {
         <div className="p-4">
          {Pain_Conditions.map((item) => (
           <div
-           key={item.name}
+           key={item.id}
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
           >
            <div className="flex-auto">
@@ -124,9 +96,9 @@ export default function Navbar() {
          ))}
         </div>
         <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-         {callsToAction.map((item) => (
+         {Calls_to_Action.map((item) => (
           <Link
-           key={item.name}
+           key={item.id}
            href={item.href}
            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
           >
@@ -163,7 +135,7 @@ export default function Navbar() {
         <div className="p-4">
          {Treatments.map((item) => (
           <div
-           key={item.name}
+           key={item.id}
            className="relative flex items-center p-4 text-sm leading-6 rounded-lg group gap-x-6 hover:bg-gray-50"
           >
            <div className="flex-auto">
@@ -180,9 +152,9 @@ export default function Navbar() {
          ))}
         </div>
         <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-         {callsToAction.map((item) => (
+         {Calls_to_Action.map((item) => (
           <Link
-           key={item.name}
+           key={item.id}
            href={item.href}
            className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
           >
@@ -314,10 +286,10 @@ export default function Navbar() {
                  </Popover>
                  */}
 
-     {navigation.pages.map((page) => (
-      <Disclosure key={page.name}>
+     {Navigation.pages.map((page) => (
+      <Disclosure key={page.id}>
        <Disclosure.Button
-        key={page.name}
+        key={page.id}
         as="a"
         href={page.href}
         className="block font-semibold text-gray-900"
@@ -329,6 +301,8 @@ export default function Navbar() {
     </Popover.Group>
 
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+     <AccountIcon />
+
      <Link
       href="/contact"
       className="inline-flex items-center justify-center gap-2 px-8 py-3 font-bold text-blue-900 bg-yellow-400 rounded-full hover:text-white hover:bg-blue-900"
@@ -398,9 +372,9 @@ export default function Navbar() {
             />
            </Disclosure.Button>
            <Disclosure.Panel className="mt-2 space-y-2">
-            {[...Pain_Conditions, ...callsToAction].map((item) => (
+            {[...Pain_Conditions, ...Calls_to_Action].map((item) => (
              <Disclosure.Button
-              key={item.name}
+              key={item.id}
               as="a"
               href={item.href}
               className="block py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
@@ -426,10 +400,10 @@ export default function Navbar() {
             />
            </Disclosure.Button>
            <Disclosure.Panel className="mt-2 space-y-2">
-            {[...Mens_Health, ...Womens_Health, ...callsToAction].map(
+            {[...Mens_Health, ...Womens_Health, ...Calls_to_Action].map(
              (item) => (
               <Disclosure.Button
-               key={item.name}
+               key={item.id}
                as="a"
                href={item.href}
                className="block py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
@@ -500,10 +474,10 @@ export default function Navbar() {
          )}
         </Disclosure>
         */}
-        {navigation.pages.map((page) => (
-         <Disclosure>
+        {Navigation.pages.map((page) => (
+         <Disclosure key={page.id}>
           <Disclosure.Button
-           key={page.name}
+           key={page.id}
            as="a"
            href={page.href}
            className="block font-semibold text-gray-900"
