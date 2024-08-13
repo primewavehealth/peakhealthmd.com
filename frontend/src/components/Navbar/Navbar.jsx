@@ -8,7 +8,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import AccountIcon from "../AccountIcon";
 import {
  Calls_to_Action,
  Mens_Health,
@@ -301,7 +300,6 @@ export default function Navbar() {
     </Popover.Group>
 
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-     <AccountIcon />
 
      <Link
       href="/contact"
