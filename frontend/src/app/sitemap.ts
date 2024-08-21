@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   "/appointment",
   "/contact",
  ].map((route) => ({
-  url: `https://primewavehealth.com${route}`,
+  url: `https://www.primewavehealth.com${route}`,
   lastModified: new Date().toISOString().split("T")[0],
  }));
 
