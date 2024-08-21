@@ -1,4 +1,5 @@
 import Container from "@/components/Container";
+import { server } from "config";
 import { allBlogs, Blog } from "contentlayer/generated";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -40,7 +41,7 @@ export async function generateMetadata({
    description,
    type: "article",
    publishedTime,
-   url: `https://primewavehealth.com/blog/${slug}`,
+   url: `${server}/blog/${slug}`,
    images: [
     {
      url: ogImage,
@@ -60,7 +61,7 @@ export async function generateMetadata({
 
   // Alternates
   alternates: {
-   canonical: `https://primewavehealth.com/blog/${slug}`,
+   canonical: `${server}/blog/${slug}`,
   },
  };
 }

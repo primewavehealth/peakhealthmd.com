@@ -65,7 +65,7 @@ export async function generateMetadata({
    ],
   },
   alternates: {
-   canonical: `/blog/categories/${params.slug}`,
+   canonical: `${server}/blog/categories/${params.slug}`,
   },
  };
 }

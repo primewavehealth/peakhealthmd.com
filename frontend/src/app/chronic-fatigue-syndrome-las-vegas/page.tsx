@@ -1,16 +1,15 @@
-import PageBanner from "@/components/UI/PageBanner";
-import fibromyalgia from "/public/images/fibromyalgia-las-vegas.jpg";
-
 import CTA from "@/components/UI/CTA";
+import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
+import fibromyalgia from "/public/images/fibromyalgia-las-vegas.jpg";
 
 export const metadata: Metadata = {
  title: "Chronic Fatigue Syndrome Treatment in Las Vegas",
  description:
   "Get relief from chronic fatigue syndrome with our specialized fatigue treatment in Las Vegas.",
  alternates: {
-  canonical:
-   "https://www.primewavehealth.com/chronic-fatigue-syndrome-las-vegas",
+  canonical: `${server}/chronic-fatigue-syndrome-las-vegas`,
  },
 };
 
