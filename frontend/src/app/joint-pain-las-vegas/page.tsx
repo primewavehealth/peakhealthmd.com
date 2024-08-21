@@ -134,9 +134,11 @@ function page() {
         </p>
         <p>
          Degenerative Conditions: Degenerative joint diseases, such as{" "}
-         <Link href="/ostheoarthritis-treatment">osteoarthritis</Link> , occur
-         when the cartilage in the joints gradually wears down, resulting in
-         joint pain, stiffness, and reduced mobility.
+         <Link href="https://www.mayoclinic.org/diseases-conditions/osteoarthritis/symptoms-causes/syc-20351925">
+          osteoarthritis
+         </Link>{" "}
+         , occur when the cartilage in the joints gradually wears down,
+         resulting in joint pain, stiffness, and reduced mobility.
         </p>
         <p>
          Injuries: Joint pain can be caused by injuries, such as sprains,
