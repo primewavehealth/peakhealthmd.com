@@ -1,9 +1,8 @@
 import Button from "@/components/UI/Button";
+import { server } from "config";
 import type { Metadata } from "next";
 import Image from "next/image";
 import about from "/public/images/primewavehealth-team.jpg";
-import { server } from "config";
-
 
 export const metadata: Metadata = {
  title: "About Primewave Health",
@@ -47,6 +46,7 @@ function About() {
       independence, rediscover your passions, and embrace a life without limits.
      </p>
     </article>
+    {/*
     <div className="mt-16 text-center">
      <h2 className="mb-4 text-2xl font-bold text-center text-gray-900 md:text-4xl">
       Meet Our Providers
@@ -59,7 +59,7 @@ function About() {
      </p>
     </div>
 
-    {/* <section className="max-w-screen-xl mx-auto mt-4 mb-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+    <section className="max-w-screen-xl mx-auto mt-4 mb-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
@@ -89,9 +89,9 @@ function About() {
       height={600}
       quality={100}
      />
-    </section> */}
+    </section> 
     <section className="max-w-screen-xl py-8 mx-auto my-16 overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
-     {/* <div className="p-8 md:p-12 lg:py-12">
+      <div className="p-8 md:p-12 lg:py-12">
       <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
        <span className="text-2xl font-bold text-gray-900 md:text-3xl">
         <Link href="https://www.linkedin.com/in/kyrah-bacote" target="_blank">
@@ -111,7 +111,7 @@ function About() {
         Physical Therapy and minoring in Chemistry.
        </p>
       </div>
-     </div> */}
+     </div> 
      <Image
       className="object-contain w-full mt-8 h-60"
       alt="Dr. Kyrah Bacote"
@@ -120,7 +120,7 @@ function About() {
       height={600}
       quality={100}
      />
-    </section>
+    </section> */}
 
     <div className="flex justify-center mt-10">
      <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:py-12 sm:px-6 lg:px-8">
