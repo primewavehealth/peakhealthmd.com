@@ -2,6 +2,7 @@ import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 // @ts-ignore
+import { server } from "config";
 import type { Metadata } from "next";
 import low from "public/images/low-testosterone-lasvegas.jpg";
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
  description:
   "Affordable low testosterone treatment in Las Vegas: Rejuvenate your vitality. Expert care for lasting results at budget-friendly prices.",
  alternates: {
-  canonical: "/low-testosterone-treatment-las-vegas",
+  canonical: `${server}/low-testosterone-treatment-las-vegas`,
  },
 };
 

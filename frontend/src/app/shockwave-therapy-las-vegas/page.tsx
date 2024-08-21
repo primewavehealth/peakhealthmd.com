@@ -1,6 +1,7 @@
 import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Image from "next/image";
 import shockwave from "/public/images/shockwave-therapy-las-vegas.jpg";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
  description:
   "Find relief from chronic pain with shockwave therapy in Las Vegas - a safe and effective treatment that can help you get back to your active lifestyle.",
  alternates: {
-  canonical: "/shockwave-therapy-las-vegas",
+  canonical: `${server}/shockwave-therapy-las-vegas`,
  },
 };
 

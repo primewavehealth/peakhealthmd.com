@@ -1,6 +1,7 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Link from "next/link";
 import knee from "/public/images/knee-pain1.jpg";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
  description:
   "Affordable knee pain treatment in Las Vegas: Say goodbye to discomfort, regain mobility, and enjoy life fully with our specialized care.",
  alternates: {
-  canonical: "/knee-pain-las-vegas",
+  canonical: `${server}/knee-pain-las-vegas`,
  },
 };
 

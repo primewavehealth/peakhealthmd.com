@@ -1,6 +1,8 @@
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
+
 import weight from "public/images/weight-loss-las-vegas.jpg";
 
 export const metadata: Metadata = {
@@ -8,7 +10,7 @@ export const metadata: Metadata = {
  description:
   "Achieve your weight loss goals with our proven and personalized weight loss service in Las Vegas - transform your body and improve your health today.",
  alternates: {
-  canonical: "/weight-loss-las-vegas",
+  canonical: `${server}/weight-loss-las-vegas`,
  },
 };
 

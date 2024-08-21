@@ -3,13 +3,15 @@ import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import Link from "next/link";
 import pain from "/public/images/pain-treatment-las-vegas.jpg";
+import { server } from "config";
+
 
 export const metadata: Metadata = {
  title: "Pain Management Clinics in Las Vegas",
  description:
   "Affordable pain Management clinics in Las Vegas - Experience top-quality management for all your pain needs. Regain control and well-being. Book now for relief!",
  alternates: {
-  canonical: "/pain-management-clinics-in-las-vegas",
+  canonical: `${server}/pain-management-clinics-in-las-vegas`,
  },
 };
 

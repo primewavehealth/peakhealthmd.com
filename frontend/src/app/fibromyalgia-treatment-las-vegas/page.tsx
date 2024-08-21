@@ -1,4 +1,5 @@
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import fibromyalgia from "/public/images/fibromyalgia-las-vegas.jpg";
 
 import type { Metadata } from "next";
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
  description:
   "Find relief from the symptoms of fibromyalgia with our specialized fibromyalgia treatment in Las Vegas.",
  alternates: {
-  canonical: "/fibromyalgia-treatment-las-vegas",
+  canonical: `${server}/fibromyalgia-treatment-las-vegas`,
  },
 };
 

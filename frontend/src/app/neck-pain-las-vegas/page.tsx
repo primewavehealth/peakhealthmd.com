@@ -3,13 +3,15 @@ import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import type { Metadata } from "next";
 import neck from "/public/images/neck-pain.jpg";
+import { server } from "config";
+
 
 export const metadata: Metadata = {
  title: "Neck Pain Treatment in Las Vegas",
  description:
   "Affordable neck pain treatment in Las Vegas: Expert care to relieve your discomfort and restore your quality of life. Get relief today!",
  alternates: {
-  canonical: "/neck-pain-las-vegas",
+  canonical: `${server}/neck-pain-las-vegas`,
  },
 };
 

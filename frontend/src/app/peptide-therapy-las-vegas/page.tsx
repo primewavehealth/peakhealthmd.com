@@ -1,4 +1,5 @@
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import peptide from "/public/images/peptide.jpg";
 
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
  description:
   "Transform your health and well-being with peptide therapy in Las Vegas - a cutting-edge treatment that can enhance your physical and mental performance.",
  alternates: {
-  canonical: "/peptide-therapy-las-vegas",
+  canonical: `${server}/peptide-therapy-las-vegas`,
  },
 };
 /* export const metadata: Metadata = {

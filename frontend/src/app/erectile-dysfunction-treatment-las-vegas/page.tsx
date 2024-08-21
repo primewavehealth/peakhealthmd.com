@@ -2,6 +2,8 @@ import Consultation from "@/components/AppointmentForm";
 import Button from "@/components/UI/Button";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
+
 // @ts-ignore
 import type { Metadata } from "next";
 import Script from "next/script";
@@ -12,7 +14,7 @@ export const metadata: Metadata = {
  description:
   "Affordable erectile dysfunction treatment in Las Vegas: Rediscover confidence and intimacy without straining your wallet. Expert care at budget-friendly prices",
  alternates: {
-  canonical: "/erectile-dysfunction-treatment-las-vegas",
+  canonical: `${server}/erectile-dysfunction-treatment-las-vegas`,
  },
 };
 

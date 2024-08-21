@@ -60,7 +60,7 @@ export async function generateMetadata({
 
   // Alternates
   alternates: {
-   canonical: `/blog/${slug}`,
+   canonical: `https://primewavehealth.com/blog/${slug}`,
   },
  };
 }

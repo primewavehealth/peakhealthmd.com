@@ -1,22 +1,20 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
-import HomeCTA from "@/components/HomeCTA";
-import NewPatientBanner from "@/components/NewPatientsBanner";
-import NewTeam from "@/components/NewTeam";
 import ScrollToTop from "@/components/ScrollToTop";
 import SectionTitle from "@/components/SectionTitle";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
-import TwoColumnSection from "@/components/TwoColumns";
 import type { Metadata } from "next";
 import Script from "next/script";
+import { server } from "config";
+
 
 export const metadata: Metadata = {
  title: "Find Your Path to Wellness: Las vegas's Premier Wellness Clinic",
  description:
   "Take control of your health & happiness with Primewave Health. Tailored treatments, cutting-edge technology & lasting results.",
  alternates: {
-  canonical: "/",
+  canonical: `${server}`,
  },
 };
 

@@ -1,6 +1,7 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
  description:
   "Affordable joint pain treatment in Las Vegas: Regain mobility and relief without breaking the bank. Trust our experts for lasting comfort",
  alternates: {
-  canonical: "/joint-pain-las-vegas",
+  canonical: `${server}/joint-pain-las-vegas`,
  },
 };
 

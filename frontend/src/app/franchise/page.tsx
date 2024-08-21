@@ -1,3 +1,4 @@
+import { server } from "config";
 import type { Metadata } from "next";
 import CTA from "./CTA";
 import FAQ from "./FAQ";
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
  description:
   "Explore lucrative franchising with Primewave Health franchise – a proven opportunity to own a thriving business while promoting men's well-being.",
  alternates: {
-  canonical: "/franchise",
+  canonical: `${server}/franchise`,
  },
 };
 

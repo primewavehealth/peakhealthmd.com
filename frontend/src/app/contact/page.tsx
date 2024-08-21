@@ -1,4 +1,5 @@
 import ContactForm from "@/components/ContactForm";
+import { server } from "config";
 import Link from "next/link";
 import Script from "next/script";
 import { Metadata } from "next/types";
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
  description:
   "Connect with our dedicated ED and pain care clinic team for personalized support and relief. Your well-being is our priority.",
  alternates: {
-  canonical: "/contact",
+  canonical: `${server}/contact`,
  },
 };
 

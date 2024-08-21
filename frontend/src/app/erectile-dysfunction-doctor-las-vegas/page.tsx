@@ -1,8 +1,10 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Link from "next/link";
+
 import Script from "next/script";
 import ed from "/public/images/erectile-dysfunction-las-vegas.jpg";
 
@@ -11,7 +13,7 @@ export const metadata: Metadata = {
  description:
   "Trusted Erectile Dysfunction Doctor in Las Vegas: Expert care, personalized treatment. Regain your confidence and vitality. Book your consultation today!",
  alternates: {
-  canonical: "/erectile-dysfunction-doctor-las-vegas",
+  canonical: `${server}/erectile-dysfunction-doctor-las-vegas`,
  },
 };
 

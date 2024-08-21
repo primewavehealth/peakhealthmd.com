@@ -1,6 +1,7 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Link from "next/link";
 import pain from "/public/images/pain.jpg";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
  description:
   "Affordable chronic pain treatment in Las Vegas: Take control of your life again with our expert care. Experience relief without the high costs.",
  alternates: {
-  canonical: "/chronic-pain-las-vegas",
+  canonical: `${server}/chronic-pain-las-vegas`,
  },
 };
 

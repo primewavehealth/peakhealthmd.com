@@ -1,8 +1,8 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
-
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
  description:
   "Affordable lower back pain treatment in Las Vegas: Get relief and regain your active life. Expert care that fits your budget.",
  alternates: {
-  canonical: "/back-pain-las-vegas",
+  canonical: `${server}/back-pain-las-vegas`,
  },
 };
 

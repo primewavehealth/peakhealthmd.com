@@ -1,6 +1,7 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Link from "next/link";
 import pain from "/public/images/podiatrist-foot-doctor.jpg";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
  description:
   "Relieve foot pain with a podiatrist foot doctor in Las Vegas. Expert care for plantar fasciitis, bunions, and more. Schedule now for personalized relief!",
  alternates: {
-  canonical: "/podiatrist-foot-doctor-las-vegas",
+  canonical: `${server}/podiatrist-foot-doctor-las-vegas`,
  },
 };
 

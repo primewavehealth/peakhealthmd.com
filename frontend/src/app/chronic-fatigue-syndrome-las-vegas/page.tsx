@@ -9,7 +9,8 @@ export const metadata: Metadata = {
  description:
   "Get relief from chronic fatigue syndrome with our specialized fatigue treatment in Las Vegas.",
  alternates: {
-  canonical: "/chronic-fatigue-syndrome-las-vegas",
+  canonical:
+   "https://www.primewavehealth.com/chronic-fatigue-syndrome-las-vegas",
  },
 };
 

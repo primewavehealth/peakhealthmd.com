@@ -2,13 +2,15 @@ import Button from "@/components/UI/Button";
 import type { Metadata } from "next";
 import Image from "next/image";
 import about from "/public/images/primewavehealth-team.jpg";
+import { server } from "config";
+
 
 export const metadata: Metadata = {
  title: "About Primewave Health",
  description:
   "Las Vegas's top pain control clinic. Our experts utilize cutting-edge techniques to manage and alleviate pain, restoring your quality of life.",
  alternates: {
-  canonical: "/about-primewave",
+  canonical: `${server}/about-primewave`,
  },
 };
 

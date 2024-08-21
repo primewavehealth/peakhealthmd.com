@@ -1,5 +1,6 @@
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import tmj from "/public/images/tmj.jpg";
 
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
  description:
   "Discover effective TMJ treatment options in Las Vegas. Find relief from jaw pain, headaches, and discomfort at our specialized pain clinic.",
  alternates: {
-  canonical: "/tmj-treatment-in-las-vegas",
+  canonical: `${server}/tmj-treatment-in-las-vegas`,
  },
 };
 

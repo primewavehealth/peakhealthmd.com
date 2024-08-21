@@ -1,8 +1,10 @@
 import AppointmentForm from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import Link from "next/link";
+
 import pain from "/public/images/pain.jpg";
 
 export const metadata: Metadata = {
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
  description:
   "Comprehensive sciatica nerve treatment in Las Vegas. Our pain doctors deliver personalized treatments for lasting comfort and recovery.",
  alternates: {
-  canonical: "/sciatic-nerve-treatment-las-vegas",
+  canonical: `${server}/sciatic-nerve-treatment-las-vegas`,
  },
 };
 

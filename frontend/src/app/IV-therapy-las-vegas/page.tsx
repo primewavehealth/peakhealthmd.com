@@ -1,15 +1,15 @@
-import PageBanner from "@/components/UI/PageBanner";
-import iv from "public/images/iv-therapy-las-vegas.webp";
-
 import CTA from "@/components/UI/CTA";
+import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
+import iv from "public/images/iv-therapy-las-vegas.webp";
 
 export const metadata: Metadata = {
  title: "IV Therapy in Las Vegas",
  description:
   "Revitalize your body and boost your energy levels with IV therapy at our Las Vegas medical practice.",
  alternates: {
-  canonical: "/IV-therapy-las-vegas",
+  canonical: `${server}/IV-therapy-las-vegas`,
  },
 };
 
