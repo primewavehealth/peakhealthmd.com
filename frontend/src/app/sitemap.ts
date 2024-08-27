@@ -4,7 +4,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
  const blogs = allBlogs.map((post) => ({
-  url: `https://primewavehealth.com/blog/${post.slug}`,
+  url: `https://www.primewavehealth.com/blog/${post.slug}`,
   lastModified: post.date,
  }));
 
