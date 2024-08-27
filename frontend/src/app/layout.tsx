@@ -22,7 +22,7 @@ const inter = Inter({
 export const siteConfig: SiteConfig = {
  name: "Prime Wave",
  description: "Get affordable chronic pain care in Las Vegas at Primewave.",
- url: "https://primewavehealth.com",
+ url: "https://www.primewavehealth.com",
  links: {
   twitter: "https://twitter.com/primewavehealth",
   facebook: "https://facebook.com/primewavehealth",
@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 };
 
 export const metadata: Metadata = {
- metadataBase: new URL("https://primewavehealth.com"),
+ metadataBase: new URL("https://www.primewavehealth.com/"),
  title: {
   default: siteConfig.name,
   template: `%s | ${siteConfig.name}`,
