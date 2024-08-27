@@ -19,7 +19,7 @@ function Banner() {
       <p className="pt-2 text-2xl font-medium text-blue-900">
        Reclaim Your Health and Happiness <br />{" "}
        {/* <span className="text-lg lg:text-2xl">
-        #1 Shockwave treatment center in Vegas
+        #1 Shockwave treatment center in Vega
        </span> */}
       </p>
       <div className="flex flex-col justify-center gap-3 mt-5 md:justify-start md:flex-row">
