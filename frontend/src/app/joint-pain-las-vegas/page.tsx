@@ -377,32 +377,6 @@ function page() {
     </div>
    </div>
 
-   {/* next section */}
-   <CTA
-    heading="Joint Pain Treatment in Las Vegas"
-    body="Don't let joint pain dictate your daily life any longer—Primewave Health in Las Vegas is your beacon of relief! Our cutting-edge joint pain treatments are designed to address the root cause, providing rapid and lasting relief. With a team of experienced pain specialists in las vegas dedicated to your well-being, Primewave Health is committed to restoring your mobility and improving your overall quality of life. Act now to reclaim your comfort and vitality—schedule your appointment today, because every moment without relief is a moment too long."
-    src="/images/happy-man.avif"
-    alt="Joint Pain Treatment in Las Vegas"
-    btn={{
-     href: "/appointment",
-     text: "Schedule An Appointment",
-     id: "cta",
-
-     icon: (
-      <svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
-      >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-     ),
-    }}
-   />
    {/* faqs*/}
    <section className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
@@ -562,6 +536,33 @@ function page() {
    <Script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+   />
+
+   {/* next section */}
+   <CTA
+    heading="Joint Pain Treatment in Las Vegas"
+    body="Don't let joint pain dictate your daily life any longer—Primewave Health in Las Vegas is your beacon of relief! Our cutting-edge joint pain treatments are designed to address the root cause, providing rapid and lasting relief. With a team of experienced pain specialists in las vegas dedicated to your well-being, Primewave Health is committed to restoring your mobility and improving your overall quality of life. Act now to reclaim your comfort and vitality—schedule your appointment today, because every moment without relief is a moment too long."
+    src="/images/happy-man.avif"
+    alt="Joint Pain Treatment in Las Vegas"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
    />
   </div>
  );

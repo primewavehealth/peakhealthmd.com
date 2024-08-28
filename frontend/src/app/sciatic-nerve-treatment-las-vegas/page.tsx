@@ -246,33 +246,6 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
     </div>
    </div>
 
-   {/* next article */}
-   <CTA
-    heading="Help for sciatica nerve pain"
-    body="Discover relief from sciatic nerve pain at Primewave Health in Las Vegas. Our pain doctors offers personalized treatment plans, utilizing advanced diagnostics to target the root causes of your discomfort. From non-invasive options like chiropractic care and shockewave therapy to advanced interventions including injections, we provide comprehensive solutions.Take control of your life again – find relief at Primewave Health in Las Vegas."
-    src="/images/happy-man.avif"
-    alt="Help for sciatica nerve pain"
-    btn={{
-     href: "/appointment",
-     text: "Schedule An Appointment",
-     id: "cta",
-
-     icon: (
-      <svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
-      >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-     ),
-    }}
-   />
-
    {/* faqs*/}
    <article className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
@@ -431,6 +404,32 @@ Are you tired of letting sciatic nerve pain dictate your daily life? Primewave H
      </details>
     </div>
    </article>
+   {/* next article */}
+   <CTA
+    heading="Help for sciatica nerve pain"
+    body="Discover relief from sciatic nerve pain at Primewave Health in Las Vegas. Our pain doctors offers personalized treatment plans, utilizing advanced diagnostics to target the root causes of your discomfort. From non-invasive options like chiropractic care and shockewave therapy to advanced interventions including injections, we provide comprehensive solutions.Take control of your life again – find relief at Primewave Health in Las Vegas."
+    src="/images/happy-man.avif"
+    alt="Help for sciatica nerve pain"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }

@@ -1,3 +1,4 @@
+import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
 import { server } from "config";
 import fibromyalgia from "/public/images/fibromyalgia-las-vegas.jpg";
@@ -98,6 +99,32 @@ function page() {
      </article>
     </div>
    </section>
+   {/* next article */}
+   <CTA
+    heading="Help for Fibromyalgia"
+    body="Discover relief from Fibromyalgia at Primewave Health in Las Vegas. Our pain doctors offers personalized treatment plans, utilizing advanced diagnostics to target the root causes of your discomfort. From non-invasive options like chiropractic care and shockewave therapy to advanced interventions including injections, we provide comprehensive solutions.Take control of your life again – find relief at Primewave Health in Las Vegas."
+    src="/images/happy-man.avif"
+    alt="Help for Fibromyalgia"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }

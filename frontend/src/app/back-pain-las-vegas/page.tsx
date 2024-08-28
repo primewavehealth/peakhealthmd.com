@@ -380,33 +380,6 @@ function page() {
     </div>
    </div>
 
-   {/* next article */}
-   <CTA
-    heading="Lower Back Pain Treatment in Las Vegas"
-    body="Are you tired of enduring severe back pain, constantly grappling with the discomfort of a pinched nerve in your lower back? Find solace in effective lower back pain treatment options that provide much-needed relief. Whether your lower back hurts due to muscle strain, poor posture, or conditions like lumbar spinal stenosis, specialized treatments are tailored to alleviate your specific discomfort. Embrace targeted lower back pain relief techniques designed to address the root causes of your pain, promoting healing and restoring comfort. Don't let persistent lower back pain disrupt your daily life; explore dedicated solutions that prioritize your well-being and offer a path to a pain-free, healthier back."
-    src="/images/happy-man.avif"
-    alt="Help for lower back pain"
-    btn={{
-     href: "/appointment",
-     text: "Schedule An Appointment",
-     id: "cta",
-
-     icon: (
-      <svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
-      >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-     ),
-    }}
-   />
-
    {/* end */}
    <Script
     type="application/ld+json"
@@ -576,6 +549,32 @@ function page() {
    <Script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+   />
+   {/* next article */}
+   <CTA
+    heading="Lower Back Pain Treatment in Las Vegas"
+    body="Are you tired of enduring severe back pain, constantly grappling with the discomfort of a pinched nerve in your lower back? Find solace in effective lower back pain treatment options that provide much-needed relief. Whether your lower back hurts due to muscle strain, poor posture, or conditions like lumbar spinal stenosis, specialized treatments are tailored to alleviate your specific discomfort. Embrace targeted lower back pain relief techniques designed to address the root causes of your pain, promoting healing and restoring comfort. Don't let persistent lower back pain disrupt your daily life; explore dedicated solutions that prioritize your well-being and offer a path to a pain-free, healthier back."
+    src="/images/happy-man.avif"
+    alt="Help for lower back pain"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
    />
   </div>
  );

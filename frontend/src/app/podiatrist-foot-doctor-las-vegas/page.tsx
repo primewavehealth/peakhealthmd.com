@@ -394,33 +394,6 @@ function page() {
     </div>
    </div>
 
-   {/* next article */}
-   <CTA
-    heading=" Foot Ankle Specialist in Las Vegas"
-    body="Don't let foot pain control your life—act now with our podiatrist foot doctor in Las Vegas. Swift, expert treatment is crucial to prevent worsening conditions. Ignoring foot pain can lead to long-term issues, affecting your overall well-being. Schedule an urgent consultation today and take the first step towards a pain-free, healthier tomorrow. Your feet deserve immediate attention and care."
-    src="/images/happy-man.avif"
-    alt="podiatrist foot doctor in Las Vegas"
-    btn={{
-     href: "/appointment",
-     text: "Schedule An Appointment",
-     id: "cta",
-
-     icon: (
-      <svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
-      >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-     ),
-    }}
-   />
-
    {/* faqs*/}
    <article className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
@@ -571,6 +544,32 @@ function page() {
      </details>
     </div>
    </article>
+   {/* next article */}
+   <CTA
+    heading=" Foot Ankle Specialist in Las Vegas"
+    body="Don't let foot pain control your life—act now with our podiatrist foot doctor in Las Vegas. Swift, expert treatment is crucial to prevent worsening conditions. Ignoring foot pain can lead to long-term issues, affecting your overall well-being. Schedule an urgent consultation today and take the first step towards a pain-free, healthier tomorrow. Your feet deserve immediate attention and care."
+    src="/images/happy-man.avif"
+    alt="podiatrist foot doctor in Las Vegas"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }

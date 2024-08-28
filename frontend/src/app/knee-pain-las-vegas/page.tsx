@@ -220,34 +220,6 @@ function page() {
     </div>
    </div>
 
-   {/* next section */}
-   <CTA
-    heading="Knee Pain Treatment in Las Vegas"
-    body="Don't let knee pain hold you back any longer. Take the first step towards a pain-free future by scheduling a consultation with our pain specialists in Las Vegas. Our compassionate team is ready to guide you on your journey to regaining your mobility and enjoying life to the fullest. Contact us today and discover the transformative power of shockwave therapy for knee pain.
-"
-    src="/images/happy-man.avif"
-    alt="Neck Pain Treatment in Las Vegas"
-    btn={{
-     href: "/appointment",
-     text: "Schedule An Appointment",
-     id: "cta",
-
-     icon: (
-      <svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
-      >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-     ),
-    }}
-   />
-
    {/* faqs*/}
    <section className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
@@ -405,6 +377,34 @@ function page() {
      </details>
     </div>
    </section>
+
+   {/* next section */}
+   <CTA
+    heading="Knee Pain Treatment in Las Vegas"
+    body="Don't let knee pain hold you back any longer. Take the first step towards a pain-free future by scheduling a consultation with our pain specialists in Las Vegas. Our compassionate team is ready to guide you on your journey to regaining your mobility and enjoying life to the fullest. Contact us today and discover the transformative power of shockwave therapy for knee pain.
+"
+    src="/images/happy-man.avif"
+    alt="Neck Pain Treatment in Las Vegas"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }

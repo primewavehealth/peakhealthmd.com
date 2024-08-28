@@ -1,10 +1,9 @@
 import Consultation from "@/components/AppointmentForm";
 import CTA from "@/components/UI/CTA";
 import PageBanner from "@/components/UI/PageBanner";
+import { server } from "config";
 import type { Metadata } from "next";
 import neck from "/public/images/neck-pain.jpg";
-import { server } from "config";
-
 
 export const metadata: Metadata = {
  title: "Neck Pain Treatment in Las Vegas",
@@ -207,33 +206,6 @@ function page() {
     </div>
    </section>
 
-   {/* next section */}
-   <CTA
-    heading="Neck Pain Treatment in Las Vegas"
-    body="Don't let neck pain hold you back any longer! Take the first step toward a pain-free future by scheduling a consultation at Primewave today. Our dedicated team is ready to provide the exceptional care and expertise you deserve. Reclaim your life from neck pain and embrace a healthier, happier you!"
-    src="/images/happy-man.avif"
-    alt="Neck Pain Treatment in Las Vegas"
-    btn={{
-     href: "/appointment",
-     text: "Schedule An Appointment",
-     id: "cta",
-
-     icon: (
-      <svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
-      >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-     ),
-    }}
-   />
-
    {/* faqs*/}
    <section className="max-w-3xl mx-auto my-12">
     <h2 className="py-4 text-center">
@@ -391,6 +363,32 @@ function page() {
      </details>
     </div>
    </section>
+   {/* next section */}
+   <CTA
+    heading="Neck Pain Treatment in Las Vegas"
+    body="Don't let neck pain hold you back any longer! Take the first step toward a pain-free future by scheduling a consultation at Primewave today. Our dedicated team is ready to provide the exceptional care and expertise you deserve. Reclaim your life from neck pain and embrace a healthier, happier you!"
+    src="/images/happy-man.avif"
+    alt="Neck Pain Treatment in Las Vegas"
+    btn={{
+     href: "/appointment",
+     text: "Schedule An Appointment",
+     id: "cta",
+
+     icon: (
+      <svg
+       fill="none"
+       stroke="currentColor"
+       strokeLinecap="round"
+       strokeLinejoin="round"
+       strokeWidth="2"
+       className="w-4 h-4 ml-auto"
+       viewBox="0 0 24 24"
+      >
+       <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+     ),
+    }}
+   />
   </div>
  );
 }
