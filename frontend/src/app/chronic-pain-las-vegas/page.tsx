@@ -19,11 +19,8 @@ function page() {
  return (
   <div>
    <PageBanner
-    heading="Chronic Pain Treatment in Las Vegas
-"
-    body="
-Find lasting relief from chronic pain with our affordable chronic pain treatment in Las Vegas. Our dedicated team of pain doctors in Las Vegas and caring staff are committed to providing comprehensive and compassionate care for individuals suffering from chronic pain. Why endure another day of discomfort when you can experience the transformative benefits of Shockwave Therapy? This cutting-edge, non-invasive treatment has been clinically proven to effectively alleviate chronic pain conditions, targeting the root cause rather than just masking the symptoms.
-"
+    heading="Chronic Pain Treatment in Las Vegas"
+    body="Find lasting relief from chronic pain with our affordable chronic pain treatment in Las Vegas. Our dedicated team of pain doctors in Las Vegas and caring staff are committed to providing comprehensive and compassionate care for individuals suffering from chronic pain. Why endure another day of discomfort when you can experience the transformative benefits of Shockwave Therapy? This cutting-edge, non-invasive treatment has been clinically proven to effectively alleviate chronic pain conditions, targeting the root cause rather than just masking the symptoms."
     src={pain}
     height={400}
     width={400}
@@ -50,15 +47,17 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
    />
    {/* body */}
 
-   <div className="container flex flex-col mx-auto mt-8 md:flex-row">
-    <div className="w-full p-6 mb-4 bg-white md:p-8 md:mb-0 md:w-4/5">
-     <article className="p-6 leading-8 md:p-8 md:pl-18">
-      <h2 className="mb-4 text-2xl font-bold">
-       Everything You Want to Know About Chronic Pain
-      </h2>
+   <div className="container flex flex-col mt-8 md:flex-row">
+    <div className="w-full p-6 mb-4 bg-white md:p-8 md:mb-0 md:w-4/5 mx-auto">
+     <h2 className="mb-4 text-2xl md:text-4xl font-bold">
+      Everything You Want to Know About Chronic Pain
+     </h2>
+     <article className="pb-6 prose md:px-8 md:pl-18 max-w-none ">
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">What is chronic pain?</h3>
-       <p className="py-6 text-lg font-medium leading-loose text-gray-500 md:text-xl">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
+        What is chronic pain?
+       </h3>
+       <p className="py-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         <Link
          href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/chronic-pain"
          className="underline-offset-4"
@@ -73,10 +72,10 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </p>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         What are the different types of pain?
        </h3>
-       <p>
+       <p className="py-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         Pain can be classified into two main types: acute and chronic. Acute
         pain is sudden pain that is usually caused by an injury or illness. It
         is usually short-lived and goes away once the underlying cause is
@@ -86,10 +85,10 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </p>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         What’s the difference between chronic pain and other pain?
        </h3>
-       <p>
+       <p className="py-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         The main difference between chronic pain and other pain is the duration.
         Chronic pain lasts for more than three months, while other types of pain
         are usually short-lived. Chronic pain is also more likely to be
@@ -99,11 +98,15 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </div>
      </article>
 
-     <article className="p-6 prose md:p-8 md:pl-18 max-w-none ">
-      <h2 className="mb-4 text-2xl font-bold">Causes and Symptoms</h2>
+     <h2 className="mb-4 text-2xl md:text-4xl font-bold">
+      Causes and Symptoms
+     </h2>
+     <article className="pb-6 prose md:px-8 md:pl-18 max-w-none">
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">What causes chronic pain?</h3>
-       <p>
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
+        What causes chronic pain?
+       </h3>
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         There are many different{" "}
         <Link
          href="https://my.clevelandclinic.org/health/diseases/4798-chronic-pain"
@@ -113,7 +116,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
         </Link>{" "}
         , including:
        </p>
-       <ul className="pl-4 mb-8 list-disc">
+       <ul className="pl-4 mb-8 pb-6 list-disc text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">
          Injury: Chronic pain can be caused by an injury to the bones, muscles,
          nerves, or joints.
@@ -131,14 +134,14 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </ul>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         Where do people experience chronic pain?
        </h3>
-       <p>
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         Chronic pain can occur anywhere in the body, but it is most common in
         the following areas:
        </p>
-       <ul className="pl-4 mb-8 list-disc">
+       <ul className="pl-4 mb-8 list-disc text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">
          Back:{" "}
          <Link href="/back-pain-las-vegas" className="underline-offset-4">
@@ -175,8 +178,10 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
          such as diabetes and shingles.
         </li>
        </ul>
-       <p>Other common areas where people experience chronic pain include:</p>
-       <ul className="pl-4 mb-8 list-disc">
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
+        Other common areas where people experience chronic pain include:
+       </p>
+       <ul className="pl-4 mb-8 list-disc text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">
          Muscles: Muscle pain can be caused by strain, overuse, and injuries.
         </li>
@@ -197,20 +202,20 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
          eczema, psoriasis, and shingles.
         </li>
        </ul>
-       <p>
+       <p className="pb-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         It is important to note that chronic pain can also be widespread,
         meaning that it occurs in multiple areas of the body.
        </p>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         What are the symptoms of chronic pain?
        </h3>
-       <p>
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         The symptoms of chronic pain can vary depending on the underlying cause.
         However, some of the most common symptoms include:
        </p>
-       <ul className="pl-4 mb-8 list-disc">
+       <ul className="pl-4 mb-8 list-disc pb-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">Pain that lasts for more than three months</li>
         <li className="mb-2">Pain that is constant or intermittent</li>
         <li className="mb-2">Pain that can be mild, moderate, or severe</li>
@@ -221,8 +226,10 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </ul>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">What is the "terrible triad?"</h3>
-       <p>
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
+        What is the "terrible triad?"
+       </h3>
+       <p className="py-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         The "terrible triad" is a term used to describe three of the most common
         symptoms of chronic pain: pain, fatigue, and depression. These symptoms
         can interact with each other and make it difficult to manage chronic
@@ -230,13 +237,15 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </p>
       </div>
      </article>
-     <article className="p-6 prose md:p-8 md:pl-18 max-w-none ">
-      <h2 className="mb-4 text-2xl font-bold">Diagnosis and Treatment</h2>
+     <h2 className="mb-4 text-2xl md:text-4xl font-bold">
+      Diagnosis and Treatment
+     </h2>
+     <article className="px-6 prose md:px-8 md:pl-18 max-w-none ">
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         How is chronic pain diagnosed?
        </h3>
-       <p>
+       <p className="py-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         There is no single test to diagnose chronic pain. Your doctor will
         likely start by asking you about your pain and its history. They may
         also perform a physical exam and order some tests to rule out any
@@ -244,13 +253,15 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </p>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">How is chronic pain treated?</h3>
-       <p>
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
+        How is chronic pain treated?
+       </h3>
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         There is no cure for chronic pain, but there are a number of treatments
         that can help to manage the pain and improve quality of life. Treatment
         options include:
        </p>
-       <ul className="pl-4 mb-8 list-disc">
+       <ul className="pl-4 mb-8 list-disc pb-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">
          Medications: There are a number of medications that can be used to
          treat chronic pain, including over-the-counter pain relievers,
@@ -283,14 +294,14 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </ul>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         What medications can treat chronic pain?
        </h3>
-       <p>
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         There are a number of medications that can be used to treat chronic
         pain, including:
        </p>
-       <ul className="pl-4 mb-8 list-disc">
+       <ul className="pl-4 mb-8 list-disc pb-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">
          Over-the-counter pain relievers: Over-the-counter pain relievers, such
          as ibuprofen and acetaminophen, can be effective for mild to moderate
@@ -308,14 +319,14 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
        </ul>
       </div>
       <div className="mb-4">
-       <h3 className="mb-2 text-xl font-bold">
+       <h3 className="mb-2 text-xl md:text-2xl font-bold">
         Can lifestyle changes help with chronic pain?
        </h3>
-       <p>
+       <p className="pt-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         Yes, lifestyle changes can help to manage chronic pain. Some helpful
         lifestyle changes include:
        </p>
-       <ul className="pl-4 mb-8 list-disc">
+       <ul className="pl-4 mb-8 list-disc pb-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         <li className="mb-2">
          Exercise: Regular exercise can help to strengthen muscles, improve
          flexibility, and reduce pain.
@@ -335,14 +346,16 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       </div>
      </article>
     </div>
-    <div className="w-full p-6 bg-white md:p-8 md:w-1/3" id="form">
-     <AppointmentForm />
-    </div>
    </div>
-
+   <div
+    className="w-[90%] overflow-hidden md:w-[57%] pt-6 md:bg-blue-100 mx-auto rounded-xl"
+    id="form"
+   >
+    <AppointmentForm />
+   </div>
    {/* faqs*/}
-   <article className="max-w-3xl mx-auto my-12">
-    <h2 className="py-4 text-center">
+   <article className="max-w-3xl mx-auto my-16">
+    <h2 className="py-4 text-center text-2xl md:text-4xl">
      Frequently Asked Questions About Chronic Pain
     </h2>
     <div className="space-y-4">
@@ -351,7 +364,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
       open
      >
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-       <h2 className="text-lg font-bold text-gray-900">
+       <h2 className="text-xl font-bold text-gray-900">
         Can chronic pain affect my emotional well-being and mental health?
        </h2>
 
@@ -380,7 +393,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
 
      <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-       <h2 className="text-lg font-bold text-gray-900">
+       <h2 className="text-xl font-bold text-gray-900">
         Are there gender differences in how chronic pain is experienced and
         treated?
        </h2>
@@ -409,7 +422,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      </details>
      <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-       <h2 className="text-lg font-bold text-gray-900">
+       <h2 className="text-xl font-bold text-gray-900">
         Can lifestyle changes, like diet and exercise, really impact chronic
         pain?
        </h2>
@@ -438,7 +451,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      </details>
      <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-       <h2 className="text-lg font-bold text-gray-900">
+       <h2 className="text-xl font-bold text-gray-900">
         Is there a connection between chronic pain and sleep disorders?
        </h2>
 
@@ -466,7 +479,7 @@ Find lasting relief from chronic pain with our affordable chronic pain treatment
      </details>
      <details className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
       <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-       <h2 className="text-lg font-bold text-gray-900">
+       <h2 className="text-xl font-bold text-gray-900">
         How do cultural and societal factors impact the perception and treatment
         of chronic pain?
        </h2>
