@@ -227,7 +227,7 @@ function page() {
       </div>
       <div className="mb-4">
        <h3 className="mb-2 text-xl md:text-2xl font-bold">
-        What is the "terrible triad?"
+        What is the "terrible triad"?
        </h3>
        <p className="py-6 text-md md:text-xl font-medium leading-loose text-gray-500">
         The "terrible triad" is a term used to describe three of the most common
