@@ -240,7 +240,7 @@ function page() {
      <h2 className="mb-4 text-2xl md:text-4xl font-bold">
       Diagnosis and Treatment
      </h2>
-     <article className="px-6 prose md:px-8 md:pl-18 max-w-none ">
+     <article className="prose md:px-8 md:pl-18 max-w-none ">
       <div className="mb-4">
        <h3 className="mb-2 text-xl md:text-2xl font-bold">
         How is chronic pain diagnosed?
