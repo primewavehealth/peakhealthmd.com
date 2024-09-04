@@ -1,5 +1,5 @@
 import Button from "@/components/UI/Button";
-import { CTA } from "@/typings/types";
+import { CTAConfig } from "@/typings/types";
 import Image, { StaticImageData } from "next/image";
 
 export interface imageProps {
@@ -7,7 +7,7 @@ export interface imageProps {
  alt: string;
 }
 
-function CTA(allprops: CTA & imageProps) {
+function CTA(allprops: CTAConfig & imageProps) {
  const { body, heading, subheading, src, alt, btn } = allprops;
  return (
   <div className="bg-gradient-to-t from-blue-100 to-blue-50 dark:bg-gray-900">
@@ -21,7 +21,7 @@ function CTA(allprops: CTA & imageProps) {
 
      <Button text={btn.text} icon={btn.icon} link={btn.link} href={btn.href} />
     </div>
-    <div className="object-contain p-4 mx-auto w-[400px] h-[400px]">
+    <div className="object-contain p-4 mx-auto w-[350px] h-[350px] md:w-[400px] md:h-[400px]">
      <Image
       src={src}
       className="object-contain w-full h-full "

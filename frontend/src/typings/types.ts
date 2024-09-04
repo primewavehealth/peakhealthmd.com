@@ -33,7 +33,7 @@ export type BlogPost = {
  category: string;
 };
 
-export interface CTA {
+export interface CTAConfig {
  image?: string;
  heading: string;
  subheading?: string;
