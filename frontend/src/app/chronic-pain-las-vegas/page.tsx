@@ -353,11 +353,11 @@ function page() {
    >
     <AppointmentForm />
    </div>
+   <h2 className="pt-16 text-center text-2xl md:text-4xl">
+    Frequently Asked Questions About Chronic Pain
+   </h2>
    {/* faqs*/}
-   <article className="max-w-3xl mx-auto my-16">
-    <h2 className="py-4 text-center text-2xl md:text-4xl">
-     Frequently Asked Questions About Chronic Pain
-    </h2>
+   <article className="max-w-[90%] md:max-w-5xl mx-auto py-8">
     <div className="space-y-4">
      <details
       className="group border-s-4 border-yellow-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
