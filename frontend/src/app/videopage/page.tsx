@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
-import back from "/public/images/back-pain-lv.jpg";
+import medi from "public/images/event/MedicareFair.jpeg";
 
 export const metadata: Metadata = {
  title: "Lower Back Pain Treatment in Las Vegas",
@@ -75,23 +75,55 @@ const items = ['Item 1', 'Item 2', 'Item 3'];
 
 function page() {
     return (
-        <div>
+      <div>
+        <PageBanner
+          heading="Medicare Fare Event in Las Vegas"
+          body="Discover the latest innovations, explore various choices, and connect with trusted experts dedicated to ensuring a healthier and happier life for our seniors. Together, let's redefine the standard of senior care and celebrate the extraordinary value our elders bring to our community."
+          src={medi}
+          height={400}
+          width={400}
+          alt="carboxy-therapy"
+          btn={{
+            href: "#EventVideo",
+            text: "Learn More",
+            id: "schedule",
 
-          <div className="max-w-screen-xl px-8 py-8 mx-auto">
+            icon: (
+              <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-4 h-4 ml-auto"
+              viewBox="0 0 24 24"
+              >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            ),
+          }}
+        />
+        <div className="max-w-screen-xl px-8 py-8 mx-auto">
 
-            <h2 className="pb-4 text-3xl font-bold text-center sm:text-3xl">Event Title</h2>
-            <ImageCarousel images={images} />
-          </div>
-          <div className="max-w-screen-xl px-8 py-8 mx-auto">
-
-            <h1>Video Gallery</h1>
-            <VideoGallery videos={videos} />
-          </div>
+          <h2 className="pb-4 text-3xl font-bold text-center sm:text-3xl">Images from the Event</h2>
+          <ImageCarousel images={images} />
         </div>
+
+        <div className="max-w-screen-xl px-8 py-8 mx-auto" id="EventVideo">
+          <iframe
+            className="w-full aspect-video self-stretch md:min-h-96"
+            src="https://www.youtube.com/embed/wi9IiVkdd6o"
+            frameBorder="0"
+            title="Product Overview Video"
+            aria-hidden="true"
+          />
+        </div>
+        
+      </div>
 
         
 
-      );
+    );
 }
 
 export default page;
