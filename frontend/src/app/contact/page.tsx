@@ -40,7 +40,7 @@ const jsonLd = {
  description:
   "Connect with us at Las Vegas's leading pain control clinic. Reach out today for expert guidance on managing and conquering chronic pain. Relief is a call away.",
  name: "Primewave Pain Control Clinic in Las Vegas",
- telephone: "7026254334",
+ telephone: "7252536006",
  review: {
   "@type": "Review",
   reviewRating: {
@@ -185,11 +185,11 @@ export default function Form() {
         <h2 className="mt-4 text-base font-medium text-gray-800">Phone</h2>
         <p className="mt-2 text-sm text-gray-500">Mon-Fri from 8am to 5pm.</p>
         <Link
-         href="tel:7026254334"
+         href="tel:7252536006"
          // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
         >
          <p className="mt-2 text-sm text-blue-500">
-          Click to Call (702) 625-4334
+          Click to Call (725) 253-6006
          </p>
         </Link>
        </div>

@@ -97,10 +97,10 @@ function Topbar() {
      {" "}
      <CgPhone className="text-2xl text-white " />
      <Link
-      href="tel:7026254334"
+      href="tel:7252536006"
       // onClick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
      >
-      <strong className="text-white ">(702) 625-4334</strong>
+      <strong className="text-white ">(725) 253-6006</strong>
      </Link>
     </span>
     <span className="flex items-center justify-between transition hover:opacity-75">
