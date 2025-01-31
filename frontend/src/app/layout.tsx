@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import Topbar from "@/components/Topbar";
-import AnnouncementBar from "@/components/AnnouncementBar";
 import ToasterProvider from "@/lib/ToastProvider";
 import HomeCTA from "@/components/HomeCTA"
 import "@/styles/globals.css";
@@ -89,7 +88,6 @@ export default function RootLayout({
     <main className="flex flex-col flex-auto min-w-0">
      <ToasterProvider />
      <Topbar />
-     <AnnouncementBar />
      <Navbar />
      {children}
      <HomeCTA/>
