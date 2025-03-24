@@ -246,13 +246,13 @@ function page() {
       {/* video */}
       <div className="mx-auto pb-6 text-justify">
        <h2 className="max-w-2xl prose mb-6 text-center tracking-tight text-3xl text-gray-900">
-        Hear From Our Customers
+        Treatment Procedure
        </h2>
        <div className="mx-auto pb-6 md:w-[600px] h-[340px] text-justify">
         <iframe
          width="100%"
          height="100%"
-         src="https://www.youtube.com/embed/4iOjUMIDsiw?si=hhYxHcYHPevYd7Kf"
+         src="https://www.youtube.com/embed/t46soBI-PRo"
          title="YouTube video player"
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
          allowFullScreen={true}
@@ -265,6 +265,65 @@ function page() {
      </div>
     </div>
    </section>
+    
+    {/*  <Customer Experience /> */}
+    {/* next section */}
+
+    <section className="bg-white">
+        {/* Section Title */}
+        <blockquote className="max-w-screen-xl px-8 py-8 md:pt-16 mx-auto text-center">
+            <span className="py-10">
+            <span className="text-2xl md:text-4xl -skew-x-12 font-bold">
+                Customer Experience
+            </span>{" "}
+            <span className="relative inline-block px-2">
+                <div className="absolute inset-0 transform -skew-x-12 bg-blue-600" />
+                <h3 className="relative py-3 text-white">ED Clinic in Las Vegas </h3>
+            </span>
+            </span>
+        </blockquote>
+
+        {/* Videos Flexbox Layout */}
+        <div className="container px-8 pb-16 mx-auto xl:w-[80%]">
+            <div className="flex flex-wrap justify-center gap-12">
+            <div className="w-full md:w-[45%] max-w-xl h-[315px]">
+                <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/hV6iO-RbEdg"
+                title="Customer Experience Video 1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                ></iframe>
+            </div>
+            <div className="w-full md:w-[45%] max-w-xl h-[315px]">
+                <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/x_W_6eQDR18"
+                title="Customer Experience Video 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                ></iframe>
+            </div>
+            <div className="w-full md:w-[45%] max-w-xl h-[315px]">
+                <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/nBWpK4_mUl0"
+                title="Customer Experience Video 3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                ></iframe>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+
+
+
    {/* faqs*/}
    <section className="w-full max-w-[90%] md:max-w-[60%] mx-auto my-12">
     <div className="space-y-4">
