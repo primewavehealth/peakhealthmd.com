@@ -260,9 +260,7 @@ function page() {
        </div>
       </div>
      </div>
-     <div className="w-full items-center justify-center py-8 mx-auto max-w-[86%]  md:max-h-[650px] bg-gray-50">
-      <Consultation />
-     </div>
+     
     </div>
    </section>
     
@@ -320,7 +318,9 @@ function page() {
             </div>
         </div>
     </section>
-
+    <div className="w-full items-center justify-center py-8 mx-auto max-w-[86%]  md:max-h-[650px] bg-gray-50">
+      <Consultation />
+     </div>
 
 
 
