@@ -36,10 +36,10 @@ const jsonLd = {
  ],
  address: {
   "@type": "PostalAddress",
-  streetAddress: "7464 W. Sahara Ave",
+  streetAddress: "8905 W Post Rd Ste. 110",
   addressLocality: "Las Vegas",
   addressRegion: "NV",
-  postalCode: "89117",
+  postalCode: "89148",
  },
  areaServed: {
   "@type": "GeoCircle",
