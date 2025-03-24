@@ -23,10 +23,10 @@ export default function Page() {
      Don't miss out on this rare chance to elevate your practice in a thriving
      medical hub. We are located at the{" "}
      <Link
-      href="https://www.google.com/maps/place/7464+W+Sahara+Ave,+Las+Vegas,+NV+89117/@36.1448982,-115.2549892,16z/data=!3m1!4b1!4m6!3m5!1s0x80c8c0c1e51d7703:0x9710d72f1b5f70b1!8m2!3d36.1448982!4d-115.2549892!16s%2Fg%2F11c23txy33?entry=ttu"
+      href="https://www.google.com/maps/place/8905+W+Post+Rd+Suite+110,+Las+Vegas,+NV+89148/@36.0734522,-115.2891967,17z/data=!3m2!4b1!5s0x80c8b87f1ff088bd:0x5a35512353f6c0af!4m6!3m5!1s0x80c8b87f1f951a17:0x74925f59cafdb1fa!8m2!3d36.0734522!4d-115.2866218!16s%2Fg%2F11l5sx4z56?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D"
       className="text-blue-700"
      >
-      7464 W. Sahara Ave Las Vegas, NV 89117
+      8905 W Post Rd Ste. 110, Las Vegas, NV 89148.
      </Link>
     </p>
 

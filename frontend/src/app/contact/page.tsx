@@ -21,8 +21,8 @@ const jsonLd = {
   "@type": "PostalAddress",
   addressLocality: "Las Vegas",
   addressRegion: "NV",
-  postalCode: "89117",
-  streetAddress: "7464 W. Sahara Ave",
+  postalCode: "89148",
+  streetAddress: "8905 W Post Rd Ste. 110",
  },
  hashMap:
   "https://www.google.com/maps/dir/36.188072,-115.204211/primewave/@36.1256461,-115.4161627,11z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x80c8c77b87fd04f3:0xe5b9c9fcf3f802d9!2m2!1d-115.2721143!2d36.058366?entry=ttu",
