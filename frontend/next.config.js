@@ -1,6 +1,9 @@
 const { get } = require("@vercel/edge-config");
 const { withContentlayer } = require("next-contentlayer");
 
+const withVideos = require('next-videos');
+
+
 const nextConfig = {
  /*  webpack: (config) => {
   config.resolve.fallback = {
@@ -89,7 +92,7 @@ const nextConfig = {
 const ContentSecurityPolicy = `    
     style-src 'self' 'unsafe-inline';
     img-src * blob: data:;
-    media-src 'none';
+    media-src 'self' blob:;
     connect-src *;
 `;
 
@@ -121,4 +124,5 @@ const securityHeaders = [
  },
 ];
 
-module.exports = withContentlayer(nextConfig);
+module.exports = withContentlayer(withVideos(nextConfig));
+
