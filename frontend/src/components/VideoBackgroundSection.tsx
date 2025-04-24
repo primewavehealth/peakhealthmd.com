@@ -4,7 +4,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 function VideoBackgroundSection() {
-  const backgroundVideo = require("../../public/videos/video9.mp4");
+  const backgroundVideo = require("../../public/videos/video1.mp4");
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const [showUnmute, setShowUnmute] = useState(true);
