@@ -7,6 +7,8 @@ import Testimonials from "@/components/Testimonials";
 import type { Metadata } from "next";
 import Script from "next/script";
 import { server } from "config";
+import VideoBackgroundSection from "@/components/VideoBackgroundSection";
+import InstagramPost from "@/components/InstagramPost";
 
 
 export const metadata: Metadata = {
@@ -58,25 +60,34 @@ const jsonLd = {
   ratingCount: "20",
  },
 };
-
 export default function Home() {
- return (
-  <main className="container flex flex-col overflow-x-hidden">
-   <Banner />
-   <AboutSection />
-   <Services />
-   {/*<NewTeam /> Commented out until we can update photos*/}
-   <SectionTitle
-    pretitle="Testimonials"
-    title="What Our Patients "
-    titleGradient="Are Saying"
-   ></SectionTitle>
-   <Testimonials />
-   <ScrollToTop />
-   <Script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-   />
-  </main>
- );
-}
+    return (
+      <>
+        {/* Video section full-width */}
+        <VideoBackgroundSection />
+  
+        {/* All other sections inside the container */}
+        <main className="container flex flex-col overflow-x-hidden">
+          <Banner />
+          <AboutSection />
+          <Services />
+          {/* <NewTeam /> */}
+          <SectionTitle
+            pretitle="Testimonials"
+            title="What Our Patients "
+            titleGradient="Are Saying"
+          />
+          <Testimonials />
+          <InstagramPost />
+          <ScrollToTop />
+        </main>
+  
+        {/* SEO Script */}
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </>
+    );
+  }
+  

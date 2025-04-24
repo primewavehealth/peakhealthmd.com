@@ -185,23 +185,62 @@ function About() {
       </div>
      </div>
     </div>
-    <div className="mt-4 md:mt-8">
-     <Button
+    <div className="flex justify-center gap-4 mt-8">
+    <Button
       text="Get in Touch"
       href="/contact"
-      icon=<svg
-       fill="none"
-       stroke="currentColor"
-       strokeLinecap="round"
-       strokeLinejoin="round"
-       strokeWidth="2"
-       className="w-4 h-4 ml-auto"
-       viewBox="0 0 24 24"
+      icon={
+      <svg
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        className="w-4 h-4 ml-auto"
+        viewBox="0 0 24 24"
       >
-       <path d="M5 12h14M12 5l7 7-7 7"></path>
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
-     />
+      }
+    />
+    <Button
+      text="Location"
+      href="https://www.loopnet.com/Listing/8905-W-Post-Rd-Las-Vegas-NV/34595165/"
+      icon={
+      <svg
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        className="w-4 h-4 ml-auto"
+        viewBox="0 0 24 24"
+      >
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+      }
+    />
+    </div>     
+    <div className="max-w-5xl mt-12 my-0 px-4 pt-12 mx-auto text-center">
+      <h2 className="text-2xl font-extrabold text-gray-800 lg:text-4xl">
+        Acoustic Wave Therapy at Primewave
+      </h2>
+      <p className="mt-4 text-lg leading-7 text-gray-600 text-justify">
+      Having back pain? Is it hard for you to lift your arm above your head? Neck or shoulder pain? Come in and get our acoustic wave therapy!!
+      </p>
+
+      <div className="relative pt-[56.25%] mt-8">
+        <iframe
+          src="https://www.instagram.com/p/C3YcMAgP1la/embed"
+          className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+          allow="encrypted-media"
+          frameBorder="100"
+          scrolling="no"
+          title="Instagram Video"
+        ></iframe>
+      </div>
     </div>
+
    </div>
   </section>
  );
