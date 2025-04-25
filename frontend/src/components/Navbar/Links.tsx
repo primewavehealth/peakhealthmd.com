@@ -170,7 +170,7 @@ export const Navigation = {
   {
    name: "Medical Radio Show",
    target: "_blank",
-   href: "https://www.americasfavoritedoctorandnurse.com/",
+   href: "/medical-radio-show",
    rel: "noopener noreferrer",
    id: "Navigation Medical Radio Show",
   },
