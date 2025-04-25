@@ -163,7 +163,7 @@ export const Navigation = {
   {
    name: "Franchise",
    target: "_blank",
-   href: "https://www.primewavefranchise.com/",
+   href: "/franchise",
    rel: "noopener noreferrer",
    id: "Navigation Franchise",
   },
