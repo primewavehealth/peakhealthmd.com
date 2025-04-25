@@ -12,7 +12,7 @@ function Form() {
         <br /> Located in the Dignity Hospital / San Martin Medical Arts
         Pavilion
         <br /> 8905 W Post Rd Ste. 110, Las Vegas, NV 89148.
-        <br /> 1(702)625-4334 <br />
+        <br /> +1 (725) 253-6006 <br />
         www.primewavehealth.com
        </p>
       </div>
