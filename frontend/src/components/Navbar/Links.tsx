@@ -163,14 +163,14 @@ export const Navigation = {
   {
    name: "Franchise",
    target: "_blank",
-   href: "https://www.primewavefranchise.com/",
+   href: "/franchise",
    rel: "noopener noreferrer",
    id: "Navigation Franchise",
   },
   {
    name: "Medical Radio Show",
    target: "_blank",
-   href: "https://www.americasfavoritedoctorandnurse.com/",
+   href: "/medical-radio-show",
    rel: "noopener noreferrer",
    id: "Navigation Medical Radio Show",
   },

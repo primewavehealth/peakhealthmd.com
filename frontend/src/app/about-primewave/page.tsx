@@ -2,7 +2,7 @@ import Button from "@/components/UI/Button";
 import { server } from "config";
 import type { Metadata } from "next";
 import Image from "next/image";
-import about from "/public/images/primewavehealth-team.jpg";
+import about from "/public/images/primewave-team-new.jpg";
 
 export const metadata: Metadata = {
  title: "About Primewave Health",
