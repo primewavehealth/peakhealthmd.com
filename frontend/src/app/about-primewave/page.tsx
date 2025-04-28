@@ -124,6 +124,9 @@ function About() {
 
     <div className="flex justify-center mt-10">
      <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 sm:py-12 sm:px-6 lg:px-8">
+      <h1 className="text-2xl font-extrabold text-gray-800 lg:text-4xl">
+        Primewave Host Medical Students
+      </h1>
       <div className="mx-auto overflow-hidden rounded-lg ">
        <Image
         className=""
