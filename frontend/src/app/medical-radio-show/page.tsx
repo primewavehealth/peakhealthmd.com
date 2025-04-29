@@ -23,7 +23,7 @@ export default function MedicalRadioShowPage() {
           insights on pain management, men’s health, and innovative therapies.
         </p>
         <div className="flex justify-center">
-          <PDFViewer fileUrl="/MediaKit.pdf" />
+          <PDFViewer fileUrl="/MediaKitNew.pdf" />
         </div>
       </div>
     </section>
