@@ -18,9 +18,7 @@ export default function MedicalRadioShowPage() {
           Medical Radio Show
         </h1>
         <p className="max-w-3xl mx-auto text-lg text-gray-600 text-justify mb-10">
-          Welcome to the Medical Radio Show archive. Browse through transcripts
-          of our radio sessions, where our healthcare professionals share their
-          insights on pain management, men’s health, and innovative therapies.
+        #1 Medical Broadcast” (TV, Podcast, Radio) Hosted by none other, Rocky Parks the voice of reasoning
         </p>
         <div className="flex justify-center">
           <PDFViewer fileUrl="/MediaKitNew.pdf" />
