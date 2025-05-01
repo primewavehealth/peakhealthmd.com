@@ -9,6 +9,7 @@ import Script from "next/script";
 import { server } from "config";
 import VideoBackgroundSection from "@/components/VideoBackgroundSection";
 import InstagramPost from "@/components/InstagramPost";
+import Recording from "@/components/Recordings";
 
 
 export const metadata: Metadata = {
@@ -78,6 +79,7 @@ export default function Home() {
             titleGradient="Are Saying"
           />
           <Testimonials />
+          <Recording />
           <InstagramPost />
           <ScrollToTop />
         </main>
