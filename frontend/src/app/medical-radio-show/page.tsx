@@ -1,4 +1,5 @@
 import PDFViewer from "@/components/PDFViewer";
+import Recording from "@/components/Recordings";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,6 +14,9 @@ export const metadata: Metadata = {
 export default function MedicalRadioShowPage() {
   return (
     <section className="bg-white">
+
+
+      <Recording />
       <div className="container px-4 py-8 mx-auto text-center sm:py-12 sm:px-6 lg:py-24 lg:px-8">
         <h1 className="text-3xl font-extrabold text-gray-900 sm:text-5xl mb-6">
           Medical Radio Show
